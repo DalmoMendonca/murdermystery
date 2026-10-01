@@ -32,6 +32,7 @@ def write_pdf(body, out, title='The Last Acquisition'):
     HTML(string=html_doc(body,title), base_url=str(ROOT)).write_pdf(out)
 
 def clean_source_for_display(text):
+    # Source was recovered from v1 PDFs; remove repeated document title/page artifacts where present.
     lines=[]
     for line in text.replace('\f','\n').splitlines():
         s=line.strip()
@@ -68,9 +69,17 @@ def render_characters(chars):
     merge_pdfs(pre_paths, KIT_ROOT/'OPEN_FREELY'/'02_PreParty_Character_Sheets_ALL.pdf')
     merge_pdfs(sec_paths, KIT_ROOT/'PRINT_WITHOUT_READING'/'03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
 
+def load_doc(doc_key):
+    single=SOURCE/f'{doc_key}.md'
+    if single.exists():
+        return single.read_text(encoding='utf-8')
+    parts=sorted((SOURCE/doc_key).glob('*.md'))
+    if not parts:
+        raise FileNotFoundError(f'No source document found for {doc_key}')
+    return '\n'.join(part.read_text(encoding='utf-8') for part in parts)
+
 def render_doc(doc_key, out_rel, title, spoiler=False):
-    docs=json.loads((SOURCE/'game_docs.json').read_text(encoding='utf-8'))
-    text=docs[doc_key]
+    text=load_doc(doc_key)
     prefix='<div class="spoiler">Spoiler material - do not read if you are playing</div>' if spoiler else '<div class="kicker">The Last Acquisition</div>'
     write_pdf(prefix+f'<h1>{html.escape(title)}</h1>'+markdownish_body(text), KIT_ROOT/out_rel, title)
 
@@ -84,7 +93,9 @@ def build_kit():
     if WORK.exists(): shutil.rmtree(WORK)
     if KIT_ROOT.parent.exists(): shutil.rmtree(KIT_ROOT.parent)
     KIT_ROOT.mkdir(parents=True, exist_ok=True)
-    chars=json.loads((SOURCE/'characters.json').read_text(encoding='utf-8'))
+    chars=[]
+    for part in sorted((SOURCE/'characters').glob('*.json')):
+        chars.extend(json.loads(part.read_text(encoding='utf-8')))
     render_characters(chars)
     render_doc('README','00_READ_ME_FIRST.pdf','Read Me First')
     render_doc('facilitator','OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf','Facilitator Guide')
@@ -105,9 +116,14 @@ def build_kit():
 
     src_out=SITE/'downloads'/'The_Last_Acquisition_Source.zip'
     with zipfile.ZipFile(src_out,'w',zipfile.ZIP_DEFLATED) as z:
-        for base in [ROOT/'source',ROOT/'docs',ROOT/'scripts',ROOT/'templates']:
+        for base in [ROOT/'source',ROOT/'docs',ROOT/'scripts',ROOT/'templates',ROOT/'site']:
+            if not base.exists():
+                continue
             for p in base.rglob('*'):
-                if p.is_file(): z.write(p,p.relative_to(ROOT))
+                if p.is_file() and 'downloads' not in p.parts:
+                    z.write(p,p.relative_to(ROOT))
+        for p in [ROOT/'README.md', ROOT/'CHANGELOG.md', ROOT/'requirements.txt', ROOT/'netlify.toml']:
+            if p.exists(): z.write(p,p.relative_to(ROOT))
     return zip_out,src_out
 
 if __name__=='__main__':
