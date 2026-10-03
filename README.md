@@ -1,44 +1,40 @@
 # The Last Acquisition
 
-Working repository for the 2026 murder mystery party: **The Last Acquisition**, set at Tulsa's fictional Meridian Museum of Art & World Cultures during the opening of *Treasures of the World*.
+Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 optional guests.
 
-## Important: spoilers
+## Downloads and spoilers
 
-This repository contains full solution material, murderer branches, evidence logic, and confessions. The repository is currently **public on GitHub**. If guests might discover the repo, make it private until after the party. Netlify can deploy from a private GitHub repository.
+[Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
 
-## What is in the repo
+The kit contains 80 PDFs (294 pages including combined copies), 30 single-page character PNGs and a read-me. Start with `00_READ_ME_FIRST.pdf`. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle `PRINT_WITHOUT_READING` face down using the separate blind assembly guide. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
 
-- `source/v1/characters/` — editable source for all 30 spoiler-safe character sheets **and** all 30 private party-night packets.
-- `source/v1/*.md` plus `source/v1/evidence_cards/` and `source/v1/spoiler_bible/` — editable precursors for facilitator materials, scavenger clues, forensic evidence, A/B character evidence, invitation, decor, scoring, and the full continuity bible.
-- `source/v1/cast.csv` — quick cast/tier index.
-- `docs/GAME_DESIGN_BRIEF.md` — the canonical constraints agreed with Dalmo.
-- `docs/QA.md` — release-blocker checks for fairness, continuity, attendance resilience, host blindness, and print quality.
-- `docs/ASSET_MANIFEST.md` — all 73 generated kit files.
-- `scripts/build.py` — reproducible generator for individual PDFs, combined PDFs, the complete game ZIP, and an editable-source ZIP.
-- `site/` — spoiler-safe project homepage; Netlify publishes this directory.
-- `netlify.toml` — installs dependencies, runs the generator, and publishes `site/`.
+## Editable sources
 
-Generated binary PDFs/ZIPs are **build outputs rather than hand-edited source files**. This keeps iteration sane: edit the text/data source once, rebuild, and every affected downloadable updates automatically. The deployed site receives:
+- `source/characters.json`: canonical structured introductions, private routes, final statements and A/B evidence.
+- `source/facilitator.json`: intentionally paginated host-safe guide with tables and checklists.
+- `source/v1/`: preserved original precursors; still supplies clues, animal assignment text, exhibit descriptions, invitation and canonical murder facts. Structured character/facilitator JSON supersedes their flattened counterparts.
+- `scripts/build.py`: measured ReportLab layouts, embedded Libron, PNG exports and ZIP packaging.
+- `scripts/verify.py`: renders every PDF page, checks bounds/type/glyphs and maps exact visual duplicates.
+- `scripts/check_content.py`: branch/evidence preservation checks against generated PDFs.
+- `scripts/migrate_v1_characters.py`: one-time migration of flattened v1 character columns. Do not rerun after editing canonical JSON.
+- `scripts/archive/build_v1.py`: historical generator, not used for builds.
+- `docs/`: game brief, design, reference study, manifest and release QA evidence.
+- `site/downloads/`: committed generated release.
 
-- `site/downloads/The_Last_Acquisition_Complete_Kit.zip`
-- `site/downloads/The_Last_Acquisition_Source.zip`
-- `site/downloads/current/The_Last_Acquisition_Complete_Kit/...` with all 73 individual/composite game assets.
+## Build and review
 
-## Local build
-
-```bash
+```sh
 python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/build.py
+python scripts/check_content.py
+python scripts/verify.py
 ```
 
-The current build has been smoke-tested locally and produces the complete 73-file kit.
+Libron v0.25 downloads to ignored `build/fonts/`, checked against a pinned archive SHA-256. Font files are embedded in PDFs and excluded from both ZIPs and the repository. Guests install nothing. The source ZIP includes the license notice.
 
-## Netlify
+Review every contact sheet in `build/review/` and questionable full-size pages before releasing. Structural checks alone cannot certify layout. Duplicate raster hashes identify identical combined-file pages.
 
-Connect this repository to a Netlify project. `netlify.toml` already defines the build command and `site/` publish directory, so no manual build settings are required.
+## Deployment
 
-## Iteration rule
-
-Treat `source/v1/` as the canonical editable content. Future changes should happen there first, followed by a rebuild. When the game reaches a new stable milestone, preserve it as a new version instead of destructively overwriting the previous one.
+`netlify.toml` installs pinned dependencies, generates the kit and publishes `site/`. Production: https://murder.dalmo.ai. Complete content checks and visual review before deploying; compare deployed ZIP SHA-256 values with the reviewed local ZIPs.

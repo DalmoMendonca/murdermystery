@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T16:38:47Z",
+  "title": "Design System: The Last Acquisition — Print",
+  "extensions": {
+    "sourceDocument": "docs/PRINT_DESIGN.md",
+    "scope": "Printable PDFs and character PNGs; homepage system remains in docs/DESIGN.md.",
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Museum Ink"
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Meridian Blue"
+      },
+      "private-warning": {
+        "role": "secondary",
+        "displayName": "Private Warning"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "White Stock"
+      },
+      "table-rule": {
+        "role": "neutral",
+        "displayName": "Table Separator"
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Narrative",
+        "purpose": "Printed reading text; manuals use 18 pt leading."
+      },
+      "introduction": {
+        "displayName": "Phone Introduction",
+        "purpose": "Largest measured size fitting one page; 2× PNG export."
+      },
+      "footer": {
+        "displayName": "Supporting Label",
+        "purpose": "Footer and brief handling text; not the narrative floor."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [],
+    "printGeometry": {
+      "unit": "pt",
+      "portrait": [
+        612,
+        792
+      ],
+      "landscape": [
+        792,
+        612
+      ],
+      "outline": 0.7,
+      "rule": 0.6,
+      "cutDash": [
+        3,
+        3
+      ],
+      "scale": "100%, single-sided"
+    }
+  },
+  "components": [
+    {
+      "name": "Evidence Card",
+      "kind": "custom",
+      "refersTo": "evidence-card",
+      "description": "A neutral A/B cuttable print card; preview falls back to serif when the private build font is absent.",
+      "html": "<article class=\"evidence\"><strong>Guest name / Card A</strong><h3>EVIDENCE UPDATE</h3><p>Evidence is read privately at the gala.</p><small>Submit face down only when your packet tells you to.</small></article>",
+      "css": ".evidence{width:252pt;height:272pt;padding:13pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.evidence strong{font-size:15pt;color:#057294}.evidence h3{font-size:14pt;margin:5pt 0 13pt}.evidence small{font-size:12pt}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Readable museum working documents",
+    "overview": "Flat white-stock documents use Libron book typography, Meridian blue identity fields, and practical spacing for reading, handwriting, cutting, and sealing. The gala belongs to 2026; costumes are optional.",
+    "keyCharacteristics": [
+      "Large narrative type",
+      "Single-page phone introductions",
+      "Cuttable evidence pairs",
+      "Host-blind packaging",
+      "Flat square-corner geometry"
+    ],
+    "rules": [
+      {
+        "name": "Narrative floor",
+        "body": "Preserve 14 pt narrative text; introductory prose measures between 16 and 20 pt.",
+        "section": "typography"
+      },
+      {
+        "name": "Neutral evidence labels",
+        "body": "A/B labels vary by branch assignment and never function as a guilt legend.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Preserve canonical game logic and both private branches.",
+      "Print single-sided at 100% and cut dashed borders.",
+      "Embed PDF fonts without shipping standalone font binaries."
+    ],
+    "donts": [
+      "Do not replace the independent homepage system.",
+      "Do not send private packets as pre-party introductions.",
+      "Do not shrink narrative text to conceal overflow."
+    ]
+  }
+}

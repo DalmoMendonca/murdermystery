@@ -1,77 +1,86 @@
-# Generated Asset Manifest
+# Generated release manifest
 
-The Netlify build regenerates these files from editable repository source.
+80 PDFs / 294 rendered pages / 30 character PNGs. Combined documents repeat individual pages.
 
-- `The_Last_Acquisition_Complete_Kit/00_READ_ME_FIRST.pdf`
-- `The_Last_Acquisition_Complete_Kit/README.txt`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf`
-- `The_Last_Acquisition_Complete_Kit/SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/04_Host_Safe_Props.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/08_Awards_and_Scoring.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/07_Museum_Exhibits_and_Decor.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/09_Host_Safe_Name_Cards.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/27_Juno_March.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/13_Lucian_Gable.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/15_Theo_Glass.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/03_Grant_Easel.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/16_Beatrice_Plinth.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/20_Malcolm_Carrara.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/14_Vivienne_Marrow.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/12_Nadia_Quill.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/11_Everett_Locke.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/06_Imogen_Muse.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/25_Maya_Bell.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/23_Felix_Savoy.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/05_Rafael_Gilt.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/08_Helena_Cross.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/26_Avery_Lens.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/17_Conrad_Gavel.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/21_Daphne_Palette.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/30_Riley_Bloom.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/07_Julian_Brush.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/18_Lola_Loom.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/28_Penny_Varnish.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/02_Celeste_Frame.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/22_Morgan_Slate.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/19_Sebastian_Reed.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/04_Margot_Ledger.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/29_Leo_Taggart.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/24_Calvin_Case.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/10_Sienna_Voss.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/01_Adrian_Vellum.pdf`
-- `The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/09_Dr._Marcus_Pryce.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/03_Grant_Easel_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/07_Julian_Brush_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/16_Beatrice_Plinth_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/06_Imogen_Muse_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/27_Juno_March_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/01_Adrian_Vellum_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/17_Conrad_Gavel_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/21_Daphne_Palette_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/02_Celeste_Frame_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/23_Felix_Savoy_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/10_Sienna_Voss_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Varnish_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/29_Leo_Taggart_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/13_Lucian_Gable_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/20_Malcolm_Carrara_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/26_Avery_Lens_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/08_Helena_Cross_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/09_Dr._Marcus_Pryce_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/25_Maya_Bell_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/11_Everett_Locke_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/12_Nadia_Quill_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/30_Riley_Bloom_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/19_Sebastian_Reed_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/05_Rafael_Gilt_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/18_Lola_Loom_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/24_Calvin_Case_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/04_Margot_Ledger_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/14_Vivienne_Marrow_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/22_Morgan_Slate_SECRET.pdf`
-- `The_Last_Acquisition_Complete_Kit/PRINT_WITHOUT_READING/Secret_Individual/15_Theo_Glass_SECRET.pdf`
+| PDF | Pages |
+| --- | ---: |
+| `00_READ_ME_FIRST.pdf` | 1 |
+| `OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf` | 10 |
+| `OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf` | 30 |
+| `OPEN_FREELY/04_Host_Safe_Props.pdf` | 13 |
+| `OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf` | 2 |
+| `OPEN_FREELY/07_Museum_Exhibits_and_Decor.pdf` | 6 |
+| `OPEN_FREELY/08_Awards_and_Scoring.pdf` | 4 |
+| `OPEN_FREELY/09_Host_Safe_Name_Cards.pdf` | 5 |
+| `OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf` | 1 |
+| `OPEN_FREELY/Animal_Draw_Cards.pdf` | 3 |
+| `OPEN_FREELY/Award_Certificates.pdf` | 3 |
+| `OPEN_FREELY/Exhibit_Placards.pdf` | 5 |
+| `OPEN_FREELY/Final_Ballots.pdf` | 1 |
+| `OPEN_FREELY/Museum_Room_Signs.pdf` | 9 |
+| `OPEN_FREELY/PreParty_Individual/01_Adrian_Vellum.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/02_Celeste_Frame.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/03_Grant_Easel.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/04_Margot_Ledger.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/05_Rafael_Gilt.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/06_Imogen_Muse.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/07_Julian_Brush.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/08_Helena_Cross.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/09_Dr._Marcus_Pryce.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/10_Sienna_Voss.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/11_Everett_Locke.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/12_Nadia_Quill.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/13_Lucian_Gable.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/14_Vivienne_Marrow.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/15_Theo_Glass.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/16_Beatrice_Plinth.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/17_Conrad_Gavel.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/18_Lola_Loom.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/19_Sebastian_Reed.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/20_Malcolm_Carrara.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/21_Daphne_Palette.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/22_Morgan_Slate.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/23_Felix_Savoy.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/24_Calvin_Case.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/25_Maya_Bell.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/26_Avery_Lens.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/27_Juno_March.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/28_Penny_Varnish.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/29_Leo_Taggart.pdf` | 1 |
+| `OPEN_FREELY/PreParty_Individual/30_Riley_Bloom.pdf` | 1 |
+| `OPEN_FREELY/Scavenger_Score_Sheet.pdf` | 1 |
+| `OPEN_FREELY/Staging_Guide.pdf` | 1 |
+| `PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf` | 60 |
+| `PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf` | 11 |
+| `PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf` | 15 |
+| `PRINT_WITHOUT_READING/Secret_Individual/01_Adrian_Vellum_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/02_Celeste_Frame_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/03_Grant_Easel_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/04_Margot_Ledger_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/05_Rafael_Gilt_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/06_Imogen_Muse_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/07_Julian_Brush_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/08_Helena_Cross_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/09_Dr._Marcus_Pryce_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/10_Sienna_Voss_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/11_Everett_Locke_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/12_Nadia_Quill_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/13_Lucian_Gable_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/14_Vivienne_Marrow_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/15_Theo_Glass_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/16_Beatrice_Plinth_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/17_Conrad_Gavel_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/18_Lola_Loom_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/19_Sebastian_Reed_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/20_Malcolm_Carrara_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/21_Daphne_Palette_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/22_Morgan_Slate_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/23_Felix_Savoy_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/24_Calvin_Case_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/25_Maya_Bell_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/26_Avery_Lens_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/27_Juno_March_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Varnish_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/29_Leo_Taggart_SECRET.pdf` | 2 |
+| `PRINT_WITHOUT_READING/Secret_Individual/30_Riley_Bloom_SECRET.pdf` | 2 |
+| `SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf` | 23 |

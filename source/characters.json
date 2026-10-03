@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "01",
+    "slug": "01_Adrian_Vellum",
+    "name": "Adrian Vellum",
+    "role": "Executive Director of the Meridian Museum",
+    "age": 38,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Polished, ambitious, and almost unnervingly composed, Adrian has spent the last six years turning the Meridian from a respected regional institution into a museum that expects to be mentioned in the same sentence as the Met. He can greet a donor, calm a curator, and redirect a disaster without changing facial expression. Tonight is his biggest gala yet, and he intends for it to look effortless.",
+      "relationships": [
+        "Works closely with Celeste Frame, though the two disagree about how much spectacle a museum should tolerate.",
+        "Relies on Margot Ledger for the numbers and Helena Cross for donor agreements.",
+        "Beatrice Plinth hired Adrian years ago and still occasionally speaks to him as if he were an intern."
+      ],
+      "acting": "Diplomatic under pressure; image-conscious; dryly funny; allergic to public chaos. Play him as someone who is always hosting, even when he is not technically the host.",
+      "costume": "Optional inspiration: Black tie or an immaculate dark suit; museum-lanyard-level precision without actually wearing a lanyard. Optional pocket square, tasteful lapel pin, slim folder or program."
+    },
+    "private": {
+      "history": "Sterling had privately informed you that tonight's gift would come with a new governance agreement: he wanted veto power over acquisitions, his name on the museum, and your resignation within sixty days. You smiled through the meeting and told no one.",
+      "secret": "You have already accepted a confidential offer to lead a rival museum next year, which makes any argument with Sterling look like succession planning. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Margot has seen the governance addendum.",
+        "Quietly learn whether Celeste would stay if you left.",
+        "Do not volunteer your job offer unless pressure forces it."
+      ],
+      "knowledge": [
+        "Margot showed you a draft indicating Sterling's gift could give him extraordinary governance power.",
+        "Sterling personally ordered Everett to take the Donor Salon camera offline for private meetings.",
+        "Sterling threatened to withhold Lucian Gable's final design payment unless he accepted a last-minute display change."
+      ],
+      "innocent": "You entered the Donor Salon at 6:32 to replace Sterling's speech cards. At 6:40 you slipped into the museum office and took a confidential wired-landline call from the rival museum that has offered you a job; the call record runs continuously until 6:50. Revealing that record clears your timing but exposes your planned departure.",
+      "murderer": "At 6:47 you returned to the Donor Salon under the pretense of correcting Sterling's speech cards. Furious at the takeover terms, you tipped the stolen toxin into his private cordial and wiped the stem with your pocket square. You left calmly and resumed hosting.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "Yes, Sterling wanted my resignation, and yes, I already have another job lined up. That is what I was hiding. The museum landline shows I was on a confidential call with that rival institution from 6:40 until 6:50. I wanted out of Sterling's museum. I did not need him dead.",
+      "final_murderer": "Sterling did not want to support the Meridian. He wanted to own it - the name, the board, the collection, and finally my chair. I went back to his salon, changed the speech cards, and changed one other thing. I poisoned the cordial he reserved for himself. Then I walked back into my own gala and kept smiling. For once, Sterling's money could not buy the ending."
+    },
+    "evidence": {
+      "B": "SPEECH CARDS - Adrian's handwritten speech cards were found beside Sterling's service tray. Adrian admits entering the Donor Salon earlier but insists he left before the critical window.",
+      "A": "WITNESS TIMELINE - A catering assistant saw Adrian leaving the Donor Salon at 6:48. Adrian had claimed his only visit ended before 6:35."
+    }
+  },
+  {
+    "id": "02",
+    "slug": "02_Celeste_Frame",
+    "name": "Celeste Frame",
+    "role": "Chief Curator of World Cultures",
+    "age": 35,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Celeste is the intellectual engine behind Treasures of the World: brilliant, exacting, and visibly pained by sloppy labels, bad lighting, and people who call every old object an 'artifact.' She has spent years building the Meridian's scholarly reputation and knows the exhibition better than anyone alive. She is gracious when she chooses to be and devastating when she edits.",
+      "relationships": [
+        "Professional counterpart to Adrian Vellum; they respect each other and routinely disagree.",
+        "Mentors Sebastian Reed, the museum's graduate fellow.",
+        "Frequently consults Rafael Gilt and Dr. Marcus Pryce on difficult objects."
+      ],
+      "acting": "Controlled, observant, skeptical, quietly competitive. You do not need to be loud; a raised eyebrow can do half the work.",
+      "costume": "Optional inspiration: Elegant gallery-black with one distinctive art-history touch: sculptural jewelry, silk scarf, statement earrings, or beautifully severe glasses. You might carry a pencil and small notebook."
+    },
+    "private": {
+      "history": "You discovered that Sterling knew the Star Bowl's provenance file contained a major gap and ordered the exhibition to proceed anyway. He threatened to remove you from the show if you raised the issue publicly.",
+      "secret": "Against board instructions, you commissioned an independent provenance review and hid the preliminary report in the Registrar's Office. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Marcus has seen the same gap you found.",
+        "Learn who wrote the anonymous warning note.",
+        "Keep your independent report secret until you decide whom to trust."
+      ],
+      "knowledge": [
+        "Rafael told you Sterling pressured him to soften a conservation report.",
+        "Marcus believes Sterling has suppressed provenance research connected to at least two Voss objects."
+      ],
+      "innocent": "You were in the Donor Salon at 6:25 correcting an object label. From 6:40 to 6:49, the Registrar's scanner log shows your curator code repeatedly scanning the independent provenance report you were not authorized to commission. Revealing the log clears your timing but exposes the report.",
+      "murderer": "At 6:44 you used a label correction as an excuse to enter the Donor Salon. Believing Sterling was about to lock dubious objects permanently into the museum, you poisoned his cordial and returned to the gallery before anyone noticed.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I hid an independent provenance report because Sterling ordered me not to commission one. That was insubordination, not murder. The Registrar's scanner log shows me copying that report throughout the critical window. I was prepared to embarrass Sterling with evidence; I was not prepared to kill him for it.",
+      "final_murderer": "Sterling knew exactly what the provenance file did not prove. He wanted my name on the label anyway so that scholarship could launder possession into legitimacy. I chose the moment he was alone, poisoned the cordial, and returned to the gallery. I told myself I was protecting the museum. I was really deciding that I knew better than the law."
+    },
+    "evidence": {
+      "A": "CURATOR'S PENCIL - Celeste's distinctive pencil was found beneath the edge of Sterling's service table. She says it was left during an earlier label correction.",
+      "B": "CURATOR'S PENCIL - Celeste's pencil was found beneath Sterling's drink tray beside a handwritten time note: 'S.V. alone - 6:40.' She denied returning to the salon after 6:25."
+    }
+  },
+  {
+    "id": "03",
+    "slug": "03_Grant_Easel",
+    "name": "Grant Easel",
+    "role": "International Art Dealer & Collector Liaison",
+    "age": 36,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Grant is the person wealthy collectors call when they want something no one else seems able to find. Charming, fast-talking, and always perfectly dressed, he insists that art dealing is mostly about trust, discretion, and knowing which flight lands in Geneva before breakfast. He has brokered several loans in tonight's exhibition and knows half the room professionally.",
+      "relationships": [
+        "Has represented Theo Glass in private acquisitions, though neither likes admitting how often they need the other.",
+        "Competes with Conrad Gavel for major consignments.",
+        "Daphne Palette considers him useful but never entirely trustworthy."
+      ],
+      "acting": "Smooth, sociable, opportunistic, impossible to embarrass. Treat every conversation like a deal that has not yet revealed itself.",
+      "costume": "Optional inspiration: Fashion-forward dinner jacket or sharp suit, polished shoes, expensive-looking watch (real or fake), pocket square. Optional slim catalogue with sticky tabs."
+    },
+    "private": {
+      "history": "Sterling had learned that one certificate in a major private sale you brokered was forged before it ever reached you. He planned to imply publicly that you had created it unless you refunded him millions.",
+      "secret": "You were duped on that sale, but you quietly altered your own file afterward so clients would not see how badly your due diligence failed. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Learn whether Conrad knows about the disputed certificate.",
+        "Keep Theo from discussing the 'auction incident' in public.",
+        "Figure out what Nadia knows about the Geneva freeport records."
+      ],
+      "knowledge": [
+        "Theo was the anonymous buyer who outbid Sterling in the auction everyone whispers about.",
+        "Conrad arranged at least one unusually discreet private sale for Sterling outside normal auction-house procedure."
+      ],
+      "innocent": "You entered the Donor Salon at 6:34 to leave an appraisal folder and briefly handled a decorative decanter that looked like Sterling's service piece. From 6:40 to 6:49, the Media Room document terminal shows you revising and reprinting the disputed sale file you secretly altered. The audit trail clears your timing but exposes your cover-up.",
+      "murderer": "At 6:43 you returned with a revised appraisal folder. You used the lookalike decanter as cover while slipping the toxin directly into Sterling's silver coupe, then wiped the stem before leaving.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I altered my own file because I was embarrassed that a forged certificate passed my desk. Sterling was using that mistake to extort a refund and my silence. The Media Room terminal audit shows me revising that very file throughout the poisoning window. I was covering up a professional humiliation, not a murder.",
+      "final_murderer": "Sterling had enough money to survive any mistake. He wanted mine to destroy me instead. I went back with the appraisal folder, poisoned his silver coupe, and relied on one true fact - that I had already touched a lookalike decanter - to muddy the rest. In my business, provenance is everything. Tonight I created my own missing gap."
+    },
+    "evidence": {
+      "B": "DEALER'S CARD - Grant's business card was found beneath Sterling's appraisal folder in the Donor Salon. Grant admits delivering the folder shortly before the poisoning window.",
+      "A": "SILVER COUPE - A partial print matching Grant survives beneath the wiped base of Sterling's silver coupe. Grant claimed he never touched Sterling's drink service."
+    }
+  },
+  {
+    "id": "04",
+    "slug": "04_Margot_Ledger",
+    "name": "Margot Ledger",
+    "role": "Chief Financial Officer of the Meridian Museum",
+    "age": 33,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Margot can tell you exactly how much tonight's floral installation cost, which donor paid for it, and which line item everyone is pretending it came from. She is sharp, stylish, practical, and chronically surrounded by people with expensive visions and no budgets. If the museum survives its ambitions, Margot will probably be the reason.",
+      "relationships": [
+        "Works constantly with Adrian Vellum and Helena Cross.",
+        "Has a friendly rivalry with Riley Bloom, whose gala ideas tend to arrive before their price tags.",
+        "Beatrice Plinth likes Margot because she asks questions trustees hate answering."
+      ],
+      "acting": "Quick, pragmatic, wry, unimpressed by grandeur for grandeur's sake. You notice costs other people pretend not to see.",
+      "costume": "Optional inspiration: Modern cocktail attire or tailored suit; sleek, practical, expensive-looking without being flashy. You might carry a small ledger, calculator, or pen clipped to a folder."
+    },
+    "private": {
+      "history": "Sterling demanded that you disguise several gala and naming-wing expenses inside restricted museum funds until his promised donation cleared. When you resisted, he threatened to blame the bookkeeping on you.",
+      "secret": "You temporarily moved money between internal accounts to cover a cash-flow shortfall, intending to reverse it after the gala. It was technically unauthorized and Sterling discovered it. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Helena has seen Sterling's draft funding agreement.",
+        "Keep Adrian from learning about the temporary transfer unless absolutely necessary.",
+        "Identify who found the donor ledger during the scavenger hunt."
+      ],
+      "knowledge": [
+        "Adrian's future at the museum is threatened by Sterling's proposed governance agreement.",
+        "Maya's education program would lose funding under one version of Sterling's gift conditions."
+      ],
+      "innocent": "You met Sterling at 6:33 for a signature. From 6:40 to 6:50, the finance terminal audit shows you reversing and re-entering the unauthorized internal transfer you were trying to hide. That audit trail clears your timing but exposes the accounting violation.",
+      "murderer": "At 6:46 you returned to obtain the signature Sterling had withheld. When he mocked the accounting mess he had helped create, you poisoned his cordial. You then copied a budget sheet to create the impression your office visit happened earlier.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I moved restricted funds without authorization. I intended to put every dollar back, and Sterling planned to make me the villain. The finance terminal audit shows me correcting that transfer throughout the poisoning window. That secret is ugly enough. It is not murder.",
+      "final_murderer": "Sterling created the problem, ordered me to hide it, and then prepared to sacrifice me for it. When he refused the signature that would have protected the museum, I poisoned his drink. Then I used the copier clock to manufacture an earlier paper trail. I have spent my career making numbers reconcile. Tonight I made a life disappear instead."
+    },
+    "evidence": {
+      "B": "UNSIGNED BUDGET - Margot's corrected budget was found on Sterling's desk with a blank signature line. She admits she was seeking his signature shortly before he died.",
+      "A": "COPIER LOG - Metadata shows Margot's '6:34' budget copy was actually printed at 6:49 after a manual clock reset. Her claimed timeline does not hold."
+    }
+  },
+  {
+    "id": "05",
+    "slug": "05_Rafael_Gilt",
+    "name": "Rafael Gilt",
+    "role": "Chief Conservator",
+    "age": 39,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Rafael is responsible for keeping centuries-old objects from losing arguments with humidity, fingerprints, gravity, and other people. Patient with objects and less patient with humans, he has the calm authority of someone who has seen a priceless painting survive a flood and a donor nearly destroy one with hand lotion. He knows what was repaired, altered, cleaned, and quietly worried over before tonight.",
+      "relationships": [
+        "Works closely with Celeste Frame and Calvin Case.",
+        "Often spars intellectually with Marcus Pryce over what conservation can and cannot prove.",
+        "Beatrice Plinth trusts Rafael's judgment more than most committees."
+      ],
+      "acting": "Dry, meticulous, tactile, slightly territorial. You care more about what is physically true than what is socially convenient.",
+      "costume": "Optional inspiration: Dark suit or smart workwear made gala-appropriate; rolled sleeves under jacket, conservator gloves tucked into a pocket, loupe or small brush as a prop."
+    },
+    "private": {
+      "history": "Sterling pressured you to soften a conservation report showing that one supposedly untouched object had been recently altered. He threatened to replace you with a private conservator if you refused.",
+      "secret": "You changed the date on a minor treatment record last month to spare the museum an embarrassing insurance dispute. No object was harmed, but the falsification could end your career. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Calvin has noticed the altered treatment date.",
+        "Ask Marcus what he thinks the Star Bowl's modern adhesive means.",
+        "Keep the insurance issue separate from the murder investigation."
+      ],
+      "knowledge": [
+        "Celeste quietly commissioned an outside provenance review despite pressure to stop asking questions.",
+        "Calvin concealed a small installation crack until you could inspect it after opening night."
+      ],
+      "innocent": "You had legitimate access to the conservation cabinet. During the entire poison window, the Conservation Lab data logger records a sequence of manual humidity-calibration entries under your personal code at the case across the house. The log clears your timing but also exposes the treatment record whose date you altered.",
+      "murderer": "You took the toxin sample from the conservation cabinet earlier. At 6:42, while carrying a condition-report folder to Sterling, you added it to his cordial and disposed of the stopper in your glove pouch.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I falsified a treatment date to avoid an insurance fight. That was wrong, and Sterling knew enough to threaten me with it. The Conservation Lab data logger records my manual calibration entries throughout the poison window. I was hiding bad paperwork, not handling Sterling's glass.",
+      "final_murderer": "Sterling wanted conservation to become theater: clean labels, clean stories, no inconvenient evidence. The toxin was already in my care. I brought him the report, poisoned the cordial, and left with the same steady hands I use on fragile things every day. I preserve objects for a living. I decided Sterling Voss was not one of them."
+    },
+    "evidence": {
+      "A": "LAB GLOVE - Rafael's glove carries several conservation chemicals, and his access key fits the cabinet from which the toxin sample disappeared. He says both facts are ordinary parts of his job.",
+      "B": "LAB GLOVE - The stopper from the missing toxin vial was found inside Rafael's glove pouch. Rafael claimed he had not handled that vial in months."
+    }
+  },
+  {
+    "id": "06",
+    "slug": "06_Imogen_Muse",
+    "name": "Imogen Muse",
+    "role": "Performance Artist & Cultural Celebrity",
+    "age": 30,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Imogen makes expensive people uncomfortable in aesthetically impeccable ways. Her performances have involved mirrored rooms, silent choirs, a twelve-hour dinner party, and once an empty pedestal that sold for more than most houses. She is magnetic, playful, and perfectly capable of making a sincere point while everyone wonders whether they are already inside the piece.",
+      "relationships": [
+        "Former art-school collaborator of Julian Brush; they remain close enough to annoy one another professionally.",
+        "Lola Loom has assisted on several of Imogen's installations.",
+        "Morgan Slate has alternated between praising and savaging Imogen in print."
+      ],
+      "acting": "Confident, theatrical, mischievous, intelligent. Commit to bits, but never let the joke make you foolish.",
+      "costume": "Optional inspiration: High-fashion black tie with one strange choice: opera gloves, sculptural headpiece, monochrome outfit, dramatic makeup, oversized flower, etc. The goal is 'gallery opening where photographers are present.'"
+    },
+    "private": {
+      "history": "Sterling appropriated the concept for one of your unreleased performances and planned to unveil a sanitized version of it as the gala's closing spectacle, crediting himself as creative patron.",
+      "secret": "You wrote and planted the ominous anonymous warning note about 'returning what was taken.' It was meant as an art-world provocation, not a literal threat. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Enjoy watching people overreact to your warning note without admitting you wrote it.",
+        "Find out whether Riley changed the lighting cue you designed.",
+        "Get Julian to admit he still owes you credit for an old collaboration."
+      ],
+      "knowledge": [
+        "Sterling's gala spectacle borrows heavily from an unreleased performance concept you created.",
+        "Sterling owns a humiliating student painting Julian desperately does not want displayed tonight."
+      ],
+      "innocent": "You entered the Donor Salon earlier to leave a small silver performance prop. From 6:40 to 6:49, the Media Room printer log shows you producing revised copies of the anonymous 'return what was taken' note you planted as part of your provocation. The print history clears your timing but reveals that the creepy warning was yours.",
+      "murderer": "At 6:45 you carried a silver prop into the Donor Salon as cover. You used it to stir the toxin into Sterling's cordial, wiped it, and returned to Avery only moments later.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I wrote the creepy note. I wanted Sterling's grand unveiling to feel morally haunted, not literally haunted. That was the performance. The Media Room printer log shows me revising and printing it throughout the poison window. My crime tonight was pretension.",
+      "final_murderer": "Sterling stole the piece, sanded off its teeth, and planned to present himself as the visionary behind it. So I gave him one final private performance. I carried in the silver prop, stirred poison into the cordial, and walked back into the gallery as if nothing had happened. The title, if anyone asks, is Patron, Interrupted."
+    },
+    "evidence": {
+      "B": "SILVER PROP - A silver pick from Imogen's installation was found near the Donor Salon entrance. Imogen admits bringing the prop through that area earlier in the evening.",
+      "A": "SILVER PROP - The silver pick from Imogen's installation carries a trace matching Sterling's poisoned cordial. Imogen said the prop never left the Grand Gallery."
+    }
+  },
+  {
+    "id": "07",
+    "slug": "07_Julian_Brush",
+    "name": "Julian Brush",
+    "role": "Celebrated Contemporary Painter",
+    "age": 31,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Julian became famous young and has been trying ever since to convince people that this is not the same thing as becoming famous accidentally. His paintings are lush, moody, and highly collectible; his interviews are less reliable. He is charming, vain in a way he almost gets away with, and genuinely serious about his work when nobody is watching.",
+      "relationships": [
+        "Long creative history with Imogen Muse.",
+        "Malcolm Carrara thinks Julian gets too much press for work that can hang on a wall without engineering permits.",
+        "Daphne Palette owns one of Julian's early paintings and mentions this strategically."
+      ],
+      "acting": "Warm, competitive, mercurial, self-aware enough to joke about his ego but not enough to lose it.",
+      "costume": "Optional inspiration: Black tie with artist flair: velvet jacket, open collar, paint-spattered vintage shoes, dramatic ring, scarf, or deliberately imperfect formalwear."
+    },
+    "private": {
+      "history": "Sterling owned an embarrassing student painting you have spent years trying to buy back. He planned to display it tonight beside your celebrated recent work as a joke about 'humble beginnings.'",
+      "secret": "You have secretly used buyers to acquire several of your own early paintings so you could remove them from circulation. The art world would find that both vain and market-manipulative. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Daphne knows you were behind the anonymous buybacks.",
+        "Persuade Celeste that the student painting should not be displayed.",
+        "Avoid giving Morgan Slate a quote you will regret."
+      ],
+      "knowledge": [
+        "Sterling owns one of your embarrassing student paintings and has been discussing displaying it.",
+        "Imogen has been furious that the gala spectacle resembles an unreleased concept of theirs."
+      ],
+      "innocent": "Cobalt pigment from your jacket appears on the drink tray because you signed a catalogue there earlier. During the poison window, the Registrar's copier records you scanning proxy-purchase paperwork connected to your secret campaign to buy back your own early paintings. The log clears your timing but exposes the buybacks.",
+      "murderer": "At 6:44 you entered with a signed sketch for Sterling. You poisoned the cordial and wiped the glass, but a fleck of your distinctive cobalt studio pigment transferred from your cuff to the stem.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "Yes, I have been buying back my own early work. Vanity is legal. Sterling planned to humiliate me with a student painting, and I hated him for it. The Registrar's copier log shows me scanning the proxy-buyer paperwork throughout the poison window. I was hiding vanity, not murder.",
+      "final_murderer": "Sterling thought ownership gave him the right to define me forever. He planned to turn my worst student painting into a punch line beside the work I fought to become capable of making. I brought him a sketch, poisoned the cordial, and wiped the glass. I missed one fleck of cobalt. Apparently every artist leaves a signature."
+    },
+    "evidence": {
+      "A": "COBALT TRACE - Julian's distinctive cobalt pigment appears on the service tray cloth. Julian says he transferred it earlier while signing a catalogue nearby.",
+      "B": "COBALT TRACE - A fleck of Julian's distinctive studio cobalt is embedded in the wiped stem of Sterling's glass. Julian claimed he never went near the private service."
+    }
+  },
+  {
+    "id": "08",
+    "slug": "08_Helena_Cross",
+    "name": "Helena Cross",
+    "role": "Cultural Property Attorney",
+    "age": 34,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Helena is the lawyer museums call when an object has three owners, four countries, six contradictory export documents, and one increasingly angry newspaper. She is elegant, surgical, and frighteningly good at making a sentence mean exactly what she intends. Tonight she is attending as counsel to several parties who would prefer not to be described as 'parties.'",
+      "relationships": [
+        "Works regularly with Adrian Vellum and Margot Ledger.",
+        "Friendly professional adversary of Vivienne Marrow; they have argued opposite sides of restitution cases and still have dinner afterward.",
+        "Marcus Pryce has supplied expert opinions for her cases."
+      ],
+      "acting": "Precise, formidable, patient, amused by sloppy certainty. Ask pointed questions and answer only the question actually asked.",
+      "costume": "Optional inspiration: Structured formalwear, crisp lines, minimal jewelry, immaculate folder or document case. Optional reading glasses for dramatic removal."
+    },
+    "private": {
+      "history": "You wrote a private legal memorandum concluding that the Star Bowl's acquisition was too risky to defend confidently. Sterling forced you to replace it with a softer opinion and planned to cite your name during the announcement.",
+      "secret": "Both versions of the memo still exist. You kept the original instead of destroying it, which could expose you to professional embarrassment and Sterling to serious scrutiny. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Learn whether Vivienne has obtained a copy of your original memo.",
+        "Keep Marcus from publicly speculating about your legal advice.",
+        "Find out who has been searching the Registrar's Office."
+      ],
+      "knowledge": [
+        "Vivienne's restitution negotiations would be badly damaged if Sterling announced permanent ownership tonight.",
+        "Margot has been under unusual pressure over how Sterling wants his gift expenses classified.",
+        "Sterling asked you how quickly he could seek an injunction against Nadia's upcoming investigation."
+      ],
+      "innocent": "A torn corner of your legal pad was found in the salon from your 6:28 meeting with Sterling. From 6:40 to 6:49, the Registrar's secure printer and fax log show you reproducing and transmitting the harsher original legal memo you had been pressured to soften. The record clears your timing but exposes both versions.",
+      "murderer": "At 6:46 you returned with the original memo and demanded Sterling change his announcement. When he refused, you poisoned his cordial. A torn corner from your pad remained beneath the decanter.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I wrote the first memo saying the acquisition was indefensible, and I let Sterling pressure me into softening it. I kept the original because I knew I might need the truth later. The secure printer and fax log shows me transmitting that original throughout the poison window. That is what I was protecting.",
+      "final_murderer": "Sterling wanted my signature to transform risk into legitimacy. I gave him a final chance to change the announcement. He laughed. I poisoned the cordial, tore the note from my pad, and left. Lawyers are trained to live with ambiguity. I decided I could not live with his."
+    },
+    "evidence": {
+      "A": "LEGAL PAD - A torn corner from Helena's legal pad was found beside Sterling's service. Helena acknowledges a private meeting earlier in the evening but denies returning later.",
+      "B": "LEGAL PAD - The torn paper beneath Sterling's decanter matches Helena's pad and bears the indented words '6:46 - final chance.' Helena denied a second meeting."
+    }
+  },
+  {
+    "id": "09",
+    "slug": "09_Dr._Marcus_Pryce",
+    "name": "Dr. Marcus Pryce",
+    "role": "Professor of Art History & Provenance Scholar",
+    "age": 42,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Marcus has built a career tracing the lives of objects through wars, estates, auctions, private collections, and suspicious gaps in paperwork. Brilliant, argumentative, and allergic to oversimplification, he can turn one stamp on the back of a frame into a forty-minute lecture and somehow make it compelling. Treasures of the World contains several objects he has researched personally.",
+      "relationships": [
+        "Supervises Sebastian Reed's doctoral research.",
+        "Debates restitution policy regularly with Vivienne Marrow and Juno March.",
+        "Rafael Gilt is one of the few people Marcus trusts to tell him when physical evidence contradicts his theory."
+      ],
+      "acting": "Intense, professorial, curious, occasionally pedantic, sincerely excited by evidence.",
+      "costume": "Optional inspiration: Professor at a donor gala: dark suit, tweed or textured jacket, distinctive glasses, scholarly scarf, pocket notebook. Optional magnifier or archival pencil."
+    },
+    "private": {
+      "history": "Sterling suppressed your research showing that two objects in his collection passed through a dealer linked to questionable wartime sales. He threatened to release correspondence suggesting you had overstated another provenance claim if you challenged him publicly.",
+      "secret": "One celebrated article of yours does contain an inference you stated too confidently. The main thesis still stands, but the mistake would be humiliating. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Ask Sebastian what he has discovered in the accession records.",
+        "Determine whether Celeste commissioned outside provenance research.",
+        "Keep Nadia from learning which article Sterling could attack."
+      ],
+      "knowledge": [
+        "Celeste has doubts about the Star Bowl's provenance serious enough to seek independent review.",
+        "Sebastian found an archival document that appears to contradict one exhibition label."
+      ],
+      "innocent": "A black-star archive seal from your research packet was found in the Donor Salon. During the poison window, the Media Room archive scanner records you copying correspondence related to the weak inference in your celebrated article. The scan sequence clears your timing but exposes the scholarly mistake Sterling was using against you.",
+      "murderer": "At 6:43 you carried a research packet to Sterling. You poisoned the cordial after he refused to release the acquisition files. One black-star seal from your packet adhered beneath the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "Sterling had proof that I overstated one inference years ago. I was afraid he would use a real mistake to discredit research that threatened him. The archive scanner records me copying the correspondence behind that mistake throughout the poison window. That is embarrassing, but it clears me.",
+      "final_murderer": "Sterling understood the power of uncertainty. He only needed one flaw in my record to bury everything else I had found. I brought him the file, poisoned his cordial, and left with the papers. One seal stayed behind. I spent my life reconstructing chains of custody. Mine ends here."
+    },
+    "evidence": {
+      "B": "ARCHIVE SEAL - One of Marcus's distinctive black-star paper seals was found on the Donor Salon floor. Marcus says several came loose from his research packet during Act I.",
+      "A": "ARCHIVE SEAL - A black-star seal from Marcus's private research packet is stuck to the underside of Sterling's drink tray. Marcus said the packet never entered the salon."
+    }
+  },
+  {
+    "id": "10",
+    "slug": "10_Sienna_Voss",
+    "name": "Sienna Voss",
+    "role": "Philanthropist & Heir to the Voss Family Fortune",
+    "age": 29,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Sienna is the only member of the Voss dynasty who can attend an arts gala without immediately being asked for a check, mostly because everyone waits several minutes first. She is stylish, socially fluent, and harder to read than her public image suggests. She funds young artists, hates being introduced as an heiress, and has learned to smile through questions about her family.",
+      "relationships": [
+        "Moves in the same collector circle as Theo Glass and Daphne Palette.",
+        "Has commissioned work from Imogen Muse.",
+        "Beatrice Plinth has known Sienna since childhood and refuses to be impressed by her surname."
+      ],
+      "acting": "Composed, witty, guarded, generous when she chooses. You grew up around power and recognize its rituals instantly.",
+      "costume": "Optional inspiration: Modern gala glamour: elegant cocktail dress or formal suit, statement jewelry, designer-looking clutch, effortless rather than ostentatious."
+    },
+    "private": {
+      "history": "Sterling told you he intended to rewrite the family trust tonight, removing you from control of the charitable foundation unless you publicly backed his museum naming plan.",
+      "secret": "You have been quietly organizing other family trustees to block Sterling's control over the foundation and redirect future giving toward worker and community programs. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Beatrice would publicly oppose renaming the museum.",
+        "Gauge Adrian's willingness to reject Sterling's conditions.",
+        "Do not reveal the trust fight unless you must."
+      ],
+      "knowledge": [
+        "Theo's board ambitions have become personal because Sterling is quietly blocking him.",
+        "Beatrice has always been uneasy about the paperwork on Sterling's earliest museum gifts."
+      ],
+      "innocent": "You confronted Sterling privately at 6:30 and left angry. From 6:40 to 6:49, the donor-office scanner records you copying the draft trust documents you intended to use against him with the other trustees. The scan log clears your timing but exposes the family challenge.",
+      "murderer": "You returned at 6:45 after learning the trust papers were ready. During the argument you slipped the toxin directly into Sterling's silver coupe and scratched its base with your signet ring while steadying it.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "Sterling threatened to cut me out of the foundation because I would not help him turn philanthropy into obedience. I am organizing the trustees against him. The donor-office scanner shows me copying the trust papers throughout the poisoning window. I was building a case against him, not killing him.",
+      "final_murderer": "Sterling wanted the family foundation to become another room he could lock from the inside. I went back after learning the trust papers were ready. I poisoned his silver coupe and scratched its base with my ring. He spent years teaching me that control was the only language power understood. I answered in it."
+    },
+    "evidence": {
+      "A": "SILVER COUPE SCRATCH - A crescent scratch on the base of Sterling's silver coupe resembles the edge of Sienna's signet ring. Sienna insists the mark predates her private argument with Sterling.",
+      "B": "SILVER COUPE SCRATCH - A fresh crescent scratch on the base of Sterling's silver coupe exactly matches Sienna's signet ring. An earlier setup photograph shows no mark."
+    }
+  },
+  {
+    "id": "11",
+    "slug": "11_Everett_Locke",
+    "name": "Everett Locke",
+    "role": "Director of Museum Security & Former Art-Crimes Investigator",
+    "age": 37,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Everett spent years investigating stolen art before discovering that museums contain nearly as much intrigue with better climate control. He is calm, observant, and difficult to surprise. He notices open doors, blocked sight lines, unattended bags, and people who suddenly become interested in exits. Tonight he would prefer everyone simply enjoy the exhibition, which means they almost certainly will not.",
+      "relationships": [
+        "Coordinates closely with Adrian Vellum and Rafael Gilt.",
+        "Frequently clashes with Nadia Quill over access and with Juno March over protest tactics.",
+        "Riley Bloom keeps changing layouts after Everett has already approved them."
+      ],
+      "acting": "Low-key, skeptical, dry, watchful. Ask where people were and remember their answers.",
+      "costume": "Optional inspiration: Dark suit, discreet earpiece prop if desired, security-style watch, small notebook. A senior museum security look could work well."
+    },
+    "private": {
+      "history": "Sterling ordered you to disable the Donor Salon camera because he planned several off-the-record meetings. He then told you that if anything went wrong tonight, security would 'own the failure.'",
+      "secret": "You personally unplugged the camera despite museum policy. You did it under direct donor pressure and never documented the order. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out who knew the Donor Salon camera was offline.",
+        "Keep the camera decision quiet until you understand the murder timeline.",
+        "Ask Calvin whether anyone moved through the service corridor during Act I."
+      ],
+      "knowledge": [
+        "Nadia tried to get private access to Sterling before dinner and was refused.",
+        "Riley's last-minute lighting changes caused the eerie flicker some guests noticed during Act I."
+      ],
+      "innocent": "Your master key opened the salon at 6:29 when you disabled the camera. During the poison window, the main security panel records manual system checks under your code every ninety seconds from a console physically located in the security station. The log clears your timing but also proves you violated policy by disabling the camera.",
+      "murderer": "You used your master key at 6:46 to re-enter the camera-blind salon. Furious that Sterling planned to blame you for any problem, you poisoned his cordial and relied on the missing footage to protect you.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I shut off the camera because Sterling ordered me to. I should have documented it and I did not. That decision made the murder easier, which I will have to live with. The main security console records my manual checks every ninety seconds throughout the poisoning window. I never went back to the salon.",
+      "final_murderer": "Sterling ordered me to blind the room and then told me security would take the fall if anything happened. He gave me the perfect crime scene himself. I went back with the master key, poisoned his drink, and trusted the dark camera to do exactly what he wanted: see nothing."
+    },
+    "evidence": {
+      "B": "CAMERA SHUTDOWN - Everett's master key opened the Donor Salon at 6:29, when the security camera was intentionally disabled. Everett admits doing it but says Sterling ordered the shutdown.",
+      "A": "MASTER KEY LOG - Everett's master key opened the Donor Salon at 6:46, seventeen minutes after the camera was disabled. Everett denied re-entering."
+    }
+  },
+  {
+    "id": "12",
+    "slug": "12_Nadia_Quill",
+    "name": "Nadia Quill",
+    "role": "Investigative Arts Journalist",
+    "age": 32,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Nadia covers the art world the way other reporters cover city hall: money, power, access, and who benefits when everyone agrees not to ask a question. Her pieces are sharp, deeply sourced, and occasionally followed by nervous legal letters. She has been invited tonight because excluding her would look worse.",
+      "relationships": [
+        "Professional rival of Morgan Slate, whose criticism Nadia considers entertaining but insufficiently documented.",
+        "Avery Lens has photographed several of Nadia's stories.",
+        "Helena Cross has threatened to quote Nadia's own articles back to her in court."
+      ],
+      "acting": "Curious, direct, quick, socially fearless. Ask questions people wish you would save for email.",
+      "costume": "Optional inspiration: Cocktail attire with practical reporter touches: blazer, notebook, pen, compact camera if desired. Stylish enough for the gala, ready enough for a press scrum."
+    },
+    "private": {
+      "history": "You were preparing a major investigation into Sterling's collection and labor empire. He discovered enough to threaten an injunction and promised to reveal the identity of one of your confidential museum sources if you published.",
+      "secret": "You obtained internal documents through a source inside the Meridian. Protecting that source matters more to you than tonight's scoop. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Sterling found the full provenance spreadsheet or only excerpts.",
+        "Keep your source's identity protected.",
+        "Get Grant or Conrad to comment on the Geneva records without telling them what you know."
+      ],
+      "knowledge": [
+        "Grant is vulnerable over a disputed authenticity certificate in an old private sale.",
+        "Helena wrote a much harsher legal opinion on the Star Bowl before a softer version appeared."
+      ],
+      "innocent": "You slipped into the Donor Salon at 6:31 hoping to interview Sterling and left when he refused. From 6:40 to 6:49, the Press Room scanner records you copying the confidential source documents behind your embargoed story. The scan log clears your timing but risks exposing how much internal material you possess.",
+      "murderer": "At 6:47 you returned after Sterling threatened your source. You poisoned his cordial and then wrote a false earlier timestamp in your notebook to create distance from the salon.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "My source gave me documents Sterling desperately wanted buried. I went into his salon earlier to confront him, and I refused to name the source when he threatened me. The Press Room scanner log shows me copying those documents throughout the poisoning window. Protecting a source made me secretive, not murderous.",
+      "final_murderer": "Sterling could survive the story. My source could not survive being exposed by him. I went back, poisoned his cordial, and falsified my notebook timeline. Journalists are supposed to protect sources without becoming the story. I failed that rule spectacularly."
+    },
+    "evidence": {
+      "A": "REPORTER'S NOTEBOOK - A page covering roughly the poisoning window has been torn from Nadia's notebook. Nadia admits she tried to get a private interview with Sterling earlier.",
+      "B": "REPORTER'S NOTES - The ink and page order show Nadia inserted the 6:41-6:50 'Leo interview' timestamp after later notes. Leo remembers speaking with her earlier, not then."
+    }
+  },
+  {
+    "id": "13",
+    "slug": "13_Lucian_Gable",
+    "name": "Lucian Gable",
+    "role": "Exhibition Architect & Designer",
+    "age": 34,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Lucian designed the physical experience of Treasures of the World: every wall angle, sight line, spotlight, pedestal, and dramatic reveal. He is tasteful, exacting, and deeply convinced that visitors would behave better if they understood circulation. He has strong opinions about fonts, cords, and anything that interrupts a clean visual field.",
+      "relationships": [
+        "Creative rival of sculptor Malcolm Carrara after a very public argument about scale.",
+        "Works constantly with Riley Bloom, who keeps trying to add flowers where Lucian designed negative space.",
+        "Rafael Gilt has veto power over several of Lucian's more adventurous display ideas."
+      ],
+      "acting": "Aesthetic, controlled, mildly pretentious in a lovable way, easily offended by bad placement rather than bad manners.",
+      "costume": "Optional inspiration: Architectural formalwear: monochrome suit, turtleneck with jacket, sharply cut black attire, interesting glasses, rolled plans or a small laser measure prop."
+    },
+    "private": {
+      "history": "Sterling demanded a dangerous last-minute change to the centerpiece display and threatened to withhold your firm's final payment if you refused. He also planned to blame you publicly for any flaw in the opening-night presentation.",
+      "secret": "You signed off on one temporary lighting rig that did not fully meet your own design standard because there was no time to rebuild it before the gala. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Keep Rafael from turning the temporary rig into a formal safety dispute.",
+        "Find out what Riley changed after your final walkthrough.",
+        "Make Malcolm admit the entrance sculpture blocks the intended sight line."
+      ],
+      "knowledge": [
+        "Riley changed a lighting cue after your final walkthrough.",
+        "Sterling threatened Malcolm's final payment over the entrance commission."
+      ],
+      "innocent": "Your brass screwdriver was found near the salon after circulating through installation work. During the poison window, the centerpiece lighting console records continuous manual adjustments under your designer code from the Grand Gallery. The console log clears your timing but exposes the unapproved temporary rig you signed off on.",
+      "murderer": "At 6:45 you used a lighting check as cover to enter the salon. You poisoned Sterling's cordial and accidentally left your distinctive brass screwdriver near the service tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I signed off on a temporary lighting rig I hated because Sterling would not delay the opening. That is the professional compromise I was hiding. The lighting console records my continuous manual adjustments throughout the poison window. The screwdriver looks bad; the console log is better.",
+      "final_murderer": "Sterling wanted spectacle without consequence, speed without responsibility, and my signature beneath both. I went in under cover of a lighting check, poisoned the cordial, and left my screwdriver behind like an amateur. Apparently even perfect sight lines have blind spots."
+    },
+    "evidence": {
+      "B": "BRASS SCREWDRIVER - Lucian's distinctive screwdriver was found near the Donor Salon service table. Calvin says he borrowed it during installation but cannot remember exactly when he returned it.",
+      "A": "BRASS SCREWDRIVER - Lucian's distinctive screwdriver was found beneath Sterling's service table with a fresh smear matching the wiped glass stem. Lucian claimed it never left his toolkit."
+    }
+  },
+  {
+    "id": "14",
+    "slug": "14_Vivienne_Marrow",
+    "name": "Vivienne Marrow",
+    "role": "International Cultural Heritage Envoy",
+    "age": 38,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Vivienne moves between embassies, museums, ministries, and negotiation tables where everyone insists the issue is 'purely cultural' while bringing three lawyers. She is poised, persuasive, and very difficult to rush. Her work focuses on contested cultural property and long-term international loans.",
+      "relationships": [
+        "Long-running professional friendship and rivalry with Helena Cross.",
+        "Frequently debates Marcus Pryce and Juno March on how restitution should actually work.",
+        "Adrian Vellum has courted her support for several international partnerships."
+      ],
+      "acting": "Elegant, diplomatic, strategic, warm until precision is required. You can disagree without ever sounding flustered.",
+      "costume": "Optional inspiration: Refined diplomatic formalwear; jewel tones, elegant suit or dress, subtle cultural or heritage-inspired accessory worn respectfully. Optional slim portfolio."
+    },
+    "private": {
+      "history": "Sterling intended to announce that the Star Bowl would become a permanent Meridian holding, undermining months of quiet restitution negotiations and publicly humiliating the international partners you represent.",
+      "secret": "You leaked the existence of the restitution talks to selected journalists to pressure Sterling, even though the negotiations were supposed to remain confidential. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Find out whether Nadia knows you were the leak.",
+        "Get Helena to acknowledge that the legal risk is real.",
+        "Avoid turning the gala into a diplomatic incident unless Sterling's announcement forces you."
+      ],
+      "knowledge": [
+        "Helena's original legal opinion was substantially more skeptical of the Star Bowl acquisition than the final version.",
+        "Marcus believes Sterling has sat on provenance research that could embarrass the collection."
+      ],
+      "innocent": "You delivered a formal letter to Sterling at 6:28. During the poison window, the Registrar's secure fax machine was transmitting your confidential restitution packet page by page under your authorization code. The transmission log clears your timing but exposes negotiations you were supposed to keep quiet.",
+      "murderer": "At 6:46 you returned with a second envelope containing a final demand. When Sterling refused, you poisoned the cordial. You discarded the envelope after it picked up a drop from the drink.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I leaked the restitution talks because quiet diplomacy had become an excuse for endless delay. That breach of confidence is mine. The Registrar's secure fax log shows my restitution packet transmitting throughout the poisoning window. I broke confidence, not the law of life and death.",
+      "final_murderer": "Sterling planned to turn a disputed object into a victory speech and months of negotiation into a public defeat. I brought him one final demand. He refused. I poisoned the cordial and discarded the stained envelope. Diplomacy failed, and I chose something much worse."
+    },
+    "evidence": {
+      "A": "EMBOSSED ENVELOPE - A diplomatic envelope delivered by Vivienne was found in the Donor Salon bin with a dark cordial stain. Vivienne says it came from an earlier meeting.",
+      "B": "EMBOSSED ENVELOPE - A second diplomatic envelope from Vivienne, unknown to staff, was found in the salon bin with a fresh cordial stain. Vivienne denied returning after her first delivery."
+    }
+  },
+  {
+    "id": "15",
+    "slug": "15_Theo_Glass",
+    "name": "Theo Glass",
+    "role": "Tech Founder, Collector & Museum Patron",
+    "age": 35,
+    "tier": "CORE",
+    "preparty": {
+      "description": "Theo made a fortune building software and has spent the last five years trying to become the sort of collector whose taste is discussed rather than merely his net worth. He is enthusiastic, competitive, and genuinely knowledgeable enough to resent anyone who assumes otherwise. His collection mixes contemporary art, design, and objects he describes as 'historically underpriced.'",
+      "relationships": [
+        "Buys through Grant Easel more often than either admits.",
+        "Runs in the same social orbit as Sienna Voss and Daphne Palette.",
+        "Morgan Slate once described his collection as 'an algorithm discovering patina,' which Theo has not forgotten."
+      ],
+      "acting": "Energetic, socially confident, competitive, eager to demonstrate taste without looking eager.",
+      "costume": "Optional inspiration: Modern black tie with tech-founder looseness: excellent jacket, minimal sneakers or polished shoes, unusual watch, bold glasses. Optional auction paddle as a joke prop."
+    },
+    "private": {
+      "history": "Sterling had blacklisted you from a major acquisition after you outbid him anonymously for a work he wanted. Tonight he planned to announce that your collecting practices were 'speculative theater' and block your appointment to the museum board.",
+      "secret": "You were the anonymous buyer in the auction incident everyone keeps referencing. You concealed your identity through Grant to avoid a bidding war with Sterling. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Keep Grant from revealing your role in the auction.",
+        "Find out whether Adrian supports your board candidacy.",
+        "Get Morgan Slate to admit the 'algorithm discovering patina' line was at least a little funny."
+      ],
+      "knowledge": [
+        "Grant knows you were the anonymous buyer who beat Sterling at auction.",
+        "Sterling bragged that he could rewrite the family trust if Sienna refused to support his museum plans."
+      ],
+      "innocent": "Your cufflink did chip against the Grand Gallery rail. During the poison window, the collection scanner records you copying the auction invoice that proves you were the anonymous bidder who outbid Sterling. The scan sequence clears your timing but exposes the identity you hid through Grant.",
+      "murderer": "At 6:44 you slipped into the Donor Salon to force a reconciliation before the announcement. You poisoned the cordial when Sterling refused. Your glass cufflink struck the service table and chipped; one fragment remained on the carpet.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I was the anonymous buyer who outbid Sterling, and I hid behind Grant because I knew Sterling would turn the sale into a personal war. He wanted to keep me off the board for it. The collection scanner shows me copying the auction invoice throughout the poison window. I was hiding a bidder's identity, not a murder.",
+      "final_murderer": "Sterling could not stand losing an object he wanted, and he could not stand that I had beaten him without letting him know whom to punish. Tonight he planned to close the museum door in my face publicly. I went in to negotiate, poisoned his cordial when he refused, and broke my cufflink on the way out. Not exactly a clean exit."
+    },
+    "evidence": {
+      "B": "GLASS FRAGMENT - A chip matching Theo's distinctive cufflink was found near the threshold between the Grand Gallery and Donor Salon. Theo says the cufflink broke against the gallery rail.",
+      "A": "GLASS FRAGMENT - A chip matching Theo's distinctive glass cufflink was found beneath Sterling's service table. Theo said he never entered the Donor Salon."
+    }
+  },
+  {
+    "id": "16",
+    "slug": "16_Beatrice_Plinth",
+    "name": "Beatrice Plinth",
+    "role": "Founding Curator Emerita",
+    "age": 84,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Beatrice helped build the Meridian's collection when the museum had more ambition than money and fewer committees than fire extinguishers. She is sharp, unsentimental, impossible to flatter, and delighted that everyone now treats decisions she made on folding tables as institutional history.",
+      "relationships": [
+        "Hired Adrian Vellum early in his career.",
+        "Trusts Rafael Gilt and Maya Bell.",
+        "Has known Sienna Voss since Sienna was a child."
+      ],
+      "acting": "Imperious, funny, observant, utterly unimpressed by status. Age gives you permission to say what everyone else edits.",
+      "costume": "Optional inspiration: Old-school gala elegance: brooch, gloves, shawl, pearls, cane if desired, formal suit or dress with unmistakable presence."
+    },
+    "private": {
+      "history": "Sterling planned to reveal that you accepted his first questionable donation in 1989 despite incomplete paperwork, staining the legacy you built.",
+      "secret": "You did approve that accession because the museum was desperate for funds and you convinced yourself the paperwork would follow. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sienna and Sterling have been fighting over the future of the Voss charitable foundation.",
+        "The museum's 1989 accession paperwork for one early Voss gift was never as complete as you wished."
+      ],
+      "innocent": "You were in the Grand Gallery telling Leo the story of the museum's founding during the key window; three people heard you.",
+      "murderer": "At 6:45 you returned to the salon with your old accession notebook and poisoned his cordial after he threatened to make you the sole scapegoat.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I approved one of Sterling's early gifts before its paperwork was complete because the museum was desperate and I told myself the documents would follow. He planned to make that compromise my entire legacy. But Adrian and Leo heard me holding court in the Grand Gallery throughout the poisoning window. I made a bad museum decision in 1989. I did not make a murderer of myself tonight.",
+      "final_murderer": "Sterling was going to expose a decision we both understood perfectly well in 1989 and rewrite it as my sin alone. I brought the old accession notebook to confront him, poisoned his cordial, and lost one page beneath the tray. I helped build this museum. I could not bear to let Sterling purchase the right to write its history."
+    },
+    "evidence": {
+      "A": "FOUNDING TIMELINE - Adrian and Leo both place Beatrice in the Grand Gallery telling museum stories from 6:41 through 6:50.",
+      "B": "OLD ACCESSION PAGE - A page torn from Beatrice's 1989 accession notebook was found under Sterling's service tray with a fresh cordial stain."
+    }
+  },
+  {
+    "id": "17",
+    "slug": "17_Conrad_Gavel",
+    "name": "Conrad Gavel",
+    "role": "Chairman of Gavel & Rowe Auction House",
+    "age": 63,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Conrad has sold paintings, antiquities, estates, scandals, and at least one chair that required its own insurance rider. Urbane and ceremonious, he treats every conversation like a private viewing and every silence like a bidding strategy.",
+      "relationships": [
+        "Longtime professional rival of Grant Easel.",
+        "Knows Daphne Palette and Theo Glass from the auction circuit.",
+        "Beatrice Plinth remembers when Conrad was still carrying catalogues for someone else."
+      ],
+      "acting": "Old-school charm, status-aware, patient, competitive. Speak as if the room has already agreed you belong in it.",
+      "costume": "Optional inspiration: Classic tuxedo or formal dark suit, silk pocket square, signet ring, reading glasses, optional miniature auction gavel."
+    },
+    "private": {
+      "history": "Sterling threatened to expose a private sale you arranged outside your auction house's normal process unless you waived a substantial fee.",
+      "secret": "You did route the sale through a discreet subsidiary to satisfy a client who insisted on anonymity. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Grant once handled a disputed certificate that Sterling could use against him.",
+        "Daphne quietly sold a work she had once spoken of as a future institutional gift."
+      ],
+      "innocent": "You were loudly arguing with Grant about buyer premiums during the critical minutes, witnessed by Daphne.",
+      "murderer": "You entered at 6:44 with a valuation sheet, poisoned the cordial, and left the auction pencil you used to stir it.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I arranged a private sale through a discreet subsidiary because a client demanded anonymity. Sterling knew and intended to use it to erase a fee he owed me. Unsavory, perhaps. Murderous, no. Grant and Daphne can both place me in a very public argument while the poison was added.",
+      "final_murderer": "Sterling wanted a private transaction when it benefited him and a public scandal when it benefited him more. I brought the valuation sheet, stirred poison into his cordial with my auction pencil, and left the pencil behind. I have spent forty years telling people when the bidding is over. Tonight I ended it myself."
+    },
+    "evidence": {
+      "B": "AUCTION FLOOR WITNESS - Grant and Daphne both remember Conrad loudly disputing buyer premiums in the Grand Gallery throughout the crucial minutes.",
+      "A": "AUCTION PENCIL - Conrad's distinctive red auction pencil was found beside Sterling's glass with a trace of the poisoned cordial on its lacquer."
+    }
+  },
+  {
+    "id": "18",
+    "slug": "18_Lola_Loom",
+    "name": "Lola Loom",
+    "role": "Textile Artist & Designer",
+    "age": 27,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Lola turns weaving, embroidery, salvage fabric, and obsessive handwork into installations that critics call intimate and collectors call surprisingly difficult to ship. She is warm, observant, and capable of discussing thread count with the intensity of a military briefing.",
+      "relationships": [
+        "Has assisted Imogen Muse on several installations.",
+        "Friendly with Julian Brush from the local art circuit.",
+        "Rafael Gilt has advised her on displaying fragile textiles."
+      ],
+      "acting": "Creative, grounded, quietly funny, detail-oriented. You notice what people wear and how things are made.",
+      "costume": "Optional inspiration: Formal outfit with texture: embroidered jacket, woven scarf, textile jewelry, patterned dress, unusual fabric. Handmade touches encouraged."
+    },
+    "private": {
+      "history": "Sterling intended to purchase a family-owned ceremonial textile you had borrowed for your installation, despite your refusal to sell.",
+      "secret": "The textile is in the exhibition without the full paperwork your family expected because you were afraid the loan would be denied. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Imogen's unreleased performance idea and the gala's closing spectacle look suspiciously similar.",
+        "Julian has been using intermediaries to buy back some of his own early paintings."
+      ],
+      "innocent": "Avery photographed you repairing a hanging thread in the gallery continuously through the key window.",
+      "murderer": "You brought a textile swatch to Sterling at 6:46, poisoned his drink, and left a distinctive thread on the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "The textile in my installation belongs to my family, and I brought it into the exhibition before every piece of loan paperwork was settled. Sterling wanted to buy it despite our refusal. That is what I was hiding. Julian and Imogen watched me repairing the installation while the poison was added.",
+      "final_murderer": "Sterling treated a family object like everything else in his orbit: if he wanted it, refusal was merely a price negotiation. I brought him a swatch, poisoned his cordial, and left a thread behind on the glass. I wanted him to understand that not everything beautiful is available for purchase. I chose an unforgivable way to make the point."
+    },
+    "evidence": {
+      "A": "INSTALLATION WITNESS - Julian and Imogen both place Lola repairing a textile in the Grand Gallery during the poisoning window.",
+      "B": "INDIGO THREAD - A distinctive hand-dyed indigo fiber from Lola's sleeve was caught in the wiped stem of Sterling's glass."
+    }
+  },
+  {
+    "id": "19",
+    "slug": "19_Sebastian_Reed",
+    "name": "Sebastian Reed",
+    "role": "Doctoral Fellow in Art History",
+    "age": 24,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Sebastian is the youngest scholar attached to the exhibition and has been trying very hard to behave like this is normal. He is brilliant, earnest, slightly overprepared, and burdened with the knowledge that every person here could someday write a recommendation letter or ruin his evening.",
+      "relationships": [
+        "Doctoral student of Marcus Pryce.",
+        "Mentored informally by Celeste Frame.",
+        "Maya Bell keeps rescuing Sebastian from conversations with donors who ask whether art history is a real degree."
+      ],
+      "acting": "Eager, cerebral, anxious in a useful way, unexpectedly bold when the evidence is on your side.",
+      "costume": "Optional inspiration: Best-suit energy: formal but slightly less effortless than the veterans. Optional extras: glasses, a notebook or a museum catalogue full of tabs."
+    },
+    "private": {
+      "history": "You found an archival document that contradicted the Star Bowl label. Sterling told your department your fellowship could disappear if you pushed it.",
+      "secret": "You have not yet told Marcus that your discovery also undermines one sentence in his published research. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Celeste commissioned independent provenance work outside the normal chain of approval.",
+        "You found a source that complicates one published claim by your adviser Marcus."
+      ],
+      "innocent": "Celeste was reviewing the disputed label with you during the entire critical window.",
+      "murderer": "You used your student access badge to enter at 6:47, poisoned the cordial, and dropped an archival tab from your notes.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I found a document that complicates one of Marcus's published claims, and I had not yet told him. Sterling threatened my fellowship if I pushed the discovery. That is terrifying when you are twenty-four, but Celeste was reviewing the evidence with me throughout the poisoning window.",
+      "final_murderer": "Sterling told me the truth could wait until I was no longer funded enough to find it. I used my access badge, went into the salon, poisoned his cordial, and dropped an archival tab from the very document he wanted buried. I wanted to prove I belonged in this field. This is not how."
+    },
+    "evidence": {
+      "B": "LABEL REVIEW - Celeste's annotated proof shows Sebastian working beside her on the disputed label from 6:40 through 6:49.",
+      "A": "ARCHIVAL TAB - One of Sebastian's numbered archival tabs was found adhered beneath Sterling's drink tray. The number corresponds to the document Sterling ordered suppressed."
+    }
+  },
+  {
+    "id": "20",
+    "slug": "20_Malcolm_Carrara",
+    "name": "Malcolm Carrara",
+    "role": "Sculptor & Public-Art Star",
+    "age": 36,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Malcolm makes monumental sculpture in stone, steel, and whatever else can require a crane. He is charismatic, physically expressive, and convinced that architecture should know when to get out of sculpture's way. His newest commission occupies the museum entrance and at least three opinions per square foot.",
+      "relationships": [
+        "Creative rival of Lucian Gable after an argument about the entrance installation.",
+        "Friendly competitor of Julian Brush.",
+        "Riley Bloom once designed a gala around one of Malcolm's sculptures and still talks about the insurance."
+      ],
+      "acting": "Big presence, playful arrogance, generous when admired, combative when minimized.",
+      "costume": "Optional inspiration: Bold formalwear, chunky ring, sculptural accessories, dark shirt with jacket, perhaps a dust-marked work boot paired with gala clothes."
+    },
+    "private": {
+      "history": "Sterling planned to replace your commissioned entrance sculpture with a cheaper replica after the opening and dispute your final payment.",
+      "secret": "You built one internal support differently from the approved plan because the fabricator missed a deadline. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sterling has been threatening Lucian over the centerpiece installation and final payment.",
+        "Sterling owns a student painting Julian desperately does not want exhibited."
+      ],
+      "innocent": "Calvin and Lucian were with you moving a pedestal during the key window.",
+      "murderer": "You entered the salon at 6:43 to demand payment, poisoned the cordial, and left marble dust from your cuff on the service cloth.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I changed an internal support in my sculpture because the fabricator missed a deadline. It is sound, but it is not exactly the approved plan. Sterling knew and planned to use that against my final payment. Lucian and the handling log place me elsewhere when the glass was poisoned.",
+      "final_murderer": "Sterling planned to copy my commission, withhold my payment, and call the replica prudence. I confronted him, poisoned the cordial, and carried enough marble dust on my cuff to leave a trace on the glass. I make objects meant to outlive me. Sterling made sure this decision will too."
+    },
+    "evidence": {
+      "A": "INSTALLATION CREW - Lucian places Malcolm beside him moving a pedestal during the poisoning window, and the move is logged on Calvin's handling sheet.",
+      "B": "MARBLE DUST - Fresh Carrara dust matching Malcolm's studio sample was found on the wiped stem of Sterling's glass, not elsewhere on the service."
+    }
+  },
+  {
+    "id": "21",
+    "slug": "21_Daphne_Palette",
+    "name": "Daphne Palette",
+    "role": "Collector, Style Patron & Society Fixture",
+    "age": 33,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Daphne has excellent taste, excellent photographers, and excellent instincts about which artists will become impossible to buy next year. She hosts salons, funds commissions, and somehow makes every acquisition look accidental. Beneath the polish, she is a serious collector who remembers exactly who dismissed what five years ago.",
+      "relationships": [
+        "Collects work by Julian Brush and Lola Loom.",
+        "Competes socially and at auction with Theo Glass.",
+        "Uses Grant Easel when discretion matters and Conrad Gavel when spectacle does."
+      ],
+      "acting": "Charming, strategic, stylish, lightly competitive. Compliments can be sincere and still accomplish something.",
+      "costume": "Optional inspiration: Fashion-forward gala look, statement jewelry, dramatic clutch, bold color or silhouette. For inspiration, think of 'photographed on arrival.'"
+    },
+    "private": {
+      "history": "Sterling knew you quietly sold a work you had publicly promised to donate to another institution and planned to expose the contradiction.",
+      "secret": "You sold it to cover a failed business investment and hoped to replace it before anyone noticed. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Julian has been quietly buying back his own early work through proxies.",
+        "Theo was the anonymous bidder who beat Sterling at the auction that damaged their relationship."
+      ],
+      "innocent": "Theo and Grant were both with you discussing an auction lot during the key window.",
+      "murderer": "You entered at 6:45 with a gift pledge, poisoned the drink, and left lipstick on the decanter stopper.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I sold a work I had once spoken of as a future donation because a business investment went badly, and I hoped to replace it before anyone noticed. Sterling planned to expose the contradiction. Theo and Grant can place me with them during the poisoning window. Hypocrisy, yes. Homicide, no.",
+      "final_murderer": "Sterling loved philanthropy most when it made someone else look smaller. He was going to expose my broken promise as entertainment. I went to the salon with a pledge card, poisoned his cordial, and left a trace on the stopper. Taste can disguise many things. Apparently not this."
+    },
+    "evidence": {
+      "B": "AUCTION CHAT - Theo and Grant both place Daphne with them discussing a forthcoming lot throughout the key minutes.",
+      "A": "DECANTER STOPPER - A cosmetic trace matching Daphne's distinctive gala lipstick was found beneath the lip of Sterling's decanter stopper, not on any shared glassware."
+    }
+  },
+  {
+    "id": "22",
+    "slug": "22_Morgan_Slate",
+    "name": "Morgan Slate",
+    "role": "Art Critic & Cultural Podcaster",
+    "age": 30,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Morgan can make a museum director nervous with a headline and an artist furious with a compliment. Their reviews are incisive, funny, and widely read; their podcast is where the art world goes to hear itself discussed by someone who may not be impressed.",
+      "relationships": [
+        "Friendly rival of Nadia Quill.",
+        "Has reviewed Julian Brush, Imogen Muse, Malcolm Carrara, and Lola Loom.",
+        "Theo Glass remembers an especially brutal line about his collection."
+      ],
+      "acting": "Dry, perceptive, skeptical, socially nimble. Deliver observations as if they occurred to you three minutes before everyone else.",
+      "costume": "Optional inspiration: Smart, artsy formalwear: black with one eccentric element, distinctive glasses, scarf, vintage jacket, notebook. Gender presentation entirely flexible."
+    },
+    "private": {
+      "history": "Sterling discovered that you write an anonymous satirical newsletter skewering museum patrons and planned to unmask you during his speech.",
+      "secret": "Several jokes in the newsletter came from private conversations, and you regret at least one of them. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sterling has been trying to block Theo from joining the museum board.",
+        "Nadia is working on something far more serious than a gala review and Sterling knows it."
+      ],
+      "innocent": "Nadia was arguing with you in the dining room throughout the critical minutes.",
+      "murderer": "You entered at 6:44 to beg him not to expose you, poisoned the cordial, and left a torn draft joke in the bin.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I write the anonymous newsletter half this room pretends not to read. Some of its best lines came from private conversations, and Sterling planned to unmask me publicly. Nadia and I were busy arguing in the dining room while the cordial was poisoned. My weapon is usually a paragraph.",
+      "final_murderer": "Sterling was going to put my name behind every anonymous line and let the room do the rest. I went in to bargain, poisoned his cordial when he refused, and tore up the draft I had brought with me. Critics are supposed to survive being disliked. I chose not to test that principle."
+    },
+    "evidence": {
+      "A": "CRITIC'S ARGUMENT - Nadia confirms Morgan was in the dining room debating them from 6:40 until nearly 6:50.",
+      "B": "TORN DRAFT - A scrap from Morgan's anonymous satirical newsletter was found in the salon bin. On the back is a handwritten note: '6:44 - make him stop.'"
+    }
+  },
+  {
+    "id": "23",
+    "slug": "23_Felix_Savoy",
+    "name": "Felix Savoy",
+    "role": "Head Caterer & Hospitality Director",
+    "age": 41,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Felix runs high-end events with the serene expression of a person mentally tracking forty-seven moving parts. He knows who asked for the vegan plate, who changed the seating chart, who is pretending not to be hungry, and exactly how long a tray can sit before someone complains.",
+      "relationships": [
+        "Works closely with Riley Bloom and Margot Ledger.",
+        "Everett Locke has made Felix revise service routes repeatedly for security reasons.",
+        "Adrian Vellum trusts Felix to keep donors fed while everyone else panics."
+      ],
+      "acting": "Competent, sociable, quietly authoritative, hard to rattle. You see the room from the service side.",
+      "costume": "Optional inspiration: Sharp black suit or upscale catering uniform, tie or bow tie, folded service towel, small order pad. A luxury event professional could be your inspiration."
+    },
+    "private": {
+      "history": "Sterling had refused to approve the final catering invoice and planned to blame you for a last-minute service change he personally ordered.",
+      "secret": "You changed his private beverage setup twice because Sterling and his assistant gave contradictory instructions. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sterling changed his private cordial instructions more than once during setup.",
+        "Margot has been fighting with the donor office about who is actually paying for tonight's excesses."
+      ],
+      "innocent": "Multiple staff and Riley place you at the buffet line during the critical minutes.",
+      "murderer": "You were alone with the service tray at 6:46 and poisoned the cordial before sending it to the salon.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "Sterling changed his beverage instructions twice, and I changed the setup twice. I was afraid every contradictory service note would make me look responsible. But Margot and my staff place me at the buffet while the poison was added. I served the drink. I did not poison it.",
+      "final_murderer": "Sterling ordered changes, refused the invoice, and was preparing to blame service for whatever confused him next. I had the tray, the access, and one private return no one expected. I poisoned the cordial at 6:46 and walked back to the buffet. Hospitality is the art of anticipating needs. I anticipated one too many."
+    },
+    "evidence": {
+      "B": "SERVICE LOG - Margot and two servers place Felix continuously at the buffet line from 6:40 through 6:50; the private cordial had already left his station.",
+      "A": "SERVICE ROUTE CARD - Felix's own route card records a private return to the Donor Salon at 6:46, although he told investigators the cordial left his hands before 6:40."
+    }
+  },
+  {
+    "id": "24",
+    "slug": "24_Calvin_Case",
+    "name": "Calvin Case",
+    "role": "Senior Art Handler & Installation Specialist",
+    "age": 32,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Calvin is the person trusted to move objects worth more than the building without dropping either. He knows crates, rigging, mounts, gloves, freight elevators, and exactly which curators become unbearable during installation week. Practical and calm, he is one of the few people in the room who has physically touched most of the exhibition.",
+      "relationships": [
+        "Works daily with Rafael Gilt.",
+        "Has developed mutual respect with Lucian Gable despite arguing about impossible installation drawings.",
+        "Malcolm Carrara likes Calvin because Calvin actually knows how heavy sculpture is."
+      ],
+      "acting": "Grounded, competent, laconic, surprisingly funny when you choose to speak.",
+      "costume": "Optional inspiration: Clean dark workwear dressed up for a gala: black trousers, sturdy shoes, smart shirt/jacket, work gloves tucked in pocket, measuring tape prop."
+    },
+    "private": {
+      "history": "Sterling saw you damage a minor frame during installation and threatened to have you fired after the gala, despite the damage being repairable.",
+      "secret": "You concealed the crack with a reversible mount until Rafael could inspect it after opening night. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sterling pressured Rafael to change how a conservation concern was described.",
+        "Lucian's distinctive brass screwdriver passed through your hands during installation."
+      ],
+      "innocent": "Rafael was with you adjusting a mount throughout the critical window.",
+      "murderer": "You used the service corridor at 6:45, poisoned the cordial, and dropped a crate-seal tab beneath the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I cracked a minor frame during installation and concealed it temporarily with a reversible mount until Rafael could inspect it. Sterling saw enough to threaten my job. Rafael was with me during the whole critical window. I hide damage for a living only until it can be repaired - not bodies.",
+      "final_murderer": "Sterling was ready to turn one repairable mistake into the end of my career. I used the service corridor, poisoned his cordial, and dropped a crate-seal tab beneath the tray. I have moved objects worth more than I will ever earn without leaving a mark. Tonight I left one."
+    },
+    "evidence": {
+      "A": "CONSERVATION WORK - Rafael confirms Calvin was with him adjusting a mount throughout the poisoning window.",
+      "B": "CRATE-SEAL TAB - A numbered Northstar crate-seal tab from Calvin's handling pouch was found beneath Sterling's service tray."
+    }
+  },
+  {
+    "id": "25",
+    "slug": "25_Maya_Bell",
+    "name": "Maya Bell",
+    "role": "Director of Education & Docent Programs",
+    "age": 29,
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Maya is responsible for making the museum intelligible to people who did not spend twelve years specializing in one dynasty. Warm, quick, and occasionally subversive, she can turn an academic argument into a great tour question and a donor speech into something children will actually remember.",
+      "relationships": [
+        "Close to Beatrice Plinth, who champions the education program.",
+        "Often rescues Sebastian Reed from awkward public-facing moments.",
+        "Works with Celeste Frame to translate scholarship into gallery interpretation."
+      ],
+      "acting": "Engaging, practical, empathetic, irreverent about institutional pomp.",
+      "costume": "Optional inspiration: Colorful cocktail attire or polished museum-professional look, comfortable shoes, fun brooch or earrings, optional stack of tour cards."
+    },
+    "private": {
+      "history": "Sterling's gift conditions would cut public education programming to fund a private donor lounge and VIP entrance.",
+      "secret": "You organized an anonymous staff petition against the plan and slipped copies into trustee folders. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "One draft of Sterling's gift would move money away from education and community programming.",
+        "Adrian is under extraordinary pressure over Sterling's naming and governance demands."
+      ],
+      "innocent": "Adrian and Riley both place you in the Grand Gallery during the key minutes.",
+      "murderer": "You entered at 6:47 to leave the petition, poisoned the cordial, and left a docent pin by the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I organized the anonymous staff petition against Sterling's plan to cut education programs for a private donor lounge. I was willing to embarrass him with signatures. Adrian saw me in the Grand Gallery while the poison was added. Museums are for people; murder is not public programming.",
+      "final_murderer": "Sterling was going to build a private entrance by cutting the programs that let the public feel the museum belonged to them. I went in with the petition, poisoned his cordial, and lost my docent pin behind the table. I told myself I was protecting access. I destroyed something far more basic."
+    },
+    "evidence": {
+      "B": "GALLERY WITNESS - Adrian places Maya in the Grand Gallery discussing the education budget during the crucial minutes.",
+      "A": "DOCENT PIN - Maya's distinctive enamel docent pin was found behind Sterling's service table. Maya said she never entered the Donor Salon."
+    }
+  },
+  {
+    "id": "26",
+    "slug": "26_Avery_Lens",
+    "name": "Avery Lens",
+    "role": "Gala Photographer & Editorial Portraitist",
+    "age": 28,
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Avery photographs artists, collectors, and public figures for magazines that describe parties like tonight as 'intimate' despite inviting two hundred people. They are quiet when working, socially fluent when not, and very good at being present without becoming the center of the frame.",
+      "relationships": [
+        "Has photographed several investigations for Nadia Quill.",
+        "Imogen Muse loves Avery's work because Avery does not overdirect.",
+        "Daphne Palette always knows which side Avery is shooting from."
+      ],
+      "acting": "Observant, understated, curious, visually minded. You notice who is standing with whom and what happens at the edge of a room.",
+      "costume": "Optional inspiration: Elegant all-black or dark cocktail wear, camera as the key prop if available, comfortable shoes, press-style shoulder bag."
+    },
+    "private": {
+      "history": "Sterling ordered you to surrender a photograph showing him meeting privately with Grant beside a shell-company shipping file.",
+      "secret": "You kept a backup print after agreeing to delete the image from your camera. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "You photographed Sterling and Grant beside a shipping file marked NORTHSTAR earlier in the evening.",
+        "Theo chipped a cufflink against the Grand Gallery rail during Act I."
+      ],
+      "innocent": "Your continuous photo sequence shows you shooting Imogen in the gallery during the key window.",
+      "murderer": "You entered at 6:44 to negotiate, poisoned the cordial, and left a torn photo corner by the service table.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I kept a backup print after agreeing to delete a photograph Sterling wanted gone. That is the secret I was protecting. My own continuous photo sequence proves I was photographing Imogen in the gallery while the drink was poisoned.",
+      "final_murderer": "Sterling wanted an image erased because it showed him beside a shipping file he could not explain. I went into the salon to bargain, poisoned his cordial when he refused, and tore the backup print in the struggle to leave cleanly. A photographer should know better than to leave evidence in the frame."
+    },
+    "evidence": {
+      "A": "PHOTO SEQUENCE - Avery's camera sequence timestamps Imogen in the Grand Gallery continuously through the poisoning window; Avery had to be behind the camera for the series.",
+      "B": "TORN PRINT - A corner torn from Avery's hidden backup photograph was found beside Sterling's service with a fresh cordial stain across the emulsion."
+    }
+  },
+  {
+    "id": "27",
+    "slug": "27_Juno_March",
+    "name": "Juno March",
+    "role": "Cultural Restitution Activist & Nonprofit Organizer",
+    "age": 35,
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Juno campaigns for museums and collectors to return contested cultural objects, publish complete provenance, and stop treating possession as the end of the conversation. She is articulate, strategic, and much more interested in leverage than theatrics—although she knows theatrics can create leverage.",
+      "relationships": [
+        "Frequently debates Marcus Pryce and Vivienne Marrow on strategy.",
+        "Everett Locke has removed Juno from a museum event before; both remember it.",
+        "Maya Bell quietly agrees with more of Juno's critique than museum leadership suspects."
+      ],
+      "acting": "Focused, bold, principled, socially savvy. Challenge people without turning every conversation into a speech.",
+      "costume": "Optional inspiration: Smart gala attire with activist edge: bold pin, statement scarf, printed tote, elegant suit or dress. A bold accessory may be all you need."
+    },
+    "private": {
+      "history": "Sterling had you removed from a previous museum event and threatened legal action if you disrupted tonight's unveiling.",
+      "secret": "You planted small 'PROVENANCE IS A VERB' stickers in several gallery brochures for a peaceful protest. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Vivienne has been conducting quiet restitution talks connected to the exhibition.",
+        "Marcus says Sterling suppressed provenance research rather than answer it."
+      ],
+      "innocent": "Marcus was debating you in public during the entire critical window.",
+      "murderer": "You slipped into the salon at 6:45, poisoned the cordial, and left adhesive backing from one of your stickers.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I planted small protest stickers in the museum brochures. That was the disruption I planned. Sterling had threatened legal action if I interfered with the unveiling, but Marcus and I were publicly arguing during the crucial minutes. My protest was supposed to make people look at the evidence, not become it.",
+      "final_murderer": "Sterling treated every request for transparency as an attack on ownership. I slipped into the salon, poisoned his cordial, and dropped the backing from one of my protest stickers beneath the tray. I wanted an institution to return what did not belong to it. I crossed a line no cause gave me permission to cross."
+    },
+    "evidence": {
+      "B": "PUBLIC DEBATE - Marcus confirms Juno was arguing restitution policy with him in full view throughout the poisoning window.",
+      "A": "STICKER BACKING - Adhesive backing from one of Juno's hidden protest stickers was found under Sterling's glass tray with a trace of the poisoned cordial."
+    }
+  },
+  {
+    "id": "28",
+    "slug": "28_Penny_Varnish",
+    "name": "Penny Varnish",
+    "role": "Eccentric Private Collector",
+    "age": 62,
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Penny collects small paintings, strange decorative objects, and stories about who owned them before she did. She is wealthy enough to ignore trends and old enough to enjoy doing so publicly. Penny has a habit of wandering away from tours and returning with better information than the guide provided.",
+      "relationships": [
+        "Old friend of Beatrice Plinth.",
+        "Knows Conrad Gavel from decades of auctions.",
+        "Daphne Palette alternates between finding Penny inspiring and alarming."
+      ],
+      "acting": "Eccentric, charming, nosy, unexpectedly shrewd. Ask questions that sound casual and are not.",
+      "costume": "Optional inspiration: Eclectic formalwear: vintage jewelry, dramatic brooches, velvet, patterned jacket, gloves, small opera glasses or fan."
+    },
+    "private": {
+      "history": "One decorative object in the exhibition once belonged to your family. You believe Sterling acquired it through a manipulative private sale decades ago.",
+      "secret": "You brought old correspondence proving your family contested that sale and planned to confront him tonight. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Beatrice has old concerns about paperwork on Sterling's earliest donations.",
+        "Sienna's relationship with Sterling has been unusually tense over family philanthropy."
+      ],
+      "innocent": "Beatrice and Conrad were with you discussing the old sale during the key window.",
+      "murderer": "You entered at 6:43, poisoned the cordial, and dropped one page of the old correspondence near the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "My family contested the sale of an object Sterling later acquired, and I brought the old letters because I intended to confront him. I was not subtle about that. Sienna and Theo were with me at the centerpiece throughout the poisoning window. I came to reclaim a story, not take a life.",
+      "final_murderer": "Sterling dismissed my family's letters as sentimental paperwork. I brought them into the salon, poisoned his cordial, and left one page beneath the glass. I have spent years collecting objects because stories cling to them. This page will carry mine forever."
+    },
+    "evidence": {
+      "A": "COLLECTOR'S ALIBI - Sienna and Theo both remember Penny examining the centerpiece with them from 6:41 through 6:49.",
+      "B": "FAMILY LETTER - One page of Penny's decades-old ownership correspondence was found on Sterling's service table with a wet cordial ring across the signature."
+    }
+  },
+  {
+    "id": "29",
+    "slug": "29_Leo_Taggart",
+    "name": "Leo Taggart",
+    "role": "Tulsa Arts Columnist & Local Historian",
+    "age": 30,
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Leo knows which gallery used to be a bank, which donor funded which wing, and which local art feud is still alive despite everyone involved pretending otherwise. His column is affectionate, gossipy, and read by exactly the people who claim they never read it.",
+      "relationships": [
+        "Has profiled Adrian Vellum and Beatrice Plinth.",
+        "Friendly with Maya Bell and Avery Lens.",
+        "Nadia Quill considers Leo useful when she needs Tulsa context and dangerous when he starts telling stories."
+      ],
+      "acting": "Friendly, curious, locally knowledgeable, a little nosy. You connect people and remember old stories.",
+      "costume": "Optional inspiration: Cocktail suit or blazer, vintage Tulsa flair if desired, notebook, press card prop, old museum brochure tucked into pocket."
+    },
+    "private": {
+      "history": "Sterling fed you several flattering claims for an earlier profile that you later discovered were exaggerated. He threatened to cut off access if you corrected them.",
+      "secret": "You are preparing a correction that will also make you look embarrassingly credulous. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Nadia is preparing a major investigation involving Sterling's collection.",
+        "Beatrice remembers the museum's early Voss acquisitions very differently from the current polished story."
+      ],
+      "innocent": "Nadia's notes and Maya both place you in the dining room during the key minutes.",
+      "murderer": "You entered at 6:46 for a quote, poisoned the cordial, and left your distinctive press pencil beneath the service table.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent_card": "B",
+      "murderer_card": "A",
+      "final_innocent": "I repeated flattering claims Sterling fed me in an old profile, and I am preparing a correction that will make me look gullible. He threatened to cut off access if I ran it. Nadia's notes place me with her while the poison was added. Bad journalism is not murder, though tonight has made the distinction unusually comforting.",
+      "final_murderer": "Sterling built part of his local legend by feeding me stories I was too pleased to verify. He planned to punish me for correcting them. I went in for one last quote, poisoned his cordial, and left my old press pencil beneath the tray. I wanted to revise the record. I became the headline."
+    },
+    "evidence": {
+      "B": "REPORTER'S CROSS-CHECK - Nadia's notebook contains details from a conversation with Leo during the poisoning window that only Leo could have supplied.",
+      "A": "PRESS PENCIL - Leo's vintage Meridian-branded press pencil was found beneath Sterling's tray with cordial on the sharpened end."
+    }
+  },
+  {
+    "id": "30",
+    "slug": "30_Riley_Bloom",
+    "name": "Riley Bloom",
+    "role": "Gala Event Designer & Creative Producer",
+    "age": 32,
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Riley creates the visual spectacle around events like tonight: flowers, lighting, table styling, entrances, reveals, and the precise moment everyone is supposed to gasp. They are exuberant, fast-moving, and convinced that restraint is wonderful when somebody else is responsible for it.",
+      "relationships": [
+        "Works constantly with Lucian Gable, who removes half of Riley's ideas.",
+        "Felix Savoy is Riley's favorite partner in event logistics.",
+        "Margot Ledger is the person who asks what Riley's ideas cost."
+      ],
+      "acting": "Energetic, aesthetic, affectionate, slightly chaotic but highly competent. You notice atmosphere first.",
+      "costume": "Optional inspiration: Creative formalwear: floral pin, velvet jacket, unusual bow tie, colorful suit, statement glasses. Optional ribbon swatches or mini lighting plan."
+    },
+    "private": {
+      "history": "Sterling ordered you to add a gaudy lighting cue to the unveiling and threatened to withhold payment when Lucian objected.",
+      "secret": "You secretly changed the cue again after approval, causing the eerie light flickers guests noticed during Act I. Do not volunteer this immediately. In Act II, protect it unless interrogation forces your hand; in Act III, reveal it if you need to defend yourself.",
+      "objectives": [
+        "Protect your private complication until you decide disclosure helps you.",
+        "Use your public relationships to trade information rather than waiting for clues to come to you.",
+        "Ask at least two people where they were during the poisoning window."
+      ],
+      "knowledge": [
+        "Sterling borrowed heavily from Imogen's concept for the gala reveal.",
+        "Lucian has been threatened with nonpayment over a last-minute display demand."
+      ],
+      "innocent": "Lucian was with you adjusting the centerpiece lighting through the critical window.",
+      "murderer": "You entered the salon at 6:44 to retrieve a lighting remote, poisoned the cordial, and left a gold ribbon fiber on the tray.",
+      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent_card": "A",
+      "murderer_card": "B",
+      "final_innocent": "I secretly changed the approved lighting cue, which is why the centerpiece flickered so ominously during Act I. Sterling had demanded something gaudier, Lucian hated it, and I tried to split the difference without telling either of them. The lighting log puts me at the console when the drink was poisoned.",
+      "final_murderer": "Sterling threatened not to pay unless I gave him the spectacle he wanted, then prepared to blame me for the result. I went into the salon under cover of retrieving a remote, poisoned the cordial, and left a gold ribbon fiber on the glass. I wanted one perfect gasp tonight. I got the wrong one."
+    },
+    "evidence": {
+      "A": "LIGHTING LOG - Lucian's cue sheet and the control console both place Riley beside the centerpiece lights throughout the poisoning window.",
+      "B": "GOLD RIBBON FIBER - A metallic gold ribbon fiber from Riley's gala styling kit was found caught in the wiped stem of Sterling's glass."
+    }
+  }
+]
