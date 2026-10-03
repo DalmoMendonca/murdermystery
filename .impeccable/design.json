@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T16:38:47Z",
+  "generatedAt": "2026-10-03T18:18:30Z",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
@@ -68,9 +68,9 @@
       "name": "Evidence Card",
       "kind": "custom",
       "refersTo": "evidence-card",
-      "description": "A neutral A/B cuttable print card; preview falls back to serif when the private build font is absent.",
-      "html": "<article class=\"evidence\"><strong>Guest name / Card A</strong><h3>EVIDENCE UPDATE</h3><p>Evidence is read privately at the gala.</p><small>Submit face down only when your packet tells you to.</small></article>",
-      "css": ".evidence{width:252pt;height:272pt;padding:13pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.evidence strong{font-size:15pt;color:#057294}.evidence h3{font-size:14pt;margin:5pt 0 13pt}.evidence small{font-size:12pt}"
+      "description": "One full-width cuttable A/B card; both cards stack on the same guest sheet. Preview falls back to serif when the private build font is absent.",
+      "html": "<article class=\"evidence\"><strong>ID / Guest name / Card A</strong><p>Evidence is read privately at the gala.</p><small>Select privately at Hearing 3 / Keep unused card hidden</small></article>",
+      "css": ".evidence{width:528pt;height:293pt;padding:16pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.evidence strong{font-size:20pt;color:#057294}.evidence p{margin:14pt 0}.evidence small{font-size:12pt}"
     }
   ],
   "narrative": {
@@ -79,9 +79,11 @@
     "keyCharacteristics": [
       "Large narrative type",
       "Single-page phone introductions",
-      "Cuttable evidence pairs",
-      "Host-blind packaging",
-      "Flat square-corner geometry"
+      "Four-page guided playable packets",
+      "Boxed safe speech with private outside labels",
+      "One guest per vertically stacked evidence pair",
+      "Separately sealed finales",
+      "Shared questions and ID hearing roster"
     ],
     "rules": [
       {
@@ -96,13 +98,16 @@
       }
     ],
     "dos": [
-      "Preserve canonical game logic and both private branches.",
+      "Preserve the implemented hearing and branch logic.",
+      "Keep selection labels outside speech boxes.",
+      "Keep finales separately sealed until ballots are collected.",
       "Print single-sided at 100% and cut dashed borders.",
       "Embed PDF fonts without shipping standalone font binaries."
     ],
     "donts": [
       "Do not replace the independent homepage system.",
       "Do not send private packets as pre-party introductions.",
+      "Do not put confessions inside playable packets.",
       "Do not shrink narrative text to conceal overflow."
     ]
   }

@@ -14,3 +14,12 @@ Treat these as release blockers:
 - Printables have no clipping, overlap, broken glyphs, or unreadably small type.
 - Final ballots/confessions work for any eligible murderer.
 - Optional-role absence cannot break the main deduction chain.
+
+## Mandatory hearing invariants
+
+- Three scripted hearings include every attending guest; attendance ticks and collected-card counts agree.
+- Guests read only selected speech boxes and their submitted card. Private routing labels stay outside speech boxes.
+- Crime narratives and confessions occur only in spoiler source/bible and separately sealed finales.
+- Innocent alibis use independent stationed staff and never depend on optional guest attendance. Exactly one authenticated card contradicts the selected killer's claimed whereabouts.
+- All 15 core murder times match their incident evidence. Lock ballots before the finale.
+- Re-render all PDFs and visually inspect changed layouts. Human timing/playtest and intended-printer proof remain separate validation tasks.

@@ -31,3 +31,7 @@ Generic SaaS landing pages, faux luxury cards, tiny type, recovered-PDF line bre
 ## Accessibility & Inclusion
 
 High-contrast book type. Body text at least 14 pt; introductions 16–20 pt. No font installation, phone mechanics or QR codes required during play. Costume suggestions remain optional.
+
+## Structured play revision
+
+Casual guests must be able to complete the investigation by following printed steps. Acting is optional; factual alibis and evidence answers are scripted. Three hearings give every guest a turn. Evidence and finales have separate sealed release gates. No active play packet contains the murder narrative. Preserve readable teal/book typography while building the museum world through collection labels, absurd art-world names and optional costume inspiration. Characters have no ages; animal identifiers use familiar unique animals. Invitation address: 1537 S 74th East Ave, Tulsa, OK 74112.

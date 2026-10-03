@@ -27,7 +27,8 @@ def verify():
         if 'PreParty_Individual' in rel:
             assert len(doc)==1,rel
             assert all(s not in doc[0].get_text() for s in ['WHAT YOU ALREADY KNOW','HOW TO PLAY THEM','OPTIONAL QUIPS','Sterling Voss','Page 1','CORE','SECONDARY','TERTIARY']),rel
-        if 'Secret_Individual' in rel:assert len(doc)==2,rel
+        if 'Secret_Individual' in rel:assert len(doc)==4,rel
+        if 'Finale_Individual' in rel:assert len(doc)==1,rel
         doc.close()
     for c in chars:
         assert set(c['evidence'])=={'A','B'}

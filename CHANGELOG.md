@@ -1,3 +1,7 @@
+# Guided hearings and absurd cast - 2026-10-03
+
+Thirty pun names; Grant Larceny donor; ages removed; familiar animal lists; real address. Replaced unstructured investigation with motive/whereabouts/evidence hearings, turn roster and prepared speech. Confessions physically separated. Rebuilt alibis and timed evidence, removed optional/core contradictions, locked ballots before reveal. Added branch simulations and stricter content checks.
+
 # Print overhaul - 2026-10-03
 
 Measured Libron layouts; 30 one-page introductions and PNGs; two-page private packets; aligned neutral A/B cards and host-safe assembly map; large museum signs, labels, ballots, certificates and cuttable clues; semantic host guide; flowing spoiler bible; complete rendering/content verification. Original v1 sources retained; generated release committed.

@@ -6,16 +6,18 @@ Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 
 
 [Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
 
-The kit contains 80 PDFs (294 pages including combined copies), 30 single-page character PNGs and a read-me. Start with `00_READ_ME_FIRST.pdf`. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle `PRINT_WITHOUT_READING` face down using the separate blind assembly guide. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
+The kit contains 113 PDFs (493 pages including combined copies), 30 single-page character PNGs and a read-me. Start with `00_READ_ME_FIRST.pdf`. Each guest has four play pages, both cards sealed in an EVIDENCE envelope, and a separate sealed FINALE page. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle `PRINT_WITHOUT_READING` face down using the separate blind assembly guide. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
 
 ## Editable sources
 
-- `source/characters.json`: canonical structured introductions, private routes, final statements and A/B evidence.
+- `source/characters.json`: canonical structured introductions, safe hearing scripts, private canon, sealed confessions and A/B evidence.
+- `source/game.json`: address, shared questions and disjoint familiar animal lists.
+- `source/name_map.json`: simultaneous aliases applied to archived source text.
 - `source/facilitator.json`: intentionally paginated host-safe guide with tables and checklists.
-- `source/v1/`: preserved original precursors; still supplies clues, animal assignment text, exhibit descriptions, invitation and canonical murder facts. Structured character/facilitator JSON supersedes their flattened counterparts.
+- `source/v1/`: preserved original precursors; still supplies clues, animal assignment text, exhibit descriptions and invitation. Structured character/facilitator JSON supersedes their flattened counterparts.
 - `scripts/build.py`: measured ReportLab layouts, embedded Libron, PNG exports and ZIP packaging.
 - `scripts/verify.py`: renders every PDF page, checks bounds/type/glyphs and maps exact visual duplicates.
-- `scripts/check_content.py`: branch/evidence preservation checks against generated PDFs.
+- `scripts/check_content.py`: hearing/branch/evidence preservation checks against generated PDFs.
 - `scripts/migrate_v1_characters.py`: one-time migration of flattened v1 character columns. Do not rerun after editing canonical JSON.
 - `scripts/archive/build_v1.py`: historical generator, not used for builds.
 - `docs/`: game brief, design, reference study, manifest and release QA evidence.

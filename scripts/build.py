@@ -12,6 +12,7 @@ ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site';WORK=ROOT/'build';SRC=
 KIT=SITE/'downloads/current/The_Last_Acquisition_Complete_Kit'
 INK=HexColor('#132e38');TEAL=HexColor('#057294');RED=HexColor('#8b2636');W,H=612,792
 AUDIT=[]
+GAME=json.loads((ROOT/'source/game.json').read_text(encoding='utf-8'))
 def fonts():
     dest=WORK/'fonts';dest.mkdir(parents=True,exist_ok=True)
     if not (dest/'Libron-Regular.ttf').exists():
@@ -52,14 +53,16 @@ def merge(paths,out):
     with out.open('wb') as f:writer.write(f)
     writer.close()
 def load_doc(key):
-    p=SRC/f'{key}.md';return p.read_text(encoding='utf-8') if p.exists() else '\n'.join(p.read_text(encoding='utf-8') for p in sorted((SRC/key).glob('*.md')))
+    p=SRC/f'{key}.md';text=p.read_text(encoding='utf-8') if p.exists() else '\n'.join(p.read_text(encoding='utf-8') for p in sorted((SRC/key).glob('*.md')))
+    pairs=json.loads((ROOT/'source/name_map.json').read_text(encoding='utf-8'));lookup=dict(pairs)
+    return re.sub('|'.join(re.escape(k) for k in sorted(lookup,key=len,reverse=True)),lambda m:lookup[m[0]],text)
 def preparty(chars):
     paths=[]
     for c in chars:
         path=KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf';s=Sheet(path,c['name'])
         s.rect(30,30,552,732,stroke=TEAL);s.rect(30,30,552,151,fill=TEAL,stroke=TEAL)
-        s.block('Treasures of the World',48,46,516,18,'BookItalic',white);s.block(c['name'],48,76,516,36,'BookBold',white)
-        s.block(c['role']+f' / Age {c["age"]}',48,131,516,16,'Book',white,bottom=177)
+        s.block('The Living Collection / Treasures of the World',48,46,516,16,'BookItalic',white);s.block(c['name'],48,76,516,36,'BookBold',white)
+        s.block(c['role'],48,131,516,16,'Book',white,bottom=177)
         p=c['preparty']
         def measure(size):
             y=200+para(p['description'],516,size)[1]+12
@@ -75,55 +78,6 @@ def preparty(chars):
             y=s.block(heading,48,y,516,16,'BookBold',TEAL)+6;y=s.block(p[key],48,y,516,size,bottom=730)+17
         s.block('October 30, 2026 / Meridian Museum Gala',48,739,516,12,'Book',TEAL,bottom=758);s.save();paths.append(path)
     merge(paths,KIT/'OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf')
-def secret_packets(chars):
-    paths=[]
-    for c in chars:
-        path=KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf';s=Sheet(path,c['name']+' / private packet');p=c['private'];s.header('PRIVATE / Open at the gala',True)
-        y=s.block(c['name'],42,96,528,30,'BookBold')+5;y=s.block('ACT I / Before the murder',42,y,528,18,'BookBold',TEAL)+15
-        for title,key in [('Your history with Sterling','history'),('What you are hiding','secret')]:
-            y=s.block(title,42,y,528,16,'BookBold')+5;y=s.block(p[key],42,y,528,14)+12
-        for title,key in [('Your objectives','objectives'),('What you know about other guests','knowledge')]:
-            y=s.block(title,42,y,528,16,'BookBold')+5
-            for item in p[key]:y=s.block('• '+item,42,y,528,14)+5
-            y+=7
-        if y<650:
-            y=s.block('Notes / Who will you speak to first?',42,y+8,528,14,'BookItalic',TEAL)+18
-            while y<725:s.line(42,y,570,y);y+=25
-        s.footer('STOP / Turn over only after the murder announcement');s.next();s.header(c['name']+' / PRIVATE',True)
-        y=s.block('ACT II / After Sterling dies',42,97,528,22,'BookBold',TEAL)+8
-        y=s.block('Follow your assigned branch. Keep it private. If you are the murderer, the innocent branch is a cover story you may claim.',42,y,528,14)+12
-        tops=[]
-        for x,key,title in [(42,'innocent','IF INNOCENT'),(318,'murderer','IF MURDERER')]:
-            a=s.block(title,x,y,252,16,'BookBold',TEAL)+7;tops.append(s.block(p[key],x,a,252,14)+16)
-        y=max(tops);s.line(42,y,570,y);y+=13;y=s.block('ACT III / Evidence update',42,y,528,18,'BookBold',TEAL)+5
-        y=s.block(p['evidence_instruction'],42,y,528,14)+15;y=s.block('FINAL STATEMENT / Read only if called',42,y,528,16,'BookBold')+8
-        end=[]
-        for x,key,title in [(42,'final_innocent','IF INNOCENT'),(318,'final_murderer','IF MURDERER')]:
-            a=s.block(title,x,y,252,14,'BookBold',TEAL)+5;end.append(s.block(p[key],x,a,252,14,bottom=739))
-        if max(end)<655:
-            y=s.block('Investigation notes',42,max(end)+18,528,14,'BookItalic',TEAL)+22
-            while y<726:s.line(42,y,570,y);y+=25
-        s.footer('Keep this packet and the unused evidence card private.');s.save();paths.append(path)
-    merge(paths,KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
-def evidence(chars):
-    s=Sheet(KIT/'PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','Character evidence / print without reading')
-    for i in range(0,30,2):
-        s.header(f'PRINT FACE DOWN / Evidence pairs {i+1:02}-{i+2:02}',True)
-        for row,c in enumerate(chars[i:i+2]):
-            top=100+row*323;s.block(f'{c["id"]} / {c["name"]} / Pack BOTH cards together',42,top,528,14,'BookBold')
-            for x,letter in [(42,'A'),(318,'B')]:
-                y=top+29;s.rect(x,y,252,272,dash=[3,3]);a=s.block(f'{c["name"]} / Card {letter}',x+13,y+13,226,15,'BookBold',TEAL)
-                a=s.block('EVIDENCE UPDATE',x+13,a+5,226,14,'BookBold')+13;s.block(c['evidence'][letter],x+13,a,226,14,bottom=y+225)
-                s.block('Submit face down only when your packet tells you to.',x+13,y+229,226,12,bottom=y+270)
-        s.footer('Cut dashed borders / One A/B pair per labeled envelope')
-        if i<28:s.next()
-    s.save()
-    safe=Sheet(KIT/'OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf','Blind printing and assembly');safe.header('Host-safe assembly guide');y=safe.block('Print. Cut. Seal.',42,98,528,32,'BookBold')+14
-    for t in ['Print single-sided at Actual size (100%). Do not use booklet mode or two pages per sheet. Print private files face down; keep the output tray covered. If your printer outputs face up, ask a non-playing helper to handle exposed text.','Each guest gets two consecutive private pages and both A/B cards. Seal them in a labeled envelope. Each individual PDF has the same two private pages.','Evidence: 15 sheets, two guests per sheet. Cut each dashed rectangle. The two cards in each row belong together. A/B assignments vary by guest; letters do not identify guilt.','Clues: hide 1–16 by the safe placement table. Keep F1–F5 face down until Act III.']:
-        y=safe.block(t,42,y,528,14)+12
-    y=safe.block('Evidence sheet / envelope names',42,y,528,18,'BookBold',TEAL)+8
-    for i in range(0,30,2):y=safe.block(f'{i//2+1:02}   {chars[i]["name"]} + {chars[i+1]["name"]}',42,y,528,14)+2
-    safe.footer('OPEN FREELY / No evidence or branch assignments');safe.save()
 def card_document(path,title,cards,per_page=2):
     s=Sheet(path,title)
     for start in range(0,len(cards),per_page):
@@ -138,12 +92,12 @@ def card_document(path,title,cards,per_page=2):
 def clues():
     text=load_doc('clues_forensics');cards=[]
     for m in re.finditer(r'(?m)^(\d+)\. ([^\n]+)\n+(.+?)(?=\n\d+\. |\nFixed Forensic Evidence)',text,re.S):cards.append((f'ACT I / Discovery {int(m[1]):02}',m[2],flat(m[3]),'note' if m[1] in ['3','6'] else 'record'))
-    for m in re.finditer(r'(?m)^(F\d) - ([^\n]+)\n+(.+?)(?=\nF\d - |\Z)',text,re.S):cards.append((f'ACT III / {m[1]} / Release together',m[2].title(),flat(m[3]),'record'))
+    for m in re.finditer(r'(?m)^(F\d) - ([^\n]+)\n+(.+?)(?=\nF\d - |\Z)',text,re.S):cards.append((f'{"ACT II" if m[1] in ["F1","F2","F3","F4"] else "ACT III"} / {m[1]} / Staged release',m[2].title(),flat(m[3]),'record'))
     assert len(cards)==21
-    cards.append(('ACT III / Evidence table','Read the five reports together','Release F1–F5 at the start of Act III. Compare timing, access and each character’s evidence update. Keep unused A/B evidence cards private.','record'))
+    cards.append(('EVIDENCE TABLE / Release order','Three releases, three hearings','Read F1–F2 after the death. Read F3–F4 before the whereabouts hearing. Read F5 before collecting character cards. Every guest reads their selected card and prepared reply in Hearing 3. Keep unused cards hidden.','record'))
     card_document(KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf','PRINT WITHOUT READING / Clues & forensics',cards)
 def props(chars):
-    parts=[];core='ANTELOPE BADGER COUGAR DOLPHIN EGRET FOX GAZELLE HERON IBIS JAGUAR KOALA LYNX MARMOT OTTER RABBIT'.split();optional=['NEWT','PANDA','QUAIL','SEAL','TIGER','URCHIN','VIPER','WOLF','X-RAY TETRA','YAK','ZEBRA','MOOSE','PENGUIN','SHARK','TURTLE']
+    parts=[];core=GAME['core_animals'];optional=GAME['optional_animals']
     s=Sheet(KIT/'OPEN_FREELY/Animal_Draw_Cards.pdf','Animal draw cards')
     for n,(names,label) in enumerate([(core,'PLAYER BOWL A / 15 core animals'),(core,'MURDERER BOWL B / Matching 15 animals'),(optional,'OPTIONAL BOWL / Never add these to Bowl B')]):
         s.header(label)
@@ -176,10 +130,10 @@ def props(chars):
 def invitation():
     s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival');s.rect(30,30,552,732,stroke=TEAL);s.rect(30,30,552,270,fill=TEAL,stroke=TEAL)
     s.block('The Meridian Museum',52,55,508,24,'BookBold',white);s.block('of Art & World Cultures',52,89,508,18,'Book',white)
-    s.block('Treasures\nof the World',52,145,508,44,'BookBold',white,bottom=293);y=s.block('The Sterling Voss Collection',52,327,508,22,'BookItalic',TEAL)+23
-    for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),('Tulsa, Oklahoma',18,'Book'),('Location: __________________________________',16,'Book'),('An opening-night gala celebrating art and culture from around the world, culminating in the unveiling of the thirteenth-century Isfahan Star Bowl.',18,'Book'),('Formal gala attire with art-world flair. Your character’s costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your separate character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,52,y,508,size,font,bottom=732)+16
+    s.block('Treasures\nof the World',52,145,508,44,'BookBold',white,bottom=293);y=s.block('The Grant Larceny Collection',52,327,508,22,'BookItalic',TEAL)+23
+    for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),(GAME['address'],18,'Book'),('An opening-night gala celebrating art and culture from around the world, culminating in the unveiling of the thirteenth-century Isfahan Star Bowl.',18,'Book'),('Formal gala attire with art-world flair. Your character’s costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your separate character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,52,y,508,size,font,bottom=732)+16
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
-    rules=['Draw one animal from the appropriate bowl. Memorize it; never tell anyone which animal you drew.','Keep phones put away. Everything you need for the game is physical.','During Act I, bring each discovered clue to the Evidence Table. You earn one point; the clue becomes public.','Stay in character as much as you enjoy. You never have to perform a speech on demand.','After the murder, innocents may evade, omit, or deflect but may not invent false facts. The murderer may lie.','Open each part of your private packet only when the game tells you to use it.']
+    rules=['Keep your animal slip tucked inside your packet. Never share it. You can check the word instead of relying on memory.','Keep phones put away. Everything you need is printed.','Act I: introduce yourself, try the three social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Keep the separate FINALE envelope sealed until all ballots are collected.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
     s.footer('The Last Acquisition / October 30, 2026');s.save()
 STYLE=ParagraphStyle('Body',fontName='Book',fontSize=14,leading=18,spaceAfter=9,allowWidows=0,allowOrphans=0,textColor=INK)
@@ -204,7 +158,7 @@ def exhibits():
     text='THE ISFAHAN STAR BOWL'+text
     groups=re.findall(r'(?m)^([A-Z][A-Z &]+)\n([^\n]+)\n+([^\n]+)\n+(.+?)(?=\n[A-Z][A-Z &]+\n|\Z)',text,re.S)
     cards=[('TREASURES OF THE WORLD',name.title(),flat(place)+' / '+flat(material)+'\n\n'+flat(body),'record') for name,place,material,body in groups if name!='TREASURES OF THE WORLD'];assert len(cards)==9,len(cards)
-    cards.append(('TREASURES OF THE WORLD','The Voss Collection','The Meridian Museum of Art & World Cultures\nOpening-night gala / October 30, 2026\n\nAn exhibition of art and culture from around the world. All objects and collection histories in this party kit are fictional.','record'))
+    cards.append(('TREASURES OF THE WORLD','The Larceny Collection','The Meridian Museum of Art & World Cultures\nOpening-night gala / October 30, 2026\n\nAn exhibition of art and culture from around the world. All objects and collection histories in this party kit are fictional.','record'))
     card_document(KIT/'OPEN_FREELY/Exhibit_Placards.pdf','TREASURES OF THE WORLD / Exhibit placards',cards)
     manual('Staging the museum',[(None,load_doc('exhibits_decor').split('LOW-COST STAGING GUIDE')[1])],KIT/'OPEN_FREELY/Staging_Guide.pdf')
     merge([KIT/'OPEN_FREELY/Exhibit_Placards.pdf',KIT/'OPEN_FREELY/Staging_Guide.pdf'],KIT/'OPEN_FREELY/07_Museum_Exhibits_and_Decor.pdf')
@@ -218,7 +172,7 @@ def awards():
         if i%2==0:s.header('THE MERIDIAN MUSEUM / Gala awards')
         top=100+(i%2)*320;s.rect(42,top,528,299,stroke=TEAL);s.block('TREASURES OF THE WORLD',62,top+22,488,16,'Book',TEAL);s.block(title,62,top+66,488,34,'BookBold');s.block(desc,62,top+121,488,16,'BookItalic');s.block('Awarded to',62,top+204,488,14);s.line(62,top+259,550,top+259)
         if i%2==1:s.footer('Cut each certificate at its border');s.next()
-    s.block('Awarding Escaped Justice',42,431,528,22,'BookBold',TEAL);s.block('Tally accusations first. If the actual murderer is outside the top three, award Escaped Justice; then ask the murderer animal to identify themselves and read their final statement.',42,476,528,16);s.footer('Cut each certificate at its border');s.save()
+    s.block('Awarding Escaped Justice',42,431,528,22,'BookBold',TEAL);s.block('Collect and lock all ballots first. Tally the top three suspects. Then ask the murderer animal to identify themselves and open their separate finale envelope. If outside the top three, award Escaped Justice.',42,476,528,16);s.footer('Cut each certificate at its border');s.save()
     merge([KIT/'OPEN_FREELY/Scavenger_Score_Sheet.pdf',KIT/'OPEN_FREELY/Award_Certificates.pdf'],KIT/'OPEN_FREELY/08_Awards_and_Scoring.pdf')
 def readme():
     s=Sheet(KIT/'00_READ_ME_FIRST.pdf','Read me first');s.header('READ ME FIRST / Host-safe');y=s.block('The Last Acquisition',42,103,528,34,'BookBold')+12;y=s.block('October 30, 2026 / Tulsa / 15–30 guests',42,y,528,18,'BookItalic',TEAL)+20
@@ -240,12 +194,14 @@ def facilitator(chars):
     def frame(c,doc):
         c.setFillColor(TEAL);c.setFont('BookBold',14);c.drawString(42,758,'MERIDIAN / 2026');c.setFont('Book',14);c.drawString(42,733,'FACILITATOR GUIDE / Open freely');c.setStrokeColor(INK);c.line(42,719,570,719);c.setFont('Book',12);c.drawString(42,24,'Host-safe / '+str(doc.page))
     SimpleDocTemplate(str(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'),pagesize=(W,H),leftMargin=42,rightMargin=42,topMargin=90,bottomMargin=48,title='Facilitator guide',invariant=1).build(story,onFirstPage=frame,onLaterPages=frame)
+    import fitz
+    with fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf') as doc:assert len(doc)==len(pages),'Facilitator section spilled onto an unplanned page'
 def spoiler(chars):
-    sections=[('Canonical murder facts',load_doc('spoiler_bible').split('Canonical murder facts')[1].split('Character branch matrix')[0])]
+    sections=[('Canonical murder facts','Grant Larceny dies from a botanical cardiac toxin in his private silver coupe. It was introduced in the Donor Salon, 6:40–6:49. One of the attending 15 core roles is selected through the blind animal draw. Optional roles cannot be selected.\n\nAll essential facts are heard in the three mandatory hearings. Each innocent has a signed, personally witnessed continuous alibi elsewhere. The murderer claims an elsewhere cover; their submitted card contradicts it with a timed, authenticated witness at the glass. All staff witnesses are fixed fictional people, independent of attendance.\n\nThe actual murder narrative and confession are never printed in the four active-play pages. The separate named FINALE envelope opens only after ballots are collected. All fixed clues work for every eligible murderer. Warning notes and flickering lights are human-made; no curse causes the death.')]
     for c in chars:
         p=c['private'];body=[label+': '+p[key] for label,key in [('Victim relationship','history'),('Hidden complication','secret'),('Innocent route','innocent'),('Murderer route','murderer')]]
         body+=[f'Innocent evidence / Card {p["innocent_card"]}: '+c['evidence'][p['innocent_card']],f'Murderer evidence / Card {p["murderer_card"]}: '+c['evidence'][p['murderer_card']]];sections.append((c['id']+' / '+c['name'],'\n\n'.join(body)))
-    sections.append(('Difficulty & continuity',load_doc('spoiler_bible').split('Difficulty tuning rationale',1)[1]))
+    sections.append(('Difficulty & continuity','The motive hearing makes every grievance public; the whereabouts hearing supplies claims; the evidence hearing tests them. No essential evidence may be withheld. The selected murderer has one contradiction, while every innocent has a verified continuous elsewhere alibi. The puzzle is deliberately accessible to casual guests. Optional guests have independent staff alibis and do not certify another guest’s whereabouts. Scavenger finds add atmosphere and motive context but cannot block solving.'))
     manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf')
 def package():
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Complete_Kit.zip','w',zipfile.ZIP_DEFLATED) as z:
@@ -258,11 +214,102 @@ def package():
         for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore']:z.write(ROOT/name,name)
 def build_kit():
     fonts();KIT.mkdir(parents=True,exist_ok=True);chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
-    preparty(chars);secret_packets(chars);evidence(chars);clues();props(chars);invitation();exhibits();awards();readme();facilitator(chars);spoiler(chars)
+    # Clear superseded character filenames, keeping only current canonical exports.
+    for folder in ['OPEN_FREELY/PreParty_Individual','PRINT_WITHOUT_READING/Secret_Individual','PRINT_WITHOUT_READING/Finale_Individual']:
+        dest=KIT/folder
+        if dest.exists():
+            for old in dest.iterdir():
+                if old.suffix in ['.pdf','.png']:old.unlink()
+    preparty(chars);secret_packets(chars);evidence(chars);play_aids(chars);clues();props(chars);invitation();exhibits();awards();readme();facilitator(chars);spoiler(chars)
     import fitz
     for path in sorted((KIT/'OPEN_FREELY/PreParty_Individual').glob('*.pdf')):
         with fitz.open(path) as doc:
             assert len(doc)==1,path;doc[0].get_pixmap(matrix=fitz.Matrix(2,2)).save(str(path.with_suffix('.png')))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
     package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character PNGs')
+def speech(s,title,words,y=176):
+    y=s.block(title,55,y,502,16,'BookBold',TEAL)+9
+    p,h=para(words,480,16);s.rect(42,y-2,528,h+30,stroke=TEAL)
+    s.block(words,66,y+10,480,16,bottom=730)
+    return y+h+45
+
+def secret_packets(chars):
+    paths=[];finals=[]
+    for c in chars:
+        p=c['private'];h=c['hearing'];s=Sheet(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / play packet')
+        s.header('ACT I / Private background');y=s.block(c['name'],42,100,528,30,'BookBold')+16
+        for label,key in [('Your grievance with Grant','history'),('Your other secret','secret')]:
+            y=s.block(label,42,y,528,16,'BookBold',TEAL)+5;y=s.block(p[key],42,y,528,14)+13
+        y=s.block('Three things to try before dinner',42,y,528,18,'BookBold',TEAL)+8
+        tasks=['Introduce yourself to someone you do not already know. Your role and pre-party sheet are enough.']+p['objectives'][:2]
+        for n,t in enumerate(tasks):y=s.block(str(n+1)+'. '+t,42,y,528,14)+9
+        y=s.block('When a named contact is absent, discuss that issue with any guest. No task blocks the investigation.',42,y+5,528,14,'BookItalic')+15
+        s.block('Private background can be shared or withheld. Later hearings tell you exactly what must be said. No crime confession is printed in these four play pages.',42,y,528,14)
+        s.footer('STOP / Turn to Hearing 1 only when announced');s.next()
+        s.header(c['name']+' / ACT II');s.block('Hearing 1 / Motive',42,101,528,26,'BookBold')
+        y=s.block('Everyone uses this same answer. When asked the shared motive question, read only the boxed words.',42,143,528,14)+17
+        y=speech(s,'READ ALOUD / YOUR ANSWER',h['motive'],y)
+        y=s.block('Your next action',42,y+15,528,18,'BookBold',TEAL)+8
+        y=s.block('When the turn reaches the next occupied seat, ask that guest the motive question from Questions & Notes. After the hearing, write one motive you heard. You do not need to invent dialogue.',42,y,528,16)+20
+        for z in range(3):s.line(42,y+z*32,570,y+z*32)
+        s.footer('STOP / Wait for Hearing 2');s.next()
+        s.header(c['name']+' / ACT II');s.block('Hearing 2 / Whereabouts',42,101,528,26,'BookBold')
+        y=s.block('Check your kept animal slip. Read ONE boxed answer. Do not read the selection labels aloud.',42,143,528,14)+18
+        y=speech(s,'ANIMAL NOT CALLED / Read this answer',h['where_innocent'],y)
+        y=speech(s,'ANIMAL CALLED / Read this answer',h['where_murderer'],y+12)
+        s.block('Listen for the fictional 6:40–6:49 window. The real locations of guests during the party are not evidence. Use only printed story facts.',42,y+8,528,14)
+        s.footer('STOP / Wait for Hearing 3 and the evidence collection');s.next()
+        s.header(c['name']+' / ACT III');s.block('Hearing 3 / Evidence',42,101,528,26,'BookBold')
+        y=s.block(f'Open your EVIDENCE envelope. Choose privately: animal NOT called = Card {p["innocent_card"]}; animal CALLED = Card {p["murderer_card"]}. Submit only that letter. Keep the unused card hidden. Do not choose according to what looks safer.',42,142,528,14)+14
+        y=s.block('On your turn, read your submitted card first. Then read ONE boxed answer below. The facilitator will count every guest’s card before starting.',42,y,528,14)+14
+        y=speech(s,'ANIMAL NOT CALLED / Your evidence reply',h['evidence_innocent'],y)
+        y=speech(s,'ANIMAL CALLED / Your evidence reply',h['evidence_murderer'],y+10)
+        s.block('Put the read card on the Evidence Table. Keep your FINALE envelope sealed. Discuss, then vote privately.',42,y+5,528,14)
+        s.footer('FINALE IS SEPARATE / Open only after ballots are locked');s.save();paths.append(s.path)
+        f=Sheet(KIT/'PRINT_WITHOUT_READING/Finale_Individual'/f'{c["slug"]}_FINALE.pdf',c['name']+' / sealed finale');f.header('FINALE / Seal in a separate named envelope',True)
+        y=f.block(c['name'],42,102,528,30,'BookBold')+20;y=f.block('Do not open before all ballots are collected.',42,y,528,20,'BookBold',RED)+15
+        y=f.block('Only the guest holding the announced murderer animal reads a confession. Everyone else keeps this envelope closed. If opened by mistake, stop before reading the next section aloud.',42,y,528,16)+25
+        y=f.block('CONFESSION / Read only after identifying yourself',42,y,528,18,'BookBold',RED)+10
+        f.block(p['final_murderer'] if c['tier']=='CORE' else 'This role cannot be selected in the standard draw. There is no confession to read.',42,y,528,16)
+        f.footer('SPOILER / Keep separately sealed until the finale');f.save();finals.append(f.path)
+    merge(paths,KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
+    merge(finals,KIT/'PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf')
+
+def evidence(chars):
+    s=Sheet(KIT/'PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','Evidence pairs / one guest per sheet')
+    for i,c in enumerate(chars):
+        s.header(f'PRINT FACE DOWN / Pair {c["id"]} / Pack BOTH together',True)
+        for row,letter in enumerate(['A','B']):
+            y=106+row*319;s.rect(42,y,528,293,dash=[3,3]);a=s.block(c['id']+' / '+c['name']+' / Card '+letter,58,y+15,496,20,'BookBold',TEAL)+14
+            s.block(c['evidence'][letter],58,a,496,14,bottom=y+257)
+            s.block('Select privately at Hearing 3 / Keep unused card hidden',58,y+267,496,12,'Book',TEAL,bottom=y+286)
+        s.footer('Cut each dashed rectangle / Same-name A and B stay together')
+        if i<29:s.next()
+    s.save()
+
+def play_aids(chars):
+    s=Sheet(KIT/'OPEN_FREELY/11_Questions_and_Notes.pdf','Shared questions and notes');s.header('ONE COPY PER GUEST / Host-safe')
+    y=s.block('The gala hearings',42,104,528,30,'BookBold')+16
+    for heading,key in [('1 / Motive','motive'),('2 / Whereabouts','where'),('3 / Evidence','evidence')]:
+        y=s.block(heading,42,y,528,20,'BookBold',TEAL)+6;y=s.block(GAME['questions'][key],42,y,528,16)+14
+    y=s.block('How to take your turn',42,y,528,20,'BookBold',TEAL)+7;y=s.block('The guest before you asks your question. Read only your selected speech box. Then ask the same question of the next occupied seat. The facilitator ticks every guest. Reading is enough; acting is optional.',42,y,528,14)+18
+    for label in ['Suspect / motive','Claimed location, 6:40–6:49','Card that confirms or contradicts it']:
+        y=s.block(label,42,y,528,14,'BookBold')+25;s.line(42,y,570,y);y+=17
+    s.footer('Fictional witnesses are in the records / Real guest movements are not clues');s.save()
+    s=Sheet(KIT/'OPEN_FREELY/12_Attendance_and_Hearing_Roster.pdf','Attendance and hearing ticks');s.header('FACILITATOR / Host-safe')
+    s.block('Tick every guest, every hearing',42,100,528,24,'BookBold');s.block('ID / Name',42,143,330,14,'BookBold');s.block('Here / Motive / Where / Card',362,143,208,12,'BookBold')
+    for i,c in enumerate(chars):
+        y=176+i*18;s.block(c['id']+' / '+c['name'],42,y,310,12)
+        for x in [378,430,482,534]:s.rect(x,y+1,11,11)
+    s.footer('Skip absent IDs / Count cards before Hearing 3 / Lock ballots before finale');s.save()
+    s=Sheet(KIT/'OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf','Blind printing and assembly');s.header('OPEN FREELY / Blind assembly')
+    y=s.block('Print. Cut. Seal separately.',42,101,528,28,'BookBold')+18
+    for t in ['Print single-sided at 100%, face down. Cover exposed pages. Ask a non-playing helper if your printer exposes text.','Each guest: four consecutive play pages, their same-name A/B pair in a closed EVIDENCE envelope, and one FINALE page sealed in a separate named envelope. The finale never sits loose in the play packet.','Evidence sheet 01 belongs to character 01, through sheet 30 for character 30. Cut both full-width rectangles. Keep A and B together. Letters do not identify guilt.','The combined finale file is for blind printing only. Seal each page separately by name and ID. Do not send the whole file to guests.','Hide discoveries 1–16. Keep F1–F5 in order. Release F1–F2 at death, F3–F4 before Hearing 2, F5 before Hearing 3.']:
+        y=s.block(t,42,y,528,14)+12
+    y=s.block('Sheet / play packet / finale ID',42,y,528,18,'BookBold',TEAL)+9
+    for row in range(15):
+        for i,x in [(row,42),(row+15,318)]:s.block(chars[i]['id']+' / '+chars[i]['name'],x,y,252,12)
+        y+=18
+    s.footer('OPEN FREELY / Branch letters and evidence text are not shown');s.save()
+
 if __name__=='__main__':build_kit()

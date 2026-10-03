@@ -1,3 +1,5 @@
+> Current override, October 3, 2026: the user explicitly requested scripted progression and safer handling. The three mandatory hearings in `GAME_FLOW.md` supersede any earlier preference for minimal mandatory read-aloud or freeform Acts II–III. Current names and animals are in structured JSON; ages are omitted. Only 15 core roles are murderer-eligible. Original design history follows.
+
 # The Last Acquisition - Game Design Brief
 
 ## Fixed design constraints
