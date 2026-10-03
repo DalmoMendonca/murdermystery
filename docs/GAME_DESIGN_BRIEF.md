@@ -1,4 +1,4 @@
-> Current override, October 3, 2026: the user explicitly requested scripted progression and safer handling. The three mandatory hearings in `GAME_FLOW.md` supersede any earlier preference for minimal mandatory read-aloud or freeform Acts II–III. Current names and animals are in structured JSON; ages are omitted. Only 15 core roles are murderer-eligible. Original design history follows.
+> Current override, October 3, 2026: `GAME_FLOW.md` and structured source JSON are authoritative. Guests memorize and immediately return animals; privately select IF INNOCENT / IF MURDERER; ask and answer tailored questions in three mandatory rounds. Guilt requires combining salon access, cabinet access and matching linen. Confessions stay separately sealed until ballots are locked. Current donor is Grant Larceny, all names are punny, and numbered ages are removed. This supersedes older freeform progression, three pre-reveal final statements, subtle-name and age preferences. Original design history below is archival.
 
 # The Last Acquisition - Game Design Brief
 

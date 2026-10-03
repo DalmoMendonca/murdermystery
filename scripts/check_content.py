@@ -31,22 +31,50 @@ def check():
             if c['tier']=='CORE':
                 finale=text(KIT/'PRINT_WITHOUT_READING/Finale_Individual'/f'{c["slug"]}_FINALE.pdf')
                 assert norm(c['private']['final_murderer']) in norm(finale)
+    # Decode actual printed receipts, rather than merely trusting source flags.
+    def receipt_facts(c,branch):
+        value=c['evidence'][c['private'][branch+'_card']]
+        assert value.startswith('MERIDIAN / SETUP RECEIPT')
+        return ('no later entry' not in value,'no key loan' not in value,'white linen cloth, gold seam' in value)
+    for c in chars:
+        for branch in ['innocent','murderer']:
+            facts=receipt_facts(c,branch)
+            assert facts==tuple(c['case_facts'][branch][k] for k in ['salon','key','linen'])
+            where=c['hearing']['where_'+branch];method=c['hearing']['evidence_'+branch]
+            assert ('did not go back' not in where)==facts[0]
+            assert ('did not borrow' not in where)==facts[1]
+            assert ('white linen cloth with a gold seam' in method)==facts[2]
+        assert sum(receipt_facts(c,'innocent'))<=2
     cases=0
+    elimination=[]
     for killer in range(15):
         for present in [list(range(30)),list(range(15)),[i for i in range(30) if i==killer or i%3!=killer%3]]:
-            submitted=[chars[i]['evidence'][chars[i]['private']['murderer_card' if i==killer else 'innocent_card']] for i in present]
-            contradictions=[v for v in submitted if 'SALON INCIDENT RECORD' in v]
-            assert len(contradictions)==1 and chars[killer]['name'] in contradictions[0]
-            assert all('6:40' in v and '6:49' in v for v in submitted if 'SALON INCIDENT RECORD' not in v)
+            rows={i:receipt_facts(chars[i],'murderer' if i==killer else 'innocent') for i in present}
+            assert [i for i,f in rows.items() if all(f)]==[killer]
+            if present==list(range(15)):
+                counts=[sum(f[k] for f in rows.values()) for k in range(3)]
+                pairs=[sum(f[a] and f[b] for f in rows.values()) for a,b in [(0,1),(0,2),(1,2)]]
+                assert all(10<=n<=11 for n in counts),(killer,counts)
+                assert all(5<=n<=6 for n in pairs),(killer,pairs)
+                elimination.append({'killer':chars[killer]['name'],'single_clue_suspects':counts,'two_clue_suspects':pairs,'combined_suspects':1})
             cases+=1
+    catalog=text(KIT/'OPEN_FREELY/11_Questions_and_Notes.pdf')
+    for c in chars:
+        for q in c['questions'].values():assert norm(q) in norm(catalog)
+    guide=text(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf')
+    assert 'memorize' in guide.lower() and 'closed return box' in guide
+    assert len(fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'))==15
+    forbidden=['kept animal slip','Check your kept','ANIMAL NOT CALLED','ANIMAL CALLED','continuous alibi','SALON INCIDENT RECORD','I dispute the service','Listen for the fictional','guests during the party are not evidence','â€']
     invitation=text(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf');assert norm(GAME['address']) in norm(invitation)
     for pdf in KIT.rglob('*.pdf'):
         printed=text(pdf)
         assert not any(a in printed for a in oldnames),(pdf.name,'old full name')
-        assert 'Pryce' not in printed,(pdf.name,'old partial name')
+        assert 'Pryce' not in printed and 'VOSS' not in printed,(pdf.name,'old partial name')
+        assert not any(x.lower() in printed.lower() for x in forbidden),(pdf.name,'obsolete mechanic or encoding')
     for name in ['The_Last_Acquisition_Complete_Kit.zip','The_Last_Acquisition_Source.zip']:
         with zipfile.ZipFile(SITE/'downloads'/name) as z:
             assert not z.testzip()
             assert not any(n.lower().endswith(('.ttf','.otf','.woff','.woff2')) for n in z.namelist())
-    print(f'Passed 30 safe play packets, 60 card placements, isolated finales, names/address/animals, and {cases} branch/attendance simulations.')
+    (ROOT/'build/mechanics-check.json').write_text(json.dumps({'cases':cases,'elimination':elimination},indent=2),encoding='utf-8')
+    print(f'Passed 30 safe packets, 60 neutral receipt cards, memorized animals, 15-page host guide, tailored questions, and {cases} three-strand simulations.')
 if __name__=='__main__':check()

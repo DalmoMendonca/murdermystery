@@ -1,3 +1,7 @@
+# Memorized animals and three-strand investigation - 2026-10-03
+
+Rebuilt selection handling, tailored questions and all innocent/murderer speeches. No kept animal slips or pre-vote confessions. Neutral preparation receipts disclose overlapping salon, cabinet and linen facts; guilt requires all three. Staged five reports; four-page play packets; separate finales kept on host tray. Added organized 15-page host guide and 9-page question catalog. Verified 45 culprit/attendance cases and 150 draw/turn desk rehearsals. Rendered and visually reviewed all final PDF pages.
+
 # Guided hearings and absurd cast - 2026-10-03
 
 Thirty pun names; Grant Larceny donor; ages removed; familiar animal lists; real address. Replaced unstructured investigation with motive/whereabouts/evidence hearings, turn roster and prepared speech. Confessions physically separated. Rebuilt alibis and timed evidence, removed optional/core contradictions, locked ballots before reveal. Added branch simulations and stricter content checks.

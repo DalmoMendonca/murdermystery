@@ -1,11 +1,11 @@
 # Generated release manifest
 
-113 PDFs / 493 rendered pages / 290 distinct page images / 30 character PNGs. Combined documents repeat individual pages.
+113 PDFs / 510 rendered pages / 307 distinct images / 30 character PNGs. Combined documents repeat individual pages.
 
 | PDF | Pages |
 | --- | ---: |
 | `00_READ_ME_FIRST.pdf` | 1 |
-| `OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf` | 11 |
+| `OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf` | 15 |
 | `OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf` | 30 |
 | `OPEN_FREELY/04_Host_Safe_Props.pdf` | 13 |
 | `OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf` | 2 |
@@ -13,7 +13,7 @@
 | `OPEN_FREELY/08_Awards_and_Scoring.pdf` | 4 |
 | `OPEN_FREELY/09_Host_Safe_Name_Cards.pdf` | 5 |
 | `OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf` | 1 |
-| `OPEN_FREELY/11_Questions_and_Notes.pdf` | 1 |
+| `OPEN_FREELY/11_Questions_and_Notes.pdf` | 9 |
 | `OPEN_FREELY/12_Attendance_and_Hearing_Roster.pdf` | 1 |
 | `OPEN_FREELY/Animal_Draw_Cards.pdf` | 3 |
 | `OPEN_FREELY/Award_Certificates.pdf` | 3 |
@@ -116,4 +116,4 @@
 | `PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Pincher_SECRET.pdf` | 4 |
 | `PRINT_WITHOUT_READING/Secret_Individual/29_Justin_Tyme_SECRET.pdf` | 4 |
 | `PRINT_WITHOUT_READING/Secret_Individual/30_Minnie_Malist_SECRET.pdf` | 4 |
-| `SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf` | 24 |
+| `SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf` | 29 |

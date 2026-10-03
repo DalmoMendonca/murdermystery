@@ -28,24 +28,43 @@
         "Grant personally ordered Barb to take the Donor Salon camera offline for private meetings.",
         "Grant threatened to withhold Frank Lloyd Wrong's final design payment unless he accepted a last-minute display change."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the museum office, working on a confidential job offer from a rival museum. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:47 you returned to the Donor Salon under the pretense of correcting Grant's speech cards. Furious at the takeover terms, you tipped the stolen toxin into his private cordial and wiped the stem with your pocket square. You left calmly and resumed hosting.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, correcting Grant’s speech cards. I did not go back after that. I borrowed the cabinet key during setup to inspect the podium polish stored inside. I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:47 you entered the Donor Salon, correcting Grant’s speech cards. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant did not want to support the Meridian. He wanted to own it - the name, the board, the collection, and finally my chair. I went back to his salon, changed the speech cards, and changed one other thing. I poisoned the cordial he reserved for himself. Then I walked back into my own gala and kept smiling. For once, Grant's money could not buy the ending."
+      "final_murderer": "Grant wanted veto power over acquisitions, his name on the museum and my resignation within sixty days. He called that a gift. I called it a takeover. I had not agreed to surrender my museum or my job. During setup I borrowed the cabinet key and took the toxin sample. At 6:47, I used the excuse of correcting Grant’s speech cards to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Artie Ficial / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the museum office, 6:40–6:49. Their activity concerned a confidential job offer from a rival museum. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Artie Ficial / SALON INCIDENT RECORD: At 6:47, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the museum office. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:00, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting Grant’s speech cards; rescuing a champagne-spotted gala program.\nThese are the original preparation records for Artie Ficial.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:47.\nConservation key book: loan at 6:00, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting Grant’s speech cards; rescuing a champagne-spotted gala program.\nThese are the original preparation records for Artie Ficial."
     },
     "hearing": {
-      "motive": "Grant wanted his name on the building and me out of the director’s chair. Apparently the gift included a complimentary replacement director. I was furious. I did not agree to resign.",
-      "where_innocent": "I was at the museum office from 6:40 to 6:49, dealing with a confidential job offer from a rival museum. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the museum office. I was dealing with a confidential job offer from a rival museum. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the museum office throughout the whole window. It also exposes a confidential job offer from a rival museum. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the museum office. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant wanted veto power over acquisitions, his name on the museum and my resignation within sixty days. He called that a gift. I called it a takeover. I had not agreed to surrender my museum or my job.",
+      "where_innocent": "I went into the Donor Salon at 6:36, correcting Grant’s speech cards. I did not go back after that. I borrowed the cabinet key during setup to inspect the podium polish stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:47, correcting Grant’s speech cards. I borrowed the cabinet key during setup to inspect the podium polish stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:47",
+      "key_time": "6:00"
+    },
+    "questions": {
+      "motive": "Why did Grant want your resignation in the donor agreement?",
+      "opportunity": "You were correcting Grant’s speech cards. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for rescuing a champagne-spotted gala program?"
     }
   },
   {
@@ -76,24 +95,43 @@
         "Chip told you Grant pressured him to soften a conservation report.",
         "Art believes Grant has suppressed provenance research connected to at least two Larceny objects."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Registrar’s scanning desk, working on an unauthorized independent provenance review. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:44 you used a label correction as an excuse to enter the Donor Salon. Believing Grant was about to lock dubious objects permanently into the museum, you poisoned his cordial and returned to the gallery before anyone noticed.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I visited the conservation display, checking the display cleaning instructions, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, correcting the Star Bowl label. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant knew exactly what the provenance file did not prove. He wanted my name on the label anyway so that scholarship could launder possession into legitimacy. I chose the moment he was alone, poisoned the cordial, and returned to the gallery. I told myself I was protecting the museum. I was really deciding that I knew better than the law."
+      "final_murderer": "The Star Bowl’s provenance file had a major gap, and Grant knew it. He wanted the show to proceed with my approval anyway. When I objected, he threatened to remove me from the exhibition. My name is not a certificate of convenience. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of correcting the Star Bowl label to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Claire O’Scuro / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Registrar’s scanning desk, 6:40–6:49. Their activity concerned an unauthorized independent provenance review. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Claire O’Scuro / SALON INCIDENT RECORD: At 6:44, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Registrar’s scanning desk. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:44.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting the Star Bowl label; dusting the edge of a display mount.\nThese are the original preparation records for Claire O’Scuro.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:44.\nConservation key book: loan at 6:01, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting the Star Bowl label; dusting the edge of a display mount.\nThese are the original preparation records for Claire O’Scuro."
     },
     "hearing": {
-      "motive": "Grant wanted me to approve a provenance file with a decade missing. I refused to make a missing decade sound like a charming gap year. He threatened to remove me from the exhibition.",
-      "where_innocent": "I was at the Registrar’s scanning desk from 6:40 to 6:49, dealing with an unauthorized independent provenance review. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Registrar’s scanning desk. I was dealing with an unauthorized independent provenance review. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Registrar’s scanning desk throughout the whole window. It also exposes an unauthorized independent provenance review. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Registrar’s scanning desk. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "The Star Bowl’s provenance file had a major gap, and Grant knew it. He wanted the show to proceed with my approval anyway. When I objected, he threatened to remove me from the exhibition. My name is not a certificate of convenience.",
+      "where_innocent": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I visited the conservation display, checking the display cleaning instructions, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I borrowed the cabinet key during setup to inspect the display-cleaning manual stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:01"
+    },
+    "questions": {
+      "motive": "Why were you unwilling to sign Grant’s Star Bowl label?",
+      "opportunity": "You were correcting the Star Bowl label. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the edge of a display mount?"
     }
   },
   {
@@ -124,24 +162,43 @@
         "Elon was the anonymous buyer who outbid Grant in the auction everyone whispers about.",
         "Saul arranged at least one unusually discreet private sale for Grant outside normal auction-house procedure."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Media Room document terminal, working on the sale file I altered after discovering the forged certificate. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:46 you returned with a revised appraisal folder. You used the lookalike decanter as cover while slipping the toxin directly into Grant's silver coupe, then wiped the stem before leaving.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside. I carried blue disposable paper wipes, for polishing a replica decanter for photographs. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, delivering a revised appraisal. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant had enough money to survive any mistake. He wanted mine to destroy me instead. I went back with the appraisal folder, poisoned his silver coupe, and relied on one true fact - that I had already touched a lookalike decanter - to muddy the rest. In my business, provenance is everything. Tonight I created my own missing gap."
+      "final_murderer": "A sale certificate was forged before it reached me. Grant knew that, but he planned to blame me unless I refunded millions. I did not forge it. I did alter my file afterward to hide how badly my checks had failed. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of delivering a revised appraisal to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Hugh Bidder / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Media Room document terminal, 6:40–6:49. Their activity concerned the sale file the guest altered after discovering the forged certificate. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Hugh Bidder / SALON INCIDENT RECORD: At 6:46, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Media Room document terminal. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:46.\nConservation key book: loan at 6:02, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: delivering a revised appraisal; polishing a replica decanter for photographs.\nThese are the original preparation records for Hugh Bidder.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:46.\nConservation key book: loan at 6:02, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering a revised appraisal; polishing a replica decanter for photographs.\nThese are the original preparation records for Hugh Bidder."
     },
     "hearing": {
-      "motive": "Grant threatened to blame me for a forged certificate and demand millions back. I did not forge it. My paperwork afterward was less impeccable than my jacket.",
-      "where_innocent": "I was at the Media Room document terminal from 6:40 to 6:49, dealing with the sale file I altered after discovering the forged certificate. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Media Room document terminal. I was dealing with the sale file I altered after discovering the forged certificate. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Media Room document terminal throughout the whole window. It also exposes the sale file I altered after discovering the forged certificate. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Media Room document terminal. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "A sale certificate was forged before it reached me. Grant knew that, but he planned to blame me unless I refunded millions. I did not forge it. I did alter my file afterward to hide how badly my checks had failed.",
+      "where_innocent": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for polishing a replica decanter for photographs. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing a replica decanter for photographs. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:02"
+    },
+    "questions": {
+      "motive": "What was Grant demanding over the disputed sale certificate?",
+      "opportunity": "You were delivering a revised appraisal. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing a replica decanter for photographs?"
     }
   },
   {
@@ -172,24 +229,43 @@
         "Artie's future at the museum is threatened by Grant's proposed governance agreement.",
         "Anne's education program would lose funding under one version of Grant's gift conditions."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the finance office, working on an unauthorized internal transfer. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:45 you returned to obtain the signature Grant had withheld. When he mocked the accounting mess he had helped create, you poisoned his cordial. You then copied a budget sheet to create the impression your office visit happened earlier.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, getting his approval on an expense sheet. I did not go back after that. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside. I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, getting his approval on an expense sheet. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant created the problem, ordered me to hide it, and then prepared to sacrifice me for it. When he refused the signature that would have protected the museum, I poisoned his drink. Then I used the copier clock to manufacture an earlier paper trail. I have spent my career making numbers reconcile. Tonight I made a life disappear instead."
+      "final_murderer": "Grant wanted gala and naming-wing expenses hidden in restricted museum funds until his donation cleared. I refused. He threatened to blame my bookkeeping. Apparently his generous gift came with instructions for where to bury the bill. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of getting his approval on an expense sheet to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Monet Bags / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the finance office, 6:40–6:49. Their activity concerned an unauthorized internal transfer. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Monet Bags / SALON INCIDENT RECORD: At 6:45, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the finance office. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:03, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: getting his approval on an expense sheet; drying a splash on my expense folder.\nThese are the original preparation records for Monet Bags.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:03, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: getting his approval on an expense sheet; drying a splash on my expense folder.\nThese are the original preparation records for Monet Bags."
     },
     "hearing": {
-      "motive": "Grant wanted to inspect a transfer I had made without board approval. The money was not stolen, but the authorization was missing. He was preparing to make me the evening’s second exhibit.",
-      "where_innocent": "I was at the finance office from 6:40 to 6:49, dealing with an unauthorized internal transfer. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the finance office. I was dealing with an unauthorized internal transfer. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the finance office throughout the whole window. It also exposes an unauthorized internal transfer. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the finance office. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant wanted gala and naming-wing expenses hidden in restricted museum funds until his donation cleared. I refused. He threatened to blame my bookkeeping. Apparently his generous gift came with instructions for where to bury the bill.",
+      "where_innocent": "I went into the Donor Salon at 6:36, getting his approval on an expense sheet. I did not go back after that. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, getting his approval on an expense sheet. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:03"
+    },
+    "questions": {
+      "motive": "Why did Grant want gala expenses charged to restricted funds?",
+      "opportunity": "You were getting his approval on an expense sheet. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash on your expense folder?"
     }
   },
   {
@@ -220,24 +296,43 @@
         "Claire quietly commissioned an outside provenance review despite pressure to stop asking questions.",
         "Cary concealed a small installation crack until you could inspect it after opening night."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Conservation Lab, working on the treatment record whose date I changed. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "You took the toxin sample from the conservation cabinet earlier. At 6:43, while carrying a condition-report folder to Grant, you added it to his cordial and disposed of the stopper in your glove pouch.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:43, explaining the condition report. I visited the conservation display, checking the conservation stock, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:43 you entered the Donor Salon, explaining the condition report. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant wanted conservation to become theater: clean labels, clean stories, no inconvenient evidence. The toxin was already in my care. I brought him the report, poisoned the cordial, and left with the same steady hands I use on fragile things every day. I preserve objects for a living. I decided Grant Larceny was not one of them."
+      "final_murderer": "My report showed that a supposedly untouched object had been altered recently. Grant wanted that softened. He threatened to replace me with a private conservator. I preserve objects; I am not employed to preserve his version of events. During setup I borrowed the cabinet key and took the toxin sample. At 6:43, I used the excuse of explaining the condition report to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Chip Patina / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Conservation Lab, 6:40–6:49. Their activity concerned the treatment record whose date the guest changed. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Chip Patina / SALON INCIDENT RECORD: At 6:43, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Conservation Lab. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:43.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the condition report; cleaning a display tool after setup.\nThese are the original preparation records for Chip Patina.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:43.\nConservation key book: loan at 6:04, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the condition report; cleaning a display tool after setup.\nThese are the original preparation records for Chip Patina."
     },
     "hearing": {
-      "motive": "Grant pressured me to soften a conservation report. I had also changed a treatment date. I wanted both facts kept quiet. Conservators are supposed to preserve things, including their careers.",
-      "where_innocent": "I was at the Conservation Lab from 6:40 to 6:49, dealing with the treatment record whose date I changed. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Conservation Lab. I was dealing with the treatment record whose date I changed. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Conservation Lab throughout the whole window. It also exposes the treatment record whose date I changed. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Conservation Lab. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "My report showed that a supposedly untouched object had been altered recently. Grant wanted that softened. He threatened to replace me with a private conservator. I preserve objects; I am not employed to preserve his version of events.",
+      "where_innocent": "I went into the Donor Salon at 6:43, explaining the condition report. I visited the conservation display, checking the conservation stock, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:43, explaining the condition report. I borrowed the cabinet key during setup to inspect the conservation stock stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:43",
+      "key_time": "6:04"
+    },
+    "questions": {
+      "motive": "Why did Grant want your conservation report changed?",
+      "opportunity": "You were explaining the condition report. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a display tool after setup?"
     }
   },
   {
@@ -268,24 +363,43 @@
         "Grant's gala spectacle borrows heavily from an unreleased performance concept you created.",
         "Grant owns a humiliating student painting Vincent desperately does not want displayed tonight."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Media Room print counter, working on copies of the warning note I planted for my performance. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:42 you carried a silver prop into the Donor Salon as cover. You used it to stir the toxin into Grant's cordial, wiped it, and returned to Faye only moments later.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside. I carried blue disposable paper wipes, for wiping a rehearsal prop. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:42 you entered the Donor Salon, showing him the performance sketch. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant stole the piece, sanded off its teeth, and planned to present himself as the visionary behind it. So I gave him one final private performance. I carried in the silver prop, stirred poison into the cordial, and walked back into the gallery as if nothing had happened. The title, if anyone asks, is Patron, Interrupted."
+      "final_murderer": "That closing spectacle was my unreleased performance concept. Grant took it, sanitized it and planned to unveil it with himself credited as creative patron. He bought the invitation stock, not my imagination. I wanted my work and my credit back. During setup I borrowed the cabinet key and took the toxin sample. At 6:42, I used the excuse of showing him the performance sketch to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Dada DiCapo / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Media Room print counter, 6:40–6:49. Their activity concerned copies of the warning note the guest planted for their performance. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Dada DiCapo / SALON INCIDENT RECORD: At 6:42, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Media Room print counter. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:42.\nConservation key book: loan at 6:05, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: showing him the performance sketch; wiping a rehearsal prop.\nThese are the original preparation records for Dada DiCapo.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:42.\nConservation key book: loan at 6:05, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the performance sketch; wiping a rehearsal prop.\nThese are the original preparation records for Dada DiCapo."
     },
     "hearing": {
-      "motive": "Grant stole the concept for my performance and credited his foundation. My work was about appropriation. He apparently thought that was an instruction.",
-      "where_innocent": "I was at the Media Room print counter from 6:40 to 6:49, dealing with copies of the warning note I planted for my performance. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Media Room print counter. I was dealing with copies of the warning note I planted for my performance. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Media Room print counter throughout the whole window. It also exposes copies of the warning note I planted for my performance. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Media Room print counter. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "That closing spectacle was my unreleased performance concept. Grant took it, sanitized it and planned to unveil it with himself credited as creative patron. He bought the invitation stock, not my imagination. I wanted my work and my credit back.",
+      "where_innocent": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a rehearsal prop. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping a rehearsal prop. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:42",
+      "key_time": "6:05"
+    },
+    "questions": {
+      "motive": "Why was Grant taking credit for your closing performance?",
+      "opportunity": "You were showing him the performance sketch. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a rehearsal prop?"
     }
   },
   {
@@ -316,24 +430,43 @@
         "Grant owns one of your embarrassing student paintings and has been discussing displaying it.",
         "Dada has been furious that the gala spectacle resembles an unreleased concept of theirs."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Registrar’s copier, working on proxy paperwork for buying back my own early paintings. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:44 you entered with a signed sketch for Grant. You poisoned the cordial and wiped the glass, but a fleck of your distinctive cobalt studio pigment transferred from your cuff to the stem.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, asking him to withdraw the student painting. I did not go back after that. I borrowed the cabinet key during setup to inspect the varnish sample stored inside. I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, asking him to withdraw the student painting. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant thought ownership gave him the right to define me forever. He planned to turn my worst student painting into a punch line beside the work I fought to become capable of making. I brought him a sketch, poisoned the cordial, and wiped the glass. I missed one fleck of cobalt. Apparently every artist leaves a signature."
+      "final_murderer": "Grant owned a student painting I have spent years trying to buy back. Tonight he wanted it beside my celebrated work as a joke about humble beginnings. I did not consent to being the punchline of my own exhibition. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of asking him to withdraw the student painting to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Vincent Van Faux / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Registrar’s copier, 6:40–6:49. Their activity concerned proxy paperwork for buying back their own early paintings. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Vincent Van Faux / SALON INCIDENT RECORD: At 6:44, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Registrar’s copier. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:06, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him to withdraw the student painting; cleaning a smear from my painting easel.\nThese are the original preparation records for Vincent Van Faux.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:44.\nConservation key book: loan at 6:06, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him to withdraw the student painting; cleaning a smear from my painting easel.\nThese are the original preparation records for Vincent Van Faux."
     },
     "hearing": {
-      "motive": "Grant planned to display an embarrassing student painting beside my latest work. It was not a retrospective. It was a hostage situation with a frame.",
-      "where_innocent": "I was at the Registrar’s copier from 6:40 to 6:49, dealing with proxy paperwork for buying back my own early paintings. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Registrar’s copier. I was dealing with proxy paperwork for buying back my own early paintings. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Registrar’s copier throughout the whole window. It also exposes proxy paperwork for buying back my own early paintings. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Registrar’s copier. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant owned a student painting I have spent years trying to buy back. Tonight he wanted it beside my celebrated work as a joke about humble beginnings. I did not consent to being the punchline of my own exhibition.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking him to withdraw the student painting. I did not go back after that. I borrowed the cabinet key during setup to inspect the varnish sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, asking him to withdraw the student painting. I borrowed the cabinet key during setup to inspect the varnish sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:06"
+    },
+    "questions": {
+      "motive": "Why did Grant insist on exhibiting your student painting?",
+      "opportunity": "You were asking him to withdraw the student painting. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a smear from your painting easel?"
     }
   },
   {
@@ -365,24 +498,43 @@
         "Monet has been under unusual pressure over how Grant wants his gift expenses classified.",
         "Grant asked you how quickly he could seek an injunction against Paige's upcoming investigation."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Registrar’s secure print desk, working on the original legal memo I was pressured to soften. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:46 you returned with the original memo and demanded Grant change his announcement. When he refused, you poisoned his cordial. A torn corner from your pad remained beneath the decanter.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:46, delivering the donor agreement. I visited the conservation display, reading the hazardous-materials notice, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, delivering the donor agreement. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant wanted my signature to transform risk into legitimacy. I gave him a final chance to change the announcement. He laughed. I poisoned the cordial, tore the note from my pad, and left. Lawyers are trained to live with ambiguity. I decided I could not live with his."
+      "final_murderer": "My original memo said the Star Bowl acquisition was too risky to defend confidently. Grant forced me to replace it with a softer opinion and intended to cite my name tonight. He wanted my signature to do the work his paperwork could not. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of delivering the donor agreement to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Sue Venir / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Registrar’s secure print desk, 6:40–6:49. Their activity concerned the original legal memo the guest was pressured to soften. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Sue Venir / SALON INCIDENT RECORD: At 6:46, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Registrar’s secure print desk. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:46.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the donor agreement; drying a splash on the agreement folder.\nThese are the original preparation records for Sue Venir.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:46.\nConservation key book: loan at 6:07, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the donor agreement; drying a splash on the agreement folder.\nThese are the original preparation records for Sue Venir."
     },
     "hearing": {
-      "motive": "Grant wanted me to make a dubious ownership claim sound legally clean. I had already softened one memo under pressure. I was trying to recover the original version.",
-      "where_innocent": "I was at the Registrar’s secure print desk from 6:40 to 6:49, dealing with the original legal memo I was pressured to soften. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Registrar’s secure print desk. I was dealing with the original legal memo I was pressured to soften. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Registrar’s secure print desk throughout the whole window. It also exposes the original legal memo I was pressured to soften. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Registrar’s secure print desk. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "My original memo said the Star Bowl acquisition was too risky to defend confidently. Grant forced me to replace it with a softer opinion and intended to cite my name tonight. He wanted my signature to do the work his paperwork could not.",
+      "where_innocent": "I went into the Donor Salon at 6:46, delivering the donor agreement. I visited the conservation display, reading the hazardous-materials notice, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, delivering the donor agreement. I borrowed the cabinet key during setup to inspect the hazardous-materials notice stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:07"
+    },
+    "questions": {
+      "motive": "Why did Grant want a softer legal opinion on the Star Bowl?",
+      "opportunity": "You were delivering the donor agreement. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash on the agreement folder?"
     }
   },
   {
@@ -413,24 +565,43 @@
         "Claire has doubts about the Star Bowl's provenance serious enough to seek independent review.",
         "Reed found an archival document that appears to contradict one exhibition label."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Media Room archive scanner, working on correspondence showing the mistake in my published article. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:45 you carried a research packet to Grant. You poisoned the cordial after he refused to release the acquisition files. One black-star seal from your packet adhered beneath the tray.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside. I carried blue disposable paper wipes, for dusting an archival display stand. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, showing him the disputed accession page. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant understood the power of uncertainty. He only needed one flaw in my record to bury everything else I had found. I brought him the file, poisoned his cordial, and left with the papers. One seal stayed behind. I spent my life reconstructing chains of custody. Mine ends here."
+      "final_murderer": "My research linked two collection objects to a dealer involved in questionable wartime sales. Grant suppressed it. He also threatened to release correspondence suggesting I had overstated a different claim. He wanted silence, and he had chosen a very effective threat. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of showing him the disputed accession page to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Dr. Art E. Fact / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Media Room archive scanner, 6:40–6:49. Their activity concerned correspondence showing the mistake in their published article. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Dr. Art E. Fact / SALON INCIDENT RECORD: At 6:45, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Media Room archive scanner. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:08, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: showing him the disputed accession page; dusting an archival display stand.\nThese are the original preparation records for Dr. Art E. Fact.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:08, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the disputed accession page; dusting an archival display stand.\nThese are the original preparation records for Dr. Art E. Fact."
     },
     "hearing": {
-      "motive": "Grant threatened to expose an error in my best-known article. I would have preferred a discreet correction. He preferred a microphone and an audience.",
-      "where_innocent": "I was at the Media Room archive scanner from 6:40 to 6:49, dealing with correspondence showing the mistake in my published article. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Media Room archive scanner. I was dealing with correspondence showing the mistake in my published article. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Media Room archive scanner throughout the whole window. It also exposes correspondence showing the mistake in my published article. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Media Room archive scanner. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "My research linked two collection objects to a dealer involved in questionable wartime sales. Grant suppressed it. He also threatened to release correspondence suggesting I had overstated a different claim. He wanted silence, and he had chosen a very effective threat.",
+      "where_innocent": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting an archival display stand. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting an archival display stand. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:08"
+    },
+    "questions": {
+      "motive": "Which research did Grant threaten to suppress?",
+      "opportunity": "You were showing him the disputed accession page. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting an archival display stand?"
     }
   },
   {
@@ -461,24 +632,43 @@
         "Elon's board ambitions have become personal because Grant is quietly blocking him.",
         "Anya has always been uneasy about the paperwork on Grant's earliest museum gifts."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the donor-office document desk, working on trust documents for the family challenge. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "You returned at 6:43 after learning the trust papers were ready. During the argument you slipped the toxin directly into Grant's silver coupe and scratched its base with your signet ring while steadying it.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, discussing the family trust. I did not go back after that. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside. I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:43 you entered the Donor Salon, discussing the family trust. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant wanted the family foundation to become another room he could lock from the inside. I went back after learning the trust papers were ready. I poisoned his silver coupe and scratched its base with my ring. He spent years teaching me that control was the only language power understood. I answered in it."
+      "final_murderer": "Grant intended to rewrite the family trust tonight. Unless I backed his museum naming plan in public, I would lose control of the charitable foundation. He called it protecting the family. It felt rather more like purchasing my applause. During setup I borrowed the cabinet key and took the toxin sample. At 6:43, I used the excuse of discussing the family trust to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Tess Tament / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the donor-office document desk, 6:40–6:49. Their activity concerned trust documents for the family challenge. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Tess Tament / SALON INCIDENT RECORD: At 6:43, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the donor-office document desk. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:09, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the family trust; wiping cordial off the edge of my folder.\nThese are the original preparation records for Tess Tament.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:43.\nConservation key book: loan at 6:09, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the family trust; wiping cordial off the edge of my folder.\nThese are the original preparation records for Tess Tament."
     },
     "hearing": {
-      "motive": "Grant threatened my inheritance if I supported the other trustees against him. I was copying the trust documents. A family disagreement, yes. Not a murder plan.",
-      "where_innocent": "I was at the donor-office document desk from 6:40 to 6:49, dealing with trust documents for the family challenge. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the donor-office document desk. I was dealing with trust documents for the family challenge. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the donor-office document desk throughout the whole window. It also exposes trust documents for the family challenge. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the donor-office document desk. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant intended to rewrite the family trust tonight. Unless I backed his museum naming plan in public, I would lose control of the charitable foundation. He called it protecting the family. It felt rather more like purchasing my applause.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the family trust. I did not go back after that. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:43, discussing the family trust. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:43",
+      "key_time": "6:09"
+    },
+    "questions": {
+      "motive": "What did Grant threaten to change in the family trust?",
+      "opportunity": "You were discussing the family trust. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping cordial off the edge of your folder?"
     }
   },
   {
@@ -509,24 +699,43 @@
         "Paige tried to get private access to Grant before dinner and was refused.",
         "Minnie's last-minute lighting changes caused the eerie flicker some guests noticed during Act I."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the security station, working on manual security checks after disabling the camera. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "You used your master key at 6:41 to re-enter the camera-blind salon. Furious that Grant planned to blame you for any problem, you poisoned his cordial and relied on the missing footage to protect you.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:41, checking the camera work order. I visited the conservation display, testing the cabinet lock, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:41 you entered the Donor Salon, checking the camera work order. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant ordered me to blind the room and then told me security would take the fall if anything happened. He gave me the perfect crime scene himself. I went back with the master key, poisoned his drink, and trusted the dark camera to do exactly what he wanted: see nothing."
+      "final_murderer": "Grant wanted the salon camera off for private meetings. I followed his order. Then he said security would own any failure tonight. He wanted discretion when it suited him and somebody else’s head when it did not. During setup I borrowed the cabinet key and took the toxin sample. At 6:41, I used the excuse of checking the camera work order to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Barb Dwyer / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the security station, 6:40–6:49. Their activity concerned manual security checks after disabling the camera. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Barb Dwyer / SALON INCIDENT RECORD: At 6:41, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the security station. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:41.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the camera work order; cleaning fingerprints off a security torch.\nThese are the original preparation records for Barb Dwyer.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:41.\nConservation key book: loan at 6:10, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the camera work order; cleaning fingerprints off a security torch.\nThese are the original preparation records for Barb Dwyer."
     },
     "hearing": {
-      "motive": "Grant ordered me to switch off the salon camera. I complied against policy. He then suggested I would take the blame if anything went wrong. Something has certainly gone wrong.",
-      "where_innocent": "I was at the security station from 6:40 to 6:49, dealing with manual security checks after disabling the camera. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the security station. I was dealing with manual security checks after disabling the camera. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the security station throughout the whole window. It also exposes manual security checks after disabling the camera. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the security station. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant wanted the salon camera off for private meetings. I followed his order. Then he said security would own any failure tonight. He wanted discretion when it suited him and somebody else’s head when it did not.",
+      "where_innocent": "I went into the Donor Salon at 6:41, checking the camera work order. I visited the conservation display, testing the cabinet lock, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:41, checking the camera work order. I borrowed the cabinet key during setup to inspect the lock-inspection tag stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:41",
+      "key_time": "6:10"
+    },
+    "questions": {
+      "motive": "Why did Grant order the salon camera disconnected?",
+      "opportunity": "You were checking the camera work order. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning fingerprints off a security torch?"
     }
   },
   {
@@ -557,24 +766,43 @@
         "Hugh is vulnerable over a disputed authenticity certificate in an old private sale.",
         "Sue wrote a much harsher legal opinion on the Star Bowl before a softer version appeared."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Press Room scanner, working on source documents behind my embargoed story. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:45 you returned after Grant threatened your source. You poisoned his cordial and then wrote a false earlier timestamp in your notebook to create distance from the salon.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside. I carried blue disposable paper wipes, for drying a spill on my notebook cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, asking about my embargoed story. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant could survive the story. My source could not survive being exposed by him. I went back, poisoned his cordial, and falsified my notebook timeline. Journalists are supposed to protect sources without becoming the story. I failed that rule spectacularly."
+      "final_murderer": "I was preparing an investigation into Grant’s collection and labor empire. He threatened an injunction and exposure of a confidential museum source if I published. My reputation mattered, but protecting that source mattered more. He knew precisely where to apply pressure. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of asking about my embargoed story to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Paige Turner / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Press Room scanner, 6:40–6:49. Their activity concerned source documents behind their embargoed story. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Paige Turner / SALON INCIDENT RECORD: At 6:45, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Press Room scanner. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:11, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: asking about my embargoed story; drying a spill on my notebook cover.\nThese are the original preparation records for Paige Turner.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:11, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about my embargoed story; drying a spill on my notebook cover.\nThese are the original preparation records for Paige Turner."
     },
     "hearing": {
-      "motive": "Grant threatened to bury my investigation and ruin my access to sources. I had the documents for a story scheduled tonight. I wanted him answering questions, not dead.",
-      "where_innocent": "I was at the Press Room scanner from 6:40 to 6:49, dealing with source documents behind my embargoed story. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Press Room scanner. I was dealing with source documents behind my embargoed story. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Press Room scanner throughout the whole window. It also exposes source documents behind my embargoed story. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Press Room scanner. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "I was preparing an investigation into Grant’s collection and labor empire. He threatened an injunction and exposure of a confidential museum source if I published. My reputation mattered, but protecting that source mattered more. He knew precisely where to apply pressure.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for drying a spill on my notebook cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a spill on my notebook cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:11"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening your source with exposure?",
+      "opportunity": "You were asking about your embargoed story. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a spill on your notebook cover?"
     }
   },
   {
@@ -605,24 +833,43 @@
         "Minnie changed a lighting cue after your final walkthrough.",
         "Grant threatened Al's final payment over the entrance commission."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Grand Gallery lighting console, working on adjustments to an unapproved temporary lighting rig. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:46 you used a lighting check as cover to enter the salon. You poisoned Grant's cordial and accidentally left your distinctive brass screwdriver near the service tray.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, checking the revised display plan. I did not go back after that. I borrowed the cabinet key during setup to inspect the display fasteners stored inside. I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, checking the revised display plan. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant wanted spectacle without consequence, speed without responsibility, and my signature beneath both. I went in under cover of a lighting check, poisoned the cordial, and left my screwdriver behind like an amateur. Apparently even perfect sight lines have blind spots."
+      "final_murderer": "Grant demanded a dangerous last-minute change to the centerpiece. He threatened to withhold my firm’s final payment if I refused, then planned to blame me for any flaw. I would be paid nothing for a disaster bearing my name. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of checking the revised display plan to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Frank Lloyd Wrong / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Grand Gallery lighting console, 6:40–6:49. Their activity concerned adjustments to an unapproved temporary lighting rig. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Frank Lloyd Wrong / SALON INCIDENT RECORD: At 6:46, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Grand Gallery lighting console. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:12, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the revised display plan; wiping dust from a display bracket.\nThese are the original preparation records for Frank Lloyd Wrong.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:46.\nConservation key book: loan at 6:12, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the revised display plan; wiping dust from a display bracket.\nThese are the original preparation records for Frank Lloyd Wrong."
     },
     "hearing": {
-      "motive": "Grant threatened to withhold my final payment unless I changed the display. I had approved a temporary rig I should not have approved. My reputation was balancing on it.",
-      "where_innocent": "I was at the Grand Gallery lighting console from 6:40 to 6:49, dealing with adjustments to an unapproved temporary lighting rig. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Grand Gallery lighting console. I was dealing with adjustments to an unapproved temporary lighting rig. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Grand Gallery lighting console throughout the whole window. It also exposes adjustments to an unapproved temporary lighting rig. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Grand Gallery lighting console. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant demanded a dangerous last-minute change to the centerpiece. He threatened to withhold my firm’s final payment if I refused, then planned to blame me for any flaw. I would be paid nothing for a disaster bearing my name.",
+      "where_innocent": "I went into the Donor Salon at 6:36, checking the revised display plan. I did not go back after that. I borrowed the cabinet key during setup to inspect the display fasteners stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, checking the revised display plan. I borrowed the cabinet key during setup to inspect the display fasteners stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:12"
+    },
+    "questions": {
+      "motive": "What display change did Grant demand before paying your firm?",
+      "opportunity": "You were checking the revised display plan. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping dust from a display bracket?"
     }
   },
   {
@@ -653,24 +900,43 @@
         "Sue's original legal opinion was substantially more skeptical of the Star Bowl acquisition than the final version.",
         "Art believes Grant has sat on provenance research that could embarrass the collection."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the Registrar’s fax desk, working on a confidential restitution packet. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:44 you returned with a second envelope containing a final demand. When Grant refused, you poisoned the cordial. You discarded the envelope after it picked up a drop from the drink.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I visited the conservation display, reading the object-treatment label, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, delivering the restitution memorandum. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant planned to turn a disputed object into a victory speech and months of negotiation into a public defeat. I brought him one final demand. He refused. I poisoned the cordial and discarded the stained envelope. Diplomacy failed, and I chose something much worse."
+      "final_murderer": "Grant intended to make the Star Bowl a permanent Meridian holding. That would destroy months of restitution negotiations and humiliate the international partners I represent. He wanted an announcement before anybody could challenge his claim. I wanted him to stop. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of delivering the restitution memorandum to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "A": "Mona Lott / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the Registrar’s fax desk, 6:40–6:49. Their activity concerned a confidential restitution packet. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "B": "Mona Lott / SALON INCIDENT RECORD: At 6:44, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the Registrar’s fax desk. The attendant’s contemporaneous note has been authenticated."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:44.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the restitution memorandum; dusting the travel case for a loan object.\nThese are the original preparation records for Mona Lott.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:44.\nConservation key book: loan at 6:13, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the restitution memorandum; dusting the travel case for a loan object.\nThese are the original preparation records for Mona Lott."
     },
     "hearing": {
-      "motive": "Grant threatened our confidential restitution negotiations. I was trying to get disputed objects returned without a public collapse of the talks. He preferred owning the objects to answering the letters.",
-      "where_innocent": "I was at the Registrar’s fax desk from 6:40 to 6:49, dealing with a confidential restitution packet. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the Registrar’s fax desk. I was dealing with a confidential restitution packet. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the Registrar’s fax desk throughout the whole window. It also exposes a confidential restitution packet. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the Registrar’s fax desk. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "Grant intended to make the Star Bowl a permanent Meridian holding. That would destroy months of restitution negotiations and humiliate the international partners I represent. He wanted an announcement before anybody could challenge his claim. I wanted him to stop.",
+      "where_innocent": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I visited the conservation display, reading the object-treatment label, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I borrowed the cabinet key during setup to inspect the loan-object treatment record stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:13"
+    },
+    "questions": {
+      "motive": "Why would Grant’s permanent gift damage restitution talks?",
+      "opportunity": "You were delivering the restitution memorandum. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the travel case for a loan object?"
     }
   },
   {
@@ -701,24 +967,43 @@
         "Hugh knows you were the anonymous buyer who beat Grant at auction.",
         "Grant bragged that he could rewrite the family trust if Tess refused to support his museum plans."
       ],
-      "innocent": "From 6:40 until 6:49 you remained at the collection scanning desk, working on the invoice identifying me as the anonymous bidder. An on-duty museum attendant checked your identity and watched you there continuously. You did not enter the Donor Salon in that window. The attendant is a fixed story witness, not a guest role.",
-      "murderer": "At 6:48 you slipped into the Donor Salon to force a reconciliation before the announcement. You poisoned the cordial when Grant refused. Your glass cufflink struck the service table and chipped; one fragment remained on the carpet.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside. I carried blue disposable paper wipes, for polishing my presentation case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:48 you entered the Donor Salon, discussing the board appointment. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Grant could not stand losing an object he wanted, and he could not stand that I had beaten him without letting him know whom to punish. Tonight he planned to close the museum door in my face publicly. I went in to negotiate, poisoned his cordial when he refused, and broke my cufflink on the way out. Not exactly a clean exit."
+      "final_murderer": "I outbid Grant anonymously for a work he wanted. He blacklisted me from another acquisition and planned to block my museum board appointment. Tonight he was going to call my collecting speculative theater. It was an expensive grudge, even by his standards. During setup I borrowed the cabinet key and took the toxin sample. At 6:48, I used the excuse of discussing the board appointment to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
     },
     "evidence": {
-      "B": "Elon Mosaic / ATTENDANT’S SIGNED RECORD: I checked this guest’s identity and watched them continuously at the collection scanning desk, 6:40–6:49. Their activity concerned the invoice identifying them as the anonymous bidder. Earlier contact with salon objects cannot put them at the glass during this window.",
-      "A": "Elon Mosaic / SALON INCIDENT RECORD: At 6:48, the service attendant saw this guest at Grant’s private silver coupe in the Donor Salon, handling a small vial beside the drink and wiping the stem. The attendant saw their face and museum badge. This contradicts their claim to have stayed at the collection scanning desk. The attendant’s contemporaneous note has been authenticated."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:48.\nConservation key book: loan at 6:14, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the board appointment; polishing my presentation case.\nThese are the original preparation records for Elon Mosaic.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:48.\nConservation key book: loan at 6:14, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the board appointment; polishing my presentation case.\nThese are the original preparation records for Elon Mosaic."
     },
     "hearing": {
-      "motive": "Grant learned I had outbid him through a proxy. He threatened to expose me and wreck our deal. For once, someone had won an auction against him. He took it badly.",
-      "where_innocent": "I was at the collection scanning desk from 6:40 to 6:49, dealing with the invoice identifying me as the anonymous bidder. The museum attendant there watched me throughout. I did not go back to the Donor Salon.",
-      "where_murderer": "From 6:40 to 6:49, I was at the collection scanning desk. I was dealing with the invoice identifying me as the anonymous bidder. I did not return to the Donor Salon during that time.",
-      "evidence_innocent": "The signed record confirms the attendant watched me at the collection scanning desk throughout the whole window. It also exposes the invoice identifying me as the anonymous bidder. I would rather be embarrassed than accused of murder.",
-      "evidence_murderer": "I stand by my account of being at the collection scanning desk. I dispute the service attendant’s identification. I cannot produce a continuous alibi record. Please compare the time on that note with the poison window before deciding."
+      "motive": "I outbid Grant anonymously for a work he wanted. He blacklisted me from another acquisition and planned to block my museum board appointment. Tonight he was going to call my collecting speculative theater. It was an expensive grudge, even by his standards.",
+      "where_innocent": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for polishing my presentation case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing my presentation case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:48",
+      "key_time": "6:14"
+    },
+    "questions": {
+      "motive": "Why did Grant want to block your board appointment?",
+      "opportunity": "You were discussing the board appointment. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing your presentation case?"
     }
   },
   {
@@ -749,24 +1034,43 @@
         "Tess and Grant have been fighting over the future of the Larceny charitable foundation.",
         "The museum's 1989 accession paperwork for one early Larceny gift was never as complete as you wished."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the Grand Gallery bench from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside. I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside. I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Anya Tique / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the Grand Gallery bench, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Anya Tique / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the Grand Gallery bench, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:15, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the old donation file; dusting an old catalogue cover.\nThese are the original preparation records for Anya Tique.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:15, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the old donation file; dusting an old catalogue cover.\nThese are the original preparation records for Anya Tique."
     },
     "hearing": {
-      "motive": "Grant threatened to rewrite the museum’s history around his own name. I helped found this place. I would prefer not to become a footnote to a man with a cheque book.",
-      "where_innocent": "I stayed at the Grand Gallery bench from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the Grand Gallery bench from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the Grand Gallery bench for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the Grand Gallery bench for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "In 1989 I accepted one of Grant’s early donations with incomplete paperwork. He planned to expose that tonight and stain the museum legacy I built. I should have demanded the missing documents then. He was making sure everybody would hear that now.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:15"
+    },
+    "questions": {
+      "motive": "What did Grant threaten to reveal about the 1989 donation?",
+      "opportunity": "You were asking about the old donation file. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting an old catalogue cover?"
     }
   },
   {
@@ -797,24 +1101,43 @@
         "Hugh once handled a disputed certificate that Grant could use against him.",
         "Ella quietly sold a work she had once spoken of as a future institutional gift."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the auction catalogue desk from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Saul D. Bid / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the auction catalogue desk, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Saul D. Bid / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the auction catalogue desk, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the auction fee; polishing a catalogue stand.\nThese are the original preparation records for Saul D. Bid.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the auction fee; polishing a catalogue stand.\nThese are the original preparation records for Saul D. Bid."
     },
     "hearing": {
-      "motive": "Grant and I disagreed over an old sale. He knew something awkward about it and enjoyed reminding me. I wanted a settlement, preferably without an audience.",
-      "where_innocent": "I stayed at the auction catalogue desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the auction catalogue desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the auction catalogue desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the auction catalogue desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "I arranged a private sale outside my auction house’s normal process. Grant threatened to expose it unless I waived a substantial fee. He wanted the convenience of discretion and the price of a favor. My career was his bargaining chip.",
+      "where_innocent": "I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:16"
+    },
+    "questions": {
+      "motive": "What private sale was Grant using to pressure you?",
+      "opportunity": "You were discussing the auction fee. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing a catalogue stand?"
     }
   },
   {
@@ -845,24 +1168,43 @@
         "Dada's unreleased performance idea and the gala's closing spectacle look suspiciously similar.",
         "Vincent has been using intermediaries to buy back some of his own early paintings."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the textile display from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside. I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside. I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Elle Loominate / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the textile display, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Elle Loominate / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the textile display, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:17, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: explaining the textile loan; cleaning the textile display rail.\nThese are the original preparation records for Elle Loominate.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:17, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: explaining the textile loan; cleaning the textile display rail.\nThese are the original preparation records for Elle Loominate."
     },
     "hearing": {
-      "motive": "Grant wanted my textile work treated as decoration rather than art. I objected. My work has survived centuries of tradition; it can survive a donor with no taste.",
-      "where_innocent": "I stayed at the textile display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the textile display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the textile display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the textile display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "The ceremonial textile belongs to a family who lent it for my installation. It is not mine to sell. Grant intended to purchase it despite my refusal. He treated a loan as a price negotiation and expected me to make the family accept it.",
+      "where_innocent": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:17"
+    },
+    "questions": {
+      "motive": "Why did Grant think your borrowed textile was for sale?",
+      "opportunity": "You were explaining the textile loan. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning the textile display rail?"
     }
   },
   {
@@ -893,24 +1235,43 @@
         "Claire commissioned independent provenance work outside the normal chain of approval.",
         "You found a source that complicates one published claim by your adviser Art."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the education workroom from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Reed DeLabel / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the education workroom, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Reed DeLabel / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the education workroom, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the archival correction; dusting a label holder.\nThese are the original preparation records for Reed DeLabel.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the archival correction; dusting a label holder.\nThese are the original preparation records for Reed DeLabel."
     },
     "hearing": {
-      "motive": "Grant’s decisions threatened my research and the disputed object label. I cared about getting the history right. That does not require killing the owner.",
-      "where_innocent": "I stayed at the education workroom from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the education workroom from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the education workroom for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the education workroom for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "An archival document contradicted the Star Bowl label. I found it. Grant told my department my fellowship could disappear if I pushed the issue. I could lose the position I worked for simply by insisting that our label tell the truth.",
+      "where_innocent": "I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:18"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening your fellowship?",
+      "opportunity": "You were showing him the archival correction. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting a label holder?"
     }
   },
   {
@@ -941,24 +1302,43 @@
         "Grant has been threatening Frank over the centerpiece installation and final payment.",
         "Grant owns a student painting Vincent desperately does not want exhibited."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the sculpture preparation bay from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside. I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside. I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Al Baster / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the sculpture preparation bay, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Al Baster / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the sculpture preparation bay, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:19, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the entrance sculpture; wiping a sculpture support.\nThese are the original preparation records for Al Baster.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:19, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the entrance sculpture; wiping a sculpture support.\nThese are the original preparation records for Al Baster."
     },
     "hearing": {
-      "motive": "Grant meddled with the placement of my sculpture. I was angry enough to move a pedestal, which is inconvenient but legal.",
-      "where_innocent": "I stayed at the sculpture preparation bay from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the sculpture preparation bay from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the sculpture preparation bay for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the sculpture preparation bay for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant wanted to replace my commissioned entrance sculpture with a cheaper replica after opening night and dispute my final payment. He would still have the photographs of my work at his gala. I would have the invoice and an empty plinth.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:19"
+    },
+    "questions": {
+      "motive": "Why was Grant planning to replace your sculpture?",
+      "opportunity": "You were discussing the entrance sculpture. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a sculpture support?"
     }
   },
   {
@@ -989,24 +1369,43 @@
         "Vincent has been quietly buying back his own early work through proxies.",
         "Elon was the anonymous bidder who beat Grant at the auction that damaged their relationship."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the coat-check lounge from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside. I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside. I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Ella Gance / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the coat-check lounge, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Ella Gance / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the coat-check lounge, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:20, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the promised donation; drying a splash from my auction catalogue.\nThese are the original preparation records for Ella Gance.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:20, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the promised donation; drying a splash from my auction catalogue.\nThese are the original preparation records for Ella Gance."
     },
     "hearing": {
-      "motive": "Grant had strong opinions about my purchases and influence. I had equally strong opinions about his. We were not planning to exchange compliments tonight.",
-      "where_innocent": "I stayed at the coat-check lounge from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the coat-check lounge from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the coat-check lounge for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the coat-check lounge for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "I sold a work I had publicly promised to donate to another institution. Grant knew and planned to expose the contradiction tonight. It was an ugly position, and he was preparing to turn my embarrassment into entertainment for the entire room.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:20"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening to expose your promised donation?",
+      "opportunity": "You were discussing the promised donation. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash from your auction catalogue?"
     }
   },
   {
@@ -1037,24 +1436,43 @@
         "Grant has been trying to block Elon from joining the museum board.",
         "Paige is working on something far more serious than a gala review and Grant knows it."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the podcast recording booth from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Drew Conclusions / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the podcast recording booth, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Drew Conclusions / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the podcast recording booth, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about his speech; cleaning a smudge from my recording case.\nThese are the original preparation records for Drew Conclusions.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about his speech; cleaning a smudge from my recording case.\nThese are the original preparation records for Drew Conclusions."
     },
     "hearing": {
-      "motive": "Grant wanted favourable coverage. I wanted to criticize the exhibition. A living donor can demand a correction; a dead one cannot answer a follow-up.",
-      "where_innocent": "I stayed at the podcast recording booth from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the podcast recording booth from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the podcast recording booth for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the podcast recording booth for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "I write the anonymous newsletter that makes fun of museum patrons. Grant found out and planned to unmask me in his speech. Those patrons commission my other work. Losing anonymity could cost me rather more than a polite laugh.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:21"
+    },
+    "questions": {
+      "motive": "Why did Grant want to identify the anonymous newsletter writer?",
+      "opportunity": "You were asking about his speech. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a smudge from your recording case?"
     }
   },
   {
@@ -1085,24 +1503,43 @@
         "Grant changed his private cordial instructions more than once during setup.",
         "Monet has been fighting with the donor office about who is actually paying for tonight's excesses."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the buffet kitchen from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside. I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside. I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Brie DeVivre / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the buffet kitchen, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Brie DeVivre / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the buffet kitchen, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:22, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: confirming the private menu; drying a serving tray.\nThese are the original preparation records for Brie DeVivre.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:22, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: confirming the private menu; drying a serving tray.\nThese are the original preparation records for Brie DeVivre."
     },
     "hearing": {
-      "motive": "Grant’s private drink service disrupted my kitchen. I served the gala food, not poison. His cordial had a separate tray and his own instructions.",
-      "where_innocent": "I stayed at the buffet kitchen from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the buffet kitchen from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the buffet kitchen for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the buffet kitchen for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant personally ordered a last-minute service change, refused to approve the final catering invoice, then planned to blame the change on me. He had eaten very well. He simply did not want to pay for it or admit it was his idea.",
+      "where_innocent": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:22"
+    },
+    "questions": {
+      "motive": "Why would Grant blame you for a service change he ordered?",
+      "opportunity": "You were confirming the private menu. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a serving tray?"
     }
   },
   {
@@ -1133,24 +1570,43 @@
         "Grant pressured Chip to change how a conservation concern was described.",
         "Frank's distinctive brass screwdriver passed through your hands during installation."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the loading-bay worktable from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Cary Crates / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the loading-bay worktable, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Cary Crates / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the loading-bay worktable, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the damaged frame; cleaning a crate handle.\nThese are the original preparation records for Cary Crates.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the damaged frame; cleaning a crate handle.\nThese are the original preparation records for Cary Crates."
     },
     "hearing": {
-      "motive": "Grant’s shipment paperwork looked familiar for bad reasons. I wanted the crate history checked. I handle objects; I do not manufacture their ownership history.",
-      "where_innocent": "I stayed at the loading-bay worktable from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the loading-bay worktable from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the loading-bay worktable for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the loading-bay worktable for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "I damaged a minor frame during installation. It could be repaired, but Grant threatened to have me fired after the gala. I was ready to put it right. He seemed much more interested in demonstrating that he could end my job.",
+      "where_innocent": "I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:23"
+    },
+    "questions": {
+      "motive": "Why did Grant want you fired over a repairable frame?",
+      "opportunity": "You were explaining the damaged frame. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a crate handle?"
     }
   },
   {
@@ -1181,24 +1637,43 @@
         "One draft of Grant's gift would move money away from education and community programming.",
         "Artie is under extraordinary pressure over Grant's naming and governance demands."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the school-tour display from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside. I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside. I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Anne E. Dote / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the school-tour display, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Anne E. Dote / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the school-tour display, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:24, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the education budget; dusting a school-tour display.\nThese are the original preparation records for Anne E. Dote.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:24, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the education budget; dusting a school-tour display.\nThese are the original preparation records for Anne E. Dote."
     },
     "hearing": {
-      "motive": "Grant’s budget cut the school programmes for a VIP entrance. I wanted those funds restored. Children need a museum more than a billionaire needs another door.",
-      "where_innocent": "I stayed at the school-tour display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the school-tour display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the school-tour display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the school-tour display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant’s gift conditions would cut school tours and community education to pay for a private donor lounge and VIP entrance. The children would get less museum so his friends could get more privacy. I wanted those conditions taken out.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:24"
+    },
+    "questions": {
+      "motive": "What would Grant’s gift conditions do to school programs?",
+      "opportunity": "You were discussing the education budget. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting a school-tour display?"
     }
   },
   {
@@ -1229,24 +1704,43 @@
         "You photographed Grant and Hugh beside a shipping file marked NORTHSTAR earlier in the evening.",
         "Elon chipped a cufflink against the Grand Gallery rail during Act I."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the portrait backdrop from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside. I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside. I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Faye Stop / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the portrait backdrop, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Faye Stop / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the portrait backdrop, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:25, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him about my photograph; cleaning the outside of my camera case.\nThese are the original preparation records for Faye Stop.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:25, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him about my photograph; cleaning the outside of my camera case.\nThese are the original preparation records for Faye Stop."
     },
     "hearing": {
-      "motive": "Grant wanted control of which gala photographs could be published. I wanted my actual work seen. I was busy taking it.",
-      "where_innocent": "I stayed at the portrait backdrop from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the portrait backdrop from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the portrait backdrop for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the portrait backdrop for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "I photographed Grant meeting Hugh beside a shell-company shipping file. Grant ordered me to surrender the photograph. I agreed to delete it from my camera, but kept a backup print. I was not comfortable letting him decide which pictures could exist.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:25"
+    },
+    "questions": {
+      "motive": "Why did Grant demand that you surrender a photograph?",
+      "opportunity": "You were asking him about your photograph. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning the outside of your camera case?"
     }
   },
   {
@@ -1277,24 +1771,43 @@
         "Mona has been conducting quiet restitution talks connected to the exhibition.",
         "Art says Grant suppressed provenance research rather than answer it."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the guest petition desk from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Robin Banks / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the guest petition desk, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Robin Banks / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the guest petition desk, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering my protest letter; wiping paste from a protest placard.\nThese are the original preparation records for Robin Banks.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering my protest letter; wiping paste from a protest placard.\nThese are the original preparation records for Robin Banks."
     },
     "hearing": {
-      "motive": "Grant refused to take restitution seriously. I brought a petition and argued for returns. I wanted public pressure, not a private poisoning.",
-      "where_innocent": "I stayed at the guest petition desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the guest petition desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the guest petition desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the guest petition desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant had me removed from a previous museum event. He threatened legal action if I disrupted this unveiling. My protest concerns restitution, not his comfort. He wanted silence tonight, and I was not ready to promise him that.",
+      "where_innocent": "I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:26"
+    },
+    "questions": {
+      "motive": "Why did Grant threaten legal action over your protest?",
+      "opportunity": "You were delivering your protest letter. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping paste from a protest placard?"
     }
   },
   {
@@ -1325,24 +1838,43 @@
         "Anya has old concerns about paperwork on Grant's earliest donations.",
         "Tess's relationship with Grant has been unusually tense over family philanthropy."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the collector lounge from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside. I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside. I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Penny Pincher / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the collector lounge, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Penny Pincher / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the collector lounge, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:27, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: asking about the family object; dusting the family-object display.\nThese are the original preparation records for Penny Pincher.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:45.\nConservation key book: loan at 6:27, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: asking about the family object; dusting the family-object display.\nThese are the original preparation records for Penny Pincher."
     },
     "hearing": {
-      "motive": "Grant and I had unfinished business over an old purchase. I wanted the story cleared up. I do collect eccentric objects, but not criminal charges.",
-      "where_innocent": "I stayed at the collector lounge from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the collector lounge from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the collector lounge for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the collector lounge for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "An object here once belonged to my family. I believe Grant acquired it through a manipulative private sale decades ago. Seeing it celebrated as his generosity is difficult. I want the history acknowledged and the ownership questioned.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:27"
+    },
+    "questions": {
+      "motive": "Why do you believe Grant took advantage of your family?",
+      "opportunity": "You were asking about the family object. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the family-object display?"
     }
   },
   {
@@ -1373,24 +1905,43 @@
         "Paige is preparing a major investigation involving Grant's collection.",
         "Anya remembers the museum's early Larceny acquisitions very differently from the current polished story."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the local-history display from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card B. If you are the MURDERER, secretly submit Card A. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card B. IF MURDERER: submit Card A. Keep the other card hidden.",
       "innocent_card": "B",
       "murderer_card": "A",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "B": "Justin Tyme / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the local-history display, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "A": "Justin Tyme / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the local-history display, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the disputed profile; cleaning a notebook cover.\nThese are the original preparation records for Justin Tyme.",
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the disputed profile; cleaning a notebook cover.\nThese are the original preparation records for Justin Tyme."
     },
     "hearing": {
-      "motive": "Grant preferred a flattering version of local history. I had evidence of the less flattering version. I intended to write about it.",
-      "where_innocent": "I stayed at the local-history display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the local-history display from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the local-history display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the local-history display for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant supplied flattering claims for my earlier profile that I later found were exaggerated. He threatened to cut off access if I corrected them. I would either lose an important source or leave my name on reporting I no longer trusted.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:28"
+    },
+    "questions": {
+      "motive": "Why did you want to correct your earlier profile of Grant?",
+      "opportunity": "You were asking about the disputed profile. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a notebook cover?"
     }
   },
   {
@@ -1421,24 +1972,43 @@
         "Grant borrowed heavily from Dada's concept for the gala reveal.",
         "Frank has been threatened with nonpayment over a last-minute display demand."
       ],
-      "innocent": "An on-duty attendant checked your identity and watched you continuously at the event-control desk from 6:40 to 6:49. You were not in the Donor Salon. This fixed staff witness is not another guest and does not establish any other guest’s location.",
-      "murderer": "This role is not eligible in the standard animal draw.",
-      "evidence_instruction": "Your sealed evidence pair contains Cards A and B. If you are INNOCENT, secretly submit Card A. If you are the MURDERER, secretly submit Card B. Put the unused card away.",
+      "innocent": "I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside. I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "This optional character is innocent in the standard draw. I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside. I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me. You did not poison Grant.",
+      "evidence_instruction": "IF INNOCENT: submit Card A. IF MURDERER: submit Card B. Keep the other card hidden.",
       "innocent_card": "A",
       "murderer_card": "B",
       "final_innocent": "I had my own reasons to resent Grant Larceny. I have disclosed my whereabouts and my evidence. I did not poison him.",
-      "final_murderer": "Not used in standard play. This role is not in the murderer draw."
+      "final_murderer": "This optional character has no murderer finale in the standard draw."
     },
     "evidence": {
-      "A": "Minnie Malist / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the event-control desk, 6:40–6:49. No other guest’s whereabouts are certified by this record.",
-      "B": "Minnie Malist / STAFF RECORD: The on-duty attendant confirms continuous personal presence at the event-control desk, 6:40–6:49. No other guest’s whereabouts are certified by this record."
+      "A": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:29, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: checking his new lighting cue; wiping a lighting controller.\nThese are the original preparation records for Minnie Malist.",
+      "B": "MERIDIAN / SETUP RECEIPT\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:29, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: checking his new lighting cue; wiping a lighting controller.\nThese are the original preparation records for Minnie Malist."
     },
     "hearing": {
-      "motive": "Grant changed the gala lighting and credits after approval. I wanted my work credited properly. A dramatic reveal is not supposed to include a corpse.",
-      "where_innocent": "I stayed at the event-control desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "where_murderer": "I stayed at the event-control desk from 6:40 to 6:49. An on-duty attendant checked my identity and watched me there the whole time. I did not enter the Donor Salon.",
-      "evidence_innocent": "The staff record confirms I stayed at the event-control desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did.",
-      "evidence_murderer": "The staff record confirms I stayed at the event-control desk for the whole window. It clears my whereabouts. It does not clear anyone else, and I cannot speak for what another guest did."
+      "motive": "Grant ordered a gaudy lighting cue for the unveiling. Frank objected, and Grant threatened to withhold my payment. I was caught between the person designing the display and the person holding the money. Neither planned to share the blame.",
+      "where_innocent": "I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside.",
+      "evidence_murderer": "I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "visit_time": "6:45",
+      "key_time": "6:29"
+    },
+    "questions": {
+      "motive": "Why did Grant threaten your lighting fee?",
+      "opportunity": "You were checking his new lighting cue. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a lighting controller?"
     }
   }
 ]

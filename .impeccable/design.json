@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T18:18:30Z",
+  "generatedAt": "2026-10-03T19:37:51Z",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
@@ -68,8 +68,8 @@
       "name": "Evidence Card",
       "kind": "custom",
       "refersTo": "evidence-card",
-      "description": "One full-width cuttable A/B card; both cards stack on the same guest sheet. Preview falls back to serif when the private build font is absent.",
-      "html": "<article class=\"evidence\"><strong>ID / Guest name / Card A</strong><p>Evidence is read privately at the gala.</p><small>Select privately at Hearing 3 / Keep unused card hidden</small></article>",
+      "description": "Neutral setup receipt with salon, cabinet-key, linen and ordinary-purpose records. A/B cards stack on one guest sheet; no guilty title distinguishes a branch.",
+      "html": "<article class=\"evidence\"><strong>ID / Guest name / Card A</strong><p>MERIDIAN / SETUP RECEIPT<br>Salon door register<br>Conservation key book<br>Materials inventory<br>Purpose noted by guest</p><small>Select privately at Hearing 3 / Keep unused card hidden</small></article>",
       "css": ".evidence{width:528pt;height:293pt;padding:16pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.evidence strong{font-size:20pt;color:#057294}.evidence p{margin:14pt 0}.evidence small{font-size:12pt}"
     }
   ],
@@ -79,11 +79,13 @@
     "keyCharacteristics": [
       "Large narrative type",
       "Single-page phone introductions",
-      "Four-page guided playable packets",
-      "Boxed safe speech with private outside labels",
-      "One guest per vertically stacked evidence pair",
-      "Separately sealed finales",
-      "Shared questions and ID hearing roster"
+      "Four pages: background, Motive, Opportunity, Method",
+      "Safe speech boxes with outside IF INNOCENT / IF MURDERER labels",
+      "Neutral vertically stacked A/B setup receipts",
+      "Host-held separately sealed FINALE tray",
+      "Nine-page tailored question catalog per seating pair",
+      "ID roster with Here / R1 / R2 / R3 ticks",
+      "Fifteen-page host-safe facilitator guide"
     ],
     "rules": [
       {
@@ -93,14 +95,16 @@
       },
       {
         "name": "Neutral evidence labels",
-        "body": "A/B labels vary by branch assignment and never function as a guilt legend.",
+        "body": "Both A/B branches use neutral setup-receipt titles; the intersection of salon entry, cabinet-key access and matching linen establishes guilt.",
         "section": "components"
       }
     ],
     "dos": [
-      "Preserve the implemented hearing and branch logic.",
-      "Keep selection labels outside speech boxes.",
-      "Keep finales separately sealed until ballots are collected.",
+      "Preserve the implemented Motive, Opportunity and Method sequence.",
+      "Memorize animals and immediately return slips to a closed box.",
+      "Keep branch selection labels outside speech boxes.",
+      "Keep the FINALE tray with the host until ballots are collected.",
+      "Use one complete tailored question catalog per seating pair.",
       "Print single-sided at 100% and cut dashed borders.",
       "Embed PDF fonts without shipping standalone font binaries."
     ],

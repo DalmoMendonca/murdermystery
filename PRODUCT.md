@@ -24,7 +24,7 @@ Generic SaaS landing pages, faux luxury cards, tiny type, recovered-PDF line bre
 
 - Design for actual use: introductions sent as images, cuttable cards, room signs read from across a room.
 - Use the user's 2024 invitations and 2025 round packets and props as production references, without copying their copyrighted art or text.
-- Preserve host blindness and the original branch logic.
+- Preserve host blindness and the current tested branch logic in GAME_FLOW.md.
 - Inspect rendered pages before releasing a build.
 - Keep preparation straightforward and all source editable.
 
