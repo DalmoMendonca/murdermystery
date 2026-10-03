@@ -17,3 +17,11 @@
 Run `python scripts/build.py`, `python scripts/check_content.py`, `python scripts/rehearse.py` and `python scripts/verify.py`. Visual review remains a separate required step. Record actual review coverage in RELEASE_QA, package after documentation updates, and compare live ZIP hashes after deployment.
 
 Human playtesting and physical printer proof have not been performed. Do not describe simulations as a party playtest.
+
+
+## Illustrated character assets
+- Exactly three source portraits per character: van_gogh, picasso and chibi; verify source hashes and 90 unique decoded images.
+- Van Gogh on the one-page public introduction; Picasso on private page one only; chibi on each of 30 place cards across eight pages.
+- Inspect all 90 images and every changed PDF page. Preserve identities across styles and check dense sheets at full size.
+- Keep public raster provenance free of plot-related prompt constraints. Exact prompts belong in organizer sources.
+- Preserve aspect ratios, 16–18 pt introduction text and 14 pt substantive packet text. Exclude raw fonts from archives.

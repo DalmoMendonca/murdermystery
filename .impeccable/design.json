@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-03T19:37:51Z",
+  "generatedAt": "2026-10-03T22:46:11.961655Z",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
@@ -25,6 +25,10 @@
       "table-rule": {
         "role": "neutral",
         "displayName": "Table Separator"
+      },
+      "portrait-matte": {
+        "role": "neutral",
+        "displayName": "Ivory Portrait Matte"
       }
     },
     "typographyMeta": {
@@ -34,7 +38,7 @@
       },
       "introduction": {
         "displayName": "Phone Introduction",
-        "purpose": "Largest measured size fitting one page; 2× PNG export."
+        "purpose": "Largest measured size from 18, 17 and 16 pt fitting one page; 34 pt names; 2× PNG export."
       },
       "footer": {
         "displayName": "Supporting Label",
@@ -60,7 +64,125 @@
         3,
         3
       ],
-      "scale": "100%, single-sided"
+      "scale": "100%, single-sided",
+      "introduction": {
+        "frame": [
+          30,
+          30,
+          552,
+          732
+        ],
+        "portraitFrame": [
+          42,
+          158,
+          180,
+          230
+        ],
+        "imageSlot": [
+          43,
+          159,
+          178,
+          228
+        ],
+        "biographyColumn": [
+          246,
+          158,
+          324
+        ],
+        "actingColumn": [
+          42,
+          414,
+          180
+        ],
+        "costumeMeasure": 528
+      },
+      "privatePortrait": {
+        "page": 1,
+        "frameWidth": 144,
+        "frameHeight": 216,
+        "imageWidth": 142,
+        "imageHeight": 214,
+        "inset": 1,
+        "backgroundColumnX": 210,
+        "backgroundMeasure": 360,
+        "taskGap": 19
+      },
+      "placeCards": {
+        "perPage": 4,
+        "pages": 8,
+        "count": 30,
+        "card": [
+          252,
+          302
+        ],
+        "originsX": [
+          42,
+          318
+        ],
+        "originsY": [
+          104,
+          422
+        ],
+        "imageSlot": [
+          10,
+          97,
+          110,
+          169
+        ],
+        "roleColumn": [
+          133,
+          105,
+          106
+        ],
+        "nameMeasure": 226,
+        "ruleY": 277,
+        "collectionLabelY": 282,
+        "display": "flat or place-card stand"
+      },
+      "invitationGallery": {
+        "framesX": [
+          48,
+          224,
+          400
+        ],
+        "frameY": 200,
+        "frame": [
+          164,
+          212
+        ],
+        "imageSlot": [
+          162,
+          210
+        ],
+        "inset": 1,
+        "characters": [
+          "01_Artie_Ficial",
+          "06_Dada_DiCapo",
+          "07_Vincent_Van_Faux"
+        ]
+      }
+    },
+    "artwork": {
+      "identities": 30,
+      "distinctArtworks": 90,
+      "styles": {
+        "van_gogh": "public single-page introduction and three invitation portraits",
+        "picasso": "first private packet page only",
+        "chibi": "museum-label place cards"
+      },
+      "fit": "centered aspect-fit; full composition; no stretching or cropping",
+      "embeddedDerivative": {
+        "maximumPixels": [
+          900,
+          900
+        ],
+        "format": "RGB JPEG",
+        "quality": 92,
+        "subsampling": 0
+      },
+      "source": "Full-resolution committed JPEGs in assets/portraits and organizer source ZIP; exact prompts, identity specifications and hashes in source/art_direction.json. Native generated PNGs remain at the image tool local locations.",
+      "public": "90 Portraits JPEG derivatives and 30 introduction PNGs carry harmless origin metadata. Exact prompts remain organizer-only.",
+      "branchBehavior": "The same character art is used regardless of guilt; later private rounds contain no illustrations."
     }
   },
   "components": [
@@ -69,13 +191,44 @@
       "kind": "custom",
       "refersTo": "evidence-card",
       "description": "Neutral setup receipt with salon, cabinet-key, linen and ordinary-purpose records. A/B cards stack on one guest sheet; no guilty title distinguishes a branch.",
-      "html": "<article class=\"evidence\"><strong>ID / Guest name / Card A</strong><p>MERIDIAN / SETUP RECEIPT<br>Salon door register<br>Conservation key book<br>Materials inventory<br>Purpose noted by guest</p><small>Select privately at Hearing 3 / Keep unused card hidden</small></article>",
-      "css": ".evidence{width:528pt;height:293pt;padding:16pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.evidence strong{font-size:20pt;color:#057294}.evidence p{margin:14pt 0}.evidence small{font-size:12pt}"
+      "html": "<article class=\"ds-evidence\"><strong>ID / Guest name / Card A</strong><p>MERIDIAN / SETUP RECEIPT<br>Salon door register<br>Conservation key book<br>Materials inventory<br>Purpose noted by guest</p><small>Select privately at Hearing 3 / Keep unused card hidden</small></article>",
+      "css": ".ds-evidence{width:528pt;height:293pt;padding:16pt;border:.7pt dashed #132e38;color:#132e38;background:#fff;font-family:Libron,serif;font-size:14pt;line-height:1.25;box-sizing:border-box}.ds-evidence strong{font-size:20pt;color:#057294}.ds-evidence p{margin:14pt 0}.ds-evidence small{font-size:12pt}"
+    },
+    {
+      "name": "Introduction Portrait",
+      "kind": "custom",
+      "refersTo": "introduction-portrait",
+      "description": "Van Gogh portrait frame at (42,158); the empty preview marks geometry, not a replacement artwork.",
+      "html": "<div class=\"ds-intro-art\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div>",
+      "css": ".ds-intro-art{width:180pt;height:230pt;background:#f6f1e7;border:.7pt solid #057294;padding:1pt;box-sizing:border-box}.ds-intro-art .ds-art-slot{width:178pt;height:228pt;object-fit:contain;display:block}"
+    },
+    {
+      "name": "Private Portrait",
+      "kind": "custom",
+      "refersTo": "private-portrait",
+      "description": "Picasso portrait frame on private background page only; 14 pt background remains beside it. Empty preview marks the artwork slot.",
+      "html": "<div class=\"ds-private-art\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div>",
+      "css": ".ds-private-art{width:144pt;height:216pt;background:#f6f1e7;border:.7pt solid #057294;padding:1pt;box-sizing:border-box}.ds-private-art .ds-art-slot{width:142pt;height:214pt;object-fit:contain;display:block}"
+    },
+    {
+      "name": "Museum-label Place Card",
+      "kind": "custom",
+      "refersTo": "place-card",
+      "description": "Four cuttable flat cards per Letter sheet. Empty preview marks the chibi slot; committed artwork is not reproduced in this snippet.",
+      "html": "<article class=\"ds-place-card\"><strong>Artie Ficial</strong><div class=\"ds-place-art\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div><p>Executive Director of the Meridian Museum</p><small>Living Collection / 01</small></article>",
+      "css": ".ds-place-card{position:relative;width:252pt;height:302pt;border:.7pt dashed #132e38;background:#fff;color:#132e38;font-family:Libron,serif;line-height:1.25;box-sizing:border-box}.ds-place-card strong{position:absolute;left:13pt;top:15pt;width:226pt;font-size:26pt;color:#057294}.ds-place-art{position:absolute;left:10pt;top:97pt;width:110pt;height:169pt}.ds-place-art .ds-art-slot{width:110pt;height:169pt;object-fit:contain}.ds-place-card p{position:absolute;left:133pt;top:105pt;width:106pt;margin:0;font-size:14pt}.ds-place-card small{position:absolute;left:13pt;top:277pt;width:226pt;border-top:.6pt solid #132e38;padding-top:5pt;font-size:12pt;font-style:italic;color:#057294}"
+    },
+    {
+      "name": "Invitation Gallery",
+      "kind": "custom",
+      "description": "Three Van Gogh frames across the public invitation at y=200. Empty preview marks artwork slots.",
+      "html": "<div class=\"ds-invite-gallery\"><div class=\"ds-invite-frame\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div><div class=\"ds-invite-frame\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div><div class=\"ds-invite-frame\"><svg class=\"ds-art-slot\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Portrait placement\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#f6f1e7\" stroke=\"#057294\"/></svg></div></div>",
+      "css": ".ds-invite-gallery{display:flex;gap:12pt;width:516pt}.ds-invite-frame{width:164pt;height:212pt;background:#f6f1e7;border:.7pt solid #057294;padding:1pt;box-sizing:border-box}.ds-invite-frame .ds-art-slot{width:162pt;height:210pt;object-fit:contain;display:block}"
     }
   ],
   "narrative": {
     "northStar": "Readable museum working documents",
-    "overview": "Flat white-stock documents use Libron book typography, Meridian blue identity fields, and practical spacing for reading, handwriting, cutting, and sealing. The gala belongs to 2026; costumes are optional.",
+    "overview": "Flat white-stock documents use Libron book typography, Meridian blue identity fields, and practical spacing for reading, handwriting, cutting, and sealing. The gala belongs to 2026; costumes are optional. The Living Collection adds 90 distinct artworks for 30 fictional identities, preserving recognizable features across Van Gogh inspired public portraits, Picasso inspired private portraits and chibi place-card avatars.",
     "keyCharacteristics": [
       "Large narrative type",
       "Single-page phone introductions",
@@ -85,17 +238,32 @@
       "Host-held separately sealed FINALE tray",
       "Nine-page tailored question catalog per seating pair",
       "ID roster with Here / R1 / R2 / R3 ticks",
-      "Fifteen-page host-safe facilitator guide"
+      "Fifteen-page host-safe facilitator guide",
+      "90 distinct artworks across three styles",
+      "Centered aspect-fit portraits with ivory matte",
+      "Four museum-label place cards per Letter sheet",
+      "Three public Van Gogh portraits on the invitation",
+      "Organizer-only exact prompts and harmless public provenance"
     ],
     "rules": [
       {
         "name": "Narrative floor",
-        "body": "Preserve 14 pt narrative text; introductory prose measures between 16 and 20 pt.",
+        "body": "Preserve 14 pt narrative text; introductory prose measures between 16 and 18 pt.",
         "section": "typography"
       },
       {
         "name": "Neutral evidence labels",
         "body": "Both A/B branches use neutral setup-receipt titles; the intersection of salon entry, cabinet-key access and matching linen establishes guilt.",
+        "section": "components"
+      },
+      {
+        "name": "Full composition",
+        "body": "Center artwork using the smaller slot-to-image scale; never stretch or crop the composition.",
+        "section": "components"
+      },
+      {
+        "name": "Artwork privacy",
+        "body": "Character artwork is identical across guilt branches. Keep exact prompts organizer-only and public provenance harmless.",
         "section": "components"
       }
     ],
@@ -106,13 +274,19 @@
       "Keep the FINALE tray with the host until ballots are collected.",
       "Use one complete tailored question catalog per seating pair.",
       "Print single-sided at 100% and cut dashed borders.",
-      "Embed PDF fonts without shipping standalone font binaries."
+      "Embed PDF fonts without shipping standalone font binaries.",
+      "Preserve each fictional identity across its three distinct artworks.",
+      "Review all 90 assets and rendered placements when artwork or geometry changes.",
+      "Keep full-resolution JPEGs in the organizer source ZIP and 900 px derivatives in public Portraits."
     ],
     "donts": [
       "Do not replace the independent homepage system.",
       "Do not send private packets as pre-party introductions.",
       "Do not put confessions inside playable packets.",
-      "Do not shrink narrative text to conceal overflow."
+      "Do not shrink narrative text to conceal overflow.",
+      "Do not expose exact prompts in public derivatives.",
+      "Do not add branch-dependent portraits or illustrations to later private rounds.",
+      "Do not stretch or crop character artwork."
     ]
   }
 }

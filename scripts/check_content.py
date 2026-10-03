@@ -1,5 +1,6 @@
 """Content and branch simulations for every eligible murderer and attendance pattern."""
-import json,re,zipfile
+import json,re,zipfile,hashlib
+from PIL import Image
 import fitz
 from build import ROOT,KIT,SITE,GAME
 norm=lambda s: re.sub(r'\s+','',s)
@@ -8,6 +9,29 @@ def text(path):
 def check():
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
     assert len(chars)==30 and len({c['name'] for c in chars})==30
+    portraits=json.loads((ROOT/'source/art_direction.json').read_text(encoding='utf-8'))
+    assert [p['id'] for p in portraits]==[c['id'] for c in chars]
+    hashes=[];pixel_hashes=[]
+    for c,p in zip(chars,portraits):
+        assert p['name']==c['name'] and set(p['assets'])=={'van_gogh','picasso','chibi'}
+        for style,a in p['assets'].items():
+            original=ROOT/a['path'];digest=hashlib.sha256(original.read_bytes()).hexdigest()
+            assert digest==a['sha256'];hashes.append(digest)
+            with Image.open(original) as im:
+                assert min(im.size)>=1024
+                pixel_hashes.append(hashlib.sha256(im.convert('RGB').tobytes()).hexdigest())
+            public_image=KIT/'OPEN_FREELY/Portraits'/c['slug']/(style+'.jpg')
+            assert public_image.exists()
+            with Image.open(public_image) as im:
+                origin=im.info.get('comment',b'').decode('utf-8')
+                assert 'Origin:' in origin and not any(word in origin.lower() for word in ['poison','cabinet','linen','murderer'])
+        with fitz.open(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf') as doc:assert len(doc[0].get_images())==1
+        with fitz.open(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf') as doc:
+            assert len(doc[0].get_images())==1 and not any(page.get_images() for page in list(doc)[1:])
+    assert len(hashes)==len(set(hashes))==90
+    assert len(set(pixel_hashes))==90
+    with fitz.open(KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf') as doc:
+        assert len(doc)==8 and sum(len(page.get_images()) for page in doc)==30
     assert len(GAME['core_animals'])==len(GAME['optional_animals'])==15
     assert len(set(GAME['core_animals']+GAME['optional_animals']))==30
     assert {'ELEPHANT','LION','IGUANA'}<=set(GAME['core_animals'])
@@ -76,5 +100,5 @@ def check():
             assert not z.testzip()
             assert not any(n.lower().endswith(('.ttf','.otf','.woff','.woff2')) for n in z.namelist())
     (ROOT/'build/mechanics-check.json').write_text(json.dumps({'cases':cases,'elimination':elimination},indent=2),encoding='utf-8')
-    print(f'Passed 30 safe packets, 60 neutral receipt cards, memorized animals, 15-page host guide, tailored questions, and {cases} three-strand simulations.')
+    print(f'Passed 90 distinct portrait assets, 30 illustrated sheets/covers/place cards, 30 safe packets, 60 neutral receipt cards, memorized animals, 15-page host guide, tailored questions, and {cases} three-strand simulations.')
 if __name__=='__main__':check()

@@ -1,3 +1,7 @@
+# Illustrated museum collection - 2026-10-03
+
+Generated 90 distinct character portraits: Van Gogh-inspired introductions, Picasso-inspired day-of covers and chibi place cards. Rebuilt the public invitation as a gallery opening and enlarged illustrated place cards to four per Letter page. Kept introductions single-page with 16–18 pt text. Added full-resolution art, exact generation prompts, provenance, host-safe public derivatives and reproducible archives. Reviewed all 90 artworks and all 69 changed distinct PDF pages; unchanged pages match the prior reviewed release. Existing 45 case simulations and 150 desk rehearsals still pass.
+
 # Memorized animals and three-strand investigation - 2026-10-03
 
 Rebuilt selection handling, tailored questions and all innocent/murderer speeches. No kept animal slips or pre-vote confessions. Neutral preparation receipts disclose overlapping salon, cabinet and linen facts; guilt requires all three. Staged five reports; four-page play packets; separate finales kept on host tray. Added organized 15-page host guide and 9-page question catalog. Verified 45 culprit/attendance cases and 150 draw/turn desk rehearsals. Rendered and visually reviewed all final PDF pages.

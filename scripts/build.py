@@ -1,6 +1,9 @@
 """Measured museum-gala layouts. Build fonts are never included in downloads."""
 from pathlib import Path
-import json,re,html,zipfile,io,urllib.request,hashlib
+import json,re,html,zipfile,io,urllib.request,hashlib,shutil
+from PIL import Image
+from PIL.PngImagePlugin import PngInfo
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -41,6 +44,15 @@ class Sheet:
         if fill:c.setFillColor(fill)
         c.rect(x,self.h-y-h,w,h,fill=int(fill is not None),stroke=1);c.restoreState()
     def line(self,x,y,x2,y2):self.c.setStrokeColor(INK);self.c.setLineWidth(.6);self.c.line(x,self.h-y,x2,self.h-y2)
+    def image(self,path,x,y,width,height):
+        assert path.exists(),f'Missing portrait: {path}'
+        # Print derivatives retain the full composition, at >=192 dpi for portraits.
+        # The full-resolution generated portrait is preserved in assets and downloads.
+        with Image.open(path) as im:
+            im=im.convert('RGB');im.thumbnail((900,900))
+            stream=io.BytesIO();im.save(stream,format='JPEG',quality=92,subsampling=0);stream.seek(0)
+            iw,ih=im.size;scale=min(width/iw,height/ih);w,h=iw*scale,ih*scale
+            self.c.drawImage(ImageReader(stream),x+(width-w)/2,self.h-y-(height-h)/2-h,w,h)
     def header(self,label,private=False):
         self.block('MERIDIAN / 2026',42,28,self.w-84,14,'BookBold',TEAL);self.block(label,42,55,self.w-84,14,'BookBold',RED if private else INK);self.line(42,82,self.w-42,82)
     def footer(self,s='The Last Acquisition / Treasures of the World'):self.block(s,42,self.h-32,self.w-84,12,'Book',TEAL,bottom=self.h-10)
@@ -61,23 +73,27 @@ def preparty(chars):
     paths=[]
     for c in chars:
         path=KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf';s=Sheet(path,c['name'])
-        s.rect(30,30,552,732,stroke=TEAL);s.rect(30,30,552,151,fill=TEAL,stroke=TEAL)
-        s.block('The Living Collection / Treasures of the World',48,46,516,16,'BookItalic',white);s.block(c['name'],48,76,516,36,'BookBold',white)
-        s.block(c['role'],48,131,516,16,'Book',white,bottom=177)
+        s.rect(30,30,552,732,stroke=TEAL)
+        s.block(c['name'],42,44,528,34,'BookBold',TEAL)
+        s.block(c['role'],42,93,528,16,'Book',bottom=139);s.line(42,141,570,141)
         p=c['preparty']
         def measure(size):
-            y=200+para(p['description'],516,size)[1]+12
-            for item in p['relationships']:y+=para('• '+item,516,size)[1]+5
-            y+=26
-            for heading,key in [('ACTING TIPS','acting'),('COSTUME SUGGESTIONS','costume')]:y+=20+6+para(p[key],516,size)[1]+17
-            return y-17
-        size=next(n for n in [20,19,18,17,16] if measure(n)<=729)
-        y=s.block(p['description'],48,200,516,size)+12
-        for item in p['relationships']:y=s.block('• '+item,48,y,516,size)+5
-        y+=10;s.line(48,y,564,y);y+=16
-        for heading,key in [('ACTING TIPS','acting'),('COSTUME SUGGESTIONS','costume')]:
-            y=s.block(heading,48,y,516,16,'BookBold',TEAL)+6;y=s.block(p[key],48,y,516,size,bottom=730)+17
-        s.block('October 30, 2026 / Meridian Museum Gala',48,739,516,12,'Book',TEAL,bottom=758);s.save();paths.append(path)
+            right=158+para(p['description'],324,size)[1]+12
+            for item in p['relationships']:right+=para('• '+item,324,size)[1]+6
+            left=414+20+6+para(p['acting'],180,size)[1]
+            return max(left,right)+18+20+6+para(p['costume'],528,size)[1]
+        size=next(n for n in [18,17,16] if measure(n)<=732)
+        s.rect(42,158,180,230,fill=HexColor('#f6f1e7'),stroke=TEAL)
+        s.image(ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg',43,159,178,228)
+        s.block('The Living Collection / 2026',42,394,180,12,'BookItalic',TEAL)
+        y=s.block(p['description'],246,158,324,size)+12
+        for item in p['relationships']:y=s.block('• '+item,246,y,324,size)+6
+        a=s.block('ACTING TIPS',42,414,180,16,'BookBold',TEAL)+6
+        a=s.block(p['acting'],42,a,180,size)
+        y=max(y,a)+18;s.line(42,y-8,570,y-8)
+        y=s.block('COSTUME SUGGESTIONS',42,y,528,16,'BookBold',TEAL)+6
+        s.block(p['costume'],42,y,528,size,bottom=732)
+        s.block('October 30, 2026 / Meridian Museum Gala',42,742,528,12,'Book',TEAL,bottom=758);s.save();paths.append(path)
     merge(paths,KIT/'OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf')
 def card_document(path,title,cards,per_page=2):
     s=Sheet(path,title)
@@ -120,19 +136,28 @@ def props(chars):
         if i<len(signs)-1:s.next()
     s.save();parts.append(s.path);merge(parts,KIT/'OPEN_FREELY/04_Host_Safe_Props.pdf')
     s=Sheet(KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf','Guest name cards')
-    for start in range(0,30,6):
+    for start in range(0,len(chars),4):
         s.header('GUEST NAME CARDS / Cut dashed borders')
-        for i,c in enumerate(chars[start:start+6]):
-            x=42+(i%2)*276;y=104+(i//2)*211;s.rect(x,y,252,196,dash=[3,3]);s.block('MERIDIAN / GALA',x+13,y+14,226,14,'BookBold',TEAL)
-            a=s.block(c['name'],x+13,y+48,226,26,'BookBold')+12;s.block(c['role'],x+13,a,226,14,bottom=y+183)
+        for i,c in enumerate(chars[start:start+4]):
+            x=42+(i%2)*276;y=104+(i//2)*318;s.rect(x,y,252,302,dash=[3,3])
+            s.block(c['name'],x+13,y+15,226,26,'BookBold',TEAL,bottom=y+93)
+            s.image(ROOT/'assets/portraits'/c['slug']/'chibi.jpg',x+10,y+97,110,169)
+            s.block(c['role'],x+133,y+105,106,14,bottom=y+268)
+            s.line(x+13,y+277,x+239,y+277)
+            s.block('Living Collection / '+c['id'],x+13,y+282,226,12,'BookItalic',TEAL,bottom=y+298)
         s.footer('Host-safe / Display flat or attach to a place-card stand')
-        if start<24:s.next()
+        if start+4<len(chars):s.next()
     s.save()
 def invitation():
-    s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival');s.rect(30,30,552,732,stroke=TEAL);s.rect(30,30,552,270,fill=TEAL,stroke=TEAL)
-    s.block('The Meridian Museum',52,55,508,24,'BookBold',white);s.block('of Art & World Cultures',52,89,508,18,'Book',white)
-    s.block('Treasures\nof the World',52,145,508,44,'BookBold',white,bottom=293);y=s.block('The Grant Larceny Collection',52,327,508,22,'BookItalic',TEAL)+23
-    for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),(GAME['address'],18,'Book'),('An opening-night gala celebrating art and culture from around the world, culminating in the unveiling of the thirteenth-century Isfahan Star Bowl.',18,'Book'),('Formal gala attire with art-world flair. Your character’s costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your separate character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,52,y,508,size,font,bottom=732)+16
+    s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival');s.rect(30,30,552,732,stroke=TEAL)
+    s.block('Treasures of\nthe World',48,48,516,40,'BookBold',TEAL,bottom=157)
+    s.block('The Meridian Museum of Art & World Cultures',48,158,516,18,'BookItalic')
+    for x,slug in [(48,'01_Artie_Ficial'),(224,'06_Dada_DiCapo'),(400,'07_Vincent_Van_Faux')]:
+        s.rect(x,200,164,212,fill=HexColor('#f6f1e7'),stroke=TEAL)
+        s.image(ROOT/'assets/portraits'/slug/'van_gogh.jpg',x+1,201,162,210)
+    y=s.block('You are part of the collection.',48,431,516,24,'BookBold',TEAL)+16
+    for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),(GAME['address'],18,'Book'),('The Grant Larceny Collection opens with a gala and the unveiling of the thirteenth-century Isfahan Star Bowl.',16,'Book'),('Formal gala attire with art-world flair. Costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,48,y,516,size,font,bottom=727)+12
+    s.block('Opening night / The Last Acquisition / October 30, 2026',48,742,516,12,'BookItalic',TEAL,bottom=758)
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
     rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Act I: introduce yourself, try the three social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','FINALE envelopes stay with the host until every ballot is collected.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
@@ -204,15 +229,21 @@ def spoiler(chars):
         body+=[f'Innocent evidence / Card {p["innocent_card"]}: '+c['evidence'][p['innocent_card']],f'Murderer evidence / Card {p["murderer_card"]}: '+c['evidence'][p['murderer_card']]];sections.append((c['id']+' / '+c['name'],'\n\n'.join(body)))
     sections.append(('Difficulty & continuity','Motive reveals grievances. Opportunity establishes salon visits and setup errands. Method reveals the significance of the key and linen, then compares the original receipts. Each individual clue matches many innocent guests. Only the murderer matches the combined salon-entry, cabinet-key and gold-seamed-linen records. No essential evidence may be withheld. Optional guests do not certify another guest’s movements. Scavenger discoveries add atmosphere but cannot block solving.'))
     manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf')
+def archive_entry(z,p,name):
+    data=p.read_bytes()
+    if p.suffix in ['.md','.json','.py','.html','.css','.toml','.txt','.sha256'] or p.name in ['.gitignore','.gitattributes']:data=data.replace(b'\r\n',b'\n')
+    entry=zipfile.ZipInfo(name,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;entry.create_system=3;entry.external_attr=0o100644<<16
+    z.writestr(entry,data)
+
 def package():
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Complete_Kit.zip','w',zipfile.ZIP_DEFLATED) as z:
-        for p in sorted(KIT.rglob('*')):
-            if p.is_file():z.write(p,Path(KIT.name)/p.relative_to(KIT))
+        for p in sorted(KIT.rglob('*'),key=lambda p:p.as_posix()):
+            if p.is_file():archive_entry(z,p,(Path(KIT.name)/p.relative_to(KIT)).as_posix())
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Source.zip','w',zipfile.ZIP_DEFLATED) as z:
-        for base in ['source','docs','scripts','site','.impeccable']:
-            for p in sorted((ROOT/base).rglob('*')):
-                if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.woff','.woff2','.pyc']:z.write(p,p.relative_to(ROOT))
-        for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore']:z.write(ROOT/name,name)
+        for base in ['source','docs','scripts','site','.impeccable','assets']:
+            for p in sorted((ROOT/base).rglob('*'),key=lambda p:p.as_posix()):
+                if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix())
+        for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name)
 def build_kit():
     fonts();KIT.mkdir(parents=True,exist_ok=True);chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
     # Clear superseded character filenames, keeping only current canonical exports.
@@ -222,10 +253,23 @@ def build_kit():
             for old in dest.iterdir():
                 if old.suffix in ['.pdf','.png']:old.unlink()
     preparty(chars);secret_packets(chars);evidence(chars);play_aids(chars);clues();props(chars);invitation();exhibits();awards();readme();facilitator(chars);spoiler(chars)
+    for c in chars:
+        dest=KIT/'OPEN_FREELY/Portraits'/c['slug'];dest.mkdir(parents=True,exist_ok=True)
+        for style in ['van_gogh','picasso','chibi']:
+            with Image.open(ROOT/'assets/portraits'/c['slug']/(style+'.jpg')) as im:
+                exif=im.info.get('exif',b'')
+                # Organizer prompts contain plot-related negative constraints.
+                # Public derivatives carry harmless origin metadata instead.
+                comment=('impeccable:prompt\0Origin: print derivative of the fictional '+c['name']+' '+style+' portrait, generated with built-in image_gen. Full-resolution asset and exact prompt are in the organizer source archive.').encode('utf-8')
+                im.thumbnail((900,900))
+                im.save(dest/(style+'.jpg'),quality=92,subsampling=0,exif=exif,comment=comment)
     import fitz
     for path in sorted((KIT/'OPEN_FREELY/PreParty_Individual').glob('*.pdf')):
         with fitz.open(path) as doc:
             assert len(doc)==1,path;doc[0].get_pixmap(matrix=fitz.Matrix(2,2)).save(str(path.with_suffix('.png')))
+        png=path.with_suffix('.png');metadata=PngInfo()
+        metadata.add_text('impeccable:prompt','Origin: rendered from '+path.name+' by scripts/build.py; incorporates the built-in image_gen Van Gogh portrait from assets/portraits/'+path.stem+'/van_gogh.jpg. Exact portrait prompt is in source/art_direction.json.')
+        with Image.open(png) as im:im.save(png,pnginfo=metadata,dpi=(144,144))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
     package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character PNGs')
 def speech(s,title,words,y=176):
@@ -239,8 +283,11 @@ def secret_packets(chars):
     for c in chars:
         p=c['private'];h=c['hearing'];s=Sheet(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / play packet')
         s.header('ACT I / Private background');y=s.block(c['name'],42,100,528,30,'BookBold')+16
+        portrait_top=y;s.rect(42,y,144,216,fill=HexColor('#f6f1e7'),stroke=TEAL)
+        s.image(ROOT/'assets/portraits'/c['slug']/'picasso.jpg',43,y+1,142,214)
         for label,key in [('Your grievance with Grant','history'),('Your other secret','secret')]:
-            y=s.block(label,42,y,528,16,'BookBold',TEAL)+5;y=s.block(p[key],42,y,528,14)+13
+            y=s.block(label,210,y,360,16,'BookBold',TEAL)+5;y=s.block(p[key],210,y,360,14)+13
+        y=max(y,portrait_top+216)+19
         y=s.block('Three things to try before dinner',42,y,528,18,'BookBold',TEAL)+8
         tasks=['Introduce yourself to someone you do not already know. Your role and pre-party sheet are enough.']+p['objectives'][:2]
         for n,t in enumerate(tasks):y=s.block(str(n+1)+'. '+t,42,y,528,14)+9
