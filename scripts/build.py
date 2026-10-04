@@ -221,7 +221,7 @@ def spoiler(chars):
 
 def archive_entry(z,p,name):
     data=p.read_bytes()
-    if p.suffix in ['.md','.json','.py','.html','.css','.toml','.txt','.sha256'] or p.name in ['.gitignore','.gitattributes']:data=data.replace(b'\r\n',b'\n')
+    if p.suffix in ['.md','.json','.py','.html','.css','.toml','.txt','.csv','.sha256'] or p.name in ['.gitignore','.gitattributes']:data=data.replace(b'\r\n',b'\n')
     entry=zipfile.ZipInfo(name,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;entry._compresslevel=9;entry.create_system=3;entry.external_attr=0o100644<<16
     z.writestr(entry,data)
 
