@@ -16,7 +16,9 @@ typography:
   read-aloud: {fontFamily: "Libron", fontSize: "16pt", fontWeight: 400, lineHeight: 1.25}
   poster-body: {fontFamily: "Libron", fontSize: "16–17pt", fontWeight: 400, lineHeight: 1.25}
   poster-name: {fontFamily: "Libron", fontSize: "34pt", fontWeight: 700, lineHeight: 1.25}
-  cover-name: {fontFamily: "Libron", fontSize: "36pt", fontWeight: 700, lineHeight: 1.25}
+  cover-event: {fontFamily: "Libron", fontSize: "34pt", fontWeight: 700, lineHeight: 1.2}
+  cover-subtitle: {fontFamily: "Libron", fontSize: "23pt", fontWeight: 400, lineHeight: 1.2}
+  cover-name: {fontFamily: "Libron", fontSize: "36pt", fontWeight: 700, lineHeight: 1.2}
   place-given-name: {fontFamily: "Libron", fontSize: "31pt", fontWeight: 700, lineHeight: 1.25}
   place-surname: {fontFamily: "Libron", fontSize: "38pt", fontWeight: 700, lineHeight: 1.25}
   round-marker: {fontFamily: "Libron", fontSize: "16pt", fontWeight: 700, lineHeight: 1.25}
@@ -45,7 +47,7 @@ The concept seed `ad4b8f59`, assigned index 5, is process provenance. Seven grou
 
 **Key Characteristics:**
 
-- Safe face-up framed Picasso covers and twelve-page self-contained books.
+- Safe face-up Picasso covers composed on a centered exhibition-poster axis, and twelve-page self-contained books.
 - Single-page Van Gogh posters with full-width Acting Tips.
 - Bold yellow relationship names and strong round boundaries.
 - Ninety distinct hunt hints, photographic evidence and freeform accusations.
@@ -61,7 +63,7 @@ Libron Regular, Bold, Italic and BoldItalic are embedded as `Book`, `BookBold`, 
 
 Canvas paragraphs use 1.25 leading; manuals use 14/18 pt narrative and 20/24 pt headings. Posters measure content and choose 17 or 16 pt narrative, with 34 pt names and 16 pt roles/section labels. Acting Tips have the same wide measure and narrative size as the relationships below the portrait.
 
-Packets use 16 pt round markers, 14 pt running names, 27 pt section titles and 36 pt cover names. Introductions, histories and Motive/Method speaking boxes use 16 pt. Opportunity boxes use 16 pt, or 15 pt when measured content requires it. Coming Clean uses 14 pt. All ten questions and named targets fit on one page at 14 pt. Hunt hints use 19 pt italic. Auxiliary metadata uses 12 pt.
+Packets use 16 pt round markers, 14 pt running names and 27 pt section titles. Covers use a 34 pt bold event title, 23 pt italic subtitle and 36 pt bold character name, each with 1.2 leading and centered alignment. Introductions, histories and Motive/Method speaking boxes use 16 pt. Opportunity boxes use 16 pt, or 15 pt when measured content requires it. Coming Clean uses 14 pt. All ten questions and named targets fit on one page at 14 pt. Hunt hints use 19 pt italic. Auxiliary metadata uses 12 pt.
 
 Tent cards use 31 pt first/middle names, 38 pt surnames and 16 pt roles. Discovery narratives and fields use 14 pt, titles 22 pt and stamps 12 pt. Room signs retain 48 pt names.
 
@@ -87,7 +89,9 @@ The authoritative twelve-page map is `source/game.json`:
 | 11 | ACCUSATIONS: loose ballot |
 | 12 | COMING CLEAN: retained role statements |
 
-Cover portrait frame: (149,169,314,458). Event title: (62,62); name: (62,636); safe numbering y=716; date/museum y=737. No branch, animal, grievance or secret appears on the cover. Page 2 has no costume suggestions or second portrait.
+Covers use one vertical axis at x=306. All cover text sits in a 516 pt measure starting x=48 and is centered. “Murder Mystery” starts y=54 at 34 pt bold; “Dinner Party 2026” starts y=99 at 23 pt italic. A 160 pt gold rule sits y=141. The Picasso frame occupies (144,156,324,462). The character name starts y=636 at 36 pt bold, followed by a second 160 pt gold rule y=695, “The Meridian Museum” y=711 at 14 pt italic, and date/private-packet/page metadata y=735 at 12 pt. Quiet double borders retain rectangles (28,28,556,736) and (33,33,546,726); the cover omits the corner crosshair ornaments. No branch, animal, grievance or secret appears on the cover. Page 2 has no costume suggestions or second portrait.
+
+The user rejected the earlier cover screenshot because its left-aligned title did not share the portrait’s axis and the composition looked uncentered. This correction aligns event, portrait, sitter and museum metadata as one exhibition poster. The ornate frame supplies the depth, while restrained outer borders and short rules give the text a deliberate hierarchy. This is a narrow cover correction; public posters, packet interiors and tent-card geometry remain unchanged.
 
 Round markers start at (42,30), running names y=62 and divider y=89. Questions occupy two 252 pt columns at x=42/318, five groups each starting y=226. Each group has three named targets. Directions point to answer pages 6,8,10. Speech boxes span 528 pt, text starts at x=60 across 492 pt, and box height is measured text plus 22 pt.
 
@@ -105,7 +109,7 @@ Generated gilt framing supplies carved museum depth, with a native transparent c
 
 ## Shapes
 
-Double gold borders and circular corner ornaments establish the folio. Records and speech boxes stay square. Ordinary outlines are 0.7 pt and rules 0.6 pt. Cut lines use 3/3 pt dashes; gold tent folds use 5/3 pt. The red octagon reinforces the written stop.
+Double gold borders and circular corner ornaments establish the public posters. Safe packet covers retain the double borders but omit the corner ornaments, keeping a quiet outer mat around the ornate portrait. Records and speech boxes stay square. Ordinary outlines are 0.7 pt and rules 0.6 pt. Cut lines use 3/3 pt dashes; gold tent folds use 5/3 pt. The red octagon reinforces the written stop.
 
 ## Components
 
@@ -127,7 +131,7 @@ Double gold borders and circular corner ornaments establish the folio. Records a
 
 ## Do's and Don'ts
 
-- Do preserve the safe cover, twelve-page order, loose ballot and retained finale.
+- Do preserve the centered cover axis at x=306, safe cover, twelve-page order, loose ballot and retained finale.
 - Do keep relationship names bold/yellow and Acting Tips full width.
 - Do preserve readable narrative, distinct art identities and native avatar alpha.
 - Do print one tent sheet per guest at 100%, with taped base flaps.

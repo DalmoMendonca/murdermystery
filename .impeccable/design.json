@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T18:47:21.194191+00:00",
+  "generatedAt": "2026-10-04T19:02:45.864788+00:00",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
@@ -61,6 +61,12 @@
       },
       "footer": {
         "purpose": "12 pt auxiliary metadata only."
+      },
+      "cover-event": {
+        "purpose": "Centered 34 pt bold Murder Mystery title."
+      },
+      "cover-subtitle": {
+        "purpose": "Centered 23 pt italic Dinner Party 2026 subtitle."
       }
     },
     "shadows": [],
@@ -156,26 +162,79 @@
         }
       },
       "cover": {
+        "axisX": 306,
+        "textX": 48,
+        "textMeasure": 516,
+        "textAlignment": "center",
+        "textLeading": 1.2,
+        "borders": [
+          [
+            28,
+            28,
+            556,
+            736
+          ],
+          [
+            33,
+            33,
+            546,
+            726
+          ]
+        ],
+        "cornerOrnaments": false,
         "portrait": [
-          149,
-          169,
-          314,
-          458
+          144,
+          156,
+          324,
+          462
         ],
         "title": [
-          62,
-          62,
-          488,
-          30
+          48,
+          54,
+          516,
+          34
         ],
+        "titleFont": "BookBold",
+        "subtitle": [
+          48,
+          99,
+          516,
+          23
+        ],
+        "subtitleFont": "BookItalic",
         "characterName": [
-          62,
+          48,
           636,
-          488,
+          516,
           36
         ],
-        "packetNumberY": 716,
-        "dateY": 737,
+        "characterNameFont": "BookBold",
+        "goldRules": [
+          {
+            "y": 141,
+            "width": 160,
+            "strokeWidth": 0.65
+          },
+          {
+            "y": 695,
+            "width": 160,
+            "strokeWidth": 0.65
+          }
+        ],
+        "museum": [
+          48,
+          711,
+          516,
+          14
+        ],
+        "museumFont": "BookItalic",
+        "metadata": [
+          48,
+          735,
+          516,
+          12
+        ],
+        "metadataText": "October 30, 2026  /  Private player packet  /  1 of 12",
         "privacy": "No secret, animal, grievance or branch on face-up cover."
       },
       "packet": {
@@ -415,6 +474,13 @@
     "playtestEvidence": {
       "summary": "docs/PLAYTEST_SUMMARY.md",
       "qualification": "Rejected all-correct/2-of-5 edition must not be cited as current-case success."
+    },
+    "coverCorrection": {
+      "authority": "User rejected the earlier uncentered cover screenshot and requested graphic design effort.",
+      "rejectedComposition": "Left-aligned event title above centered portrait, with corner crosshair ornaments.",
+      "implementedRationale": "Centered exhibition-poster axis unifies event, framed Picasso, sitter and museum metadata; italic subtitle and short gold rules establish hierarchy; the outer mat stays quiet.",
+      "scope": "Cover only; poster, interior and tent tokens preserved.",
+      "source": "scripts/printable_v2.py:cover"
     }
   },
   "components": [
@@ -461,7 +527,7 @@
     "northStar": "Museum Patron Folio",
     "overview": "Ornate museum gala print identity with gilded portraits, teal book typography and readable self-contained player books. Homepage remains independent.",
     "keyCharacteristics": [
-      "Safe face-up cover",
+      "Safe face-up cover on a centered exhibition-poster axis",
       "Twelve-page player books",
       "Full-width acting tips",
       "Bold yellow relationship names",
@@ -485,6 +551,7 @@
       }
     ],
     "dos": [
+      "Do align cover event, portrait, character name and metadata to x=306.",
       "Do preserve the safe cover and twelve-page order.",
       "Do keep ballot page 11 loose and Coming Clean retained.",
       "Do print single-sided at 100%.",
@@ -494,7 +561,8 @@
       "Do not restore structured notes, external catalogs, letter cards or separate finales.",
       "Do not put secrets on face-up covers.",
       "Do not ship font binaries or private prompts to guests.",
-      "Do not apply ornate print styling to the independent homepage."
+      "Do not apply ornate print styling to the independent homepage.",
+      "Do not restore the rejected left-aligned event title or corner crosshair ornaments on packet covers."
     ]
   }
 }

@@ -2,6 +2,7 @@
 import json, html, re, math
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.enums import TA_CENTER
 from reportlab.platypus import Paragraph
 
 GOLD=HexColor('#9b783b')
@@ -104,19 +105,42 @@ def speech(s,label,words,y,b,size=16):
     s.rect(42,y,528,h+22,stroke=b.TEAL)
     return s.block(words,60,y+11,492,size,bottom=674)+24
 
+def cover(s,b,c):
+    # An exhibition-poster axis: event, painting, sitter, museum/date.
+    # The frame supplies the ornament; the outer mat stays quiet.
+    s.rect(28,28,556,736,stroke=GOLD)
+    s.rect(33,33,546,726,stroke=GOLD)
+    def centered(text,y,size,font='Book',color=b.TEAL,leading=None):
+        p=Paragraph(html.escape(text),ParagraphStyle('CoverCentered',fontName=font,
+            fontSize=size,leading=leading or size*1.2,alignment=TA_CENTER,
+            textColor=color,allowWidows=0,allowOrphans=0))
+        _,height=p.wrap(516,10000)
+        assert y+height<=755,(c['name'],text)
+        p.drawOn(s.c,48,s.h-y-height)
+        b.AUDIT.append(dict(file=str(s.path.relative_to(b.KIT)),page=s.page,x=48,y=y,
+            width=516,height=height,size=size,text=text,alignment='center'))
+        return y+height
+    def rule(y,width):
+        cv=s.c;cv.saveState();cv.setStrokeColor(GOLD);cv.setLineWidth(.65)
+        cv.line(306-width/2,s.h-y,306+width/2,s.h-y);cv.restoreState()
+    centered('Murder Mystery',54,34,'BookBold')
+    centered('Dinner Party 2026',99,23,'BookItalic')
+    rule(141,160)
+    framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'picasso.jpg',144,156,324,462)
+    centered(c['name'],636,36,'BookBold')
+    rule(695,160)
+    centered('The Meridian Museum',711,14,'BookItalic')
+    centered('October 30, 2026  /  Private player packet  /  1 of 12',735,12)
+
 def packets(chars,b):
     rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
     hunt=json.loads((b.ROOT/'source/hunt.json').read_text(encoding='utf-8'))
     paths=[]
     for c in chars:
         p=c['private'];h=c['hearing'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / complete packet')
-        ornament(s)
-        s.block('Murder Mystery\nDinner Party 2026',62,62,488,30,'BookBold',b.TEAL,bottom=158)
-        framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'picasso.jpg',149,169,314,458)
-        s.block(c['name'],62,636,488,36,'BookBold',b.TEAL,bottom=733)
-        s.block('The Meridian Museum / October 30, 2026',62,737,488,12,'BookItalic',b.TEAL,bottom=755)
+        cover(s,b,c)
         # Safe face-up: no grievance, animal, branch or secret appears on this cover.
-        s.block('Private player packet / 1 of 12',62,716,488,12,'Book',b.TEAL,bottom=734);s.next()
+        s.next()
         pagehead(s,b,c,'INTRODUCTIONS')
         y=s.block(c['role'],42,109,528,20,'BookItalic',b.TEAL)+13
         y=s.block(c['preparty']['description'],42,y,528,16,bottom=675)+12

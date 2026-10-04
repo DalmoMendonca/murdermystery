@@ -1,3 +1,8 @@
+# Centered cover correction — 2026-10-04
+
+- Replaced the user-rejected cover with a centered exhibition-poster composition: clearer title/subtitle hierarchy, framed portrait, centered character name, quiet symmetric rules and compact centered footer. Removed cover corner crosshairs.
+- Fresh review covers all thirty actual replacement covers. All other 901 PDF page instances match previously reviewed raster hashes.
+
 # Ornate museum gala overhaul — 2026-10-04
 
 - Rebuilt all thirty packets with safe framed Picasso covers, bold yellow relationship names, introduction speeches, three personal hunt hints and clear numbered phase boundaries.

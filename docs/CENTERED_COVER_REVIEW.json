@@ -1,0 +1,264 @@
+{
+  "reviewer": "centered_cover_review",
+  "date": "2026-10-04",
+  "scope": "All 30 revised day-of packet cover pages only",
+  "verdict": "pass",
+  "blocking_findings": [],
+  "visually_reviewed_contact_sheets": [
+    {
+      "file": "build/centered-covers/sheet-00.jpg",
+      "sha256": "fbdc6dc0e6b18f77ad8bbbda704f635e8a1ab460ca87d9e2cc97c30266373352"
+    },
+    {
+      "file": "build/centered-covers/sheet-01.jpg",
+      "sha256": "df41b52cc4985a585d64ff246ca9fd3f43c2fc350deeef3bc9a4aef7454b23f8"
+    },
+    {
+      "file": "build/centered-covers/sheet-02.jpg",
+      "sha256": "1f3aaa6b925714a2cc0e5cb0b28411cef2ee8bb62f18332cafbbfd34f62a1072"
+    },
+    {
+      "file": "build/centered-covers/sheet-03.jpg",
+      "sha256": "5d43d82ecddde6038f9eaec71c669a3631732e14e8a6ef4e32cfb3cd0e2bcaf7"
+    },
+    {
+      "file": "build/centered-covers/sheet-04.jpg",
+      "sha256": "0238a6f00c0ab74b090a8696f664ffd0533294c7f11e716236d18f4d2b691d9e"
+    },
+    {
+      "file": "build/centered-covers/sheet-05.jpg",
+      "sha256": "34d753b13cb6ff692341297e48b54e029a58885351b60ef5129dbd3c8c473b5a"
+    },
+    {
+      "file": "build/centered-covers/sheet-06.jpg",
+      "sha256": "943d0176689e3d4e47d4a063696fa5fd60d08f5d76065e453e091d116e0d6365"
+    },
+    {
+      "file": "build/centered-covers/sheet-07.jpg",
+      "sha256": "e70cf4d6ca9af0a3da65f9cf64196ed56c801a5d87f84fb5cc9deb82ef0d1718"
+    }
+  ],
+  "full_page_representatives": [
+    17,
+    9,
+    7,
+    22
+  ],
+  "cover_hash_definition": "sha256 is raw RGB raster pixels; png_file_sha256 is exact PNG bytes; pdf_sha256 is exact individual packet PDF bytes.",
+  "covers": [
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/01_Artie_Ficial_SECRET.pdf",
+      "image": "build/centered-covers/cover-01.png",
+      "sha256": "ba69ed01b7ef4a5d6d6c4985b426192fcb7d3f87106e9b852ae41d179c93a5a8",
+      "pdf_sha256": "6bb5ac5b1990c1afa4d53a298cec5d1b7d29f4bc09479b4a2b01ef8b9824df36",
+      "png_file_sha256": "7fc56b86f3b0f1392a60fa8047f8419af02dd3ba22c507a22c1ab9f44daaee45"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/02_Claire_O_Scuro_SECRET.pdf",
+      "image": "build/centered-covers/cover-02.png",
+      "sha256": "bf8c4fdd9724bc9e04bdba12bb6271ec1c0ea0a9c0316e62d9d4f01ead85d357",
+      "pdf_sha256": "bb149b83984906028a16be2af154c2d86140953d083f808952f8d69540bd9d09",
+      "png_file_sha256": "287dbabdc65d186a7d983dc4fc08af41d20c3e670697e01c6053655f4919d762"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/03_Hugh_Bidder_SECRET.pdf",
+      "image": "build/centered-covers/cover-03.png",
+      "sha256": "5a56733ffa4147cb6f48ee7a94bda0b8676b12c11cdd71a0adeefcd2939a782e",
+      "pdf_sha256": "1449cd7a0bdf08672849029a93752dfdef17c12a92898248ddaf2d8b7217d5b1",
+      "png_file_sha256": "05719d54e3c7b03b5704eb827f654020a984355325e242de743624e443971ee3"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/04_Monet_Bags_SECRET.pdf",
+      "image": "build/centered-covers/cover-04.png",
+      "sha256": "4b5b8d76c5067ef9f6ad1de282deb22da8c75747dc5ba474bc616512f2d3afd2",
+      "pdf_sha256": "d1393e803ab0e5909427691876b821cad1802dd19332241616373b4e89050be4",
+      "png_file_sha256": "2179166aa7e0d9d9a0f64a33afeedd19fceab44ed361dca0b0aa3b75c3c99c3a"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/05_Chip_Patina_SECRET.pdf",
+      "image": "build/centered-covers/cover-05.png",
+      "sha256": "8c63387e3a52f2d6fe5cfd9c232a5e0251b0fb898941cfab698319360e4c1e57",
+      "pdf_sha256": "2679ac948ccec22a35e0c9688d15b3d6901678e9a3e18bb70dcf674e7d5a9403",
+      "png_file_sha256": "18143b4c70be483f61d4d86b66af598d3f80b40bbb30f7a1548ade6d493c63bb"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/06_Dada_DiCapo_SECRET.pdf",
+      "image": "build/centered-covers/cover-06.png",
+      "sha256": "19136f4743b4498ccb18ed3a3362a9fd544db0a65ca91012a45a543af69a8b1f",
+      "pdf_sha256": "7d732e0fc70debd2d26848b7f4a5558cc78d1bd52aead796cc54d1396463761a",
+      "png_file_sha256": "76888f49c51ddc9af593d9f6204263ee9195f74cd02d26028c0adeb333617013"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/07_Vincent_Van_Faux_SECRET.pdf",
+      "image": "build/centered-covers/cover-07.png",
+      "sha256": "8df2a9d491e200c501f4f72caaad33032671a55b79dbed845d9fade9feff5962",
+      "pdf_sha256": "5d052399cbb7a681b09e60e564e21a8d124e7b26fb201960b4632b8dc09c30b5",
+      "png_file_sha256": "5b033d9ae4b1b68f16e355b8865a23a3ba228cacc90de54e2ea251a7d4906bde"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/08_Sue_Venir_SECRET.pdf",
+      "image": "build/centered-covers/cover-08.png",
+      "sha256": "c08920ac7ed05bcabc5ceb51ff910c93d95626226b98e6e0d24cf40ff6d6dd97",
+      "pdf_sha256": "28cfebf69e67cbd913a85021ed57221180f456294e683c50b0cbc762d6aaaab1",
+      "png_file_sha256": "dccab634abc0afc6f06bd33dea8b7063e0a5166943191d4d4b10ece624fbf605"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/09_Dr_Art_E_Fact_SECRET.pdf",
+      "image": "build/centered-covers/cover-09.png",
+      "sha256": "15d4be98086151983e4f8d8e9ed4c479ba9331590ca6107f603275bf53f77b08",
+      "pdf_sha256": "cf4ce541ed0c25c2a520aedb2a9d51f52e6e5bbeffa4cf48e857d3d7a9183f3b",
+      "png_file_sha256": "a4dd29765e465fcedb1b5f36676b0bfc9ffbf948ae7ad66a74950d4fb3518505"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/10_Tess_Tament_SECRET.pdf",
+      "image": "build/centered-covers/cover-10.png",
+      "sha256": "55d91b51e1e12b95ec73ed7fd69362f2530cbca73bf49cfe9c002190abc4407d",
+      "pdf_sha256": "b4f32a870f5ee2db8778feef84e10831dc8274bbdb449f2ffc12aca74987414e",
+      "png_file_sha256": "08e16ab19de2fe58436e910c0c91876d1a67aede4fa18a40dd36bda5691377e9"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/11_Barb_Dwyer_SECRET.pdf",
+      "image": "build/centered-covers/cover-11.png",
+      "sha256": "5dc08534c3e47502cd1b2ed3fbf41a830fedadd70b997ea2fae9ee69d2d6a21b",
+      "pdf_sha256": "d525febe283f6358e5986f83b108ee59ea8d4b43bb844bbea48bec1289758f41",
+      "png_file_sha256": "05f3f115709f621611c815b116909eec5453753ebbb5353aba96ccfa3bf83c6e"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/12_Paige_Turner_SECRET.pdf",
+      "image": "build/centered-covers/cover-12.png",
+      "sha256": "e28e9434215137d981cc0b4c99b0c285b98f155ce814eb8f7f6f22f28193c605",
+      "pdf_sha256": "25224ff6d6f5244754952171d25eec5a1c87e6644729d737968de05f0b8b95bf",
+      "png_file_sha256": "1479932e2132cb9b07ec9fb916e7c179fa62680448e9e70e950838bbd264773b"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/13_Frank_Lloyd_Wrong_SECRET.pdf",
+      "image": "build/centered-covers/cover-13.png",
+      "sha256": "6ea6f0a1e31be5a07f4e46ff717cffdc84dcc4bf5da3dd9f11da8fd0fc1252f0",
+      "pdf_sha256": "99a3078140a1d63b4077184d1ff5b7c06de0d5008bd88b8e3ed7f3a99a267d6f",
+      "png_file_sha256": "1bf06547ae28bd28bef99b5c099b0ae1a31bab8eccb57e6355034dd00b5053c9"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/14_Mona_Lott_SECRET.pdf",
+      "image": "build/centered-covers/cover-14.png",
+      "sha256": "261d6d2ca4c8ad8a6bbde47b3121b94d6e7abe26238fa77ab2965812a194ede7",
+      "pdf_sha256": "2270611cd0e7d47b7fe9eb2768b3a58ed13a5a85fce43874480135cbd7c3408a",
+      "png_file_sha256": "b5909e20970bc3d6ca746f5d7240221cb49230d8891d3abd5836e175b21161b2"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/15_Elon_Mosaic_SECRET.pdf",
+      "image": "build/centered-covers/cover-15.png",
+      "sha256": "682eae2460618f5bfadce35d76ea8ad355743187f668013c27b50296478032ad",
+      "pdf_sha256": "9806a58ce8b2d21621ced2f0c52360bf07271d9780e4fedaac9be472dd233c16",
+      "png_file_sha256": "ad25450c1cc9135b5ffcea0d9910b6cbd373640411eff0c9d42287bf3faf1ae3"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/16_Anya_Tique_SECRET.pdf",
+      "image": "build/centered-covers/cover-16.png",
+      "sha256": "057106ffcc238385f8979ad65b81e7a3eec283ea3f67a36f6b72c0c01a485169",
+      "pdf_sha256": "fa07257c1607c5dafb295bcdede58d92bce24a332e93de3ede87ca0222829412",
+      "png_file_sha256": "a7f96452243664edee4e68ac43bc672b9e65b16e183dfe6badd42aca067ceced"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/17_Saul_D_Bid_SECRET.pdf",
+      "image": "build/centered-covers/cover-17.png",
+      "sha256": "27b2b0db8e27b7e08335e512dc6ede1055bf10302d393ae3ae54faaa56b94651",
+      "pdf_sha256": "f4edc6f5a322ad895177ef1f0c9f4bd9157f228406abed2c84cc17ffaaba094a",
+      "png_file_sha256": "003a7b2384ace3d7ae2e565100f72cb6088e9d92e325da114880c8791a9a1fdc"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/18_Elle_Loominate_SECRET.pdf",
+      "image": "build/centered-covers/cover-18.png",
+      "sha256": "037bcec80d11d7668bb65dff6966464aea8538d9e29b3644131eac3066f36318",
+      "pdf_sha256": "3ef43798d3cec120211bf42da1c321d005a1c895498575b8d36280937f7edad4",
+      "png_file_sha256": "66fbbe4f869c07bc173bafc407a6c27d323d0532bc33590fd458bad11fb54da9"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/19_Reed_DeLabel_SECRET.pdf",
+      "image": "build/centered-covers/cover-19.png",
+      "sha256": "8d0dab0bd88d00050fa3692226bb7dee52fd691a9a668e272b3faad1b35f3bd1",
+      "pdf_sha256": "9e6b21072d505eb55376cea19fff13bceeb1ba48292d23e03fc490b866dc8b93",
+      "png_file_sha256": "338e060d8662892a5bd52f8ef2d781d74b34e7dec1d4f7087e3a7e88d58fcf3f"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/20_Al_Baster_SECRET.pdf",
+      "image": "build/centered-covers/cover-20.png",
+      "sha256": "045bb1eb6aff9e92d23e7e32b902ba9069ea945609f6023b33d054b955ea3c48",
+      "pdf_sha256": "7e767a9e2003811cb116f8523b4336dae23ff313481447c4ef2d8a8083008c76",
+      "png_file_sha256": "9ae39e91ad66b7d13ee8112fb2f6395fd2d20b72a3f6c7f3f15b6275c9d5eb5b"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/21_Ella_Gance_SECRET.pdf",
+      "image": "build/centered-covers/cover-21.png",
+      "sha256": "9cb2d18deeb07beb23cb6ac91c528ecd9a6679f4001d1d6c358247c609ffeb30",
+      "pdf_sha256": "ae7bc2d8b42d0f760e70631d8217e2f44be4d643ab4d63233ed3de35a804270d",
+      "png_file_sha256": "9c0e233e452895fe51c0c47e75da00d0370429bfad5268c13da1add631b3a1b9"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/22_Drew_Conclusions_SECRET.pdf",
+      "image": "build/centered-covers/cover-22.png",
+      "sha256": "4578fcf8e1a4df3ffd7968c4e7a7145d6cb6cf636572015b28883b21787a7537",
+      "pdf_sha256": "594731a89fd70b8acc5c929d0e2770dc1463f8fe37ba71fb7b2792035b10369f",
+      "png_file_sha256": "1601347528b338b3dcb16becba9b2fe9a9ac07f6b79206b97f2c7ff446933e3f"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/23_Brie_DeVivre_SECRET.pdf",
+      "image": "build/centered-covers/cover-23.png",
+      "sha256": "b1122763a83b56dd5e089611328311e638ddd2527ea73883b890ab811dc89984",
+      "pdf_sha256": "120865a31ae603e6e224d21290613ed31d5f53bdedd9dd33e7d209c780f112fb",
+      "png_file_sha256": "5c79d5bd7410183fddd46b280223d890115f2ce23b34694938f76079d69864d3"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/24_Cary_Crates_SECRET.pdf",
+      "image": "build/centered-covers/cover-24.png",
+      "sha256": "1b91788682d6025036695ac562bbf9d871bf71b1a48ce0a3899639ed72dbb0d0",
+      "pdf_sha256": "c76a87c34c3e7f967fdf6f1d80287f4cb585f3f3baaecbd305f05d927c1e0f6b",
+      "png_file_sha256": "f6e4da71e2b3123e9802e9e1c3ee9c1a5ebfb6f8f6024e371bb890955ce629b5"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/25_Anne_E_Dote_SECRET.pdf",
+      "image": "build/centered-covers/cover-25.png",
+      "sha256": "6b0edfab7b8084f071151e5f8fa790faa0eda741e3926030a24c3337c95d43c3",
+      "pdf_sha256": "a8161baba53405f0dd61449e12a9de37381aafa6dd8ce0a13ae43a804ef5855b",
+      "png_file_sha256": "5185cca6b89cdad48d2125d1b6c0127956ecd6a49922598e2d76a4cbd939bb70"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/26_Faye_Stop_SECRET.pdf",
+      "image": "build/centered-covers/cover-26.png",
+      "sha256": "046f109f898c0e960940c636a3a39019d4f538ea2bf40fc67be68b898040e050",
+      "pdf_sha256": "4c2faa9a40922a9c7dee8f12fd0ac45966894d0aeed858497fa2345f3cd5fd16",
+      "png_file_sha256": "36f46036044d68d6611c94995f380dba3c5a5d940ac2a87e338f215c987b0a5f"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/27_Robin_Banks_SECRET.pdf",
+      "image": "build/centered-covers/cover-27.png",
+      "sha256": "4be1c5d93722e3e51b7d4c2c5b2d5eaec543938d05c9d383f47af60547a7eeab",
+      "pdf_sha256": "af482f79492da11cebf3e281626a7aaa0d61a2d1a2b5b4e607395d207272c0b2",
+      "png_file_sha256": "9b81eea65e66f70c0ec1df0a51f90a8cf877dcbce0cd206d168a18b2768b1745"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Pincher_SECRET.pdf",
+      "image": "build/centered-covers/cover-28.png",
+      "sha256": "225b295c9e705944e563db7f10a065f78785e62766c1a40b24ba1971e9cbcd91",
+      "pdf_sha256": "a7fb0eec501298f90a0051a53049a207b09996899fd3a76177c5766cf416895d",
+      "png_file_sha256": "d4f18f172f16451cc92eae6074408ab4ea5330cebd37032bc3c5d7d950e3d74c"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/29_Justin_Tyme_SECRET.pdf",
+      "image": "build/centered-covers/cover-29.png",
+      "sha256": "dfb6ed89499a4e83df4ce97dd7bf2403275c11dd5a1b0b6e4a8142de1382c602",
+      "pdf_sha256": "7434153d4d630eac62e2cdb322c9d2124e8dfc6d63b89d9b4a58858b18c5512e",
+      "png_file_sha256": "2198ef60aafb3427663756dc13cccab3a8e66fff12ea738cf43d06956cc0f020"
+    },
+    {
+      "file": "PRINT_WITHOUT_READING/Secret_Individual/30_Minnie_Malist_SECRET.pdf",
+      "image": "build/centered-covers/cover-30.png",
+      "sha256": "f41ee753eec675bd42cb7db3d95befe853321d6258adcc37030cd1fc2b8fe678",
+      "pdf_sha256": "203dea18659f32dabdfd3b91f6129ab8bb719ff1d554ef8d8ed225637e059ed3",
+      "png_file_sha256": "0db1985f91e96d9fce222a42616f25a74b949815a1f97585681d224dd02fbc7a"
+    }
+  ],
+  "limitations": [
+    "Does not approve mystery difficulty or physical printing.",
+    "Non-cover pages were outside this scoped review; parent reports 330 unchanged raster hashes."
+  ]
+}
