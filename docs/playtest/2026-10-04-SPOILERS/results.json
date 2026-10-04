@@ -1,0 +1,44 @@
+{
+  "participants": 16,
+  "innocents": 15,
+  "independent_innocent_correct": 15,
+  "all_votes": {
+    "Elon Mosaic": 16
+  },
+  "murderer": "Elon Mosaic",
+  "confidence_range": [
+    96,
+    99
+  ],
+  "feedback_files_saved": 16,
+  "human_playtest": false,
+  "blind_table_read": true,
+  "live_interaction": false,
+  "canonical_transcript": true,
+  "physical_handling_tested": false,
+  "discovery_hunt_tested": false,
+  "preparty_relationships_included": false,
+  "confessions_withheld_until_votes": true,
+  "observed_accidental_public_role_disclosures": 0,
+  "final_agent_turn": "Initial final return failed at usage limit after files were saved; participant later resumed and completed Coming Clean and ending feedback.",
+  "host_reveal": "Completed: one actual confession and two actual innocent statements; no fallback required.",
+  "host_awards_correction": "Only the fifteen innocent voters qualify for Master Sleuth; source rule clarified after host initially counted all sixteen.",
+  "difficulty_ratings": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

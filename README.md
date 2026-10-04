@@ -6,7 +6,7 @@ Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 
 
 [Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
 
-Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete twelve-page private packet: background, all Motive/Opportunity/Method question pages with named targets, their prepared answers and records, ballot and Coming Clean. No separate player catalog, letter cards or finale envelopes. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle private files face down. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
+Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete fourteen-page private packet: background, private evidence grids, all Motive/Opportunity/Method question pages with named targets, their prepared answers and records, ballot and Coming Clean. No separate player catalog, letter cards or finale envelopes. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle private files face down. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
 
 Every character has a Van Gogh portrait on the public introduction, a Picasso portrait on the private cover, and a transparent chibi on the place card. Place cards put first and middle names on one line and surname on the next; four per US Letter page. All thirty roles can be selected through the same memorized animal draw. Casting tiers indicate story prominence, not murderer eligibility.
 
@@ -52,3 +52,7 @@ Archives use fixed entry timestamps, stable ordering and normalized text line en
 ## Deployment
 
 `netlify.toml` installs pinned dependencies, generates the kit and publishes `site/`. Production: https://murder.dalmo.ai. Complete content checks and visual review before deploying; compare deployed ZIP SHA-256 values with the reviewed local ZIPs.
+
+## Agent table read
+
+Read the spoiler-safe summary in `docs/PLAYTEST_SUMMARY.md`. Sixteen independent agents locked votes before reveal; all fifteen innocent agents solved the synthetic case. Detailed private feedback and scope limits live in `docs/playtest/2026-10-04-SPOILERS`. Run `python scripts/prepare_playtest.py` to create isolated current-kit fixtures for a future blind table read; this does not run agents or certify live human playability.

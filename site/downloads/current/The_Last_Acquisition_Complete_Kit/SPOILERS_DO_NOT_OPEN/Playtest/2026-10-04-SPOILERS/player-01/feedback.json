@@ -1,0 +1,87 @@
+{
+  "player_name": "Artie Ficial",
+  "simulation_limits": "Blinded asynchronous agent using canonical transcripts, not a real human table test. No live improvisation, measured timing, or human recall test. Ending withheld; no other ballots available in this folder.",
+  "experience": "Welcoming host can also solve the case from current-round evidence. Motive was broad; Opportunity narrowed to five; Method supplied a unique intersection. Tracking sixteen ticks is straightforward in a transcript but would compete with listening, checking attendance and finding question rows live.",
+  "difficulty_1_trivial_5_too_hard": 2,
+  "enjoyment_1_5": 4,
+  "questions_answer_matching": {
+    "assessment": "All named questions matched the answers in each observed chain. Questions ask exactly the facts required by the reports. Preparation records repeat and substantiate Opportunity facts in Method.",
+    "weakness": "Method asks supplies and use, but the required read-aloud record is not explicitly requested by the question; a reader could stop after the narrative unless the facilitator cues it."
+  },
+  "named_question_chain": {
+    "motive": "Dr. Art E. Fact -> Sue -> Chip -> Frank -> Vincent -> Elon -> Monet -> Barb -> Mona -> Hugh -> Tess -> Paige -> Claire -> Artie -> Anya -> Dada -> Dr. Art E. Fact",
+    "opportunity": "Dada -> Elon -> Monet -> Vincent -> Tess -> Mona -> Frank -> Paige -> Chip -> Anya -> Sue -> Dr. Art E. Fact -> Claire -> Hugh -> Barb -> Artie -> Dada",
+    "method": "Chip -> Claire -> Frank -> Mona -> Hugh -> Barb -> Sue -> Elon -> Dada -> Anya -> Tess -> Artie -> Paige -> Dr. Art E. Fact -> Monet -> Vincent -> Chip",
+    "all_three_rounds": "Each of sixteen present answered exactly once; starting respondent answered last; zero repeated respondents or absent targets in supplied transcripts."
+  },
+  "sixteen_present_versus_thirty_listed": "Fourteen absent names remain on ASK pages but instructions say ignore them. The actual named checklist has Here and separate Motive/Opp./Method columns across two pages; sixteen present are supported. Initial simulation omitted this sheet, so lack of checklist was not a product defect.",
+  "remembering_animals": "DUCK remained distinct from HIPPO in this text simulation; that does not test human memory across a social evening. Announcing HIPPO twice and returning slips prevents visible identity tracking. Guide has explicit forgotten-animal recovery, but a full redraw before selection may be disruptive. No actual forgotten animal occurred.",
+  "duplicate_questions": "Shared groups produce repeated question wording, as Sue and Chip both receive the same Motive question; answers differ and no respondent was asked twice. Repetition helps consistency but Opportunity/Method become procedural after several turns. Do not remove repeated questioning if it risks omitting a guest.",
+  "note_taking": "Saved chronological hypotheses; would prefer a personal grid Name / salon time / key / linen / motive. Existing lined notes support prose but do not help compare sixteen names efficiently. Method records allow recovery if an earlier answer was missed.",
+  "host_divided_attention": "Actual kit includes named attendance/round checklist and counts-match ballot tally. These address chain tracking and reveal collection. Host still listens to evidence and turns pages while ticking. All observed chains completed without intervention.",
+  "round_timing_estimated_not_measured": {
+    "motive_minutes": "12–18 for sixteen question-answer turns plus brief discussion",
+    "opportunity_minutes": "12–18",
+    "method_minutes": "18–24 including records",
+    "basis": "Estimated spoken reading and handoffs only; no measured party timings. Host agenda allowances of20/30/30 minutes look feasible for sixteen with restrained speeches. Thirty would materially increase reading burden."
+  },
+  "roleplay": "Artie's takeover phrasing gives a voice without requiring improvisation. Rival-museum job remains a separate private secret; I did not invent a confession or answer to social tasks. Optional acting suits a host concentrating on facilitation.",
+  "actual_public_utterances": "Exact canonical Artie answers and outgoing questions are in arrival-notes, motive-notes, opportunity-notes and method-notes. No additional improvised testimony was made.",
+  "accidental_disclosures_actually_made": [],
+  "hypothetical_disclosure_risks": [
+    "Reading IF MURDERER as a heading would reveal one's branch.",
+    "A nearby guest can see both branch boxes and compare time differences.",
+    "Host could accidentally say their memorized animal while announcing selected animal; this did not happen."
+  ],
+  "exact_wording_that_could_give_away_guilt": [
+    {
+      "wording": "IF MURDERER",
+      "risk": "If spoken rather than kept private, immediately discloses selected branch."
+    },
+    {
+      "wording": "I went into the Donor Salon at 6:47",
+      "risk": "Artie's alternative text visibly distinguishes his guilty branch from 6:36; only a neighbor seeing his page would gain unintended knowledge. Artie did not say it."
+    },
+    {
+      "wording": "Salon door register: 6:48. Conservation key book: loan at 6:14 ... Materials inventory, 6:39: white linen cloth, gold seam.",
+      "risk": "Elon's actual public record makes him uniquely incriminating once combined with F3–F5; this is intended evidence, not accidental disclosure."
+    }
+  ],
+  "rendered_layout": {
+    "viewed": [
+      "packet-page-07.png",
+      "packet-page-10.png"
+    ],
+    "page07": "Clear hierarchy, spacious branch boxes, three note lines and STOP footer. Both branch labels can be seen by neighbors.",
+    "page10": "Rechecked at original detail: Your answer heading, branch instruction, both IF labels, complete records, and bottom STOP footer are present and clear. Method is denser than Opportunity and has no notes area. Earlier claimed missing labels/footer were display crop artifacts and are withdrawn. Visual inspection does not test physical print readability."
+  },
+  "host_ballot_simulation": {
+    "available_votes": [
+      {
+        "voter": "Artie Ficial",
+        "suspect": "Elon Mosaic"
+      }
+    ],
+    "partial_tally": {
+      "Elon Mosaic": 1
+    },
+    "all_ballots_collected": false,
+    "missing": "Fifteen attending ballots and award votes; selected animal's owner is unknown to this blinded host. No Coming Clean text supplied.",
+    "instructions": "Collect all sixteen ballots privately before opening Coming Clean; lock without revisions. Then rank only positive totals descending, breaking ties alphabetically by full character name, taking at most three. Partial tally has only Elon with one vote; it cannot establish final top three. Each chosen suspect reads own appropriate box even if an earlier confession occurs. If none confesses, announce selected HIPPO and ask its memorizer to read murderer confession. Do not announce HIPPO fallback after a confession.",
+    "tie_example": "No actual tie exists in available votes; apply alphabetical full-name rule only if complete tally ties.",
+    "reveal_performed": false,
+    "awards": "Cannot determine Master Sleuth without reveal or Best Actor/Costume without ballots; no discoveries reported to score Curator's Eye."
+  },
+  "prioritized_concrete_improvements": [
+    {
+      "priority": 3,
+      "change": "Provide a deduction grid for salon time, key and linen beside names, with room for motive.",
+      "reason": "Comparisons are the core task; lined prose notes add unnecessary bookkeeping."
+    },
+    {
+      "priority": 4,
+      "change": "Put 'Read the entire box, including Preparation record' directly next to Method answer instructions and host round-opening cue.",
+      "reason": "Method question wording alone asks only supplies and use."
+    }
+  ]
+}

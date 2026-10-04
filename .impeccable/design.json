@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T03:19:46.0615953Z",
+  "generatedAt": "2026-10-04T13:32:10.810007Z",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
@@ -186,24 +186,28 @@
       "packet": {
         "targetsPerGroup": 3,
         "sequence": {
-          "comingClean": 12,
           "background": 1,
-          "motiveAnswer": 4,
-          "motiveQuestions": [
+          "investigationNotes": [
             2,
             3
           ],
-          "ballot": 11,
-          "methodQuestions": [
-            8,
-            9
+          "motiveQuestions": [
+            4,
+            5
           ],
-          "methodAnswer": 10,
-          "opportunityAnswer": 7,
+          "motiveAnswer": 6,
           "opportunityQuestions": [
-            5,
-            6
-          ]
+            7,
+            8
+          ],
+          "opportunityAnswer": 9,
+          "methodQuestions": [
+            10,
+            11
+          ],
+          "methodAnswer": 12,
+          "ballot": 13,
+          "comingClean": 14
         },
         "questionGroupsPerRound": 10,
         "groupsPerPage": 5,
@@ -220,7 +224,57 @@
           "textMeasure": 480,
           "labelMeasure": 502
         },
-        "pages": 12
+        "pages": 14,
+        "assembly": "Leave ballot page 13 loose inside; staple all other pages in order at the upper left. Guests hand over only the folded ballot and retain the packet.",
+        "investigationNotes": {
+          "pages": [
+            2,
+            3
+          ],
+          "rowsPerPage": 15,
+          "rowSize": 14,
+          "gridX": 42,
+          "gridWidth": 528,
+          "rowStartY": 275,
+          "rowSpacing": 28,
+          "attendanceTick": [
+            43,
+            2,
+            11,
+            11
+          ],
+          "columns": {
+            "name": [
+              62,
+              180
+            ],
+            "salonTime": [
+              254,
+              100
+            ],
+            "keyLoan": [
+              359,
+              70
+            ],
+            "material": [
+              434,
+              136
+            ]
+          },
+          "columnDividersX": [
+            246,
+            351,
+            426
+          ],
+          "columnDividerY": [
+            264,
+            690
+          ],
+          "rowRuleOffset": 23,
+          "privacy": "Record spoken facts only; never record animals or branches."
+        },
+        "methodReading": "Read the entire appropriate box, including all three preparation-record lines; never read the IF heading.",
+        "privateReader": "Only a non-playing helper may assist with private text; the helper keeps the branch private and cannot vote."
       },
       "discoveries": {
         "card": [
@@ -268,6 +322,52 @@
           106
         ],
         "pages": 4
+      },
+      "hostChecklist": {
+        "pages": 3,
+        "rosterPages": 2,
+        "rowsPerPage": 15,
+        "nameSize": 14,
+        "nameX": 42,
+        "nameMeasure": 220,
+        "rowStartY": 257,
+        "rowSpacing": 28,
+        "ticksX": [
+          277,
+          337,
+          417,
+          497
+        ],
+        "tickSize": 12,
+        "tickYOffset": 2,
+        "columns": [
+          "Here",
+          "Motive",
+          "Opportunity",
+          "Method"
+        ],
+        "tally": {
+          "page": 3,
+          "countMatch": "Lock all votes and match ballots collected to attendance before tallying.",
+          "columnX": [
+            42,
+            318
+          ],
+          "rowsPerColumn": 15,
+          "rowStartY": 252,
+          "rowSpacing": 25,
+          "nameSize": 14,
+          "nameMeasure": 198,
+          "boxOffsetX": 202,
+          "boxSize": [
+            48,
+            20
+          ],
+          "suspectStartY": 641,
+          "suspectSpacing": 28,
+          "suspectCount": 3,
+          "ranking": "Rank attending names only by all vote totals including zero; break every tie alphabetically by full character name. Call exactly three and read every selected statement even after an early confession."
+        }
       }
     },
     "artwork": {
@@ -315,22 +415,40 @@
       ]
     },
     "verification": {
-      "contactSheets": 125,
-      "renderedPages": 930,
+      "contactSheets": 140,
+      "renderedPages": 1052,
       "structuralIssues": 0,
       "htmlDetector": "Not run for PDF canvas output",
-      "visualCoverage": "All 125 contact sheets plus eight full-page zooms, as recorded by the independent reviewer.",
-      "finishReview": ".impeccable/review/complete-packet-finish-review.md",
+      "visualCoverage": "All 140 initial contact sheets and 24 full-page zooms were actually inspected, followed by all 30 changed private backgrounds and exact recaptures of affected guide, tally and certificate pages. Repeated instances were checked through raster-hash mapping.",
+      "finishReview": ".impeccable/review/playtest-finish-review.md",
       "report": "build/review/report.json",
       "limits": [
         "Digital raster review, no physical printer proof",
         "Duplicate copies mapped by raster hash",
-        "Most pages viewed at contact-sheet scale",
-        "Not an independent gameplay simulation"
+        "Most distinct pages viewed at contact-sheet scale",
+        "No live human gameplay validation"
       ],
       "disposition": "ship",
-      "uniqueVisualPages": 498,
-      "pdfCount": 87
+      "uniqueVisualPages": 560,
+      "pdfCount": 87,
+      "dispositionScope": "Final ship scores the fixes and changed-region regression checks; the initial all-sheet inspection remains separately recorded."
+    },
+    "playtestEvidence": {
+      "participants": 16,
+      "independentPersonaAgents": 16,
+      "innocentAccuracy": "15/15",
+      "difficultyRatings": "All participants rated 2/5",
+      "accuracyExclusion": "Culprit self-vote",
+      "method": "Blind asynchronous table read of canonical scripted answers with persistent text available",
+      "summary": "docs/PLAYTEST_SUMMARY.md",
+      "limits": [
+        "No live human validation",
+        "Did not test distraction, unaided recall, physical page handling, discovery hunting or actual timing",
+        "Does not predict real-party solve rate"
+      ]
+    },
+    "awardEligibility": {
+      "Master Sleuth": "An innocent guest whose correct accusation is supported by evidence and motive."
     }
   },
   "components": [
@@ -397,12 +515,12 @@
       {
         "name": "The Locked Ballot Rule",
         "section": "components",
-        "body": "Coming Clean stays unread until every ballot is collected and locked. The top three suspects read their appropriate statements; if none confesses, the announced animal stands and reads IF MURDERER."
+        "body": "Coming Clean stays unread until every ballot is collected and locked and the collected count matches attendance. Rank all attending names by vote total, including zero, with every tie broken alphabetically by full character name. Exactly three attending suspects read their appropriate statements, even after unanimous voting; read every selected statement even if a confession occurs early. If none confesses, the announced animal stands and reads IF MURDERER."
       }
     ],
     "overview": "The Meridian Museum gala uses white stock, scholarly book typography, restrained blue institutional identity and thin rules. These are working objects for reading aloud, handwriting, room finding and cutting. The theatrical character comes from museum records, art-world identities and recognizable portraits rather than decorative clutter. This document records `scripts/build.py` and `scripts/evidence_design.py`; the independent homepage authority remains `docs/DESIGN.md`.\n\nThe Living Collection gives thirty fictional identities three distinct artworks each: Van Gogh inspired public portraits, Picasso inspired private portraits and transparent chibi place-card avatars. Matching facial features, costume colors and signature accessories support recognition. The event belongs to 2026 and costume inspiration is optional. All thirty roles are eligible for the memorized animal selection.",
     "dos": [
-      "Do preserve the twelve-page sequence, including preparation records, ballot and both Coming Clean statements.",
+      "Do preserve the fourteen-page sequence, including private notes, complete preparation records, loose ballot and both retained Coming Clean statements.",
       "Do keep explicit stop warnings and branch labels outside spoken boxes.",
       "Do use named question groups and tick each attending respondent once per round.",
       "Do memorize animals and immediately return folded slips to a closed box.",
@@ -413,7 +531,7 @@
     ],
     "keyCharacteristics": [
       "Fourteen-point narrative floor and larger public introductions.",
-      "Twelve-page self-contained packets with named questions, answers, records, ballot and Coming Clean.",
+      "Fourteen-page self-contained packets with private notes, named questions, answers, records, a loose ballot and retained Coming Clean.",
       "Branch labels outside speech boxes and explicit stop instructions.",
       "Realistic records and photographic evidence.",
       "Transparent chibi cards with names on two lines.",

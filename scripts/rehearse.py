@@ -3,7 +3,7 @@ import json,random
 from build import ROOT,GAME
 
 def finalists(votes):
-    return sorted((n for n in votes if votes[n]>0),key=lambda n:(-votes[n],n))[:3]
+    return sorted(votes,key=lambda n:(-votes[n],n))[:3]
 
 def rehearse():
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
@@ -36,7 +36,7 @@ def rehearse():
             assert [n for n,f in facts.items() if all(f[k] for k in ['salon','key','linen'])]==[killer]
             for votes in [{n:rng.randrange(5) for n in attending},{n:1 for n in attending},{n:0 for n in attending}]:
                 top=finalists(votes);readers=list(top)
-                assert len(top)<=3 and all(votes[n]>0 for n in top)
+                assert len(top)==min(3,len(attending)) and set(top)<=set(attending)
                 if killer not in readers:readers.append(killer);outside+=1
                 assert sum(n==killer for n in readers)==1
                 for n in readers:assert by_name[n]['private']['final_'+('murderer' if n==killer else 'innocent')]
@@ -44,6 +44,8 @@ def rehearse():
             if bowl_a:assert bowl_a[-1]!=selected
             runs+=1
     assert finalists({'Zoe':2,'Anne':2,'Mona':2,'Reed':2,'Zero':0})==['Anne','Mona','Reed']
+    assert finalists({'Zoe':16,'Anne':0,'Mona':0,'Reed':0})==['Zoe','Anne','Mona']
+    assert finalists({'Zoe':0,'Anne':0,'Mona':0,'Reed':0})==['Anne','Mona','Reed']
     report={'draw_and_turn_rehearsals':runs,'coming_clean_rehearsals':confessions,'outside_top_three_reveals':outside,'passed':True,'human_playtest':False,
             'coverage':['all thirty roles eligible','unique memorized animals returned to closed box','unused animals excluded from B','one attending murderer','named questions inside each packet','every present guest answers once per round','absences and late arrivals','combined evidence uniquely identifies culprit','top-three and alphabetical tie handling','murderer outside top three always confesses']}
     (ROOT/'build/rehearsal-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))

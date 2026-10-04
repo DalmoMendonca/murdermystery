@@ -34,24 +34,28 @@ def check():
                 origin=str(im.getexif().get(270,'')) if style=='chibi' else im.info.get('comment',b'').decode()
                 assert 'Origin:' in origin and not any(x in origin.lower() for x in ['poison','cabinet','linen','murderer'])
         with fitz.open(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf') as d:
-            assert len(d)==12 and len(d[0].get_images())==1 and not any(p.get_images() for p in list(d)[1:])
+            assert len(d)==14 and len(d[0].get_images())==1 and not any(p.get_images() for p in list(d)[1:])
             texts=[p.get_text() for p in d];alltext='\n'.join(texts)
-            for rd,indices in zip(rounds,[(1,2),(4,5),(7,8)]):
+            for rd in rounds:
+                indices=[p-1 for p in GAME['packet_pages'][rd['key']+'_questions']]
                 qt=norm('\n'.join(texts[i] for i in indices))
                 for g in rd['groups']:assert norm(g['question']) in qt and all(norm(n) in qt for n in g['targets'])
             for val in [c['private']['history'],c['private']['secret'],*c['hearing'].values()]:assert norm(val) in norm(alltext),(c['name'],val)
             for branch in ['innocent','murderer']:
                 rec=c['preparation_record'][branch];f=facts(rec)
                 assert f==tuple(c['case_facts'][branch][k] for k in ['salon','key','linen']),(c['name'],branch,rec)
-                assert norm('\n'.join(rec.splitlines()[1:4])) in norm(texts[9])
-                assert norm(c['private']['final_'+branch]) in norm(texts[11])
+                assert norm('\n'.join(rec.splitlines()[1:4])) in norm(texts[GAME['packet_pages']['method_answer']-1])
+                assert norm(c['private']['final_'+branch]) in norm(texts[GAME['packet_pages']['coming_clean']-1])
                 where=c['hearing']['where_'+branch];method=c['hearing']['evidence_'+branch]
                 assert ('did not go back' not in where)==f[0]
                 assert ('did not borrow' not in where)==f[1]
                 assert ('white linen cloth with a gold seam' in method)==f[2]
             assert not all(facts(c['preparation_record']['innocent'])) and all(facts(c['preparation_record']['murderer']))
-            assert 'Your ballot' in texts[10] and 'Coming Clean' in texts[11]
-            before='\n'.join(texts[:11]).lower()
+            assert 'Your ballot' in texts[12] and 'Coming Clean' in texts[13]
+            grid='\n'.join(texts[1:3]);assert all(norm(n) in norm(grid) for n in names)
+            assert 'including the three preparation-record lines' in texts[11]
+            assert 'give only the ballot' in texts[12]
+            before='\n'.join(texts[:13]).lower()
             assert not any(x in before for x in ['i poisoned','i stole the toxin','you poisoned','you dampened','i dampened','i decided he would not'])
             assert norm(c['private']['final_murderer']) not in norm(before)
         public=printed(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf')
@@ -85,5 +89,5 @@ def check():
     assert norm(GAME['address']) in norm(printed(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf'))
     for name in ['The_Last_Acquisition_Complete_Kit.zip','The_Last_Acquisition_Source.zip']:
         with zipfile.ZipFile(SITE/'downloads'/name) as z:assert not z.testzip() and not any(n.lower().endswith(('.ttf','.otf','.woff','.woff2')) for n in z.namelist())
-    (ROOT/'build/mechanics-check.json').write_text(json.dumps({'cases':cases,'shared_question_groups':30,'working_murderer_branches':30,'packet_pages':12,'passed':True},indent=2),encoding='utf-8')
+    (ROOT/'build/mechanics-check.json').write_text(json.dumps({'cases':cases,'shared_question_groups':30,'working_murderer_branches':30,'packet_pages':14,'passed':True},indent=2),encoding='utf-8')
     print('Passed 30 complete packets, 30 shared question groups, 30 Coming Clean branches, 120 culprit/attendance cases, 30 transparent avatars and all report facts.')

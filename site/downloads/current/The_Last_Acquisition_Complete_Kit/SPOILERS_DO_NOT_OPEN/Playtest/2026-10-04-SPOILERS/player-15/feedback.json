@@ -1,0 +1,54 @@
+{
+  "player_name": "Elon Mosaic",
+  "personality": "Careful note taker: comparison of all three strands before voting",
+  "experience": "I kept a comparison of salon window, key borrowing and cloth, preserving the earlier suspicions. Motive gave everybody a reason; opportunity reduced the credible access set to five; method produced one intersection. Being privately designated murderer meant I already knew my role, so my 99 confidence is not a clean measure of blinded public-only solving difficulty. I still checked the public intersection before accusing myself.",
+  "difficulty_1_trivial_5_hard": 2,
+  "fun_1_5": 3,
+  "difficulty_notes": "Easy deduction once the records arrive, moderate bookkeeping across 16 people. The artistic grievances provide enjoyable character texture, but the final comparison is mechanical.",
+  "navigation": {
+    "rating_1_poor_5_clear": 5,
+    "observed": "Round titles, next-person instruction and STOP directions consistently identify what to read next. Both PNG pages are readable, spacious and have clearly separated branches.",
+    "quotes": ["Choose by name / Everyone answers once / Turn only within this round", "STOP / Wait for the host before the next round", "STOP / Do not turn to Coming Clean until all ballots are locked"]
+  },
+  "question_matching": {
+    "observed": "All 16 prepared question-answer pairs matched the named categories and requested facts. No mismatch occurred. My broad gala-preparations question correctly prompted salon entry and key loan.",
+    "quote": "You had gala preparations to handle. When did you enter the Donor Salon, and did you borrow the conservation cabinet key?",
+    "limit": "These are canonical prepared answers, not live improvisation; speaker turn selection and missed questions were not tested."
+  },
+  "repetition": {
+    "observed": "Directions recur on both question pages and every answer page. Opportunity and Method repeatedly recite similar access statements, useful for comparison but flattening the voice. My Opportunity innocent and murderer paragraphs are identical; visibly duplicating them consumes useful note space.",
+    "quotes": ["Acting is optional; these printed facts are enough.", "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside."]
+  },
+  "attendance_16_vs_30": {
+    "observed": "14 absent names remain across the 30-name question list. The explicit instruction makes skipping them workable, but I needed the 16-name attendance list when choosing a valid next speaker.",
+    "quote": "Ignore absent guests.",
+    "recommendation": "Supply a marked attendee checklist alongside the question list so players can distinguish absent from already answered names."
+  },
+  "note_space": {
+    "observed_png_07": "Opportunity has three ruled lines beneath Notes from this round. Three lines fit my own timestamp and perhaps a five-person shortlist, but not a 16-person salon/key comparison.",
+    "observed_png_10": "Method page ends with next-person instructions and STOP, without a notes area. The preparation records use substantial space; I would want a separate comparison sheet to combine all witnesses.",
+    "limit": "I wrote JSON notes; actual handwriting and paper handling were not tested."
+  },
+  "memory_load": {
+    "observed": "The logical evidence requires tracking three binary conditions for 16 guests plus the timing window. Repeated preparation records reduce reliance on recollection if they can be revisited, but most other guests' information is spoken in the table format.",
+    "recommendation": "Add 16 attendee rows and columns for salon after 6:40, key loan and linen. Leave motive notes freeform.",
+    "limit": "No claim about human memory retention or difficulty memorizing HIPPO; the identity file supplies that condition."
+  },
+  "branch_safety": {
+    "actual_disclosures": ["No role label was spoken in any prepared public answer.", "My public Method answer disclosed white linen with a gold seam and my access records, as intended. Those facts identify me only in conjunction with the public reports and other witnesses.", "My Motive answer publicly reveals the anonymous auction win, despite the arrival task asking me to keep Hugh from revealing my role in the auction. This is scripted disclosure by my own character, not accidental leakage."],
+    "hypothetical_risks": ["Both Method branches are visible together. A neighboring player could see the alternate blue-paper answer; this was not observed in the simulation.", "A player could accidentally read a branch label aloud, but none did in the prepared transcript."],
+    "quotes": ["Keep its label private.", "Keep Hugh from revealing your role in the auction.", "I outbid Grant anonymously for a work he wanted."]
+  },
+  "roleplay": {
+    "observed": "The grievance fits an expensive collector's ego, and the line about an expensive grudge gives me a clear voice. The social task around Hugh becomes obsolete when I publicly admit the anonymous bid in Motive. Being the murderer still requires reading incriminating facts truthfully; I can perform the character but cannot improvise a defensive alternate account under the printed rules.",
+    "quote": "It was an expensive grudge, even by his standards.",
+    "limit": "No live acting, social-task completion or player banter was tested."
+  },
+  "prioritized_changes": [
+    {"priority": 1, "change": "Provide a shared attendee-and-evidence grid with room for salon, key and linen notes.", "reason": "Three Opportunity lines and no Method note area underserve a careful note taker comparing 16 people."},
+    {"priority": 2, "change": "Clarify the arrival auction secrecy task expires when Motive opens, or let Motive reveal the blacklist without explicitly confessing the anonymous bid.", "reason": "The intended social secrecy is directly undone by the mandatory public answer."},
+    {"priority": 3, "change": "Use one shared Opportunity answer when both branches are identical, with a single read-aloud label.", "reason": "Reduces redundant reading and recovers note space without changing the deduction."}
+  ],
+  "evidence_logic": "Among the five people with both salon-window and key access, only Elon has linen. The linen users outside that group each lack either key access or a post-6:40 salon entry. No transfer or unlogged access loophole remains under F3–F5.",
+  "simulation_limits": "Only staged text and PNG07/10 reviewed. Ballot locked before PNG viewing. Ending withheld. No repository, adjudicator, other player files or web accessed. Earlier hypotheses not revised. No human-memory, live-performance or physical-handling claims."
+}

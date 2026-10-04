@@ -1,0 +1,61 @@
+{
+  "player_name": "Vincent Van Faux",
+  "personality": "Older guest with reading fatigue; favors large clear text, short directions, easy navigation and useful notes.",
+  "scope": "Blinded asynchronous reading of canonical prepared answers, staged files in sequence. Ballot locked before page images. Ending withheld. No live improvisation, human memory experiment, paper handling or physical flipping tested.",
+  "experience": "The role is easy to inhabit: embarrassment about a student painting gives me a specific grievance without a long biography. Round gates are clear and the final evidence yields one strong suspect. The tiring part is repeatedly scanning two questions pages containing 30 names while only 16 attend, then tracking nearly identical supply and timing statements. Large answer text and generous white space help, but the note area does not match the number of facts I need to compare.",
+  "difficulty_1_trivial_5_hard": 2,
+  "difficulty_reason": "Motive initially offers no clear lead, but F3-F5 turn the solution into a manageable three-factor intersection. Transcripts and persistent JSON notes lower simulated reading difficulty; this is not a claim about real older guests remembering spoken facts.",
+  "enjoyment_1_5": 4,
+  "enjoyment_reason": "Museum satire and Vincent's grievance are appealing. Distinctive motives are enjoyable; near-identical access and materials formulas become mechanical.",
+  "navigation": {
+    "worked": ["Character and round headers repeat on each page.", "STOP / Wait for the host before the next round clearly gates progress.", "Questions pages name their intended guests and say the answer is on the following answer page.", "Ballot says votes cannot change once collected."],
+    "friction": ["Two question pages require choosing from either, then returning to the answer page after questioning. This is inferred from layout, not physical flipping tested.", "Visible images have no page numbers; a round/page identifier would help a tired reader recover place.", "Then choose another guest repeats a fairly long paragraph already explained on questions pages."],
+    "tested": "Text sequence and screen images only."
+  },
+  "question_matching": {
+    "result": "All questions in the provided transcripts match the addressed groups and receive answers to the requested facts.",
+    "specific": "Frank asks Vincent about publicity and reputation; Monet asks Vincent about salon timing and cabinet key; Monet asks Vincent about issued cleaning material. These fit Vincent's prepared answers.",
+    "friction": "Names are the selection mechanism rather than a compact attending-player list. Question variants in Opportunity and Method differ mostly in their introductory flavor."
+  },
+  "repetition": {
+    "useful": "Method preparation records repeat Opportunity timings, allowing verification without relying entirely on recall.",
+    "tiring": "Each round repeats the same question-page directions twice, plus footer directions and answer-page turn instructions. All 16 Method answers repeat materials inventory phrasing.",
+    "quote": "Choose one guest named below who has not answered this round. Read the question aloud. Ignore absent guests."
+  },
+  "16_present_vs_30_listed": {
+    "observed": "Roster has 16 attending players; each questions section contains 30 possible names in ten groups.",
+    "impact": "Absent-name filtering occurs every round. No unusable chain occurs in the prepared transcripts. The tenth group has no attending guest, so it consumes scanning effort without a usable choice.",
+    "arrival_example": "Ella is absent but the arrival instruction explicitly says, If a named guest is absent, discuss that subject with anyone. This avoids a blocked social task.",
+    "recommendation": "Provide a host-marked attending roster or session-specific questions sheet, retaining the absent-guest fallback for social tasks."
+  },
+  "note_space": {
+    "page_07": "Opportunity answer page has Notes from this round with only two ruled lines. These are insufficient for 16 guests' timing and key status in ordinary handwriting.",
+    "page_10": "Method page uses most of the sheet for both role branches, preparation records, and turn instructions; no notes area is visible.",
+    "recommendation": "Include a separate deduction grid with 16 attending names and columns for motive, salon window, key and linen. Let guests take notes as each answer is read."
+  },
+  "memory_load": {
+    "observed": "The player must retain a private animal, identify the matching public animal, and integrate motives, salon times, key loans and wipe materials across three rounds.",
+    "support": "Repeated method records reduce dependence on earlier timing recall; the host tracks who has answered.",
+    "limitation": "Files and saved notes remained available. Human memorization, spoken-answer retention, handwriting speed and real-time hearing were not tested."
+  },
+  "branch_safety": {
+    "observed": "GOOSE did not match HIPPO, so I used innocent branches. Labels are outside bordered answer boxes on both images, which makes the intended spoken material visually distinct.",
+    "actual_accidental_public_disclosures": [],
+    "actual_status": "No role label, animal, private buyback secret or alternate answer entered my public answers. Both role branches were visible to the simulated reader; private visibility is not a public disclosure.",
+    "hypothetical_risks": ["A fatigued reader could continue into the second nearby branch or say its label, but this did not occur in the canonical transcript.", "Method's longer answer plus preparation record could make the endpoint less obvious, though the border gives a clear boundary."],
+    "recommendation": "Add Read only this entire box, including Preparation record to Method instructions and a small END OF ANSWER inside each bordered box. Consider a cover flap over the unused branch if producing paper kits."
+  },
+  "roleplay": {
+    "worked": "Acting is optional; these printed facts are enough lowers pressure. Vincent's punchline-of-my-own-exhibition line gives an easy voice cue.",
+    "limitation": "Prepared transcript limits exploration of social tasks, reactions and improvisation. No live roleplay quality claim is made."
+  },
+  "prioritized_improvements": [
+    {"priority":1,"change":"Add a deduction grid sized to the attending roster.","quote":"Notes from this round","reason":"Only two lines on Opportunity and none visible on Method compete with 16 guests' multi-field evidence."},
+    {"priority":2,"change":"Mark attending names before distributing packets, or supply a compact session-specific name index.","quote":"Ignore absent guests.","reason":"Makes the repeated 30-name scan lighter for a 16-player table; preserves flexible attendance."},
+    {"priority":3,"change":"Shorten repeated turn instructions and add round/page numbers or edge tabs.","quote":"Choose a guest who has not answered this round from either Questions to ask page.","reason":"Instructions are correct but repeated in several places. Numbered references would help recover place while retaining STOP gates."},
+    {"priority":4,"change":"Clarify that Method preparation records are part of the spoken answer and mark each box's end.","quote":"Read the box for your role when questioned. Keep its label private.","reason":"The distinction between public record and private label worked here, but a concise boundary cue would make the longer boxes easier to follow."}
+  ],
+  "final_guess": "Elon Mosaic",
+  "final_confidence_0_100": 98,
+  "ending_seen": false
+}

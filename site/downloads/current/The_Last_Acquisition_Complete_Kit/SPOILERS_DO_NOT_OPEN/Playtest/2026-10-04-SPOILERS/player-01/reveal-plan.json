@@ -1,0 +1,27 @@
+{
+  "player_name": "Artie Ficial",
+  "own_guess_remains_locked": "Elon Mosaic",
+  "attending_count": 16,
+  "collected_count": 16,
+  "distinct_voter_count": 16,
+  "counts_match": true,
+  "ballots_locked": true,
+  "tally": [
+    {
+      "suspect": "Elon Mosaic",
+      "votes": 16
+    }
+  ],
+  "selected_names": [
+    "Elon Mosaic"
+  ],
+  "tie_rule": "Equal positive totals alphabetically by full character name; no tie occurred.",
+  "actual_host_utterance": "All sixteen ballots are collected and locked. Elon Mosaic received sixteen votes. Elon, please read only your appropriate Coming Clean box.",
+  "fewer_than_three": "Only one name received a positive total; call Elon only. Do not add two zero-vote names.",
+  "reveal_status": "Awaiting Coming Clean; no confession heard yet.",
+  "fallback_instruction": "If Elon does not confess, announce HIPPO and ask its memorizer to stand and read the murderer confession. Do not use fallback if a confession is heard.",
+  "ceremony_assessment": "A unanimous result makes this a single-statement ceremony. The up-to-three rule handles it clearly, though the agenda label Top three Coming Clean could create expectation of three performances. Do not manufacture suspense with zero-vote accusations. Invite the evidence explanation before or after the one selected statement if time permits.",
+  "missing": "Coming Clean public statement and award votes/discovery tally remain unavailable.",
+  "checklist_correction": "Actual product has a named Here/Motive/Opp./Method checklist and a ballot tally with counts-match field. Earlier requests to add these were based on omitted simulation material, not product defects.",
+  "blinded_host_boundary": "Collected structured ballots contain private role_interpreted data. That field is simulation bookkeeping, not a host announcement or confession; ceremony decisions use suspect totals only and await the proper public Coming Clean statement."
+}

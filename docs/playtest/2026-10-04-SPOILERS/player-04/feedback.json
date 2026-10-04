@@ -1,0 +1,37 @@
+{
+  "player_name": "Monet Bags",
+  "personality": "Quiet first-timer; prepared reading preferable to improvisation",
+  "experience": "I could identify my innocent role, follow each round and confidently solve the three-way evidence intersection. Motive felt rich and open; opportunity narrowed it to five; method made one solution explicit. Confidence is in the supplied closed evidence, not a revealed ending.",
+  "difficulty_1_trivial_to_5_too_hard": 2,
+  "fun_1_to_5": 3,
+  "difficulty_reason": "The solution is straightforward with a table of salon time, key and wipe. Listening to 16 nearly identical statements could be substantially harder in person, but that was not tested.",
+  "navigation": {
+    "worked": ["Round and character headings are large and visible", "STOP instructions clearly prevent reading the next round", "Choose by name and host keeps track provides a safe turn-taking rule"],
+    "friction": ["Two question pages must be searched for a name; the answer page is described as the following page even when there are two question pages", "No visible page numbers or exact destination on inspected answer pages", "Page 10 has no notes area while method produces decisive records"],
+    "scope": "Sequential text and two PNGs inspected. Physical page flipping not tested."
+  },
+  "question_answer_matching": {
+    "result": "All supplied transcript questions matched the named character's prepared facts. My money question reasonably elicited the restricted-fund pressure and threat; my opportunity question asked both salon and key; method asked supplies and errand and included corroborating records.",
+    "awkward_example": "Even gala hosts need to clean up little disasters. is a slightly odd shared question for Tess but does not impede the answer."
+  },
+  "shared_question_repetition": "Motive shared prompts had some repeated openings but distinct revelations. Opportunity asks essentially when/key 16 times; method repeats white linen cloth with a gold seam or blue disposable paper wipes, then three record lines. This is easy to compare but can sound like roll call rather than conversation.",
+  "sixteen_present_vs_thirty_listed": "Ignore absent guests is explicit and sufficient. I still have to filter 30 printed names against the 16-person roster and host's already-answered list, which adds avoidable first-timer anxiety. No invalid recipient was actually selected in supplied transcript.",
+  "note_space": "Page 07 visibly provides only two ruled lines under Notes from this round. That is inadequate for recording sixteen names plus salon time and key status. Page 10 visibly has no note area. A compact roster grid would directly support the actual reasoning.",
+  "memory_load": "Animal LION was available in the identity text and I compared it to HIPPO correctly. This does not test human memorization. Time, key and linen data can be retained in saved notes and re-read here; human auditory recall was not tested. The strongest practical load is tracking who answered and which names are attending while searching the shared prompts.",
+  "branch_safety": {
+    "observed": "I interpreted innocent correctly and supplied only the matching branch. Clear separate boxes and 'Keep its label private' helped.",
+    "hypothetical_risks": ["Both labels and branches are simultaneously visible, so a nervous reader might say IF INNOCENT aloud or read the next box", "The animal rule is explained on arrival, but answer pages say 'your role' without restating how to choose it"],
+    "actual_accidental_public_disclosures": [],
+    "planned_public_disclosures": ["Restricted-fund demand and threat", "6:36 salon visit and key loan", "White linen and preparation records"],
+    "private_secret_retained": "Unauthorized temporary internal transfer was not present in the transcript public answer."
+  },
+  "character_roleplay": "The CFO grievance and secret give me useful social priorities; the expense-folder errands fit my character. Acting optional is especially helpful for this personality. The private social task asks Sue about the funding agreement, while the fixed transcript has Monet asking Barb in motive; I did not treat this as a failure because social tasks do not block investigation and this is an asynchronous canonical table read. Personal secret has little effect on the final evidence calculation.",
+  "prioritized_improvements": [
+    {"priority": 1, "change": "Add a one-page attending-character evidence grid with columns salon time, key loan and material plus checkboxes for answered each round.", "evidence_quote": "Notes from this round", "why": "Two lines on page 07 cannot hold the 16-person comparison; method page has no note area."},
+    {"priority": 2, "change": "Print exact destination page numbers beside Questions to ask and Your answer; add page numbers to inspected answer pages.", "evidence_quote": "Your own answer is on the following answer page.", "why": "A new reader has two question pages and an answer page to locate under social pressure."},
+    {"priority": 3, "change": "Add a small private instruction above answer boxes: If the announced animal differs from yours, read only the first box; do not read labels aloud.", "evidence_quote": "Read the box for your role when questioned. Keep its label private.", "why": "Restates the choice at point of use without publicly exposing identity. This addresses a hypothetical risk, not a leak observed here."},
+    {"priority": 4, "change": "Provide an attending-only question index or have players cross off absent names before round one.", "evidence_quote": "Choose one guest named below who has not answered this round.", "why": "Reduces simultaneous filtering of 30 names, 16 attendees and already-answered state."},
+    {"priority": 5, "change": "Keep the factual time/key/material statements but shorten repeated connective prose or place corroboration in a shared host evidence grid after answers.", "evidence_quote": "That was what the materials desk issued me.", "why": "The repeated format supports fairness but dampens dramatic character conversation."}
+  ],
+  "constraints": "No ending read; ballot locked before image inspection; earlier hypothesis files retained unchanged; no physical navigation or human recall claim."
+}

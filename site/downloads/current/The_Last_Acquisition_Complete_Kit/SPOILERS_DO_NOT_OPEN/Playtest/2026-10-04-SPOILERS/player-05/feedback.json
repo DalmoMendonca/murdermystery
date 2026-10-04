@@ -1,0 +1,66 @@
+{
+  "player_name": "Chip Patina",
+  "experience": "Fair staged elimination puzzle. Motive created plausible suspicion of Tess and Artie; Opportunity eliminated those early leads and left five credible key-and-salon candidates; Method reduced that set to Elon. As a competitive puzzle fan I appreciated the change in my lead but the final intersection was mechanical and very explicit.",
+  "difficulty_1_trivial_5_too_hard": 2,
+  "fun_1_5": 4,
+  "fun_detail": "Strong museum grievances and amusing names, plus an objectively defensible ending deduction. Less satisfying for an experienced puzzle solver because every exclusion loophole is closed by the reports and four surviving candidates are given blue paper wipes together.",
+  "navigation": {
+    "text": "Sequential filenames and STOP boundaries were clear. Two question pages per round plus the next answer page are described consistently. Canonical transcripts remove turn-selection uncertainty.",
+    "visual": "Original-detail recheck confirms page 07 and page 10 both have clear round headers, Your answer, branch-reading instructions, IF INNOCENT and IF MURDERER labels, turn instructions and bottom STOP footers. Page 07 has a notes area; page 10 has no notes section. The initial missing-label finding was a tool display crop artifact and is withdrawn.",
+    "limit": "I did not physically flip a packet or test handling speed."
+  },
+  "matching_questions_answers": {
+    "assessment": "All sixteen answers each round addressed their actual prepared question. Opportunity asks both time and cabinet access; answers supply both. Method asks material and errand; answers supply both, then add useful preparation records.",
+    "example_question": "Your exhibition work took you near the salon and conservation area. When did you enter the salon, and did you borrow the cabinet key?",
+    "example_answer": "I went into the Donor Salon at 6:43, explaining the condition report. I visited the conservation display, checking the conservation stock, but did not borrow the cabinet key.",
+    "ambiguity": "The Method question alone does not ask for the preparation record. It is inside the answer box and transcript, but an aloud-reading instruction explicitly including the record would remove doubt."
+  },
+  "shared_question_repetition": {
+    "assessment": "Repeated prompts are functional and prevent custom-question mismatch, but Opportunity sounds repetitive across sixteen answers: every prompt boils down to time plus key. This makes the round feel like inventory collection more than conversation.",
+    "exact_repeated_question": "Grant wanted more control over the museum or its money. What did his plan threaten to take from you?",
+    "frequency": "Asked to Monet, Tess and Artie in Motive; analogous shared prompts repeat for other groups.",
+    "benefit": "The repeated structure makes comparison easy; keep factual components intact even if adding a short optional roleplay follow-up."
+  },
+  "sixteen_present_thirty_listed": {
+    "assessment": "The ten three-name ASK groups list thirty roles while sixteen attend. Instruction to ignore absent guests is unambiguous, and transcripts include all sixteen once per round. The actual cognitive cost is scanning unused names. Arrival task names Cary, who is absent, but its fallback permits asking anyone.",
+    "exact_quote": "If a named guest is absent, discuss that subject with anyone. These social tasks do not block the investigation.",
+    "improvement": "Provide the attending roster with checkboxes or highlight present names on the existing question groups; retain the thirty-character master version for flexibility."
+  },
+  "note_space": {
+    "observed": "Page 07 shows only three ruled writing lines under Notes from this round. That is enough for a few candidate names, but not sixteen times, key statuses and confidence notes. Page 10 offers no visible note section.",
+    "improvement": "Add an optional roster grid with columns Salon after 6:40, Key, Linen and eliminate. Give a half-page notes area or separate shared investigation sheet.",
+    "limit": "Handwriting size or comfort was not tested."
+  },
+  "memory_load": {
+    "assessment": "The animal selector is easy for this digital simulation: CAT differs from the repeated announcement HIPPO. Investigation load is substantially larger: sixteen names, times and key/material states over three rounds. Preparation records repeat prior evidence, which helps, but my transcript access is more forgiving than actual oral listening.",
+    "improvement": "Offer an attendance-specific blank evidence matrix and ensure public reports stay visible. Do not count this run as a test of human recall."
+  },
+  "branch_safety": {
+    "assessment": "Text and original-detail visual instructions are clear: Keep its label private. My correct branch selected without ambiguity and public answer was saved without its label. Both branches are printed adjacent, so they are visually available; that is a hypothetical handling risk, not an observed disclosure.",
+    "actual_behavior": "All public transcripts used canonical prepared answers. No animal or IF label was publicly read. I read the full supplied current-round page containing both branches, but did not treat the unused branch as public evidence.",
+    "improvement": "Retain current labels outside read-aloud boxes. No missing-label repair is needed."
+  },
+  "roleplay": {
+    "assessment": "Chip has a defensible professional grievance and a separate forgery secret. The line about preserving objects is memorable and gives me a voice. The conservator is plausibly suspicious because of expertise and an in-window visit, then cleared by the cabinet record. Social background tasks do not affect the mechanical solution, and asynchronous read-through did not test actual acting or guest interactions.",
+    "exact_quote": "I preserve objects; I am not employed to preserve his version of events."
+  },
+  "actual_accidental_public_disclosures": {
+    "count": 0,
+    "assessment": "No accidental animal/branch/private-secret disclosure is present in these canonical public answers. Hugh openly admits file alteration and Anya incomplete donation paperwork, but these are explicitly printed public facts, not accidental leaks. Chip's altered treatment-date secret never appears in the transcript.",
+    "hypothetical_only": "Reading the wrong adjacent branch or its heading aloud could leak role information in live play; that did not occur here."
+  },
+  "deduction_fairness": {
+    "assessment": "Elon uniquely satisfies salon window, cabinet access and matching linen. The reports make necessity explicit and prevent sample/cloth transfers, alternate entrances and duplicate keys. Strong fairness, low residual uncertainty.",
+    "exact_quote": "No key or sample was passed between guests.",
+    "possible_improvement": "For experienced puzzle fans, let guests combine a small timeline inconsistency or less uniform physical clue instead of using blue wipes for all four other in-window key borrowers; preserve a unique solvable intersection."
+  },
+  "concrete_improvements_priority": [
+    "Supply attendance-specific checkboxes plus a blank salon/key/linen matrix with more note room.",
+    "Explicitly instruct players to read the Preparation record aloud, since the Method question does not request it.",
+    "Offer optional short roleplay follow-ups while preserving mandatory factual answers; avoid adding another mandatory full-table round."
+  ],
+  "simulation_limits": "Blinded sequential reading with hypotheses saved before later rounds. Ballot locked before viewing pages 07 and 10. Ending withheld. Canonical transcripts, not live improvisation. No physical flipping, human recall, live acting, or handwriting was tested.",
+  "final_guess": "Elon Mosaic",
+  "final_confidence_0_100": 99,
+  "image_recheck_correction": "After root requested original-detail verification, page 10 was rechecked and confirmed complete. Missing IF INNOCENT/title/instruction report withdrawn. Ballot and all earlier hypotheses remain unchanged."
+}

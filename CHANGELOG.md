@@ -1,3 +1,12 @@
+# Agent table-read improvements — 2026-10-04
+
+- Ran16 blind participant agents; collected16 locked ballots and16 detailed feedback files. All 15 innocent agents identified the intended culprit; all difficulty ratings2/5. Simulation limits and raw evidence are documented.
+- Added internal attendance/evidence grids, precise page directions and complete-Method read-aloud instructions; expanded packets to14 pages.
+- Added concrete optional-character conversations, phase-boundary instructions and consistent camera records.
+- Kept ballot 13loose inside; added14pt host checklists and count-match tally.
+- Guaranteed3 attending Coming Clean readers after unanimous votes, with alphabetical zero-vote ties; actual host/selected-agent ending rehearsal completed.
+- Clarified innocent-only Master Sleuth and non-playing helper privacy. Preserved all 30 eligible culprit branches, memorized-and-returned animal handling and named grouped questions.
+
 # Complete-packet revision — 2026-10-03
 
 - Bound named grouped Motive, Opportunity and Method questions into every twelve-page packet, with distinct answers and records.

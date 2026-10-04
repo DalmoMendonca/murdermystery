@@ -4,7 +4,7 @@ October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an off
 
 ## Arrival and museum mingling
 
-Send only each guest's public introduction and invitation in advance. At the party distribute their complete twelve-page private packet face down. Every attending role draws one familiar animal from A, privately memorizes it and immediately returns the folded slip to a closed return box. Nobody keeps a slip or records names against animals. B is a separate matching set; remove unused A animals from B before selecting. All thirty roles are eligible. A late arrival draws unused A, already excluded from B, and is innocent.
+Send only each guest's public introduction and invitation in advance. At the party distribute their complete fourteen-page private packet face down. Every attending role draws one familiar animal from A, privately memorizes it and immediately returns the folded slip to a closed return box. Nobody keeps a slip or records names against animals. B is a separate matching set; remove unused A animals from B before selecting. All thirty roles are eligible. A late arrival draws unused A, already excluded from B, and is innocent.
 
 Act I supplies three social tasks per character and sixteen discoverable museum documents. Skip absent targets or approach another present guest. Discoveries enrich motives; essential murder facts are in the five mandatory reports. At the end of Act I select and announce one B animal twice. Nobody identifies themselves. That person uses IF MURDERER; everyone else uses IF INNOCENT. Never redraw because of a suspected identity.
 
@@ -16,9 +16,9 @@ Choose a starting guest. They choose someone who has not answered from an ASK ro
 
 | Round | Host release | Packet pages |
 | --- | --- | --- |
-| Motive | F1 toxicology and F2 donor papers | Questions 2–3, common answer 4 |
-| Opportunity | F3 steward statement | Questions 5–6, branch answers 7 |
-| Method | F4 cabinet audit and F5 textile comparison | Questions 8–9, branch answers and preparation records 10 |
+| Motive | F1 toxicology and F2 donor papers | Questions 4–5, common answer 6 |
+| Opportunity | F3 steward statement | Questions 7–8, branch answers 9 |
+| Method | F4 cabinet audit and F5 textile comparison | Questions 10–11, branch answers and preparation records 12 |
 
 Keep other pages closed until announced. Read the complete Method answer, including the printed preparation record. No early speech contains a confession. Brief discussion follows each chain. Allow approximately three and a half hours for the full thirty-guest evening; the host guide provides announcements, schedule and recovery steps.
 
@@ -28,6 +28,8 @@ Five reports establish three necessary physical conditions: Donor Salon entry af
 
 ## Ballot and Coming Clean
 
-Ballot is packet page 11. Tear it out, or submit the closed packet opened only to that page. Collect and lock every vote before any Coming Clean statement. Select the highest three positive vote totals, or fewer if necessary; break ties alphabetically by full character name. Each selected suspect reads their appropriate box on page 12. Read all three statements even if a confession comes early. Innocent statements resolve private secrets and explain a missing physical condition. Murderer statements connect motive, preparation, method and all three clues.
+Ballot is packet page 13. Leave this page loose inside the packet during assembly. Fold the completed ballot inward and submit only that page; retain the packet. Collect and lock every vote before any Coming Clean statement. Rank every attending character including zero votes, select exactly three, and break ties alphabetically by full character name. Explain zero-vote ties as finale selection, not new accusations. Each selected suspect reads their appropriate box on page 14. Read all three statements even if a confession comes early. Innocent statements resolve private secrets and explain a missing physical condition. Murderer statements connect motive, preparation, method and all three clues.
 
 If nobody among the selected suspects confesses, host calls the announced murderer animal to stand and read IF MURDERER Coming Clean. No separate finale file or envelope exists. Awards and debrief follow. Host-blind operation requires face-down handling of private files; a non-playing helper can assist when a printer exposes private text.
+
+Each packet includes private attendance/evidence grids on pages 2–3. Pause for up to three short suspicions after each chain; repeat a printed current-round answer when requested. Only a non-playing reader may assist with another guest’s private selected box and may not vote. Master Sleuth is reserved for innocent guests.

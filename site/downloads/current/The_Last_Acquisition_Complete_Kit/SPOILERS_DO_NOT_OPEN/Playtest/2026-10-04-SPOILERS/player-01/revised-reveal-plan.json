@@ -1,0 +1,28 @@
+{
+  "player_name": "Artie Ficial",
+  "rule": "Rank every attending character including zero votes; choose exactly three; break equal totals alphabetically by full character name; ignore absentees.",
+  "counts_match": true,
+  "ballots_locked": true,
+  "call_order": [
+    {
+      "name": "Elon Mosaic",
+      "votes": 16
+    },
+    {
+      "name": "Anya Tique",
+      "votes": 0
+    },
+    {
+      "name": "Artie Ficial",
+      "votes": 0
+    }
+  ],
+  "host_call": "Elon Mosaic received sixteen votes. Anya Tique and Artie Ficial fill the remaining places alphabetically among attending characters tied at zero. Each will read their appropriate Coming Clean statement, in that order.",
+  "all_statements_required": "Read all three even if Elon confesses first.",
+  "own_role": "Innocent because memorized DUCK differs from HIPPO.",
+  "own_statement_saved": "coming-clean-spoken.json",
+  "other_statements": "Await Elon and Anya public statements; do not invent them.",
+  "fallback": "Only if none of the three confesses, call the memorizer of HIPPO to read their murderer confession.",
+  "baseline_preserved": true,
+  "own_vote_preserved": true
+}

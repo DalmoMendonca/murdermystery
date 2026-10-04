@@ -96,7 +96,7 @@ The Living Collection gives thirty fictional identities three distinct artworks 
 
 **Key Characteristics:**
 - Fourteen-point narrative floor and larger public introductions.
-- Twelve-page self-contained packets with named questions, answers, records, ballot and Coming Clean.
+- Fourteen-page self-contained packets with private notes, named questions, answers, records, a loose ballot and retained Coming Clean.
 - Branch labels outside speech boxes and explicit stop instructions.
 - Realistic records and photographic evidence.
 - Transparent chibi cards with names on two lines.
@@ -114,7 +114,7 @@ Libron Regular, Bold, Italic and BoldItalic are embedded as `Book`, `BookBold`, 
 
 Public introductions measure their text and select the largest fitting size from 18, 17 and 16 pt; names are 34 pt, roles and section labels 16 pt, metadata 12 pt. Packet names and ballot/Coming Clean titles are 30 pt; Questions to ask and Your answer headings are 27 pt; action headings are 18 pt. Named ASK rows use bold 14 pt and questions use 16 pt. Motive and Opportunity speech use 16 pt; Method speech, its integrated records and Coming Clean use 14 pt. Branch labels use bold 16 pt.
 
-Place cards set first and middle names together at 24 pt and surnames on the second line at 29 pt; roles use 14 pt. Discovery titles use 22 pt, narrative and record rows 14 pt, departments/stamps/discovery numbers 12 pt. Reports use 30 pt titles, 18 pt Certified findings headings and 14 pt findings; supporting report summaries use 16 pt, with the F3 timeline labels at 18 pt. Room signs use 48 pt names, 24 pt museum identity and 23 pt descriptions. Awards use 34 pt titles. Auxiliary footers, roster names and ticks' labels, and assembly directories use 12 pt.
+Place cards set first and middle names together at 24 pt and surnames on the second line at 29 pt; roles use 14 pt. Discovery titles use 22 pt, narrative and record rows 14 pt, departments/stamps/discovery numbers 12 pt. Reports use 30 pt titles, 18 pt Certified findings headings and 14 pt findings; supporting report summaries use 16 pt, with the F3 timeline labels at 18 pt. Room signs use 48 pt names, 24 pt museum identity and 23 pt descriptions. Awards use 34 pt titles. Private notes and host roster names and column labels use 14 pt. Auxiliary footers and assembly directories use 12 pt.
 
 **The Narrative Floor Rule.** Preserve 14 pt narrative text; introductory prose measures between 16 and 18 pt. Twelve-point type serves auxiliary labels rather than shrinking narrative to fit.
 
@@ -124,21 +124,24 @@ US Letter stock is 612 × 792 pt; room signs use landscape 792 × 612 pt. Coordi
 
 Introductions have a 552 × 732 pt frame at (30,30), a name at (42,44), role at y=93 and rule at y=141. The ivory portrait frame at (42,158) is 180 × 230 pt; its one-point-inset slot is 178 × 228 pt. Biography and relationships use a 324 pt column at x=246. Acting tips start at (42,414) in a 180 pt column; the 528 pt costume section follows the taller column. Each introduction is one PDF page and a 2× PNG (144 dpi metadata) for sending to phones; this is a fixed page image.
 
-Each named packet has twelve pages in this exact sequence:
+Each named packet has fourteen pages in this exact sequence:
 
 | Pages | Content |
 | --- | --- |
 | 1 | Private background, Picasso portrait and three social tasks |
-| 2–3 | Motive questions |
-| 4 | Common Motive answer |
-| 5–6 | Opportunity questions |
-| 7 | IF INNOCENT / IF MURDERER Opportunity answers |
-| 8–9 | Method questions |
-| 10 | Branch Method answers with preparation records inside each box |
-| 11 | Ballot |
-| 12 | Coming Clean, both branches |
+| 2–3 | Private investigation notes, fifteen named rows per page |
+| 4–5 | Motive questions |
+| 6 | Common Motive answer |
+| 7–8 | Opportunity questions |
+| 9 | IF INNOCENT / IF MURDERER Opportunity answers |
+| 10–11 | Method questions |
+| 12 | Branch Method answers with preparation records inside each box |
+| 13 | Loose ballot |
+| 14 | Retained Coming Clean, both branches |
 
 The first private page has a 144 × 216 pt portrait frame at x=42 below the name and a 142 × 214 pt inset image slot; its background column starts at x=210 with a 360 pt measure. Tasks start 19 pt below the taller column. Question pages begin their five groups at y=218. Each group lists three full names; the ten shared groups per round cover all thirty roles. There is no fixed-seat question order.
+
+Each private notes page has fifteen 14 pt named rows beginning at y=275, spaced 28 pt apart across the 528 pt grid at x=42. Attendance ticks are 11 × 11 pt at (43,y+2). Names occupy x=62, width 180 pt; salon time x=254, width 100 pt; key loan x=359, width 70 pt; material x=434, width 136 pt. Column dividers at x=246/351/426 span y=264–690; row rules sit at y+23. Guests tick attending names before Motive, record spoken facts, and keep these pages private without recording animals or branches.
 
 Ordinary speech boxes span 528 pt at x=42, with a 480 pt text measure at x=66. Their height is measured text height plus 30 pt; private labels are drawn separately at x=55 across 502 pt. Coming Clean uses a 500 pt measure at x=56 and boxes of measured height plus 24 pt. Ballot fields use generous ruled writing space. Notes appear after round answers only where measured space remains.
 
@@ -146,7 +149,7 @@ Discovery cards are two per sheet: 528 × 302 pt at (42,104) and (42,422), with 
 
 The invitation retains the 552 × 732 pt frame and three Van Gogh frames at x=48/224/400, y=200, each 164 × 212 pt with 162 × 210 pt image slots. Event details begin at y=431; page two is the arrival guide. Animal slips are 166 × 106 pt, three columns and five rows per sheet; four sheets supply matching thirty-animal A and B sets. Extra standalone ballots are two 528 × 305 pt forms per sheet. Signs have a 720 × 540 pt frame at (36,36).
 
-Print single-sided at Actual size / 100%. Do not use booklet or two-pages-per-sheet modes. Staple the twelve-page packet in order along the left edge and give it with a pencil at arrival.
+Print single-sided at Actual size / 100%. Do not use booklet or two-pages-per-sheet modes. Leave ballot page 13 loose inside each fourteen-page packet; staple the other pages in order at the upper left and give the packet with a pencil at arrival. Guests fold and hand over only the ballot, retaining their packet and Coming Clean page.
 
 ## Elevation & Depth
 
@@ -166,19 +169,21 @@ Frames and cuttable cards have square corners. Canvas rectangle outlines are 0.7
 
 **Place card:** two name lines above a transparent chibi and adjacent role. No matte rectangle, numbered seat identifier or Living Collection footer appears. Four cards per sheet preserve cutting clearance.
 
-**Complete packet:** a private background followed by the three hearings, internal ballot and final Coming Clean page. Common grouped questions live in `source/question_rounds.json`, character answers and records in `source/characters.json`, and page mapping in `source/game.json`. Each question chain chooses an unanswered present guest by name; the host checklist confirms everyone answers once. Guests read only their appropriate box and keep its label private. Method records are embedded in the spoken answer, with no A/B card selection or evidence envelopes.
+**Complete packet:** a private background, two private notes pages, three hearings, a loose internal ballot and retained Coming Clean page. Common grouped questions live in `source/question_rounds.json`, character answers and records in `source/characters.json`, and page mapping in `source/game.json`. Each question chain chooses an unanswered present guest by name; the host checklist confirms everyone answers once. Question pairs explicitly point to answer pages 6, 9 and 12. Guests read only their appropriate box and keep their role and branch label private. After the death, printed answers must be read even when they reveal a mingling secret. The entire Method box is spoken, including all three preparation-record lines. Private reading assistance comes only from a non-playing helper who keeps the branch private and cannot vote.
 
-**The Locked Ballot Rule.** Coming Clean stays unread until every ballot is collected and locked. The top three suspects read their appropriate statements; if none confesses, the announced animal stands and reads IF MURDERER.
+**The Locked Ballot Rule.** Coming Clean stays unread until every ballot is collected and locked and the collected count matches attendance. Rank all attending names by vote total, including zero, with every tie broken alphabetically by full character name. Exactly three attending suspects read their appropriate statements, even after unanimous voting; read every selected statement even if a confession occurs early. If none confesses, the announced animal stands and reads IF MURDERER.
 
 **Discovery and forensic report:** sixteen actual fictional museum records and photographs occupy eight two-up sheets. Five one-page mandatory reports release F1–F2 before Motive, F3 before Opportunity and F4–F5 before Method. Six photographic assets cover the warning note, condition photo, crate seal, performance sketch, silver coupe and fiber comparison. Typed text supports the handwritten warning scan. Department lines, record fields, annotations and stamps create the artifact rather than prose describing an imagined prop.
 
-**Host-safe guides:** fifteen planned facilitator pages provide preparation, copy counts, directory, animal draw, assembly, clue placement, agenda, welcome, hearing scripts, voting and troubleshooting. A page-count assertion checks that each source section remains one page. The attendance checklist has thirty named rows spaced 18 pt apart and four 11 pt ticks at x=365/425/485/545 for Here, Motive, Opportunity and Method. Assembly lists names and twelve-page blocks without branch content. `OPEN_FREELY`, `PRINT_WITHOUT_READING` and `SPOILERS_DO_NOT_OPEN` remain packaging boundaries.
+**Host-safe guides:** fifteen facilitator pages provide preparation, copy counts, directory, animal draw, assembly, clue placement, agenda, welcome, hearing scripts, voting and troubleshooting. A page-count assertion checks that each source section remains one page. The host checklist has three pages: two roster pages with fifteen 14 pt named rows each, then the ballot tally and attendance/count-match check. Roster rows start at y=257, spaced 28 pt apart; names use x=42, width 220 pt. Four 12 pt ticks at x=277/337/417/497 track Here, Motive, Opportunity and Method. Tally names occupy two fifteen-row columns at x=42/318, starting y=252 with 25 pt spacing and 48 × 20 pt count boxes. The three suspect lines start at y=641 with 28 pt spacing. Assembly lists names and fourteen-page blocks without branch content. `OPEN_FREELY`, `PRINT_WITHOUT_READING` and `SPOILERS_DO_NOT_OPEN` remain packaging boundaries.
 
 **Physical props:** two matching animal sets serve all thirty roles. Guests memorize and immediately return folded A slips to a closed return box; remove unused A animals from B before selection. Ballots and awards provide handwriting space, museum signs support room finding and exhibition labels use the same institutional vocabulary.
 
+**Master Sleuth certificate:** eligibility belongs only to an innocent guest whose correct accusation is supported by evidence and motive.
+
 ## Do's and Don'ts
 
-- Do preserve the twelve-page sequence, including preparation records, ballot and both Coming Clean statements.
+- Do preserve the fourteen-page sequence, including private notes, complete preparation records, loose ballot and both retained Coming Clean statements.
 - Do keep explicit stop warnings and branch labels outside spoken boxes.
 - Do use named question groups and tick each attending respondent once per round.
 - Do memorize animals and immediately return folded slips to a closed box.
@@ -194,4 +199,6 @@ Frames and cuttable cards have square corners. Canvas rectangle outlines are 0.7
 - Don't add branch-dependent portraits or illustrations to later private rounds.
 - Don't stretch or crop character artwork.
 
-Build assertions reject unsupported glyphs and overflow beyond measured text limits. `scripts/verify.py` renders all PDF pages, maps visual duplicates by raster hash and checks text bounds, type below 11.9 pt, replacement glyphs and blank pages. The current `build/review/report.json` records 87 PDFs, 930 rendered pages, 498 unique visuals, 125 contact sheets and zero structural issues. The independent finish review in `.impeccable/review/complete-packet-finish-review.md` records inspection of all 125 contact sheets and eight full-page zooms, with disposition **ship** and no material fixes. This is digital visual evidence, not a physical printer proof or an independent gameplay simulation. No HTML detector ran for the PDF canvas system. Documentation synchronization does not change the reviewed PDF source or generated PDFs.
+Build assertions reject unsupported glyphs and overflow beyond measured text limits. `scripts/verify.py` renders all PDF pages, maps visual duplicates by raster hash and checks text bounds, type below 11.9 pt, replacement glyphs and blank pages. The current `build/review/report.json` records 87 PDFs, 1,052 rendered pages, 560 distinct visuals, 140 contact sheets and zero structural issues. The independent finish review in `.impeccable/review/playtest-finish-review.md` records actual inspection of all 140 initial contact sheets and 24 full-page zooms, followed by all thirty changed private backgrounds and exact recaptures of affected guide, tally and certificate pages. Its final disposition is **ship**: the verdict covers the scored fixes and changed-region regression checks, with the initial full-surface inspection recorded separately. Repeated page instances were checked through raster-hash mapping. This is digital visual evidence, with no physical printer proof.
+
+The sixteen independent persona agents' blind asynchronous table read produced correct accusations from all fifteen innocents and difficulty ratings of 2/5 from all participants; the culprit's self-vote is excluded from accuracy. Canonical scripted answers and persistent text were available. This is not live human validation of listening, recall, physical handling, discovery hunting or timing, and does not establish a real-party solve rate. `docs/PLAYTEST_SUMMARY.md` records the scope and the source report retains detailed feedback. No HTML detector ran for the PDF canvas system. Documentation synchronization does not change the reviewed PDF source or generated PDFs.

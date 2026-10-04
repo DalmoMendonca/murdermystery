@@ -1,5 +1,6 @@
 """Measured museum-gala layouts. Build fonts are never included in downloads."""
 from pathlib import Path
+import shutil
 import json,re,html,zipfile,io,urllib.request,hashlib
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
@@ -192,7 +193,7 @@ def awards():
     s=Sheet(KIT/'OPEN_FREELY/Scavenger_Score_Sheet.pdf','Scavenger scores');s.header('SCAVENGER SCORE SHEET / One point per find');s.block('Guest / Character',42,99,440,18,'BookBold');s.block('Finds',498,99,72,18,'BookBold')
     for i in range(30):y=140+i*19;s.line(42,y,474,y);s.line(498,y,570,y)
     s.footer('Award the Curator’s Eye to the guest with the most discoveries.');s.save()
-    captions=[('Best Actor','For committing fully to the role and making everyone else more fun to watch.'),('Best Costume','For arriving as if the Meridian gala had a real red carpet.'),('Curator’s Eye','For finding the most Act I scavenger clues.'),('Master Sleuth','For a correct accusation supported by the strongest evidence and motive.'),('Escaped Justice','For the murderer, if they avoid the three most-accused positions.')]
+    captions=[('Best Actor','For committing fully to the role and making everyone else more fun to watch.'),('Best Costume','For arriving as if the Meridian gala had a real red carpet.'),('Curator’s Eye','For finding the most Act I scavenger clues.'),('Master Sleuth','For an innocent guest’s correct accusation supported by evidence and motive.'),('Escaped Justice','For the murderer, if they avoid the three most-accused positions.')]
     s=Sheet(KIT/'OPEN_FREELY/Award_Certificates.pdf','Award certificates')
     for i,(title,desc) in enumerate(captions):
         if i%2==0:s.header('THE MERIDIAN MUSEUM / Gala awards')
@@ -223,7 +224,7 @@ def facilitator(chars):
     import fitz
     with fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf') as doc:assert len(doc)==len(pages),'Facilitator section spilled onto an unplanned page'
 def spoiler(chars):
-    sections=[('Canonical murder facts','Grant Larceny dies from a botanical cardiac toxin applied inside his silver coupe and on its rim using toxin-dampened gold-seamed linen. The glass was clean at 6:40; he drank at 6:49. One attending guest is selected through the memorized animal draw. Every role has a working murderer branch. Only the murderer matches all three: salon entry after 6:40, cabinet key loan during setup and gold-seamed linen possession. No keys, samples or linen changed hands.\n\nAll questions, answers, preparation records, the ballot and both Coming Clean statements are in each twelve-page packet. No separate letter cards, question catalog or finale envelope. Coming Clean is the final page and remains unread until all votes are locked. The top three suspects read their appropriate statements; if none confesses, call the murderer animal to stand and confess.')]
+    sections=[('Canonical murder facts','Grant Larceny dies from a botanical cardiac toxin applied inside his silver coupe and on its rim using toxin-dampened gold-seamed linen. The glass was clean at 6:40; he drank at 6:49. One attending guest is selected through the memorized animal draw. Every role has a working murderer branch. Only the murderer matches all three: salon entry after 6:40, cabinet key loan during setup and gold-seamed linen possession. No keys, samples or linen changed hands.\n\nAll questions, answers, preparation records, the ballot and both Coming Clean statements are in each fourteen-page packet. No separate letter cards, question catalog or finale envelope. Coming Clean is the final page and remains unread until all votes are locked. The top three suspects read their appropriate statements; if none confesses, call the murderer animal to stand and confess.')]
     for c in chars:
         p=c['private'];body=[label+': '+p[key] for label,key in [('Victim relationship','history'),('Hidden complication','secret'),('Innocent route','innocent'),('Murderer route','murderer'),('Innocent Coming Clean','final_innocent'),('Murderer Coming Clean','final_murderer')]]
         body += ['Innocent preparation record: '+c['preparation_record']['innocent'],'Murderer preparation record: '+c['preparation_record']['murderer']]
@@ -279,7 +280,13 @@ def build_kit():
         metadata.add_text('impeccable:prompt','Origin: rendered from '+path.name+' by scripts/build.py; incorporates the built-in image_gen Van Gogh portrait from assets/portraits/'+path.stem+'/van_gogh.jpg. Exact portrait prompt is in source/art_direction.json.')
         with Image.open(png) as im:im.save(png,pnginfo=metadata,dpi=(144,144))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
-    package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character PNGs')
+    sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character PNGs')
+
+def sync_playtest_records():
+    summary=ROOT/'docs/PLAYTEST_SUMMARY.md'
+    if summary.exists():shutil.copy2(summary,KIT/'OPEN_FREELY/PLAYTEST_SUMMARY.md')
+    reports=ROOT/'docs/playtest'
+    if reports.exists():shutil.copytree(reports,KIT/'SPOILERS_DO_NOT_OPEN/Playtest',dirs_exist_ok=True)
 def speech(s,title,words,y=176,size=16):
     y=s.block(title,55,y,502,16,'BookBold',TEAL)+9
     p,h=para(words,480,size);s.rect(42,y-2,528,h+30,stroke=TEAL)
@@ -289,12 +296,26 @@ def speech(s,title,words,y=176,size=16):
 def question_pages(s,c,round_data):
     for half in range(2):
         s.header(c['name']+' / '+round_data['title']);s.block('Questions to ask',42,104,528,27,'BookBold',TEAL)
-        instruction='Choose one guest named below who has not answered this round. Read the question aloud. Ignore absent guests. After answering, that guest chooses the next person. Your own answer is on the following answer page.'
+        answer=GAME['packet_pages'][round_data['key']+'_answer']
+        instruction=f'Choose an unanswered guest named below. Ignore absent names. Read that guest’s question aloud; after answering, they choose the next person. Your answer is on page {answer}.'
         s.block(instruction,42,146,528,14);y=218
         for row in round_data['groups'][half*5:half*5+5]:
             y=s.block('ASK: '+' / '.join(row['targets']),42,y,528,14,'BookBold',TEAL)+5
             y=s.block(row['question'],42,y,528,16)+14;s.line(42,y-6,570,y-6)
         s.footer('Choose by name / Everyone answers once / Turn only within this round');s.next()
+
+def investigation_notes(s,c,chars):
+    for half in range(2):
+        s.header(c['name']+' / Private notes');s.block('Investigation notes',42,104,528,27,'BookBold',TEAL)
+        s.block('Tick attending names before Motive. During the hearings, jot facts beside each speaker. Leave blanks until you hear them. Keep these pages private; never record anyone’s animal or branch.',42,148,528,14)
+        for label,x,width in [('Guest / tick if here',42,200),('Salon time',254,100),('Key loan',359,70),('Material',434,136)]:s.block(label,x,235,width,14,'BookBold',TEAL)
+        s.line(42,264,570,264)
+        for i,guest in enumerate(chars[half*15:half*15+15]):
+            y=275+i*28;s.rect(43,y+2,11,11);s.block(guest['name'],62,y,180,14)
+            s.line(42,y+23,570,y+23)
+        for x in [246,351,426]:s.line(x,264,x,690)
+        s.block('A suspicion is not a verdict. Compare what was actually said before you vote.',42,711,528,14,'BookItalic')
+        s.footer('Notes pages 2–3 / Hear everyone before voting / Keep Coming Clean closed');s.next()
 
 def secret_packets(chars):
     rounds=json.loads((ROOT/'source/question_rounds.json').read_text(encoding='utf-8'));paths=[]
@@ -307,29 +328,35 @@ def secret_packets(chars):
         y=max(y,portrait_top+216)+19
         y=s.block('Three things to try before dinner',42,y,528,18,'BookBold',TEAL)+8
         for n,t in enumerate(['Introduce yourself by your character name.']+p['objectives'][:2]):y=s.block(str(n+1)+'. '+t,42,y,528,14)+9
-        y=s.block('If a named guest is absent, discuss that subject with anyone. These social tasks do not block the investigation.',42,y+5,528,14,'BookItalic')+15
-        s.block('Everything you need is here: questions, answers, preparation records, ballot and Coming Clean. Memorize your animal and return its slip. After the host announces the murderer animal, read IF MURDERER only if it is yours; otherwise read IF INNOCENT.',42,y,528,14)
+        y=s.block('If a target is absent, chat with anyone. Social tasks never block the investigation. After the death, read your printed answers even when they reveal a mingling secret.',42,y+5,528,14,'BookItalic')+15
+        s.block('Notes are on pages 2–3; questions and answers follow. Memorize your animal and return its slip. After the host announces the selected animal, use IF MURDERER only if it is yours; otherwise use IF INNOCENT. Keep your packet facing you. Coming Clean stays closed until voting is finished.',42,y,528,14)
         s.footer('STOP / Wait for the host to open Motive');s.next()
+        investigation_notes(s,c,chars)
         for round_data in rounds:
             question_pages(s,c,round_data);key=round_data['key']
             s.header(c['name']+' / '+round_data['title']);s.block('Your answer',42,104,528,27,'BookBold',TEAL)
-            y=s.block('Read the box for your role when questioned. Keep its label private. Acting is optional; these printed facts are enough.',42,148,528,14)+17
+            instruction={'motive':'Everyone reads this same answer. Read only the bordered words, never the heading. Acting is optional; keep your packet private.',
+                         'opportunity':'Read only the bordered words for your role, never the IF heading. Keep your packet facing you. Acting is optional.',
+                         'method':'Read your entire box, including the three preparation-record lines. Never read the IF heading. Keep your packet facing you.'}[key]
+            y=s.block(instruction,42,148,528,14)+17
             if key=='motive':
-                y=speech(s,'READ ALOUD / INNOCENT OR MURDERER',h['motive'],y)
+                y=speech(s,'READ ALOUD',h['motive'],y)
             else:
                 for branch in ['innocent','murderer']:
                     words=h[('where_' if key=='opportunity' else 'evidence_')+branch]
                     if key=='method':words+='\n\nPreparation record:\n'+'\n'.join(c['preparation_record'][branch].splitlines()[1:4])
                     y=speech(s,'IF '+branch.upper(),words,y,size=14 if key=='method' else 16)+6
             y=s.block('Then choose another guest',42,y+9,528,18,'BookBold',TEAL)+8
-            s.block('Choose a guest who has not answered this round from either Questions to ask page. Ask one question addressed to that name. The host keeps track so everybody is heard.',42,y,528,14)
-            y+=para('Choose a guest who has not answered this round from either Questions to ask page. Ask one question addressed to that name. The host keeps track so everybody is heard.',528,14)[1]+22
+            qpages=GAME['packet_pages'][key+'_questions']
+            handoff=f'Choose an unanswered guest from questions pages {qpages[0]}–{qpages[1]}. Ask their printed question. The host tracks turns. Jot testimony on notes pages 2–3; ask for a repeat if you missed a fact.'
+            s.block(handoff,42,y,528,14)
+            y+=para(handoff,528,14)[1]+22
             if y<635:
                 y=s.block('Notes from this round',42,y,528,16,'BookBold',TEAL)+20
                 while y<710:s.line(42,y,570,y);y+=31
             s.footer('STOP / Wait for the host before the next round');s.next()
         s.header(c['name']+' / Voting');s.block('Your ballot',42,105,528,30,'BookBold',TEAL)
-        y=s.block('Complete privately after Method. Name one suspect and explain the motive and evidence. Tear out this page or hand your closed packet to the host opened only here. Once all ballots are collected, no votes change.',42,153,528,16)+26
+        y=s.block('Complete privately after Method. Name one suspect and explain the motive and evidence. Take this loose page out, fold writing inward and give only the ballot to the host. Keep your packet. Once all ballots are collected, no votes change.',42,153,528,16)+26
         for label in ['Your character name','I accuse','Motive','Evidence connecting the salon, key and linen','Best Actor','Best Costume']:
             y=s.block(label,42,y,528,16,'BookBold',TEAL)+34;s.line(42,y,570,y);y+=28
         s.footer('STOP / Do not turn to Coming Clean until all ballots are locked');s.next()
@@ -344,17 +371,32 @@ def secret_packets(chars):
 
 def play_aids(chars):
     s=Sheet(KIT/'OPEN_FREELY/12_Attendance_and_Hearing_Roster.pdf','Host name checklist');s.header('FACILITATOR / Host-safe')
-    s.block('Hear every guest, every round',42,100,528,24,'BookBold');s.block('Character name',42,143,320,14,'BookBold');s.block('Here / Motive / Opp. / Method',350,143,220,12,'BookBold')
-    for i,c in enumerate(chars):
-        y=176+i*18;s.block(c['name'],42,y,310,12)
-        for x in [365,425,485,545]:s.rect(x,y+1,11,11)
-    s.footer('Choose by name / Tick each answer / All votes locked before Coming Clean');s.save()
+    for half in range(2):
+        if half:s.header('FACILITATOR / Host-safe')
+        s.block('Hear every guest, every round',42,100,528,24,'BookBold')
+        s.block('Tick Here at check-in. Use a fresh round column for every answer. Say the speaker’s full name. A guest can repeat an answer without getting a second turn.',42,145,528,14)
+        for label,x,width in [('Character name',42,220),('Here',270,45),('Motive',320,65),('Opp.',400,55),('Method',470,85)]:s.block(label,x,220,width,14,'BookBold')
+        for i,c in enumerate(chars[half*15:half*15+15]):
+            y=257+i*28;s.block(c['name'],42,y,220,14)
+            for x in [277,337,417,497]:s.rect(x,y+2,12,12)
+            s.line(42,y+23,570,y+23)
+        s.footer('Choose by name / Everyone answers once / All votes locked before Coming Clean');s.next()
+    s.header('FACILITATOR / Ballot tally');s.block('Lock votes. Then reveal.',42,100,528,26,'BookBold')
+    s.block('Attending: ______    Ballots collected: ______    Counts match: ______',42,148,528,14,'BookBold')
+    s.block('After counts match, tally only attending names. Rank all their totals, including zero. Break ties alphabetically by full character name. Call the top three.',42,184,528,14)
+    for half in range(2):
+        x=42+half*276
+        for i,c in enumerate(chars[half*15:half*15+15]):
+            y=252+i*25;s.block(c['name'],x,y,198,14);s.rect(x+202,y,48,20)
+    for i in range(3):s.block(f'Suspect {i+1}: _______________________   Votes: ______',42,641+i*28,528,14)
+    s.block('Read every selected statement. Animal fallback only if no confession is heard.',42,725,528,12,'BookBold',TEAL)
+    s.footer('Keep collected ballots folded / Guests retain packets for Coming Clean');s.save()
     s=Sheet(KIT/'OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf','Complete packet assembly');s.header('OPEN FREELY / Packet assembly')
     y=s.block('One guest. One complete packet.',42,101,528,28,'BookBold')+18
-    for t in ['Print one named twelve-page SECRET packet per attending guest: single-sided, 100%, face down. A non-playing helper can handle exposed text.',
-              'Staple pages in order at the left edge. Questions, answers, records, ballot and Coming Clean are all inside.',
+    for t in ['Print one named fourteen-page SECRET packet per attending guest: single-sided, 100%, face down. A non-playing helper can handle exposed text.',
+              'Leave ballot page 13 loose inside. Staple other pages in order at the upper left. Notes, questions, answers, records and Coming Clean stay with the guest.',
               'Give the guest their named packet and a pencil at arrival. Keep the public introduction separate for sending before the party.',
-              'If using the combined packet file, each consecutive twelve-page block belongs to the next character name listed below. Do not read private pages while assembling.',
+              'If using the combined file, each consecutive fourteen-page block belongs to the next name listed below. Do not read private pages while assembling.',
               'Print one host guide and name checklist. Hide Discoveries 1–16. Stage reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
         y=s.block(t,42,y,528,14)+12
     y=s.block('Packet order / character names',42,y,528,18,'BookBold',TEAL)+9
