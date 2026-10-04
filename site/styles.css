@@ -43,4 +43,10 @@ h1{font-size:clamp(56px,7.2vw,96px);line-height:.96;letter-spacing:-.035em;font-
 @media(max-height:500px) and (min-width:701px){
  .landing{padding-top:65px;padding-bottom:24px}.masthead{top:16px}h1{font-size:56px}.premise{font-size:19px;margin-top:14px}.occasion{margin-top:8px}.downloads{display:flex;margin-top:16px;max-width:510px;gap:10px}.downloads a{font-size:13px;padding:13px;white-space:nowrap}.secondary svg{display:none}.spoiler{margin-top:12px}
 }
+@media(max-height:500px) and (max-width:700px){
+ .landing{align-items:center;padding-top:60px;padding-bottom:16px;background-size:cover;background-position:right center}
+ .landing::before{background:linear-gradient(90deg,#061415f5 0%,#061415d4 45%,#06141570 100%)}
+ .masthead{top:16px}.brand{font-size:16px}.hero{max-width:420px}h1{font-size:36px}
+ .premise{font-size:16px;margin-top:10px}.occasion{font-size:12px;margin-top:6px}.downloads{display:flex;margin-top:12px;gap:10px}.downloads a{font-size:12px;padding:12px;min-height:44px}.primary{gap:8px}.secondary svg{display:none}.spoiler{margin-top:10px}
+}
 @media(prefers-reduced-motion:reduce){.downloads a{transition:none}}
