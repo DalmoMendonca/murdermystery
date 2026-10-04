@@ -1,0 +1,51 @@
+"""Actual museum records and photographic exhibits, not descriptions of props."""
+import json
+from pathlib import Path
+
+def draw_discovery(s,d,top,b):
+    x=42;w=528;bottom=top+302
+    s.rect(x,top,w,302,stroke=b.TEAL,dash=[3,3])
+    y=s.block(d['department'],58,top+13,496,12,'BookBold',b.TEAL)+6
+    y=s.block(d['title'],58,y,496,22,'BookBold')+10
+    if d.get('photo'):
+        s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),58,y,496,116);y+=126
+    for row in d.get('rows',[]):
+        a=s.block(row[0],58,y,170,14,'BookBold');z=s.block(row[1],242,y,312,14);y=max(a,z)+5
+    for t in d.get('paragraphs',[]):y=s.block(t,58,y,496,14)+7
+    if d.get('annotation'):y=s.block(d['annotation'],58,y+3,496,14,'BookItalic',b.RED)+5
+    if d.get('stamp'):s.block(d['stamp'],58,bottom-35,496,12,'BookBold',b.RED,bottom=bottom-16)
+    s.block('Discovery '+str(d['number']),440,bottom-18,114,12,'Book',b.TEAL,bottom=bottom-2)
+
+def build_evidence(b):
+    docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
+    s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf','Museum discovery documents')
+    for start in range(0,len(docs),2):
+        s.header('PRINT WITHOUT READING / Cut at dashed borders',True)
+        for i,d in enumerate(docs[start:start+2]):draw_discovery(s,d,104+i*318,b)
+        s.footer('Hide discoveries by number / Photographs and records are game props')
+        if start+2<len(docs):s.next()
+    s.save()
+    reports=json.loads((b.ROOT/'source/investigation.json').read_text(encoding='utf-8'))
+    photos={'F1':'silver_coupe','F5':'fiber_comparison'}
+    departments={'F1':'FORENSIC LABORATORY / TOXICOLOGY','F2':'MERIDIAN / DONOR PAPERS','F3':'MERIDIAN / STEWARD STATEMENT','F4':'MERIDIAN / CONSERVATION AUDIT','F5':'FORENSIC LABORATORY / TEXTILE COMPARISON'}
+    paths=[]
+    for report in reports:
+        key=report['id'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Reports'/(key+'.pdf'),report['title']);s.header(departments[key])
+        y=s.block(report['title'],42,105,528,30,'BookBold',b.TEAL)+15
+        y=s.block('CASE: MERIDIAN / 30 OCT 2026 / '+key,42,y,528,14,'BookBold')+17
+        if key in photos:
+            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,225);y+=239
+        if key=='F2':
+            for label,words in [('NAMING AGREEMENT','Veto power, museum renaming and management changes.'),('OBJECTS & PAYMENTS','Disputed title, altered records and unpaid design invoices.'),('PERSONAL PAPERS','Family trust amendments and threats to professional reputations.')]:
+                y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6;y=s.block(words,42,y,528,16)+16
+        if key=='F3':
+            for time,words in [('6:40','Cordial poured; inside and rim of coupe checked clean.'),('6:40–6:49','Coupe remains in Donor Salon. All guest entries logged by steward.'),('6:49','Grant drinks from his private coupe.')]:
+                y=s.block(time,42,y,105,18,'BookBold',b.TEAL);y=s.block(words,163,y-22.5,407,16)+18
+        if key=='F4':
+            for time,words in [('6:00','Reference sample verified inside locked cabinet.'),('SETUP','Single key issued and returned against the key book.'),('6:35','Reference sample missing; cabinet relocked.')]:
+                a=s.block(time,42,y,105,16,'BookBold',b.TEAL);z=s.block(words,163,y,407,16);y=max(a,z)+16
+        y=s.block('Certified findings',42,y,528,18,'BookBold',b.TEAL)+8
+        y=s.block(report['text'],42,y,528,14)+20
+        s.line(42,min(y,707),570,min(y,707));s.footer(key+' / Read aloud and display at the host’s announced release');s.save();paths.append(s.path)
+    b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/Forensic_Reports.pdf')
+    b.merge([b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf']+paths,b.KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf')

@@ -6,17 +6,20 @@ Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 
 
 [Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
 
-The kit contains 113 PDFs (513 pages including combined copies), 30 single-page character PNGs, 90 individual portrait images and a read-me. Start with `00_READ_ME_FIRST.pdf`. Each guest has four play pages, both cards sealed in an EVIDENCE envelope, and a separate sealed FINALE page. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle `PRINT_WITHOUT_READING` face down using the separate blind assembly guide. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
+Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete twelve-page private packet: background, all Motive/Opportunity/Method question pages with named targets, their prepared answers and records, ballot and Coming Clean. No separate player catalog, letter cards or finale envelopes. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle private files face down. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
 
-Each fictional character has three portraits: Van Gogh style on their public character sheet, Picasso style on the first private play page, and a chibi avatar on their place card. `OPEN_FREELY/Portraits` contains all 90 print-sized images. The source ZIP includes the full-resolution JPEG assets and exact prompts. Place cards print four per US Letter page; cut and display flat or in stands. Costume suggestions remain optional and need not match the artwork.
+Every character has a Van Gogh portrait on the public introduction, a Picasso portrait on the private cover, and a transparent chibi on the place card. Place cards put first and middle names on one line and surname on the next; four per US Letter page. All thirty roles can be selected through the same memorized animal draw. Casting tiers indicate story prominence, not murderer eligibility.
 
 ## Editable sources
 
-- `source/characters.json`: canonical structured introductions, safe hearing scripts, private canon, sealed confessions and A/B evidence.
-- `source/game.json`: address, question routing and disjoint familiar animal lists.
+- `source/characters.json`: canonical introductions, prepared answers, private canon, preparation records and both Coming Clean statements.
+- `source/game.json`: address, packet page map and one familiar animal pool.
+- `source/question_rounds.json`: ten shared questions per round, each with three named targets.
+- `source/discoveries.json`: sixteen actual museum document payloads.
+- `source/evidence_art.json`: photographic exhibit prompts and hashes.
 - `source/investigation.json`: current staged forensic reports and closed physical evidence chain.
 - `source/art_direction.json`: 30 distinct fictional identities, palettes, signature accessories, exact generation prompts and asset hashes.
-- `assets/portraits/`: all 90 full-resolution generated portraits, used by the PDF pipeline. No image-generation API call is required to build.
+- `assets/portraits/`: all original portraits and transparent cutout derivatives, used by the PDF pipeline. No image-generation API call is required to build.
 - `source/name_map.json`: simultaneous aliases applied to archived source text.
 - `source/facilitator.json`: intentionally paginated host-safe guide with tables and checklists.
 - `source/v1/`: preserved original precursors; supplies remapped scavenger discoveries, exhibit descriptions and invitation text. Current structured JSON and GAME_FLOW supersede historical mechanics and names.

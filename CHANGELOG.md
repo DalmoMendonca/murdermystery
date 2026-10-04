@@ -1,3 +1,13 @@
+# Complete-packet revision — 2026-10-03
+
+- Bound named grouped Motive, Opportunity and Method questions into every twelve-page packet, with distinct answers and records.
+- Included ballot and both Coming Clean statements; implemented top-three reveal with murderer-animal fallback.
+- Removed external player catalog, A/B evidence cards, separate sealed finale exports and prescribed seating.
+- Made all thirty roles eligible through one memorized-and-returned animal draw; checked all branches.
+- Replaced clue-description cards with sixteen museum records and six photographic exhibits.
+- Added thirty transparent chibi derivatives and two-line place-card names.
+- Rendered every PDF and completed independent finish review and mechanics rehearsal.
+
 # Illustrated museum collection - 2026-10-03
 
 Generated 90 distinct character portraits: Van Gogh-inspired introductions, Picasso-inspired day-of covers and chibi place cards. Rebuilt the public invitation as a gallery opening and enlarged illustrated place cards to four per Letter page. Kept introductions single-page with 16–18 pt text. Added full-resolution art, exact generation prompts, provenance, host-safe public derivatives and reproducible archives. Reviewed all 90 artworks and all 69 changed distinct PDF pages; unchanged pages match the prior reviewed release. Existing 45 case simulations and 150 desk rehearsals still pass.

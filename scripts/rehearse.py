@@ -1,54 +1,50 @@
-"""Deterministic desk rehearsal of animal draws, absences and question handoffs.
+"""Desk rehearsal of the printed named-question chain, draw and Coming Clean."""
+import json,random
+from build import ROOT,GAME
 
-This validates the printed procedure's model; it is not a human playtest.
-"""
-import json, random
-from build import ROOT, GAME
+def finalists(votes):
+    return sorted((n for n in votes if votes[n]>0),key=lambda n:(-votes[n],n))[:3]
 
 def rehearse():
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
-    rng=random.Random(20261030)
-    runs=0
+    rounds=json.loads((ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
+    by_name={c['name']:c for c in chars};all_names=list(by_name)
+    rng=random.Random(20261030);runs=0;confessions=0;outside=0
     for trial in range(50):
-        for attending in [list(range(30)),list(range(15)),sorted(rng.sample(range(15),10)+rng.sample(range(15,30),7))]:
-            core=[i for i in attending if chars[i]['tier']=='CORE']
-            optional=[i for i in attending if chars[i]['tier']!='CORE']
-            bowl_a=list(GAME['core_animals']);rng.shuffle(bowl_a)
-            optional_bowl=list(GAME['optional_animals']);rng.shuffle(optional_bowl)
-            memory={};closed_return=[]
-            for i in core:
-                memory[i]=bowl_a.pop();closed_return.append(memory[i])
-            for i in optional:
-                memory[i]=optional_bowl.pop();closed_return.append(memory[i])
-            # Remove unused A animals from B; return box is never the draw bowl.
-            bowl_b=[a for a in GAME['core_animals'] if a not in bowl_a]
+        for attending in [all_names,all_names[:15],rng.sample(all_names[:15],10)+rng.sample(all_names[15:],7)]:
+            bowl_a=list(GAME['animals']);rng.shuffle(bowl_a)
+            memory={n:bowl_a.pop() for n in attending};closed_return=list(memory.values())
+            bowl_b=[a for a in GAME['animals'] if a not in bowl_a]
             assert len(set(memory.values()))==len(attending)==len(closed_return)
-            assert set(bowl_b)=={memory[i] for i in core}
-            selected=rng.choice(bowl_b)
-            killers=[i for i in attending if memory[i]==selected]
-            assert len(killers)==1 and killers[0] in core
-            killer=killers[0]
-            for round_name in ['motive','opportunity','method']:
-                heard=[]
-                for n,respondent in enumerate(attending):
-                    asker=attending[n-1]
-                    assert asker!=respondent
-                    assert chars[respondent]['questions'][round_name]
+            assert set(bowl_b)==set(memory.values())
+            selected=rng.choice(bowl_b);killer=next(n for n,a in memory.items() if a==selected)
+            assert sum(a==selected for a in memory.values())==1
+            for rd in rounds:
+                pending=set(attending);asker=rng.choice(attending);heard=[]
+                while pending:
+                    choices=list(pending-{asker})
+                    if not choices:choices=list(pending)
+                    respondent=rng.choice(sorted(choices))
+                    group=next(g for g in rd['groups'] if respondent in g['targets'])
+                    assert group['question'] and respondent in by_name
                     branch='murderer' if respondent==killer else 'innocent'
-                    speech_key={'motive':'motive','opportunity':'where_'+branch,'method':'evidence_'+branch}[round_name]
-                    assert chars[respondent]['hearing'][speech_key]
-                    heard.append(respondent)
-                assert heard==attending and len(set(heard))==len(attending)
-            receipts={i:chars[i]['case_facts']['murderer' if i==killer else 'innocent'] for i in attending}
-            assert [i for i,facts in receipts.items() if all(facts[k] for k in ['salon','key','linen'])]==[killer]
-            # A late core guest draws unused A: that animal was excluded from B.
+                    key={'motive':'motive','opportunity':'where_'+branch,'method':'evidence_'+branch}[rd['key']]
+                    assert by_name[respondent]['hearing'][key]
+                    heard.append(respondent);pending.remove(respondent);asker=respondent
+                assert set(heard)==set(attending) and len(heard)==len(set(heard))
+            facts={n:by_name[n]['case_facts']['murderer' if n==killer else 'innocent'] for n in attending}
+            assert [n for n,f in facts.items() if all(f[k] for k in ['salon','key','linen'])]==[killer]
+            for votes in [{n:rng.randrange(5) for n in attending},{n:1 for n in attending},{n:0 for n in attending}]:
+                top=finalists(votes);readers=list(top)
+                assert len(top)<=3 and all(votes[n]>0 for n in top)
+                if killer not in readers:readers.append(killer);outside+=1
+                assert sum(n==killer for n in readers)==1
+                for n in readers:assert by_name[n]['private']['final_'+('murderer' if n==killer else 'innocent')]
+                confessions+=1
             if bowl_a:assert bowl_a[-1]!=selected
             runs+=1
-    report={'draw_and_turn_rehearsals':runs,'passed':True,'human_playtest':False,
-            'coverage':['unique memorized animals','unused A removed from B','optional animals excluded',
-                        'one eligible murderer','every present guest asks and answers every round',
-                        'absent IDs skipped','combined evidence unique','late core arrival cannot be killer']}
-    (ROOT/'build/rehearsal-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    print(json.dumps(report,indent=2))
-
+    assert finalists({'Zoe':2,'Anne':2,'Mona':2,'Reed':2,'Zero':0})==['Anne','Mona','Reed']
+    report={'draw_and_turn_rehearsals':runs,'coming_clean_rehearsals':confessions,'outside_top_three_reveals':outside,'passed':True,'human_playtest':False,
+            'coverage':['all thirty roles eligible','unique memorized animals returned to closed box','unused animals excluded from B','one attending murderer','named questions inside each packet','every present guest answers once per round','absences and late arrivals','combined evidence uniquely identifies culprit','top-three and alphabetical tie handling','murderer outside top three always confesses']}
+    (ROOT/'build/rehearsal-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))
 if __name__=='__main__':rehearse()

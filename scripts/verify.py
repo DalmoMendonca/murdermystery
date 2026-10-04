@@ -27,12 +27,10 @@ def verify():
         if 'PreParty_Individual' in rel:
             assert len(doc)==1,rel
             assert all(s not in doc[0].get_text() for s in ['WHAT YOU ALREADY KNOW','HOW TO PLAY THEM','OPTIONAL QUIPS','Sterling Voss','Page 1','CORE','SECONDARY','TERTIARY']),rel
-        if 'Secret_Individual' in rel:assert len(doc)==4,rel
-        if 'Finale_Individual' in rel:assert len(doc)==1,rel
+        if 'Secret_Individual' in rel:assert len(doc)==12,rel
         doc.close()
     for c in chars:
-        assert set(c['evidence'])=={'A','B'}
-        assert c['private']['innocent_card']!=c['private']['murderer_card']
+        assert set(c['preparation_record'])=={'innocent','murderer'}
         assert all(c['private'][key] for key in ['innocent','murderer','final_innocent','final_murderer'])
     values=list(unique.values())
     for start in range(0,len(values),4):

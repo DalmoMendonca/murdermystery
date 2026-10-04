@@ -1,39 +1,33 @@
 # Current game flow
 
-This is the authoritative procedure. Historical v1 text is retained as source history, not as current rules. The party is October 30, 2026, at 1537 S 74th East Ave, Tulsa, OK 74112. The offstage donor is Grant Larceny.
+October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an offstage donor; no guest plays the victim. This document supersedes archived v1 mechanics.
 
-## Arrival and Act I
+## Arrival and museum mingling
 
-Assign characters before the party. Each guest receives only their own public introduction and invitation. At arrival, give their four-page private play packet and sealed EVIDENCE envelope. Keep all separately sealed FINALE envelopes on the host's tray.
+Send only each guest's public introduction and invitation in advance. At the party distribute their complete twelve-page private packet face down. Every attending role draws one familiar animal from A, privately memorizes it and immediately returns the folded slip to a closed return box. Nobody keeps a slip or records names against animals. B is a separate matching set; remove unused A animals from B before selecting. All thirty roles are eligible. A late arrival draws unused A, already excluded from B, and is innocent.
 
-Core guests draw once from Player Bowl A, memorize the animal privately, fold the slip and immediately return it to a CLOSED RETURN BOX. Never return it to Bowl A. Optional guests do the same from their disjoint optional bowl. Nobody keeps a slip; nobody records an animal/name association. Mix returned slips and put them away. Unused animals left in A are removed from matching Murderer Bowl B before selection. This leaves B containing only animals actually memorized by attending core guests.
+Act I supplies three social tasks per character and sixteen discoverable museum documents. Skip absent targets or approach another present guest. Discoveries enrich motives; essential murder facts are in the five mandatory reports. At the end of Act I select and announce one B animal twice. Nobody identifies themselves. That person uses IF MURDERER; everyone else uses IF INNOCENT. Never redraw because of a suspected identity.
 
-Act I has three printed social tasks per character and sixteen discoverable museum documents. Tasks can be completed with another present guest when a named guest is absent. Scavenger discoveries enrich motives; the mandatory reports supply all essential murder evidence. The donor is offstage and requires no guest actor.
+## Named question chains
 
-At the end of Act I draw one animal from B, announce it twice and write only the animal on the cue sheet. Nobody identifies themselves. The guest who memorized that word follows IF MURDERER; everyone else follows IF INNOCENT. Never redraw because of a suspected identity. A late core arrival draws an unused A animal already excluded from B and is innocent. The host guide supplies forgotten-animal recovery steps; never guess an assignment.
+Every packet contains the same ten question groups for each round. Each group lists three full character names who give different prepared answers. No guest needs an ID, partner, fixed seat or separate catalog.
 
-## Three rounds with explicit turns
+Choose a starting guest. They choose someone who has not answered from an ASK row and read its question. The target reads their answer without reading the branch label aloud, then chooses another unanswered name. Host ticks each respondent on the name checklist. Ensure the starting guest answers too. Skip absent or already-heard names; host may redirect using the same packet questions. Stop when everyone has answered once.
 
-Seat attending guests in ascending character ID order and tick attendance. The last occupied seat asks the first guest their named question in the catalog. That guest reads their prepared answer and asks the next occupied seat's named question. Continue until every attending ID is ticked for the round. Skip absent IDs. A neighbour can read a guest's selected speech box when help is wanted. Private role labels are never read aloud. Acting is optional; scripted facts cannot be changed.
-
-| Round | Host release before questions | Guest action |
+| Round | Host release | Packet pages |
 | --- | --- | --- |
-| 1 / Motive | Read F1 and F2 | Ask the next guest's tailored Motive question; answer with the common motive speech. |
-| 2 / Opportunity | Read F3 | Ask the tailored Opportunity question; read the IF INNOCENT or IF MURDERER speech privately selected by the animal draw. |
-| 3 / Method | Read F4 and F5 | Open EVIDENCE; select the exact letter assigned for your role. Answer the tailored Method question, read that receipt and place it on the Evidence Table. Keep the other card hidden. |
+| Motive | F1 toxicology and F2 donor papers | Questions 2–3, common answer 4 |
+| Opportunity | F3 steward statement | Questions 5–6, branch answers 7 |
+| Method | F4 cabinet audit and F5 textile comparison | Questions 8–9, branch answers and preparation records 10 |
 
-Count one submitted receipt per attending ID before discussion. No vital clue depends on a guest volunteering information or someone discovering an optional prop. The proposed full-cast schedule allows 20 minutes for Motive and 30 minutes each for Opportunity and Method, followed by comparison and voting. The host guide has a timed agenda, announcements and fallback cues.
+Keep other pages closed until announced. Read the complete Method answer, including the printed preparation record. No early speech contains a confession. Brief discussion follows each chain. Allow approximately three and a half hours for the full thirty-guest evening; the host guide provides announcements, schedule and recovery steps.
 
 ## Fair deduction
 
-The five reports establish three necessary conditions: salon entry after the clean pour, access to the controlled toxin cabinet during setup, and possession of the matching gold-seamed linen used to apply poison inside the coupe and on its rim. Neutral setup receipts and prepared answers disclose these facts.
+Five reports establish three necessary physical conditions: Donor Salon entry after the clean pour, cabinet key access during setup, and matching gold-seamed linen. Many innocent guests meet one or two conditions; only the selected murderer meets all three. Full-cast checks require each strand to leave at least ten possible suspects and every pair at least five. The cabinet and textile controls prevent unprinted borrowing or exchanges from becoming alternative explanations. All thirty branches are checked for unique deduction, including attendance subsets.
 
-Many innocent guests meet one or two conditions. In the full core cast, each single condition leaves 10–11 possible suspects and each pair leaves 5–6. Only the selected murderer meets all three. Neither one suspicious answer nor one card proves guilt. Door records establish entry, not an eyewitness account of poisoning. The cabinet and linen controls close alternative access and exchange explanations. Motive provides the character's reason; the three physical strands establish the culprit.
+## Ballot and Coming Clean
 
-## Discussion, ballots and finale
+Ballot is packet page 11. Tear it out, or submit the closed packet opened only to that page. Collect and lock every vote before any Coming Clean statement. Select the highest three positive vote totals, or fewer if necessary; break ties alphabetically by full character name. Each selected suspect reads their appropriate box on page 12. Read all three statements even if a confession comes early. Innocent statements resolve private secrets and explain a missing physical condition. Murderer statements connect motive, preparation, method and all three clues.
 
-Compare all three strands in pairs, then allow brief questions using printed facts. Collect all ballots and prevent changes. Only then ask the selected animal to identify themselves and hand them their named sealed FINALE. They open and read the confession. All other finales stay closed. Ranking and award rules are in the host guide. Confessions never appear in active play pages.
-
-## Verified scope
-
-Generated content checks cover all 30 packets and 60 receipt cards. Forty-five murderer/attendance cases produce one combined culprit; 150 desk rehearsals cover animal assignment, absences, late arrivals and every guest's question/answer turns. An independent reviewer checked the causal chain and novice instructions. These are mechanical and content checks, not a human playtest. Actual delivery speed and enjoyment remain unmeasured; the host guide's schedule is a planning allowance.
+If nobody among the selected suspects confesses, host calls the announced murderer animal to stand and read IF MURDERER Coming Clean. No separate finale file or envelope exists. Awards and debrief follow. Host-blind operation requires face-down handling of private files; a non-playing helper can assist when a printer exposes private text.

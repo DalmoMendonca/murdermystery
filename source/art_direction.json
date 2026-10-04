@@ -23,10 +23,12 @@
         "original_file": "exec-796abf45-65e1-443d-b6ac-f15e99427767.png"
       },
       "chibi": {
-        "path": "assets/portraits/01_Artie_Ficial/chibi.jpg",
-        "sha256": "d5e28ba5f20f4f8e461726f73c185e2fef9d3b792a4a0865d73b7cf3b37c95bd",
-        "generator": "built-in image_gen",
-        "original_file": "exec-4c0d0b3e-3e48-4238-a3d7-43fa6b4ce9be.png"
+        "path": "assets/portraits/01_Artie_Ficial/chibi.webp",
+        "sha256": "b223a750dc20e47b51a6f9247b7e3f5ba321e4bfa116086999d38e037b8f0c4e",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-ebc0b562-517c-44c8-a81b-4a489e99daa8.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "picasso": {
         "path": "assets/portraits/01_Artie_Ficial/picasso.jpg",
@@ -34,7 +36,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-009df33f-91c3-43a6-8260-76a23b0128f8.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Artie Ficial. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "02",
@@ -60,10 +63,12 @@
         "original_file": "exec-98fa5d4a-feb0-4bbe-b151-cb215146e9d9.png"
       },
       "chibi": {
-        "path": "assets/portraits/02_Claire_O_Scuro/chibi.jpg",
-        "sha256": "ed7941614769ccec1f85b1e9dabe9e98426395cebef7a72ed75fd2781ec69fa8",
-        "generator": "built-in image_gen",
-        "original_file": "exec-07f653d5-a12d-4318-a2a6-82551c665548.png"
+        "path": "assets/portraits/02_Claire_O_Scuro/chibi.webp",
+        "sha256": "6c5ddae3b11f7c8fe0fe550c8ffa72f9cecef42f1b7759fbaf874d68b1c198da",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-1aebd169-e9ba-43f4-adb5-fc595ef7e6bc.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/02_Claire_O_Scuro/van_gogh.jpg",
@@ -71,7 +76,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-13fab4f6-f046-4383-9d7f-403f7602da83.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Claire O’Scuro. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "03",
@@ -103,12 +109,15 @@
         "original_file": "exec-05d56360-c7da-49db-b595-74e5e5a93c42.png"
       },
       "chibi": {
-        "path": "assets/portraits/03_Hugh_Bidder/chibi.jpg",
-        "sha256": "ed614539a6872278108413b03dcca2ce765119db8a60f3800a7f05aa79aeadc8",
-        "generator": "built-in image_gen",
-        "original_file": "exec-f9a7c9d7-6f78-4fcf-8448-5cd660bee304.png"
+        "path": "assets/portraits/03_Hugh_Bidder/chibi.webp",
+        "sha256": "f4ec500211d422c86261c1d04f1805dcdd92cf8226be704bf05c10df9c5933fd",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-e7f94133-307b-4e62-8661-c8779885298c.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Hugh Bidder. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "04",
@@ -128,10 +137,12 @@
     },
     "assets": {
       "chibi": {
-        "path": "assets/portraits/04_Monet_Bags/chibi.jpg",
-        "sha256": "db15648226a3fe24e7632cbf48e4b5849ce59187647c25017acbd0817646228a",
-        "generator": "built-in image_gen",
-        "original_file": "exec-4c32d0f0-9d1b-42ca-8325-b2053ee11c4e.png"
+        "path": "assets/portraits/04_Monet_Bags/chibi.webp",
+        "sha256": "0fbdf9c35ce566b1dc3bd3bc92fa3c6fc4fc49631a92dbcf2929101b339a4907",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-d6ea6a82-31cd-41b4-8030-b46b047de7de.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/04_Monet_Bags/van_gogh.jpg",
@@ -145,7 +156,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-54b1b94b-5baa-414f-9294-7342452a680f.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Monet Bags. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "05",
@@ -177,12 +189,15 @@
         "original_file": "exec-7d288f6e-1b1e-4106-8478-c0ae89c922c9.png"
       },
       "chibi": {
-        "path": "assets/portraits/05_Chip_Patina/chibi.jpg",
-        "sha256": "23d7d8053ebe1e15439c6ef8e4d31c3983dab1184afc3d390aea26fae7d6e374",
-        "generator": "built-in image_gen",
-        "original_file": "exec-8e2eefcb-d16d-4b0b-9f43-ee054babb23e.png"
+        "path": "assets/portraits/05_Chip_Patina/chibi.webp",
+        "sha256": "47be886fe9b49178b4329fdd2986fc30417b48aaa24eebac68f0355d7e1b4c0d",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-cc16393d-369e-446d-8c54-d8ca7d47710f.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Chip Patina. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "06",
@@ -214,12 +229,15 @@
         "original_file": "exec-59ba119f-1f11-4fc7-a3b6-d72e9468160d.png"
       },
       "chibi": {
-        "path": "assets/portraits/06_Dada_DiCapo/chibi.jpg",
-        "sha256": "faaa7a4f3d0d4da04088736dcd86858242bb3d60d37699c729361b224c8e2d0e",
-        "generator": "built-in image_gen",
-        "original_file": "exec-e0022920-977d-4778-921a-aca0b0cc7443.png"
+        "path": "assets/portraits/06_Dada_DiCapo/chibi.webp",
+        "sha256": "72739aec1ac5df5a729500418c96771d42dfeaaee313f36281705ef2c5d02e19",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-6095ae51-aeff-4c31-8550-54f70d4d88b4.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Dada DiCapo. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "07",
@@ -245,10 +263,12 @@
         "original_file": "exec-34736fa3-a296-4bd1-8363-5dc9ab45e65c.png"
       },
       "chibi": {
-        "path": "assets/portraits/07_Vincent_Van_Faux/chibi.jpg",
-        "sha256": "1a55dc2469319869e13dde52e1f2ede6502020ef136a98236ffb93655ddd3e3e",
-        "generator": "built-in image_gen",
-        "original_file": "exec-24950222-e7a0-4d0e-afe3-5657309dd3d8.png"
+        "path": "assets/portraits/07_Vincent_Van_Faux/chibi.webp",
+        "sha256": "98215103f05d211b3fd48b967eca932b7b37a1234b94c787fa641e8c86dc1466",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-00673315-967b-4a87-a83b-75aa3078e342.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/07_Vincent_Van_Faux/van_gogh.jpg",
@@ -256,7 +276,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-1dcd1ef4-0a3f-44ed-a4ee-b62788027461.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Vincent Van Faux. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "08",
@@ -282,10 +303,12 @@
         "original_file": "exec-95ed208e-8a79-4271-aa33-31f83aa98f7c.png"
       },
       "chibi": {
-        "path": "assets/portraits/08_Sue_Venir/chibi.jpg",
-        "sha256": "f6c3592214cf6d5a2d1cf450cce044c430bab66e5c2dc83312fad729870d0ceb",
-        "generator": "built-in image_gen",
-        "original_file": "exec-86a998e6-bf23-42f5-a711-7caf749cfc4e.png"
+        "path": "assets/portraits/08_Sue_Venir/chibi.webp",
+        "sha256": "a871a33ec57840f78661772113484cd1b1a25590d100093da49c44d8868900b9",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-2ac34d8e-6b54-46b2-b4c2-e01d0b24abfb.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/08_Sue_Venir/van_gogh.jpg",
@@ -293,7 +316,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-61ed5b26-669e-49a8-af0c-8f83721e82a1.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Sue Venir. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "09",
@@ -325,12 +349,15 @@
         "original_file": "exec-80670b33-9d5c-4e81-93c9-e4868e1fb248.png"
       },
       "chibi": {
-        "path": "assets/portraits/09_Dr_Art_E_Fact/chibi.jpg",
-        "sha256": "3d07913900f05897669db5640adb4ce2374adfaa60e60ce86004d168e51a5381",
-        "generator": "built-in image_gen",
-        "original_file": "exec-9766e0b6-4db3-4bdb-a1da-7a1933391e72.png"
+        "path": "assets/portraits/09_Dr_Art_E_Fact/chibi.webp",
+        "sha256": "05eaf06f2b4cdcb6897e8fac004f8c3a61fb27bd87c893f9c0238946f6094827",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-9a3d14b0-1f4f-4ea9-bda1-d0bbf3db6a5e.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Dr. Art E. Fact. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "10",
@@ -362,12 +389,15 @@
         "original_file": "exec-f84c1f05-0e4a-4988-b654-df927d3e1259.png"
       },
       "chibi": {
-        "path": "assets/portraits/10_Tess_Tament/chibi.jpg",
-        "sha256": "5b3a74239d262ddbc63c7641e43ea2f614191444136b9b5c2886f0f34f48396d",
-        "generator": "built-in image_gen",
-        "original_file": "exec-ef1c0ddc-1d41-400e-bd19-6f0d5d82b9e7.png"
+        "path": "assets/portraits/10_Tess_Tament/chibi.webp",
+        "sha256": "b60fbf415419664a557b07b1c3e10c368f82272cbd1d7d82fa904eb0567a0f03",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-104f1347-5a90-40ac-9976-fa011b4b6de5.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Tess Tament. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "11",
@@ -399,12 +429,15 @@
         "original_file": "exec-b09c1da8-6d4b-4e91-bde7-e6b91726c94a.png"
       },
       "chibi": {
-        "path": "assets/portraits/11_Barb_Dwyer/chibi.jpg",
-        "sha256": "0b2b4b40ea431c2a921551362eae2347cab666fd7e85ffd489926df454a7a74d",
-        "generator": "built-in image_gen",
-        "original_file": "exec-594fd2c1-e02d-428d-9162-23e7de0b4094.png"
+        "path": "assets/portraits/11_Barb_Dwyer/chibi.webp",
+        "sha256": "dc04ee59d3c557cf54e5a1571b2f324c76c3758f7b5ea6cbad5743d4bbc9ad94",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-9a242ff8-0497-4746-b3eb-3a2ce2a514d6.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Barb Dwyer. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "12",
@@ -436,12 +469,15 @@
         "original_file": "exec-8e222bd4-f05f-42b1-abc2-9f237307ce97.png"
       },
       "chibi": {
-        "path": "assets/portraits/12_Paige_Turner/chibi.jpg",
-        "sha256": "44942a09cd6d7588188c0929d95b122c91bc2885293cd3ec47633b29adb9349d",
-        "generator": "built-in image_gen",
-        "original_file": "exec-5000dbe7-3969-49ec-9624-fe734dd2e741.png"
+        "path": "assets/portraits/12_Paige_Turner/chibi.webp",
+        "sha256": "8743b024665a24c236ad02fe19a1ec05ad7d8e7065c3cef41956f7bdeeb8eabc",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-431c3931-6982-42ca-98c7-d131c8fcc982.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Paige Turner. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "13",
@@ -473,12 +509,15 @@
         "original_file": "exec-d2c874f0-fb4e-455e-a08c-6c256dc55ac6.png"
       },
       "chibi": {
-        "path": "assets/portraits/13_Frank_Lloyd_Wrong/chibi.jpg",
-        "sha256": "bd5a0705804731daeb1ffe281a045b4777e7d7f94c8a563917aaa4520e955d8d",
-        "generator": "built-in image_gen",
-        "original_file": "exec-31845e5d-990a-4417-a544-2eebab628373.png"
+        "path": "assets/portraits/13_Frank_Lloyd_Wrong/chibi.webp",
+        "sha256": "64f0d662b8f7afbfffd134207792f46a9a529d4cb6fc2fb098bf3f753bc5aceb",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-d274fb47-114c-4ae3-b72b-0b86f251fa66.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Frank Lloyd Wrong. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "14",
@@ -510,12 +549,15 @@
         "original_file": "exec-ad4fffa0-ffbc-4701-a7e7-19cb984e9432.png"
       },
       "chibi": {
-        "path": "assets/portraits/14_Mona_Lott/chibi.jpg",
-        "sha256": "0c5479c22fb9b54e7b92005072f3c03d5ea2c4f16db32b68f555de37bd63017f",
-        "generator": "built-in image_gen",
-        "original_file": "exec-36f787db-37a1-4515-ac4c-9cec8498dbd2.png"
+        "path": "assets/portraits/14_Mona_Lott/chibi.webp",
+        "sha256": "c166354eabc1a78cb7fb00668abe144786b781592baf79582edc1ec3ce88712c",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-1cb541ad-8f74-4cc9-b7bf-b7d619c16dbb.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Mona Lott. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "15",
@@ -547,12 +589,15 @@
         "original_file": "exec-c5bee4f6-6277-4794-85ab-8b98e6ce267e.png"
       },
       "chibi": {
-        "path": "assets/portraits/15_Elon_Mosaic/chibi.jpg",
-        "sha256": "435af0e35527626ff5308e4b0a532b5c7541c039ea4675f276331dd51aa4851a",
-        "generator": "built-in image_gen",
-        "original_file": "exec-5e0e7614-4ad6-403f-a4ee-51b2dae18cf1.png"
+        "path": "assets/portraits/15_Elon_Mosaic/chibi.webp",
+        "sha256": "50eddd237bd872fb161a282871c104f6e94021e90837c66a9434bfe436602724",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-11f76ea4-8ac8-4bb3-a15b-0fef6327d375.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Elon Mosaic. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "16",
@@ -584,12 +629,15 @@
         "original_file": "exec-4956fff1-39d3-4536-b4c4-06face0ba701.png"
       },
       "chibi": {
-        "path": "assets/portraits/16_Anya_Tique/chibi.jpg",
-        "sha256": "08490d08467ee77c837f11e31a4d15ed9dcc9c1a7ee05f45988b465a173fe83e",
-        "generator": "built-in image_gen",
-        "original_file": "exec-6ed9b8a7-3b46-4a2a-991c-9a398e61fab8.png"
+        "path": "assets/portraits/16_Anya_Tique/chibi.webp",
+        "sha256": "7eceb713a076c858c97926d37c35042b5318078257085b3ecd4b5a92ab5cc5fe",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-1788618c-aee3-4850-a28b-9a6f45c47e2d.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Anya Tique. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "17",
@@ -615,10 +663,12 @@
         "original_file": "exec-41e4fb67-33f0-40c7-994f-64249e9bdf92.png"
       },
       "chibi": {
-        "path": "assets/portraits/17_Saul_D_Bid/chibi.jpg",
-        "sha256": "a683503831b0a9205481d9928d961dfa333c64baf38729799bf639ea57ad7d29",
-        "generator": "built-in image_gen",
-        "original_file": "exec-8509ba6f-0304-4948-9322-ecb940814ff0.png"
+        "path": "assets/portraits/17_Saul_D_Bid/chibi.webp",
+        "sha256": "56e8443259c5eee048ecc8cf588f15bb2d03799ace807e7aad2be218942c3f4b",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-25b8abb5-59a9-43bb-b830-2d4b175df04c.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/17_Saul_D_Bid/van_gogh.jpg",
@@ -626,7 +676,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-78f23115-20a6-4740-8bd0-d6357c5b66e3.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Saul D. Bid. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "18",
@@ -658,12 +709,15 @@
         "original_file": "exec-c3ebdb39-6256-4dd4-8cd8-584c885d15d4.png"
       },
       "chibi": {
-        "path": "assets/portraits/18_Elle_Loominate/chibi.jpg",
-        "sha256": "a67cd6b1b9ea12e42ac38e7f108fc882e69d45932a9b4e334a5fb3aac88644f5",
-        "generator": "built-in image_gen",
-        "original_file": "exec-07b99b12-19ea-48c9-8ddf-f94eab5472f6.png"
+        "path": "assets/portraits/18_Elle_Loominate/chibi.webp",
+        "sha256": "e82cca115f1c5945074ec057c5cf06fe0c59a908a1fddb68349d4c79dade4361",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-ef26b2d7-5676-48db-8d06-c441336afa37.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Elle Loominate. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "19",
@@ -695,12 +749,15 @@
         "original_file": "exec-68d89042-99de-40e1-94e9-bd1f4b591db2.png"
       },
       "chibi": {
-        "path": "assets/portraits/19_Reed_DeLabel/chibi.jpg",
-        "sha256": "0119862184ed5e9e9761da02c90067d763fbc5472ab296eee644e0cdd86d8662",
-        "generator": "built-in image_gen",
-        "original_file": "exec-ce0f77a4-7ec2-4443-9255-cc4789771aea.png"
+        "path": "assets/portraits/19_Reed_DeLabel/chibi.webp",
+        "sha256": "8aca11e4846b84a89b4daf6ee4b4ac2119616269ebeb88c8c33d988b30d2d9b6",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-b31781fd-e754-4acf-b867-0e6917e2fb78.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Reed DeLabel. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "20",
@@ -726,10 +783,12 @@
         "original_file": "exec-145b0792-092e-41e0-be2c-12ed75a4d7ea.png"
       },
       "chibi": {
-        "path": "assets/portraits/20_Al_Baster/chibi.jpg",
-        "sha256": "cdaffce785495d02d7b84427ce598bfa26dcc746e8e0b6016d54dee38de47880",
-        "generator": "built-in image_gen",
-        "original_file": "exec-ca9734ab-ecfa-4fbd-9359-70ec643b7d51.png"
+        "path": "assets/portraits/20_Al_Baster/chibi.webp",
+        "sha256": "2e3f855aa1283202c8fd935ba3b38ab4ebd40eb52d114e3052e36d9d38f9890a",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-5808db46-13cd-4679-a891-b15f567d7f69.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/20_Al_Baster/van_gogh.jpg",
@@ -737,7 +796,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-b1c23eda-0bc7-4e2d-97f0-4717649b7cb9.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Al Baster. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "21",
@@ -769,12 +829,15 @@
         "original_file": "exec-80846e58-d613-4ec2-b8f8-79f17710184a.png"
       },
       "chibi": {
-        "path": "assets/portraits/21_Ella_Gance/chibi.jpg",
-        "sha256": "4ab0944ffeb1a88609a776479767363c479562ee5f1be121a809f6cfa08f762e",
-        "generator": "built-in image_gen",
-        "original_file": "exec-08c3a1b5-6731-43d2-aa27-9b78133d067f.png"
+        "path": "assets/portraits/21_Ella_Gance/chibi.webp",
+        "sha256": "861f70438efcf5f1a85e537ea2691fb62644299bf71ae001cf70d5f5724864c8",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-996c7173-e3ec-4caf-814b-4d8e877079fe.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Ella Gance. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "22",
@@ -806,12 +869,15 @@
         "original_file": "exec-154b35c7-209a-496c-a806-9bc818d43bfa.png"
       },
       "chibi": {
-        "path": "assets/portraits/22_Drew_Conclusions/chibi.jpg",
-        "sha256": "b83021d66b4f18aaf0798eae7866c66d596ece90a140020f0f42610c4c534e39",
-        "generator": "built-in image_gen",
-        "original_file": "exec-ea986adb-c59e-4800-87d7-94b78a873492.png"
+        "path": "assets/portraits/22_Drew_Conclusions/chibi.webp",
+        "sha256": "869dab64096989c5db5535b076e4e32f18c4b60572bbe03ab596e8588c8162cd",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-1bcd74fd-bc44-4045-8844-d6f2bc5becd6.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Drew Conclusions. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "23",
@@ -837,10 +903,12 @@
         "original_file": "exec-5730a946-8a7f-4bea-8496-95d0767bcd53.png"
       },
       "chibi": {
-        "path": "assets/portraits/23_Brie_DeVivre/chibi.jpg",
-        "sha256": "1917746bdd186f4c8eab7153886c5c808a28ff13fd2bf02ba48630b0376d5663",
-        "generator": "built-in image_gen",
-        "original_file": "exec-1e13aa25-7cfb-4f19-9f84-1f1903749adb.png"
+        "path": "assets/portraits/23_Brie_DeVivre/chibi.webp",
+        "sha256": "bb451b90ad240e75a90a7b814c4e501eae653cf4f144057cc73efc8c54b79b16",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-49a66357-0706-40fc-aa1a-a37d2ef3160f.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/23_Brie_DeVivre/van_gogh.jpg",
@@ -848,7 +916,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-a9103ab5-f9b4-48c2-b9c2-b0d58f3a8ec7.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Brie DeVivre. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "24",
@@ -880,12 +949,15 @@
         "original_file": "exec-3023994f-8b6f-4182-a4c3-0fa2c7ffd35d.png"
       },
       "chibi": {
-        "path": "assets/portraits/24_Cary_Crates/chibi.jpg",
-        "sha256": "68350cae019ffb4d92fe34200ecdc48b54e5e00cfb2f2f220f2f005a35a150a1",
-        "generator": "built-in image_gen",
-        "original_file": "exec-e26bff06-214f-4495-aa47-dfc41d9d1ca1.png"
+        "path": "assets/portraits/24_Cary_Crates/chibi.webp",
+        "sha256": "461950b9b62a7a0932beeebd2c6ce32fa7121e0ad144c598726b10a1614cc724",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-7d3e955f-fc88-48a6-81e5-57af4176a388.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Cary Crates. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "25",
@@ -917,12 +989,15 @@
         "original_file": "exec-ab3a7af6-f34e-4d33-b5e5-6975d6ab4a3b.png"
       },
       "chibi": {
-        "path": "assets/portraits/25_Anne_E_Dote/chibi.jpg",
-        "sha256": "0ee37be3463b0a89da2d17c71722cac76c65240907653199183e22f8e78b3051",
-        "generator": "built-in image_gen",
-        "original_file": "exec-0d41561f-9887-4053-854e-f18421de07fe.png"
+        "path": "assets/portraits/25_Anne_E_Dote/chibi.webp",
+        "sha256": "1d6cf039cf42a24f05ea5c89da648171bd9229218a6e6464c2550e4842ff8068",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-96f3730b-629e-4bd8-a998-c004fffceb1f.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Anne E. Dote. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "26",
@@ -948,10 +1023,12 @@
         "original_file": "exec-1f449e38-2d38-4f45-bdd2-0465e88369c6.png"
       },
       "chibi": {
-        "path": "assets/portraits/26_Faye_Stop/chibi.jpg",
-        "sha256": "4839eefad71f1c7b98adcb2ce9d01041fc82bc10c54eedf4ee8819bac0e5c777",
-        "generator": "built-in image_gen",
-        "original_file": "exec-96621020-be59-464b-b5a2-26078f6aacd0.png"
+        "path": "assets/portraits/26_Faye_Stop/chibi.webp",
+        "sha256": "b15ab83d69426f04fde63c2cfb13510b49267ee5bc2d04c46cbc5ba11bf19896",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-6bf5edbd-1b60-4c31-862c-b67704747895.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/26_Faye_Stop/van_gogh.jpg",
@@ -959,7 +1036,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-0b686696-c2e1-48fb-9dc2-968f2a48bbdb.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Faye Stop. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "27",
@@ -991,12 +1069,15 @@
         "original_file": "exec-1492ed8d-7dc5-47ab-b2aa-7f8fe66a5cc8.png"
       },
       "chibi": {
-        "path": "assets/portraits/27_Robin_Banks/chibi.jpg",
-        "sha256": "db25ee9fde205a57910b0057f1cd546ff354531b9c327211a82d96f8ef1bffea",
-        "generator": "built-in image_gen",
-        "original_file": "exec-248f0b02-8f84-4f37-85ef-27e8521711c4.png"
+        "path": "assets/portraits/27_Robin_Banks/chibi.webp",
+        "sha256": "68da123f58bd72c4a32691bb35e11af70752f0163df19cc26bd84cabee28026d",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-f6aba550-9df0-484f-936a-19b4e7eeedfb.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Robin Banks. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "28",
@@ -1028,12 +1109,15 @@
         "original_file": "exec-7ff9ba60-e172-4f7a-8a86-ee913ca22efc.png"
       },
       "chibi": {
-        "path": "assets/portraits/28_Penny_Pincher/chibi.jpg",
-        "sha256": "26df85ec14782c205810e2ede8437343da27252db3b388ccd68cc407d75d7c37",
-        "generator": "built-in image_gen",
-        "original_file": "exec-8179f50d-f97e-498d-9cc1-ecd94b1915f4.png"
+        "path": "assets/portraits/28_Penny_Pincher/chibi.webp",
+        "sha256": "c4448192626863bb6a4e41923118f7d6cc45f97d7357007cb41251e502902680",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-d3465a0b-dc2c-46a7-9b67-fec87f79c30f.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Penny Pincher. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "29",
@@ -1059,10 +1143,12 @@
         "original_file": "exec-2f4d7d0a-8b8f-4b3d-ab34-1293f303e712.png"
       },
       "chibi": {
-        "path": "assets/portraits/29_Justin_Tyme/chibi.jpg",
-        "sha256": "b2456b3cf4946ba48136f52056be302cf3d7806ea4e489dfcb08c27dcb524f20",
-        "generator": "built-in image_gen",
-        "original_file": "exec-d8bdc52b-6878-4458-9e17-2b441294d35b.png"
+        "path": "assets/portraits/29_Justin_Tyme/chibi.webp",
+        "sha256": "6c754096c1538afd76e5035f59ccf26331dd650052053c7edcb58948b310c461",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-1dda953b-0fd5-4f88-b1a7-7c08a8336461.png",
+        "alpha": true,
+        "format": "lossless WebP"
       },
       "van_gogh": {
         "path": "assets/portraits/29_Justin_Tyme/van_gogh.jpg",
@@ -1070,7 +1156,8 @@
         "generator": "built-in image_gen",
         "original_file": "exec-152c7427-e77a-4899-ba6b-b4750e1efe0e.png"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Justin Tyme. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   },
   {
     "id": "30",
@@ -1102,11 +1189,14 @@
         "original_file": "exec-88e2a03e-cdf4-485f-920b-dde333cbdae5.png"
       },
       "chibi": {
-        "path": "assets/portraits/30_Minnie_Malist/chibi.jpg",
-        "sha256": "06cc65699e772863cb12bc206c8e9f350639e9d25510c84a1347530f1b6b3659",
-        "generator": "built-in image_gen",
-        "original_file": "exec-82e38fcd-0e76-417a-8527-7911f2fc2e81.png"
+        "path": "assets/portraits/30_Minnie_Malist/chibi.webp",
+        "sha256": "8076ca3719d6dcf29deada6a1f9fc36eced2a404d31e77f3fe858650ae1b5f59",
+        "generator": "built-in image_gen transparent edit",
+        "original_file": "exec-b3a4825c-30e7-4076-871b-be144587b785.png",
+        "alpha": true,
+        "format": "lossless WebP"
       }
-    }
+    },
+    "background_removal_prompt": "Edit the supplied chibi avatar of Minnie Malist. Remove ONLY the entire cream/white background and any cast shadow, replacing it with genuine alpha transparency. Preserve this exact distinctive character, face, hairstyle, pose, costume, all accessories and props, all colors, full body silhouette, feet and fine edge details. Do not redesign or add anything. The result is one clean full-body isolated chibi cutout for a museum gala place card, with transparent background, no floor and no border. Keep the original full composition."
   }
 ]

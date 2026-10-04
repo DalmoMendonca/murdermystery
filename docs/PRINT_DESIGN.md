@@ -14,6 +14,11 @@ typography:
     fontSize: "14pt"
     fontWeight: 400
     lineHeight: 1.25
+  read-aloud:
+    fontFamily: "Libron"
+    fontSize: "16pt"
+    fontWeight: 400
+    lineHeight: 1.25
   introduction:
     fontFamily: "Libron"
     fontSize: "16–18pt"
@@ -22,6 +27,16 @@ typography:
   character-name:
     fontFamily: "Libron"
     fontSize: "34pt"
+    fontWeight: 700
+    lineHeight: 1.25
+  place-given-name:
+    fontFamily: "Libron"
+    fontSize: "24pt"
+    fontWeight: 700
+    lineHeight: 1.25
+  place-surname:
+    fontFamily: "Libron"
+    fontSize: "29pt"
     fontWeight: 700
     lineHeight: 1.25
   manual-heading:
@@ -41,20 +56,19 @@ typography:
     lineHeight: 1.25
 spacing:
   page-margin: "42pt"
-  evidence-inset: "16pt"
-  card-inset: "18pt"
+  discovery-inset: "16pt"
+  speech-inset: "24pt"
 components:
-  evidence-card:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    width: "528pt"
-    height: "293pt"
-    padding: "16pt"
   discovery-card:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     width: "528pt"
-    height: "303pt"
+    height: "302pt"
+    padding: "16pt"
+  speech-box:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+    width: "528pt"
   introduction-portrait:
     backgroundColor: "{colors.portrait-matte}"
     width: "180pt"
@@ -74,85 +88,110 @@ components:
 
 ## Overview
 
-This document records the PDF implementation in `scripts/build.py`, guided by `PRODUCT.md`. Its scope is the printable kit and pre-party character images. The homepage retains the independent system in `docs/DESIGN.md`.
+**Creative North Star: "Readable museum working documents"**
 
-The museum's objects are readable working documents: book typography, plain white stock, blue institutional fields, and enough space to read, annotate, cut, and seal. The setting is the Meridian Museum's October 30, 2026 gala, not a period costume requirement. Costume suggestions are optional inspiration.
+The Meridian Museum gala uses white stock, scholarly book typography, restrained blue institutional identity and thin rules. These are working objects for reading aloud, handwriting, room finding and cutting. The theatrical character comes from museum records, art-world identities and recognizable portraits rather than decorative clutter. This document records `scripts/build.py` and `scripts/evidence_design.py`; the independent homepage authority remains `docs/DESIGN.md`.
 
-The Living Collection extends that system with 90 separately generated artworks for 30 fictional identities: a Van Gogh inspired portrait for each public introduction, a Picasso inspired portrait for the first private packet page, and a chibi manga avatar for each museum-label place card. Facial features, hair, costume colors and signature accessories carry across each trio; the artwork adds character recognition without changing the investigation or the homepage design authority.
+The Living Collection gives thirty fictional identities three distinct artworks each: Van Gogh inspired public portraits, Picasso inspired private portraits and transparent chibi place-card avatars. Matching facial features, costume colors and signature accessories support recognition. The event belongs to 2026 and costume inspiration is optional. All thirty roles are eligible for the memorized animal selection.
+
+**Key Characteristics:**
+- Fourteen-point narrative floor and larger public introductions.
+- Twelve-page self-contained packets with named questions, answers, records, ballot and Coming Clean.
+- Branch labels outside speech boxes and explicit stop instructions.
+- Realistic records and photographic evidence.
+- Transparent chibi cards with names on two lines.
+- Flat white paper, generous margins and restrained museum color.
 
 ## Colors
 
-Ink carries reading text and fine rules. Teal marks the museum identity, section titles, sign borders, and introduction/invitation names and frames. Introductions and invitations retain white-stock reading areas rather than solid teal headers. The private-warning color marks private document headers; privacy instructions also appear in words, so color does not carry the distinction alone. Table-rule is the facilitator table separator.
+Meridian Blue is the primary institutional accent: museum headers, public names, section titles, speech-box outlines and sign frames. Private Warning is secondary, applied to explicit privacy and stop text, discovery annotations and stamps. Words carry these instructions as well as color.
 
-Portrait-matte is the warm ivory field behind introduction, private-page and invitation artwork. The varied painting palettes belong to the fictional identities recorded in `source/art_direction.json`; they do not replace the museum palette.
+Museum Ink carries narrative, ordinary headers and writing rules. White Stock is the page ground. Table Separator is the pale facilitator table rule. Ivory Portrait Matte sits behind public, private and invitation paintings. Character painting palettes remain specific to the artwork rather than replacing this shared palette.
 
 ## Typography
 
-All printable roles use Libron Regular, Bold, Italic, or BoldItalic, registered as `Book`, `BookBold`, `BookItalic`, and `BookBoldItalic`. Narrative body is at least 14 pt. Footer and short evidence handling instructions are 12 pt; these are supporting labels, not the body-text target. General canvas paragraphs use 1.25 leading; manuals use 14/18 pt and 20/24 pt headings.
+Libron Regular, Bold, Italic and BoldItalic are embedded as `Book`, `BookBold`, `BookItalic` and `BookBoldItalic`. Canvas paragraphs use 1.25 leading. Manuals use 14/18 pt body and 20/24 pt headings. The font cache in `build/fonts` is checked against `scripts/font.sha256` when downloaded; standalone font binaries are excluded from the source ZIP.
 
-Introductions measure their actual text and choose the largest fitting size from 18, 17, and 16 pt. They have 34 pt names, 16 pt roles and section headings, and 12 pt collection/date labels. Playable packets use 30 pt names, 26 pt hearing titles, 18 pt action headings, 16 pt speech boxes, and 14 pt private background and instructions. Place cards use 26 pt names, 14 pt roles and 12 pt collection/ID labels. Discovery/exhibit cards use 22 pt titles and 16 pt bodies. Signs use 48 pt names, 24 pt museum identity, and 23 pt descriptions. Awards use 34 pt titles.
+Public introductions measure their text and select the largest fitting size from 18, 17 and 16 pt; names are 34 pt, roles and section labels 16 pt, metadata 12 pt. Packet names and ballot/Coming Clean titles are 30 pt; Questions to ask and Your answer headings are 27 pt; action headings are 18 pt. Named ASK rows use bold 14 pt and questions use 16 pt. Motive and Opportunity speech use 16 pt; Method speech, its integrated records and Coming Clean use 14 pt. Branch labels use bold 16 pt.
 
-Build fonts are cached under `build/fonts`; the Libron v0.25 archive is checked against `scripts/font.sha256` when downloaded. PDFs embed their fonts and need no guest font installation. The source ZIP excludes `.ttf`, `.woff`, `.woff2`, and `.pyc`; font binaries are not distributed as standalone assets.
+Place cards set first and middle names together at 24 pt and surnames on the second line at 29 pt; roles use 14 pt. Discovery titles use 22 pt, narrative and record rows 14 pt, departments/stamps/discovery numbers 12 pt. Reports use 30 pt titles, 18 pt Certified findings headings and 14 pt findings; supporting report summaries use 16 pt, with the F3 timeline labels at 18 pt. Room signs use 48 pt names, 24 pt museum identity and 23 pt descriptions. Awards use 34 pt titles. Auxiliary footers, roster names and ticks' labels, and assembly directories use 12 pt.
+
+**The Narrative Floor Rule.** Preserve 14 pt narrative text; introductory prose measures between 16 and 18 pt. Twelve-point type serves auxiliary labels rather than shrinking narrative to fit.
 
 ## Layout
 
-Default stock is US Letter, 612 × 792 pt. General content spans x=42 to x=570, a 528 pt width. The museum header begins at y=28, the document label at y=55, and the rule at y=82; canvas coordinates are measured down from the top. Footers begin 32 pt above the bottom. Manuals have 42 pt side margins, 90 pt top margins, and 48 pt bottom margins.
+US Letter stock is 612 × 792 pt; room signs use landscape 792 × 612 pt. Coordinates in this document run down from the top. General content begins at x=42 and spans 528 pt. Canvas museum metadata begins at y=28, document labels at y=55, the rule at y=82 and footers at y=760. Manuals use 42 pt side margins, 90 pt top and 48 pt bottom margins.
 
-Introductions use a 552 × 732 pt frame at (30,30), a name at (42,44), a role at y=93 and a rule at y=141. The ivory portrait frame is 180 × 230 pt at (42,158), with a 178 × 228 pt image slot inset by 1 pt. Biography and immediate relationships occupy the 324 pt right column at x=246; acting tips sit below the portrait in a 180 pt left column at y=414. The full-width 528 pt costume section starts below the taller column. Every introduction remains exactly one PDF page, without page numbers or numerical ages, exported to a 2× PNG for sending and zooming on phones. This is a fixed page image, not a responsive web layout.
+Introductions have a 552 × 732 pt frame at (30,30), a name at (42,44), role at y=93 and rule at y=141. The ivory portrait frame at (42,158) is 180 × 230 pt; its one-point-inset slot is 178 × 228 pt. Biography and relationships use a 324 pt column at x=246. Acting tips start at (42,414) in a 180 pt column; the 528 pt costume section follows the taller column. Each introduction is one PDF page and a 2× PNG (144 dpi metadata) for sending to phones; this is a fixed page image.
 
-Playable packets are four pages per guest: private background and three tasks, Round 1 / Motive, Round 2 / Opportunity, and Round 3 / Method. On the first page only, a 144 × 216 pt ivory portrait frame at x=42 starts below the name; its image slot is 142 × 214 pt with a 1 pt inset. Private background occupies a 360 pt column at x=210, and the task section starts 19 pt below the taller of the background and portrait. Later pages retain the full-width speech boxes with 528 pt frames and 480 pt text at x=66. Selection labels sit outside their boxes at x=55, with a 502 pt measure. Only the boxed words are spoken; labels remain private. There is no confession in these four pages. Each guest has a separate, single-page FINALE document sealed in its own named envelope. The host holds all FINALE envelopes on a tray and distributes them only after all ballots are collected.
+Each named packet has twelve pages in this exact sequence:
 
-Evidence uses 30 sheets: one guest per sheet, with their A/B cards stacked vertically. Rectangles are 528 × 293 pt at y=106 and y=425, with 496 pt text measures and 16 pt side insets. Discovery and exhibit cards are two per sheet, 528 × 303 pt, with 492 pt text measures. Animal slips are a three-column, five-row grid of 166 × 106 pt rectangles. Name/place cards are two columns by two rows, 252 × 302 pt, four per Letter page and eight pages for 30 cards. Card origins are x=42/318 and y=104/422. The chibi slot is 110 × 169 pt at (x+10,y+97); the 106 pt role column starts at (x+133,y+105). Names have a 226 pt measure, followed by a rule at y+277 and the collection/ID label at y+282. Ballots are two 528 × 305 pt forms per sheet. Landscape room signs use 792 × 612 pt stock and a 720 × 540 pt frame at (36,36).
+| Pages | Content |
+| --- | --- |
+| 1 | Private background, Picasso portrait and three social tasks |
+| 2–3 | Motive questions |
+| 4 | Common Motive answer |
+| 5–6 | Opportunity questions |
+| 7 | IF INNOCENT / IF MURDERER Opportunity answers |
+| 8–9 | Method questions |
+| 10 | Branch Method answers with preparation records inside each box |
+| 11 | Ballot |
+| 12 | Coming Clean, both branches |
 
-The invitation's first page retains the 552 × 732 pt frame and uses three Van Gogh artworks: Artie Ficial, Dada DiCapo and Vincent Van Faux. Their ivory frames are 164 × 212 pt at x=48/224/400, y=200, with 162 × 210 pt image slots. The event details begin below the gallery at y=431; the second page remains the arrival guide.
+The first private page has a 144 × 216 pt portrait frame at x=42 below the name and a 142 × 214 pt inset image slot; its background column starts at x=210 with a 360 pt measure. Tasks start 19 pt below the taller column. Question pages begin their five groups at y=218. Each group lists three full names; the ten shared groups per round cover all thirty roles. There is no fixed-seat question order.
 
-Print single-sided at Actual size / 100%. The layout and assembly instructions assume this scale and explicitly exclude booklet and two-pages-per-sheet modes.
+Ordinary speech boxes span 528 pt at x=42, with a 480 pt text measure at x=66. Their height is measured text height plus 30 pt; private labels are drawn separately at x=55 across 502 pt. Coming Clean uses a 500 pt measure at x=56 and boxes of measured height plus 24 pt. Ballot fields use generous ruled writing space. Notes appear after round answers only where measured space remains.
+
+Discovery cards are two per sheet: 528 × 302 pt at (42,104) and (42,422), with 496 pt text measure and 16 pt side insets. Photo slots measure 496 × 116 pt. Reports are five separate one-page sheets; F1 and F5 use 528 × 225 pt photographic slots. Place cards are 252 × 302 pt, four per Letter sheet over eight sheets, at x=42/318 and y=104/422. Names start at x+13; the transparent avatar slot is (x+10,y+97), 110 × 189 pt. The role column is at (x+133,y+105), 106 pt wide. These cards have no seat number or collection footer.
+
+The invitation retains the 552 × 732 pt frame and three Van Gogh frames at x=48/224/400, y=200, each 164 × 212 pt with 162 × 210 pt image slots. Event details begin at y=431; page two is the arrival guide. Animal slips are 166 × 106 pt, three columns and five rows per sheet; four sheets supply matching thirty-animal A and B sets. Extra standalone ballots are two 528 × 305 pt forms per sheet. Signs have a 720 × 540 pt frame at (36,36).
+
+Print single-sided at Actual size / 100%. Do not use booklet or two-pages-per-sheet modes. Staple the twelve-page packet in order along the left edge and give it with a pencil at arrival.
 
 ## Elevation & Depth
 
-The print system is flat. Solid fields, whitespace, typography, and rules establish hierarchy. There are no shadows or gradients.
+The system is flat. Whitespace, thin rules, typography and occasional ivory portrait grounds establish hierarchy. There are no shadows, gradients, motion or responsive breakpoints in the PDF system.
 
 ## Shapes
 
-Frames and cuttable cards have square corners. Rectangle outlines are 0.7 pt; rules are 0.6 pt. Cuttable pieces use a 3 pt on / 3 pt off dash. Sign, invitation, and introduction frames are solid. Dashed borders indicate physical cutting, not an interactive state.
+Frames and cuttable cards have square corners. Canvas rectangle outlines are 0.7 pt and rules 0.6 pt; facilitator table separators are 0.4 pt. Cut boundaries use a 3 pt on / 3 pt off dash. Introduction, invitation, speech and sign frames are solid. Place cards display flat or in stands; their cut border is not a folding instruction.
 
 ## Components
 
-**Introduction:** identity field, prose description, relationship bullets, acting tips, and optional costume inspiration on one page. Do not add game branches or secret mechanics to this pre-party document.
+**Public introduction:** one-page identity, biography, relationships, acting tips and optional costume guidance. Send this document before the party; the private packet stays at the venue.
 
-**Character artwork:** `Sheet.image` converts to RGB, thumbnails within 900 × 900 pixels and embeds a quality-92 JPEG with subsampling disabled. Each slot uses the smaller width/height scale and centers the full composition, without stretching or cropping. Ivory matte remains visible around unequal aspect ratios in the introduction, private and invitation frames. Place-card avatars fit their white-stock slot. Artwork is identical for both guilt branches and never appears in later hearing pages. Exact prompts, identity specifications and hashes remain in organizer-only `source/art_direction.json` and full-resolution JPEG metadata in the source ZIP. The complete kit's 90 `OPEN_FREELY/Portraits` JPEG derivatives and 30 introduction PNGs carry harmless origin metadata; native generated PNGs remain at the image tool's original local locations. Builds consume committed assets without regenerating them.
+**Character artwork:** `Sheet.image` centers the full composition with aspect-fit scaling. RGB paintings are thumbnailed within 900 × 900 pixels and embedded as quality-92 JPEGs with subsampling disabled. Alpha artwork becomes RGBA, thumbnailed within 480 × 480 and embedded as PNG with an automatic transparency mask. The committed thirty `chibi.webp` assets preserve native full-resolution RGBA transparency; original chibi JPEG precursors remain in assets. Public Portraits contain sixty painting JPEGs and thirty lossless chibi WebPs, thumbnailed within 900 × 900, with harmless provenance. Organizer source retains full-resolution assets and exact generation metadata. Builds consume committed artwork without regenerating it.
 
-**Museum-label place card:** a chibi avatar beside the 14 pt role, with a large name above and collection/ID label below. Display flat or attach to a place-card stand; the dashed border is a cutting boundary, not a fold instruction.
+**The Full Composition Rule.** Center artwork using the smaller slot-to-image scale; never stretch or crop the composition.
 
-**Playable packet:** four consecutive pages with private background and tasks, Motive, Opportunity, and Method. Every guest has tailored questions stored in `source/characters.json` under `questions`. The motive answer is the same for both branches; Opportunity and Method have private IF INNOCENT / IF MURDERER labels outside their safe speech boxes. Guests memorize animals and immediately return folded slips to a closed box; nobody keeps a slip. The announced memorized animal selects the murderer branch. Every boxed response is safe to read at its round. Lines below the motive answer support notes. No improvisation is required; acting remains optional.
+**Place card:** two name lines above a transparent chibi and adjacent role. No matte rectangle, numbered seat identifier or Living Collection footer appears. Four cards per sheet preserve cutting clearance.
 
-**Sealed finale:** one separate named page held by the host in the FINALE tray until ballots are locked; only the announced murderer then opens and reads its confession. Optional roles have no selectable confession. The combined finale file is for blind printing, never guest sharing.
+**Complete packet:** a private background followed by the three hearings, internal ballot and final Coming Clean page. Common grouped questions live in `source/question_rounds.json`, character answers and records in `source/characters.json`, and page mapping in `source/game.json`. Each question chain chooses an unanswered present guest by name; the host checklist confirms everyone answers once. Guests read only their appropriate box and keep its label private. Method records are embedded in the spoken answer, with no A/B card selection or evidence envelopes.
 
-**Evidence pair:** both branches carry neutral MERIDIAN / SETUP RECEIPT text, guest identification, salon door entry, cabinet-key loan, linen inventory, and an ordinary setup purpose. No unique guilty title or confession distinguishes the selected receipt. Both A/B cards travel together in a labeled EVIDENCE envelope; the Method page tells the player which to submit privately. The facilitator counts one selected receipt per attending ID, returns it, and the guest reads their Method answer followed by that receipt. Salon entry after 6:40, cabinet-key access during setup, and matching linen intersect to identify the murderer; each criterion alone can implicate innocent guests. A and B do not consistently identify innocence or guilt.
+**The Locked Ballot Rule.** Coming Clean stays unread until every ballot is collected and locked. The top three suspects read their appropriate statements; if none confesses, the announced animal stands and reads IF MURDERER.
 
-**Discovery/report card:** textual act labels separate Act I finds from F1–F5 reports released in stages: F1–F2 before Motive, F3 before Opportunity, and F4–F5 before Method. Two note cards use Italic, while records use Regular.
+**Discovery and forensic report:** sixteen actual fictional museum records and photographs occupy eight two-up sheets. Five one-page mandatory reports release F1–F2 before Motive, F3 before Opportunity and F4–F5 before Method. Six photographic assets cover the warning note, condition photo, crate seal, performance sketch, silver coupe and fiber comparison. Typed text supports the handwritten warning scan. Department lines, record fields, annotations and stamps create the artifact rather than prose describing an imagined prop.
 
-**Host-safe assembly guide:** names and sheet numbers only; no evidence or branch assignments. `OPEN_FREELY`, `PRINT_WITHOUT_READING`, and `SPOILERS_DO_NOT_OPEN` remain functional packaging boundaries.
+**Host-safe guides:** fifteen planned facilitator pages provide preparation, copy counts, directory, animal draw, assembly, clue placement, agenda, welcome, hearing scripts, voting and troubleshooting. A page-count assertion checks that each source section remains one page. The attendance checklist has thirty named rows spaced 18 pt apart and four 11 pt ticks at x=365/425/485/545 for Here, Motive, Opportunity and Method. Assembly lists names and twelve-page blocks without branch content. `OPEN_FREELY`, `PRINT_WITHOUT_READING` and `SPOILERS_DO_NOT_OPEN` remain packaging boundaries.
 
-**Questions & Notes:** one complete nine-page copy per seating pair combines a deduction-notes cover and an ID-ordered catalog of every guest's tailored Motive, Opportunity, and Method questions. The cover has ruled spaces for motive, salon entry after 6:40, cabinet-key access, and matching linen. Guests ask the next occupied seat's named question for the current round; the last asks the first and absent IDs are skipped. Cover instructions and note labels are 16 pt, catalog guest headings 18 pt, and catalog question text 14 pt. Catalog entries are measured and moved together to the next page when necessary.
-
-**Attendance and Hearing Roster:** the facilitator tracks all 30 characters by ID and name. Rows are 18 pt apart, with 11 pt square ticks labeled Here / R1 / R2 / R3. Roster labels are supporting 12 pt text. Absent IDs are skipped; ticks confirm every attending guest has participated in all three rounds.
-
-**Facilitator guide:** fifteen planned pages contain a contents page, preparation and copy-count checklists, the 30-character ID directory over two pages, memorized animal assignment, blind assembly, numbered clue placement, a timed agenda, welcome and three round scripts, vote/finale/awards instructions, and quick cues/troubleshooting. Each planned section starts on its own page. The guide remains spoiler-safe; it does not expose branch assignments or confessions.
-
-**Props:** signs support room finding; blanks on ballots and certificates support handwriting. Core player and murderer bowls contain matching 15-animal sets; optional animals stay out of the murderer bowl.
+**Physical props:** two matching animal sets serve all thirty roles. Guests memorize and immediately return folded A slips to a closed return box; remove unused A animals from B before selection. Ballots and awards provide handwriting space, museum signs support room finding and exhibition labels use the same institutional vocabulary.
 
 ## Do's and Don'ts
 
-- Do preserve the canonical murder facts, branch assignments, evidence contents, and host-blind selection logic when changing layout.
-- Do keep introductions single-page and phone-readable, playable packets four-page with separately sealed single-page finales, and evidence pairs cuttable without revealing guilt through their labels.
-- Do preserve optional costume language and physical play without QR codes or phone mechanics.
-- Do measure text before drawing, preserve the 14 pt narrative floor, and use explicit overflow limits rather than truncating content.
-- Do preserve all three distinct artworks per fictional identity, the full aspect-fit composition, and harmless public provenance metadata.
-- Do review both the 90 source artworks and rendered placements when artwork or geometry changes.
-- Don't distribute the font cache or send private packets with pre-party introductions.
-- Don't expose exact generation prompts in public derivatives; their negative constraints refer to plot objects.
-- Don't add branch-dependent portraits, later-round illustrations or visual evidence to character artwork.
-- Don't infer that a rendered PDF proves the murder logic correct or every page visually approved.
+- Do preserve the twelve-page sequence, including preparation records, ballot and both Coming Clean statements.
+- Do keep explicit stop warnings and branch labels outside spoken boxes.
+- Do use named question groups and tick each attending respondent once per round.
+- Do memorize animals and immediately return folded slips to a closed box.
+- Do print single-sided at 100% and cut dashed borders.
+- Do embed PDF fonts without shipping standalone font binaries.
+- Do preserve character identity across all three artwork styles and transparent avatar edges.
+- Do inspect new rendered evidence whenever source or rendering changes.
+- Don't replace the independent homepage system.
+- Don't send private packets as pre-party introductions.
+- Don't reintroduce separate finales, A/B evidence cards, question catalogs or seat-order mechanics.
+- Don't shrink narrative text to conceal overflow.
+- Don't expose exact prompts in public derivatives.
+- Don't add branch-dependent portraits or illustrations to later private rounds.
+- Don't stretch or crop character artwork.
 
-Build assertions reject unsupported glyphs and canvas text exceeding each block's bottom limit. The build asserts single-page introductions and exports all 30 character PNGs. `scripts/verify.py` renders every PDF page, maps exact visual duplicates to shared review images, checks safe bounds, text below 11.9 pt, replacement glyphs, blank pages, single-page introduction, four-page playable packet, and single-page finale counts, A/B presence, distinct branch cards, and nonempty branch/final statements. Its contact sheets support human visual review. These are implemented checks, not a substitute for inspecting the renders or a claim about the latest run's outcome.
+Build assertions reject unsupported glyphs and overflow beyond measured text limits. `scripts/verify.py` renders all PDF pages, maps visual duplicates by raster hash and checks text bounds, type below 11.9 pt, replacement glyphs and blank pages. The current `build/review/report.json` records 87 PDFs, 930 rendered pages, 498 unique visuals, 125 contact sheets and zero structural issues. The independent finish review in `.impeccable/review/complete-packet-finish-review.md` records inspection of all 125 contact sheets and eight full-page zooms, with disposition **ship** and no material fixes. This is digital visual evidence, not a physical printer proof or an independent gameplay simulation. No HTML detector ran for the PDF canvas system. Documentation synchronization does not change the reviewed PDF source or generated PDFs.
