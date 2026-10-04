@@ -1,35 +1,29 @@
 # Current game flow
 
-October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an offstage donor; no guest plays the victim. This document supersedes archived v1 mechanics.
+October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an offstage donor. Current structured JSON and this flow supersede archived editions.
 
-## Arrival and museum mingling
+## Arrival and hunt
 
-Send only each guest's public introduction and invitation in advance. At the party distribute their complete fourteen-page private packet face down. Every attending role draws one familiar animal from A, privately memorizes it and immediately returns the folded slip to a closed return box. Nobody keeps a slip or records names against animals. B is a separate matching set; remove unused A animals from B before selecting. All thirty roles are eligible. A late arrival draws unused A, already excluded from B, and is innocent.
+Send each guest only their own pre-party poster and invitation. Place their twelve-page packet cover facing up at their assigned seat. Its cover reveals no private facts. The first inside page has highlighted relationships and an introduction to read aloud; the following private briefing supplies two mingling tasks. Never read the private briefing aloud.
 
-Act I supplies three social tasks per character and sixteen discoverable museum documents. Skip absent targets or approach another present guest. Discoveries enrich motives; essential murder facts are in the five mandatory reports. At the end of Act I select and announce one B animal twice. Nobody identifies themselves. That person uses IF MURDERER; everyone else uses IF INNOCENT. Never redraw because of a suspected identity.
+Every guest draws from Bowl A, memorizes their familiar animal and returns the slip to a closed return box. Nobody keeps a slip or records identities. Bowl B is a separate matching set. Remove unused A animals from B before selection. All thirty roles are eligible. A late arrival can draw an unused A animal already excluded from B and is innocent.
 
-## Named question chains
+Page 4 gives three distinct cryptic hints per guest, pointing to sixteen numbered envelopes at the exact household hiding places in the host guide. No climbing or moving furniture is needed: ask for help. Bring finds to the Evidence Table, read and share them. At hunt end the host retrieves all missing envelopes so nobody is deprived of a discovery. Each hiding place has five or six hints across the full cast; even the fifteen core roles cover all sixteen.
 
-Every packet contains the same ten question groups for each round. Each group lists three full character names who give different prepared answers. No guest needs an ID, partner, fixed seat or separate catalog.
+## Three hearings
 
-Choose a starting guest. They choose someone who has not answered from an ASK row and read its question. The target reads their answer without reading the branch label aloud, then chooses another unanswered name. Host ticks each respondent on the name checklist. Ensure the starting guest answers too. Skip absent or already-heard names; host may redirect using the same packet questions. Stop when everyone has answered once.
+Each guest has all ten shared question groups for each round on one page. Each question names three possible targets with different character-specific answers. Choose an unheard attending guest by name; ask that guest their group's question. The guest reads their own speech box and passes the question chain onward. The host ticks the name checklist, including the starting speaker, until everyone has answered once. Skip absent names; the host can redirect without fixed partners or seat order. Read only speech boxes, never IF labels.
 
-| Round | Host release | Packet pages |
-| --- | --- | --- |
-| Motive | F1 toxicology and F2 donor papers | Questions 4–5, common answer 6 |
-| Opportunity | F3 steward statement | Questions 7–8, branch answers 9 |
-| Method | F4 cabinet audit and F5 textile comparison | Questions 10–11, branch answers and preparation records 12 |
+| Round | Report release | Questions | Answer |
+| --- | --- | --- | --- |
+| Act I: Motive | F1–F2 | 5 | 6, common speech |
+| Act II: Opportunity | F3 | 7 | 8, IF INNOCENT / IF MURDERER |
+| Act III: Method | F4–F5 | 9 | 10, common speech |
 
-Keep other pages closed until announced. Read the complete Method answer, including the printed preparation record. No early speech contains a confession. Brief discussion follows each chain. Allow approximately three and a half hours for the full thirty-guest evening; the host guide provides announcements, schedule and recovery steps.
+After Motive, select one eligible B animal and announce it twice. Nobody identifies themselves. The memorized matching animal uses IF MURDERER; everyone else uses IF INNOCENT. Do not redraw because of a suspected identity. Innocent speeches can conceal other scandals; follow the prepared account until Coming Clean. Brief discussion and repeats follow each hearing. STOP panels mark the ends of phases; question pages explicitly permit turning to that act's answer page. There are no investigation grids or external player catalogs.
 
-## Fair deduction
+## Accusations and Coming Clean
 
-Five reports establish three necessary physical conditions: Donor Salon entry after the clean pour, cabinet key access during setup, and matching gold-seamed linen. Many innocent guests meet one or two conditions; only the selected murderer meets all three. Full-cast checks require each strand to leave at least ten possible suspects and every pair at least five. The cabinet and textile controls prevent unprinted borrowing or exchanges from becoming alternative explanations. All thirty branches are checked for unique deduction, including attendance subsets.
+Leave ballot page 11 loose. Guests accuse one attending character and explain their reasoning in their own words. Submit only the folded ballot and retain the packet. Collect and lock every vote before opening page 12. Rank attending names including zero votes; break ties alphabetically by full name and call exactly three suspects. Hear all three appropriate Coming Clean boxes even if the first confesses. Innocents resolve their secrets and deceptions; the murderer explains the motive, preparation, poisoning and cover story. If none confesses, call the announced animal to stand and read IF MURDERER. No separate finale file or envelope is used.
 
-## Ballot and Coming Clean
-
-Ballot is packet page 13. Leave this page loose inside the packet during assembly. Fold the completed ballot inward and submit only that page; retain the packet. Collect and lock every vote before any Coming Clean statement. Rank every attending character including zero votes, select exactly three, and break ties alphabetically by full character name. Explain zero-vote ties as finale selection, not new accusations. Each selected suspect reads their appropriate box on page 14. Read all three statements even if a confession comes early. Innocent statements resolve private secrets and explain a missing physical condition. Murderer statements connect motive, preparation, method and all three clues.
-
-If nobody among the selected suspects confesses, host calls the announced murderer animal to stand and read IF MURDERER Coming Clean. No separate finale file or envelope exists. Awards and debrief follow. Host-blind operation requires face-down handling of private files; a non-playing helper can assist when a printer exposes private text.
-
-Each packet includes private attendance/evidence grids on pages 2–3. Pause for up to three short suspicions after each chain; repeat a printed current-round answer when requested. Only a non-playing reader may assist with another guest’s private selected box and may not vote. Master Sleuth is reserved for innocent guests.
+The mystery asks guests to compare motives, testimony and actual documents. The guide does not hand them a shortlist or a three-clue elimination grid. The five laboratory/service reports explain physical evidence without naming a culprit. Full-case mechanics are spoiler material. Automated consistency checks and AI transcript assessments do not certify human difficulty or actual party timing.

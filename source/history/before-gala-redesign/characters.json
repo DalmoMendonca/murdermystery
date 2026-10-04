@@ -1,0 +1,2044 @@
+[
+  {
+    "id": "01",
+    "slug": "01_Artie_Ficial",
+    "name": "Artie Ficial",
+    "role": "Executive Director of the Meridian Museum",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Artie treats the gala like a state visit and the coat check like a diplomatic incident. Polished, ambitious, and almost unnervingly composed, Artie has spent the last six years turning the Meridian from a respected regional institution into a museum that expects to be mentioned in the same sentence as the Met. He can greet a donor, calm a curator, and redirect a disaster without changing facial expression. Tonight is his biggest gala yet, and he intends for it to look effortless.",
+      "relationships": [
+        "Works closely with Claire O’Scuro, though the two disagree about how much spectacle a museum should tolerate.",
+        "Relies on Monet Bags for the numbers and Sue Venir for donor agreements.",
+        "Anya Tique hired Artie years ago and still occasionally speaks to him as if he were an intern."
+      ],
+      "acting": "Diplomatic under pressure; image-conscious; dryly funny; allergic to public chaos. Play him as someone who is always hosting, even when he is not technically the host.",
+      "costume": "Optional inspiration: Black tie or an immaculate dark suit; a very official-looking gala program. Optional pocket square, tasteful lapel pin, slim folder or program."
+    },
+    "private": {
+      "history": "Grant had privately informed you that tonight's gift would come with a new governance agreement: he wanted veto power over acquisitions, his name on the museum, and your resignation within sixty days. You smiled through the meeting and told no one.",
+      "secret": "You have already accepted a confidential offer to lead a rival museum next year, which makes any argument with Grant look like succession planning.",
+      "objectives": [
+        "Find out whether Monet Bags has seen the governance addendum.",
+        "Quietly learn whether Claire O’Scuro would stay if you left.",
+        "Do not volunteer your job offer unless pressure forces it."
+      ],
+      "knowledge": [
+        "Monet showed you a draft indicating Grant's gift could give him extraordinary governance power.",
+        "Grant personally ordered Barb to take the Donor Salon camera offline for private meetings.",
+        "Grant threatened to withhold Frank Lloyd Wrong's final design payment unless he accepted a last-minute display change."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, correcting Grant’s speech cards. I did not go back after that. I borrowed the cabinet key during setup to inspect the podium polish stored inside. I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:47 you entered the Donor Salon, correcting Grant’s speech cards. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I accepted an offer from a rival museum. I was protecting my next job, not plotting a murder. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant wanted veto power over acquisitions, his name on the museum and my resignation within sixty days. He called that a gift. I called it a takeover. I had not agreed to surrender my museum or my job. During setup I borrowed the cabinet key and took the toxin sample. At 6:47, I used the excuse of correcting Grant’s speech cards to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant wanted veto power over acquisitions, his name on the museum and my resignation within sixty days. He called that a gift. I called it a takeover. I had not agreed to surrender my museum or my job.",
+      "where_innocent": "I went into the Donor Salon at 6:36, correcting Grant’s speech cards. I did not go back after that. I borrowed the cabinet key during setup to inspect the podium polish stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:47, correcting Grant’s speech cards. I borrowed the cabinet key during setup to inspect the podium polish stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for rescuing a champagne-spotted gala program. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:47",
+      "key_time": "6:00"
+    },
+    "questions": {
+      "motive": "Why did Grant want your resignation in the donor agreement?",
+      "opportunity": "You were correcting Grant’s speech cards. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for rescuing a champagne-spotted gala program?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:00, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting Grant’s speech cards; rescuing a champagne-spotted gala program.\nThese are the original preparation records for Artie Ficial.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:47.\nConservation key book: loan at 6:00, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting Grant’s speech cards; rescuing a champagne-spotted gala program.\nThese are the original preparation records for Artie Ficial."
+    },
+    "card_name": {
+      "first_middle": "Artie",
+      "last": "Ficial"
+    }
+  },
+  {
+    "id": "02",
+    "slug": "02_Claire_O_Scuro",
+    "name": "Claire O’Scuro",
+    "role": "Chief Curator of World Cultures",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Claire can identify a fifteenth-century glaze at twenty paces and a crooked label from the parking lot. Claire is the intellectual engine behind Treasures of the World: brilliant, exacting, and visibly pained by sloppy labels, bad lighting, and people who call every old object an 'artifact.' She has spent years building the Meridian's scholarly reputation and knows the exhibition better than anyone alive. She is gracious when she chooses to be and devastating when she edits.",
+      "relationships": [
+        "Professional counterpart to Artie Ficial; they respect each other and routinely disagree.",
+        "Mentors Reed DeLabel, the museum's graduate fellow.",
+        "Frequently consults Chip Patina and Dr. Art E. Fact on difficult objects."
+      ],
+      "acting": "Controlled, observant, skeptical, quietly competitive. You do not need to be loud; a raised eyebrow can do half the work.",
+      "costume": "Optional inspiration: Elegant gallery-black with one distinctive art-history touch: sculptural jewelry, silk scarf, statement earrings, or beautifully severe glasses. You might carry a pencil and small notebook."
+    },
+    "private": {
+      "history": "You discovered that Grant knew the Star Bowl's provenance file contained a major gap and ordered the exhibition to proceed anyway. He threatened to remove you from the show if you raised the issue publicly.",
+      "secret": "Against board instructions, you commissioned an independent provenance review and hid the preliminary report in the Registrar's Office.",
+      "objectives": [
+        "Find out whether Dr. Art E. Fact has seen the same gap you found.",
+        "Learn who wrote the anonymous warning note.",
+        "Keep your independent report secret until you decide whom to trust."
+      ],
+      "knowledge": [
+        "Chip told you Grant pressured him to soften a conservation report.",
+        "Art believes Grant has suppressed provenance research connected to at least two Larceny objects."
+      ],
+      "innocent": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I visited the conservation display, checking the display cleaning instructions, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, correcting the Star Bowl label. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I commissioned the independent provenance review and hid its preliminary report. I wanted the truth checked before anyone buried it. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "The Star Bowl’s provenance file had a major gap, and Grant knew it. He wanted the show to proceed with my approval anyway. When I objected, he threatened to remove me from the exhibition. My name is not a certificate of convenience. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of correcting the Star Bowl label to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "The Star Bowl’s provenance file had a major gap, and Grant knew it. He wanted the show to proceed with my approval anyway. When I objected, he threatened to remove me from the exhibition. My name is not a certificate of convenience.",
+      "where_innocent": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I visited the conservation display, checking the display cleaning instructions, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, correcting the Star Bowl label. I borrowed the cabinet key during setup to inspect the display-cleaning manual stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting the edge of a display mount. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:01"
+    },
+    "questions": {
+      "motive": "Why were you unwilling to sign Grant’s Star Bowl label?",
+      "opportunity": "You were correcting the Star Bowl label. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the edge of a display mount?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:44.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting the Star Bowl label; dusting the edge of a display mount.\nThese are the original preparation records for Claire O’Scuro.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:44.\nConservation key book: loan at 6:01, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: correcting the Star Bowl label; dusting the edge of a display mount.\nThese are the original preparation records for Claire O’Scuro."
+    },
+    "card_name": {
+      "first_middle": "Claire",
+      "last": "O’Scuro"
+    }
+  },
+  {
+    "id": "03",
+    "slug": "03_Hugh_Bidder",
+    "name": "Hugh Bidder",
+    "role": "International Art Dealer & Collector Liaison",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Hugh insists everything is priceless, right up until he names a price. Hugh is the person wealthy collectors call when they want something no one else seems able to find. Charming, fast-talking, and always perfectly dressed, he insists that art dealing is mostly about trust, discretion, and knowing which flight lands in Geneva before breakfast. He has brokered several loans in tonight's exhibition and knows half the room professionally.",
+      "relationships": [
+        "Has represented Elon Mosaic in private acquisitions, though neither likes admitting how often they need the other.",
+        "Competes with Saul D. Bid for major consignments.",
+        "Ella Gance considers him useful but never entirely trustworthy."
+      ],
+      "acting": "Smooth, sociable, opportunistic, impossible to embarrass. Treat every conversation like a deal that has not yet revealed itself.",
+      "costume": "Optional inspiration: Fashion-forward dinner jacket or sharp suit, polished shoes, expensive-looking watch (real or fake), pocket square. Optional slim catalogue with sticky tabs."
+    },
+    "private": {
+      "history": "Grant had learned that one certificate in a major private sale you brokered was forged before it ever reached you. He planned to imply publicly that you had created it unless you refunded him millions.",
+      "secret": "You were duped on that sale, but you quietly altered your own file afterward so clients would not see how badly your due diligence failed.",
+      "objectives": [
+        "Learn whether Saul D. Bid knows about the disputed certificate.",
+        "Keep Elon Mosaic from discussing the 'auction incident' in public.",
+        "Figure out what Paige Turner knows about the Geneva freeport records."
+      ],
+      "knowledge": [
+        "Elon was the anonymous buyer who outbid Grant in the auction everyone whispers about.",
+        "Saul arranged at least one unusually discreet private sale for Grant outside normal auction-house procedure."
+      ],
+      "innocent": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside. I carried blue disposable paper wipes, for polishing a replica decanter for photographs. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, delivering a revised appraisal. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I altered my file after being duped on that sale. My due diligence failed, and I tried to hide the embarrassment. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "A sale certificate was forged before it reached me. Grant knew that, but he planned to blame me unless I refunded millions. I did not forge it. I did alter my file afterward to hide how badly my checks had failed. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of delivering a revised appraisal to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "A sale certificate was forged before it reached me. Grant knew that, but he planned to blame me unless I refunded millions. I did not forge it. I did alter my file afterward to hide how badly my checks had failed.",
+      "where_innocent": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for polishing a replica decanter for photographs. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, delivering a revised appraisal. I borrowed the cabinet key during setup to inspect the replica-decanter treatment sheet stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing a replica decanter for photographs. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:02"
+    },
+    "questions": {
+      "motive": "What was Grant demanding over the disputed sale certificate?",
+      "opportunity": "You were delivering a revised appraisal. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing a replica decanter for photographs?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:46.\nConservation key book: loan at 6:02, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: delivering a revised appraisal; polishing a replica decanter for photographs.\nThese are the original preparation records for Hugh Bidder.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:46.\nConservation key book: loan at 6:02, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering a revised appraisal; polishing a replica decanter for photographs.\nThese are the original preparation records for Hugh Bidder."
+    },
+    "card_name": {
+      "first_middle": "Hugh",
+      "last": "Bidder"
+    }
+  },
+  {
+    "id": "04",
+    "slug": "04_Monet_Bags",
+    "name": "Monet Bags",
+    "role": "Chief Financial Officer of the Meridian Museum",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Monet can locate a missing cent faster than anyone can locate the missing antiquity. Monet can tell you exactly how much tonight's floral installation cost, which donor paid for it, and which line item everyone is pretending it came from. She is sharp, stylish, practical, and chronically surrounded by people with expensive visions and no budgets. If the museum survives its ambitions, Monet will probably be the reason.",
+      "relationships": [
+        "Works constantly with Artie Ficial and Sue Venir.",
+        "Has a friendly rivalry with Minnie Malist, whose gala ideas tend to arrive before their price tags.",
+        "Anya Tique likes Monet because she asks questions trustees hate answering."
+      ],
+      "acting": "Quick, pragmatic, wry, unimpressed by grandeur for grandeur's sake. You notice costs other people pretend not to see.",
+      "costume": "Optional inspiration: Modern cocktail attire or tailored suit; sleek, practical, expensive-looking without being flashy. You might carry a small ledger, calculator, or pen clipped to a folder."
+    },
+    "private": {
+      "history": "Grant demanded that you disguise several gala and naming-wing expenses inside restricted museum funds until his promised donation cleared. When you resisted, he threatened to blame the bookkeeping on you.",
+      "secret": "You temporarily moved money between internal accounts to cover a cash-flow shortfall, intending to reverse it after the gala. It was technically unauthorized and Grant discovered it.",
+      "objectives": [
+        "Find out whether Sue Venir has seen Grant's draft funding agreement.",
+        "Keep Artie Ficial from learning about the temporary transfer unless absolutely necessary.",
+        "Identify who found the donor ledger during the scavenger hunt."
+      ],
+      "knowledge": [
+        "Artie's future at the museum is threatened by Grant's proposed governance agreement.",
+        "Anne's education program would lose funding under one version of Grant's gift conditions."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, getting his approval on an expense sheet. I did not go back after that. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside. I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, getting his approval on an expense sheet. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I moved money between accounts without authorization. I meant to reverse it after the gala. That was a financial mistake I must answer for. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant wanted gala and naming-wing expenses hidden in restricted museum funds until his donation cleared. I refused. He threatened to blame my bookkeeping. Apparently his generous gift came with instructions for where to bury the bill. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of getting his approval on an expense sheet to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant wanted gala and naming-wing expenses hidden in restricted museum funds until his donation cleared. I refused. He threatened to blame my bookkeeping. Apparently his generous gift came with instructions for where to bury the bill.",
+      "where_innocent": "I went into the Donor Salon at 6:36, getting his approval on an expense sheet. I did not go back after that. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, getting his approval on an expense sheet. I borrowed the cabinet key during setup to inspect the insured-stock list stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash on my expense folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:03"
+    },
+    "questions": {
+      "motive": "Why did Grant want gala expenses charged to restricted funds?",
+      "opportunity": "You were getting his approval on an expense sheet. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash on your expense folder?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:03, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: getting his approval on an expense sheet; drying a splash on my expense folder.\nThese are the original preparation records for Monet Bags.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:03, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: getting his approval on an expense sheet; drying a splash on my expense folder.\nThese are the original preparation records for Monet Bags."
+    },
+    "card_name": {
+      "first_middle": "Monet",
+      "last": "Bags"
+    }
+  },
+  {
+    "id": "05",
+    "slug": "05_Chip_Patina",
+    "name": "Chip Patina",
+    "role": "Chief Conservator",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Chip considers a fingerprint on a display case a personal attack. Chip is responsible for keeping centuries-old objects from losing arguments with humidity, fingerprints, gravity, and other people. Patient with objects and less patient with humans, he has the calm authority of someone who has seen a priceless painting survive a flood and a donor nearly destroy one with hand lotion. He knows what was repaired, altered, cleaned, and quietly worried over before tonight.",
+      "relationships": [
+        "Works closely with Claire O’Scuro and Cary Crates.",
+        "Often spars intellectually with Art E. Fact over what conservation can and cannot prove.",
+        "Anya Tique trusts Chip's judgment more than most committees."
+      ],
+      "acting": "Dry, meticulous, tactile, slightly territorial. You care more about what is physically true than what is socially convenient.",
+      "costume": "Optional inspiration: Dark suit or smart workwear made gala-appropriate; rolled sleeves under jacket, conservator gloves tucked into a pocket, loupe or small brush as a prop."
+    },
+    "private": {
+      "history": "Grant pressured you to soften a conservation report showing that one supposedly untouched object had been recently altered. He threatened to replace you with a private conservator if you refused.",
+      "secret": "You changed the date on a minor treatment record last month to spare the museum an embarrassing insurance dispute. No object was harmed, but the falsification could end your career.",
+      "objectives": [
+        "Find out whether Cary Crates has noticed the altered treatment date.",
+        "Ask Dr. Art E. Fact what he thinks the Star Bowl's modern adhesive means.",
+        "Keep the insurance issue separate from the murder investigation."
+      ],
+      "knowledge": [
+        "Claire quietly commissioned an outside provenance review despite pressure to stop asking questions.",
+        "Cary concealed a small installation crack until you could inspect it after opening night."
+      ],
+      "innocent": "I went into the Donor Salon at 6:43, explaining the condition report. I visited the conservation display, checking the conservation stock, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:43 you entered the Donor Salon, explaining the condition report. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I changed the date on a treatment record to avoid an insurance dispute. The object was unharmed, but the record was dishonest. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "My report showed that a supposedly untouched object had been altered recently. Grant wanted that softened. He threatened to replace me with a private conservator. I preserve objects; I am not employed to preserve his version of events. During setup I borrowed the cabinet key and took the toxin sample. At 6:43, I used the excuse of explaining the condition report to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "My report showed that a supposedly untouched object had been altered recently. Grant wanted that softened. He threatened to replace me with a private conservator. I preserve objects; I am not employed to preserve his version of events.",
+      "where_innocent": "I went into the Donor Salon at 6:43, explaining the condition report. I visited the conservation display, checking the conservation stock, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:43, explaining the condition report. I borrowed the cabinet key during setup to inspect the conservation stock stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a display tool after setup. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:43",
+      "key_time": "6:04"
+    },
+    "questions": {
+      "motive": "Why did Grant want your conservation report changed?",
+      "opportunity": "You were explaining the condition report. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a display tool after setup?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:43.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the condition report; cleaning a display tool after setup.\nThese are the original preparation records for Chip Patina.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:43.\nConservation key book: loan at 6:04, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the condition report; cleaning a display tool after setup.\nThese are the original preparation records for Chip Patina."
+    },
+    "card_name": {
+      "first_middle": "Chip",
+      "last": "Patina"
+    }
+  },
+  {
+    "id": "06",
+    "slug": "06_Dada_DiCapo",
+    "name": "Dada DiCapo",
+    "role": "Performance Artist & Cultural Celebrity",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Dada describes standing still as an endurance piece and invoices accordingly. Dada makes expensive people uncomfortable in aesthetically impeccable ways. Her performances have involved mirrored rooms, silent choirs, a twelve-hour dinner party, and once an empty pedestal that sold for more than most houses. She is magnetic, playful, and perfectly capable of making a sincere point while everyone wonders whether they are already inside the piece.",
+      "relationships": [
+        "Former art-school collaborator of Vincent Van Faux; they remain close enough to annoy one another professionally.",
+        "Elle Loominate has assisted on several of Dada's installations.",
+        "Drew Conclusions has alternated between praising and savaging Dada in print."
+      ],
+      "acting": "Confident, theatrical, mischievous, intelligent. Commit to bits, but never let the joke make you foolish.",
+      "costume": "Optional inspiration: High-fashion black tie with one strange choice: opera gloves, sculptural headpiece, monochrome outfit, dramatic makeup, oversized flower, etc. The goal is 'gallery opening where photographers are present.'"
+    },
+    "private": {
+      "history": "Grant appropriated the concept for one of your unreleased performances and planned to unveil a sanitized version of it as the gala's closing spectacle, crediting himself as creative patron.",
+      "secret": "You wrote and planted the ominous anonymous warning note about 'returning what was taken.' It was meant as an art-world provocation, not a literal threat.",
+      "objectives": [
+        "Enjoy watching people overreact to your warning note without admitting you wrote it.",
+        "Find out whether Minnie Malist changed the lighting cue you designed.",
+        "Get Vincent Van Faux to admit he still owes you credit for an old collaboration."
+      ],
+      "knowledge": [
+        "Grant's gala spectacle borrows heavily from an unreleased performance concept you created.",
+        "Grant owns a humiliating student painting Vincent desperately does not want displayed tonight."
+      ],
+      "innocent": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside. I carried blue disposable paper wipes, for wiping a rehearsal prop. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:42 you entered the Donor Salon, showing him the performance sketch. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I planted the anonymous warning note. It was a provocation about stolen art, not a plan to kill anyone. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "That closing spectacle was my unreleased performance concept. Grant took it, sanitized it and planned to unveil it with himself credited as creative patron. He bought the invitation stock, not my imagination. I wanted my work and my credit back. During setup I borrowed the cabinet key and took the toxin sample. At 6:42, I used the excuse of showing him the performance sketch to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "That closing spectacle was my unreleased performance concept. Grant took it, sanitized it and planned to unveil it with himself credited as creative patron. He bought the invitation stock, not my imagination. I wanted my work and my credit back.",
+      "where_innocent": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a rehearsal prop. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:42, showing him the performance sketch. I borrowed the cabinet key during setup to inspect the removable stage adhesive stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping a rehearsal prop. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:42",
+      "key_time": "6:05"
+    },
+    "questions": {
+      "motive": "Why was Grant taking credit for your closing performance?",
+      "opportunity": "You were showing him the performance sketch. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a rehearsal prop?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:42.\nConservation key book: loan at 6:05, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: showing him the performance sketch; wiping a rehearsal prop.\nThese are the original preparation records for Dada DiCapo.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:42.\nConservation key book: loan at 6:05, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the performance sketch; wiping a rehearsal prop.\nThese are the original preparation records for Dada DiCapo."
+    },
+    "card_name": {
+      "first_middle": "Dada",
+      "last": "DiCapo"
+    }
+  },
+  {
+    "id": "07",
+    "slug": "07_Vincent_Van_Faux",
+    "name": "Vincent Van Faux",
+    "role": "Celebrated Contemporary Painter",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Vincent believes even his shopping lists belong in a retrospective. Vincent became famous young and has been trying ever since to convince people that this is not the same thing as becoming famous accidentally. His paintings are lush, moody, and highly collectible; his interviews are less reliable. He is charming, vain in a way he almost gets away with, and genuinely serious about his work when nobody is watching.",
+      "relationships": [
+        "Long creative history with Dada DiCapo.",
+        "Al Baster thinks Vincent gets too much press for work that can hang on a wall without engineering permits.",
+        "Ella Gance owns one of Vincent's early paintings and mentions this strategically."
+      ],
+      "acting": "Warm, competitive, mercurial, self-aware enough to joke about his ego but not enough to lose it.",
+      "costume": "Optional inspiration: Black tie with artist flair: velvet jacket, open collar, paint-spattered vintage shoes, dramatic ring, scarf, or deliberately imperfect formalwear."
+    },
+    "private": {
+      "history": "Grant owned an embarrassing student painting you have spent years trying to buy back. He planned to display it tonight beside your celebrated recent work as a joke about 'humble beginnings.'",
+      "secret": "You have secretly used buyers to acquire several of your own early paintings so you could remove them from circulation. The art world would find that both vain and market-manipulative.",
+      "objectives": [
+        "Find out whether Ella Gance knows you were behind the anonymous buybacks.",
+        "Persuade Claire O’Scuro that the student painting should not be displayed.",
+        "Avoid giving Drew Conclusions a quote you will regret."
+      ],
+      "knowledge": [
+        "Grant owns one of your embarrassing student paintings and has been discussing displaying it.",
+        "Dada has been furious that the gala spectacle resembles an unreleased concept of theirs."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, asking him to withdraw the student painting. I did not go back after that. I borrowed the cabinet key during setup to inspect the varnish sample stored inside. I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, asking him to withdraw the student painting. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I used buyers to recover my own early paintings. I wanted those student works out of circulation. Vanity is an excellent motive for secrecy. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant owned a student painting I have spent years trying to buy back. Tonight he wanted it beside my celebrated work as a joke about humble beginnings. I did not consent to being the punchline of my own exhibition. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of asking him to withdraw the student painting to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant owned a student painting I have spent years trying to buy back. Tonight he wanted it beside my celebrated work as a joke about humble beginnings. I did not consent to being the punchline of my own exhibition.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking him to withdraw the student painting. I did not go back after that. I borrowed the cabinet key during setup to inspect the varnish sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, asking him to withdraw the student painting. I borrowed the cabinet key during setup to inspect the varnish sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a smear from my painting easel. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:06"
+    },
+    "questions": {
+      "motive": "Why did Grant insist on exhibiting your student painting?",
+      "opportunity": "You were asking him to withdraw the student painting. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a smear from your painting easel?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:06, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him to withdraw the student painting; cleaning a smear from my painting easel.\nThese are the original preparation records for Vincent Van Faux.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:44.\nConservation key book: loan at 6:06, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him to withdraw the student painting; cleaning a smear from my painting easel.\nThese are the original preparation records for Vincent Van Faux."
+    },
+    "card_name": {
+      "first_middle": "Vincent Van",
+      "last": "Faux"
+    }
+  },
+  {
+    "id": "08",
+    "slug": "08_Sue_Venir",
+    "name": "Sue Venir",
+    "role": "Cultural Property Attorney",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Sue corrects the fine print on dinner menus. Sue is the lawyer museums call when an object has three owners, four countries, six contradictory export documents, and one increasingly angry newspaper. She is elegant, surgical, and frighteningly good at making a sentence mean exactly what she intends. Tonight she is attending as counsel to several parties who would prefer not to be described as 'parties.'",
+      "relationships": [
+        "Works regularly with Artie Ficial and Monet Bags.",
+        "Friendly professional adversary of Mona Lott; they have argued opposite sides of restitution cases and still have dinner afterward.",
+        "Art E. Fact has supplied expert opinions for her cases."
+      ],
+      "acting": "Precise, formidable, patient, amused by sloppy certainty. Ask pointed questions and answer only the question actually asked.",
+      "costume": "Optional inspiration: Structured formalwear, crisp lines, minimal jewelry, immaculate folder or document case. Optional reading glasses for dramatic removal."
+    },
+    "private": {
+      "history": "You wrote a private legal memorandum concluding that the Star Bowl's acquisition was too risky to defend confidently. Grant forced you to replace it with a softer opinion and planned to cite your name during the announcement.",
+      "secret": "Both versions of the memo still exist. You kept the original instead of destroying it, which could expose you to professional embarrassment and Grant to serious scrutiny.",
+      "objectives": [
+        "Learn whether Mona Lott has obtained a copy of your original memo.",
+        "Keep Dr. Art E. Fact from publicly speculating about your legal advice.",
+        "Find out who has been searching the Registrar's Office."
+      ],
+      "knowledge": [
+        "Mona's restitution negotiations would be badly damaged if Grant announced permanent ownership tonight.",
+        "Monet has been under unusual pressure over how Grant wants his gift expenses classified.",
+        "Grant asked you how quickly he could seek an injunction against Paige's upcoming investigation."
+      ],
+      "innocent": "I went into the Donor Salon at 6:46, delivering the donor agreement. I visited the conservation display, reading the hazardous-materials notice, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, delivering the donor agreement. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I kept both versions of my legal memo. The softer version embarrassed me; destroying the original would have been worse. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "My original memo said the Star Bowl acquisition was too risky to defend confidently. Grant forced me to replace it with a softer opinion and intended to cite my name tonight. He wanted my signature to do the work his paperwork could not. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of delivering the donor agreement to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "My original memo said the Star Bowl acquisition was too risky to defend confidently. Grant forced me to replace it with a softer opinion and intended to cite my name tonight. He wanted my signature to do the work his paperwork could not.",
+      "where_innocent": "I went into the Donor Salon at 6:46, delivering the donor agreement. I visited the conservation display, reading the hazardous-materials notice, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, delivering the donor agreement. I borrowed the cabinet key during setup to inspect the hazardous-materials notice stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash on the agreement folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:07"
+    },
+    "questions": {
+      "motive": "Why did Grant want a softer legal opinion on the Star Bowl?",
+      "opportunity": "You were delivering the donor agreement. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash on the agreement folder?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:46.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the donor agreement; drying a splash on the agreement folder.\nThese are the original preparation records for Sue Venir.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:46.\nConservation key book: loan at 6:07, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the donor agreement; drying a splash on the agreement folder.\nThese are the original preparation records for Sue Venir."
+    },
+    "card_name": {
+      "first_middle": "Sue",
+      "last": "Venir"
+    }
+  },
+  {
+    "id": "09",
+    "slug": "09_Dr_Art_E_Fact",
+    "name": "Dr. Art E. Fact",
+    "role": "Professor of Art History & Provenance Scholar",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Art has never met a footnote he could not lengthen. Art has built a career tracing the lives of objects through wars, estates, auctions, private collections, and suspicious gaps in paperwork. Brilliant, argumentative, and allergic to oversimplification, he can turn one stamp on the back of a frame into a forty-minute lecture and somehow make it compelling. Treasures of the World contains several objects he has researched personally.",
+      "relationships": [
+        "Supervises Reed DeLabel's doctoral research.",
+        "Debates restitution policy regularly with Mona Lott and Robin Banks.",
+        "Chip Patina is one of the few people Art trusts to tell him when physical evidence contradicts his theory."
+      ],
+      "acting": "Intense, professorial, curious, occasionally pedantic, sincerely excited by evidence.",
+      "costume": "Optional inspiration: Professor at a donor gala: dark suit, tweed or textured jacket, distinctive glasses, scholarly scarf, pocket notebook. Optional magnifier or archival pencil."
+    },
+    "private": {
+      "history": "Grant suppressed your research showing that two objects in his collection passed through a dealer linked to questionable wartime sales. He threatened to release correspondence suggesting you had overstated another provenance claim if you challenged him publicly.",
+      "secret": "One celebrated article of yours does contain an inference you stated too confidently. The main thesis still stands, but the mistake would be humiliating.",
+      "objectives": [
+        "Ask Reed DeLabel what he has discovered in the accession records.",
+        "Determine whether Claire O’Scuro commissioned outside provenance research.",
+        "Keep Paige Turner from learning which article Grant could attack."
+      ],
+      "knowledge": [
+        "Claire has doubts about the Star Bowl's provenance serious enough to seek independent review.",
+        "Reed found an archival document that appears to contradict one exhibition label."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside. I carried blue disposable paper wipes, for dusting an archival display stand. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, showing him the disputed accession page. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "One inference in my famous article was too confident. I will correct it. I was defending my reputation, not poisoning a donor. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "My research linked two collection objects to a dealer involved in questionable wartime sales. Grant suppressed it. He also threatened to release correspondence suggesting I had overstated a different claim. He wanted silence, and he had chosen a very effective threat. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of showing him the disputed accession page to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "My research linked two collection objects to a dealer involved in questionable wartime sales. Grant suppressed it. He also threatened to release correspondence suggesting I had overstated a different claim. He wanted silence, and he had chosen a very effective threat.",
+      "where_innocent": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting an archival display stand. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, showing him the disputed accession page. I borrowed the cabinet key during setup to inspect the reference specimen stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting an archival display stand. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:08"
+    },
+    "questions": {
+      "motive": "Which research did Grant threaten to suppress?",
+      "opportunity": "You were showing him the disputed accession page. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting an archival display stand?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:08, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: showing him the disputed accession page; dusting an archival display stand.\nThese are the original preparation records for Dr. Art E. Fact.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:08, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the disputed accession page; dusting an archival display stand.\nThese are the original preparation records for Dr. Art E. Fact."
+    },
+    "card_name": {
+      "first_middle": "Dr. Art E.",
+      "last": "Fact"
+    }
+  },
+  {
+    "id": "10",
+    "slug": "10_Tess_Tament",
+    "name": "Tess Tament",
+    "role": "Philanthropist & Heir to the Larceny Family Fortune",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Tess speaks fluent inheritance and has strong opinions about the seating plan. Tess is the only member of the Larceny dynasty who can attend an arts gala without immediately being asked for a check, mostly because everyone waits several minutes first. She is stylish, socially fluent, and harder to read than her public image suggests. She funds young artists, hates being introduced as an heiress, and has learned to smile through questions about her family.",
+      "relationships": [
+        "Moves in the same collector circle as Elon Mosaic and Ella Gance.",
+        "Has commissioned work from Dada DiCapo.",
+        "Anya Tique has known Tess since childhood and refuses to be impressed by her surname."
+      ],
+      "acting": "Composed, witty, guarded, generous when she chooses. You grew up around power and recognize its rituals instantly.",
+      "costume": "Optional inspiration: Modern gala glamour: elegant cocktail dress or formal suit, statement jewelry, designer-looking clutch, effortless rather than ostentatious."
+    },
+    "private": {
+      "history": "Grant told you he intended to rewrite the family trust tonight, removing you from control of the charitable foundation unless you publicly backed his museum naming plan.",
+      "secret": "You have been quietly organizing other family trustees to block Grant's control over the foundation and redirect future giving toward worker and community programs.",
+      "objectives": [
+        "Find out whether Anya Tique would publicly oppose renaming the museum.",
+        "Gauge Artie Ficial's willingness to reject Grant's conditions.",
+        "Do not reveal the trust fight unless you must."
+      ],
+      "knowledge": [
+        "Elon's board ambitions have become personal because Grant is quietly blocking him.",
+        "Anya has always been uneasy about the paperwork on Grant's earliest museum gifts."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, discussing the family trust. I did not go back after that. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside. I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:43 you entered the Donor Salon, discussing the family trust. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I organized trustees against Grant’s plan. I wanted our foundation funding workers and communities, not his vanity projects. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant intended to rewrite the family trust tonight. Unless I backed his museum naming plan in public, I would lose control of the charitable foundation. He called it protecting the family. It felt rather more like purchasing my applause. During setup I borrowed the cabinet key and took the toxin sample. At 6:43, I used the excuse of discussing the family trust to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant intended to rewrite the family trust tonight. Unless I backed his museum naming plan in public, I would lose control of the charitable foundation. He called it protecting the family. It felt rather more like purchasing my applause.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the family trust. I did not go back after that. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:43, discussing the family trust. I borrowed the cabinet key during setup to inspect the foundation’s donated treatment samples stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping cordial off the edge of my folder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:43",
+      "key_time": "6:09"
+    },
+    "questions": {
+      "motive": "What did Grant threaten to change in the family trust?",
+      "opportunity": "You were discussing the family trust. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping cordial off the edge of your folder?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:09, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the family trust; wiping cordial off the edge of my folder.\nThese are the original preparation records for Tess Tament.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:43.\nConservation key book: loan at 6:09, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the family trust; wiping cordial off the edge of my folder.\nThese are the original preparation records for Tess Tament."
+    },
+    "card_name": {
+      "first_middle": "Tess",
+      "last": "Tament"
+    }
+  },
+  {
+    "id": "11",
+    "slug": "11_Barb_Dwyer",
+    "name": "Barb Dwyer",
+    "role": "Director of Museum Security & Former Art-Crimes Investigator",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Barb has already assessed which guests could fit through the air vents. Barb spent years investigating stolen art before discovering that museums contain nearly as much intrigue with better climate control. He is calm, observant, and difficult to surprise. He notices open doors, blocked sight lines, unattended bags, and people who suddenly become interested in exits. Tonight he would prefer everyone simply enjoy the exhibition, which means they almost certainly will not.",
+      "relationships": [
+        "Coordinates closely with Artie Ficial and Chip Patina.",
+        "Frequently clashes with Paige Turner over access and with Robin Banks over protest tactics.",
+        "Minnie Malist keeps changing layouts after Barb has already approved them."
+      ],
+      "acting": "Low-key, skeptical, dry, watchful. Ask where people were and remember their answers.",
+      "costume": "Optional inspiration: Dark suit, discreet earpiece prop if desired, security-style watch, small notebook. A senior museum security look could work well."
+    },
+    "private": {
+      "history": "Grant ordered you to disable the Donor Salon camera because he planned several off-the-record meetings. He then told you that if anything went wrong tonight, security would 'own the failure.'",
+      "secret": "You personally unplugged the camera despite museum policy. The work order records the disconnection, but you never documented Grant’s threat to make security take the blame.",
+      "objectives": [
+        "Find out who knew the Donor Salon camera was offline.",
+        "Ask Artie Ficial why Grant wanted the Donor Salon camera switched off. Keep your own part in that decision private for now.",
+        "Ask Cary Crates whether anyone moved through the service corridor during Act I."
+      ],
+      "knowledge": [
+        "Paige tried to get private access to Grant before dinner and was refused.",
+        "Minnie's last-minute lighting changes caused the eerie flicker some guests noticed during Act I."
+      ],
+      "innocent": "I went into the Donor Salon at 6:41, checking the camera work order. I visited the conservation display, testing the cabinet lock, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:41 you entered the Donor Salon, checking the camera work order. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I unplugged the salon camera on Grant’s orders. The work order records the disconnection; it does not record his threat to make security take the blame. The camera gap was my bad decision, not proof of murder. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant wanted the salon camera off for private meetings. I followed his order. Then he said security would own any failure tonight. He wanted discretion when it suited him and somebody else’s head when it did not. During setup I borrowed the cabinet key and took the toxin sample. At 6:41, I used the excuse of checking the camera work order to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant wanted the salon camera off for private meetings. I followed his order. Then he said security would own any failure tonight. He wanted discretion when it suited him and somebody else’s head when it did not.",
+      "where_innocent": "I went into the Donor Salon at 6:41, checking the camera work order. I visited the conservation display, testing the cabinet lock, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:41, checking the camera work order. I borrowed the cabinet key during setup to inspect the lock-inspection tag stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning fingerprints off a security torch. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:41",
+      "key_time": "6:10"
+    },
+    "questions": {
+      "motive": "Why did Grant order the salon camera disconnected?",
+      "opportunity": "You were checking the camera work order. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning fingerprints off a security torch?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:41.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the camera work order; cleaning fingerprints off a security torch.\nThese are the original preparation records for Barb Dwyer.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:41.\nConservation key book: loan at 6:10, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the camera work order; cleaning fingerprints off a security torch.\nThese are the original preparation records for Barb Dwyer."
+    },
+    "card_name": {
+      "first_middle": "Barb",
+      "last": "Dwyer"
+    }
+  },
+  {
+    "id": "12",
+    "slug": "12_Paige_Turner",
+    "name": "Paige Turner",
+    "role": "Investigative Arts Journalist",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Paige asks innocent questions with a recorder visibly running. Paige covers the art world the way other reporters cover city hall: money, power, access, and who benefits when everyone agrees not to ask a question. Her pieces are sharp, deeply sourced, and occasionally followed by nervous legal letters. She has been invited tonight because excluding her would look worse.",
+      "relationships": [
+        "Professional rival of Drew Conclusions, whose criticism Paige considers entertaining but insufficiently documented.",
+        "Faye Stop has photographed several of Paige's stories.",
+        "Sue Venir has threatened to quote Paige's own articles back to her in court."
+      ],
+      "acting": "Curious, direct, quick, socially fearless. Ask questions people wish you would save for email.",
+      "costume": "Optional inspiration: Cocktail attire with practical reporter touches: blazer, notebook, pen, compact camera if desired. Stylish enough for the gala, ready enough for a press scrum."
+    },
+    "private": {
+      "history": "You were preparing a major investigation into Grant's collection and labor empire. He discovered enough to threaten an injunction and promised to reveal the identity of one of your confidential museum sources if you published.",
+      "secret": "You obtained internal documents through a source inside the Meridian. Protecting that source matters more to you than tonight's scoop.",
+      "objectives": [
+        "Find out whether Grant found the full provenance spreadsheet or only excerpts.",
+        "Keep your source's identity protected.",
+        "Get Hugh Bidder or Saul D. Bid to comment on the Geneva records without telling them what you know."
+      ],
+      "knowledge": [
+        "Hugh is vulnerable over a disputed authenticity certificate in an old private sale.",
+        "Sue wrote a much harsher legal opinion on the Star Bowl before a softer version appeared."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside. I carried blue disposable paper wipes, for drying a spill on my notebook cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon, asking about my embargoed story. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I took internal documents from a museum source. I kept quiet to protect that person. My investigation was meant to expose Grant alive. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I was preparing an investigation into Grant’s collection and labor empire. He threatened an injunction and exposure of a confidential museum source if I published. My reputation mattered, but protecting that source mattered more. He knew precisely where to apply pressure. During setup I borrowed the cabinet key and took the toxin sample. At 6:45, I used the excuse of asking about my embargoed story to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "I was preparing an investigation into Grant’s collection and labor empire. He threatened an injunction and exposure of a confidential museum source if I published. My reputation mattered, but protecting that source mattered more. He knew precisely where to apply pressure.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for drying a spill on my notebook cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about my embargoed story. I borrowed the cabinet key during setup to inspect the chemical warning file stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a spill on my notebook cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:11"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening your source with exposure?",
+      "opportunity": "You were asking about your embargoed story. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a spill on your notebook cover?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:11, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: asking about my embargoed story; drying a spill on my notebook cover.\nThese are the original preparation records for Paige Turner.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:11, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about my embargoed story; drying a spill on my notebook cover.\nThese are the original preparation records for Paige Turner."
+    },
+    "card_name": {
+      "first_middle": "Paige",
+      "last": "Turner"
+    }
+  },
+  {
+    "id": "13",
+    "slug": "13_Frank_Lloyd_Wrong",
+    "name": "Frank Lloyd Wrong",
+    "role": "Exhibition Architect & Designer",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Frank considers doors a regrettable compromise in an otherwise excellent wall. Frank designed the physical experience of Treasures of the World: every wall angle, sight line, spotlight, pedestal, and dramatic reveal. He is tasteful, exacting, and deeply convinced that visitors would behave better if they understood circulation. He has strong opinions about fonts, cords, and anything that interrupts a clean visual field.",
+      "relationships": [
+        "Creative rival of sculptor Al Baster after a very public argument about scale.",
+        "Works constantly with Minnie Malist, who keeps trying to add flowers where Frank designed negative space.",
+        "Chip Patina has veto power over several of Frank's more adventurous display ideas."
+      ],
+      "acting": "Aesthetic, controlled, mildly pretentious in a lovable way, easily offended by bad placement rather than bad manners.",
+      "costume": "Optional inspiration: Architectural formalwear: monochrome suit, turtleneck with jacket, sharply cut black attire, interesting glasses, rolled plans or a small laser measure prop."
+    },
+    "private": {
+      "history": "Grant demanded a dangerous last-minute change to the centerpiece display and threatened to withhold your firm's final payment if you refused. He also planned to blame you publicly for any flaw in the opening-night presentation.",
+      "secret": "You signed off on one temporary lighting rig that did not fully meet your own design standard because there was no time to rebuild it before the gala.",
+      "objectives": [
+        "Keep Chip Patina from turning the temporary rig into a formal safety dispute.",
+        "Find out what Minnie Malist changed after your final walkthrough.",
+        "Make Al Baster admit the entrance sculpture blocks the intended sight line."
+      ],
+      "knowledge": [
+        "Minnie changed a lighting cue after your final walkthrough.",
+        "Grant threatened Al's final payment over the entrance commission."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, checking the revised display plan. I did not go back after that. I borrowed the cabinet key during setup to inspect the display fasteners stored inside. I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:46 you entered the Donor Salon, checking the revised display plan. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I approved a temporary lighting rig below my own standard. I should have rebuilt it rather than pretend the deadline made it acceptable. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant demanded a dangerous last-minute change to the centerpiece. He threatened to withhold my firm’s final payment if I refused, then planned to blame me for any flaw. I would be paid nothing for a disaster bearing my name. During setup I borrowed the cabinet key and took the toxin sample. At 6:46, I used the excuse of checking the revised display plan to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant demanded a dangerous last-minute change to the centerpiece. He threatened to withhold my firm’s final payment if I refused, then planned to blame me for any flaw. I would be paid nothing for a disaster bearing my name.",
+      "where_innocent": "I went into the Donor Salon at 6:36, checking the revised display plan. I did not go back after that. I borrowed the cabinet key during setup to inspect the display fasteners stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:46, checking the revised display plan. I borrowed the cabinet key during setup to inspect the display fasteners stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping dust from a display bracket. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:46",
+      "key_time": "6:12"
+    },
+    "questions": {
+      "motive": "What display change did Grant demand before paying your firm?",
+      "opportunity": "You were checking the revised display plan. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping dust from a display bracket?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:12, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the revised display plan; wiping dust from a display bracket.\nThese are the original preparation records for Frank Lloyd Wrong.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:46.\nConservation key book: loan at 6:12, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking the revised display plan; wiping dust from a display bracket.\nThese are the original preparation records for Frank Lloyd Wrong."
+    },
+    "card_name": {
+      "first_middle": "Frank Lloyd",
+      "last": "Wrong"
+    }
+  },
+  {
+    "id": "14",
+    "slug": "14_Mona_Lott",
+    "name": "Mona Lott",
+    "role": "International Cultural Heritage Envoy",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Mona can turn a disagreement about a bowl into an international summit. Mona moves between embassies, museums, ministries, and negotiation tables where everyone insists the issue is 'purely cultural' while bringing three lawyers. She is poised, persuasive, and very difficult to rush. Her work focuses on contested cultural property and long-term international loans.",
+      "relationships": [
+        "Long-running professional friendship and rivalry with Sue Venir.",
+        "Frequently debates Art E. Fact and Robin Banks on how restitution should actually work.",
+        "Artie Ficial has courted her support for several international partnerships."
+      ],
+      "acting": "Elegant, diplomatic, strategic, warm until precision is required. You can disagree without ever sounding flustered.",
+      "costume": "Optional inspiration: Refined diplomatic formalwear; jewel tones, elegant suit or dress, subtle cultural or heritage-inspired accessory worn respectfully. Optional slim portfolio."
+    },
+    "private": {
+      "history": "Grant intended to announce that the Star Bowl would become a permanent Meridian holding, undermining months of quiet restitution negotiations and publicly humiliating the international partners you represent.",
+      "secret": "You leaked the existence of the restitution talks to selected journalists to pressure Grant, even though the negotiations were supposed to remain confidential.",
+      "objectives": [
+        "Find out whether Paige Turner knows you were the leak.",
+        "Get Sue Venir to acknowledge that the legal risk is real.",
+        "Avoid turning the gala into a diplomatic incident unless Grant's announcement forces you."
+      ],
+      "knowledge": [
+        "Sue's original legal opinion was substantially more skeptical of the Star Bowl acquisition than the final version.",
+        "Art believes Grant has sat on provenance research that could embarrass the collection."
+      ],
+      "innocent": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I visited the conservation display, reading the object-treatment label, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:44 you entered the Donor Salon, delivering the restitution memorandum. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I leaked the restitution talks to journalists. I wanted public pressure on Grant. It was a breach of confidence, not a death threat. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant intended to make the Star Bowl a permanent Meridian holding. That would destroy months of restitution negotiations and humiliate the international partners I represent. He wanted an announcement before anybody could challenge his claim. I wanted him to stop. During setup I borrowed the cabinet key and took the toxin sample. At 6:44, I used the excuse of delivering the restitution memorandum to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "Grant intended to make the Star Bowl a permanent Meridian holding. That would destroy months of restitution negotiations and humiliate the international partners I represent. He wanted an announcement before anybody could challenge his claim. I wanted him to stop.",
+      "where_innocent": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I visited the conservation display, reading the object-treatment label, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:44, delivering the restitution memorandum. I borrowed the cabinet key during setup to inspect the loan-object treatment record stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting the travel case for a loan object. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:44",
+      "key_time": "6:13"
+    },
+    "questions": {
+      "motive": "Why would Grant’s permanent gift damage restitution talks?",
+      "opportunity": "You were delivering the restitution memorandum. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the travel case for a loan object?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:44.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the restitution memorandum; dusting the travel case for a loan object.\nThese are the original preparation records for Mona Lott.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:44.\nConservation key book: loan at 6:13, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering the restitution memorandum; dusting the travel case for a loan object.\nThese are the original preparation records for Mona Lott."
+    },
+    "card_name": {
+      "first_middle": "Mona",
+      "last": "Lott"
+    }
+  },
+  {
+    "id": "15",
+    "slug": "15_Elon_Mosaic",
+    "name": "Elon Mosaic",
+    "role": "Tech Founder, Collector & Museum Patron",
+    "tier": "CORE",
+    "preparty": {
+      "description": "Elon keeps suggesting that the museum should pivot to subscription antiquities. Elon made a fortune building software and has spent the last five years trying to become the sort of collector whose taste is discussed rather than merely his net worth. He is enthusiastic, competitive, and genuinely knowledgeable enough to resent anyone who assumes otherwise. His collection mixes contemporary art, design, and objects he describes as 'historically underpriced.'",
+      "relationships": [
+        "Buys through Hugh Bidder more often than either admits.",
+        "Runs in the same social orbit as Tess Tament and Ella Gance.",
+        "Drew Conclusions once described his collection as 'an algorithm discovering patina,' which Elon has not forgotten."
+      ],
+      "acting": "Energetic, socially confident, competitive, eager to demonstrate taste without looking eager.",
+      "costume": "Optional inspiration: Modern black tie with tech-founder looseness: excellent jacket, minimal sneakers or polished shoes, unusual watch, bold glasses. Optional auction paddle as a joke prop."
+    },
+    "private": {
+      "history": "Grant had blacklisted you from a major acquisition after you outbid him anonymously for a work he wanted. Tonight he planned to announce that your collecting practices were 'speculative theater' and block your appointment to the museum board.",
+      "secret": "You were the anonymous buyer in the auction incident everyone keeps referencing. You concealed your identity through Hugh to avoid a bidding war with Grant.",
+      "objectives": [
+        "Keep Hugh Bidder from revealing your role in the auction.",
+        "Find out whether Artie Ficial supports your board candidacy.",
+        "Get Drew Conclusions to admit the 'algorithm discovering patina' line was at least a little funny."
+      ],
+      "knowledge": [
+        "Hugh knows you were the anonymous buyer who beat Grant at auction.",
+        "Grant bragged that he could rewrite the family trust if Tess refused to support his museum plans."
+      ],
+      "innocent": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside. I carried blue disposable paper wipes, for polishing my presentation case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:48 you entered the Donor Salon, discussing the board appointment. You dampened your issued gold-seamed linen with the stolen sample and wiped the inside of Grant’s coupe and its rim, transferring the toxin. You left with the cloth. You acted alone.",
+      "final_innocent": "I was the anonymous auction buyer. Hugh helped conceal my name so Grant would not start a bidding war. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I outbid Grant anonymously for a work he wanted. He blacklisted me from another acquisition and planned to block my museum board appointment. Tonight he was going to call my collecting speculative theater. It was an expensive grudge, even by his standards. During setup I borrowed the cabinet key and took the toxin sample. At 6:48, I used the excuse of discussing the board appointment to enter the salon. I dampened my gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. That transferred the poison. I left with the cloth. The door entry, key loan and linen receipt were all real. What I left out was what I did between them."
+    },
+    "hearing": {
+      "motive": "I outbid Grant anonymously for a work he wanted. He blacklisted me from another acquisition and planned to block my museum board appointment. Tonight he was going to call my collecting speculative theater. It was an expensive grudge, even by his standards.",
+      "where_innocent": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for polishing my presentation case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:48, discussing the board appointment. I borrowed the cabinet key during setup to inspect the reference mineral stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing my presentation case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:48",
+      "key_time": "6:14"
+    },
+    "questions": {
+      "motive": "Why did Grant want to block your board appointment?",
+      "opportunity": "You were discussing the board appointment. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing your presentation case?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:48.\nConservation key book: loan at 6:14, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the board appointment; polishing my presentation case.\nThese are the original preparation records for Elon Mosaic.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:48.\nConservation key book: loan at 6:14, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the board appointment; polishing my presentation case.\nThese are the original preparation records for Elon Mosaic."
+    },
+    "card_name": {
+      "first_middle": "Elon",
+      "last": "Mosaic"
+    }
+  },
+  {
+    "id": "16",
+    "slug": "16_Anya_Tique",
+    "name": "Anya Tique",
+    "role": "Founding Curator Emerita",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Anya remembers when the museum was two rooms and an argument. Anya helped build the Meridian's collection when the museum had more ambition than money and fewer committees than fire extinguishers. She is sharp, unsentimental, impossible to flatter, and delighted that everyone now treats decisions she made on folding tables as institutional history.",
+      "relationships": [
+        "Hired Artie Ficial early in his career.",
+        "Trusts Chip Patina and Anne E. Dote.",
+        "Has known Tess Tament since Tess was a child."
+      ],
+      "acting": "Imperious, funny, observant, utterly unimpressed by status. Age gives you permission to say what everyone else edits.",
+      "costume": "Optional inspiration: Old-school gala elegance: brooch, gloves, shawl, pearls, cane if desired, formal suit or dress with unmistakable presence."
+    },
+    "private": {
+      "history": "Grant planned to reveal that you accepted his first questionable donation in 1989 despite incomplete paperwork, staining the legacy you built.",
+      "secret": "You did approve that accession because the museum was desperate for funds and you convinced yourself the paperwork would follow.",
+      "objectives": [
+        "Ask Artie Ficial whether the naming agreement preserves the museum you founded.",
+        "Ask Tess Tament what she thinks Grant expects from his family tonight.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Tess and Grant have been fighting over the future of the Larceny charitable foundation.",
+        "The museum's 1989 accession paperwork for one early Larceny gift was never as complete as you wished."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside. I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I accepted the 1989 gift before its export papers arrived. I convinced myself the paperwork would follow. That failure should have been corrected years ago. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "In 1989 I accepted one of Grant’s early donations with incomplete paperwork. He planned to expose that tonight and stain the museum legacy I built. I should have demanded the missing documents then. He was making sure everybody would hear that now. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "In 1989 I accepted one of Grant’s early donations with incomplete paperwork. He planned to expose that tonight and stain the museum legacy I built. I should have demanded the missing documents then. He was making sure everybody would hear that now.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking about the old donation file. I did not go back after that. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about the old donation file. I borrowed the cabinet key during setup to inspect the accession-display treatment card stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting an old catalogue cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:15"
+    },
+    "questions": {
+      "motive": "What did Grant threaten to reveal about the 1989 donation?",
+      "opportunity": "You were asking about the old donation file. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting an old catalogue cover?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:15, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the old donation file; dusting an old catalogue cover.\nThese are the original preparation records for Anya Tique.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:15, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the old donation file; dusting an old catalogue cover.\nThese are the original preparation records for Anya Tique."
+    },
+    "card_name": {
+      "first_middle": "Anya",
+      "last": "Tique"
+    }
+  },
+  {
+    "id": "17",
+    "slug": "17_Saul_D_Bid",
+    "name": "Saul D. Bid",
+    "role": "Chairman of Gavel & Rowe Auction House",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Saul cannot ask someone to pass the salt without opening bidding. Saul has sold paintings, antiquities, estates, scandals, and at least one chair that required its own insurance rider. Urbane and ceremonious, he treats every conversation like a private viewing and every silence like a bidding strategy.",
+      "relationships": [
+        "Longtime professional rival of Hugh Bidder.",
+        "Knows Ella Gance and Elon Mosaic from the auction circuit.",
+        "Anya Tique remembers when Saul was still carrying catalogues for someone else."
+      ],
+      "acting": "Old-school charm, status-aware, patient, competitive. Speak as if the room has already agreed you belong in it.",
+      "costume": "Optional inspiration: Classic tuxedo or formal dark suit, silk pocket square, signet ring, reading glasses, optional miniature auction gavel."
+    },
+    "private": {
+      "history": "Grant threatened to expose a private sale you arranged outside your auction house's normal process unless you waived a substantial fee.",
+      "secret": "You did route the sale through a discreet subsidiary to satisfy a client who insisted on anonymity.",
+      "objectives": [
+        "Compare notes with Hugh Bidder about Grant’s demands on auction houses.",
+        "Ask Elon Mosaic what he expects from tonight’s unveiling. Keep your private sale to yourself for now.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Hugh once handled a disputed certificate that Grant could use against him.",
+        "Ella quietly sold a work she had once spoken of as a future institutional gift."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I routed that private sale through a subsidiary to protect a client’s anonymity. I was hiding the transaction, not a murder. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I arranged a private sale outside my auction house’s normal process. Grant threatened to expose it unless I waived a substantial fee. He wanted the convenience of discretion and the price of a favor. My career was his bargaining chip. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "I arranged a private sale outside my auction house’s normal process. Grant threatened to expose it unless I waived a substantial fee. He wanted the convenience of discretion and the price of a favor. My career was his bargaining chip.",
+      "where_innocent": "I went into the Donor Salon at 6:45, discussing the auction fee. I visited the conservation display, checking a sale display sample, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, discussing the auction fee. I borrowed the cabinet key during setup, checking a sale display sample.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for polishing a catalogue stand. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:16"
+    },
+    "questions": {
+      "motive": "What private sale was Grant using to pressure you?",
+      "opportunity": "You were discussing the auction fee. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for polishing a catalogue stand?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the auction fee; polishing a catalogue stand.\nThese are the original preparation records for Saul D. Bid.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:16, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the auction fee; polishing a catalogue stand.\nThese are the original preparation records for Saul D. Bid."
+    },
+    "card_name": {
+      "first_middle": "Saul D.",
+      "last": "Bid"
+    }
+  },
+  {
+    "id": "18",
+    "slug": "18_Elle_Loominate",
+    "name": "Elle Loominate",
+    "role": "Textile Artist & Designer",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Elle has identified every fabric in the room, including the suspiciously shiny tuxedo. Elle turns weaving, embroidery, salvage fabric, and obsessive handwork into installations that critics call intimate and collectors call surprisingly difficult to ship. She is warm, observant, and capable of discussing thread count with the intensity of a military briefing.",
+      "relationships": [
+        "Has assisted Dada DiCapo on several installations.",
+        "Friendly with Vincent Van Faux from the local art circuit.",
+        "Chip Patina has advised her on displaying fragile textiles."
+      ],
+      "acting": "Creative, grounded, quietly funny, detail-oriented. You notice what people wear and how things are made.",
+      "costume": "Optional inspiration: Formal outfit with texture: embroidered jacket, woven scarf, textile jewelry, patterned dress, unusual fabric. Handmade touches encouraged."
+    },
+    "private": {
+      "history": "Grant intended to purchase a family-owned ceremonial textile you had borrowed for your installation, despite your refusal to sell.",
+      "secret": "The textile is in the exhibition without the full paperwork your family expected because you were afraid the loan would be denied.",
+      "objectives": [
+        "Ask Chip Patina how you can protect the ceremonial textile without selling it.",
+        "Ask Dada DiCapo whether the gala has become more about donors than artists.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Dada's unreleased performance idea and the gala's closing spectacle look suspiciously similar.",
+        "Vincent has been using intermediaries to buy back some of his own early paintings."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside. I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I displayed my family’s textile before the loan paperwork was complete. I feared losing its place in the exhibition. I had no right to rush that permission. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "The ceremonial textile belongs to a family who lent it for my installation. It is not mine to sell. Grant intended to purchase it despite my refusal. He treated a loan as a price negotiation and expected me to make the family accept it. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "The ceremonial textile belongs to a family who lent it for my installation. It is not mine to sell. Grant intended to purchase it despite my refusal. He treated a loan as a price negotiation and expected me to make the family accept it.",
+      "where_innocent": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for cleaning the textile display rail. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, explaining the textile loan. I borrowed the cabinet key during setup to inspect the fabric-treatment sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning the textile display rail. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:17"
+    },
+    "questions": {
+      "motive": "Why did Grant think your borrowed textile was for sale?",
+      "opportunity": "You were explaining the textile loan. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning the textile display rail?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:17, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: explaining the textile loan; cleaning the textile display rail.\nThese are the original preparation records for Elle Loominate.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:17, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the textile loan; cleaning the textile display rail.\nThese are the original preparation records for Elle Loominate."
+    },
+    "card_name": {
+      "first_middle": "Elle",
+      "last": "Loominate"
+    }
+  },
+  {
+    "id": "19",
+    "slug": "19_Reed_DeLabel",
+    "name": "Reed DeLabel",
+    "role": "Doctoral Fellow in Art History",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Reed reads every label aloud, including the exit sign. Reed is the youngest scholar attached to the exhibition and has been trying very hard to behave like this is normal. He is brilliant, earnest, slightly overprepared, and burdened with the knowledge that every person here could someday write a recommendation letter or ruin his evening.",
+      "relationships": [
+        "Doctoral student of Art E. Fact.",
+        "Mentored informally by Claire O’Scuro.",
+        "Anne E. Dote keeps rescuing Reed from conversations with donors who ask whether art history is a real degree."
+      ],
+      "acting": "Eager, cerebral, anxious in a useful way, unexpectedly bold when the evidence is on your side.",
+      "costume": "Optional inspiration: Best-suit energy: formal but slightly less effortless than the veterans. Optional extras: glasses, a notebook or a museum catalogue full of tabs."
+    },
+    "private": {
+      "history": "You found an archival document that contradicted the Star Bowl label. Grant told your department your fellowship could disappear if you pushed it.",
+      "secret": "You have not yet told Art that your discovery also undermines one sentence in his published research.",
+      "objectives": [
+        "Ask Claire O’Scuro whether she is comfortable with the Star Bowl label.",
+        "Ask Dr. Art E. Fact how a junior researcher should challenge a donor’s version of history.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Claire commissioned independent provenance work outside the normal chain of approval.",
+        "You found a source that complicates one published claim by your adviser Art."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "My discovery also contradicts a sentence in Art’s research. I delayed telling him because I did not want to lose my mentor. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "An archival document contradicted the Star Bowl label. I found it. Grant told my department my fellowship could disappear if I pushed the issue. I could lose the position I worked for simply by insisting that our label tell the truth. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "An archival document contradicted the Star Bowl label. I found it. Grant told my department my fellowship could disappear if I pushed the issue. I could lose the position I worked for simply by insisting that our label tell the truth.",
+      "where_innocent": "I went into the Donor Salon at 6:36, showing him the archival correction. I did not go back after that. I visited the conservation display, reading a conservation label, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, showing him the archival correction. I borrowed the cabinet key during setup, reading a conservation label.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting a label holder. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:18"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening your fellowship?",
+      "opportunity": "You were showing him the archival correction. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting a label holder?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the archival correction; dusting a label holder.\nThese are the original preparation records for Reed DeLabel.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:18, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: showing him the archival correction; dusting a label holder.\nThese are the original preparation records for Reed DeLabel."
+    },
+    "card_name": {
+      "first_middle": "Reed",
+      "last": "DeLabel"
+    }
+  },
+  {
+    "id": "20",
+    "slug": "20_Al_Baster",
+    "name": "Al Baster",
+    "role": "Sculptor & Public-Art Star",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Al considers a pedestal a sculpture that has given up on itself. Al makes monumental sculpture in stone, steel, and whatever else can require a crane. He is charismatic, physically expressive, and convinced that architecture should know when to get out of sculpture's way. His newest commission occupies the museum entrance and at least three opinions per square foot.",
+      "relationships": [
+        "Creative rival of Frank Lloyd Wrong after an argument about the entrance installation.",
+        "Friendly competitor of Vincent Van Faux.",
+        "Minnie Malist once designed a gala around one of Al's sculptures and still talks about the insurance."
+      ],
+      "acting": "Big presence, playful arrogance, generous when admired, combative when minimized.",
+      "costume": "Optional inspiration: Bold formalwear, chunky ring, sculptural accessories, dark shirt with jacket, perhaps a dust-marked work boot paired with gala clothes."
+    },
+    "private": {
+      "history": "Grant planned to replace your commissioned entrance sculpture with a cheaper replica after the opening and dispute your final payment.",
+      "secret": "You built one internal support differently from the approved plan because the fabricator missed a deadline.",
+      "objectives": [
+        "Ask Frank Lloyd Wrong whether the entrance display still includes your original sculpture.",
+        "Ask Vincent Van Faux how he handles patrons who try to replace an artist’s work.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Grant has been threatening Frank over the centerpiece installation and final payment.",
+        "Grant owns a student painting Vincent desperately does not want exhibited."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside. I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I changed one internal support in my sculpture to meet a deadline. I was concealing a construction compromise. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant wanted to replace my commissioned entrance sculpture with a cheaper replica after opening night and dispute my final payment. He would still have the photographs of my work at his gala. I would have the invoice and an empty plinth. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant wanted to replace my commissioned entrance sculpture with a cheaper replica after opening night and dispute my final payment. He would still have the photographs of my work at his gala. I would have the invoice and an empty plinth.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the entrance sculpture. I did not go back after that. I borrowed the cabinet key during setup to inspect the resin sample stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a sculpture support. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, discussing the entrance sculpture. I borrowed the cabinet key during setup to inspect the resin sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping a sculpture support. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:19"
+    },
+    "questions": {
+      "motive": "Why was Grant planning to replace your sculpture?",
+      "opportunity": "You were discussing the entrance sculpture. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a sculpture support?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:19, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the entrance sculpture; wiping a sculpture support.\nThese are the original preparation records for Al Baster.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:19, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the entrance sculpture; wiping a sculpture support.\nThese are the original preparation records for Al Baster."
+    },
+    "card_name": {
+      "first_middle": "Al",
+      "last": "Baster"
+    }
+  },
+  {
+    "id": "21",
+    "slug": "21_Ella_Gance",
+    "name": "Ella Gance",
+    "role": "Collector, Style Patron & Society Fixture",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Ella dresses as though the society pages arrive before the guests. Ella has excellent taste, excellent photographers, and excellent instincts about which artists will become impossible to buy next year. She hosts salons, funds commissions, and somehow makes every acquisition look accidental. Beneath the polish, she is a serious collector who remembers exactly who dismissed what five years ago.",
+      "relationships": [
+        "Collects work by Vincent Van Faux and Elle Loominate.",
+        "Competes socially and at auction with Elon Mosaic.",
+        "Uses Hugh Bidder when discretion matters and Saul D. Bid when spectacle does."
+      ],
+      "acting": "Charming, strategic, stylish, lightly competitive. Compliments can be sincere and still accomplish something.",
+      "costume": "Optional inspiration: Fashion-forward gala look, statement jewelry, dramatic clutch, bold color or silhouette. For inspiration, think of 'photographed on arrival.'"
+    },
+    "private": {
+      "history": "Grant knew you quietly sold a work you had publicly promised to donate to another institution and planned to expose the contradiction.",
+      "secret": "You sold it to cover a failed business investment and hoped to replace it before anyone noticed.",
+      "objectives": [
+        "Ask Vincent Van Faux what the museum expects a collector to donate.",
+        "Compare gala expectations with Elon Mosaic. Keep your withdrawn donation private for now.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Vincent has been quietly buying back his own early work through proxies.",
+        "Elon was the anonymous bidder who beat Grant at the auction that damaged their relationship."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside. I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I sold the work I had promised to donate. A failed investment left me desperate for cash, and I hoped to replace it before anyone noticed. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I sold a work I had publicly promised to donate to another institution. Grant knew and planned to expose the contradiction tonight. It was an ugly position, and he was preparing to turn my embarrassment into entertainment for the entire room. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "I sold a work I had publicly promised to donate to another institution. Grant knew and planned to expose the contradiction tonight. It was an ugly position, and he was preparing to turn my embarrassment into entertainment for the entire room.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the promised donation. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, discussing the promised donation. I borrowed the cabinet key during setup to inspect the display-finish sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a splash from my auction catalogue. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:20"
+    },
+    "questions": {
+      "motive": "Why was Grant threatening to expose your promised donation?",
+      "opportunity": "You were discussing the promised donation. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a splash from your auction catalogue?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:20, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the promised donation; drying a splash from my auction catalogue.\nThese are the original preparation records for Ella Gance.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:20, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the promised donation; drying a splash from my auction catalogue.\nThese are the original preparation records for Ella Gance."
+    },
+    "card_name": {
+      "first_middle": "Ella",
+      "last": "Gance"
+    }
+  },
+  {
+    "id": "22",
+    "slug": "22_Drew_Conclusions",
+    "name": "Drew Conclusions",
+    "role": "Art Critic & Cultural Podcaster",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Drew calls everything derivative, especially things he likes. Drew can make a museum director nervous with a headline and an artist furious with a compliment. Their reviews are incisive, funny, and widely read; their podcast is where the art world goes to hear itself discussed by someone who may not be impressed.",
+      "relationships": [
+        "Friendly rival of Paige Turner.",
+        "Has reviewed Vincent Van Faux, Dada DiCapo, Al Baster, and Elle Loominate.",
+        "Elon Mosaic remembers an especially brutal line about his collection."
+      ],
+      "acting": "Dry, perceptive, skeptical, socially nimble. Deliver observations as if they occurred to you three minutes before everyone else.",
+      "costume": "Optional inspiration: Smart, artsy formalwear: black with one eccentric element, distinctive glasses, scarf, vintage jacket, notebook. Gender presentation entirely flexible."
+    },
+    "private": {
+      "history": "Grant discovered that you write an anonymous satirical newsletter skewering museum patrons and planned to unmask you during his speech.",
+      "secret": "Several jokes in the newsletter came from private conversations, and you regret at least one of them.",
+      "objectives": [
+        "Ask Paige Turner what makes a story worth publishing when a donor objects.",
+        "Ask Vincent Van Faux whether he reads the anonymous museum newsletter. Do not admit you write it.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Grant has been trying to block Elon from joining the museum board.",
+        "Paige is working on something far more serious than a gala review and Grant knows it."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I wrote jokes using private conversations. I regret hurting people who trusted me. The newsletter was my secret. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I write the anonymous newsletter that makes fun of museum patrons. Grant found out and planned to unmask me in his speech. Those patrons commission my other work. Losing anonymity could cost me rather more than a polite laugh. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "I write the anonymous newsletter that makes fun of museum patrons. Grant found out and planned to unmask me in his speech. Those patrons commission my other work. Losing anonymity could cost me rather more than a polite laugh.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about his speech. I visited the conservation display, checking a display for my newsletter, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about his speech. I borrowed the cabinet key during setup, checking a display for my newsletter.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a smudge from my recording case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:21"
+    },
+    "questions": {
+      "motive": "Why did Grant want to identify the anonymous newsletter writer?",
+      "opportunity": "You were asking about his speech. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a smudge from your recording case?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about his speech; cleaning a smudge from my recording case.\nThese are the original preparation records for Drew Conclusions.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:21, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about his speech; cleaning a smudge from my recording case.\nThese are the original preparation records for Drew Conclusions."
+    },
+    "card_name": {
+      "first_middle": "Drew",
+      "last": "Conclusions"
+    }
+  },
+  {
+    "id": "23",
+    "slug": "23_Brie_DeVivre",
+    "name": "Brie DeVivre",
+    "role": "Head Caterer & Hospitality Director",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Brie has planned a cheese course more carefully than most people plan a wedding. Brie runs high-end events with the serene expression of a person mentally tracking forty-seven moving parts. He knows who asked for the vegan plate, who changed the seating chart, who is pretending not to be hungry, and exactly how long a tray can sit before someone complains.",
+      "relationships": [
+        "Works closely with Minnie Malist and Monet Bags.",
+        "Barb Dwyer has made Brie revise service routes repeatedly for security reasons.",
+        "Artie Ficial trusts Brie to keep donors fed while everyone else panics."
+      ],
+      "acting": "Competent, sociable, quietly authoritative, hard to rattle. You see the room from the service side.",
+      "costume": "Optional inspiration: Sharp black suit or upscale catering uniform, tie or bow tie, folded service towel, small order pad. A luxury event professional could be your inspiration."
+    },
+    "private": {
+      "history": "Grant had refused to approve the final catering invoice and planned to blame you for a last-minute service change he personally ordered.",
+      "secret": "You changed his private beverage setup twice because Grant and his assistant gave contradictory instructions.",
+      "objectives": [
+        "Ask Monet Bags whether Grant has approved the catering invoice.",
+        "Ask Barb Dwyer which service routes are open for tonight’s gala.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Grant changed his private cordial instructions more than once during setup.",
+        "Monet has been fighting with the donor office about who is actually paying for tonight's excesses."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside. I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I changed the private drink setup twice because Grant and his assistant gave opposite orders. That confusion was real; poisoning the drink was not my work. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant personally ordered a last-minute service change, refused to approve the final catering invoice, then planned to blame the change on me. He had eaten very well. He simply did not want to pay for it or admit it was his idea. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant personally ordered a last-minute service change, refused to approve the final catering invoice, then planned to blame the change on me. He had eaten very well. He simply did not want to pay for it or admit it was his idea.",
+      "where_innocent": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for drying a serving tray. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, confirming the private menu. I borrowed the cabinet key during setup to inspect the tray-cleaning notice stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for drying a serving tray. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:22"
+    },
+    "questions": {
+      "motive": "Why would Grant blame you for a service change he ordered?",
+      "opportunity": "You were confirming the private menu. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for drying a serving tray?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:22, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: confirming the private menu; drying a serving tray.\nThese are the original preparation records for Brie DeVivre.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:22, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: confirming the private menu; drying a serving tray.\nThese are the original preparation records for Brie DeVivre."
+    },
+    "card_name": {
+      "first_middle": "Brie",
+      "last": "DeVivre"
+    }
+  },
+  {
+    "id": "24",
+    "slug": "24_Cary_Crates",
+    "name": "Cary Crates",
+    "role": "Senior Art Handler & Installation Specialist",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Cary knows which crate holds a masterpiece and which one holds the extension cords. Cary is the person trusted to move objects worth more than the building without dropping either. He knows crates, rigging, mounts, gloves, freight elevators, and exactly which curators become unbearable during installation week. Practical and calm, he is one of the few people in the room who has physically touched most of the exhibition.",
+      "relationships": [
+        "Works daily with Chip Patina.",
+        "Has developed mutual respect with Frank Lloyd Wrong despite arguing about impossible installation drawings.",
+        "Al Baster likes Cary because Cary actually knows how heavy sculpture is."
+      ],
+      "acting": "Grounded, competent, laconic, surprisingly funny when you choose to speak.",
+      "costume": "Optional inspiration: Clean dark workwear dressed up for a gala: black trousers, sturdy shoes, smart shirt/jacket, work gloves tucked in pocket, measuring tape prop."
+    },
+    "private": {
+      "history": "Grant saw you damage a minor frame during installation and threatened to have you fired after the gala, despite the damage being repairable.",
+      "secret": "You concealed the crack with a reversible mount until Chip could inspect it after opening night.",
+      "objectives": [
+        "Ask Chip Patina whether the minor frame damage can be repaired after the gala.",
+        "Ask Frank Lloyd Wrong which installation needs your attention before the unveiling.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Grant pressured Chip to change how a conservation concern was described.",
+        "Frank's distinctive brass screwdriver passed through your hands during installation."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I concealed a cracked frame with a reversible mount until Chip could inspect it. I was trying to keep the gala moving and should have reported it immediately. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I damaged a minor frame during installation. It could be repaired, but Grant threatened to have me fired after the gala. I was ready to put it right. He seemed much more interested in demonstrating that he could end my job. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "I damaged a minor frame during installation. It could be repaired, but Grant threatened to have me fired after the gala. I was ready to put it right. He seemed much more interested in demonstrating that he could end my job.",
+      "where_innocent": "I went into the Donor Salon at 6:36, explaining the damaged frame. I did not go back after that. I visited the conservation display, checking a frame-treatment sample, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, explaining the damaged frame. I borrowed the cabinet key during setup, checking a frame-treatment sample.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a crate handle. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:23"
+    },
+    "questions": {
+      "motive": "Why did Grant want you fired over a repairable frame?",
+      "opportunity": "You were explaining the damaged frame. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a crate handle?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the damaged frame; cleaning a crate handle.\nThese are the original preparation records for Cary Crates.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:23, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: explaining the damaged frame; cleaning a crate handle.\nThese are the original preparation records for Cary Crates."
+    },
+    "card_name": {
+      "first_middle": "Cary",
+      "last": "Crates"
+    }
+  },
+  {
+    "id": "25",
+    "slug": "25_Anne_E_Dote",
+    "name": "Anne E. Dote",
+    "role": "Director of Education & Docent Programs",
+    "tier": "SECONDARY",
+    "preparty": {
+      "description": "Anne can make a school group care about a pot shard. Tonight’s donors are proving harder. Anne is responsible for making the museum intelligible to people who did not spend twelve years specializing in one dynasty. Warm, quick, and occasionally subversive, she can turn an academic argument into a great tour question and a donor speech into something children will actually remember.",
+      "relationships": [
+        "Close to Anya Tique, who champions the education program.",
+        "Often rescues Reed DeLabel from awkward public-facing moments.",
+        "Works with Claire O’Scuro to translate scholarship into gallery interpretation."
+      ],
+      "acting": "Engaging, practical, empathetic, irreverent about institutional pomp.",
+      "costume": "Optional inspiration: Colorful cocktail attire or polished museum-professional look, comfortable shoes, fun brooch or earrings, optional stack of tour cards."
+    },
+    "private": {
+      "history": "Grant's gift conditions would cut public education programming to fund a private donor lounge and VIP entrance.",
+      "secret": "You organized an anonymous staff petition against the plan and slipped copies into trustee folders.",
+      "objectives": [
+        "Ask Anya Tique whether she will defend the education program against a donor lounge.",
+        "Ask Claire O’Scuro what ordinary visitors would lose if education funding disappeared.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "One draft of Grant's gift would move money away from education and community programming.",
+        "Artie is under extraordinary pressure over Grant's naming and governance demands."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside. I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I organized the anonymous petition against cuts to school programs. Those pages in the trustee folders came from me. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant’s gift conditions would cut school tours and community education to pay for a private donor lounge and VIP entrance. The children would get less museum so his friends could get more privacy. I wanted those conditions taken out. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant’s gift conditions would cut school tours and community education to pay for a private donor lounge and VIP entrance. The children would get less museum so his friends could get more privacy. I wanted those conditions taken out.",
+      "where_innocent": "I went into the Donor Salon at 6:36, discussing the education budget. I did not go back after that. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting a school-tour display. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, discussing the education budget. I borrowed the cabinet key during setup to inspect the school-tour safety sheet stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting a school-tour display. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:24"
+    },
+    "questions": {
+      "motive": "What would Grant’s gift conditions do to school programs?",
+      "opportunity": "You were discussing the education budget. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting a school-tour display?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:24, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: discussing the education budget; dusting a school-tour display.\nThese are the original preparation records for Anne E. Dote.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:24, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: discussing the education budget; dusting a school-tour display.\nThese are the original preparation records for Anne E. Dote."
+    },
+    "card_name": {
+      "first_middle": "Anne E.",
+      "last": "Dote"
+    }
+  },
+  {
+    "id": "26",
+    "slug": "26_Faye_Stop",
+    "name": "Faye Stop",
+    "role": "Gala Photographer & Editorial Portraitist",
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Faye will ask you to move half an inch until the end of time. Faye photographs artists, collectors, and public figures for magazines that describe parties like tonight as 'intimate' despite inviting two hundred people. They are quiet when working, socially fluent when not, and very good at being present without becoming the center of the frame.",
+      "relationships": [
+        "Has photographed several investigations for Paige Turner.",
+        "Dada DiCapo loves Faye's work because Faye does not overdirect.",
+        "Ella Gance always knows which side Faye is shooting from."
+      ],
+      "acting": "Observant, understated, curious, visually minded. You notice who is standing with whom and what happens at the edge of a room.",
+      "costume": "Optional inspiration: Elegant all-black or dark cocktail wear, camera as the key prop if available, comfortable shoes, press-style shoulder bag."
+    },
+    "private": {
+      "history": "Grant ordered you to surrender a photograph showing him meeting privately with Hugh beside a shell-company shipping file.",
+      "secret": "You kept a backup print after agreeing to delete the image from your camera.",
+      "objectives": [
+        "Ask Paige Turner whether a photograph can be newsworthy without its owner’s permission.",
+        "Ask Hugh Bidder why a donor might object to being photographed beside a shipping file.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "You photographed Grant and Hugh beside a shipping file marked NORTHSTAR earlier in the evening.",
+        "Elon chipped a cufflink against the Grand Gallery rail during Act I."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside. I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I kept a backup of the photograph Grant ordered me to delete. I wanted a record of what happened, not a donor’s permission to erase it. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "I photographed Grant meeting Hugh beside a shell-company shipping file. Grant ordered me to surrender the photograph. I agreed to delete it from my camera, but kept a backup print. I was not comfortable letting him decide which pictures could exist. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "I photographed Grant meeting Hugh beside a shell-company shipping file. Grant ordered me to surrender the photograph. I agreed to delete it from my camera, but kept a backup print. I was not comfortable letting him decide which pictures could exist.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking him about my photograph. I did not go back after that. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking him about my photograph. I borrowed the cabinet key during setup to inspect the display-cleaning sample stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning the outside of my camera case. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:25"
+    },
+    "questions": {
+      "motive": "Why did Grant demand that you surrender a photograph?",
+      "opportunity": "You were asking him about your photograph. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning the outside of your camera case?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:25, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him about my photograph; cleaning the outside of my camera case.\nThese are the original preparation records for Faye Stop.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:25, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking him about my photograph; cleaning the outside of my camera case.\nThese are the original preparation records for Faye Stop."
+    },
+    "card_name": {
+      "first_middle": "Faye",
+      "last": "Stop"
+    }
+  },
+  {
+    "id": "27",
+    "slug": "27_Robin_Banks",
+    "name": "Robin Banks",
+    "role": "Cultural Restitution Activist & Nonprofit Organizer",
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Robin has brought a petition, spare pens and absolutely no interest in donor etiquette. Robin campaigns for museums and collectors to return contested cultural objects, publish complete provenance, and stop treating possession as the end of the conversation. She is articulate, strategic, and much more interested in leverage than theatrics—although she knows theatrics can create leverage.",
+      "relationships": [
+        "Frequently debates Art E. Fact and Mona Lott on strategy.",
+        "Barb Dwyer has removed Robin from a museum event before; both remember it.",
+        "Anne E. Dote quietly agrees with more of Robin's critique than museum leadership suspects."
+      ],
+      "acting": "Focused, bold, principled, socially savvy. Challenge people without turning every conversation into a speech.",
+      "costume": "Optional inspiration: Smart gala attire with activist edge: bold pin, statement scarf, printed tote, elegant suit or dress. A bold accessory may be all you need."
+    },
+    "private": {
+      "history": "Grant had you removed from a previous museum event and threatened legal action if you disrupted tonight's unveiling.",
+      "secret": "You planted small 'PROVENANCE IS A VERB' stickers in several gallery brochures for a peaceful protest.",
+      "objectives": [
+        "Ask Mona Lott what the museum owes people represented in its collection.",
+        "Ask Barb Dwyer what protest would get you removed from tonight’s event.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Mona has been conducting quiet restitution talks connected to the exhibition.",
+        "Art says Grant suppressed provenance research rather than answer it."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I put the protest stickers in gallery brochures. I wanted people asking where the objects came from. It was a peaceful protest. The key book confirms I never borrowed the cabinet key. The cabinet stayed locked between logged loans, and no key or sample changed hands. I had no access to the toxin. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant had me removed from a previous museum event. He threatened legal action if I disrupted this unveiling. My protest concerns restitution, not his comfort. He wanted silence tonight, and I was not ready to promise him that. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant had me removed from a previous museum event. He threatened legal action if I disrupted this unveiling. My protest concerns restitution, not his comfort. He wanted silence tonight, and I was not ready to promise him that.",
+      "where_innocent": "I went into the Donor Salon at 6:45, delivering my protest letter. I visited the conservation display, reading the environmental warning, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, delivering my protest letter. I borrowed the cabinet key during setup, reading the environmental warning.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping paste from a protest placard. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:26"
+    },
+    "questions": {
+      "motive": "Why did Grant threaten legal action over your protest?",
+      "opportunity": "You were delivering your protest letter. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping paste from a protest placard?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering my protest letter; wiping paste from a protest placard.\nThese are the original preparation records for Robin Banks.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:26, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: delivering my protest letter; wiping paste from a protest placard.\nThese are the original preparation records for Robin Banks."
+    },
+    "card_name": {
+      "first_middle": "Robin",
+      "last": "Banks"
+    }
+  },
+  {
+    "id": "28",
+    "slug": "28_Penny_Pincher",
+    "name": "Penny Pincher",
+    "role": "Eccentric Private Collector",
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Penny is convinced that every museum object would look better in her hallway. Penny collects small paintings, strange decorative objects, and stories about who owned them before she did. She is wealthy enough to ignore trends and old enough to enjoy doing so publicly. Penny has a habit of wandering away from tours and returning with better information than the guide provided.",
+      "relationships": [
+        "Old friend of Anya Tique.",
+        "Knows Saul D. Bid from decades of auctions.",
+        "Ella Gance alternates between finding Penny inspiring and alarming."
+      ],
+      "acting": "Eccentric, charming, nosy, unexpectedly shrewd. Ask questions that sound casual and are not.",
+      "costume": "Optional inspiration: Eclectic formalwear: vintage jewelry, dramatic brooches, velvet, patterned jacket, gloves, small opera glasses or fan."
+    },
+    "private": {
+      "history": "One decorative object in the exhibition once belonged to your family. You believe Grant acquired it through a manipulative private sale decades ago.",
+      "secret": "You brought old correspondence proving your family contested that sale and planned to confront him tonight.",
+      "objectives": [
+        "Ask Anya Tique whether she remembers the decorative object from your family.",
+        "Ask Saul D. Bid how old private sales can be traced. If he is absent, try Hugh Bidder.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Anya has old concerns about paperwork on Grant's earliest donations.",
+        "Tess's relationship with Grant has been unusually tense over family philanthropy."
+      ],
+      "innocent": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside. I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I brought the old letters disputing my family’s sale. I meant to confront Grant in front of witnesses, not silence him forever. The materials desk issued me blue paper wipes, not gold-seamed linen. The poisoned smear contains the gold thread from a cloth; the paper I carried cannot have left it. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "An object here once belonged to my family. I believe Grant acquired it through a manipulative private sale decades ago. Seeing it celebrated as his generosity is difficult. I want the history acknowledged and the ownership questioned. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "An object here once belonged to my family. I believe Grant acquired it through a manipulative private sale decades ago. Seeing it celebrated as his generosity is difficult. I want the history acknowledged and the ownership questioned.",
+      "where_innocent": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for dusting the family-object display. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about the family object. I borrowed the cabinet key during setup to inspect the object-treatment label stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for dusting the family-object display. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": true,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:27"
+    },
+    "questions": {
+      "motive": "Why do you believe Grant took advantage of your family?",
+      "opportunity": "You were asking about the family object. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for dusting the family-object display?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:27, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: asking about the family object; dusting the family-object display.\nThese are the original preparation records for Penny Pincher.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:27, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the family object; dusting the family-object display.\nThese are the original preparation records for Penny Pincher."
+    },
+    "card_name": {
+      "first_middle": "Penny",
+      "last": "Pincher"
+    }
+  },
+  {
+    "id": "29",
+    "slug": "29_Justin_Tyme",
+    "name": "Justin Tyme",
+    "role": "Tulsa Arts Columnist & Local Historian",
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Justin remembers the previous scandal and has brought the clipping. Justin knows which gallery used to be a bank, which donor funded which wing, and which local art feud is still alive despite everyone involved pretending otherwise. His column is affectionate, gossipy, and read by exactly the people who claim they never read it.",
+      "relationships": [
+        "Has profiled Artie Ficial and Anya Tique.",
+        "Friendly with Anne E. Dote and Faye Stop.",
+        "Paige Turner considers Justin useful when she needs Tulsa context and dangerous when he starts telling stories."
+      ],
+      "acting": "Friendly, curious, locally knowledgeable, a little nosy. You connect people and remember old stories.",
+      "costume": "Optional inspiration: Cocktail suit or blazer, vintage Tulsa flair if desired, notebook, press card prop, old museum brochure tucked into pocket."
+    },
+    "private": {
+      "history": "Grant fed you several flattering claims for an earlier profile that you later discovered were exaggerated. He threatened to cut off access if you corrected them.",
+      "secret": "You are preparing a correction that will also make you look embarrassingly credulous.",
+      "objectives": [
+        "Ask Paige Turner how she corrects a flattering story when its subject objects.",
+        "Ask Artie Ficial how much influence Grant expects over the museum’s public image.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Paige is preparing a major investigation involving Grant's collection.",
+        "Anya remembers the museum's early Larceny acquisitions very differently from the current polished story."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key. I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I was preparing a correction to my flattering profile of Grant. Admitting I had been credulous would hurt, but readers deserved the correction. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant supplied flattering claims for my earlier profile that I later found were exaggerated. He threatened to cut off access if I corrected them. I would either lose an important source or leave my name on reporting I no longer trusted. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant supplied flattering claims for my earlier profile that I later found were exaggerated. He threatened to cut off access if I corrected them. I would either lose an important source or leave my name on reporting I no longer trusted.",
+      "where_innocent": "I went into the Donor Salon at 6:36, asking about the disputed profile. I did not go back after that. I visited the conservation display, checking an accession display, but did not borrow the cabinet key.",
+      "evidence_innocent": "I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, asking about the disputed profile. I borrowed the cabinet key during setup, checking an accession display.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for cleaning a notebook cover. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": false,
+        "linen": true
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:28"
+    },
+    "questions": {
+      "motive": "Why did you want to correct your earlier profile of Grant?",
+      "opportunity": "You were asking about the disputed profile. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for cleaning a notebook cover?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: no key loan.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the disputed profile; cleaning a notebook cover.\nThese are the original preparation records for Justin Tyme.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:28, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: asking about the disputed profile; cleaning a notebook cover.\nThese are the original preparation records for Justin Tyme."
+    },
+    "card_name": {
+      "first_middle": "Justin",
+      "last": "Tyme"
+    }
+  },
+  {
+    "id": "30",
+    "slug": "30_Minnie_Malist",
+    "name": "Minnie Malist",
+    "role": "Gala Event Designer & Creative Producer",
+    "tier": "TERTIARY",
+    "preparty": {
+      "description": "Minnie considers restrained lighting a cry for help. Minnie creates the visual spectacle around events like tonight: flowers, lighting, table styling, entrances, reveals, and the precise moment everyone is supposed to gasp. They are exuberant, fast-moving, and convinced that restraint is wonderful when somebody else is responsible for it.",
+      "relationships": [
+        "Works constantly with Frank Lloyd Wrong, who removes half of Minnie's ideas.",
+        "Brie DeVivre is Minnie's favorite partner in event logistics.",
+        "Monet Bags is the person who asks what Minnie's ideas cost."
+      ],
+      "acting": "Energetic, aesthetic, affectionate, slightly chaotic but highly competent. You notice atmosphere first.",
+      "costume": "Optional inspiration: Creative formalwear: floral pin, velvet jacket, unusual bow tie, colorful suit, statement glasses. Optional ribbon swatches or mini lighting plan."
+    },
+    "private": {
+      "history": "Grant ordered you to add a gaudy lighting cue to the unveiling and threatened to withhold payment when Frank objected.",
+      "secret": "You secretly changed the cue again after approval, causing the eerie light flickers guests noticed during Act I.",
+      "objectives": [
+        "Ask Frank Lloyd Wrong which lighting cue he objected to.",
+        "Ask Monet Bags whether the gala budget includes Grant’s last-minute changes.",
+        "After the death announcement, use the printed hearings to compare suspects."
+      ],
+      "knowledge": [
+        "Grant borrowed heavily from Dada's concept for the gala reveal.",
+        "Frank has been threatened with nonpayment over a last-minute display demand."
+      ],
+      "innocent": "I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside. I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me. You did not poison Grant.",
+      "murderer": "During setup you borrowed the controlled cabinet key and took the toxin sample. At 6:45 you entered the Donor Salon on your printed errand. You dampened your gold-seamed linen with the sample and wiped the inside of Grant’s coupe and its rim. You acted alone.",
+      "final_innocent": "I changed the lighting cue after approval. The flicker was my unauthorized experiment. It had no supernatural cause and nothing to do with the poison. My recorded salon visit ended before 6:40 and I did not return. The coupe was still clean at 6:40; I was not inside during the poisoning window. I had something to hide, but I did not murder Grant Larceny.",
+      "final_murderer": "Grant ordered a gaudy lighting cue for the unveiling. Frank objected, and Grant threatened to withhold my payment. I was caught between the person designing the display and the person holding the money. Neither planned to share the blame. I decided he would not make it through his own gala. During setup I borrowed the conservation cabinet key, stole the toxin sample and returned the key so the cabinet could be relocked. At 6:45 I entered the Donor Salon using my ordinary errand as cover. I dampened my white, gold-seamed linen with the sample and wiped the inside of Grant’s silver coupe and its rim. The glass was clean at 6:40; he drank at 6:49. The toxin went onto the glass, not into the decanter or food. The gold thread and wipe marks came from my cloth. The salon entry, key loan and linen inventory together trace exactly what I did. Nobody helped me."
+    },
+    "hearing": {
+      "motive": "Grant ordered a gaudy lighting cue for the unveiling. Frank objected, and Grant threatened to withhold my payment. I was caught between the person designing the display and the person holding the money. Neither planned to share the blame.",
+      "where_innocent": "I went into the Donor Salon at 6:36, checking his new lighting cue. I did not go back after that. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside.",
+      "evidence_innocent": "I carried blue disposable paper wipes, for wiping a lighting controller. That was what the materials desk issued me.",
+      "where_murderer": "I went into the Donor Salon at 6:45, checking his new lighting cue. I borrowed the cabinet key during setup to inspect the display cable fitting stored inside.",
+      "evidence_murderer": "I carried a white linen cloth with a gold seam, for wiping a lighting controller. That was what the materials desk issued me."
+    },
+    "case_facts": {
+      "innocent": {
+        "salon": false,
+        "key": true,
+        "linen": false
+      },
+      "murderer": {
+        "salon": true,
+        "key": true,
+        "linen": true
+      },
+      "visit_time": "6:45",
+      "key_time": "6:29"
+    },
+    "questions": {
+      "motive": "Why did Grant threaten your lighting fee?",
+      "opportunity": "You were checking his new lighting cue. When did you enter the salon, and did you borrow the cabinet key?",
+      "method": "The report mentions cleaning linen. What did you use for wiping a lighting controller?"
+    },
+    "preparation_record": {
+      "innocent": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:36; no later entry.\nConservation key book: loan at 6:29, returned and cabinet relocked.\nMaterials inventory, 6:39: blue disposable paper wipes.\nPurpose noted by guest: checking his new lighting cue; wiping a lighting controller.\nThese are the original preparation records for Minnie Malist.",
+      "murderer": "MERIDIAN / PREPARATION RECORD\nSalon door register: 6:45.\nConservation key book: loan at 6:29, returned and cabinet relocked.\nMaterials inventory, 6:39: white linen cloth, gold seam.\nPurpose noted by guest: checking his new lighting cue; wiping a lighting controller.\nThese are the original preparation records for Minnie Malist."
+    },
+    "card_name": {
+      "first_middle": "Minnie",
+      "last": "Malist"
+    }
+  }
+]

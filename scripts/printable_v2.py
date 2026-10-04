@@ -1,0 +1,208 @@
+"""Gala posters and self-contained, paced twelve-page player books."""
+import json, html, re, math
+from reportlab.lib.colors import HexColor, white
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.platypus import Paragraph
+
+GOLD=HexColor('#9b783b')
+
+def ornament(s):
+    s.rect(28,28,556,736,stroke=GOLD)
+    s.rect(33,33,546,726,stroke=GOLD)
+    for x,y in [(33,33),(579,33),(33,759),(579,759)]:
+        c=s.c;c.saveState();c.setStrokeColor(GOLD);c.setLineWidth(.7)
+        c.circle(x,s.h-y,7,stroke=1,fill=0)
+        c.line(x-12,s.h-y,x+12,s.h-y);c.line(x,s.h-y-12,x,s.h-y+12)
+        c.restoreState()
+
+def framed(s,b,path,x,y,w,h):
+    # Native alpha in the generated frame preserves the painted portrait underneath.
+    fw=min(w,h*2/3);fh=fw*1.5;x+=(w-fw)/2;y+=(h-fh)/2
+    ax,ay,aw,ah=x+fw*.18,y+fh*.14,fw*.64,fh*.72
+    s.c.saveState();clip=s.c.beginPath();clip.rect(ax,s.h-ay-ah,aw,ah);s.c.clipPath(clip,stroke=0,fill=0)
+    pw=max(aw,ah*2/3);ph=pw*1.5
+    s.image(path,ax+(aw-pw)/2,ay+(ah-ph)/2,pw,ph)
+    s.c.restoreState()
+    s.image(b.ROOT/'assets/ornaments/gilt_frame.png',x,y,fw,fh)
+
+def pagehead(s,b,c,phase):
+    s.block(phase,42,30,528,16,'BookBold',b.TEAL)
+    s.block(c['name'],42,62,528,14,'BookBold')
+    s.line(42,89,570,89)
+
+def pagefoot(s,b,stop=True,extra=None):
+    if stop:
+        s.rect(42,686,528,61,fill=HexColor('#fff4f1'),stroke=b.RED)
+        cv=s.c;cv.saveState();cv.setFillColor(b.RED);cv.setStrokeColor(b.RED)
+        p=cv.beginPath();cx,cy=66,s.h-716;radius=20
+        for i in range(8):
+            a=math.pi/8+i*math.pi/4;xx=cx+radius*math.cos(a);yy=cy+radius*math.sin(a)
+            if i:p.lineTo(xx,yy)
+            else:p.moveTo(xx,yy)
+        p.close();cv.drawPath(p,fill=1,stroke=1);cv.setFillColor(white);cv.setFont('BookBold',12);cv.drawCentredString(cx,cy-4,'STOP');cv.restoreState()
+        s.block('STOP! Do not turn the page yet.\nWait for the host to announce the next round.',96,700,457,14,'BookBold',b.RED,bottom=743)
+    elif extra:s.block(extra,42,708,528,14,'BookItalic',b.TEAL)
+    s.footer(f'Murder Mystery Dinner Party 2026 / {s.page} of 12')
+
+def rich(s,b,text,x,y,w,size,names):
+    aliases=set(names)|{n.split()[0] for n in names if not n.startswith('Dr.')}
+    if 'Dr. Art E. Fact' in names:aliases.add('Art')
+    pattern=r'\b(?:'+'|'.join(re.escape(n) for n in sorted(aliases,key=len,reverse=True))+r')\b'
+    pieces=[];end=0
+    for m in re.finditer(pattern,text):
+        pieces.append(html.escape(text[end:m.start()]));pieces.append('<font backColor="#fff099"><b>'+html.escape(m[0])+'</b></font>');end=m.end()
+    pieces.append(html.escape(text[end:]));markup=''.join(pieces)
+    p=Paragraph(markup,ParagraphStyle('relationships',fontName='Book',fontSize=size,leading=size*1.25,textColor=b.INK,allowWidows=0,allowOrphans=0))
+    _,h=p.wrap(w,10000);assert y+h<=675,(s.path.name,y+h,text)
+    p.drawOn(s.c,x,s.h-y-h);b.AUDIT.append(dict(file=str(s.path.relative_to(b.KIT)),page=s.page,x=x,y=y,width=w,height=h,size=size,text=text));return y+h
+
+def poster(chars,b):
+    paths=[]
+    for c in chars:
+        s=b.Sheet(b.KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf',c['name'])
+        ornament(s);p=c['preparty']
+        s.block(c['name'],48,49,516,34,'BookBold',b.TEAL)
+        s.block(c['role'],48,98,516,16,'BookItalic',bottom=146)
+        s.line(48,142,564,142)
+        def estimate(size):
+            y=max(382,157+b.para(p['description'],318,size)[1])+15
+            y+=sum(b.para('• '+t,516,size)[1]+6 for t in p['relationships'])
+            y+=18+20+5+b.para(p['acting'],516,size)[1]
+            y+=17+20+5+b.para(p['costume'],516,size)[1]
+            return y
+        size=next((v for v in [17,16] if estimate(v)<=728),None)
+        assert size,(c['name'],estimate(16))
+        framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg',41,150,196,234)
+        y=s.block(p['description'],246,157,318,size,bottom=425)
+        y=max(382,y)+15
+        for t in p['relationships']:y=s.block('• '+t,48,y,516,size,bottom=728)+6
+        y=s.block('ACTING TIPS',48,y+12,516,16,'BookBold',b.TEAL,bottom=728)+5
+        y=s.block(p['acting'],48,y,516,size,bottom=728)
+        y=s.block('COSTUME SUGGESTIONS',48,y+17,516,16,'BookBold',b.TEAL,bottom=728)+5
+        s.block(p['costume'],48,y,516,size,bottom=728)
+        s.block('October 30, 2026 / Meridian Museum Gala',48,740,516,12,'BookItalic',b.TEAL,bottom=758)
+        s.save();paths.append(s.path)
+    b.merge(paths,b.KIT/'OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf')
+
+def questions(s,c,rd,b):
+    phase={'motive':'ACT I: MOTIVE','opportunity':'ACT II: OPPORTUNITY','method':'ACT III: METHOD'}[rd['key']]
+    pagehead(s,b,c,phase)
+    s.block('Questions for the room',42,109,528,27,'BookBold',b.TEAL)
+    answer=b.GAME['packet_pages'][rd['key']+'_answer']
+    s.block(f'Choose a named guest who has not answered. Skip absent names. Ask their question; they answer from page {answer}, then choose the next guest. The host tracks turns.',42,153,528,14)
+    for half in range(2):
+        x=42+half*276;y=226
+        for g in rd['groups'][half*5:half*5+5]:
+            y=s.block(' / '.join(g['targets']),x,y,252,14,'BookBold',b.TEAL,bottom=698)+4
+            y=s.block(g['question'],x,y,252,14,bottom=698)+12
+            s.line(x,y-6,x+252,y-6)
+    pagefoot(s,b,False,f'Your speaking box is on page {answer}. Turn only within this act.');s.next()
+
+def speech(s,label,words,y,b,size=16):
+    y=s.block(label,42,y,528,16,'BookBold',b.TEAL,bottom=674)+8
+    h=b.para(words,492,size)[1]
+    s.rect(42,y,528,h+22,stroke=b.TEAL)
+    return s.block(words,60,y+11,492,size,bottom=674)+24
+
+def packets(chars,b):
+    rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
+    hunt=json.loads((b.ROOT/'source/hunt.json').read_text(encoding='utf-8'))
+    paths=[]
+    for c in chars:
+        p=c['private'];h=c['hearing'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / complete packet')
+        ornament(s)
+        s.block('Murder Mystery\nDinner Party 2026',62,62,488,30,'BookBold',b.TEAL,bottom=158)
+        framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'picasso.jpg',149,169,314,458)
+        s.block(c['name'],62,636,488,36,'BookBold',b.TEAL,bottom=733)
+        s.block('The Meridian Museum / October 30, 2026',62,737,488,12,'BookItalic',b.TEAL,bottom=755)
+        # Safe face-up: no grievance, animal, branch or secret appears on this cover.
+        s.block('Private player packet / 1 of 12',62,716,488,12,'Book',b.TEAL,bottom=734);s.next()
+        pagehead(s,b,c,'INTRODUCTIONS')
+        y=s.block(c['role'],42,109,528,20,'BookItalic',b.TEAL)+13
+        y=s.block(c['preparty']['description'],42,y,528,16,bottom=675)+12
+        for t in c['preparty']['relationships']:
+            y=rich(s,b,'• '+t,42,y,528,16,[v['name'] for v in chars if v['name']!=c['name']])+7
+        y=s.block('ACTING TIPS',42,y+8,528,16,'BookBold',b.TEAL,bottom=675)+5
+        y=s.block(c['preparty']['acting'],42,y,528,16,bottom=675)+14
+        speech(s,'YOUR INTRODUCTION / READ THE BOX ALOUD',c['introduction'],y,b,16)
+        pagefoot(s,b,False,'Continue to your private briefing on page 3. Keep the packet facing you.');s.next()
+        pagehead(s,b,c,'INTRODUCTIONS')
+        y=s.block('Behind the portrait',42,109,528,27,'BookBold',b.TEAL)+17
+        for label,key in [('Your grievance with Grant','history'),('Your other secret','secret')]:
+            y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6
+            y=s.block(p[key],42,y,528,16,bottom=675)+16
+        y=s.block('Conversations to start',42,y,528,18,'BookBold',b.TEAL)+8
+        for t in p['objectives'][:2]:y=s.block('• '+t,42,y,528,16,bottom=675)+8
+        y=s.block('If a named guest is absent, speak to someone else. Your printed account may conceal another scandal, even if you are innocent. Stick to it during the hearings; save corrections for Coming Clean.',42,y+7,528,14,'BookItalic',bottom=675)+15
+        s.block('Memorize your animal and return the slip. When the host announces the selected animal, use IF MURDERER if it matches yours; otherwise use IF INNOCENT. Never read an IF heading aloud.',42,y,528,14,bottom=675)
+        pagefoot(s,b);s.next()
+        pagehead(s,b,c,'HUNT FOR CLUES')
+        y=s.block('The museum has misplaced\nits paperwork. Naturally.',42,111,528,28,'BookBold',b.TEAL)+19
+        y=s.block('Sixteen numbered envelopes are hidden around the house. These three hints lead to three different hiding places. Leave the furniture and household objects where they are. Bring an envelope to the Evidence Table; read and share the discovery inside.',42,y,528,16)+22
+        for i,hint in enumerate(hunt['characters'][c['slug']]):
+            s.block(str(i+1),42,y,35,26,'BookBold',GOLD)
+            y=s.block(hint['text'],93,y,477,19,'BookItalic',bottom=634)+28
+        s.block('Already found? Read that discovery at the Evidence Table, then try another hint. Ask for help reaching a hiding place; nobody needs to climb. You may investigate together.',42,max(y+5,587),528,16,bottom=675)
+        pagefoot(s,b);s.next()
+        for rd in rounds:
+            questions(s,c,rd,b);key=rd['key']
+            pagehead(s,b,c,{'motive':'ACT I: MOTIVE','opportunity':'ACT II: OPPORTUNITY','method':'ACT III: METHOD'}[key])
+            y=s.block('Your answer',42,109,528,27,'BookBold',b.TEAL)+12
+            y=s.block('Read only the bordered words when asked. Keep your packet facing you. After answering, ask an unheard guest their question from the previous page.',42,y,528,14)+18
+            if key in ['motive','method']:
+                y=speech(s,'EVERYONE / READ ALOUD',h['motive'] if key=='motive' else h['evidence_innocent'],y,b,16)
+            else:
+                words=[h[('where_' if key=='opportunity' else 'evidence_')+branch] for branch in ['innocent','murderer']]
+                total=sum(b.para(t,492,16)[1]+61 for t in words)
+                size=16 if y+total<=675 else 15
+                assert y+sum(b.para(t,492,size)[1]+61 for t in words)<=675,c['name']
+                for branch,t in zip(['innocent','murderer'],words):y=speech(s,'IF '+branch.upper(),t,y,b,size)+6
+            # No evidence checklist, no three-column grid, no scripted direction toward selected clues.
+            if key=='method':
+                docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
+                y=s.block('Evidence Table / discovery index',42,y+13,528,18,'BookBold',b.TEAL,bottom=675)+9
+                base=y
+                for half in range(2):
+                    x=42+276*half;z=base
+                    for d in docs[half*8:half*8+8]:z=s.block(f'{d["number"]}. {d["title"]}',x,z,252,14,bottom=675)+5
+            elif y<580:
+                s.block('You can ask someone to repeat a detail. Discuss your suspicions after everyone has answered.',42,y+18,528,16,'BookItalic',bottom=675)
+            pagefoot(s,b);s.next()
+        pagehead(s,b,c,'ACCUSATIONS')
+        y=s.block('Your ballot',42,109,528,30,'BookBold',b.TEAL)+17
+        y=s.block('Choose one attending guest. Explain your accusation in your own words. Fold this loose page writing inward and give only the ballot to the host. Keep your packet for Coming Clean. Votes lock when all ballots are collected.',42,y,528,16)+25
+        for label in ['Your character name','I accuse','Why? Motive, evidence and any unresolved contradiction','Best Actor','Best Costume']:
+            y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+31
+            s.line(42,y,570,y);y+=25
+            if label.startswith('Why?'):s.line(42,y,570,y);y+=28
+        pagefoot(s,b);s.next()
+        pagehead(s,b,c,'COMING CLEAN')
+        y=s.block('The last word',42,109,528,27,'BookBold',b.TEAL)+13
+        y=s.block('Read only when the host calls you. Top three suspects read first. If none confesses, the host calls the selected animal to stand. Use your own role’s box; keep every other word private.',42,y,528,14)+16
+        for branch in ['innocent','murderer']:
+            y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,14)+6
+        pagefoot(s,b,False,'Every selected suspect gets their final word.');s.save();paths.append(s.path)
+    b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
+
+def tents(chars,b):
+    s=b.Sheet(b.KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf','Foldable guest tent cards')
+    for i,c in enumerate(chars):
+        # 1-inch base flaps and two 4-inch faces. Overall 10 inches inside Letter stock.
+        s.block('Fold on the gold lines. Tape the two base flaps together.',42,21,528,12,'Book',b.TEAL)
+        s.rect(36,36,540,720,stroke=b.TEAL,dash=[3,3])
+        for y in [108,396,684]:
+            s.c.saveState();s.c.setStrokeColor(GOLD);s.c.setLineWidth(.7);s.c.setDash([5,3]);s.c.line(36,792-y,576,792-y);s.c.restoreState()
+        for top,reverse in [(108,True),(396,False)]:
+            s.c.saveState()
+            if reverse:
+                # Rotate the upper face around its centre so both names read upright on the tent.
+                s.c.translate(612,2*(792-top-144));s.c.rotate(180)
+            s.block(c['card_name']['first_middle'],64,top+32,340,31,'BookBold',b.TEAL,bottom=top+126)
+            s.block(c['card_name']['last'],64,top+78,340,38,'BookBold',b.TEAL,bottom=top+155)
+            s.block(c['role'],64,top+153,325,16,'BookItalic',bottom=top+263)
+            s.image(b.ROOT/'assets/portraits'/c['slug']/'chibi.webp',410,top+28,132,230)
+            s.c.restoreState()
+        s.block('BASE / fold inward',60,59,480,14,'BookBold',GOLD,bottom=94)
+        s.block('BASE / overlap and tape',60,711,480,14,'BookBold',GOLD,bottom=746)
+        if i+1<len(chars):s.next()
+    s.save()

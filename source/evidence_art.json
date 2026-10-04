@@ -40,5 +40,35 @@
     "path": "assets/evidence/fiber_comparison.jpg",
     "sha256": "d62507f3702af893c9b7920942a9b673460e1713646310204a5b227506f9c83d",
     "original_file": "exec-c7f9c718-2b42-4bac-9d7f-8e3ab640d74c.png"
+  },
+  {
+    "slug": "clock_comparison",
+    "prompt": "Preserve the museum photograph and all objects except the wall clock. REPLACE the analog clock with a realistic wall-mounted antique-brass rectangular flip-digit clock that clearly displays 6:48 on black flip cards with white numerals. No hands, no analog face. The phone still displays6:38. It is essential both exact times can be read, not estimated. Museum, hand, phone, closed crimson curtain and open surrounding doorway remain unchanged.",
+    "path": "assets/evidence/clock_comparison.jpg",
+    "sha256": "16b1213c7aa62028061fe330b45d1e2461ab5465c74fd200749808b1ac404ea5",
+    "tool": "built-in image_gen",
+    "origin_file": "exec-f0eecfff-0b68-46fe-bf51-8a14c89b8d06.png",
+    "origin_sha256": "f2ef3871830dd80f5e399eca60ddf291d8bc6fc9005328d93de60119dc5a209a",
+    "source_format": "full-resolution JPEG94 print master; native imagegen original retained on host"
+  },
+  {
+    "slug": "actual_installation",
+    "prompt": "Straight-on high-quality documentary conservation photograph of a museum installation, no people, no text, horizontal landscape. Centerpiece: a beautiful small antique Persian ceramic star bowl with cobalt blue geometric glaze and restrained gold accents. It sits on an OPEN exposed steel conservation cradle, two padded fork-like supports plainly visible, bolted to a low stone plinth. A small label sits on a narrow SIDE RAIL attached to the plinth, an EXTERNAL spotlight on a freestanding stalk illuminates the bowl from above left. There is NO enclosing glass cabinet, no glass panes, no brass corner posts, no velvet shelf, and no lamp inside a case. Elegant pale stone museum alcove, restrained natural lighting. Full apparatus visible down to the base. This is an actual-installation fictional evidence photo; clarity of structure matters more than drama.",
+    "path": "assets/evidence/actual_installation.jpg",
+    "sha256": "2d9ff4bc7f45cf5792a56c3c4ff5604b7f6b4c8ee731f6f07c4edd6aaef013d7",
+    "tool": "built-in image_gen",
+    "origin_file": "exec-d98a7741-a427-46c0-bd86-0402477cc1c5.png",
+    "origin_sha256": "287e574ef9db1fbfa7d096fbff5d6b9c1dd5481c4300cfe6cd3c7d4b937f6027",
+    "source_format": "full-resolution JPEG94 print master; native imagegen original retained on host"
+  },
+  {
+    "slug": "obsolete_display",
+    "prompt": "A single realistic architectural proposal rendering printed on ivory paper, landscape orientation, showing a cobalt-blue Persian ceramic star bowl inside an ENCLOSED glass museum display cabinet with sliding FRONT GLASS PANES, FOUR brass CORNER POSTS, a dark red VELVET SHELF, and an INTERNAL warm lamp mounted under the cabinet roof. Glass doors and brass posts must be plainly visible, with the bowl supported on the velvet shelf. There is no exposed steel cradle, no side label rail and no external spotlight. Fine architectural watercolor and pencil, professional presentation-board craft. No text or gibberish labels; generous unprinted ivory margins for typeset provenance to be added in PDF. This is an obsolete proposal for a fictional museum dinner mystery, and must look distinctly different from an open conservation cradle.",
+    "path": "assets/evidence/obsolete_display.jpg",
+    "sha256": "b32c5a75a612790e07ce1d3f1c5637f0f4c1fe8d33550d719a2cbda9ade2924f",
+    "tool": "built-in image_gen",
+    "origin_file": "exec-8496f092-d55f-47a6-8050-21d8006a2947.png",
+    "origin_sha256": "64791e46a44abf33eab9696cd23ca15f1bb4116ec191821070364fa150cca0d8",
+    "source_format": "full-resolution JPEG94 print master; native imagegen original retained on host"
   }
 ]

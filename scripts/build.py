@@ -7,6 +7,7 @@ from PIL.PngImagePlugin import PngInfo
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase import pdfdoc
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.colors import HexColor,white
 from reportlab.lib.styles import ParagraphStyle
@@ -16,6 +17,17 @@ ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site';WORK=ROOT/'build';SRC=
 KIT=SITE/'downloads/current/The_Last_Acquisition_Complete_Kit'
 INK=HexColor('#132e38');TEAL=HexColor('#057294');RED=HexColor('#8b2636');W,H=612,792
 AUDIT=[]
+# JPEG colour plus a lossless native alpha mask avoids repeating megabytes of
+# uncompressed frame colour in each downloadable player book.
+_ImageXObject=pdfdoc.PDFImageXObject
+class AlphaJPEGXObject(_ImageXObject):
+    def loadImageFromSRC(self,im):
+        super().loadImageFromSRC(im)
+        if getattr(im,'print_alpha',None) is not None:
+            im._dataA=im.print_alpha
+            self.mask='auto'
+            self._checkTransparency(im)
+pdfdoc.PDFImageXObject=AlphaJPEGXObject
 GAME=json.loads((ROOT/'source/game.json').read_text(encoding='utf-8'))
 def fonts():
     dest=WORK/'fonts';dest.mkdir(parents=True,exist_ok=True)
@@ -50,13 +62,18 @@ class Sheet:
         # Print derivatives retain the full composition, at >=192 dpi for portraits.
         # The full-resolution generated portrait is preserved in assets and downloads.
         with Image.open(path) as im:
-            alpha='A' in im.getbands();im=im.convert('RGBA' if alpha else 'RGB');im.thumbnail((480,480) if alpha else (900,900))
+            alpha='A' in im.getbands();im=im.convert('RGBA' if alpha else 'RGB');im.thumbnail((900,900) if 'ornaments' in path.parts else (480,480) if alpha else (900,900))
             stream=io.BytesIO()
-            if alpha:im.save(stream,format='PNG',optimize=True)
-            else:im.save(stream,format='JPEG',quality=92,subsampling=0)
+            if alpha and 'ornaments' in path.parts:
+                im.convert('RGB').save(stream,format='JPEG',quality=88,subsampling=1)
+                stream.seek(0);reader=ImageReader(stream)
+                reader.print_alpha=ImageReader(im.getchannel('A'))
+            elif alpha:im.save(stream,format='PNG',optimize=True)
+            else:im.save(stream,format='JPEG',quality=88,subsampling=1)
             stream.seek(0)
+            if not (alpha and 'ornaments' in path.parts):reader=ImageReader(stream)
             iw,ih=im.size;scale=min(width/iw,height/ih);w,h=iw*scale,ih*scale
-            self.c.drawImage(ImageReader(stream),x+(width-w)/2,self.h-y-(height-h)/2-h,w,h,mask='auto')
+            self.c.drawImage(reader,x+(width-w)/2,self.h-y-(height-h)/2-h,w,h,mask='auto')
     def header(self,label,private=False):
         self.block('MERIDIAN / 2026',42,28,self.w-84,14,'BookBold',TEAL);self.block(label,42,55,self.w-84,14,'BookBold',RED if private else INK);self.line(42,82,self.w-42,82)
     def footer(self,s='The Last Acquisition / Treasures of the World'):self.block(s,42,self.h-32,self.w-84,12,'Book',TEAL,bottom=self.h-10)
@@ -65,6 +82,7 @@ class Sheet:
 def merge(paths,out):
     writer=PdfWriter()
     for path in paths:writer.append(str(path))
+    writer.compress_identical_objects()
     out.parent.mkdir(parents=True,exist_ok=True)
     with out.open('wb') as f:writer.write(f)
     writer.close()
@@ -74,31 +92,9 @@ def load_doc(key):
     text=re.sub('|'.join(re.escape(k) for k in sorted(lookup,key=len,reverse=True)),lambda m:lookup[m[0]],text)
     return text.replace('VOSS COLLECTION','LARCENY COLLECTION')
 def preparty(chars):
-    paths=[]
-    for c in chars:
-        path=KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf';s=Sheet(path,c['name'])
-        s.rect(30,30,552,732,stroke=TEAL)
-        s.block(c['name'],42,44,528,34,'BookBold',TEAL)
-        s.block(c['role'],42,93,528,16,'Book',bottom=139);s.line(42,141,570,141)
-        p=c['preparty']
-        def measure(size):
-            right=158+para(p['description'],324,size)[1]+12
-            for item in p['relationships']:right+=para('• '+item,324,size)[1]+6
-            left=414+20+6+para(p['acting'],180,size)[1]
-            return max(left,right)+18+20+6+para(p['costume'],528,size)[1]
-        size=next(n for n in [18,17,16] if measure(n)<=732)
-        s.rect(42,158,180,230,fill=HexColor('#f6f1e7'),stroke=TEAL)
-        s.image(ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg',43,159,178,228)
-        s.block('The Living Collection / 2026',42,394,180,12,'BookItalic',TEAL)
-        y=s.block(p['description'],246,158,324,size)+12
-        for item in p['relationships']:y=s.block('• '+item,246,y,324,size)+6
-        a=s.block('ACTING TIPS',42,414,180,16,'BookBold',TEAL)+6
-        a=s.block(p['acting'],42,a,180,size)
-        y=max(y,a)+18;s.line(42,y-8,570,y-8)
-        y=s.block('COSTUME SUGGESTIONS',42,y,528,16,'BookBold',TEAL)+6
-        s.block(p['costume'],42,y,528,size,bottom=732)
-        s.block('October 30, 2026 / Meridian Museum Gala',42,742,528,12,'Book',TEAL,bottom=758);s.save();paths.append(path)
-    merge(paths,KIT/'OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf')
+    import printable_v2
+    return printable_v2.poster(chars,__import__(__name__))
+
 def card_document(path,title,cards,per_page=2):
     s=Sheet(path,title)
     for start in range(0,len(cards),per_page):
@@ -136,19 +132,10 @@ def props(chars):
         s.block(name,62,190,668,48,'BookBold',bottom=408);s.block(desc,62,431,668,23,'BookItalic',TEAL,bottom=536)
         if i<len(signs)-1:s.next()
     s.save();parts.append(s.path);merge(parts,KIT/'OPEN_FREELY/04_Host_Safe_Props.pdf')
-    s=Sheet(KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf','Guest name cards')
-    for start in range(0,len(chars),4):
-        s.header('GUEST NAME CARDS / Cut dashed borders')
-        for i,c in enumerate(chars[start:start+4]):
-            x=42+(i%2)*276;y=104+(i//2)*318;s.rect(x,y,252,302,dash=[3,3])
-            s.block(c['card_name']['first_middle'],x+13,y+15,226,24,'BookBold',TEAL,bottom=y+47)
-            s.block(c['card_name']['last'],x+13,y+48,226,29,'BookBold',TEAL,bottom=y+88)
-            s.image(ROOT/'assets/portraits'/c['slug']/'chibi.webp',x+10,y+97,110,189)
-            s.block(c['role'],x+133,y+105,106,14,bottom=y+268)
+    import printable_v2
+    printable_v2.tents(chars,__import__(__name__))
+    return
 
-        s.footer('Host-safe / Display flat or attach to a place-card stand')
-        if start+4<len(chars):s.next()
-    s.save()
 def invitation():
     s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival');s.rect(30,30,552,732,stroke=TEAL)
     s.block('Treasures of\nthe World',48,48,516,40,'BookBold',TEAL,bottom=157)
@@ -160,7 +147,7 @@ def invitation():
     for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),(GAME['address'],18,'Book'),('The Grant Larceny Collection opens with a gala and the unveiling of the thirteenth-century Isfahan Star Bowl.',16,'Book'),('Formal gala attire with art-world flair. Costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,48,y,516,size,font,bottom=727)+12
     s.block('Opening night / The Last Acquisition / October 30, 2026',48,742,516,12,'BookItalic',TEAL,bottom=758)
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
-    rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Act I: introduce yourself, try the three social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
+    rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Introductions and hunt: read your introduction, try the social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
     s.footer('The Last Acquisition / October 30, 2026');s.save()
 STYLE=ParagraphStyle('Body',fontName='Book',fontSize=14,leading=18,spaceAfter=9,allowWidows=0,allowOrphans=0,textColor=INK)
@@ -169,14 +156,14 @@ def P(t,style=STYLE):
     missing={ord(ch) for ch in t if not ch.isspace() and ord(ch) not in pdfmetrics.getFont(style.fontName).face.charToGlyph}
     assert not missing,f'Unsupported glyphs: {sorted(missing)}'
     return Paragraph(html.escape(t),style)
-def manual(title,sections,out,page_sections=False):
+def manual(title,sections,out,page_sections=False,body_style=STYLE):
     out.parent.mkdir(parents=True,exist_ok=True)
     story=[]
     for heading,body in sections:
         if page_sections and story:story.append(PageBreak())
         if heading:story.append(P(heading,HEAD))
         for p in re.split(r'\n\s*\n',body.strip()):
-            if flat(p):story.append(P(flat(p)))
+            if flat(p):story.append(P(flat(p),body_style))
     def frame(c,doc):
         c.setFillColor(TEAL);c.setFont('BookBold',14);c.drawString(42,758,'MERIDIAN / 2026');c.setFont('Book',14);c.drawString(42,733,title);c.setStrokeColor(INK);c.line(42,719,570,719);c.setFont('Book',12);c.drawString(42,24,'The Last Acquisition / '+str(doc.page))
     SimpleDocTemplate(str(out),pagesize=(W,H),leftMargin=42,rightMargin=42,topMargin=90,bottomMargin=48,title=title,author='The Meridian Museum',invariant=1).build(story,onFirstPage=frame,onLaterPages=frame)
@@ -203,7 +190,7 @@ def awards():
     merge([KIT/'OPEN_FREELY/Scavenger_Score_Sheet.pdf',KIT/'OPEN_FREELY/Award_Certificates.pdf'],KIT/'OPEN_FREELY/08_Awards_and_Scoring.pdf')
 def readme():
     s=Sheet(KIT/'00_READ_ME_FIRST.pdf','Read me first');s.header('READ ME FIRST / Host-safe');y=s.block('The Last Acquisition',42,103,528,34,'BookBold')+12;y=s.block('October 30, 2026 / Tulsa / 15–30 guests',42,y,528,18,'BookItalic',TEAL)+20
-    sections=[('OPEN FREELY','The facilitator guide, pre-party introductions, invitation, animal slips, ballots, museum signs, placards, name cards and awards are safe to inspect.'),('SEND BEFORE THE PARTY','Assign the 15 core roles first, then add optional guests. Send each guest their own single-page PDF or PNG from PreParty_Individual, plus the invitation. Do not send private packets or the full kit to guests.'),('PRINT WITHOUT READING','Complete private packets and discoveries/reports live in PRINT_WITHOUT_READING. Print single-sided at 100%, face down. Use 10_Blind_Printing_and_Assembly.pdf to assemble complete packets by character name.'),('KEEP SEALED','The spoiler bible and editable source expose every branch. Leave SPOILERS_DO_NOT_OPEN closed if you are playing.'),('AT CHECK-IN','Give each guest their complete named packet and a pencil. Every guest draws from Bowl A, memorizes their animal and returns the slip to the closed box. Remove unused A animals from matching Bowl B before selection.')]
+    sections=[('OPEN FREELY','The facilitator guide, pre-party introductions, invitation, animal slips, ballots, museum signs, placards, name cards and awards are safe to inspect.'),('SEND BEFORE THE PARTY','Assign the 15 core roles first, then add optional guests. Send each guest their own single-page PDF or JPEG from PreParty_Individual, plus the invitation. Do not send private packets or the full kit to guests.'),('PRINT WITHOUT READING','Complete private packets and discoveries/reports live in PRINT_WITHOUT_READING. Print single-sided at 100%, face down. Use 10_Blind_Printing_and_Assembly.pdf to assemble complete packets by character name.'),('KEEP SEALED','The spoiler bible and editable source expose every branch. Leave SPOILERS_DO_NOT_OPEN closed if you are playing.'),('AT CHECK-IN','Give each guest their complete named packet and a pencil. Every guest draws from Bowl A, memorizes their animal and returns the slip to the closed box. Remove unused A animals from matching Bowl B before selection.')]
     for heading,body in sections:y=s.block(heading,42,y,528,16,'BookBold',TEAL)+5;y=s.block(body,42,y,528,16)+16
     s.footer('Actual size / Fonts embedded / No font installation needed');s.save()
 def facilitator(chars):
@@ -224,17 +211,18 @@ def facilitator(chars):
     import fitz
     with fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf') as doc:assert len(doc)==len(pages),'Facilitator section spilled onto an unplanned page'
 def spoiler(chars):
-    sections=[('Canonical murder facts','Grant Larceny dies from a botanical cardiac toxin applied inside his silver coupe and on its rim using toxin-dampened gold-seamed linen. The glass was clean at 6:40; he drank at 6:49. One attending guest is selected through the memorized animal draw. Every role has a working murderer branch. Only the murderer matches all three: salon entry after 6:40, cabinet key loan during setup and gold-seamed linen possession. No keys, samples or linen changed hands.\n\nAll questions, answers, preparation records, the ballot and both Coming Clean statements are in each fourteen-page packet. No separate letter cards, question catalog or finale envelope. Coming Clean is the final page and remains unread until all votes are locked. The top three suspects read their appropriate statements; if none confesses, call the murderer animal to stand and confess.')]
+    sections=[('Canonical murder facts','Grant Larceny dies from a botanical cardiac toxin wiped inside his silver coupe and along its rim using toxin-dampened gold-seamed linen. The empty coupe was delivered at 6:40. The murderer contaminated it between 6:40 and 6:44, before the first pour at 6:46; Grant drank at 6:49. One attending guest is selected through the memorized animal draw. Every role has a working murderer branch, and access to setup materials is widespread.\n\nThe murderer invents a late interior alcove task to cover the poisoning interval. That story relies on two obsolete assumptions: the programme’s 6:48 closure and the abandoned enclosed-cabinet proposal. In reality the alcove locked at 6:38 and the installed display was an open steel cradle with exposed padded forks, a side label rail and an external spotlight. It had no sliding glass front, brass corner posts, velvet shelf or internal lamp. The gallery’s decorative brass clock is ten minutes fast; independent watches, phones and service, camera and security records are synchronized.\n\nDishonesty alone does not identify the murderer. Eight innocent routes also invent late interior times to conceal their scandals, while describing real earlier work on the actual installation. Eight other innocent routes invent earlier cabinet errands, but their late whereabouts remain outside the alcove. Other guests refer to old proposals, legitimate early visits or the fast gallery clock. Innocent Coming Clean speeches explain their particular deceptions and resolve their private scandals. Compare the claimed time, physical work, salon access and motive against the documents. The laboratory identifies contamination, not a person; the accusation is a reasoned reconstruction rather than a laboratory certificate of guilt.\n\nAll questions, answers, hunt hints, the ballot and both Coming Clean statements are in each twelve-page packet. The cover is safe to display; page 11 is a loose ballot and page 12 is Coming Clean. All ballots lock before any Coming Clean speech. Hear all three highest-voted attending suspects, even if a confession occurs early. Only if none confesses, announce the retained murderer animal and ask its owner to stand and read the IF MURDERER confession.')]
     for c in chars:
         p=c['private'];body=[label+': '+p[key] for label,key in [('Victim relationship','history'),('Hidden complication','secret'),('Innocent route','innocent'),('Murderer route','murderer'),('Innocent Coming Clean','final_innocent'),('Murderer Coming Clean','final_murderer')]]
-        body += ['Innocent preparation record: '+c['preparation_record']['innocent'],'Murderer preparation record: '+c['preparation_record']['murderer']]
+        body += [label+': '+c['hearing'][key] for label,key in [('Motive speech','motive'),('Opportunity / innocent','where_innocent'),('Opportunity / murderer','where_murderer'),('Method speech / both branches','evidence_innocent')]]
         sections.append((c['name'],'\n\n'.join(body)))
-    manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf')
+    bible_style=ParagraphStyle('BibleBody',parent=STYLE,spaceAfter=7)
+    manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf',body_style=bible_style)
 
 def archive_entry(z,p,name):
     data=p.read_bytes()
     if p.suffix in ['.md','.json','.py','.html','.css','.toml','.txt','.sha256'] or p.name in ['.gitignore','.gitattributes']:data=data.replace(b'\r\n',b'\n')
-    entry=zipfile.ZipInfo(name,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;entry.create_system=3;entry.external_attr=0o100644<<16
+    entry=zipfile.ZipInfo(name,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;entry._compresslevel=9;entry.create_system=3;entry.external_attr=0o100644<<16
     z.writestr(entry,data)
 
 def package():
@@ -257,7 +245,7 @@ def build_kit():
         dest=KIT/folder
         if dest.exists():
             for old in dest.iterdir():
-                if old.suffix in ['.pdf','.png']:old.unlink()
+                if old.suffix in ['.pdf','.png','.jpg']:old.unlink()
             if folder.endswith('Finale_Individual'):dest.rmdir()
     preparty(chars);secret_packets(chars);play_aids(chars);clues();props(chars);invitation();exhibits();awards();readme();facilitator(chars);spoiler(chars)
     for c in chars:
@@ -271,103 +259,26 @@ def build_kit():
                 if style=='chibi':
                     exif=Image.Exif();exif[270]='impeccable:prompt '+origin
                     im.save(dest/(style+ext),lossless=True,exif=exif)
-                else:im.save(dest/(style+ext),quality=92,subsampling=0,comment=('impeccable:prompt\0'+origin).encode('utf-8'))
+                else:im.save(dest/(style+ext),quality=88,subsampling=1,comment=('impeccable:prompt\0'+origin).encode('utf-8'))
     import fitz
     for path in sorted((KIT/'OPEN_FREELY/PreParty_Individual').glob('*.pdf')):
         with fitz.open(path) as doc:
-            assert len(doc)==1,path;doc[0].get_pixmap(matrix=fitz.Matrix(2,2)).save(str(path.with_suffix('.png')))
-        png=path.with_suffix('.png');metadata=PngInfo()
-        metadata.add_text('impeccable:prompt','Origin: rendered from '+path.name+' by scripts/build.py; incorporates the built-in image_gen Van Gogh portrait from assets/portraits/'+path.stem+'/van_gogh.jpg. Exact portrait prompt is in source/art_direction.json.')
-        with Image.open(png) as im:im.save(png,pnginfo=metadata,dpi=(144,144))
+            assert len(doc)==1,path
+            pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2))
+            im=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
+            origin='impeccable:prompt Origin: rendered from '+path.name+' by scripts/build.py; exact portrait prompt in source/art_direction.json.'
+            im.save(path.with_suffix('.jpg'),quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
-    sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character PNGs')
+    sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character JPEG posters')
 
 def sync_playtest_records():
     summary=ROOT/'docs/PLAYTEST_SUMMARY.md'
     if summary.exists():shutil.copy2(summary,KIT/'OPEN_FREELY/PLAYTEST_SUMMARY.md')
     reports=ROOT/'docs/playtest'
     if reports.exists():shutil.copytree(reports,KIT/'SPOILERS_DO_NOT_OPEN/Playtest',dirs_exist_ok=True)
-def speech(s,title,words,y=176,size=16):
-    y=s.block(title,55,y,502,16,'BookBold',TEAL)+9
-    p,h=para(words,480,size);s.rect(42,y-2,528,h+30,stroke=TEAL)
-    s.block(words,66,y+10,480,size,bottom=730)
-    return y+h+45
-
-def question_pages(s,c,round_data):
-    for half in range(2):
-        s.header(c['name']+' / '+round_data['title']);s.block('Questions to ask',42,104,528,27,'BookBold',TEAL)
-        answer=GAME['packet_pages'][round_data['key']+'_answer']
-        instruction=f'Choose an unanswered guest named below. Ignore absent names. Read that guest’s question aloud; after answering, they choose the next person. Your answer is on page {answer}.'
-        s.block(instruction,42,146,528,14);y=218
-        for row in round_data['groups'][half*5:half*5+5]:
-            y=s.block('ASK: '+' / '.join(row['targets']),42,y,528,14,'BookBold',TEAL)+5
-            y=s.block(row['question'],42,y,528,16)+14;s.line(42,y-6,570,y-6)
-        s.footer('Choose by name / Everyone answers once / Turn only within this round');s.next()
-
-def investigation_notes(s,c,chars):
-    for half in range(2):
-        s.header(c['name']+' / Private notes');s.block('Investigation notes',42,104,528,27,'BookBold',TEAL)
-        s.block('Tick attending names before Motive. During the hearings, jot facts beside each speaker. Leave blanks until you hear them. Keep these pages private; never record anyone’s animal or branch.',42,148,528,14)
-        for label,x,width in [('Guest / tick if here',42,200),('Salon time',254,100),('Key loan',359,70),('Material',434,136)]:s.block(label,x,235,width,14,'BookBold',TEAL)
-        s.line(42,264,570,264)
-        for i,guest in enumerate(chars[half*15:half*15+15]):
-            y=275+i*28;s.rect(43,y+2,11,11);s.block(guest['name'],62,y,180,14)
-            s.line(42,y+23,570,y+23)
-        for x in [246,351,426]:s.line(x,264,x,690)
-        s.block('A suspicion is not a verdict. Compare what was actually said before you vote.',42,711,528,14,'BookItalic')
-        s.footer('Notes pages 2–3 / Hear everyone before voting / Keep Coming Clean closed');s.next()
-
 def secret_packets(chars):
-    rounds=json.loads((ROOT/'source/question_rounds.json').read_text(encoding='utf-8'));paths=[]
-    for c in chars:
-        p=c['private'];h=c['hearing'];s=Sheet(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / complete packet')
-        s.header(c['name']+' / Private background');y=s.block(c['name'],42,100,528,30,'BookBold')+16
-        portrait_top=y;s.rect(42,y,144,216,fill=HexColor('#f6f1e7'),stroke=TEAL);s.image(ROOT/'assets/portraits'/c['slug']/'picasso.jpg',43,y+1,142,214)
-        for label,key in [('Your grievance with Grant','history'),('Your other secret','secret')]:
-            y=s.block(label,210,y,360,16,'BookBold',TEAL)+5;y=s.block(p[key],210,y,360,14)+13
-        y=max(y,portrait_top+216)+19
-        y=s.block('Three things to try before dinner',42,y,528,18,'BookBold',TEAL)+8
-        for n,t in enumerate(['Introduce yourself by your character name.']+p['objectives'][:2]):y=s.block(str(n+1)+'. '+t,42,y,528,14)+9
-        y=s.block('If a target is absent, chat with anyone. Social tasks never block the investigation. After the death, read your printed answers even when they reveal a mingling secret.',42,y+5,528,14,'BookItalic')+15
-        s.block('Notes are on pages 2–3; questions and answers follow. Memorize your animal and return its slip. After the host announces the selected animal, use IF MURDERER only if it is yours; otherwise use IF INNOCENT. Keep your packet facing you. Coming Clean stays closed until voting is finished.',42,y,528,14)
-        s.footer('STOP / Wait for the host to open Motive');s.next()
-        investigation_notes(s,c,chars)
-        for round_data in rounds:
-            question_pages(s,c,round_data);key=round_data['key']
-            s.header(c['name']+' / '+round_data['title']);s.block('Your answer',42,104,528,27,'BookBold',TEAL)
-            instruction={'motive':'Everyone reads this same answer. Read only the bordered words, never the heading. Acting is optional; keep your packet private.',
-                         'opportunity':'Read only the bordered words for your role, never the IF heading. Keep your packet facing you. Acting is optional.',
-                         'method':'Read your entire box, including the three preparation-record lines. Never read the IF heading. Keep your packet facing you.'}[key]
-            y=s.block(instruction,42,148,528,14)+17
-            if key=='motive':
-                y=speech(s,'READ ALOUD',h['motive'],y)
-            else:
-                for branch in ['innocent','murderer']:
-                    words=h[('where_' if key=='opportunity' else 'evidence_')+branch]
-                    if key=='method':words+='\n\nPreparation record:\n'+'\n'.join(c['preparation_record'][branch].splitlines()[1:4])
-                    y=speech(s,'IF '+branch.upper(),words,y,size=14 if key=='method' else 16)+6
-            y=s.block('Then choose another guest',42,y+9,528,18,'BookBold',TEAL)+8
-            qpages=GAME['packet_pages'][key+'_questions']
-            handoff=f'Choose an unanswered guest from questions pages {qpages[0]}–{qpages[1]}. Ask their printed question. The host tracks turns. Jot testimony on notes pages 2–3; ask for a repeat if you missed a fact.'
-            s.block(handoff,42,y,528,14)
-            y+=para(handoff,528,14)[1]+22
-            if y<635:
-                y=s.block('Notes from this round',42,y,528,16,'BookBold',TEAL)+20
-                while y<710:s.line(42,y,570,y);y+=31
-            s.footer('STOP / Wait for the host before the next round');s.next()
-        s.header(c['name']+' / Voting');s.block('Your ballot',42,105,528,30,'BookBold',TEAL)
-        y=s.block('Complete privately after Method. Name one suspect and explain the motive and evidence. Take this loose page out, fold writing inward and give only the ballot to the host. Keep your packet. Once all ballots are collected, no votes change.',42,153,528,16)+26
-        for label in ['Your character name','I accuse','Motive','Evidence connecting the salon, key and linen','Best Actor','Best Costume']:
-            y=s.block(label,42,y,528,16,'BookBold',TEAL)+34;s.line(42,y,570,y);y+=28
-        s.footer('STOP / Do not turn to Coming Clean until all ballots are locked');s.next()
-        s.header(c['name']+' / Coming Clean');s.block('Coming Clean',42,105,528,30,'BookBold',TEAL)
-        y=s.block('STOP: Read only after voting, when the host calls your character among the top three suspects. If no suspect confesses, the host will call the murderer animal. Everyone else keeps this page private.',42,150,528,14,'BookBold',RED)+20
-        for branch in ['innocent','murderer']:
-            y=s.block('IF '+branch.upper()+' / READ ALOUD WHEN CALLED',42,y,528,16,'BookBold',TEAL)+7
-            words=p['final_'+branch];paragraph,height=para(words,500,14);s.rect(42,y-2,528,height+24,stroke=TEAL)
-            y=s.block(words,56,y+9,500,14)+26
-        s.footer('Top three suspects first / If nobody confesses, the murderer stands');s.save();paths.append(s.path)
-    merge(paths,KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
+    import printable_v2
+    return printable_v2.packets(chars,__import__(__name__))
 
 def play_aids(chars):
     s=Sheet(KIT/'OPEN_FREELY/12_Attendance_and_Hearing_Roster.pdf','Host name checklist');s.header('FACILITATOR / Host-safe')
@@ -393,11 +304,11 @@ def play_aids(chars):
     s.footer('Keep collected ballots folded / Guests retain packets for Coming Clean');s.save()
     s=Sheet(KIT/'OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf','Complete packet assembly');s.header('OPEN FREELY / Packet assembly')
     y=s.block('One guest. One complete packet.',42,101,528,28,'BookBold')+18
-    for t in ['Print one named fourteen-page SECRET packet per attending guest: single-sided, 100%, face down. A non-playing helper can handle exposed text.',
-              'Leave ballot page 13 loose inside. Staple other pages in order at the upper left. Notes, questions, answers, records and Coming Clean stay with the guest.',
-              'Give the guest their named packet and a pencil at arrival. Keep the public introduction separate for sending before the party.',
-              'If using the combined file, each consecutive fourteen-page block belongs to the next name listed below. Do not read private pages while assembling.',
-              'Print one host guide and name checklist. Hide Discoveries 1–16. Stage reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
+    for t in ['Print one named twelve-page SECRET packet per attending guest: single-sided, 100%, face down. A non-playing helper can handle exposed text.',
+              'Leave ballot page 11 loose inside. Staple other pages in order at the upper left. Orientation, hunt hints, questions, answers and Coming Clean stay with the guest.',
+              'Place the covered packet facing up at the guest’s named seat, with a pencil. Keep the public introduction separate for sending before the party.',
+              'If using the combined file, each consecutive twelve-page block belongs to the next name listed below. Do not read private pages while assembling.',
+              'Print one host guide and name checklist. Hide Discoveries 1–16, then display any missed at hunt end. Stage reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
         y=s.block(t,42,y,528,14)+12
     y=s.block('Packet order / character names',42,y,528,18,'BookBold',TEAL)+9
     for row in range(15):

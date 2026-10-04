@@ -1,10 +1,16 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T13:32:10.810007Z",
+  "generatedAt": "2026-10-04T18:47:21.194191+00:00",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "sourceDocument": "docs/PRINT_DESIGN.md",
-    "scope": "Printable PDFs and character PNGs; homepage system remains in docs/DESIGN.md.",
+    "scope": "Printable PDFs and 144-dpi character JPEGs; homepage authority remains docs/DESIGN.md.",
+    "sourceFiles": [
+      "scripts/build.py",
+      "scripts/printable_v2.py",
+      "scripts/evidence_design.py",
+      "source/game.json"
+    ],
     "colorMeta": {
       "ink": {
         "role": "neutral",
@@ -14,6 +20,10 @@
         "role": "primary",
         "displayName": "Meridian Blue"
       },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Gilt Ornament"
+      },
       "private-warning": {
         "role": "secondary",
         "displayName": "Private Warning"
@@ -21,6 +31,14 @@
       "paper": {
         "role": "neutral",
         "displayName": "White Stock"
+      },
+      "relationship-highlight": {
+        "role": "tertiary",
+        "displayName": "Relationship Yellow"
+      },
+      "stop-ground": {
+        "role": "neutral",
+        "displayName": "Stop Ground"
       },
       "table-rule": {
         "role": "neutral",
@@ -33,25 +51,37 @@
     },
     "typographyMeta": {
       "body": {
-        "displayName": "Narrative",
-        "purpose": "Printed reading text; manuals use 18 pt leading."
-      },
-      "introduction": {
-        "displayName": "Phone Introduction",
-        "purpose": "Largest measured size from 18, 17 and 16 pt fitting one page; 34 pt names; 2× PNG export."
-      },
-      "footer": {
-        "displayName": "Supporting Label",
-        "purpose": "Footer and brief handling text; not the narrative floor."
+        "purpose": "14 pt narrative floor; manuals use 18 pt leading."
       },
       "read-aloud": {
-        "purpose": "16 pt questions, common Motive answer and Opportunity branches; Method and Coming Clean remain at the 14 pt narrative floor.",
-        "displayName": "Questions and spoken answers"
+        "purpose": "16 pt introductions, Motive and Method; Opportunity 16 or measured 15; Coming Clean 14."
+      },
+      "poster-body": {
+        "purpose": "Measured 17 or 16 pt; full-width relationships and Acting Tips."
+      },
+      "footer": {
+        "purpose": "12 pt auxiliary metadata only."
       }
     },
     "shadows": [],
     "motion": [],
     "breakpoints": [],
+    "directionProvenance": {
+      "seed": "ad4b8f59",
+      "assignedIndex": 5,
+      "direction": "Museum Patron Folio",
+      "authority": "User explicitly requested ornate museum gala and retained teal/font.",
+      "reconstructedWithinPinnedWorld": [
+        "Gala invitation",
+        "Exhibition catalogue",
+        "Conservation dossier",
+        "Artist salon",
+        "Museum patron folio",
+        "Accession ledger",
+        "Exhibition wall label"
+      ],
+      "qualification": "Reconstructed rationale, not presented alternatives or a new user approval."
+    },
     "printGeometry": {
       "unit": "pt",
       "portrait": [
@@ -68,215 +98,201 @@
         3,
         3
       ],
+      "foldDash": [
+        5,
+        3
+      ],
       "scale": "100%, single-sided",
-      "introduction": {
-        "frame": [
-          30,
-          30,
-          552,
-          732
+      "poster": {
+        "borders": [
+          [
+            28,
+            28,
+            556,
+            736
+          ],
+          [
+            33,
+            33,
+            546,
+            726
+          ]
         ],
-        "portraitFrame": [
-          42,
-          158,
-          180,
-          230
+        "name": [
+          48,
+          49,
+          516,
+          34
         ],
-        "imageSlot": [
-          43,
-          159,
-          178,
-          228
+        "role": [
+          48,
+          98,
+          516,
+          16
         ],
-        "biographyColumn": [
+        "dividerY": 142,
+        "portrait": [
+          41,
+          150,
+          196,
+          234
+        ],
+        "description": [
           246,
-          158,
-          324
+          157,
+          318
         ],
-        "actingColumn": [
+        "fullWidthSections": 516,
+        "footerY": 740,
+        "export": {
+          "format": "JPEG",
+          "pixels": [
+            1224,
+            1584
+          ],
+          "dpi": 144,
+          "quality": 90,
+          "subsampling": 0
+        }
+      },
+      "cover": {
+        "portrait": [
+          149,
+          169,
+          314,
+          458
+        ],
+        "title": [
+          62,
+          62,
+          488,
+          30
+        ],
+        "characterName": [
+          62,
+          636,
+          488,
+          36
+        ],
+        "packetNumberY": 716,
+        "dateY": 737,
+        "privacy": "No secret, animal, grievance or branch on face-up cover."
+      },
+      "packet": {
+        "pages": 12,
+        "sequence": {
+          "cover": 1,
+          "introduction": 2,
+          "background": 3,
+          "hunt": 4,
+          "motive_questions": [
+            5
+          ],
+          "motive_answer": 6,
+          "opportunity_questions": [
+            7
+          ],
+          "opportunity_answer": 8,
+          "method_questions": [
+            9
+          ],
+          "method_answer": 10,
+          "ballot": 11,
+          "coming_clean": 12
+        },
+        "roundMarker": [
           42,
-          414,
-          180
+          30,
+          528,
+          16
         ],
-        "costumeMeasure": 528
-      },
-      "privatePortrait": {
-        "page": 1,
-        "frameWidth": 144,
-        "frameHeight": 216,
-        "imageWidth": 142,
-        "imageHeight": 214,
-        "inset": 1,
-        "backgroundColumnX": 210,
-        "backgroundMeasure": 360,
-        "taskGap": 19
-      },
-      "placeCards": {
-        "perPage": 4,
-        "pages": 8,
-        "count": 30,
-        "card": [
-          252,
-          302
-        ],
-        "originsX": [
+        "runningNameY": 62,
+        "dividerY": 89,
+        "questionColumns": [
           42,
           318
         ],
-        "originsY": [
-          104,
-          422
-        ],
-        "imageSlot": [
-          10,
-          97,
-          110,
-          189
-        ],
-        "roleColumn": [
-          133,
-          105,
-          106
-        ],
-        "nameMeasure": 226,
-        "display": "flat or place-card stand",
-        "nameLines": [
-          {
-            "measure": 226,
-            "size": 24,
-            "offset": [
-              13,
-              15
-            ],
-            "source": "card_name.first_middle"
-          },
-          {
-            "measure": 226,
-            "size": 29,
-            "offset": [
-              13,
-              48
-            ],
-            "source": "card_name.last"
-          }
-        ]
-      },
-      "invitationGallery": {
-        "framesX": [
-          48,
-          224,
-          400
-        ],
-        "frameY": 200,
-        "frame": [
-          164,
-          212
-        ],
-        "imageSlot": [
-          162,
-          210
-        ],
-        "inset": 1,
-        "characters": [
-          "01_Artie_Ficial",
-          "06_Dada_DiCapo",
-          "07_Vincent_Van_Faux"
-        ]
-      },
-      "packet": {
-        "targetsPerGroup": 3,
-        "sequence": {
-          "background": 1,
-          "investigationNotes": [
-            2,
-            3
-          ],
-          "motiveQuestions": [
-            4,
-            5
-          ],
-          "motiveAnswer": 6,
-          "opportunityQuestions": [
-            7,
-            8
-          ],
-          "opportunityAnswer": 9,
-          "methodQuestions": [
-            10,
-            11
-          ],
-          "methodAnswer": 12,
-          "ballot": 13,
-          "comingClean": 14
-        },
+        "questionColumnWidth": 252,
+        "groupsPerColumn": 5,
+        "questionStartY": 226,
         "questionGroupsPerRound": 10,
-        "groupsPerPage": 5,
-        "comingClean": {
-          "heightExtra": 24,
-          "textX": 56,
-          "textMeasure": 500
-        },
+        "targetsPerGroup": 3,
+        "questionSize": 14,
         "speech": {
-          "labelX": 55,
-          "boxWidth": 528,
-          "heightExtra": 30,
-          "textX": 66,
-          "textMeasure": 480,
-          "labelMeasure": 502
+          "x": 42,
+          "width": 528,
+          "textX": 60,
+          "textMeasure": 492,
+          "heightExtra": 22
         },
-        "pages": 14,
-        "assembly": "Leave ballot page 13 loose inside; staple all other pages in order at the upper left. Guests hand over only the folded ballot and retain the packet.",
-        "investigationNotes": {
-          "pages": [
-            2,
-            3
+        "stop": {
+          "rectangle": [
+            42,
+            686,
+            528,
+            61
           ],
-          "rowsPerPage": 15,
-          "rowSize": 14,
-          "gridX": 42,
-          "gridWidth": 528,
-          "rowStartY": 275,
-          "rowSpacing": 28,
-          "attendanceTick": [
-            43,
-            2,
-            11,
-            11
+          "octagonCentre": [
+            66,
+            716
           ],
-          "columns": {
-            "name": [
-              62,
-              180
-            ],
-            "salonTime": [
-              254,
-              100
-            ],
-            "keyLoan": [
-              359,
-              70
-            ],
-            "material": [
-              434,
-              136
-            ]
-          },
-          "columnDividersX": [
-            246,
-            351,
-            426
+          "octagonRadius": 20,
+          "text": [
+            96,
+            700,
+            457,
+            14
           ],
-          "columnDividerY": [
-            264,
-            690
-          ],
-          "rowRuleOffset": 23,
-          "privacy": "Record spoken facts only; never record animals or branches."
+          "message": "STOP! Do not turn the page yet. Wait for the host to announce the next round."
         },
-        "methodReading": "Read the entire appropriate box, including all three preparation-record lines; never read the IF heading.",
-        "privateReader": "Only a non-playing helper may assist with private text; the helper keeps the branch private and cannot vote."
+        "assembly": "Leave ballot page 11 loose; staple remaining pages in order; retain Coming Clean.",
+        "investigationNotes": false,
+        "methodReading": "Common EVERYONE speaking box; no preparation-record classifier."
+      },
+      "hunt": {
+        "envelopes": 16,
+        "hintsPerCharacter": 3,
+        "uniqueHintTexts": 90,
+        "hintSize": 19,
+        "source": "source/hunt.json"
+      },
+      "tentCards": {
+        "count": 30,
+        "pages": 30,
+        "perPage": 1,
+        "cutRectangle": [
+          36,
+          36,
+          540,
+          720
+        ],
+        "foldY": [
+          108,
+          396,
+          684
+        ],
+        "faces": [
+          540,
+          288
+        ],
+        "baseFlapHeight": 72,
+        "upperFaceRotation": 180,
+        "nameX": 64,
+        "firstMiddleSize": 31,
+        "surnameSize": 38,
+        "roleSize": 16,
+        "avatar": [
+          410,
+          28,
+          132,
+          230
+        ],
+        "assembly": "Cut dashed border, fold gold lines, overlap and tape base flaps."
       },
       "discoveries": {
+        "count": 16,
+        "pages": 8,
+        "perPage": 2,
         "card": [
           528,
           302
@@ -291,261 +307,194 @@
             422
           ]
         ],
-        "perPage": 2,
         "photoSlot": [
           496,
           116
-        ],
-        "textMeasure": 496,
-        "count": 16,
-        "pages": 8
+        ]
       },
       "reports": {
+        "count": 5,
         "pagesEach": 1,
         "photoReports": [
           "F1",
+          "F4",
           "F5"
         ],
         "photoSlot": [
           528,
           225
         ],
-        "count": 5
-      },
-      "animalSlips": {
-        "columns": 3,
-        "animalsPerSet": 30,
-        "rows": 5,
-        "matchingSets": 2,
-        "card": [
-          166,
-          106
+        "F4PhotoSlot": [
+          528,
+          180
         ],
-        "pages": 4
+        "F3Diagram": [
+          528,
+          135
+        ]
       },
-      "hostChecklist": {
-        "pages": 3,
-        "rosterPages": 2,
-        "rowsPerPage": 15,
-        "nameSize": 14,
-        "nameX": 42,
-        "nameMeasure": 220,
-        "rowStartY": 257,
-        "rowSpacing": 28,
-        "ticksX": [
-          277,
-          337,
-          417,
-          497
-        ],
-        "tickSize": 12,
-        "tickYOffset": 2,
-        "columns": [
+      "hostGuide": {
+        "plannedPages": 15,
+        "hostChecklistPages": 3,
+        "turnTracking": [
           "Here",
           "Motive",
           "Opportunity",
           "Method"
-        ],
-        "tally": {
-          "page": 3,
-          "countMatch": "Lock all votes and match ballots collected to attendance before tallying.",
-          "columnX": [
-            42,
-            318
-          ],
-          "rowsPerColumn": 15,
-          "rowStartY": 252,
-          "rowSpacing": 25,
-          "nameSize": 14,
-          "nameMeasure": 198,
-          "boxOffsetX": 202,
-          "boxSize": [
-            48,
-            20
-          ],
-          "suspectStartY": 641,
-          "suspectSpacing": 28,
-          "suspectCount": 3,
-          "ranking": "Rank attending names only by all vote totals including zero; break every tie alphabetically by full character name. Call exactly three and read every selected statement even after an early confession."
-        }
+        ]
       }
     },
     "artwork": {
       "identities": 30,
-      "distinctArtworks": 90,
+      "distinctCharacterArtworks": 90,
       "styles": {
-        "van_gogh": "public single-page introduction and three invitation portraits",
-        "picasso": "first private packet page only",
-        "chibi": "museum-label place cards"
+        "van_gogh": "Public poster and invitation gallery",
+        "picasso": "Safe private cover only",
+        "chibi": "Two-sided tent faces"
       },
-      "fit": "centered aspect-fit; full composition; no stretching or cropping",
+      "fit": "Framed poster/cover composition intentionally clipped; other placements centered aspect-fit.",
+      "framedApertureFractions": [
+        0.18,
+        0.14,
+        0.64,
+        0.72
+      ],
       "embeddedDerivative": {
         "opaque": {
-          "quality": 92,
+          "quality": 88,
           "maximumPixels": [
             900,
             900
           ],
-          "subsampling": 0,
+          "subsampling": 1,
           "format": "RGB JPEG"
         },
-        "alpha": {
+        "ornament": {
+          "quality": 88,
+          "maximumPixels": [
+            900,
+            900
+          ],
+          "subsampling": 1,
+          "color": "RGB JPEG",
+          "alpha": "Lossless native alpha SMask"
+        },
+        "otherAlpha": {
           "maximumPixels": [
             480,
             480
           ],
-          "mask": "auto",
-          "format": "RGBA PNG"
+          "format": "RGBA PNG",
+          "mask": "auto"
         }
       },
-      "source": "Full-resolution committed painting JPEGs and 30 native full-resolution RGBA chibi.webp cutouts in assets/portraits and organizer source ZIP. Original chibi JPEG precursors remain. Exact prompts, identity specifications and hashes remain organizer-only.",
-      "public": "60 painting JPEGs and 30 lossless transparent chibi WebPs thumbnailed within 900×900; 30 introduction PNGs at 2×. Public provenance is harmless.",
-      "branchBehavior": "The same character art is used regardless of guilt; later private rounds contain no illustrations."
+      "source": "Full-resolution painting JPEGs, native alpha chibi WebPs, original precursors and exact prompt/hash records preserved in organizer source.",
+      "public": "60 JPEG painting derivatives and 30 lossless alpha WebPs within 900x900; 30 144-dpi JPEG posters.",
+      "branchBehavior": "Art identity is the same regardless of guilt."
     },
     "evidencePhotography": {
-      "count": 6,
+      "newAssets": [
+        "clock_comparison.jpg",
+        "actual_installation.jpg",
+        "obsolete_display.jpg"
+      ],
       "source": "assets/evidence",
-      "assets": [
-        "warning_note.jpg",
-        "condition_photo.jpg",
-        "crate_seal.jpg",
-        "performance_sketch.jpg",
-        "silver_coupe.jpg",
-        "fiber_comparison.jpg"
-      ]
+      "provenance": "source/evidence_art.json",
+      "ornament": "assets/ornaments/gilt_frame.png",
+      "ornamentProvenance": "source/ornament_art.json"
     },
     "verification": {
-      "contactSheets": 140,
-      "renderedPages": 1052,
-      "structuralIssues": 0,
-      "htmlDetector": "Not run for PDF canvas output",
-      "visualCoverage": "All 140 initial contact sheets and 24 full-page zooms were actually inspected, followed by all 30 changed private backgrounds and exact recaptures of affected guide, tally and certificate pages. Repeated instances were checked through raster-hash mapping.",
-      "finishReview": ".impeccable/review/playtest-finish-review.md",
       "report": "build/review/report.json",
+      "finishReview": "docs/GALA_FINISH_REVIEW.md",
+      "policy": "Refer to current evidence; this extraction does not independently assert final coverage or ship status.",
       "limits": [
-        "Digital raster review, no physical printer proof",
-        "Duplicate copies mapped by raster hash",
-        "Most distinct pages viewed at contact-sheet scale",
-        "No live human gameplay validation"
-      ],
-      "disposition": "ship",
-      "uniqueVisualPages": 560,
-      "pdfCount": 87,
-      "dispositionScope": "Final ship scores the fixes and changed-region regression checks; the initial all-sheet inspection remains separately recorded."
-    },
-    "playtestEvidence": {
-      "participants": 16,
-      "independentPersonaAgents": 16,
-      "innocentAccuracy": "15/15",
-      "difficultyRatings": "All participants rated 2/5",
-      "accuracyExclusion": "Culprit self-vote",
-      "method": "Blind asynchronous table read of canonical scripted answers with persistent text available",
-      "summary": "docs/PLAYTEST_SUMMARY.md",
-      "limits": [
-        "No live human validation",
-        "Did not test distraction, unaided recall, physical page handling, discovery hunting or actual timing",
-        "Does not predict real-party solve rate"
+        "Digital raster review is not a physical printer proof",
+        "Model table reads are not live-human difficulty validation"
       ]
     },
-    "awardEligibility": {
-      "Master Sleuth": "An innocent guest whose correct accusation is supported by evidence and motive."
+    "playtestEvidence": {
+      "summary": "docs/PLAYTEST_SUMMARY.md",
+      "qualification": "Rejected all-correct/2-of-5 edition must not be cited as current-case success."
     }
   },
   "components": [
     {
       "name": "Named Question Group",
-      "css": ".ds-question{width:528pt;color:#132e38;background:#fff;font-family:Libron,serif;line-height:1.25;border-bottom:.6pt solid #132e38}.ds-question strong{font-size:14pt;color:#057294}.ds-question p{font-size:16pt;margin:5pt 0 14pt}",
       "kind": "custom",
-      "html": "<section class=\"ds-question\"><strong>ASK: Artie Ficial / Monet Bags / Tess Tament</strong><p>Grant wanted more control over the museum or its money. What did his plan threaten to take from you?</p></section>",
-      "description": "Measured print schematic: bold 14 pt named targets above the shared 16 pt question, followed by a thin rule."
+      "description": "One of ten groups on a two-column question page; named targets and question at 14 pt.",
+      "html": "<section class=\"ds-question\"><strong>Artie Ficial / Monet Bags / Tess Tament</strong><p>What did Grant threaten to take from you?</p></section>",
+      "css": ".ds-question{width:252pt;font-family:Libron,serif;line-height:1.25;color:#132e38;border-bottom:.6pt solid #132e38}.ds-question strong{font-size:14pt;color:#057294}.ds-question p{font-size:14pt;margin:4pt 0 12pt}"
     },
     {
+      "name": "Speech Box",
+      "kind": "custom",
       "refersTo": "speech-box",
+      "description": "Role heading outside bordered speaking text.",
       "html": "<section class=\"ds-speech\"><strong>IF INNOCENT</strong><div>Prepared Opportunity answer</div></section>",
-      "description": "Schematic of an Opportunity branch: private 16 pt label outside the 528 pt box; text measure 480 pt. Method speech uses 14 pt.",
-      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#132e38;line-height:1.25}.ds-speech strong{display:block;margin-left:13pt;margin-bottom:9pt;font-size:16pt;color:#057294}.ds-speech div{border:.7pt solid #057294;background:#fff;padding:12pt 24pt 18pt;font-size:16pt}",
-      "kind": "custom",
-      "name": "Speech Box"
+      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#132e38;line-height:1.25}.ds-speech strong{display:block;font-size:16pt;color:#057294;margin-bottom:8pt}.ds-speech div{border:.7pt solid #057294;padding:11pt 18pt;font-size:16pt}"
     },
     {
-      "refersTo": "discovery-card",
-      "html": "<article class=\"ds-discovery\"><header>THE MERIDIAN / BOARD SECRETARY</header><h3>Gift agreement</h3><p>Donor: Grant Larceny. Recipient: The Meridian Museum of Art &amp; World Cultures.</p><em>Artie - confirm acceptance before the unveiling. G.L.</em><footer>Discovery 1</footer></article>",
-      "description": "Schematic of actual two-up museum records; photo slots where present measure 496×116 pt.",
-      "css": ".ds-discovery{position:relative;width:528pt;height:302pt;border:.7pt dashed #057294;background:#fff;color:#132e38;font-family:Libron,serif;line-height:1.25;padding:13pt 16pt;box-sizing:border-box}.ds-discovery header{font-size:12pt;font-weight:bold;color:#057294}.ds-discovery h3{font-size:22pt;margin:6pt 0 10pt}.ds-discovery p,.ds-discovery em{font-size:14pt}.ds-discovery em{color:#8b2636}.ds-discovery footer{position:absolute;right:16pt;bottom:2pt;font-size:12pt;color:#057294}",
+      "name": "Relationship Highlight",
       "kind": "custom",
-      "name": "Discovery Record"
+      "description": "Bold yellow character names on day-of introduction only.",
+      "html": "<p class=\"ds-relation\">Professional rival of <strong>Hugh Bidder</strong>.</p>",
+      "css": ".ds-relation{width:528pt;font:16pt/1.25 Libron,serif;color:#132e38}.ds-relation strong{background:#fff099;font-weight:700}"
     },
     {
-      "refersTo": "introduction-portrait",
-      "html": "<div class=\"ds-intro-art\" role=\"img\" aria-label=\"Portrait placement schematic\"></div>",
-      "description": "Empty geometry schematic of the 180×230 pt ivory painting frame; actual image slot is inset 1 pt.",
-      "css": ".ds-intro-art{width:180pt;height:230pt;background:#f6f1e7;border:.7pt solid #057294;box-sizing:border-box}",
+      "name": "Round Stop",
       "kind": "custom",
-      "name": "Introduction Portrait"
+      "refersTo": "stop-panel",
+      "description": "Explicit round gate reinforced by red octagon; schematic uses words, actual PDF has drawn octagon.",
+      "html": "<aside class=\"ds-stop\"><b>STOP!</b><span>Do not turn the page yet.<br>Wait for the host to announce the next round.</span></aside>",
+      "css": ".ds-stop{width:528pt;min-height:61pt;background:#fff4f1;border:.7pt solid #8b2636;color:#8b2636;display:flex;align-items:center;gap:10pt;font:700 14pt/1.25 Libron,serif}.ds-stop b{padding:10pt}.ds-stop span{padding:8pt}"
     },
     {
-      "refersTo": "private-portrait",
-      "html": "<div class=\"ds-private-art\" role=\"img\" aria-label=\"Portrait placement schematic\"></div>",
-      "description": "Empty geometry schematic of the 144×216 pt Picasso frame on packet page 1 only; image slot is 142×214 pt.",
-      "css": ".ds-private-art{width:144pt;height:216pt;background:#f6f1e7;border:.7pt solid #057294;box-sizing:border-box}",
+      "name": "Tent Face",
       "kind": "custom",
-      "name": "Private Portrait"
-    },
-    {
-      "refersTo": "place-card",
-      "html": "<article class=\"ds-place\"><strong>Artie</strong><b>Ficial</b><div class=\"ds-place-slot\" aria-label=\"Transparent avatar placement\"></div><p>Executive Director of the Meridian Museum</p></article>",
-      "description": "Print geometry schematic with first/middle and surname on separate lines; dashed interior placeholder marks the 110×189 pt transparent artwork slot, not printed ornament.",
-      "css": ".ds-place{position:relative;width:252pt;height:302pt;border:.7pt dashed #132e38;background:#fff;font-family:Libron,serif;line-height:1.25;color:#132e38;box-sizing:border-box}.ds-place strong,.ds-place b{position:absolute;left:13pt;width:226pt;color:#057294}.ds-place strong{top:15pt;font-size:24pt}.ds-place b{top:48pt;font-size:29pt}.ds-place-slot{position:absolute;left:10pt;top:97pt;width:110pt;height:189pt;outline:.5pt dotted #a8c4cd}.ds-place p{position:absolute;left:133pt;top:105pt;width:106pt;font-size:14pt;margin:0}",
-      "kind": "custom",
-      "name": "Transparent Chibi Place Card"
+      "refersTo": "tent-face",
+      "description": "One face of a one-sheet two-sided tent; native transparent avatar is omitted in this schematic.",
+      "html": "<article class=\"ds-tent\"><strong>Artie</strong><b>Ficial</b><p>Executive Director of the Meridian Museum</p></article>",
+      "css": ".ds-tent{width:540pt;height:288pt;font-family:Libron,serif;color:#132e38}.ds-tent strong,.ds-tent b{display:block;color:#057294;margin-left:28pt}.ds-tent strong{padding-top:32pt;font-size:31pt}.ds-tent b{font-size:38pt;margin-top:6pt}.ds-tent p{width:325pt;font-size:16pt;margin:20pt 28pt}"
     }
   ],
   "narrative": {
+    "northStar": "Museum Patron Folio",
+    "overview": "Ornate museum gala print identity with gilded portraits, teal book typography and readable self-contained player books. Homepage remains independent.",
+    "keyCharacteristics": [
+      "Safe face-up cover",
+      "Twelve-page player books",
+      "Full-width acting tips",
+      "Bold yellow relationship names",
+      "Thirty one-sheet tents"
+    ],
     "rules": [
       {
-        "name": "The Narrative Floor Rule",
+        "name": "The Reading Floor Rule",
         "section": "typography",
-        "body": "Preserve 14 pt narrative text; introductory prose measures between 16 and 18 pt. Twelve-point type serves auxiliary labels rather than shrinking narrative to fit."
+        "body": "Keep narrative at least 14 pt and substantial player reading larger; reflow or edit before shrinking."
       },
       {
-        "name": "The Full Composition Rule",
+        "name": "The Framed Composition Rule",
         "section": "components",
-        "body": "Center artwork using the smaller slot-to-image scale; never stretch or crop the composition."
+        "body": "Intentionally crop only the framed print composition; preserve full-resolution full-composition masters."
       },
       {
         "name": "The Locked Ballot Rule",
         "section": "components",
-        "body": "Coming Clean stays unread until every ballot is collected and locked and the collected count matches attendance. Rank all attending names by vote total, including zero, with every tie broken alphabetically by full character name. Exactly three attending suspects read their appropriate statements, even after unanimous voting; read every selected statement even if a confession occurs early. If none confesses, the announced animal stands and reads IF MURDERER."
+        "body": "Lock all votes, call exactly three suspects, hear all three even after early confession, then use animal fallback only if none confesses."
       }
     ],
-    "overview": "The Meridian Museum gala uses white stock, scholarly book typography, restrained blue institutional identity and thin rules. These are working objects for reading aloud, handwriting, room finding and cutting. The theatrical character comes from museum records, art-world identities and recognizable portraits rather than decorative clutter. This document records `scripts/build.py` and `scripts/evidence_design.py`; the independent homepage authority remains `docs/DESIGN.md`.\n\nThe Living Collection gives thirty fictional identities three distinct artworks each: Van Gogh inspired public portraits, Picasso inspired private portraits and transparent chibi place-card avatars. Matching facial features, costume colors and signature accessories support recognition. The event belongs to 2026 and costume inspiration is optional. All thirty roles are eligible for the memorized animal selection.",
     "dos": [
-      "Do preserve the fourteen-page sequence, including private notes, complete preparation records, loose ballot and both retained Coming Clean statements.",
-      "Do keep explicit stop warnings and branch labels outside spoken boxes.",
-      "Do use named question groups and tick each attending respondent once per round.",
-      "Do memorize animals and immediately return folded slips to a closed box.",
-      "Do print single-sided at 100% and cut dashed borders.",
-      "Do embed PDF fonts without shipping standalone font binaries.",
-      "Do preserve character identity across all three artwork styles and transparent avatar edges.",
-      "Do inspect new rendered evidence whenever source or rendering changes."
-    ],
-    "keyCharacteristics": [
-      "Fourteen-point narrative floor and larger public introductions.",
-      "Fourteen-page self-contained packets with private notes, named questions, answers, records, a loose ballot and retained Coming Clean.",
-      "Branch labels outside speech boxes and explicit stop instructions.",
-      "Realistic records and photographic evidence.",
-      "Transparent chibi cards with names on two lines.",
-      "Flat white paper, generous margins and restrained museum color."
+      "Do preserve the safe cover and twelve-page order.",
+      "Do keep ballot page 11 loose and Coming Clean retained.",
+      "Do print single-sided at 100%.",
+      "Do preserve native avatar alpha and immediate animal-slip return."
     ],
     "donts": [
-      "Don't replace the independent homepage system.",
-      "Don't send private packets as pre-party introductions.",
-      "Don't reintroduce separate finales, A/B evidence cards, question catalogs or seat-order mechanics.",
-      "Don't shrink narrative text to conceal overflow.",
-      "Don't expose exact prompts in public derivatives.",
-      "Don't add branch-dependent portraits or illustrations to later private rounds.",
-      "Don't stretch or crop character artwork."
-    ],
-    "northStar": "Readable museum working documents"
+      "Do not restore structured notes, external catalogs, letter cards or separate finales.",
+      "Do not put secrets on face-up covers.",
+      "Do not ship font binaries or private prompts to guests.",
+      "Do not apply ornate print styling to the independent homepage."
+    ]
   }
 }

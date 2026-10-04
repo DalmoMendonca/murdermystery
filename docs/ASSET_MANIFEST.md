@@ -1,6 +1,6 @@
 # Generated release manifest
 
-87 PDFs / 1,052 rendered pages / 560 distinct visual pages / 30 introduction PNGs / 90 public portraits. Combined PDFs repeat individual pages.
+87 PDFs / 961 rendered pages / 529 distinct visual pages / 30 character JPEG posters / 90 public portraits. Combined PDFs repeat individual pages.
 
 | PDF | Pages |
 | --- | ---: |
@@ -11,7 +11,7 @@
 | `OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf` | 2 |
 | `OPEN_FREELY/07_Museum_Exhibits_and_Decor.pdf` | 6 |
 | `OPEN_FREELY/08_Awards_and_Scoring.pdf` | 4 |
-| `OPEN_FREELY/09_Host_Safe_Name_Cards.pdf` | 8 |
+| `OPEN_FREELY/09_Host_Safe_Name_Cards.pdf` | 30 |
 | `OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf` | 1 |
 | `OPEN_FREELY/12_Attendance_and_Hearing_Roster.pdf` | 3 |
 | `OPEN_FREELY/Animal_Draw_Cards.pdf` | 4 |
@@ -51,7 +51,7 @@
 | `OPEN_FREELY/PreParty_Individual/30_Minnie_Malist.pdf` | 1 |
 | `OPEN_FREELY/Scavenger_Score_Sheet.pdf` | 1 |
 | `OPEN_FREELY/Staging_Guide.pdf` | 1 |
-| `PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf` | 420 |
+| `PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf` | 360 |
 | `PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf` | 13 |
 | `PRINT_WITHOUT_READING/Discovery_Props.pdf` | 8 |
 | `PRINT_WITHOUT_READING/Forensic_Reports.pdf` | 5 |
@@ -60,34 +60,34 @@
 | `PRINT_WITHOUT_READING/Reports/F3.pdf` | 1 |
 | `PRINT_WITHOUT_READING/Reports/F4.pdf` | 1 |
 | `PRINT_WITHOUT_READING/Reports/F5.pdf` | 1 |
-| `PRINT_WITHOUT_READING/Secret_Individual/01_Artie_Ficial_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/02_Claire_O_Scuro_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/03_Hugh_Bidder_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/04_Monet_Bags_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/05_Chip_Patina_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/06_Dada_DiCapo_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/07_Vincent_Van_Faux_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/08_Sue_Venir_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/09_Dr_Art_E_Fact_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/10_Tess_Tament_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/11_Barb_Dwyer_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/12_Paige_Turner_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/13_Frank_Lloyd_Wrong_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/14_Mona_Lott_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/15_Elon_Mosaic_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/16_Anya_Tique_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/17_Saul_D_Bid_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/18_Elle_Loominate_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/19_Reed_DeLabel_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/20_Al_Baster_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/21_Ella_Gance_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/22_Drew_Conclusions_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/23_Brie_DeVivre_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/24_Cary_Crates_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/25_Anne_E_Dote_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/26_Faye_Stop_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/27_Robin_Banks_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Pincher_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/29_Justin_Tyme_SECRET.pdf` | 14 |
-| `PRINT_WITHOUT_READING/Secret_Individual/30_Minnie_Malist_SECRET.pdf` | 14 |
-| `SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf` | 43 |
+| `PRINT_WITHOUT_READING/Secret_Individual/01_Artie_Ficial_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/02_Claire_O_Scuro_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/03_Hugh_Bidder_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/04_Monet_Bags_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/05_Chip_Patina_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/06_Dada_DiCapo_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/07_Vincent_Van_Faux_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/08_Sue_Venir_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/09_Dr_Art_E_Fact_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/10_Tess_Tament_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/11_Barb_Dwyer_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/12_Paige_Turner_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/13_Frank_Lloyd_Wrong_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/14_Mona_Lott_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/15_Elon_Mosaic_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/16_Anya_Tique_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/17_Saul_D_Bid_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/18_Elle_Loominate_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/19_Reed_DeLabel_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/20_Al_Baster_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/21_Ella_Gance_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/22_Drew_Conclusions_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/23_Brie_DeVivre_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/24_Cary_Crates_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/25_Anne_E_Dote_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/26_Faye_Stop_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/27_Robin_Banks_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/28_Penny_Pincher_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/29_Justin_Tyme_SECRET.pdf` | 12 |
+| `PRINT_WITHOUT_READING/Secret_Individual/30_Minnie_Malist_SECRET.pdf` | 12 |
+| `SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf` | 50 |

@@ -24,12 +24,13 @@ def prepare(output,seed):
         with fitz.open(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf') as d:
             (dest/'identity.txt').write_text(f'{c["name"]}\n{personalities[i]}\nSimulated memorized animal: {animals[i]}. Returned immediately to CLOSED box; no kept slip.\nATTENDING:\n{attendance}\n',encoding='utf-8')
             with fitz.open(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf') as pre:
-                arrival=pre[0].get_text()+'\nPRIVATE BACKGROUND\n'+d[0].get_text()
+                arrival=pre[0].get_text()+'\nPRIVATE BRIEFING\n'+d[2].get_text()
             (dest/'01-arrival.txt').write_text(arrival,encoding='utf-8')
-            (dest/'notes.txt').write_text('\n'.join(d[p-1].get_text() for p in GAME['packet_pages']['investigation_notes']),encoding='utf-8')
+            discoveries=json.loads((ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
+            (dest/'hunt.txt').write_text(d[3].get_text()+'\nSHARED FINDS\n'+json.dumps(discoveries,ensure_ascii=False,indent=2),encoding='utf-8')
             for ri,rd in enumerate(rounds):
                 text=''
-                if ri==0:text=f'HOST: Selected animal {animals[culprit]}. Selected animal {animals[culprit]}. Keep the comparison private.\n'
+                if ri==1:text=f'HOST: Selected animal {animals[culprit]}. Selected animal {animals[culprit]}. Keep the comparison private.\n'
                 ids={'motive':['F1','F2'],'opportunity':['F3'],'method':['F4','F5']}[rd['key']]
                 text+='\nPUBLIC REPORTS\n'+'\n\n'.join(x['id']+' '+x['text'] for x in reports if x['id'] in ids)
                 pages=GAME['packet_pages'][rd['key']+'_questions']+[GAME['packet_pages'][rd['key']+'_answer']]
@@ -41,7 +42,6 @@ def prepare(output,seed):
                     branch='murderer' if j==culprit else 'innocent'
                     key={'motive':'motive','opportunity':'where_'+branch,'method':'evidence_'+branch}[rd['key']]
                     speech=guest['hearing'][key]
-                    if rd['key']=='method':speech+='\nPreparation record:\n'+'\n'.join(guest['preparation_record'][branch].splitlines()[1:4])
                     text+=f'\n{asker["name"]} asks {guest["name"]}: {group["question"]}\n{guest["name"]}: {speech}\n'
                 (dest/f'{ri+2:02d}-{rd["key"]}.txt').write_text(text,encoding='utf-8')
             (dest/'05-ballot.txt').write_text(d[GAME['packet_pages']['ballot']-1].get_text(),encoding='utf-8')

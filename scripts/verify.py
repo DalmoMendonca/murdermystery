@@ -27,10 +27,10 @@ def verify():
         if 'PreParty_Individual' in rel:
             assert len(doc)==1,rel
             assert all(s not in doc[0].get_text() for s in ['WHAT YOU ALREADY KNOW','HOW TO PLAY THEM','OPTIONAL QUIPS','Sterling Voss','Page 1','CORE','SECONDARY','TERTIARY']),rel
-        if 'Secret_Individual' in rel:assert len(doc)==14,rel
+        if 'Secret_Individual' in rel:assert len(doc)==12,rel
         doc.close()
     for c in chars:
-        assert set(c['preparation_record'])=={'innocent','murderer'}
+        assert set(c['case_facts'])=={'innocent','murderer'}
         assert all(c['private'][key] for key in ['innocent','murderer','final_innocent','final_murderer'])
     values=list(unique.values())
     for start in range(0,len(values),4):
@@ -39,7 +39,7 @@ def verify():
             im=Image.open(item['image']);im.thumbnail((620,815));x=(i%2)*650;y=(i//2)*875
             sheet.paste(im,(x+15+(620-im.width)//2,y+42));draw.text((x+15,y+8),f'{item["id"]:03} '+item['label'][:76],fill='black')
         sheet.save(out/f'sheet-{start//4:02}.jpg',quality=94)
-    report={'pdf_count':len(files),'rendered_pages':len(pages),'unique_visual_pages':len(values),'contact_sheets':(len(values)+3)//4,'issues':issues,'files':files,'pages':pages,'visuals':values}
+    report={'pdf_count':len(files),'rendered_pages':len(pages),'unique_visual_pages':len(values),'contact_sheets':(len(values)+3)//4,'issues':issues,'files':files,'pages':pages,'visuals':values,'visual_review_complete':False,'review_instruction':'Inspect all rendered images. Passing this preflight alone does not establish visual quality.'}
     (out/'report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps({k:report[k] for k in ['pdf_count','rendered_pages','unique_visual_pages','contact_sheets','issues']},indent=2))
     assert not issues,'Fix preflight errors before visual review'

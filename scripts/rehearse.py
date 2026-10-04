@@ -33,7 +33,7 @@ def rehearse():
                     heard.append(respondent);pending.remove(respondent);asker=respondent
                 assert set(heard)==set(attending) and len(heard)==len(set(heard))
             facts={n:by_name[n]['case_facts']['murderer' if n==killer else 'innocent'] for n in attending}
-            assert [n for n,f in facts.items() if all(f[k] for k in ['salon','key','linen'])]==[killer]
+            assert [n for n,f in facts.items() if f['false_alibi'] and f['fabricated_installation']]==[killer]
             for votes in [{n:rng.randrange(5) for n in attending},{n:1 for n in attending},{n:0 for n in attending}]:
                 top=finalists(votes);readers=list(top)
                 assert len(top)==min(3,len(attending)) and set(top)<=set(attending)
@@ -47,6 +47,7 @@ def rehearse():
     assert finalists({'Zoe':16,'Anne':0,'Mona':0,'Reed':0})==['Zoe','Anne','Mona']
     assert finalists({'Zoe':0,'Anne':0,'Mona':0,'Reed':0})==['Anne','Mona','Reed']
     report={'draw_and_turn_rehearsals':runs,'coming_clean_rehearsals':confessions,'outside_top_three_reveals':outside,'passed':True,'human_playtest':False,
-            'coverage':['all thirty roles eligible','unique memorized animals returned to closed box','unused animals excluded from B','one attending murderer','named questions inside each packet','every present guest answers once per round','absences and late arrivals','combined evidence uniquely identifies culprit','top-three and alphabetical tie handling','murderer outside top three always confesses']}
+            'coverage':['all thirty roles eligible','unique memorized animals returned to closed box','unused animals excluded from B','one attending murderer','named questions inside each packet','every present guest answers once per round','absences and late arrivals','competing fabricated accounts remain mechanically consistent','top-three and alphabetical tie handling','all three suspects speak even if an earlier suspect confesses','murderer outside top three always confesses'],
+            'limitation':'Automated turn, draw and branch consistency checks do not measure human mystery difficulty.'}
     (ROOT/'build/rehearsal-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))
 if __name__=='__main__':rehearse()

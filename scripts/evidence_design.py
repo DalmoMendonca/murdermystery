@@ -26,7 +26,7 @@ def build_evidence(b):
         if start+2<len(docs):s.next()
     s.save()
     reports=json.loads((b.ROOT/'source/investigation.json').read_text(encoding='utf-8'))
-    photos={'F1':'silver_coupe','F5':'fiber_comparison'}
+    photos={'F1':'silver_coupe','F4':'actual_installation','F5':'clock_comparison'}
     departments={'F1':'FORENSIC LABORATORY / TOXICOLOGY','F2':'MERIDIAN / DONOR PAPERS','F3':'MERIDIAN / STEWARD STATEMENT','F4':'MERIDIAN / CONSERVATION AUDIT','F5':'FORENSIC LABORATORY / TEXTILE COMPARISON'}
     paths=[]
     for report in reports:
@@ -34,15 +34,25 @@ def build_evidence(b):
         y=s.block(report['title'],42,105,528,30,'BookBold',b.TEAL)+15
         y=s.block('CASE: MERIDIAN / 30 OCT 2026 / '+key,42,y,528,14,'BookBold')+17
         if key in photos:
-            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,225);y+=239
+            ph=180 if key=='F4' else 225
+            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,ph);y+=ph+14
         if key=='F2':
             for label,words in [('NAMING AGREEMENT','Veto power, museum renaming and management changes.'),('OBJECTS & PAYMENTS','Disputed title, altered records and unpaid design invoices.'),('PERSONAL PAPERS','Family trust amendments and threats to professional reputations.')]:
                 y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6;y=s.block(words,42,y,528,16)+16
         if key=='F3':
-            for time,words in [('6:40','Cordial poured; inside and rim of coupe checked clean.'),('6:40–6:49','Coupe remains in Donor Salon. All guest entries logged by steward.'),('6:49','Grant drinks from his private coupe.')]:
+            # A real floor diagram clarifies distinct positions without marking suspects.
+            s.rect(42,y,528,135,stroke=b.TEAL)
+            s.rect(63,y+23,190,77,stroke=b.TEAL)
+            s.block('STAR BOWL ALCOVE',74,y+38,167,14,'BookBold',b.TEAL)
+            s.block('Curtain at entrance',74,y+68,167,12)
+            s.block('EAST GALLERY / OPEN',278,y+32,270,14,'BookBold',b.TEAL)
+            s.block('Balcony overlooks display',278,y+68,270,14)
+            s.block('Donor Salon lies outside this gallery',63,y+110,487,12,'BookItalic')
+            y+=152
+            for time,words in [('6:40','Empty coupe delivered to Donor Salon.'),('6:46','Cordial poured for the first time.'),('6:49','Grant drinks from his private coupe.')]:
                 y=s.block(time,42,y,105,18,'BookBold',b.TEAL);y=s.block(words,163,y-22.5,407,16)+18
         if key=='F4':
-            for time,words in [('6:00','Reference sample verified inside locked cabinet.'),('SETUP','Single key issued and returned against the key book.'),('6:35','Reference sample missing; cabinet relocked.')]:
+            for time,words in [('6:37','S-2 / mounting alert received.'),('6:38','S-2 / curtain locked / interior sealed.'),('6:48','Old scheduled cue cancelled.'),('7:00','First reopening permitted.')]:
                 a=s.block(time,42,y,105,16,'BookBold',b.TEAL);z=s.block(words,163,y,407,16);y=max(a,z)+16
         y=s.block('Certified findings',42,y,528,18,'BookBold',b.TEAL)+8
         y=s.block(report['text'],42,y,528,14)+20

@@ -1,3 +1,13 @@
+# Ornate museum gala overhaul — 2026-10-04
+
+- Rebuilt all thirty packets with safe framed Picasso covers, bold yellow relationship names, introduction speeches, three personal hunt hints and clear numbered phase boundaries.
+- Removed investigation grids; all ten named question groups now fit one page per act. Ballot 11 and Coming Clean 12 stay inside each packet.
+- Redesigned Van Gogh posters with wide Acting Tips; made thirty large two-sided foldable tent cards with transparent avatars and tape bases.
+- Added native transparent gilded framing and visual installation/clock evidence. Preserved full-resolution portrait masters and generation provenance; printable derivatives keep download sizes practical.
+- Reworked the mystery with competing innocent lies, staged installation records and more varied character-specific speeches. Removed repeated deflections and a uniquely guilty salon-reference pattern.
+- Fresh sixteen-reader assessments still produced 14/14 correct innocent votes, mean difficulty 2.69/5. Challenge remains unresolved; later prose refinements are not a new blind playtest.
+- Rendered all 87 PDFs and inspected all 529 distinct visual pages. Checked 120 culprit/attendance cases, 150 draw/turn runs and 450 finales. Historical entries below describe earlier iterations.
+
 # Agent table-read improvements — 2026-10-04
 
 - Ran16 blind participant agents; collected16 locked ballots and16 detailed feedback files. All 15 innocent agents identified the intended culprit; all difficulty ratings2/5. Simulation limits and raw evidence are documented.

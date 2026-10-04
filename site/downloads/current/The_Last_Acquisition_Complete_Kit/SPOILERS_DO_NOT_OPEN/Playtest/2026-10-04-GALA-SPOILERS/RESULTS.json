@@ -1,0 +1,311 @@
+{
+  "assessments": 16,
+  "scripted_casts": 2,
+  "cast_size": 16,
+  "innocent_assessments": 14,
+  "correct_innocent_ballots": 14,
+  "difficulty_mean": 2.69,
+  "difficulty_range": [
+    2.0,
+    3.0
+  ],
+  "rows": [
+    {
+      "case": "C",
+      "player": 1,
+      "character": "Artie Ficial",
+      "agent": "gala_c_01",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "82d0b26725c855011b549fbe27d006b3ae0a37b89bdbd59e0d85a074e76ce8e9",
+        "stage1-feedback.json": "9998c4155dc11e67dc54776ab3acfcb005af830b80669e0c922d24a2a23fb948",
+        "stage1.txt": "c61e8767b857f10824da7b73425f024c5a347df383d20a8f96c133a9b48c50dd",
+        "stage2-feedback.json": "35c27b8d8d0356941b31333aeac3f0ecf90dbb95f0baecdd027a78baf81c0515",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 2,
+      "character": "Claire O’Scuro",
+      "agent": "gala_c_02",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "6d678cab47faff6720ce2cd8b45b745c36a08c71493684b8dddd92b59e319e2e",
+        "stage1-feedback.json": "07d4d6b61acd7e2120ba57df034cbc7788deb6b35bbaf47a68ec1c8ebeec21c3",
+        "stage1.txt": "2a9947e7f038fbf45ef2ba4fdb88899957f47ad6eae3b5f9d329915d50a73446",
+        "stage2-feedback.json": "0c2a79f46050eecd142148060910eb87cf6a48ebc7fea6f906fcad3839a7d8e3",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 3,
+      "character": "Hugh Bidder",
+      "agent": "gala_c_03",
+      "murderer": true,
+      "ballot": "Chip Patina",
+      "correct_innocent": false,
+      "difficulty": 2.0,
+      "files": {
+        "final-feedback.json": "80aeb9f61de6d6b780907eff960ab83d099ee784b62612c014451aa78dbe32d6",
+        "stage1-feedback.json": "aa46c71f00e60e1ef9e7d09eb89483e96d7cf8e343437c3d286d58774d70ac37",
+        "stage1.txt": "c18bb85bbd4275964dfef4ef8ba0a5f210c2c23d3645f36dd29881a552f7d2ab",
+        "stage2-feedback.json": "a4565bc21647bd1e92c75dde200243ece64185641aaef7985ff3ff5e092242e4",
+        "stage2.txt": "acfbeaa68e420b1ff5d514719f626ea1a35b54beb05661e501db654a46ff7964",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 4,
+      "character": "Monet Bags",
+      "agent": "gala_c_04",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "de67c8a76c1dc99b128d289f4b515567d39afa2348e8cbc9a4dd1edaffdc7f6e",
+        "stage1-feedback.json": "a1417b367bb43a99a874242320f9fe37c3c2f27bc2aa1ca4d8b5975e1cc15507",
+        "stage1.txt": "37df804092781f686dfad3a82c7396457cd75aa9ed0b59468d27230b63003b2f",
+        "stage2-feedback.json": "5d376aea0d284045cb27f57c091a7966844bbe0d170b3bb373348477526bcb23",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 5,
+      "character": "Chip Patina",
+      "agent": "gala_c_05",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "34bf27195102be687d9cc39590aa681538178f84bc73f2a8a1269e58e724691f",
+        "stage1-feedback.json": "487860101ba78ac98a8fc82006d977aca0e2baf0398f111d8f7df5a3fcd82f63",
+        "stage1.txt": "a4d32075855dd56bc68db6670738ba6b7b744c2288e9f8d7967db7a5f3a7ef6f",
+        "stage2-feedback.json": "a594fe7a8d162d2def7c37598a2622edddabc1fee9fd365dad691999842387a5",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 6,
+      "character": "Dada DiCapo",
+      "agent": "gala_c_06",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 2.0,
+      "files": {
+        "final-feedback.json": "49a591de2073d86c5610596aa3dcb84271b5a932b0eff35cb4c608ca022f815b",
+        "stage1-feedback.json": "e5e175c12e3a9ccbff40ff40261320f09c8e5837224c15644c292984c7cd0ad6",
+        "stage1.txt": "6cc0104957013e0be4b8bea1b8c7e0c75fb6a4d0241ff2b176048dda200bb783",
+        "stage2-feedback.json": "caecc2df9a7b5adb38997e321aaf3e94e7167ce2e503de8aa4c6f7d5c15ccfef",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 7,
+      "character": "Vincent Van Faux",
+      "agent": "gala_c_07",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "1f51aa81deb8b5d0ea3f19c65c52182d13a0f2053227423f38c883c2c74319bb",
+        "stage1-feedback.json": "b5bdd59a53599a0f442aeb0fdfc080c442bc78ef6e0c1d74ffcc65b26de070fd",
+        "stage1.txt": "ab3e298b7c6b0c8c1eff9e100e2352639ab197582b435869cc6ffb38a6f1c147",
+        "stage2-feedback.json": "ae4f6172cc91230e81c5247a95249d37f21051dd59b4626894b11fb6aee8407e",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "C",
+      "player": 8,
+      "character": "Sue Venir",
+      "agent": "gala_c_08",
+      "murderer": false,
+      "ballot": "Hugh Bidder",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "ca8d355c126b7a14979b0f6c1659df013d1f5b3e0653e0a4d0dd4f0cb2d6ffcd",
+        "stage1-feedback.json": "dd5e9ffac51f1968b100105ae76954d4b570bb07a87a9f085de8bc12c543b551",
+        "stage1.txt": "74967a6c80f7e69d9fa5fc67941a83844a45cf60c5821a1f5f525ed0d2350121",
+        "stage2-feedback.json": "805194a83140212c3d5f9d178a92da51aaebca1809ac0534b0d105291e280d9b",
+        "stage2.txt": "82200a1b062478135ff783d76f52613c8520805a8b88bdf50b8345fd9152d3cb",
+        "stage3.txt": "a88d56a55b8757516807aa682e8b16bf5df92b7ace1e1110d3d5cfbcbdad672e"
+      }
+    },
+    {
+      "case": "D",
+      "player": 1,
+      "character": "Dr. Art E. Fact",
+      "agent": "gala_d_01",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 2.0,
+      "files": {
+        "final-feedback.json": "4017df3d5106fbdbd23585019ef9b0bc60e52dfd68ceea95081d3a444ad920dd",
+        "stage1-feedback.json": "d6ba55fd505ab2710b988aa46b3ae51ea49a34afddbbd5f3c796e8892849bba7",
+        "stage1.txt": "825c45f539d05e8760518b637a99aa66fb334859c73696b3c7fb5d5489a2578e",
+        "stage2-feedback.json": "f27083d33862c8c826b1c54576449fa64366ab83849f88e6eceb041db4abc1b8",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 2,
+      "character": "Tess Tament",
+      "agent": "gala_d_02",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 2.0,
+      "files": {
+        "final-feedback.json": "3dac36194cb2b71ff728c436dd44fa88f16a5e2ae1c2b47e952dd241ec09980c",
+        "stage1-feedback.json": "406e010fc61e8e4db4467c0758ec9648bf2a0fd057b70c0ca2570823f5b3a6c1",
+        "stage1.txt": "fc24c8ba56410ef6fd48fc9607562ce00a5331093c920265133ff3fc75b0601d",
+        "stage2-feedback.json": "c6980918eaef0858982404a292f7c5028f1853e7ed372decec6cb70ee8fe57f5",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 3,
+      "character": "Barb Dwyer",
+      "agent": "gala_d_03",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 2.0,
+      "files": {
+        "final-feedback.json": "e14684d3eca7ef738977e537743ba45a99d95bf6060a8d88e5c8da62b00d2baa",
+        "stage1-feedback.json": "313465cdf28c9f20456a969998457e04285de21f9f65679b7c305b207806d99e",
+        "stage1.txt": "48ca234a30fc4965bc4ba0baf2a8bd305df22b8bafd98c0516e1bd456bec557f",
+        "stage2-feedback.json": "ee79e03ae0ef273eb9252cba97f2d7b948362891af1726b063ff17a54c39a16c",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 4,
+      "character": "Paige Turner",
+      "agent": "gala_d_04",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "23076a59408b81e4cb352d54f90aa266659c39c010165fcd83e9ebac0227d924",
+        "stage1-feedback.json": "0ddef36530aea8e7ce7a6f7d3545f615e0a4f3029e3542f6fd1e9d136672eaf8",
+        "stage1.txt": "5ab9b13c8ff083b1527c9bf015e9c039966796a25520a1724852bcb0740f7e06",
+        "stage2-feedback.json": "8746c72ffa854bb4d4503f6ff6fa9131ba0b0923be2f5c0b64491c4a667df21e",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 5,
+      "character": "Frank Lloyd Wrong",
+      "agent": "gala_d_05",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "84e322c899cb264157676a7226c2606403624402e74a9b07cf642d77e31cffc4",
+        "stage1-feedback.json": "9383720089aacb1caed6ec53d9f244fa2180eaa7254b19ab09ca1d793bd8be4d",
+        "stage1.txt": "5640f525ea9520700b93698607f5c90d0e971d6482cc15f49bf34eeacf301365",
+        "stage2-feedback.json": "3a017b4f192b16e8fe4d483d64f0964d5595090f83fd2afb07c6620fd93c7f39",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 6,
+      "character": "Mona Lott",
+      "agent": "gala_d_06",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "6263b83f14957df4a00336da8d58f34e78d63c089fc26b5729cdfeb6bba72766",
+        "stage1-feedback.json": "6f4fad5f78822d2e51b41ac5e6a130d5b85cb7a54dadf6d308dbbf9ad03e68dd",
+        "stage1.txt": "9509341255b890cd76e3599eea95ddd468601fd87407e73642690bf19bfacb21",
+        "stage2-feedback.json": "8d7bf5523a2dcfef58821084ca6f5f830f3101835a895b88300e89ef5e60a7c4",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 7,
+      "character": "Elon Mosaic",
+      "agent": "gala_d_07",
+      "murderer": false,
+      "ballot": "Minnie Malist",
+      "correct_innocent": true,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "af188083d4c2b5d595fd6bcb7c6b35b851cef5c3cee2706d988ee37c47ced01d",
+        "stage1-feedback.json": "657a0f9e006203a34970d28eb18338ed0219e3dae31f306e3d7d35dfcd34fac0",
+        "stage1.txt": "f3efb9cccba7252896ccdab3779b1f30e5b59a7b88b5108b45227b5d9a0a8dcc",
+        "stage2-feedback.json": "71cd3bc9223f4be64d360f73243e9e4117af8c35ab7dbb7891fe06bc1a7a3166",
+        "stage2.txt": "b816d2c94048d811b87506d19d1e9fa91b33c7ce1a180cfd111c7b0ed40f44c7",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    },
+    {
+      "case": "D",
+      "player": 8,
+      "character": "Minnie Malist",
+      "agent": "gala_d_08",
+      "murderer": true,
+      "ballot": "Chip Patina",
+      "correct_innocent": false,
+      "difficulty": 3.0,
+      "files": {
+        "final-feedback.json": "fe2df81d216ce47cc507c78edb02f927beb793eeab4afbc77636033f54249449",
+        "stage1-feedback.json": "5f14f83ea6b54650ac2d6badbf2ebb7bc65c12d1b5bbb4e78ed5144e429fe003",
+        "stage1.txt": "4db5ccc1104fb98c68582a4c141d8ac2fa5cfb7af82e80adc2561620ff5ed457",
+        "stage2-feedback.json": "a2fcc8bc84d9a5512703e6b6790ee546f9339596157f6ec9bd391a2a0c034322",
+        "stage2.txt": "2691be4b4d626530ba01176ab312d7d7c12e67be830bd48fd2cda1fc52a02a33",
+        "stage3.txt": "a6fab242165488ee214bd4f0751f0480ae5bab2bab1839aca349b012a993457b"
+      }
+    }
+  ],
+  "human_playtest": false,
+  "protocol_deviation": "C02 formulated stage1 before stage2 but successful stage1 persistence occurred after opening stage2; disclosed by that agent.",
+  "limits": [
+    "Eight independent persona assessments per scripted16character cast, not32agentplayers or two interactive tables.",
+    "Persistent canonical transcripts eliminate human listening, recall and distraction limits.",
+    "No physical hunting, printer handling or real party timing was tested.",
+    "Fixtures precede final character-specific deflections, innocent cover-story guidance, additional innocent salon visits and individual Coming Clean errand wording. Those fixes preserve clock, apparatus and murder facts; they were subsequently content-checked and rendered.",
+    "Unanimous innocence accuracy does not establish a satisfactory difficulty level."
+  ]
+}

@@ -6,24 +6,24 @@ Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 
 
 [Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
 
-Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete fourteen-page private packet: background, private evidence grids, all Motive/Opportunity/Method question pages with named targets, their prepared answers and records, ballot and Coming Clean. No separate player catalog, letter cards or finale envelopes. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle private files face down. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
+Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete twelve-page private packet: safe ornate cover, highlighted introduction, private briefing, hunt hints, all Motive/Opportunity/Method questions with named targets, prepared speeches, ballot and Coming Clean. No separate player catalog, letter cards or finale envelopes. Print actual size, single-sided. `OPEN_FREELY` is host-safe; handle private files face down. `SPOILERS_DO_NOT_OPEN` contains the solution bible.
 
-Every character has a Van Gogh portrait on the public introduction, a Picasso portrait on the private cover, and a transparent chibi on the place card. Place cards put first and middle names on one line and surname on the next; four per US Letter page. All thirty roles can be selected through the same memorized animal draw. Casting tiers indicate story prominence, not murderer eligibility.
+Every character has a Van Gogh portrait on the public introduction, a Picasso portrait on the private cover, and a transparent chibi on the place card. Place cards put first and middle names on one line and surname on the next; one US Letter sheet per guest, with two faces, fold lines and tape-together base flaps. All thirty roles can be selected through the same memorized animal draw. Casting tiers indicate story prominence, not murderer eligibility.
 
 ## Editable sources
 
-- `source/characters.json`: canonical introductions, prepared answers, private canon, preparation records and both Coming Clean statements.
+- `source/characters.json`: canonical introductions, prepared answers, private canon, case facts and both Coming Clean statements.
 - `source/game.json`: address, packet page map and one familiar animal pool.
 - `source/question_rounds.json`: ten shared questions per round, each with three named targets.
 - `source/discoveries.json`: sixteen actual museum document payloads.
 - `source/evidence_art.json`: photographic exhibit prompts and hashes.
-- `source/investigation.json`: current staged forensic reports and closed physical evidence chain.
+- `source/investigation.json`: current staged forensic reports and physical evidence and competing accounts.
 - `source/art_direction.json`: 30 distinct fictional identities, palettes, signature accessories, exact generation prompts and asset hashes.
 - `assets/portraits/`: all original portraits and transparent cutout derivatives, used by the PDF pipeline. No image-generation API call is required to build.
 - `source/name_map.json`: simultaneous aliases applied to archived source text.
 - `source/facilitator.json`: intentionally paginated host-safe guide with tables and checklists.
 - `source/v1/`: preserved original precursors; supplies remapped scavenger discoveries, exhibit descriptions and invitation text. Current structured JSON and GAME_FLOW supersede historical mechanics and names.
-- `scripts/build.py`: measured ReportLab layouts, embedded Libron, PNG exports and ZIP packaging.
+- `scripts/build.py`: measured ReportLab layouts, embedded Libron, high-quality JPEG poster exports and ZIP packaging.
 - `scripts/verify.py`: renders every PDF page, checks bounds/type/glyphs and maps exact visual duplicates.
 - `scripts/check_content.py`: hearing/branch/evidence preservation checks against generated PDFs.
 - `scripts/rehearse.py`: animal-draw and question-handoff desk rehearsals including absences.
@@ -55,4 +55,4 @@ Archives use fixed entry timestamps, stable ordering and normalized text line en
 
 ## Agent table read
 
-Read the spoiler-safe summary in `docs/PLAYTEST_SUMMARY.md`. Sixteen independent agents locked votes before reveal; all fifteen innocent agents solved the synthetic case. Detailed private feedback and scope limits live in `docs/playtest/2026-10-04-SPOILERS`. Run `python scripts/prepare_playtest.py` to create isolated current-kit fixtures for a future blind table read; this does not run agents or certify live human playability.
+Read the spoiler-safe `docs/PLAYTEST_SUMMARY.md`. The previous 15/15 solve result was an ease warning, not a difficulty success. New staged assessments and their limitations are recorded separately under `docs/playtest/2026-10-04-GALA-SPOILERS`. AI transcript accuracy is not a human party difficulty measurement. Historical editions are preserved under source/history and docs/history, not used by the build.
