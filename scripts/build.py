@@ -232,6 +232,7 @@ def package():
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Source.zip','w',zipfile.ZIP_DEFLATED) as z:
         for base in ['source','docs','scripts','site','.impeccable','assets']:
             for p in sorted((ROOT/base).rglob('*'),key=lambda p:p.as_posix()):
+                if p.relative_to(ROOT).parts[:2] == ('.impeccable','live'):continue
                 if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix())
         for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name)
 def build_kit():
