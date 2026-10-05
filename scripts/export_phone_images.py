@@ -1,6 +1,6 @@
 """One flat ZIP containing all thirty public character images and one invite."""
 from pathlib import Path
-import io,zipfile,shutil
+import io,zipfile,json
 import fitz
 from PIL import Image
 
@@ -22,6 +22,14 @@ def export():
     with zipfile.ZipFile(target) as archive:
         assert len(archive.namelist())==31 and archive.testzip() is None
         assert all('/' not in name and name.endswith('.jpg') for name in archive.namelist())
+    phone=ROOT/'site/iphone';phone.mkdir(exist_ok=True)
+    (phone/'Invite.jpg').write_bytes(buffer.getvalue())
+    from character_copy import load_characters
+    names={c['slug']:c['name'] for c in load_characters()}
+    entries=[{'label':'Invitation','name':'Invite.jpg','url':'/iphone/Invite.jpg'}]
+    for path in characters:
+        entries.append({'label':names[path.stem],'name':path.name,'url':'/downloads/current/The_Last_Acquisition_Complete_Kit/OPEN_FREELY/PreParty_Individual/'+path.name})
+    (phone/'images.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'31 images, no folders or extra files: {target}')
     return target
 if __name__=='__main__':export()

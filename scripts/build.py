@@ -265,6 +265,8 @@ def build_kit():
             origin='impeccable:prompt Origin: rendered from '+path.name+' by scripts/build.py; exact portrait prompt in source/art_direction.json.'
             im.save(path.with_suffix('.jpg'),quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
+    from export_phone_images import export
+    export()
     sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character JPEG posters')
 
 def sync_playtest_records():
