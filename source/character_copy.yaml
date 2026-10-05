@@ -1,0 +1,830 @@
+# Public copy for The Last Acquisition. Edit the text below, then ask me to rebuild and publish.
+# IDs/names identify game roles. Private answers and confessions remain outside this file.
+# Relationship bullets print only when every ID in "with" is active.
+
+schema_version: 1
+active_character_ids:
+- '01'
+- '02'
+- '03'
+- '04'
+- '05'
+- '06'
+- '07'
+- '08'
+- '09'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '18'
+- '19'
+- '23'
+- '28'
+characters:
+- id: '01'
+  name: Artie Ficial
+  role: Executive Director of the Meridian Museum
+  description: >-
+    Artie treats the gala like a state visit and the coat check like a diplomatic incident. Polished,
+    ambitious, and almost unnervingly composed, Artie has spent the last six years turning the Meridian
+    from a respected regional institution into a museum that expects to be mentioned in the same
+    sentence as the Met.
+  acting_tips: >-
+    Diplomatic under pressure; image-conscious; dryly funny; allergic to public chaos. Play him
+    as someone who is always hosting, even when he is not technically the host.
+  costume_suggestions: Black tie or an immaculate dark suit; a very official-looking gala program.
+  relationships:
+  - with:
+    - '02'
+    text: >-
+      Works closely with Claire O’Scuro. Claire keeps asking why the exhibition needs quite so much
+      theatre.
+  - with:
+    - '04'
+    - '08'
+    text: Relies on Monet Bags for the budget and Sue Venir for donor agreements.
+  - with:
+    - '23'
+    text: Trusts Brie DeVivre to handle the donors when Artie gets pulled into a crisis.
+  introduction: >-
+    I’m Artie Ficial. Welcome. If anything goes wrong tonight, please describe it as an immersive
+    experience.
+- id: '02'
+  name: Claire O’Scuro
+  role: Chief Curator of World Cultures
+  description: >-
+    Claire can identify a fifteenth-century glaze at twenty paces and a crooked label from the parking
+    lot. Claire is the intellectual engine behind Treasures of the World: brilliant, exacting, and
+    visibly pained by sloppy labels, bad lighting, and people who call every old object an 'artifact.'
+    She has spent years building the Meridian's scholarly reputation and knows the exhibition better
+    than anyone alive.
+  acting_tips: >-
+    Controlled, observant, skeptical, quietly competitive. You do not need to be loud; a raised
+    eyebrow can do half the work.
+  costume_suggestions: >-
+    Elegant gallery-black with one distinctive art-history touch: sculptural jewelry, silk scarf,
+    statement earrings, or beautifully severe glasses.
+  relationships:
+  - with:
+    - '01'
+    text: >-
+      Works alongside Artie Ficial. They usually agree on the collection and argue about the gala.
+  - with:
+    - '19'
+    text: Mentors Reed DeLabel, who still sends draft labels for approval.
+  - with:
+    - '05'
+    - '09'
+    text: Consults Chip Patina and Dr. Art E. Fact when an object needs closer examination.
+  introduction: >-
+    I’m Claire O’Scuro. I am delighted to meet anyone who knows the difference between provenance
+    and a price tag.
+- id: '03'
+  name: Hugh Bidder
+  role: International Art Dealer & Collector Liaison
+  description: >-
+    Hugh insists everything is priceless, right up until he names a price. Hugh is the person wealthy
+    collectors call when they want something no one else seems able to find.
+  acting_tips: >-
+    Smooth, sociable, opportunistic, impossible to embarrass. Treat every conversation like a deal
+    that has not yet revealed itself.
+  costume_suggestions: >-
+    Fashion-forward dinner jacket or sharp suit, polished shoes, expensive-looking watch (real or
+    fake), pocket square.
+  relationships:
+  - with:
+    - '15'
+    text: Buys art for Elon Mosaic. Elon likes to pretend he found it himself.
+  - with:
+    - '28'
+    text: Penny Pincher asks Hugh for auction previews, then argues with every estimate.
+  - with:
+    - '07'
+    text: >-
+      Keeps offering to represent Vincent Van Faux. Vincent wants to discuss the commission before
+      the paintings.
+  introduction: >-
+    I’m Hugh Bidder. Everything has a price. My charming conversation is the only exception, and
+    even that is negotiable.
+- id: '04'
+  name: Monet Bags
+  role: Chief Financial Officer of the Meridian Museum
+  description: >-
+    Monet can locate a missing cent faster than anyone can locate the missing antiquity. Monet can
+    tell you exactly how much tonight's floral installation cost, which donor paid for it, and which
+    line item everyone is pretending it came from.
+  acting_tips: >-
+    Quick, pragmatic, wry, unimpressed by grandeur for grandeur's sake. You notice costs other people
+    pretend not to see.
+  costume_suggestions: >-
+    Modern cocktail attire or tailored suit; sleek, practical, expensive-looking without being flashy.
+  relationships:
+  - with:
+    - '01'
+    - '08'
+    text: Works with Artie Ficial and Sue Venir on museum budgets and donor agreements.
+  - with:
+    - '23'
+    text: Checks Brie DeVivre’s catering bills. Brie can explain every extra charge.
+  - with:
+    - '15'
+    text: >-
+      Elon Mosaic keeps suggesting new museum technology. Monet keeps asking who will pay for it.
+  introduction: >-
+    I’m Monet Bags. I oversee the numbers. Please enjoy the gala within the approved expenditure
+    envelope.
+- id: '05'
+  name: Chip Patina
+  role: Chief Conservator
+  description: >-
+    Chip considers a fingerprint on a display case a personal attack. Chip is responsible for keeping
+    centuries-old objects from losing arguments with humidity, fingerprints, gravity, and other
+    people.
+  acting_tips: >-
+    Dry, meticulous, tactile, slightly territorial. You care more about what is physically true
+    than what is socially convenient.
+  costume_suggestions: >-
+    Dark suit or smart workwear made gala-appropriate; rolled sleeves under jacket, conservator
+    gloves tucked into a pocket, loupe or small brush as a prop.
+  relationships:
+  - with:
+    - '02'
+    text: Works with Claire O’Scuro on the care and display of the collection.
+  - with:
+    - '09'
+    text: Argues with Dr. Art E. Fact about what the physical evidence can actually prove.
+  - with:
+    - '18'
+    text: >-
+      Advises Elle Loominate on displaying fragile textiles. Elle listens, then asks for a less
+      ugly support.
+  introduction: >-
+    I’m Chip Patina. Please admire the art without touching it. That includes touching it to demonstrate
+    that you are not touching it.
+- id: '06'
+  name: Dada DiCapo
+  role: Performance Artist & Cultural Celebrity
+  description: >-
+    Dada describes standing still as an endurance piece and invoices accordingly. Dada makes expensive
+    people uncomfortable in aesthetically impeccable ways.
+  acting_tips: >-
+    Confident, theatrical, mischievous, intelligent. Commit to bits, but never let the joke make
+    you foolish.
+  costume_suggestions: >-
+    High-fashion black tie with one strange choice: opera gloves, sculptural headpiece, monochrome
+    outfit, dramatic makeup, oversized flower, etc.
+  relationships:
+  - with:
+    - '07'
+    text: >-
+      Went to art school with Vincent Van Faux. They still remember each other’s worst work.
+  - with:
+    - '18'
+    text: Elle Loominate has helped build several of Dada’s installations.
+  - with:
+    - '10'
+    text: >-
+      Has made commissioned work for Tess Tament. Tess still asks whether one piece is meant to
+      make that noise.
+  introduction: >-
+    I’m Dada DiCapo. If the room feels uncomfortable, good. I may invoice you for the feeling.
+- id: '07'
+  name: Vincent Van Faux
+  role: Celebrated Contemporary Painter
+  description: >-
+    Vincent believes even his shopping lists belong in a retrospective. Vincent became famous young
+    and has been trying ever since to convince people that this is not the same thing as becoming
+    famous accidentally.
+  acting_tips: >-
+    Warm, competitive, mercurial, self-aware enough to joke about his ego but not enough to lose
+    it.
+  costume_suggestions: >-
+    Black tie with artist flair: velvet jacket, open collar, paint-spattered vintage shoes, dramatic
+    ring, scarf, or deliberately imperfect formalwear.
+  relationships:
+  - with:
+    - '06'
+    text: >-
+      Went to art school with Dada DiCapo. Dada enjoys reminding Vincent of this in front of collectors.
+  - with:
+    - '03'
+    text: Hugh Bidder wants to represent Vincent. Vincent has yet to approve Hugh’s percentage.
+  - with:
+    - '28'
+    text: >-
+      Penny Pincher keeps showing Vincent photos of paintings and asking what they are worth.
+  introduction: >-
+    I’m Vincent Van Faux. My work is here tonight. My early work is also here, despite several very
+    expensive objections.
+- id: '08'
+  name: Sue Venir
+  role: Cultural Property Attorney
+  description: >-
+    Sue corrects the fine print on dinner menus. Sue is the lawyer museums call when an object has
+    three owners, four countries, six contradictory export documents, and one increasingly angry
+    newspaper.
+  acting_tips: >-
+    Precise, formidable, patient, amused by sloppy certainty. Ask pointed questions and answer only
+    the question actually asked.
+  costume_suggestions: >-
+    Structured formalwear, crisp lines, minimal jewelry, immaculate folder or document case.
+  relationships:
+  - with:
+    - '01'
+    - '04'
+    text: Works with Artie Ficial and Monet Bags on museum contracts.
+  - with:
+    - '14'
+    text: >-
+      Has argued opposite sides of restitution cases with Mona Lott. They still have dinner afterward.
+  - with:
+    - '09'
+    text: >-
+      Dr. Art E. Fact supplies expert opinions for Sue’s cases. Sue usually asks for a shorter version.
+  introduction: >-
+    I’m Sue Venir. Lovely to meet you. Nothing I say over dinner constitutes legal advice, although
+    I will be keeping notes.
+- id: '09'
+  name: Dr. Art E. Fact
+  role: Professor of Art History & Provenance Scholar
+  description: >-
+    Art has never met a footnote he could not lengthen. Art has built a career tracing the lives
+    of objects through wars, estates, auctions, private collections, and suspicious gaps in paperwork.
+  acting_tips: Intense, professorial, curious, occasionally pedantic, sincerely excited by evidence.
+  costume_suggestions: >-
+    Professor at a donor gala: dark suit, tweed or textured jacket, distinctive glasses, scholarly
+    scarf, pocket notebook.
+  relationships:
+  - with:
+    - '19'
+    text: Supervises Reed DeLabel’s doctoral research and sends drafts back covered in notes.
+  - with:
+    - '14'
+    text: Regularly debates restitution policy with Mona Lott.
+  - with:
+    - '05'
+    text: Trusts Chip Patina to say when the physical evidence contradicts Art’s theory.
+  introduction: >-
+    I’m Dr. Art E. Fact. I brought decades of scholarship and a footnote for almost every possible
+    dinner conversation.
+- id: '10'
+  name: Tess Tament
+  role: Philanthropist & Heir to the Larceny Family Fortune
+  description: >-
+    Tess speaks fluent inheritance and has strong opinions about the seating plan. Tess is the only
+    member of the Larceny dynasty who can attend an arts gala without immediately being asked for
+    a check, mostly because everyone waits several minutes first.
+  acting_tips: >-
+    Composed, witty, guarded, generous when she chooses. You grew up around power and recognize
+    its rituals instantly.
+  costume_suggestions: >-
+    Modern gala glamour: elegant cocktail dress or formal suit, statement jewelry, designer-looking
+    clutch, effortless rather than ostentatious.
+  relationships:
+  - with:
+    - '15'
+    text: >-
+      Knows Elon Mosaic from the collector circuit. Each likes to have heard about a painting first.
+  - with:
+    - '06'
+    text: >-
+      Has commissioned work from Dada DiCapo and is still explaining one of the pieces to visitors.
+  - with:
+    - '14'
+    text: Asks Mona Lott which international exhibitions might need a sponsor.
+  introduction: >-
+    I’m Tess Tament. I represent the family foundation. Being related to a donor is a responsibility,
+    not a cash machine.
+- id: '11'
+  name: Barb Dwyer
+  role: Director of Museum Security & Former Art-Crimes Investigator
+  description: >-
+    Barb has already assessed which guests could fit through the air vents. Barb spent years investigating
+    stolen art before discovering that museums contain nearly as much intrigue with better climate
+    control.
+  acting_tips: Low-key, skeptical, dry, watchful. Ask where people were and remember their answers.
+  costume_suggestions: Dark suit, discreet earpiece prop if desired, security-style watch, small
+    notebook.
+  relationships:
+  - with:
+    - '01'
+    - '05'
+    text: Coordinates museum security with Artie Ficial and Chip Patina.
+  - with:
+    - '12'
+    text: Paige Turner keeps requesting access Barb has already refused.
+  - with:
+    - '23'
+    text: Makes Brie DeVivre revise the service routes. Brie would like one final version.
+  introduction: >-
+    I’m Barb Dwyer. I am security. Please behave as though I have already noticed whatever you are
+    about to try.
+- id: '12'
+  name: Paige Turner
+  role: Investigative Arts Journalist
+  description: >-
+    Paige asks innocent questions with a recorder visibly running. Paige covers the art world the
+    way other reporters cover city hall: money, power, access, and who benefits when everyone agrees
+    not to ask a question.
+  acting_tips: >-
+    Curious, direct, quick, socially fearless. Ask questions people wish you would save for email.
+  costume_suggestions: >-
+    Cocktail attire with practical reporter touches: blazer, notebook, pen, compact camera if desired.
+  relationships:
+  - with:
+    - '11'
+    text: >-
+      Keeps asking Barb Dwyer for access to museum records. Barb keeps asking what the story is
+      about.
+  - with:
+    - '08'
+    text: Sue Venir has threatened to quote Paige’s own articles back to her in court.
+  - with:
+    - '19'
+    text: >-
+      Calls Reed DeLabel to check dates and catalogue references. Reed is delighted when a correction
+      makes it into print.
+  introduction: >-
+    I’m Paige Turner. I am covering the gala. Tell me what happened; tell your publicist what you
+    wish had happened.
+- id: '13'
+  name: Frank Lloyd Wrong
+  role: Exhibition Architect & Designer
+  description: >-
+    Frank considers doors a regrettable compromise in an otherwise excellent wall. Frank designed
+    the physical experience of Treasures of the World: every wall angle, sight line, spotlight,
+    pedestal, and dramatic reveal.
+  acting_tips: >-
+    Aesthetic, controlled, mildly pretentious in a lovable way, easily offended by bad placement
+    rather than bad manners.
+  costume_suggestions: >-
+    Architectural formalwear: monochrome suit, turtleneck with jacket, sharply cut black attire,
+    interesting glasses, rolled plans or a small laser measure prop.
+  relationships:
+  - with:
+    - '05'
+    text: >-
+      Chip Patina can veto Frank’s display designs. Frank tends to take the veto personally.
+  - with:
+    - '18'
+    text: >-
+      Elle Loominate has worked on Frank’s exhibition spaces. They disagree about how much room
+      a textile needs.
+  - with:
+    - '06'
+    text: >-
+      Dada DiCapo once described one of Frank’s galleries as an expensive corridor. Frank remembers
+      the review.
+  introduction: >-
+    I’m Frank Lloyd Wrong. I designed the display. If anyone says they have one tiny last-minute
+    change, I will need a chair.
+- id: '14'
+  name: Mona Lott
+  role: International Cultural Heritage Envoy
+  description: >-
+    Mona can turn a disagreement about a bowl into an international summit. Mona moves between embassies,
+    museums, ministries, and negotiation tables where everyone insists the issue is 'purely cultural'
+    while bringing three lawyers.
+  acting_tips: >-
+    Elegant, diplomatic, strategic, warm until precision is required. You can disagree without ever
+    sounding flustered.
+  costume_suggestions: >-
+    Refined diplomatic formalwear; jewel tones, elegant suit or dress, subtle cultural or heritage-inspired
+    accessory worn respectfully.
+  relationships:
+  - with:
+    - '08'
+    text: >-
+      Has a long professional friendship with Sue Venir. Their arguments sometimes continue through
+      dinner.
+  - with:
+    - '09'
+    text: Debates restitution policy with Dr. Art E. Fact, who usually brings reading material.
+  - with:
+    - '10'
+    text: Tess Tament asks Mona about sponsoring international exhibitions.
+  introduction: >-
+    I’m Mona Lott. I negotiate the return of objects. I expect several difficult conversations and
+    at least one excellent canapé.
+- id: '15'
+  name: Elon Mosaic
+  role: Tech Founder, Collector & Museum Patron
+  description: >-
+    Elon keeps suggesting that the museum should pivot to subscription antiquities. Elon made a
+    fortune building software and has spent the last five years trying to become the sort of collector
+    whose taste is discussed rather than merely his net worth.
+  acting_tips: >-
+    Energetic, socially confident, competitive, eager to demonstrate taste without looking eager.
+  costume_suggestions: >-
+    Modern black tie with tech-founder looseness: excellent jacket, minimal sneakers or polished
+    shoes, unusual watch, bold glasses.
+  relationships:
+  - with:
+    - '03'
+    text: Buys through Hugh Bidder and would rather be credited with finding the art himself.
+  - with:
+    - '10'
+    text: >-
+      Knows Tess Tament from the collector circuit. They compare acquisitions whenever they meet.
+  - with:
+    - '04'
+    text: >-
+      Keeps pitching museum technology to Monet Bags. Monet asks for the cost before the demonstration.
+  introduction: >-
+    I’m Elon Mosaic. I collect art. Some people collect grudges about the art I collect. Both are
+    expensive hobbies.
+- id: '16'
+  name: Anya Tique
+  role: Founding Curator Emerita
+  description: >-
+    Anya remembers when the museum was two rooms and an argument. Anya helped build the Meridian's
+    collection when the museum had more ambition than money and fewer committees than fire extinguishers.
+  acting_tips: >-
+    Imperious, funny, observant, utterly unimpressed by status. Age gives you permission to say
+    what everyone else edits.
+  costume_suggestions: >-
+    Old-school gala elegance: brooch, gloves, shawl, pearls, cane if desired, formal suit or dress
+    with unmistakable presence.
+  relationships:
+  - with:
+    - '01'
+    text: Hired Artie Ficial early in his career.
+  - with:
+    - '05'
+    - '25'
+    text: Trusts Chip Patina and Anne E. Dote.
+  - with:
+    - '10'
+    text: Has known Tess Tament since Tess was a child.
+  introduction: >-
+    I’m Anya Tique. I helped build this museum. Tonight I reserve the right to judge the lighting
+    and everyone in it.
+- id: '17'
+  name: Saul D. Bid
+  role: Chairman of Gavel & Rowe Auction House
+  description: >-
+    Saul cannot ask someone to pass the salt without opening bidding. Saul has sold paintings, antiquities,
+    estates, scandals, and at least one chair that required its own insurance rider.
+  acting_tips: >-
+    Old-school charm, status-aware, patient, competitive. Speak as if the room has already agreed
+    you belong in it.
+  costume_suggestions: >-
+    Classic tuxedo or formal dark suit, silk pocket square, signet ring, reading glasses, optional
+    miniature auction gavel.
+  relationships:
+  - with:
+    - '03'
+    text: Longtime professional rival of Hugh Bidder.
+  - with:
+    - '15'
+    - '21'
+    text: Knows Ella Gance and Elon Mosaic from the auction circuit.
+  - with:
+    - '16'
+    text: Anya Tique remembers when Saul was still carrying catalogues for someone else.
+  introduction: >-
+    I’m Saul D. Bid. Going once, going twice—no, I am only asking someone to pass the bread.
+- id: '18'
+  name: Elle Loominate
+  role: Textile Artist & Designer
+  description: >-
+    Elle has identified every fabric in the room, including the suspiciously shiny tuxedo. Elle
+    turns weaving, embroidery, salvage fabric, and obsessive handwork into installations that critics
+    call intimate and collectors call surprisingly difficult to ship.
+  acting_tips: >-
+    Creative, grounded, quietly funny, detail-oriented. You notice what people wear and how things
+    are made.
+  costume_suggestions: >-
+    Formal outfit with texture: embroidered jacket, woven scarf, textile jewelry, patterned dress,
+    unusual fabric.
+  relationships:
+  - with:
+    - '06'
+    text: Has helped Dada DiCapo build several installations.
+  - with:
+    - '05'
+    text: >-
+      Asks Chip Patina how to display fragile textiles without making the supports the main attraction.
+  - with:
+    - '13'
+    text: >-
+      Has worked in Frank Lloyd Wrong’s exhibition spaces. Frank’s empty walls look like opportunities
+      to Elle.
+  introduction: >-
+    I’m Elle Loominate. I make installations with light and fabric. Please do not describe either
+    as something your nephew could do.
+- id: '19'
+  name: Reed DeLabel
+  role: Doctoral Fellow in Art History
+  description: >-
+    Reed reads every label aloud, including the exit sign. Reed is the youngest scholar attached
+    to the exhibition and has been trying very hard to behave like this is normal.
+  acting_tips: >-
+    Eager, cerebral, anxious in a useful way, unexpectedly bold when the evidence is on your side.
+  costume_suggestions: 'Best-suit energy: formal but slightly less effortless than the veterans.'
+  relationships:
+  - with:
+    - '09'
+    text: Dr. Art E. Fact supervises Reed’s doctorate and rarely returns a clean draft.
+  - with:
+    - '02'
+    text: Gets informal guidance from Claire O’Scuro on exhibition labels and curatorial work.
+  - with:
+    - '12'
+    text: >-
+      Checks dates and catalogue references for Paige Turner. Reed saves any article that includes
+      a correction.
+  introduction: >-
+    I’m Reed DeLabel. I am the graduate fellow. I know where the footnotes go and, more dangerously,
+    where they are missing.
+- id: '20'
+  name: Al Baster
+  role: Sculptor & Public-Art Star
+  description: >-
+    Al considers a pedestal a sculpture that has given up on itself. Al makes monumental sculpture
+    in stone, steel, and whatever else can require a crane.
+  acting_tips: Big presence, playful arrogance, generous when admired, combative when minimized.
+  costume_suggestions: >-
+    Bold formalwear, chunky ring, sculptural accessories, dark shirt with jacket, perhaps a dust-marked
+    work boot paired with gala clothes.
+  relationships:
+  - with:
+    - '13'
+    text: >-
+      Creative rival of Frank Lloyd Wrong after an argument about the entrance installation.
+  - with:
+    - '07'
+    text: Friendly competitor of Vincent Van Faux.
+  - with:
+    - '30'
+    text: >-
+      Minnie Malist once designed a gala around one of Al's sculptures and still talks about the
+      insurance.
+  introduction: >-
+    I’m Al Baster. I made the entrance sculpture. I would appreciate your admiration in a tone that
+    suggests prompt payment.
+- id: '21'
+  name: Ella Gance
+  role: Collector, Style Patron & Society Fixture
+  description: >-
+    Ella dresses as though the society pages arrive before the guests. Ella has excellent taste,
+    excellent photographers, and excellent instincts about which artists will become impossible
+    to buy next year.
+  acting_tips: >-
+    Charming, strategic, stylish, lightly competitive. Compliments can be sincere and still accomplish
+    something.
+  costume_suggestions: >-
+    Fashion-forward gala look, statement jewelry, dramatic clutch, bold color or silhouette.
+  relationships:
+  - with:
+    - '07'
+    - '18'
+    text: Collects work by Vincent Van Faux and Elle Loominate.
+  - with:
+    - '15'
+    text: Competes socially and at auction with Elon Mosaic.
+  - with:
+    - '03'
+    - '17'
+    text: Uses Hugh Bidder when discretion matters and Saul D. Bid when spectacle does.
+  introduction: >-
+    I’m Ella Gance. I collect beautiful things and attend beautiful evenings. I am prepared to be
+    disappointed by neither.
+- id: '22'
+  name: Drew Conclusions
+  role: Art Critic & Cultural Podcaster
+  description: >-
+    Drew calls everything derivative, especially things he likes. Drew can make a museum director
+    nervous with a headline and an artist furious with a compliment.
+  acting_tips: >-
+    Dry, perceptive, skeptical, socially nimble. Deliver observations as if they occurred to you
+    three minutes before everyone else.
+  costume_suggestions: >-
+    Smart, artsy formalwear: black with one eccentric element, distinctive glasses, scarf, vintage
+    jacket, notebook.
+  relationships:
+  - with:
+    - '12'
+    text: Friendly rival of Paige Turner.
+  - with:
+    - '06'
+    - '07'
+    - '18'
+    - '20'
+    text: Has reviewed Vincent Van Faux, Dada DiCapo, Al Baster, and Elle Loominate.
+  - with:
+    - '15'
+    text: Elon Mosaic remembers an especially brutal line about his collection.
+  introduction: >-
+    I’m Drew Conclusions. I review art professionally. My expression is not a verdict, but I recommend
+    remaining concerned.
+- id: '23'
+  name: Brie DeVivre
+  role: Head Caterer & Hospitality Director
+  description: >-
+    Brie has planned a cheese course more carefully than most people plan a wedding. Brie runs high-end
+    events with the serene expression of a person mentally tracking forty-seven moving parts.
+  acting_tips: >-
+    Competent, sociable, quietly authoritative, hard to rattle. You see the room from the service
+    side.
+  costume_suggestions: >-
+    Sharp black suit or upscale catering uniform, tie or bow tie, folded service towel, small order
+    pad.
+  relationships:
+  - with:
+    - '04'
+    text: Goes over catering costs with Monet Bags. Brie keeps the receipts.
+  - with:
+    - '11'
+    text: >-
+      Barb Dwyer keeps revising the service routes. Brie wants the staff to have one usable plan.
+  - with:
+    - '01'
+    text: Artie Ficial calls on Brie to keep donors fed while the museum deals with a crisis.
+  introduction: >-
+    I’m Brie DeVivre. I am responsible for dinner. If you enjoy it, remember my name. If you do
+    not, blame the donor’s instructions.
+- id: '24'
+  name: Cary Crates
+  role: Senior Art Handler & Installation Specialist
+  description: >-
+    Cary knows which crate holds a masterpiece and which one holds the extension cords. Cary is
+    the person trusted to move objects worth more than the building without dropping either.
+  acting_tips: Grounded, competent, laconic, surprisingly funny when you choose to speak.
+  costume_suggestions: >-
+    Clean dark workwear dressed up for a gala: black trousers, sturdy shoes, smart shirt/jacket,
+    work gloves tucked in pocket, measuring tape prop.
+  relationships:
+  - with:
+    - '05'
+    text: Works daily with Chip Patina.
+  - with:
+    - '13'
+    text: >-
+      Has developed mutual respect with Frank Lloyd Wrong despite arguing about impossible installation
+      drawings.
+  - with:
+    - '20'
+    text: Al Baster likes Cary because Cary actually knows how heavy sculpture is.
+  introduction: >-
+    I’m Cary Crates. I move priceless objects for a living. Please do not test that sentence by
+    handing me your drink.
+- id: '25'
+  name: Anne E. Dote
+  role: Director of Education & Docent Programs
+  description: >-
+    Anne can make a school group care about a pot shard. Tonight’s donors are proving harder.
+  acting_tips: Engaging, practical, empathetic, irreverent about institutional pomp.
+  costume_suggestions: >-
+    Colorful cocktail attire or polished museum-professional look, comfortable shoes, fun brooch
+    or earrings, optional stack of tour cards.
+  relationships:
+  - with:
+    - '16'
+    text: Close to Anya Tique, who champions the education program.
+  - with:
+    - '19'
+    text: Often rescues Reed DeLabel from awkward public-facing moments.
+  - with:
+    - '02'
+    text: Works with Claire O’Scuro to translate scholarship into gallery interpretation.
+  introduction: >-
+    I’m Anne E. Dote. I run education here. I can make almost anything interesting, including a
+    room full of adults behaving badly.
+- id: '26'
+  name: Faye Stop
+  role: Gala Photographer & Editorial Portraitist
+  description: >-
+    Faye will ask you to move half an inch until the end of time. Faye photographs artists, collectors,
+    and public figures for magazines that describe parties like tonight as 'intimate' despite inviting
+    two hundred people.
+  acting_tips: >-
+    Observant, understated, curious, visually minded. You notice who is standing with whom and what
+    happens at the edge of a room.
+  costume_suggestions: >-
+    Elegant all-black or dark cocktail wear, camera as the key prop if available, comfortable shoes,
+    press-style shoulder bag.
+  relationships:
+  - with:
+    - '12'
+    text: Has photographed several investigations for Paige Turner.
+  - with:
+    - '06'
+    text: Dada DiCapo loves Faye's work because Faye does not overdirect.
+  - with:
+    - '21'
+    text: Ella Gance always knows which side Faye is shooting from.
+  introduction: >-
+    I’m Faye Stop. I am your photographer. Give me your good side, then try not to confess anything
+    while I have the camera up.
+- id: '27'
+  name: Robin Banks
+  role: Cultural Restitution Activist & Nonprofit Organizer
+  description: >-
+    Robin has brought a petition, spare pens and absolutely no interest in donor etiquette. Robin
+    campaigns for museums and collectors to return contested cultural objects, publish complete
+    provenance, and stop treating possession as the end of the conversation.
+  acting_tips: >-
+    Focused, bold, principled, socially savvy. Challenge people without turning every conversation
+    into a speech.
+  costume_suggestions: >-
+    Smart gala attire with activist edge: bold pin, statement scarf, printed tote, elegant suit
+    or dress.
+  relationships:
+  - with:
+    - '09'
+    - '14'
+    text: Frequently debates Dr. Art E. Fact and Mona Lott on strategy.
+  - with:
+    - '11'
+    text: Barb Dwyer has removed Robin from a museum event before; both remember it.
+  - with:
+    - '25'
+    text: >-
+      Anne E. Dote quietly agrees with more of Robin's critique than museum leadership suspects.
+  introduction: >-
+    I’m Robin Banks. I campaign for restitution. A disputed object does not become less disputed
+    when somebody puts flowers beside it.
+- id: '28'
+  name: Penny Pincher
+  role: Eccentric Private Collector
+  description: >-
+    Penny is convinced that every museum object would look better in her hallway. Penny collects
+    small paintings, strange decorative objects, and stories about who owned them before she did.
+  acting_tips: >-
+    Eccentric, charming, nosy, unexpectedly shrewd. Ask questions that sound casual and are not.
+  costume_suggestions: >-
+    Eclectic formalwear: vintage jewelry, dramatic brooches, velvet, patterned jacket, gloves, small
+    opera glasses or fan.
+  relationships:
+  - with:
+    - '03'
+    text: Asks Hugh Bidder for auction previews and disputes his estimates.
+  - with:
+    - '07'
+    text: Shows Vincent Van Faux photos of paintings and asks for a free valuation.
+  - with:
+    - '10'
+    text: >-
+      Has compared auction finds with Tess Tament. Penny prefers a bargain Tess has overlooked.
+  introduction: >-
+    I’m Penny Pincher. Some things here belonged to my family. I have brought correspondence and
+    a very selective willingness to be polite.
+- id: '29'
+  name: Justin Tyme
+  role: Tulsa Arts Columnist & Local Historian
+  description: >-
+    Justin remembers the previous scandal and has brought the clipping. Justin knows which gallery
+    used to be a bank, which donor funded which wing, and which local art feud is still alive despite
+    everyone involved pretending otherwise.
+  acting_tips: >-
+    Friendly, curious, locally knowledgeable, a little nosy. You connect people and remember old
+    stories.
+  costume_suggestions: >-
+    Cocktail suit or blazer, vintage Tulsa flair if desired, notebook, press card prop, old museum
+    brochure tucked into pocket.
+  relationships:
+  - with:
+    - '01'
+    - '16'
+    text: Has profiled Artie Ficial and Anya Tique.
+  - with:
+    - '25'
+    - '26'
+    text: Friendly with Anne E. Dote and Faye Stop.
+  - with:
+    - '12'
+    text: >-
+      Paige Turner considers Justin useful when she needs Tulsa context and dangerous when he starts
+      telling stories.
+  introduction: >-
+    I’m Justin Tyme. I write about Tulsa’s art scene. I meet every deadline eventually, usually
+    just in time.
+- id: '30'
+  name: Minnie Malist
+  role: Gala Event Designer & Creative Producer
+  description: >-
+    Minnie considers restrained lighting a cry for help. Minnie creates the visual spectacle around
+    events like tonight: flowers, lighting, table styling, entrances, reveals, and the precise moment
+    everyone is supposed to gasp.
+  acting_tips: >-
+    Energetic, aesthetic, affectionate, slightly chaotic but highly competent. You notice atmosphere
+    first.
+  costume_suggestions: >-
+    Creative formalwear: floral pin, velvet jacket, unusual bow tie, colorful suit, statement glasses.
+  relationships:
+  - with:
+    - '13'
+    text: Works constantly with Frank Lloyd Wrong, who removes half of Minnie's ideas.
+  - with:
+    - '23'
+    text: Brie DeVivre is Minnie's favorite partner in event logistics.
+  - with:
+    - '04'
+    text: Monet Bags is the person who asks what Minnie's ideas cost.
+  introduction: >-
+    I’m Minnie Malist. I produce the events. A successful gala is one in which nobody notices how
+    close it came to collapsing.

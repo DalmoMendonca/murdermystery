@@ -4,12 +4,13 @@ from collections import Counter
 from PIL import Image
 import fitz
 from build import ROOT,KIT,SITE,GAME
+from character_copy import load_characters
 norm=lambda t:re.sub(r'\s+','',t)
 def printed(p):
     with fitz.open(p) as d:return '\n'.join(x.get_text() for x in d)
 def load(name):return json.loads((ROOT/'source'/name).read_text(encoding='utf-8'))
 def check():
-    chars=load('characters.json');rounds=load('question_rounds.json');profiles=load('art_direction.json');hunt=load('hunt.json');case=load('case.json')
+    chars=load_characters();rounds=load('question_rounds.json');profiles=load('art_direction.json');hunt=load('hunt.json');case=load('case.json')
     assert len(chars)==30 and len({c['name'] for c in chars})==30
     names={c['name'] for c in chars};pixels=[]
     expected={'cover':1,'introduction':2,'background':3,'hunt':4,'motive_questions':[5],'motive_answer':6,'opportunity_questions':[7],'opportunity_answer':8,'method_questions':[9],'method_answer':10,'ballot':11,'coming_clean':12}
