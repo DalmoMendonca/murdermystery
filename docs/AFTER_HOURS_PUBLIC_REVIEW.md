@@ -1,5 +1,9 @@
 # Public invitation and character collection review
 
+## Frame restoration — 2026-10-05
+
+At the user's request, restored the original ornate gilded frame on all thirty Van Gogh character sheets. The renderer now reuses `printable_v2.framed()` and its native-alpha ornament and clipped aperture. Original painting masters remain intact. All thirty restored fronts were rendered and visually inspected across eight contact sheets; no frame/text collisions or portrait-face clipping were observed. Character text, typography and pagination remain unchanged. This supersedes the clean-mount/aspect-fit descriptions in the original review below.
+
 2026-10-05. Scope: invitation front and all thirty public character fronts. Letter 612 × 792 pt; texting exports 1224 × 1584 pixels.
 
 Both the primary agent and a fresh independent Impeccable reviewer inspected eight contact sheets covering all 31 fronts, with selected full-size invitation, sparse and dense examples. Final disposition: **SHIP**.

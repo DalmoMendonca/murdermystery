@@ -6,7 +6,7 @@ Letter-size images sent as two attachments, also printable. The user pinned the 
 
 THESIS: A gala invitation and its companion gallery portraits should look like commissioned event artwork, with the museum's nocturnal atmosphere carrying the whole page.
 
-OWN-WORLD: Near-black green #061415, warm cream #fff1d5, antique gold #edc189 and velvet burgundy #620e21. Embedded Libron lettering; the commissioned lion scene from the landing page; clean gilt portrait mounts.
+OWN-WORLD: Near-black green #061415, warm cream #fff1d5, antique gold #edc189 and velvet burgundy #620e21. Embedded Libron lettering; the commissioned lion scene from the landing page; ornate gilded portrait frames.
 
 STORY: The invite establishes the occasion, date, address and preparation. Each unnumbered character poster establishes the identity, relationships, acting and costume suggestions without private game information.
 

@@ -6,7 +6,6 @@ colors:
   cream: "#fff1d5"
   gold: "#edc189"
   wine: "#620e21"
-  portrait-matte: "#112326"
 typography:
   invitation-display: {fontFamily: "Libron", fontSize: "51pt", fontWeight: 700, lineHeight: 0.98}
   invitation-subtitle: {fontFamily: "Libron", fontSize: "23pt", fontWeight: 400, lineHeight: 1.2}
@@ -24,8 +23,6 @@ typography:
 spacing:
   page-margin: "42pt"
   text-measure: "528pt"
-  portrait-image-inset: "5pt"
-  portrait-inner-rule-inset: "3pt"
   portrait-description-gap: "24pt"
   relationship-gap: "5pt"
   acting-top-gap: "16pt"
@@ -34,7 +31,7 @@ components:
   public-page: {backgroundColor: "{colors.night}", textColor: "{colors.cream}", width: "612pt", height: "792pt"}
   invitation-date-band: {backgroundColor: "{colors.wine}", textColor: "{colors.cream}", width: "612pt", height: "102pt"}
   poster-costume-panel: {backgroundColor: "{colors.wine}", textColor: "{colors.cream}", width: "556pt"}
-  portrait-mount: {backgroundColor: "{colors.portrait-matte}"}
+  portrait-frame: {width: "aspect 2:3, fit within measured portrait slot"}
 ---
 
 # Design System: The Last Acquisition — After Hours Public Print
@@ -51,13 +48,13 @@ This document extracts `scripts/after_hours_print.py` and its `scripts/build.py`
 
 - Full-page night ground with cream reading text and gold hierarchy.
 - Commissioned lion scene, large left-hand invitation title and burgundy date band.
-- Full-composition character paintings in clean gilt mounts.
+- Van Gogh character paintings in ornate gilded art frames, restored at the user's request.
 - Measured description columns, full-width relationships and Acting Tips.
 - Burgundy Costume Suggestions panel and a quiet gold footer.
 
 ## Colors
 
-Night is a deep green-black ground; Cream keeps dense character copy readable against it. Antique Gold connects the museum, section labels, fine rules and portrait mounts. Velvet Wine gives the invitation date and costume advice a distinct visual place. Gallery Matte is a slightly lighter green-black behind each painting.
+Night is a deep green-black ground; Cream keeps dense character copy readable against it. Antique Gold connects the museum, section labels, fine rules and portrait mounts. Velvet Wine gives the invitation date and costume advice a distinct visual place.
 
 Gold labels carry words as well as color. Portrait colors remain those of the supplied paintings. The public palette is local to this scope; light private paper, teal headings, yellow relationship highlights and red stop panels keep their existing meanings.
 
@@ -85,17 +82,17 @@ Each character poster is a single-page PDF in `OPEN_FREELY/PreParty_Individual`;
 
 ## Elevation & Depth
 
-The commissioned scene and paintings provide visual depth. Print layout uses flat color bands, fine gilt rules and a translucent night overlay to protect title legibility. It has no drop shadows or motion. The public portrait mount does not use the ornate aperture crop from private packet covers.
+The commissioned scene and paintings provide visual depth. Print layout uses flat color bands, fine gilt rules and a translucent night overlay to protect title legibility. It has no drop shadows or motion. The public portraits reuse the same native-alpha ornate frame and aperture composition as the private packet covers.
 
 ## Shapes
 
-Page bands, costume panels and portrait mounts are square rectangles. Public rules are 0.55 pt; portrait outlines inherit the 0.7 pt `Sheet.rect()` stroke. Portraits have a 5 pt image inset and an inner outline inset 3 pt from the mount edge. No rounded corners are introduced.
+Page bands and costume panels are square rectangles. Public rules are 0.55 pt. Portrait frames retain their organic gilded ornament and native transparency; their outer proportions remain 2:3. No rounded corners are introduced.
 
 ## Components
 
 **Invitation front.** The scene sets the occasion; the left overlay supports title and subtitle, followed by museum, tagline, date/time, address, collection introduction, attire and preparation. Date content is an explicit text band rather than image lettering.
 
-**Gallery portrait mount.** The supplied Van Gogh painting is centered with aspect-preserving fit inside the inset slot. Its entire composition stays visible, surrounded by Gallery Matte and two fine gold outlines. This public behavior differs from `framed()` on the light private cover.
+**Ornate portrait frame.** Reuse `printable_v2.framed()` with `assets/ornaments/gilt_frame.png`. The frame is centered within the measured slot at width min(slot_width, slot_height × 2/3), height frame_width × 1.5. The aperture begins at 18% of frame width and 14% of frame height, spans 64% width and 72% height, and clips the centered portrait beneath the native-alpha ornament. Keep the original portrait masters intact.
 
 **Character story.** Name and role lead the page. Description sits beside the painting; relationships and Acting Tips use the full reading measure beneath both columns. Existing active relationships and public character copy remain authoritative. Each poster is unnumbered and carries no private background, guilt branch or game secret.
 
@@ -110,7 +107,7 @@ Page bands, costume panels and portrait mounts are square rectangles. Public rul
 - Do retain full painting compositions, full-width relationships and Acting Tips.
 - Do measure every poster and preserve the 16 pt narrative floor.
 - Do keep the dark public scope distinct from light private and operational materials.
-- Don't apply private cover aperture cropping to public portrait mounts.
+- Don't replace the ornate art frames with thin gold borders; the user explicitly requested their restoration.
 - Don't expose private game information on public character posters.
 - Don't overwrite the older print document or private sidecar tokens when extending this scope.
 - Don't claim that digital review proves physical printer output.

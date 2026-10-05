@@ -1,3 +1,8 @@
+# Ornate Van Gogh frames restored — 2026-10-05
+
+- Restored the original native-alpha gilded art frames on all thirty dark pre-party character sheets, reusing the private cover frame renderer.
+- Kept all character copy, type sizes and page layout unchanged. Rendered and visually inspected every restored sheet; refreshed combined PDF, JPEGs and all 22 guest image pairs.
+
 # After Hours public invitation and character collection — 2026-10-05
 
 - Extended the approved landing-page world into the Letter invitation and thirty public character sheets: museum lion artwork, near-black ground, cream Libron, antique gold, burgundy panels and preserved Van Gogh portraits.

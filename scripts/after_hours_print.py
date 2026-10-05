@@ -9,7 +9,6 @@ NIGHT = HexColor('#061415')
 CREAM = HexColor('#fff1d5')
 GOLD = HexColor('#edc189')
 WINE = HexColor('#620e21')
-MATTE = HexColor('#112326')
 
 def ground(s):
     cv=s.c;cv.setFillColor(NIGHT);cv.rect(0,0,s.w,s.h,fill=1,stroke=0)
@@ -35,10 +34,9 @@ def height(b,words,width,size,font='Book'):
     return p.wrap(width,10000)[1]
 
 def portrait(s,b,path,x,y,w,h):
-    # The entire painting remains visible, framed by a gallery-black mount.
-    s.rect(x,y,w,h,fill=MATTE,stroke=GOLD)
-    s.image(path,x+5,y+5,w-10,h-10)
-    s.rect(x+3,y+3,w-6,h-6,stroke=GOLD)
+    # Restore the same native-alpha gilded frame used on the private covers.
+    from printable_v2 import framed
+    framed(s,b,path,x,y,w,h)
 
 def poster(chars,b):
     paths=[]
