@@ -29,20 +29,21 @@ def load_characters(root=ROOT):
             c['preparty'][destination] = entry[source].removeprefix('Optional inspiration: ').strip()
         assert isinstance(entry['introduction'], str) and entry['introduction'].strip(), f'Empty introduction for {c["name"]}'
         c['introduction'] = entry['introduction']
-        relationships = []
-        for relation in entry['relationships']:
-            targets = set(relation['with'])
-            assert targets and targets <= set(by_id) and c['id'] not in targets, f'Invalid relationship targets for {c["name"]}'
-            assert isinstance(relation['text'], str) and relation['text'].strip()
-            mentioned={p['id'] for p in characters if p['id']!=c['id'] and p['name'] in relation['text']}
-            assert targets==mentioned, f'Relationship IDs do not match the names in {c["name"]}: use {sorted(mentioned)}'
-            if targets <= active:
-                absent = [p['name'] for p in characters if p['id'] not in active and p['name'] in relation['text']]
-                assert not absent, f'Relationship text still names absent characters: {absent}'
-                relationships.append(relation['text'])
-        if c['id'] in active:
-            assert relationships, f'Add an active relationship for {c["name"]}'
-        c['preparty']['relationships'] = relationships
+        for field in ['relationships', 'packet_relationships']:
+            relationships = []
+            for relation in entry.get(field, []):
+                targets = set(relation['with'])
+                assert targets and targets <= set(by_id) and c['id'] not in targets, f'Invalid relationship targets for {c["name"]}'
+                assert isinstance(relation['text'], str) and relation['text'].strip()
+                mentioned={p['id'] for p in characters if p['id']!=c['id'] and p['name'] in relation['text']}
+                assert targets==mentioned, f'Relationship IDs do not match the names in {c["name"]}: use {sorted(mentioned)}'
+                if targets <= active:
+                    absent = [p['name'] for p in characters if p['id'] not in active and p['name'] in relation['text']]
+                    assert not absent, f'Relationship text still names absent characters: {absent}'
+                    relationships.append(relation['text'])
+            if field=='relationships' and c['id'] in active:
+                assert relationships, f'Add an active relationship for {c["name"]}'
+            c['preparty'][field] = relationships
     return characters
 
 if __name__ == '__main__':

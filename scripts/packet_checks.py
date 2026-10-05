@@ -11,6 +11,7 @@ def printed(p):
 def load(name):return json.loads((ROOT/'source'/name).read_text(encoding='utf-8'))
 def check():
     chars=load_characters();rounds=load('question_rounds.json');profiles=load('art_direction.json');hunt=load('hunt.json');case=load('case.json')
+    packet_relationships=json.loads((ROOT/'build/packet_relationship_fit.json').read_text(encoding='utf-8'))
     assert len(chars)==30 and len({c['name'] for c in chars})==30
     names={c['name'] for c in chars};pixels=[]
     expected={'cover':1,'introduction':2,'background':3,'hunt':4,'motive_questions':[5],'motive_answer':6,'opportunity_questions':[7],'opportunity_answer':8,'method_questions':[9],'method_answer':10,'ballot':11,'coming_clean':12}
@@ -74,6 +75,10 @@ def check():
             assert norm(c['private']['final_murderer']) not in norm(before)
             assert 'investigation notes' not in before and 'preparation-record' not in before
         public=printed(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.pdf')
+        for extra in packet_relationships:
+            if extra['character']==c['name']:
+                assert norm(extra['text']) not in norm(public), 'Packet-only relationship leaked into invite'
+                assert (norm(extra['text']) in norm(intro))==extra['included'], 'Packet relationship does not match fit decision'
         assert 'ACTING TIPS' in public and 'COSTUME SUGGESTIONS' in public and not re.search(r'Age\s+\d',public)
         assert 'WHAT YOU ALREADY KNOW' not in public and 'OPTIONAL QUIPS' not in public
         with Image.open(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.jpg') as im:assert im.size==(1224,1584)

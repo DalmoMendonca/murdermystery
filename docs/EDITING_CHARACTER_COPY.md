@@ -2,9 +2,11 @@
 
 Edit `source/character_copy.yaml`. It contains all 30 characters' public descriptions, roles, acting tips, costume suggestions, relationship bullets, and spoken introductions. It contains no private secrets, answers, or confessions.
 
-The current `active_character_ids` list has the 19 assigned roles. Guest names and phone numbers stay in your Google Sheet and are not published in the repository. Update that list when attendance changes. A relationship prints only when everyone listed in its `with` field is active. Keep the target IDs and names in each bullet consistent. All 15 core roles must remain active.
+The current `active_character_ids` list has the 22 assigned roles. Guest names and phone numbers stay in your Google Sheet and are not published in the repository. Update that list when attendance changes. A relationship prints only when everyone listed in its `with` field is active. Keep the target IDs and names in each bullet consistent. All 15 core roles must remain active.
 
-Each character's `relationships` list is editable. `with: ['02']`, for example, means the bullet refers to Claire O’Scuro. The ID-to-name mapping appears in the character entries. Save at least one relationship to another active role for each active character. The present 19-player version has three bullets per active character.
+Each character's `relationships` list is editable. `with: ['02']`, for example, means the bullet refers to Claire O’Scuro. The ID-to-name mapping appears in the character entries. Save at least one relationship to another active role for each active character. The present 22-player version has three public bullets per active character.
+
+Optional `packet_relationships` use the same `with` and `text` structure. These additional connections appear only on the secret packet's introduction page, when they fit at the normal 16-point body size. They never appear on the pre-party poster or in the sheet's public Relationships column. The build records included and omitted extras in `build/packet_relationship_fit.json`; it does not shrink text or add a page to squeeze them in.
 
 Use the full character names in relationship bullets. If you change whom a bullet refers to, update its `with` IDs too. The build checks that the full names in the text match those IDs and stops with a correction message if they disagree.
 

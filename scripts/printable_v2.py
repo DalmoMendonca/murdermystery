@@ -45,7 +45,7 @@ def pagefoot(s,b,stop=True,extra=None):
     elif extra:s.block(extra,42,708,528,14,'BookItalic',b.TEAL)
     s.footer(f'Murder Mystery Dinner Party 2026 / {s.page} of 12')
 
-def rich(s,b,text,x,y,w,size,names):
+def relationship_paragraph(b,text,w,size,names):
     aliases=set(names)|{n.split()[0] for n in names if not n.startswith('Dr.')}
     if 'Dr. Art E. Fact' in names:aliases.add('Art')
     pattern=r'\b(?:'+'|'.join(re.escape(n) for n in sorted(aliases,key=len,reverse=True))+r')\b'
@@ -54,7 +54,12 @@ def rich(s,b,text,x,y,w,size,names):
         pieces.append(html.escape(text[end:m.start()]));pieces.append('<font backColor="#fff099"><b>'+html.escape(m[0])+'</b></font>');end=m.end()
     pieces.append(html.escape(text[end:]));markup=''.join(pieces)
     p=Paragraph(markup,ParagraphStyle('relationships',fontName='Book',fontSize=size,leading=size*1.25,textColor=b.INK,allowWidows=0,allowOrphans=0))
-    _,h=p.wrap(w,10000);assert y+h<=675,(s.path.name,y+h,text)
+    _,h=p.wrap(w,10000)
+    return p,h
+
+def rich(s,b,text,x,y,w,size,names):
+    p,h=relationship_paragraph(b,text,w,size,names)
+    assert y+h<=675,(s.path.name,y+h,text)
     p.drawOn(s.c,x,s.h-y-h);b.AUDIT.append(dict(file=str(s.path.relative_to(b.KIT)),page=s.page,x=x,y=y,width=w,height=h,size=size,text=text));return y+h
 
 def poster(chars,b):
@@ -65,21 +70,22 @@ def poster(chars,b):
         s.block(c['name'],48,49,516,34,'BookBold',b.TEAL)
         s.block(c['role'],48,98,516,16,'BookItalic',bottom=146)
         s.line(48,142,564,142)
-        def estimate(size):
+        def estimate(size,gap=6,acting_gap=12,costume_gap=17):
             y=max(382,157+b.para(p['description'],318,size)[1])+15
-            y+=sum(b.para('• '+t,516,size)[1]+6 for t in p['relationships'])
-            y+=18+20+5+b.para(p['acting'],516,size)[1]
-            y+=17+20+5+b.para(p['costume'],516,size)[1]
+            y+=sum(b.para('• '+t,516,size)[1]+gap for t in p['relationships'])
+            y+=acting_gap+6+20+5+b.para(p['acting'],516,size)[1]
+            y+=costume_gap+20+5+b.para(p['costume'],516,size)[1]
             return y
-        size=next((v for v in [17,16] if estimate(v)<=728),None)
-        assert size,(c['name'],estimate(16))
+        layout=next((v for v in [(17,6,12,17),(16,6,12,17),(16,4,10,12)] if estimate(*v)<=728),None)
+        assert layout,(c['name'],estimate(16))
+        size,gap,acting_gap,costume_gap=layout
         framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg',41,150,196,234)
         y=s.block(p['description'],246,157,318,size,bottom=425)
         y=max(382,y)+15
-        for t in p['relationships']:y=s.block('• '+t,48,y,516,size,bottom=728)+6
-        y=s.block('ACTING TIPS',48,y+12,516,16,'BookBold',b.TEAL,bottom=728)+5
+        for t in p['relationships']:y=s.block('• '+t,48,y,516,size,bottom=728)+gap
+        y=s.block('ACTING TIPS',48,y+acting_gap,516,16,'BookBold',b.TEAL,bottom=728)+5
         y=s.block(p['acting'],48,y,516,size,bottom=728)
-        y=s.block('COSTUME SUGGESTIONS',48,y+17,516,16,'BookBold',b.TEAL,bottom=728)+5
+        y=s.block('COSTUME SUGGESTIONS',48,y+costume_gap,516,16,'BookBold',b.TEAL,bottom=728)+5
         s.block(p['costume'],48,y,516,size,bottom=728)
         s.block('October 30, 2026 / Meridian Museum Gala',48,740,516,12,'BookItalic',b.TEAL,bottom=758)
         s.save();paths.append(s.path)
@@ -135,17 +141,31 @@ def cover(s,b,c):
 def packets(chars,b):
     rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
     hunt=json.loads((b.ROOT/'source/hunt.json').read_text(encoding='utf-8'))
-    paths=[]
+    paths=[];relationship_report=[]
     for c in chars:
         p=c['private'];h=c['hearing'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / complete packet')
         cover(s,b,c)
         # Safe face-up: no grievance, animal, branch or secret appears on this cover.
         s.next()
         pagehead(s,b,c,'INTRODUCTIONS')
+        names=[v['name'] for v in chars if v['name']!=c['name']]
+        relationships=list(c['preparty']['relationships'])
+        def introduction_bottom(bullets):
+            y=109+b.para(c['role'],528,20,'BookItalic')[1]+13
+            y+=b.para(c['preparty']['description'],528,16)[1]+12
+            y+=sum(relationship_paragraph(b,'• '+t,528,16,names)[1]+7 for t in bullets)
+            y+=8+b.para('ACTING TIPS',528,16,'BookBold')[1]+5
+            y+=b.para(c['preparty']['acting'],528,16)[1]+14
+            y+=b.para('YOUR INTRODUCTION / READ THE BOX ALOUD',528,16,'BookBold')[1]+8
+            return y+b.para(c['introduction'],492,16)[1]+22
+        for t in c['preparty'].get('packet_relationships',[]):
+            fits=introduction_bottom(relationships+[t])<=674
+            if fits:relationships.append(t)
+            relationship_report.append({'character':c['name'],'text':t,'included':fits})
         y=s.block(c['role'],42,109,528,20,'BookItalic',b.TEAL)+13
         y=s.block(c['preparty']['description'],42,y,528,16,bottom=675)+12
-        for t in c['preparty']['relationships']:
-            y=rich(s,b,'• '+t,42,y,528,16,[v['name'] for v in chars if v['name']!=c['name']])+7
+        for t in relationships:
+            y=rich(s,b,'• '+t,42,y,528,16,names)+7
         y=s.block('ACTING TIPS',42,y+8,528,16,'BookBold',b.TEAL,bottom=675)+5
         y=s.block(c['preparty']['acting'],42,y,528,16,bottom=675)+14
         speech(s,'YOUR INTRODUCTION / READ THE BOX ALOUD',c['introduction'],y,b,16)
@@ -207,6 +227,7 @@ def packets(chars,b):
             y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,14)+6
         pagefoot(s,b,False,'Every selected suspect gets their final word.');s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
+    (b.WORK/'packet_relationship_fit.json').write_text(json.dumps(relationship_report,indent=2),encoding='utf-8')
 
 def tents(chars,b):
     s=b.Sheet(b.KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf','Foldable guest tent cards')

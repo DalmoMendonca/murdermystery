@@ -11,8 +11,8 @@ active_character_ids:
 - '05'
 - '06'
 - '07'
-- '08'
-- '09'
+- 08
+- 09
 - '10'
 - '11'
 - '12'
@@ -21,8 +21,11 @@ active_character_ids:
 - '15'
 - '18'
 - '19'
+- '20'
 - '23'
+- '25'
 - '28'
+- '29'
 characters:
 - id: '01'
   name: Artie Ficial
@@ -45,6 +48,11 @@ characters:
   - with:
     - '23'
     text: Trusts Brie DeVivre to handle the donors when Artie gets pulled into a crisis.
+  packet_relationships:
+  - with:
+    - '29'
+    text: Justin Tyme keeps requesting early museum property records. Artie keeps offering the anniversary
+      brochure.
   introduction: >-
     I'm Artie Ficial. It is my pleasure to welcome you to our gala unveiling our newest exhibition, Treasures of the World, sponsored by our generous benefactor, Grant Larceny, who will arrive here shortly. I'm confident this will be a remarkable evening, and if anything goes wrong tonight, please treat it as an immersive experience.
 - id: '02'
@@ -68,6 +76,11 @@ characters:
     - '05'
     - '09'
     text: Consults Chip Patina and Dr. Art E. Fact when an object needs closer examination.
+  packet_relationships:
+  - with:
+    - '25'
+    text: Anne E. Dote turns Claire’s research into gallery tours. Claire keeps restoring the words
+      Anne simplifies.
   introduction: >-
     I’m Claire O’Scuro. I am delighted to meet anyone who knows the difference between provenance and a price tag.
 - id: '03'
@@ -158,6 +171,11 @@ characters:
     - '10'
     text: >-
       Has made commissioned work for Tess Tament. Tess still asks whether one piece is meant to make that noise.
+  packet_relationships:
+  - with:
+    - '20'
+    text: Performed inside a sculpture by Al Baster. Dada assumed the invitation to the opening covered
+      that.
   introduction: >-
     I’m Dada DiCapo. If the room feels uncomfortable, good. I may invoice you for the feeling. Art is money. Art is life.
 - id: '07'
@@ -181,6 +199,10 @@ characters:
     - '28'
     text: >-
       Penny Pincher keeps showing Vincent photos of paintings and asking what they are worth. He's not interested.
+  packet_relationships:
+  - with:
+    - '20'
+    text: Al Baster compares their commissions by weight. Vincent would prefer to discuss the price.
   introduction: >-
     I’m Vincent Van Faux. My new work is here tonight. My early work is also here, despite several very expensive objections.
 - id: '08'
@@ -315,6 +337,11 @@ characters:
     - '06'
     text: >-
       Dada DiCapo once described one of Frank's galleries as "an expensive corridor." Frank remembers the review.
+  packet_relationships:
+  - with:
+    - '20'
+    text: Al Baster insists the entrance was designed around his sculpture. Frank insists the sculpture
+      was sized for his entrance.
   introduction: >-
     I'm Frank Lloyd Wrong. I designed all the displays you see around the gallery. If one more person says they have one tiny last-minute change, I'm gonna scream!
 - id: '14'
@@ -464,6 +491,11 @@ characters:
     text: >-
       Checks dates and catalogue references for Paige Turner. Reed saves any article that includes
       a correction.
+  packet_relationships:
+  - with:
+    - '25'
+    text: Anne E. Dote coaches Reed through gallery tours. She keeps crossing footnotes out of the
+      children’s handouts.
   introduction: >-
     I’m Reed DeLabel. I am the graduate fellow. I know where the footnotes go and, more dangerously,
     where they are missing.
@@ -480,16 +512,15 @@ characters:
   relationships:
   - with:
     - '13'
-    text: >-
-      Creative rival of Frank Lloyd Wrong after an argument about the entrance installation.
+    text: Frank Lloyd Wrong designed the entrance around Al’s sculpture. They still disagree about
+      which one visitors came to see.
   - with:
     - '07'
-    text: Friendly competitor of Vincent Van Faux.
+    text: Competes with Vincent Van Faux for commissions. Al keeps calculating how many paintings weigh
+      as much as one sculpture.
   - with:
-    - '30'
-    text: >-
-      Minnie Malist once designed a gala around one of Al's sculptures and still talks about the
-      insurance.
+    - '06'
+    text: Dada DiCapo once performed inside one of Al’s sculptures. Al found out from the photographs.
   introduction: >-
     I’m Al Baster. I made the entrance sculpture. I would appreciate your admiration in a tone that
     suggests prompt payment.
@@ -607,14 +638,17 @@ characters:
     or earrings, optional stack of tour cards.
   relationships:
   - with:
-    - '16'
-    text: Close to Anya Tique, who champions the education program.
-  - with:
     - '19'
-    text: Often rescues Reed DeLabel from awkward public-facing moments.
+    text: Coaches Reed DeLabel through gallery tours. Reed keeps adding footnotes to the children’s
+      handouts.
   - with:
     - '02'
-    text: Works with Claire O’Scuro to translate scholarship into gallery interpretation.
+    text: Turns Claire O’Scuro’s research into tours people can follow. Claire keeps restoring the
+      difficult words.
+  - with:
+    - '29'
+    text: Invites Justin Tyme to speak about Tulsa history. She now reviews his slides before inviting
+      donors.
   introduction: >-
     I’m Anne E. Dote. I run education here. I can make almost anything interesting, including a
     room full of adults behaving badly.
@@ -697,34 +731,24 @@ characters:
     I’m Penny Pincher. Some things in this museum belonged to my family, so you'd think I'd at least get a discount on tickets. I'm delighted about all the free food tonight, though!
 - id: '29'
   name: Justin Tyme
-  role: Tulsa Arts Columnist & Local Historian
-  description: >-
-    Justin remembers the previous scandal and has brought the clipping. Justin knows which gallery
-    used to be a bank, which donor funded which wing, and which local art feud is still alive despite
-    everyone involved pretending otherwise.
-  acting_tips: >-
-    Friendly, curious, locally knowledgeable, a little nosy. You connect people and remember old
-    stories.
-  costume_suggestions: >-
-    Cocktail suit or blazer, vintage Tulsa flair if desired, notebook, press card prop, old museum
-    brochure tucked into pocket.
+  role: "Independent Blogger & Local Truthstorian"
+  description: "Justin runs a Tulsa history blog from a used-bookshop desk buried in newspaper clippings. He tracks old property deeds, vanished music venues, and the names donors would rather leave off the plaque. Ask him about a grand local family and he may reach for a folder instead of a compliment."
+  acting_tips: "Sociable, stubborn, and easily sidetracked by a good lead. Ask who owned the building before the museum arrived. Treat an old clipping like something worth showing the person beside you."
+  costume_suggestions: "Rumpled blazer over a patterned shirt, comfortable boots, notebook, reading glasses, and a battered folder of old newspaper clippings."
   relationships:
   - with:
-    - '01'
-    - '16'
-    text: Has profiled Artie Ficial and Anya Tique.
+    - '12'
+    text: Paige Turner considers Justin useful when she needs Tulsa context and dangerous when he starts
+      telling stories.
   - with:
     - '25'
-    - '26'
-    text: Friendly with Anne E. Dote and Faye Stop.
+    text: Gives local-history talks for Anne E. Dote. She keeps asking him to finish before the museum
+      closes.
   - with:
-    - '12'
-    text: >-
-      Paige Turner considers Justin useful when she needs Tulsa context and dangerous when he starts
-      telling stories.
-  introduction: >-
-    I’m Justin Tyme. I write about Tulsa’s art scene. I meet every deadline eventually, usually
-    just in time.
+    - '01'
+    text: Has been digging into the museum’s early property records. Artie Ficial keeps offering him
+      the official anniversary brochure.
+  introduction: "I'm Justin Tyme. I run a local history blog. If your family funded this wing, I'd love to hear about it. I brought the property records."
 - id: '30'
   name: Minnie Malist
   role: Gala Event Designer & Creative Producer
