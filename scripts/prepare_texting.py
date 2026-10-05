@@ -15,9 +15,11 @@ def prepare(guests_path,output):
     with fitz.open(kit/'06_Invitation_and_Arrival_Guide.pdf') as doc:
         pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2),alpha=False)
         image=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
-        data=io.BytesIO();image.save(data,'JPEG',quality=94,optimize=True);invite=data.getvalue()
+        origin=b'impeccable:prompt Origin: Letter invitation rendered from 06_Invitation_and_Arrival_Guide.pdf; After Hours artwork preserved from site/art/museum-after-hours.webp.'
+        data=io.BytesIO();image.save(data,'JPEG',quality=94,optimize=True,comment=origin);invite=data.getvalue()
     output.mkdir(parents=True,exist_ok=True)
-    manifest=[];messages=[];folders=set()
+    (output/'Messages.txt').unlink(missing_ok=True)
+    manifest=[];folders=set()
     for g in sorted(guests,key=lambda g:(g['first'],g['last'])):
         c=chars[g['character']]
         name=f"{g['first']} {g['last']} - {c['name']}"
@@ -35,10 +37,8 @@ def prepare(guests_path,output):
             with Image.open(path) as image:assert image.size==(1224,1584)
             files.append({'file':filename,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
         manifest.append({'guest':f"{g['first']} {g['last']}",'character':c['name'],'folder':folder,'files':files})
-        messages.append(f"{name}\nHi {g['first']}! You're playing {c['name']} at our murder mystery dinner on Friday, October 30 at 6 PM. Here are your invitation and character sheet. Have fun with the costume!\n")
-    (output/'Messages.txt').write_text('\n'.join(messages),encoding='utf-8')
     (output/'Manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-    (output/'READ_ME.txt').write_text('Open the folder named for your guest. Attach 01_Invite.jpg and 02_Character.jpg together in their text conversation. Optional copy-and-paste messages are in Messages.txt. These are public pre-party materials.\n',encoding='utf-8')
+    (output/'READ_ME.txt').write_text('Image-only invitation pairs. Each guest folder contains 01_Invite.jpg and 02_Character.jpg. These are public pre-party materials. No messages have been sent.\n',encoding='utf-8')
     archive=output.with_suffix('.zip')
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for p in sorted(output.rglob('*')):

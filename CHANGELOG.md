@@ -1,3 +1,10 @@
+# After Hours public invitation and character collection — 2026-10-05
+
+- Extended the approved landing-page world into the Letter invitation and thirty public character sheets: museum lion artwork, near-black ground, cream Libron, antique gold, burgundy panels and preserved Van Gogh portraits.
+- Added measured portrait sizes and spacing for sparse/dense copy, full-width acting tips, 16–17 pt narrative text and properly padded costume suggestions.
+- Regenerated the 22 private guest folders as 44 image-only attachments; no message drafts or guest roster are published.
+- Visually inspected all 31 changed fronts, with an independent final SHIP review. Private game design and player packet interiors remain unchanged; this visual release is not a new difficulty playtest.
+
 # Centered cover correction — 2026-10-04
 
 - Replaced the user-rejected cover with a centered exhibition-poster composition: clearer title/subtitle hierarchy, framed portrait, centered character name, quiet symmetric rules and compact centered footer. Removed cover corner crosshairs.

@@ -92,8 +92,8 @@ def load_doc(key):
     text=re.sub('|'.join(re.escape(k) for k in sorted(lookup,key=len,reverse=True)),lambda m:lookup[m[0]],text)
     return text.replace('VOSS COLLECTION','LARCENY COLLECTION')
 def preparty(chars):
-    import printable_v2
-    return printable_v2.poster(chars,__import__(__name__))
+    import after_hours_print
+    return after_hours_print.poster(chars,__import__(__name__))
 
 def card_document(path,title,cards,per_page=2):
     s=Sheet(path,title)
@@ -137,15 +137,9 @@ def props(chars):
     return
 
 def invitation():
-    s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival');s.rect(30,30,552,732,stroke=TEAL)
-    s.block('Treasures of\nthe World',48,48,516,40,'BookBold',TEAL,bottom=157)
-    s.block('The Meridian Museum of Art & World Cultures',48,158,516,18,'BookItalic')
-    for x,slug in [(48,'01_Artie_Ficial'),(224,'06_Dada_DiCapo'),(400,'07_Vincent_Van_Faux')]:
-        s.rect(x,200,164,212,fill=HexColor('#f6f1e7'),stroke=TEAL)
-        s.image(ROOT/'assets/portraits'/slug/'van_gogh.jpg',x+1,201,162,210)
-    y=s.block('You are part of the collection.',48,431,516,24,'BookBold',TEAL)+16
-    for t,size,font in [('Friday, October 30, 2026 / 6:00 PM',20,'BookBold'),(GAME['address'],18,'Book'),('The Grant Larceny Collection opens with a gala and the unveiling of the thirteenth-century Isfahan Star Bowl.',16,'Book'),('Formal gala attire with art-world flair. Costume suggestions are optional inspiration; make the role your own.',16,'Book'),('Read your character introduction before the party. Your private packet awaits you at the gala.',16,'Book')]:y=s.block(t,48,y,516,size,font,bottom=727)+12
-    s.block('Opening night / The Last Acquisition / October 30, 2026',48,742,516,12,'BookItalic',TEAL,bottom=758)
+    import after_hours_print
+    s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival')
+    after_hours_print.invitation_front(s,__import__(__name__))
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
     rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Introductions and hunt: read your introduction, try the social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
