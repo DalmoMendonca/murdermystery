@@ -22,6 +22,7 @@ def load_characters(root=ROOT):
     for entry in entries:
         c = by_id[entry['id']]
         assert entry['name'] == c['name'], 'Name changes need a coordinated game update; edit the public copy fields freely'
+        assert isinstance(entry['role'],str) and entry['role'].strip(), f'Empty role for {c["name"]}'
         c['role'] = entry['role']
         for source, destination in [('description','description'),('acting_tips','acting'),('costume_suggestions','costume')]:
             assert isinstance(entry[source], str) and entry[source].strip(), f'Empty {source} for {c["name"]}'
@@ -33,6 +34,8 @@ def load_characters(root=ROOT):
             targets = set(relation['with'])
             assert targets and targets <= set(by_id) and c['id'] not in targets, f'Invalid relationship targets for {c["name"]}'
             assert isinstance(relation['text'], str) and relation['text'].strip()
+            mentioned={p['id'] for p in characters if p['id']!=c['id'] and p['name'] in relation['text']}
+            assert targets==mentioned, f'Relationship IDs do not match the names in {c["name"]}: use {sorted(mentioned)}'
             if targets <= active:
                 absent = [p['name'] for p in characters if p['id'] not in active and p['name'] in relation['text']]
                 assert not absent, f'Relationship text still names absent characters: {absent}'

@@ -98,6 +98,15 @@ def check():
             assert norm(t).count(norm(c['card_name']['first_middle']+' '+c['card_name']['last']))==2
             assert 'BASE / fold inward' in t and 'BASE / overlap and tape' in t
             assert p.rect.width==612 and p.rect.height==792
+            rules=p.get_drawings()
+            assert len(rules)==3 and all(len(rule['items'])==1 and rule['items'][0][0]=='l' for rule in rules), 'Only three fold guides; no cut border'
+            blocks=[block for block in p.get_text('dict')['blocks'] if block['type']==0]
+            lines=[line for block in blocks for line in block['lines']]
+            for part in ['first_middle','last']:
+                matching=[line for line in lines if norm(''.join(span['text'] for span in line['spans']))==norm(c['card_name'][part])]
+                assert len(matching)==2, (c['name'],'wrapped name')
+            titles=[block for block in blocks if norm(' '.join(''.join(span['text'] for span in line['spans']) for line in block['lines']))==norm(c['role'])]
+            assert len(titles)==2 and all(len(block['lines'])<=2 for block in titles), (c['name'],'title exceeds two lines')
     guidepath=KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'
     with fitz.open(guidepath) as d:assert len(d)==15
     guide=printed(guidepath)

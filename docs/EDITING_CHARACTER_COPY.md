@@ -6,6 +6,8 @@ The current `active_character_ids` list has the 19 assigned roles. Guest names a
 
 Each character's `relationships` list is editable. `with: ['02']`, for example, means the bullet refers to Claire O’Scuro. The ID-to-name mapping appears in the character entries. Save at least one relationship to another active role for each active character. The present 19-player version has three bullets per active character.
 
+Use the full character names in relationship bullets. If you change whom a bullet refers to, update its `with` IDs too. The build checks that the full names in the text match those IDs and stops with a correction message if they disagree.
+
 Keep IDs and character names unchanged unless we also update the questions, evidence, and private packets. All other public copy fields can be edited. Costume suggestions do not need a repeated introductory label.
 
 The build reads this YAML directly. `source/characters.json` preserves the original full-cast copy and private game logic; editing YAML does not change murderer selection, evidence, answers, or confessions. To restore relationships when a role rejoins, use the original relationship bullets from that JSON or ask me to revise the active cast.

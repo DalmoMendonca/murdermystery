@@ -210,21 +210,32 @@ def packets(chars,b):
 
 def tents(chars,b):
     s=b.Sheet(b.KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf','Foldable guest tent cards')
+    from reportlab.pdfbase.pdfmetrics import stringWidth
+    def single_line(text,maximum,width):
+        size=min(maximum,width/stringWidth(text,'BookBold',1))
+        assert b.para(text,width,size,'BookBold')[1]<=size*1.25+.1
+        return size
     for i,c in enumerate(chars):
-        # 1-inch base flaps and two 4-inch faces. Overall 10 inches inside Letter stock.
-        s.block('Fold on the gold lines. Tape the two base flaps together.',42,21,528,12,'Book',b.TEAL)
-        s.rect(36,36,540,720,stroke=b.TEAL,dash=[3,3])
+        # Use the entire sheet: two four-inch faces and equal 1.5-inch base flaps.
+        # No trim boundary: the only printed rules are dotted fold guides.
+        s.block('Fold on the dotted lines. Overlap and tape the base flaps.',42,21,528,12,'Book',b.TEAL)
         for y in [108,396,684]:
-            s.c.saveState();s.c.setStrokeColor(GOLD);s.c.setLineWidth(.7);s.c.setDash([5,3]);s.c.line(36,792-y,576,792-y);s.c.restoreState()
+            s.c.saveState();s.c.setStrokeColor(GOLD);s.c.setLineWidth(.8);s.c.setDash([1,3]);s.c.line(14,792-y,598,792-y);s.c.restoreState()
+        width=365
+        first_size=single_line(c['card_name']['first_middle'],64,width)
+        last_size=single_line(c['card_name']['last'],76,width)
+        role_size=next(size/4 for size in range(208,63,-1)
+                       if b.para(c['role'],width,size/4,'BookItalic')[1]<=min(65,2*(size/4)*1.25+.1))
+        assert b.para(c['role'],width,role_size,'BookItalic')[1]<=65
         for top,reverse in [(108,True),(396,False)]:
             s.c.saveState()
             if reverse:
                 # Rotate the upper face around its centre so both names read upright on the tent.
                 s.c.translate(612,2*(792-top-144));s.c.rotate(180)
-            s.block(c['card_name']['first_middle'],64,top+32,340,31,'BookBold',b.TEAL,bottom=top+126)
-            s.block(c['card_name']['last'],64,top+78,340,38,'BookBold',b.TEAL,bottom=top+155)
-            s.block(c['role'],64,top+153,325,16,'BookItalic',bottom=top+263)
-            s.image(b.ROOT/'assets/portraits'/c['slug']/'chibi.webp',410,top+28,132,230)
+            s.block(c['card_name']['first_middle'],42,top+22,width,first_size,'BookBold',b.TEAL,bottom=top+103)
+            s.block(c['card_name']['last'],42,top+105,width,last_size,'BookBold',b.TEAL,bottom=top+201)
+            s.block(c['role'],42,top+211,width,role_size,'BookItalic',bottom=top+278)
+            s.image(b.ROOT/'assets/portraits'/c['slug']/'chibi.webp',425,top+18,145,249)
             s.c.restoreState()
         s.block('BASE / fold inward',60,59,480,14,'BookBold',GOLD,bottom=94)
         s.block('BASE / overlap and tape',60,711,480,14,'BookBold',GOLD,bottom=746)

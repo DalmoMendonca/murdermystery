@@ -19,8 +19,8 @@ typography:
   cover-event: {fontFamily: "Libron", fontSize: "34pt", fontWeight: 700, lineHeight: 1.2}
   cover-subtitle: {fontFamily: "Libron", fontSize: "23pt", fontWeight: 400, lineHeight: 1.2}
   cover-name: {fontFamily: "Libron", fontSize: "36pt", fontWeight: 700, lineHeight: 1.2}
-  place-given-name: {fontFamily: "Libron", fontSize: "31pt", fontWeight: 700, lineHeight: 1.25}
-  place-surname: {fontFamily: "Libron", fontSize: "38pt", fontWeight: 700, lineHeight: 1.25}
+  place-given-name: {fontFamily: "Libron", fontSize: "fit to one line, maximum 64pt", fontWeight: 700, lineHeight: 1.25}
+  place-surname: {fontFamily: "Libron", fontSize: "fit to one line, maximum 76pt", fontWeight: 700, lineHeight: 1.25}
   round-marker: {fontFamily: "Libron", fontSize: "16pt", fontWeight: 700, lineHeight: 1.25}
   footer: {fontFamily: "Libron", fontSize: "12pt", fontWeight: 400, lineHeight: 1.25}
 spacing:
@@ -99,7 +99,7 @@ Stop panels occupy (42,686,528,61). A red octagon centered at (66,716), radius 2
 
 Discoveries are two 528 × 302 pt records at (42,104)/(42,422), with 496 × 116 pt photo slots. F1/F5 report photos use 528 × 225 pt, F4 uses 528 × 180 pt, and F3 includes a 528 × 135 pt floor diagram.
 
-Each tent uses one Letter sheet: cut rectangle (36,36,540,720), two 540 × 288 pt faces and two 72 pt base flaps. Fold guides y=108/396/684. Rotate the upper face 180 degrees so both faces read upright when assembled. Names start x=64, avatars occupy a 132 × 230 pt slot at x=410. Overlap and tape the base flaps. Print single-sided at 100%.
+Each tent uses the entire Letter sheet, with no cutting or outer border: two 612 × 288 pt faces and two 108 pt base flaps. Dotted fold guides sit at y=108/396/684. Rotate the upper face 180 degrees so both faces read upright when assembled. Names start x=42 in a 365 pt column, fitting each name line at the largest size allowed by its width and height. Titles fit in at most two lines within a 65 pt height; short titles can use larger type. Transparent avatars occupy a 145 × 249 pt slot at x=425. Overlap and tape the base flaps. Print single-sided at 100%.
 
 Leave ballot page 11 loose inside and staple the other pages in order. Guests retain Coming Clean. Do not use booklet or two-pages-per-sheet printing.
 
@@ -109,7 +109,7 @@ Generated gilt framing supplies carved museum depth, with a native transparent c
 
 ## Shapes
 
-Double gold borders and circular corner ornaments establish the public posters. Safe packet covers retain the double borders but omit the corner ornaments, keeping a quiet outer mat around the ornate portrait. Records and speech boxes stay square. Ordinary outlines are 0.7 pt and rules 0.6 pt. Cut lines use 3/3 pt dashes; gold tent folds use 5/3 pt. The red octagon reinforces the written stop.
+Double gold borders and circular corner ornaments establish the public posters. Safe packet covers retain the double borders but omit the corner ornaments, keeping a quiet outer mat around the ornate portrait. Records and speech boxes stay square. Ordinary outlines are 0.7 pt and rules 0.6 pt. Tent cards have no borders; gold fold guides use 1/3 pt dots. The red octagon reinforces the written stop.
 
 ## Components
 
