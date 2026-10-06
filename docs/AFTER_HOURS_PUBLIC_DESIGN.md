@@ -1,6 +1,6 @@
 ---
-name: The Last Acquisition — After Hours Public Print
-description: Nocturnal museum gala invitation and companion character posters on US Letter.
+name: The Last Acquisition — After Hours Phone Artwork
+description: Approved dark phone JPEGs, built from separate US Letter PDF intermediates.
 colors:
   night: "#061415"
   cream: "#fff1d5"
@@ -34,15 +34,17 @@ components:
   portrait-frame: {width: "aspect 2:3, fit within measured portrait slot"}
 ---
 
-# Design System: The Last Acquisition — After Hours Public Print
+# Design System: The Last Acquisition — After Hours Phone Artwork
+
+> **Current scope — October 5:** This approved dark artwork identity applies to PHONE JPEGs and their intermediate build PDFs only. All downloadable light printable PDFs, including public character sheets and the invitation reading area, are governed by [PRINT_DESIGN.md](PRINT_DESIGN.md). The dark tokens and design direction below are preserved for phone exports.
 
 ## Overview
 
 **Creative North Star: "After Hours"**
 
-The user approved the live After Hours world and requested its extension to the public Letter invitation and character posters. Near-black green, warm cream, antique gold, velvet burgundy and embedded Libron make the printed invitation feel like commissioned gala artwork. The invitation reuses the landing page's commissioned museum lion scene; each character keeps the existing Van Gogh portrait and edited public copy.
+The user approved the live After Hours world and requested its extension to the public Letter invitation and character posters. Near-black green, warm cream, antique gold, velvet burgundy and embedded Libron make the phone invitation feel like commissioned gala artwork. The invitation reuses the landing page's commissioned museum lion scene; each character keeps the existing Van Gogh portrait and edited public copy.
 
-This document extracts `scripts/after_hours_print.py` and its `scripts/build.py` integration. Its scope is the invitation front and thirty unnumbered character poster fronts. The invitation's second-page arrival guide retains its light operational layout. Private player packets, packet covers, host materials, evidence and tent cards retain the separate light print system documented in `PRINT_DESIGN.md`; the public dark world does not replace those tokens. The live site remains the visual authority identified in `AFTER_HOURS_PUBLIC_BRIEF.md`.
+This document extracts the dark branch of `scripts/after_hours_print.py` and its `scripts/build.py` integration. Its current scope is the phone invitation and thirty unnumbered phone character images, generated through separate build PDF intermediates. Public character PDFs, the printable invitation and arrival guide, private player packets, covers, manuals, evidence and tent cards use the light-paper system documented in `PRINT_DESIGN.md`. The original After Hours direction remains recorded in `AFTER_HOURS_PUBLIC_BRIEF.md`; this scope clarification authorizes no webpage changes.
 
 **Key Characteristics:**
 
@@ -56,7 +58,7 @@ This document extracts `scripts/after_hours_print.py` and its `scripts/build.py`
 
 Night is a deep green-black ground; Cream keeps dense character copy readable against it. Antique Gold connects the museum, section labels, fine rules and portrait mounts. Velvet Wine gives the invitation date and costume advice a distinct visual place.
 
-Gold labels carry words as well as color. Portrait colors remain those of the supplied paintings. The public palette is local to this scope; light private paper, teal headings, yellow relationship highlights and red stop panels keep their existing meanings.
+Gold labels carry words as well as color. Portrait colors remain those of the supplied paintings. The dark palette is local to PHONE artwork and its build intermediates. Printable PDFs use white paper, black reading text, burgundy accents, restrained gold and pale instruction panels from `PRINT_DESIGN.md`; yellow relationship highlights retain their existing meaning.
 
 ## Typography
 
@@ -68,7 +70,7 @@ Poster names choose the largest integer size from 43 down to 28 pt that fits 528
 
 ## Layout
 
-US Letter is 612 × 792 pt. Coordinates below run down from the top. The normal reading column begins at x=42 and spans 528 pt. These are fixed print compositions with no responsive breakpoints. PDFs are printed single-sided at 100%.
+US Letter is 612 × 792 pt. Coordinates below run down from the top. The normal reading column begins at x=42 and spans 528 pt. These fixed Letter compositions are rasterized at 2× for PHONE images and have no responsive breakpoints. These dark intermediate PDFs are not the printable downloads; print scaling and assembly belong to `PRINT_DESIGN.md`.
 
 The invitation's artwork slot is (0,0,612,383), using the exact `site/art/museum-after-hours.webp` scene. A night rectangle covers the left 306 × 383 pt at 0.62 alpha. The title begins at (38,72), width 375 pt. Subtitle begins at (42,238), width 320 pt; museum label at (42,321), width 400 pt. A gold rule sits at y=388. The tagline starts at y=407. The full-width wine date band occupies (0,453,612,102); date and time begin at y=469 and 505. Address begins y=576, collection narrative y=619, attire y=678 and preparation reminder y=723.
 
@@ -78,7 +80,9 @@ Relationships follow beneath the taller portrait/description region across all 5
 
 The costume panel begins 19 pt after Acting Tips at x=28, width 556 pt. Its height is 18 + 5 + measured costume height at a 500 pt text measure + 22 pt. The label begins 9 pt inside the panel, at x=42; costume body uses x=42 and 500 pt. Footer rule is fixed at y=747, with metadata at (42,756), width 528 pt. Text drawing asserts its bottom is at or before y=774.
 
-Each character poster is a single-page PDF in `OPEN_FREELY/PreParty_Individual`; the build merges those pages into `OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf`. Individual poster JPEGs are 1224 × 1584 pixels at 144 dpi, quality 90, subsampling 0, with build provenance in their comments. The invitation front is page one of `OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf`.
+Each dark phone character image comes from a single-page intermediate `build/phone-posters/<slug>.pdf`, with a merged dark intermediate at `build/phone-posters.pdf`. Character JPEGs are exported to `OPEN_FREELY/PreParty_Individual` at 1224 × 1584 pixels, 144 dpi, quality 90, subsampling 0, with build provenance comments. The PDFs beside those JPEGs and `02_PreParty_Character_Sheets_ALL.pdf` are independently generated light printable variants.
+
+The dark phone invitation comes from `build/phone-invite.pdf`, rasterized at 2× and JPEG quality 94 into `site/iphone/Invite.jpg` and `00_Invite.jpg` in `All_30_Characters_and_Invite.zip`. That flat ZIP contains thirty character JPEGs plus the invitation. The downloadable `06_Invitation_and_Arrival_Guide.pdf` uses a light reading area and light arrival-guide page; it is not the dark phone export source.
 
 ## Elevation & Depth
 
@@ -98,18 +102,18 @@ Page bands and costume panels are square rectangles. Public rules are 0.55 pt. P
 
 **Costume panel.** The wine rectangle contains a gold uppercase label and cream narrative at the selected body size. Its height is measured from the actual copy, keeping costume guidance readable instead of forcing a uniform empty box.
 
-**Public export.** Opaque artwork embedded through `Sheet.image()` is reduced within 900 × 900 pixels and encoded as quality-88 JPEG with subsampling 1; full-resolution source artwork remains separate. Poster JPEGs are rasterizations of the final PDFs, not separately typeset versions.
+**Phone export.** Opaque artwork embedded through `Sheet.image()` is reduced within 900 × 900 pixels and encoded as quality-88 JPEG with subsampling 1; full-resolution source artwork remains separate. Phone JPEGs are rasterizations of the separate dark build PDF intermediates. Printable PDFs use the shared composition with light-paper colors, as documented in `PRINT_DESIGN.md`.
 
 ## Do's and Don'ts
 
-- Do carry the approved After Hours palette through public invitation and poster fronts.
+- Do carry the approved After Hours palette through PHONE invitation and character images.
 - Do reuse the exact commissioned lion scene and existing character paintings.
 - Do retain full painting compositions, full-width relationships and Acting Tips.
 - Do measure every poster and preserve the 16 pt narrative floor.
-- Do keep the dark public scope distinct from light private and operational materials.
+- Do keep dark PHONE exports distinct from every light printable PDF.
 - Don't replace the ornate art frames with thin gold borders; the user explicitly requested their restoration.
 - Don't expose private game information on public character posters.
-- Don't overwrite the older print document or private sidecar tokens when extending this scope.
+- Don't apply these dark tokens to printable reading areas; the current print document and primary sidecar metadata own the light-paper palette.
 - Don't claim that digital review proves physical printer output.
 
 Review verdicts and artifact coverage belong in the current finish-review records. This document records implementation facts; it does not freeze release hashes or independently certify a shipping build.

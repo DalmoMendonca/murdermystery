@@ -5,7 +5,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 from reportlab.platypus import Paragraph
 
-GOLD=HexColor('#9b783b')
+from print_identity import GOLD
 
 def ornament(s):
     s.rect(28,28,556,736,stroke=GOLD)
@@ -27,13 +27,16 @@ def framed(s,b,path,x,y,w,h):
     s.image(b.ROOT/'assets/ornaments/gilt_frame.png',x,y,fw,fh)
 
 def pagehead(s,b,c,phase):
+    from print_identity import museum_mark
     s.block(phase,42,30,528,16,'BookBold',b.TEAL)
     s.block(c['name'],42,62,528,14,'BookBold')
     s.line(42,89,570,89)
+    museum_mark(s.c,542,28,s.h,22)
+    s.c.saveState();s.c.setStrokeColor(GOLD);s.c.setLineWidth(.4);s.c.line(42,s.h-92,570,s.h-92);s.c.restoreState()
 
 def pagefoot(s,b,stop=True,extra=None):
     if stop:
-        s.rect(42,686,528,61,fill=HexColor('#fff4f1'),stroke=b.RED)
+        s.rect(42,686,528,61,fill=b.PALE,stroke=b.RED)
         cv=s.c;cv.saveState();cv.setFillColor(b.RED);cv.setStrokeColor(b.RED)
         p=cv.beginPath();cx,cy=66,s.h-716;radius=20
         for i in range(8):
@@ -107,8 +110,14 @@ def questions(s,c,rd,b):
 
 def speech(s,label,words,y,b,size=16):
     y=s.block(label,42,y,528,16,'BookBold',b.TEAL,bottom=674)+8
+    if label.startswith('YOUR INTRODUCTION'):
+        paragraph,_=b.para(words,492,size)
+        last=paragraph.blPara.lines[-1]
+        tail=' '.join(getattr(fragment,'text','') for fragment in last.words) if paragraph.blPara.kind else ' '.join(last[1])
+        if len(tail.split())==1:
+            words=re.sub(r'(\S+)\s+(\S+)$',lambda match:match[1]+'\u00a0'+match[2],words)
     h=b.para(words,492,size)[1]
-    s.rect(42,y,528,h+22,stroke=b.TEAL)
+    s.rect(42,y,528,h+22,fill=b.PALE,stroke=b.RED)
     return s.block(words,60,y+11,492,size,bottom=674)+24
 
 def cover(s,b,c):
@@ -116,7 +125,7 @@ def cover(s,b,c):
     # The frame supplies the ornament; the outer mat stays quiet.
     s.rect(28,28,556,736,stroke=GOLD)
     s.rect(33,33,546,726,stroke=GOLD)
-    def centered(text,y,size,font='Book',color=b.TEAL,leading=None):
+    def centered(text,y,size,font='Book',color=b.INK,leading=None):
         p=Paragraph(html.escape(text),ParagraphStyle('CoverCentered',fontName=font,
             fontSize=size,leading=leading or size*1.2,alignment=TA_CENTER,
             textColor=color,allowWidows=0,allowOrphans=0))
@@ -130,12 +139,12 @@ def cover(s,b,c):
         cv=s.c;cv.saveState();cv.setStrokeColor(GOLD);cv.setLineWidth(.65)
         cv.line(306-width/2,s.h-y,306+width/2,s.h-y);cv.restoreState()
     centered('Murder Mystery',54,34,'BookBold')
-    centered('Dinner Party 2026',99,23,'BookItalic')
+    centered('Dinner Party 2026',99,23,'BookItalic',b.RED)
     rule(141,160)
     framed(s,b,b.ROOT/'assets/portraits'/c['slug']/'picasso.jpg',144,156,324,462)
     centered(c['name'],636,36,'BookBold')
     rule(695,160)
-    centered('The Meridian Museum',711,14,'BookItalic')
+    centered('The Meridian Museum',711,14,'BookItalic',b.RED)
     centered('October 30, 2026  /  Private player packet  /  1 of 12',735,12)
 
 def packets(chars,b):
@@ -253,7 +262,7 @@ def tents(chars,b):
             if reverse:
                 # Rotate the upper face around its centre so both names read upright on the tent.
                 s.c.translate(612,2*(792-top-144));s.c.rotate(180)
-            s.block(c['card_name']['first_middle'],42,top+22,width,first_size,'BookBold',b.TEAL,bottom=top+103)
+            s.block(c['card_name']['first_middle'],42,top+22,width,first_size,'BookBold',b.INK,bottom=top+103)
             s.block(c['card_name']['last'],42,top+105,width,last_size,'BookBold',b.TEAL,bottom=top+201)
             s.block(c['role'],42,top+211,width,role_size,'BookItalic',bottom=top+278)
             s.image(b.ROOT/'assets/portraits'/c['slug']/'chibi.webp',425,top+18,145,249)

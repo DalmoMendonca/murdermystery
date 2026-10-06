@@ -12,7 +12,8 @@ def prepare(guests_path,output):
     assert len({g['character'] for g in guests})==len(guests), 'Duplicate character assignment'
     assert {chars[g['character']]['id'] for g in guests}==active, 'Guest assignments must match the active cast'
     kit=ROOT/'site/downloads/current/The_Last_Acquisition_Complete_Kit/OPEN_FREELY'
-    with fitz.open(kit/'06_Invitation_and_Arrival_Guide.pdf') as doc:
+    invite=ROOT/'build/phone-invite.pdf'
+    with fitz.open(invite if invite.exists() else kit/'06_Invitation_and_Arrival_Guide.pdf') as doc:
         pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2),alpha=False)
         image=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
         origin=b'impeccable:prompt Origin: Letter invitation rendered from 06_Invitation_and_Arrival_Guide.pdf; After Hours artwork preserved from site/art/museum-after-hours.webp.'

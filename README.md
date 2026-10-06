@@ -10,6 +10,8 @@ Start with `00_READ_ME_FIRST.pdf`. Each guest receives one complete twelve-page 
 
 Every character has a Van Gogh portrait on the public introduction, a Picasso portrait on the private cover, and a transparent chibi on the place card. Place cards put first and middle names on one line and surname on the next; one US Letter sheet per guest, with two faces, fold lines and tape-together base flaps. All thirty roles can be selected through the same memorized animal draw. Casting tiers indicate story prominence, not murderer eligibility.
 
+Printable PDFs use white/light reading areas, black text and burgundy/gold museum accents. The invitation retains its photographic upper section. Phone JPEGs keep the approved dark After Hours design; use those images for texting rather than rendering the print PDFs.
+
 ## Editable sources
 
 - `source/characters.json`: canonical introductions, prepared answers, private canon, case facts and both Coming Clean statements.

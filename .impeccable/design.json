@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T19:02:45.864788+00:00",
+  "generatedAt": "2026-10-06T01:15:26.841617+00:00",
   "title": "Design System: The Last Acquisition — Print",
   "extensions": {
     "afterHoursPublic": {
       "sourceDocument": "docs/AFTER_HOURS_PUBLIC_DESIGN.md",
-      "scope": "Invitation front and thirty unnumbered character poster fronts only. Light private packets and the invitation's light arrival guide retain their existing system.",
+      "scope": "Approved dark PHONE invitation and thirty character JPEGs only. Generated build/phone-invite.pdf and build/phone-posters PDFs are image-export intermediates; downloadable printable PDFs use the light-paper system.",
       "sourceFiles": [
         "scripts/after_hours_print.py",
         "scripts/build.py",
         "docs/AFTER_HOURS_PUBLIC_BRIEF.md"
       ],
-      "authority": "User-approved live After Hours world extended to public Letter invitation and character posters.",
+      "authority": "User-approved dark After Hours phone images retained while October 5 direction extends black/burgundy accents across light printable PDFs.",
       "colorMeta": {
         "night": {
           "role": "neutral",
@@ -130,7 +130,7 @@
           42,
           528
         ],
-        "scale": "100%, single-sided",
+        "scale": "Letter-composition PDF intermediates rasterized at 2× for PHONE images; not printable download authority.",
         "ruleWidth": 0.55,
         "portraitOutlineWidth": 0.7,
         "textBottomAssertion": 774,
@@ -185,7 +185,7 @@
           "collectionY": 619,
           "attireY": 678,
           "preparationY": 723,
-          "output": "OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf, page 1"
+          "output": "build/phone-invite.pdf -> site/iphone/Invite.jpg and 00_Invite.jpg in All_30_Characters_and_Invite.zip"
         },
         "poster": {
           "name": [
@@ -225,8 +225,8 @@
           },
           "footerRuleY": 747,
           "footerTextY": 756,
-          "outputDirectory": "OPEN_FREELY/PreParty_Individual",
-          "mergedOutput": "OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf",
+          "outputDirectory": "build/phone-posters (PDF intermediates) -> OPEN_FREELY/PreParty_Individual (dark JPEGs only)",
+          "mergedOutput": "build/phone-posters.pdf (dark PHONE intermediate only)",
           "export": {
             "format": "JPEG",
             "pixels": [
@@ -281,16 +281,19 @@
             "body": "Keep poster narrative at least 16 pt. Resolve measured space through the implemented layout choices; do not replace body copy with footer-sized text."
           }
         ],
-        "scopeBoundary": "Public dark invitation/poster fronts; private light packet system remains separately documented and tokenized.",
+        "scopeBoundary": "Approved dark PHONE JPEGs and their build PDF intermediates only. All printable download PDFs use light-paper tokens; homepage remains independent.",
         "verificationPolicy": "Use current finish-review evidence for verdicts and coverage. Digital review does not establish physical printer quality."
       }
     },
     "sourceDocument": "docs/PRINT_DESIGN.md",
-    "scope": "Printable PDFs and 144-dpi character JPEGs; homepage authority remains docs/DESIGN.md.",
+    "scope": "Light printable PDFs; separately scoped approved dark PHONE JPEGs and build PDF intermediates under afterHoursPublic. Homepage authority remains docs/DESIGN.md; no webpage changes authorized.",
     "sourceFiles": [
+      "scripts/print_identity.py",
       "scripts/build.py",
       "scripts/printable_v2.py",
+      "scripts/after_hours_print.py",
       "scripts/evidence_design.py",
+      "scripts/export_phone_images.py",
       "source/game.json"
     ],
     "colorMeta": {
@@ -298,17 +301,13 @@
         "role": "neutral",
         "displayName": "Museum Ink"
       },
-      "teal": {
+      "burgundy": {
         "role": "primary",
-        "displayName": "Meridian Blue"
+        "displayName": "Museum Burgundy"
       },
       "gold": {
         "role": "secondary",
         "displayName": "Gilt Ornament"
-      },
-      "private-warning": {
-        "role": "secondary",
-        "displayName": "Private Warning"
       },
       "paper": {
         "role": "neutral",
@@ -318,17 +317,13 @@
         "role": "tertiary",
         "displayName": "Relationship Yellow"
       },
-      "stop-ground": {
+      "pale": {
         "role": "neutral",
-        "displayName": "Stop Ground"
+        "displayName": "Pale Blush"
       },
       "table-rule": {
         "role": "neutral",
         "displayName": "Table Separator"
-      },
-      "portrait-matte": {
-        "role": "neutral",
-        "displayName": "Ivory Portrait Matte"
       }
     },
     "typographyMeta": {
@@ -339,7 +334,7 @@
         "purpose": "16 pt introductions, Motive and Method; Opportunity 16 or measured 15; Coming Clean 14."
       },
       "poster-body": {
-        "purpose": "Measured 17 or 16 pt; full-width relationships and Acting Tips."
+        "purpose": "Measured 17, 16.5 or 16 pt, 1.2 leading; full-width relationships and Acting Tips."
       },
       "footer": {
         "purpose": "12 pt auxiliary metadata only."
@@ -358,7 +353,7 @@
       "seed": "ad4b8f59",
       "assignedIndex": 5,
       "direction": "Museum Patron Folio",
-      "authority": "User explicitly requested ornate museum gala and retained teal/font.",
+      "authority": "Earlier user-approved museum gala, Libron and ornate frames; October 5 light-paper black/burgundy direction supersedes teal print tokens.",
       "reconstructedWithinPinnedWorld": [
         "Gala invitation",
         "Exhibition catalogue",
@@ -386,62 +381,47 @@
         3,
         3
       ],
-      "foldDash": [
-        5,
-        3
-      ],
       "scale": "100%, single-sided",
       "poster": {
-        "borders": [
-          [
-            28,
-            28,
-            556,
-            736
-          ],
-          [
-            33,
-            33,
-            546,
-            726
-          ]
-        ],
         "name": [
-          48,
-          49,
-          516,
-          34
+          42,
+          36,
+          528
         ],
         "role": [
-          48,
-          98,
-          516,
-          16
+          42,
+          94,
+          528
         ],
-        "dividerY": 142,
-        "portrait": [
-          41,
-          150,
-          196,
-          234
+        "heroY": "max(141, role_end + 18)",
+        "initialPortraitWidth": 196,
+        "expandedPortraitCandidates": [
+          250,
+          230
         ],
-        "description": [
-          246,
-          157,
-          318
-        ],
-        "fullWidthSections": 516,
-        "footerY": 740,
-        "export": {
-          "format": "JPEG",
-          "pixels": [
-            1224,
-            1584
-          ],
-          "dpi": 144,
-          "quality": 90,
-          "subsampling": 0
-        }
+        "heroHeight": "max(portrait_width * 1.16, measured_description_height)",
+        "descriptionX": "portrait_width + 66",
+        "descriptionYOffset": 3,
+        "descriptionWidth": "528 - portrait_width - 24",
+        "fitBottom": 736,
+        "heroAfterGap": "18 + min(24, max(0, 710 - measured_end))",
+        "relationshipAfterGap": 5,
+        "actingRuleYOffset": 7,
+        "actingLabelYOffset": 16,
+        "labelBodyGap": 5,
+        "costumePanel": {
+          "x": 28,
+          "width": 556,
+          "topGap": 19,
+          "labelX": 42,
+          "labelTopInset": 9,
+          "bodyWidth": 500,
+          "height": "18 + 5 + measured_costume_height + 22"
+        },
+        "footerRuleY": 747,
+        "footerTextY": 756,
+        "outputDirectory": "OPEN_FREELY/PreParty_Individual (light printable PDFs)",
+        "mergedOutput": "OPEN_FREELY/02_PreParty_Character_Sheets_ALL.pdf (light printable PDF)"
       },
       "cover": {
         "axisX": 306,
@@ -564,7 +544,11 @@
           "width": 528,
           "textX": 60,
           "textMeasure": 492,
-          "heightExtra": 22
+          "heightExtra": 22,
+          "backgroundToken": "pale",
+          "outlineToken": "burgundy",
+          "branchStyling": "Identical innocent and murderer styling.",
+          "introductionTailBalance": "If measured final line has one word, join final two source words with NBSP and remeasure; source words and punctuation unchanged."
         },
         "stop": {
           "rectangle": [
@@ -588,7 +572,11 @@
         },
         "assembly": "Leave ballot page 11 loose; staple remaining pages in order; retain Coming Clean.",
         "investigationNotes": false,
-        "methodReading": "Common EVERYONE speaking box; no preparation-record classifier."
+        "methodReading": "Common EVERYONE speaking box; no preparation-record classifier.",
+        "goldDivider": {
+          "y": 92,
+          "strokeWidth": 0.4
+        }
       },
       "hunt": {
         "envelopes": 16,
@@ -601,34 +589,39 @@
         "count": 30,
         "pages": 30,
         "perPage": 1,
-        "cutRectangle": [
-          36,
-          36,
-          540,
-          720
-        ],
+        "cutting": false,
+        "outerBorder": false,
         "foldY": [
           108,
           396,
           684
         ],
+        "foldDash": [
+          1,
+          3
+        ],
+        "foldStrokeWidth": 0.8,
         "faces": [
-          540,
+          612,
           288
         ],
-        "baseFlapHeight": 72,
+        "baseFlapHeight": 108,
         "upperFaceRotation": 180,
-        "nameX": 64,
-        "firstMiddleSize": 31,
-        "surnameSize": 38,
-        "roleSize": 16,
+        "nameX": 42,
+        "nameMeasure": 365,
+        "firstMiddleMaximumSize": 64,
+        "surnameMaximumSize": 76,
+        "givenNameColorToken": "ink",
+        "surnameColorToken": "burgundy",
+        "roleSize": "Largest quarter-point size 16–52 fitting no more than two lines and 65 pt height",
         "avatar": [
-          410,
-          28,
-          132,
-          230
+          425,
+          18,
+          145,
+          249
         ],
-        "assembly": "Cut dashed border, fold gold lines, overlap and tape base flaps."
+        "avatarY": "face_top + 18",
+        "assembly": "Use full sheet; fold three dotted gold guides; overlap and tape base flaps; no cutting."
       },
       "discoveries": {
         "count": 16,
@@ -683,6 +676,103 @@
           "Opportunity",
           "Method"
         ]
+      },
+      "invitation": {
+        "artwork": "site/art/museum-after-hours.webp",
+        "artworkSlot": [
+          0,
+          0,
+          612,
+          383
+        ],
+        "overlay": {
+          "rectangle": [
+            0,
+            0,
+            306,
+            383
+          ],
+          "colorToken": "night",
+          "alpha": 0.62
+        },
+        "title": [
+          38,
+          72,
+          375
+        ],
+        "subtitle": [
+          42,
+          238,
+          320
+        ],
+        "museum": [
+          42,
+          321,
+          400
+        ],
+        "dividerY": 388,
+        "tagline": [
+          42,
+          407,
+          528
+        ],
+        "dateBand": [
+          0,
+          453,
+          612,
+          102
+        ],
+        "dateY": 469,
+        "timeY": 505,
+        "addressY": 576,
+        "collectionY": 619,
+        "attireY": 678,
+        "preparationY": 723,
+        "output": "OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf (light reading area, light arrival guide page 2)",
+        "readingGroundToken": "paper",
+        "dateBandToken": "pale",
+        "readingAccentToken": "burgundy",
+        "heroDisplayPalette": "Retained night/cream/antique-gold over photographic scene only."
+      },
+      "museumMark": {
+        "source": "scripts/print_identity.py",
+        "strokeWidth": 0.85,
+        "colorToken": "burgundy",
+        "genericHeader": {
+          "origin": [
+            42,
+            26
+          ],
+          "size": 24
+        },
+        "manualHeader": {
+          "origin": [
+            42,
+            26
+          ],
+          "size": 18
+        },
+        "packetHeader": {
+          "origin": [
+            542,
+            28
+          ],
+          "size": 22
+        },
+        "roomSignSize": 40
+      },
+      "stationeryRules": {
+        "burgundy": {
+          "y": 82,
+          "strokeWidth": 0.9
+        },
+        "gold": {
+          "y": 86,
+          "strokeWidth": 0.4
+        },
+        "x": 42,
+        "endX": "page_width - 42",
+        "footerGoldStrokeWidth": 0.4
       }
     },
     "artwork": {
@@ -761,8 +851,19 @@
       "authority": "User rejected the earlier uncentered cover screenshot and requested graphic design effort.",
       "rejectedComposition": "Left-aligned event title above centered portrait, with corner crosshair ornaments.",
       "implementedRationale": "Centered exhibition-poster axis unifies event, framed Picasso, sitter and museum metadata; italic subtitle and short gold rules establish hierarchy; the outer mat stays quiet.",
-      "scope": "Cover only; poster, interior and tent tokens preserved.",
+      "scope": "Centered cover composition retained; current light-paper refinement applies black event/name and burgundy subtitle/museum label.",
       "source": "scripts/printable_v2.py:cover"
+    },
+    "lightPaperRefinement": {
+      "authority": "PRODUCT.md October 5 print refinement; docs/LIGHT_PRINT_BRIEF.md",
+      "source": "scripts/print_identity.py",
+      "copyPolicy": "Preserve every source word, mechanics, font, geometry, artwork and existing yellow relationship highlights.",
+      "compatibilityAliases": {
+        "build.TEAL": "burgundy",
+        "build.RED": "burgundy"
+      },
+      "phoneExportPolicy": "Light printable PDF build and dark PHONE PDF intermediates are separate; JPEG rasterization uses only phone intermediates.",
+      "homepagePolicy": "No webpage changes authorized."
     }
   },
   "components": [
@@ -771,49 +872,51 @@
       "kind": "custom",
       "description": "One of ten groups on a two-column question page; named targets and question at 14 pt.",
       "html": "<section class=\"ds-question\"><strong>Artie Ficial / Monet Bags / Tess Tament</strong><p>What did Grant threaten to take from you?</p></section>",
-      "css": ".ds-question{width:252pt;font-family:Libron,serif;line-height:1.25;color:#132e38;border-bottom:.6pt solid #132e38}.ds-question strong{font-size:14pt;color:#057294}.ds-question p{font-size:14pt;margin:4pt 0 12pt}"
+      "css": ".ds-question{width:252pt;font-family:Libron,serif;line-height:1.25;color:#191b1c;border-bottom:.6pt solid #191b1c}.ds-question strong{font-size:14pt;color:#720f29}.ds-question p{font-size:14pt;margin:4pt 0 12pt}"
     },
     {
       "name": "Speech Box",
       "kind": "custom",
       "refersTo": "speech-box",
-      "description": "Role heading outside bordered speaking text.",
+      "description": "Role heading outside pale burgundy-bordered speaking text; identical styling for both branches.",
       "html": "<section class=\"ds-speech\"><strong>IF INNOCENT</strong><div>Prepared Opportunity answer</div></section>",
-      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#132e38;line-height:1.25}.ds-speech strong{display:block;font-size:16pt;color:#057294;margin-bottom:8pt}.ds-speech div{border:.7pt solid #057294;padding:11pt 18pt;font-size:16pt}"
+      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#191b1c;line-height:1.25}.ds-speech strong{display:block;font-size:16pt;color:#720f29;margin-bottom:8pt}.ds-speech div{border:.7pt solid #720f29;background:#faf4f1;padding:11pt 18pt;font-size:16pt}"
     },
     {
       "name": "Relationship Highlight",
       "kind": "custom",
       "description": "Bold yellow character names on day-of introduction only.",
       "html": "<p class=\"ds-relation\">Professional rival of <strong>Hugh Bidder</strong>.</p>",
-      "css": ".ds-relation{width:528pt;font:16pt/1.25 Libron,serif;color:#132e38}.ds-relation strong{background:#fff099;font-weight:700}"
+      "css": ".ds-relation{width:528pt;font:16pt/1.25 Libron,serif;color:#191b1c}.ds-relation strong{background:#fff099;font-weight:700}"
     },
     {
       "name": "Round Stop",
       "kind": "custom",
       "refersTo": "stop-panel",
-      "description": "Explicit round gate reinforced by red octagon; schematic uses words, actual PDF has drawn octagon.",
+      "description": "Explicit round gate reinforced by burgundy octagon; schematic uses words, actual PDF has drawn octagon.",
       "html": "<aside class=\"ds-stop\"><b>STOP!</b><span>Do not turn the page yet.<br>Wait for the host to announce the next round.</span></aside>",
-      "css": ".ds-stop{width:528pt;min-height:61pt;background:#fff4f1;border:.7pt solid #8b2636;color:#8b2636;display:flex;align-items:center;gap:10pt;font:700 14pt/1.25 Libron,serif}.ds-stop b{padding:10pt}.ds-stop span{padding:8pt}"
+      "css": ".ds-stop{width:528pt;min-height:61pt;background:#faf4f1;border:.7pt solid #720f29;color:#720f29;display:flex;align-items:center;gap:10pt;font:700 14pt/1.25 Libron,serif}.ds-stop b{padding:10pt}.ds-stop span{padding:8pt}"
     },
     {
       "name": "Tent Face",
       "kind": "custom",
       "refersTo": "tent-face",
-      "description": "One face of a one-sheet two-sided tent; native transparent avatar is omitted in this schematic.",
+      "description": "Full-sheet two-sided tent face; black given name and burgundy surname, native transparent avatar omitted in schematic. Names fit to 365 pt; sizes vary.",
       "html": "<article class=\"ds-tent\"><strong>Artie</strong><b>Ficial</b><p>Executive Director of the Meridian Museum</p></article>",
-      "css": ".ds-tent{width:540pt;height:288pt;font-family:Libron,serif;color:#132e38}.ds-tent strong,.ds-tent b{display:block;color:#057294;margin-left:28pt}.ds-tent strong{padding-top:32pt;font-size:31pt}.ds-tent b{font-size:38pt;margin-top:6pt}.ds-tent p{width:325pt;font-size:16pt;margin:20pt 28pt}"
+      "css": ".ds-tent{width:612pt;height:288pt;background:#fff;font-family:Libron,serif;color:#191b1c}.ds-tent strong,.ds-tent b{display:block;margin-left:42pt;width:365pt}.ds-tent strong{padding-top:22pt;font-size:64pt;color:#191b1c}.ds-tent b{font-size:76pt;color:#720f29}.ds-tent p{width:365pt;font-size:16pt;margin:10pt 42pt}"
     }
   ],
   "narrative": {
     "northStar": "Museum Patron Folio",
-    "overview": "Ornate museum gala print identity with gilded portraits, teal book typography and readable self-contained player books. Homepage remains independent.",
+    "overview": "Museum gala stationery with white paper, near-black Libron reading text, burgundy headings, pale speaking/instruction panels and restrained gilt rules. Safe framed covers and self-contained player books retain content and geometry. Approved dark PHONE images remain separate; homepage remains independent.",
     "keyCharacteristics": [
+      "White printable reading areas with black/burgundy/gold museum stationery",
       "Safe face-up cover on a centered exhibition-poster axis",
       "Twelve-page player books",
       "Full-width acting tips",
       "Bold yellow relationship names",
-      "Thirty one-sheet tents"
+      "Thirty one-sheet tents",
+      "Separate approved dark PHONE invitation and thirty character JPEGs"
     ],
     "rules": [
       {
@@ -837,14 +940,17 @@
       "Do preserve the safe cover and twelve-page order.",
       "Do keep ballot page 11 loose and Coming Clean retained.",
       "Do print single-sided at 100%.",
-      "Do preserve native avatar alpha and immediate animal-slip return."
+      "Do preserve native avatar alpha and immediate animal-slip return.",
+      "Do keep printable PDFs light and dark PHONE exports separate.",
+      "Do preserve all source words, fonts, geometry, art identities and game mechanics."
     ],
     "donts": [
       "Do not restore structured notes, external catalogs, letter cards or separate finales.",
       "Do not put secrets on face-up covers.",
       "Do not ship font binaries or private prompts to guests.",
       "Do not apply ornate print styling to the independent homepage.",
-      "Do not restore the rejected left-aligned event title or corner crosshair ornaments on packet covers."
+      "Do not restore the rejected left-aligned event title or corner crosshair ornaments on packet covers.",
+      "Do not reuse dark PHONE backgrounds for printable reading areas."
     ]
   }
 }

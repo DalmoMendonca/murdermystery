@@ -9,7 +9,8 @@ def export():
     public=ROOT/'site/downloads/current/The_Last_Acquisition_Complete_Kit/OPEN_FREELY'
     characters=sorted((public/'PreParty_Individual').glob('*.jpg'))
     assert len(characters)==30
-    with fitz.open(public/'06_Invitation_and_Arrival_Guide.pdf') as doc:
+    invite=ROOT/'build/phone-invite.pdf'
+    with fitz.open(invite if invite.exists() else public/'06_Invitation_and_Arrival_Guide.pdf') as doc:
         pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2),alpha=False)
         image=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
         buffer=io.BytesIO();image.save(buffer,'JPEG',quality=94,optimize=True)

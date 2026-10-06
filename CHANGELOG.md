@@ -1,3 +1,11 @@
+# Light-paper museum print collection — 2026-10-05
+
+- Updated every printable PDF with black reading text, burgundy headings and speaking-box outlines, restrained antique-gold rules and white or pale paper backgrounds.
+- Refined packet covers, highlighted relationships, phase markers, host stationery, cuttable evidence, certificates, signs, ballots and fold-only name tents. Preserved framed portraits, fonts, type sizes and content.
+- Created separate light print PDFs and dark phone-only exports, keeping all 31 approved phone images byte-identical.
+- Rendered every page: 87 PDFs, 961 page instances, 529 distinct visual pages. Three independent reviews inspected all 133 contact sheets and returned SHIP. Rechecked final introduction wrapping, guide emblem spacing and invitation artwork edges after small corrections.
+- All PDF words and page counts, all editable character copy and game logic are unchanged. This is a visual release, not a new difficulty playtest or a physical print rehearsal.
+
 # Ornate Van Gogh frames restored — 2026-10-05
 
 - Restored the original native-alpha gilded art frames on all thirty dark pre-party character sheets, reusing the private cover frame renderer.

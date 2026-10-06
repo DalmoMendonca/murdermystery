@@ -15,7 +15,9 @@ from reportlab.platypus import Paragraph,SimpleDocTemplate,Table,TableStyle,Page
 from pypdf import PdfWriter
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'site';WORK=ROOT/'build';SRC=ROOT/'source/v1'
 KIT=SITE/'downloads/current/The_Last_Acquisition_Complete_Kit'
-INK=HexColor('#132e38');TEAL=HexColor('#057294');RED=HexColor('#8b2636');W,H=612,792
+from print_identity import INK,BURGUNDY,GOLD,PALE,RULE
+# TEAL remains a compatibility alias for the shared heading accent.
+TEAL=BURGUNDY;RED=BURGUNDY;W,H=612,792
 AUDIT=[]
 # JPEG colour plus a lossless native alpha mask avoids repeating megabytes of
 # uncompressed frame colour in each downloadable player book.
@@ -75,8 +77,13 @@ class Sheet:
             iw,ih=im.size;scale=min(width/iw,height/ih);w,h=iw*scale,ih*scale
             self.c.drawImage(reader,x+(width-w)/2,self.h-y-(height-h)/2-h,w,h,mask='auto')
     def header(self,label,private=False):
-        self.block('MERIDIAN / 2026',42,28,self.w-84,14,'BookBold',TEAL);self.block(label,42,55,self.w-84,14,'BookBold',RED if private else INK);self.line(42,82,self.w-42,82)
-    def footer(self,s='The Last Acquisition / Treasures of the World'):self.block(s,42,self.h-32,self.w-84,12,'Book',TEAL,bottom=self.h-10)
+        from print_identity import museum_mark,header_rules
+        museum_mark(self.c,42,26,self.h)
+        self.block('MERIDIAN / 2026',78,28,self.w-120,14,'BookBold',INK);self.block(label,42,55,self.w-84,14,'BookBold',RED)
+        header_rules(self.c,self.h,self.w)
+    def footer(self,s='The Last Acquisition / Treasures of the World'):
+        self.c.saveState();self.c.setStrokeColor(GOLD);self.c.setLineWidth(.4);self.c.line(42,42,self.w-42,42);self.c.restoreState()
+        self.block(s,42,self.h-32,self.w-84,12,'Book',INK,bottom=self.h-10)
     def next(self):self.c.showPage();self.page+=1
     def save(self):self.c.save()
 def merge(paths,out):
@@ -93,7 +100,9 @@ def load_doc(key):
     return text.replace('VOSS COLLECTION','LARCENY COLLECTION')
 def preparty(chars):
     import after_hours_print
-    return after_hours_print.poster(chars,__import__(__name__))
+    b=__import__(__name__)
+    after_hours_print.poster(chars,b,print_mode=True)
+    after_hours_print.poster(chars,b,output_dir=WORK/'phone-posters',merged_path=WORK/'phone-posters.pdf')
 
 def card_document(path,title,cards,per_page=2):
     s=Sheet(path,title)
@@ -128,7 +137,10 @@ def props(chars):
     signs=[('FOUNDERS HALL','Gala floor / Ballots / Evidence table'),('GRAND GALLERY','Treasures of the World'),('SCULPTURE COURT','Buffet & hospitality'),('CONSERVATION LAB','Materials & condition reports'),('MOVING IMAGE GALLERY / ARCHIVES','Press & audiovisual materials'),('SILK ROAD GALLERY','World cultures'),('PATRON LOUNGE','Powder room'),('DONOR SALON','Private donor meetings'),('REGISTRAR & PROVENANCE OFFICE','Shipping & collection records')]
     s=Sheet(KIT/'OPEN_FREELY/Museum_Room_Signs.pdf','Museum room signs',(792,612))
     for i,(name,desc) in enumerate(signs):
-        s.rect(36,36,720,540,stroke=TEAL);s.block('MERIDIAN',62,72,668,24,'BookBold',TEAL);s.line(62,135,730,135)
+        from print_identity import museum_mark
+        s.rect(36,36,720,540,stroke=GOLD);s.rect(42,42,708,528,stroke=INK)
+        museum_mark(s.c,684,72,s.h,40)
+        s.block('MERIDIAN',62,72,588,24,'BookBold',TEAL);s.line(62,135,730,135)
         s.block(name,62,190,668,48,'BookBold',bottom=408);s.block(desc,62,431,668,23,'BookItalic',TEAL,bottom=536)
         if i<len(signs)-1:s.next()
     s.save();parts.append(s.path);merge(parts,KIT/'OPEN_FREELY/04_Host_Safe_Props.pdf')
@@ -139,11 +151,13 @@ def props(chars):
 def invitation():
     import after_hours_print
     s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival')
-    after_hours_print.invitation_front(s,__import__(__name__))
+    after_hours_print.invitation_front(s,__import__(__name__),print_mode=True)
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
     rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Introductions and hunt: read your introduction, try the social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
     s.footer('The Last Acquisition / October 30, 2026');s.save()
+    phone=Sheet(WORK/'phone-invite.pdf','Invitation image')
+    after_hours_print.invitation_front(phone,__import__(__name__));phone.save()
 STYLE=ParagraphStyle('Body',fontName='Book',fontSize=14,leading=18,spaceAfter=9,allowWidows=0,allowOrphans=0,textColor=INK)
 HEAD=ParagraphStyle('Head',parent=STYLE,fontName='BookBold',fontSize=20,leading=24,spaceBefore=12,spaceAfter=8,textColor=TEAL,keepWithNext=True)
 def P(t,style=STYLE):
@@ -159,7 +173,8 @@ def manual(title,sections,out,page_sections=False,body_style=STYLE):
         for p in re.split(r'\n\s*\n',body.strip()):
             if flat(p):story.append(P(flat(p),body_style))
     def frame(c,doc):
-        c.setFillColor(TEAL);c.setFont('BookBold',14);c.drawString(42,758,'MERIDIAN / 2026');c.setFont('Book',14);c.drawString(42,733,title);c.setStrokeColor(INK);c.line(42,719,570,719);c.setFont('Book',12);c.drawString(42,24,'The Last Acquisition / '+str(doc.page))
+        from print_identity import manual_frame
+        manual_frame(c,doc,title,'The Last Acquisition')
     SimpleDocTemplate(str(out),pagesize=(W,H),leftMargin=42,rightMargin=42,topMargin=90,bottomMargin=48,title=title,author='The Meridian Museum',invariant=1).build(story,onFirstPage=frame,onLaterPages=frame)
 def exhibits():
     text=load_doc('exhibits_decor').split('LOW-COST STAGING GUIDE')[0].split('THE ISFAHAN STAR BOWL',1)[1]
@@ -178,7 +193,7 @@ def awards():
     s=Sheet(KIT/'OPEN_FREELY/Award_Certificates.pdf','Award certificates')
     for i,(title,desc) in enumerate(captions):
         if i%2==0:s.header('THE MERIDIAN MUSEUM / Gala awards')
-        top=100+(i%2)*320;s.rect(42,top,528,299,stroke=TEAL);s.block('TREASURES OF THE WORLD',62,top+22,488,16,'Book',TEAL);s.block(title,62,top+66,488,34,'BookBold');s.block(desc,62,top+121,488,16,'BookItalic');s.block('Awarded to',62,top+204,488,14);s.line(62,top+259,550,top+259)
+        top=100+(i%2)*320;s.rect(42,top,528,299,stroke=GOLD);s.rect(47,top+5,518,289,stroke=INK);s.block('TREASURES OF THE WORLD',62,top+22,488,16,'Book',TEAL);s.block(title,62,top+66,488,34,'BookBold');s.block(desc,62,top+121,488,16,'BookItalic');s.block('Awarded to',62,top+204,488,14);s.line(62,top+259,550,top+259)
         if i%2==1:s.footer('Cut each certificate at its border');s.next()
     s.block('Awarding Escaped Justice',42,431,528,22,'BookBold',TEAL);s.block('Collect and lock all ballots first. Tally the top three suspects. The top three suspects read Coming Clean from their packets. If no confession is heard, call the announced animal to stand and confess. Award Escaped Justice if the murderer was outside the top three.',42,476,528,16);s.footer('Cut each certificate at its border');s.save()
     merge([KIT/'OPEN_FREELY/Scavenger_Score_Sheet.pdf',KIT/'OPEN_FREELY/Award_Certificates.pdf'],KIT/'OPEN_FREELY/08_Awards_and_Scoring.pdf')
@@ -198,9 +213,10 @@ def facilitator(chars):
             for t in block.get('bullets',[]):story.append(P('• '+t))
             if 'table' in block:
                 t=Table([[P(cell) for cell in row] for row in block['table']],colWidths=block.get('widths',[130,398]),hAlign='LEFT')
-                t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,HexColor('#a8c4cd')),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),12),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]));story.append(t)
+                t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,RULE),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),12),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]));story.append(t)
     def frame(c,doc):
-        c.setFillColor(TEAL);c.setFont('BookBold',14);c.drawString(42,758,'MERIDIAN / 2026');c.setFont('Book',14);c.drawString(42,733,'FACILITATOR GUIDE / Open freely');c.setStrokeColor(INK);c.line(42,719,570,719);c.setFont('Book',12);c.drawString(42,24,'Host-safe / '+str(doc.page))
+        from print_identity import manual_frame
+        manual_frame(c,doc,'FACILITATOR GUIDE / Open freely','Host-safe')
     SimpleDocTemplate(str(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'),pagesize=(W,H),leftMargin=42,rightMargin=42,topMargin=90,bottomMargin=48,title='Facilitator guide',invariant=1).build(story,onFirstPage=frame,onLaterPages=frame)
     import fitz
     with fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf') as doc:assert len(doc)==len(pages),'Facilitator section spilled onto an unplanned page'
@@ -257,13 +273,13 @@ def build_kit():
                     im.save(dest/(style+ext),lossless=True,exif=exif)
                 else:im.save(dest/(style+ext),quality=88,subsampling=1,comment=('impeccable:prompt\0'+origin).encode('utf-8'))
     import fitz
-    for path in sorted((KIT/'OPEN_FREELY/PreParty_Individual').glob('*.pdf')):
+    for path in sorted((WORK/'phone-posters').glob('*.pdf')):
         with fitz.open(path) as doc:
             assert len(doc)==1,path
             pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2))
             im=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
             origin='impeccable:prompt Origin: rendered from '+path.name+' by scripts/build.py; exact portrait prompt in source/art_direction.json.'
-            im.save(path.with_suffix('.jpg'),quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
+            im.save(KIT/'OPEN_FREELY/PreParty_Individual'/path.with_suffix('.jpg').name,quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
     from export_phone_images import export
     export()

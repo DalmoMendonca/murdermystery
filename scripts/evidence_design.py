@@ -4,11 +4,13 @@ from pathlib import Path
 
 def draw_discovery(s,d,top,b):
     x=42;w=528;bottom=top+302
-    s.rect(x,top,w,302,stroke=b.TEAL,dash=[3,3])
+    s.rect(x,top,w,302,stroke=b.INK,dash=[3,3])
+    s.rect(x+4,top+4,w-8,294,stroke=b.GOLD)
     y=s.block(d['department'],58,top+13,496,12,'BookBold',b.TEAL)+6
     y=s.block(d['title'],58,y,496,22,'BookBold')+10
     if d.get('photo'):
-        s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),58,y,496,116);y+=126
+        s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),58,y,496,116)
+        s.rect(58,y,496,116,stroke=b.GOLD);y+=126
     for row in d.get('rows',[]):
         a=s.block(row[0],58,y,170,14,'BookBold');z=s.block(row[1],242,y,312,14);y=max(a,z)+5
     for t in d.get('paragraphs',[]):y=s.block(t,58,y,496,14)+7
@@ -35,13 +37,14 @@ def build_evidence(b):
         y=s.block('CASE: MERIDIAN / 30 OCT 2026 / '+key,42,y,528,14,'BookBold')+17
         if key in photos:
             ph=180 if key=='F4' else 225
-            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,ph);y+=ph+14
+            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,ph)
+            s.rect(42,y,528,ph,stroke=b.GOLD);y+=ph+14
         if key=='F2':
             for label,words in [('NAMING AGREEMENT','Veto power, museum renaming and management changes.'),('OBJECTS & PAYMENTS','Disputed title, altered records and unpaid design invoices.'),('PERSONAL PAPERS','Family trust amendments and threats to professional reputations.')]:
                 y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6;y=s.block(words,42,y,528,16)+16
         if key=='F3':
             # A real floor diagram clarifies distinct positions without marking suspects.
-            s.rect(42,y,528,135,stroke=b.TEAL)
+            s.rect(42,y,528,135,fill=b.PALE,stroke=b.GOLD)
             s.rect(63,y+23,190,77,stroke=b.TEAL)
             s.block('STAR BOWL ALCOVE',74,y+38,167,14,'BookBold',b.TEAL)
             s.block('Curtain at entrance',74,y+68,167,12)

@@ -39,3 +39,7 @@ Casual guests must be able to complete the investigation by following printed st
 ## October 4 print direction
 
 The user explicitly requested ornate museum gala posters and portrait covers. Gilt frames and fine gold borders are intentional print elements; wide text measures and readable type remain essential. Day-of relationships use bold yellow names. Public posters and packet covers have different functions from the minimal download homepage. Difficulty remains unresolved after the latest agent transcript tests; do not claim a calibrated human experience.
+
+## October 5 print refinement
+
+The user likes the black and red After Hours accents and requests their extension across every printable asset without dark reading backgrounds. Printable PDFs use white paper, black body text, burgundy accents and limited gold ornament. The approved dark phone invitation and thirty character JPEGs remain separate from the light printable versions. Preserve all game copy and mechanics; this is a visual refinement, not a new difficulty playtest.
