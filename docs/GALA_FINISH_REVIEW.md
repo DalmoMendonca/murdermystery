@@ -1,3 +1,5 @@
+> Historical visual review. For the October 6 packet and discovery revision, see [CLUE_REVISION_REVIEW.md](CLUE_REVISION_REVIEW.md).
+
 # Fresh packet finish review
 
 Reviewer: `/root/gala_finish_review`. Applied Impeccable 4.5.0's polish guidance to the approved museum world, preserving the teal book typography and ornate gallery framing. This was a visual review of the completed packet render, not another redesign.

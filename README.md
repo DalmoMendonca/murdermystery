@@ -63,4 +63,10 @@ Read the spoiler-safe `docs/PLAYTEST_SUMMARY.md`. The previous 15/15 solve resul
 
 `source/investigation_copy.yaml` is organizer-only source containing all thirty characters, their six hearing speeches, two Coming Clean endings, suspicious disclosure and linked clearance. Public descriptions and costumes remain independently editable in `source/character_copy.yaml`. Do not send either private source or full ZIPs to players. Rebuild after an edit, run `scripts/packet_checks.py` and `scripts/check_content.py`, then render with `scripts/verify.py` and inspect the affected pages before publishing. Spoken hearing and Coming Clean text uses at least 15pt.
 
-See `docs/THREE_ROUND_REVIEW.md` for the current rewrite audit and its difficulty limitations. Historical playtest results refer to earlier editions, not these rewritten speeches.
+See `docs/CLUE_REVISION_REVIEW.md` for the current evidence/format revision audit and `docs/THREE_ROUND_REVIEW.md` for the preceding rewrite audit and its difficulty limitations. Historical playtest results refer to earlier editions, not these rewritten speeches.
+
+## Editing hunt hints
+
+Edit `source/hunt_copy.yaml`. Each numbered envelope has its real hiding place and the character names and hints that point there. Change the `hint` text directly; keep each character assigned to three different locations. The build validates all ninety hints and regenerates the packet pages, host placement table and compatibility snapshot `source/hunt.json`. Do not edit that generated JSON. Rebuild with `python scripts/build.py`, then check content and inspect rendered pages before publishing.
+
+The sixteen discovery exhibits contain only their own short evidence. Technical recording findings are released separately as the second page of F4; the discovery envelopes contain no appended alibi summaries.

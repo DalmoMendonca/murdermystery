@@ -10,7 +10,8 @@ def printed(p):
     with fitz.open(p) as d:return '\n'.join(x.get_text() for x in d)
 def load(name):return json.loads((ROOT/'source'/name).read_text(encoding='utf-8'))
 def check():
-    chars=load_characters();rounds=load('question_rounds.json');profiles=load('art_direction.json');hunt=load('hunt.json');case=load('case.json')
+    from hunt_copy import load_hunt
+    chars=load_characters();rounds=load('question_rounds.json');profiles=load('art_direction.json');hunt=load_hunt(ROOT);case=load('case.json')
     packet_relationships=json.loads((ROOT/'build/packet_relationship_fit.json').read_text(encoding='utf-8'))
     assert len(chars)==30 and len({c['name'] for c in chars})==30
     names={c['name'] for c in chars};pixels=[]
@@ -60,7 +61,9 @@ def check():
             spans=[s for b in d[1].get_text('dict')['blocks'] if 'lines' in b for line in b['lines'] for s in line['spans']]
             assert any('Bold' in s['font'] for s in spans)
             for page,phase in phases.items():assert phase in texts[page-1] and f'{page} of 12' in texts[page-1],(c['name'],page)
-            for page in [3,4,6,8,10,11]:assert norm('STOP! Do not turn the page yet. Wait for the host to announce the next round.') in norm(texts[page-1])
+            for page in [3,4,6,8,10]:assert norm('STOP! Do not turn the page yet. Wait for the host to announce the next round.') in norm(texts[page-1])
+            assert 'STOP!' not in texts[10] and 'Votes lock' not in texts[10]
+            assert norm('The game is afoot') in norm(texts[3]) and norm('bring it to your seat') in norm(texts[3])
             for h in hunt['characters'][c['slug']]:assert norm(h['text']) in norm(texts[3])
             for rd in rounds:
                 qt=norm(texts[expected[rd['key']+'_questions'][0]-1])
@@ -120,11 +123,22 @@ def check():
     allowed={'01_Facilitator_Guide_SPOILER_SAFE.pdf','10_Blind_Printing_and_Assembly.pdf','99_SPOILER_BIBLE_DO_NOT_OPEN.pdf'}
     for p in KIT.rglob('*.pdf'):
         t=printed(p)
+        from american_copy import PATTERN
+        assert not PATTERN.search(t),(p.name,'British spelling',PATTERN.search(t)[0] if PATTERN.search(t) else '')
         if p.name not in allowed:assert not any(re.search(r'\b'+re.escape(x)+r'\b',t,re.I) for x in obsolete),(p.name,'obsolete instruction')
         assert not any(x in t for x in ['Sterling Voss','Pryce','VOSS COLLECTION','â€'])
     for rel in ['PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf','OPEN_FREELY/11_Questions_and_Notes.pdf','PRINT_WITHOUT_READING/Finale_Individual']:assert not (KIT/rel).exists(),rel
     for report in load('investigation.json'):assert norm(report['text']) in norm(printed(KIT/'PRINT_WITHOUT_READING/Reports'/(report['id']+'.pdf')))
     with fitz.open(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf') as d:assert len(d)==16
+    discovery_text=printed(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf')
+    assert not any(x in discovery_text.lower() for x in ['authenticated source extracts','recovery','fold for its numbered envelope','supplies an alibi'])
+    archive_text=norm(printed(KIT/'PRINT_WITHOUT_READING/Reports/F4.pdf'))
+    for group in load('investigation.json')[3]['archive']['groups']:
+        for source in group['sources']:assert norm(source) in archive_text,source
+    for c in chars:
+        packet=norm(printed(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf'))
+        for phrase in ['save corrections for Coming Clean','The host tracks turns','You can ask someone to repeat a detail','Votes lock when all ballots are collected','If none confesses, the host calls the selected animal to stand']:
+            assert norm(phrase) not in packet,(c['name'],phrase)
     assert norm(GAME['address']) in norm(printed(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf'))
     for name in ['The_Last_Acquisition_Complete_Kit.zip','The_Last_Acquisition_Source.zip']:
         with zipfile.ZipFile(SITE/'downloads'/name) as z:assert not z.testzip() and not any(n.lower().endswith(('.ttf','.otf','.woff','.woff2')) for n in z.namelist())

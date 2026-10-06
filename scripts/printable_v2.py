@@ -99,7 +99,7 @@ def questions(s,c,rd,b):
     pagehead(s,b,c,phase)
     s.block('Questions for the room',42,109,528,27,'BookBold',b.TEAL)
     answer=b.GAME['packet_pages'][rd['key']+'_answer']
-    s.block(f'Choose a named guest who has not answered. Skip absent names. Ask their question; they answer from page {answer}, then choose the next guest. The host tracks turns.',42,153,528,14)
+    s.block(f'Choose a named guest who has not answered. Skip absent names. Ask their question; they answer from page {answer}, then choose the next guest.',42,153,528,14)
     for half in range(2):
         x=42+half*276;y=226
         for g in rd['groups'][half*5:half*5+5]:
@@ -149,7 +149,8 @@ def cover(s,b,c):
 
 def packets(chars,b):
     rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
-    hunt=json.loads((b.ROOT/'source/hunt.json').read_text(encoding='utf-8'))
+    from hunt_copy import load_hunt
+    hunt=load_hunt(b.ROOT)
     paths=[];relationship_report=[]
     for c in chars:
         p=c['private'];h=c['hearing'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf',c['name']+' / complete packet')
@@ -186,16 +187,15 @@ def packets(chars,b):
             y=s.block(p[key],42,y,528,16,bottom=675)+16
         y=s.block('Conversations to start',42,y,528,18,'BookBold',b.TEAL)+8
         for t in p['objectives'][:2]:y=s.block('• '+t,42,y,528,16,bottom=675)+8
-        y=s.block('If a named guest is absent, speak to someone else. Your printed account may conceal another scandal, even if you are innocent. Stick to it during the hearings; save corrections for Coming Clean.',42,y+7,528,14,'BookItalic',bottom=675)+15
-        s.block('Memorize your animal and return the slip. When the host announces the selected animal, use IF MURDERER if it matches yours; otherwise use IF INNOCENT. Never read an IF heading aloud.',42,y,528,14,bottom=675)
+        y=s.block('If a named guest is absent, speak to someone else. Your printed account may conceal another scandal, even if you are innocent. Stick to it during the hearings.',42,y+7,528,14,'BookItalic',bottom=675)+15
+        s.block('By now, you should have drawn a secret animal. Memorize it and don’t share it with anyone. This animal is YOUR key to knowing whether you are the murderer or innocent tonight. This will tell you which sections of this packet you can read out loud.',42,y,528,14,bottom=675)
         pagefoot(s,b);s.next()
         pagehead(s,b,c,'HUNT FOR CLUES')
-        y=s.block('The museum has misplaced\nits paperwork. Naturally.',42,111,528,28,'BookBold',b.TEAL)+19
-        y=s.block('Sixteen numbered envelopes are hidden around the house. These three hints lead to three different hiding places. Leave the furniture and household objects where they are. Bring an envelope to the Evidence Table; read and share the discovery inside.',42,y,528,16)+22
+        y=s.block('The game is afoot',42,111,528,28,'BookBold',b.TEAL)+19
+        y=s.block('The Meridian Museum has its share of secrets, rumors, and lost paperwork. Sixteen numbered envelopes are hidden around the museum. Their contents may significantly help you tonight. These 3 hints lead to 3 different hiding places. If you find an envelope, bring it to your seat at the table. The guest with the most envelopes will win a special prize. You may investigate together.',42,y,528,16)+22
         for i,hint in enumerate(hunt['characters'][c['slug']]):
             s.block(str(i+1),42,y,35,26,'BookBold',GOLD)
             y=s.block(hint['text'],93,y,477,19,'BookItalic',bottom=634)+28
-        s.block('Already found? Read that discovery at the Evidence Table, then try another hint. Ask for help reaching a hiding place; nobody needs to climb. You may investigate together.',42,max(y+5,587),528,16,bottom=675)
         pagefoot(s,b);s.next()
         for rd in rounds:
             questions(s,c,rd,b);key=rd['key']
@@ -210,20 +210,18 @@ def packets(chars,b):
             # No evidence checklist, no three-column grid, no scripted direction toward selected clues.
             if key=='method':
                 if y<620:s.block('The sixteen discoveries and five reports remain at the Evidence Table.',42,y+13,528,14,'BookItalic',bottom=675)
-            elif y<580:
-                s.block('You can ask someone to repeat a detail. Discuss your suspicions after everyone has answered.',42,y+18,528,16,'BookItalic',bottom=675)
             pagefoot(s,b);s.next()
         pagehead(s,b,c,'ACCUSATIONS')
         y=s.block('Your ballot',42,109,528,30,'BookBold',b.TEAL)+17
-        y=s.block('Choose one attending guest. Explain your accusation in your own words. Fold this loose page writing inward and give only the ballot to the host. Keep your packet for Coming Clean. Votes lock when all ballots are collected.',42,y,528,16)+25
+        y=s.block('Choose one attending guest. Explain your accusation in your own words. Tear off this page and give only the ballot to the host for tallying. Keep your packet for Coming Clean.',42,y,528,16)+25
         for label in ['Your character name','I accuse','Why? Motive, evidence and any unresolved contradiction','Best Actor','Best Costume']:
             y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+31
             s.line(42,y,570,y);y+=25
             if label.startswith('Why?'):s.line(42,y,570,y);y+=28
-        pagefoot(s,b);s.next()
+        pagefoot(s,b,False);s.next()
         pagehead(s,b,c,'COMING CLEAN')
         y=s.block('The last word',42,109,528,27,'BookBold',b.TEAL)+13
-        y=s.block('Read only when the host calls you. Top three suspects read first. If none confesses, the host calls the selected animal to stand. Use your own role’s box; keep every other word private.',42,y,528,14)+16
+        y=s.block('Read only when the host calls you. Top three suspects read first. Use your own role’s box; keep every other word private.',42,y,528,14)+16
         for branch in ['innocent','murderer']:
             y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,15)+6
         pagefoot(s,b,False,'Every selected suspect gets their final word.');s.save();paths.append(s.path)

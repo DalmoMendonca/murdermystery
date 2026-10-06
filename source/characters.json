@@ -44,7 +44,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "01",
-        "evidence_discovery": 1,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -64,10 +64,15 @@
     },
     "introduction": "I’m Artie Ficial. Welcome. If anything goes wrong tonight, please describe it as an immersive experience.",
     "testimony_clearance": {
-      "discovery": 1,
       "round": "motive",
       "anchor": "speakerphone",
-      "record": "Boardroom telecom export: fixed speakerphone occupied 6:39–6:45, SECURITY time. The caller discussed a confidential appointment and asked for sixty days before an announcement. The remote recruiter retained the whole call; longest silence fourteen seconds."
+      "report": "F4",
+      "source": "Boardroom speakerphone",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "resignation"
   },
@@ -115,7 +120,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "02",
-        "evidence_discovery": 2,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -135,10 +140,15 @@
     },
     "introduction": "I’m Claire O’Scuro. I am delighted to meet anyone who knows the difference between provenance and a price tag.",
     "testimony_clearance": {
-      "discovery": 2,
       "round": "method",
       "anchor": "white correction tab",
-      "record": "Registrar vault door record: entrant with provenance file and white correction tab, 6:39 in / 6:45 out, SECURITY time. Interior inspection camera is continuous. No other door, service hatch or cabinet connects the vault to the salon."
+      "report": "F4",
+      "source": "Registrar vault",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "independent review"
   },
@@ -186,7 +196,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "03",
-        "evidence_discovery": 7,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -206,10 +216,15 @@
     },
     "introduction": "I’m Hugh Bidder. Everything has a price. My charming conversation is the only exception, and even that is negotiable.",
     "testimony_clearance": {
-      "discovery": 7,
       "round": "opportunity",
       "anchor": "violet reserve",
-      "record": "Gavel & Rowe bid-booth call: fixed handset active 6:39–6:45, SECURITY time; caller negotiated with the phrase VIOLET RESERVE and admitted altering a sale file. Remote buyer retained the recording. Longest silence twelve seconds."
+      "report": "F4",
+      "source": "Bid booth",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "altered"
   },
@@ -257,7 +272,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "04",
-        "evidence_discovery": 9,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -277,10 +292,15 @@
     },
     "introduction": "I’m Monet Bags. I oversee the numbers. Please enjoy the gala within the approved expenditure envelope.",
     "testimony_clearance": {
-      "discovery": 9,
       "round": "method",
       "anchor": "blue audit pencil",
-      "record": "Cash-office CCTV: an operator using a blue audit pencil counts the disputed transfer vouchers continuously 6:39–6:45, SECURITY time. Both hands and the sole office door remain in frame. The sealed voucher bundle preserves the blue corrections."
+      "report": "F4",
+      "source": "Cash office",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "unauthorized"
   },
@@ -328,7 +348,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "05",
-        "evidence_discovery": 5,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -348,10 +368,15 @@
     },
     "introduction": "I’m Chip Patina. Please admire the art without touching it. That includes touching it to demonstrate that you are not touching it.",
     "testimony_clearance": {
-      "discovery": 5,
       "round": "opportunity",
       "anchor": "glove ports",
-      "record": "Conservation booth interlock: occupied 6:39–6:45, SECURITY time. Fixed camera shows an operator using both glove ports to test mount padding. The outer door stayed shut throughout the solvent purge; no connection to salon."
+      "report": "F4",
+      "source": "Conservation booth",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "falsified"
   },
@@ -391,7 +416,7 @@
     "hearing": {
       "motive_innocent": "I wrote the warning. Grant stole my closing performance and put his foundation’s name under it. ‘Return what was taken’ was an instruction, not an obituary. I wanted him to recognize his own theft in front of an audience. He offered to credit me as a consultant. I am still deciding which insult deserved the louder response.",
       "motive_murderer": "The warning was mine. Grant stole the performance, and I wanted his guests to know whose idea they were enjoying. He suggested I could bow beside him as a consultant. I had already planted the note. He was beginning to understand that commissioning an artist and owning an artist are different arrangements.",
-      "where_innocent": "Before the toast I was on the rehearsal platform making a shadow figure misbehave. Grant wanted it to bow. I wanted it to take his hat. I stayed through the rehearsal, then went looking for the programme with the stolen credit. A small mechanical hand can express a considerable amount of contempt.",
+      "where_innocent": "Before the toast I was on the rehearsal platform making a shadow figure misbehave. Grant wanted it to bow. I wanted it to take his hat. I stayed through the rehearsal, then went looking for the program with the stolen credit. A small mechanical hand can express a considerable amount of contempt.",
       "where_murderer": "I rehearsed the shadow figure, then let its automatic sequence run while I went through the gallery. Around 6:42 I checked whether my warning had reached Grant’s papers. I returned to the platform for the closing bow. He had ordered a spectacle, and I intended him to feel included in it.",
       "evidence_innocent": "Those red shoes under the platform are mine. The rehearsal camera shows me wearing them for the whole 6:39–6:45 take; my shadow figure has neither feet nor opinions. I used museum linen for its costume and the preparation key for a prop cupboard. I also forged the foundation’s signature on its ridiculous little hat.",
       "evidence_murderer": "The figure wore museum linen and a little foundation hat I had lettered myself. I used the preparation key to collect its props. My red shoes were beside the platform while the automatic sequence ran. Grant believed the bow was a tribute. I have occasionally allowed a patron to misunderstand his commission."
@@ -399,7 +424,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "06",
-        "evidence_discovery": 12,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -419,10 +444,15 @@
     },
     "introduction": "I’m Dada DiCapo. If the room feels uncomfortable, good. I may invoice you for the feeling.",
     "testimony_clearance": {
-      "discovery": 12,
       "round": "method",
       "anchor": "red shoes",
-      "record": "Performance rehearsal archive: uncut wide camera, 6:39–6:45 SECURITY time. Performer in red shoes operates the shadow figure from the raised platform; head, hands and shoes remain visible. No backstage exit is used. The shadow figure is not a second performer."
+      "report": "F4",
+      "source": "Performance platform",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "warning"
   },
@@ -454,23 +484,23 @@
         "Grant owns one of your embarrassing student paintings and has been discussing displaying it.",
         "Dada has been furious that the gala spectacle resembles an unreleased concept of theirs."
       ],
-      "innocent": "I manipulated the market for my own embarrassing work. I also stole a label. But the uncut live portrait puts me at the easel while the coupe was exposed. The moustache develops stroke by stroke on camera. I wished Grant would stop talking about my youth. Someone else found a permanent way to stop him.",
+      "innocent": "I manipulated the market for my own embarrassing work. I also stole a label. But the uncut live portrait puts me at the easel while the coupe was exposed. The mustache develops stroke by stroke on camera. I wished Grant would stop talking about my youth. Someone else found a permanent way to stop him.",
       "murderer": "I left the easel before the long take. With the setup key I collected the toxin, then wiped it inside Grant’s coupe using the linen in my case. He had promised to make a joke of my career. I made my last appeal at the salon, knowing he would soon be unable to tell that joke.",
-      "final_innocent": "I manipulated the market for my own embarrassing work. I also stole a label. But the uncut live portrait puts me at the easel while the coupe was exposed. The moustache develops stroke by stroke on camera. I wished Grant would stop talking about my youth. Someone else found a permanent way to stop him.",
+      "final_innocent": "I manipulated the market for my own embarrassing work. I also stole a label. But the uncut live portrait puts me at the easel while the coupe was exposed. The mustache develops stroke by stroke on camera. I wished Grant would stop talking about my youth. Someone else found a permanent way to stop him.",
       "final_murderer": "I left the easel before the long take. With the setup key I collected the toxin, then wiped it inside Grant’s coupe using the linen in my case. He had promised to make a joke of my career. I made my last appeal at the salon, knowing he would soon be unable to tell that joke."
     },
     "hearing": {
-      "motive_innocent": "Grant was displaying my student painting beside my mature work. I have been buying the early disasters through intermediaries. Vanity costs more when it has provenance. During the live portrait interview, 6:39 to 6:45, I painted a moustache on my younger self. If he insisted on exhibiting the boy, the boy deserved a disguise.",
+      "motive_innocent": "Grant was displaying my student painting beside my mature work. I have been buying the early disasters through intermediaries. Vanity costs more when it has provenance. During the live portrait interview, 6:39 to 6:45, I painted a mustache on my younger self. If he insisted on exhibiting the boy, the boy deserved a disguise.",
       "motive_murderer": "Grant intended to exhibit the student painting I have spent years buying back. Yes, I purchase my early work through intermediaries. There are collectors whose taste I prefer to supervise. I did a brief portrait interview, then left the student canvas on its easel. Grant was about to turn it into the evening’s most expensive joke.",
       "where_innocent": "I inspected the bowl’s glaze early, then worked at the interview easel. After the broadcast I went to the gallery to see which label Grant had approved. He had retained ‘Early student work.’ I considered something shorter. The producer kept my brushes until I stopped proposing improvements to the lettering.",
       "where_murderer": "I left the interview easel and went to the gallery. The student label was still waiting for approval. I took it to the outer worktable and considered whether Grant would lend me my own painting. I wished to remove it before he began explaining how generous he was. The red paint was still wet.",
-      "evidence_innocent": "There is red paint on my cuff and museum linen in my case. I wiped the palette with it. The paint is ordinary oil colour, which Chip will regard as a very incomplete description. I also removed the loan label for my student painting. I wanted that canvas outside the exhibition and preferably outside the country.",
+      "evidence_innocent": "There is red paint on my cuff and museum linen in my case. I wiped the palette with it. The paint is ordinary oil color, which Chip will regard as a very incomplete description. I also removed the loan label for my student painting. I wanted that canvas outside the exhibition and preferably outside the country.",
       "evidence_murderer": "I kept museum linen in my case and used the setup key to fetch a clean palette. The red mark on my cuff came from the student canvas. I removed its loan label and took it with me. Grant called this tampering with his collection. He had acquired the painting; the humiliation remained mine."
     },
     "case_facts": {
       "innocent": {
         "cleared_by": "07",
-        "evidence_discovery": 8,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -490,10 +520,15 @@
     },
     "introduction": "I’m Vincent Van Faux. My work is here tonight. My early work is also here, despite several very expensive objections.",
     "testimony_clearance": {
-      "discovery": 8,
       "round": "motive",
       "anchor": "live portrait",
-      "record": "Arts-channel raw interview: live portrait painted on camera continuously 6:39–6:45, SECURITY time. The participant adds a moustache to the student self-portrait while answering the interviewer. Whole studio floor is visible; the camera clock is authenticated."
+      "report": "F4",
+      "source": "Arts-channel studio",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "buying"
   },
@@ -542,7 +577,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "08",
-        "evidence_discovery": 6,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -562,10 +597,15 @@
     },
     "introduction": "I’m Sue Venir. Lovely to meet you. Nothing I say over dinner constitutes legal advice, although I will be keeping notes.",
     "testimony_clearance": {
-      "discovery": 6,
       "round": "opportunity",
       "anchor": "clause nine",
-      "record": "Legal conference-room fixed-line transcript: 6:39–6:45 SECURITY time, the caller dictates a revision to CLAUSE NINE while the external solicitor countersigns remotely. Audio comes from the fixed desk microphone, not a mobile. Longest silence eleven seconds."
+      "report": "F4",
+      "source": "Legal office",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "softer opinion"
   },
@@ -613,7 +653,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "09",
-        "evidence_discovery": 2,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -633,10 +673,15 @@
     },
     "introduction": "I’m Dr. Art E. Fact. I brought decades of scholarship and a footnote for almost every possible dinner conversation.",
     "testimony_clearance": {
-      "discovery": 2,
       "round": "method",
       "anchor": "erratum live",
-      "record": "Library lecture archive: uncut fixed-camera transmission 6:39–6:45 SECURITY time; participant reads his ERRATUM LIVE, then holds the 1988 manifest next to his published article. The room and lecturer stay in frame throughout."
+      "report": "F4",
+      "source": "Library broadcast room",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "overstated"
   },
@@ -684,7 +729,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "10",
-        "evidence_discovery": 1,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -704,10 +749,15 @@
     },
     "introduction": "I’m Tess Tament. I represent the family foundation. Being related to a donor is a responsibility, not a cash machine.",
     "testimony_clearance": {
-      "discovery": 1,
       "round": "method",
       "anchor": "motion seven",
-      "record": "Foundation committee archive: fixed board-annex video 6:39–6:45 SECURITY time. Participant proposes MOTION SEVEN, objects to trustees investing the worker fund, and signs the vote sheet on camera. Both exit and table remain visible."
+      "report": "F4",
+      "source": "Board annex",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "trustees"
   },
@@ -755,7 +805,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "11",
-        "evidence_discovery": 10,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -775,10 +825,15 @@
     },
     "introduction": "I’m Barb Dwyer. I am security. Please behave as though I have already noticed whatever you are about to try.",
     "testimony_clearance": {
-      "discovery": 10,
       "round": "opportunity",
       "anchor": "north checkpoint",
-      "record": "North checkpoint CCTV and badge log: operator checks sixteen replacement badges continuously 6:39–6:45 SECURITY time. Screen, director and only exit remain visible. Salon shutdown order was completed at 6:29 and does not disable this separate camera."
+      "report": "F4",
+      "source": "North checkpoint",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "unplugged"
   },
@@ -818,7 +873,7 @@
     "hearing": {
       "motive_innocent": "Grant threatened an injunction and promised to expose my museum source. The documents concern his collection and his labor empire. I obtained them without his permission, which is generally how reporting works when the subject would prefer an invitation to approve the questions. I was protecting a person, not a flattering profile.",
       "motive_murderer": "He threatened an injunction and my source’s identity. I had internal documents, a publication date and somebody inside the museum who could lose their livelihood. Grant enjoyed saying their name quietly enough that nobody else could hear. He expected me to trade the investigation for their safety.",
-      "where_innocent": "I left the advance programme with the press papers, then went into the recording booth to question my source. I did not put their name in my notes. When I came out, Grant was preparing the private toast. I wanted one more document before his speech, and I was prepared to make him dislike the question.",
+      "where_innocent": "I left the advance program with the press papers, then went into the recording booth to question my source. I did not put their name in my notes. When I came out, Grant was preparing the private toast. I wanted one more document before his speech, and I was prepared to make him dislike the question.",
       "where_murderer": "I listened to a recorded source interview while moving through the gallery. I had asked Grant for the missing ownership document earlier. Before the toast I checked the file against my notes and put the phone away. He wanted a source’s name. I wanted the source to survive publication with a job.",
       "evidence_innocent": "I called the source Moth in the live booth interview. Its raw record runs from 6:39 to 6:45. I burned the identifying name slip in the metal dish on camera; the documents survive. Source protection can look like evidence destruction. In this instance it was both. The raw interview survives on the source’s separate recorder too.",
       "evidence_murderer": "Moth was the name I used in the recorded interview. I destroyed the identifying slip and retained the documents. Grant knew there was somebody inside the museum helping me. He wanted their name exchanged for permission to publish. My notes include the questions I intended to ask and none of the permission he intended to require."
@@ -826,7 +881,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "12",
-        "evidence_discovery": 4,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -846,10 +901,15 @@
     },
     "introduction": "I’m Paige Turner. I am covering the gala. Tell me what happened; tell your publicist what you wish had happened.",
     "testimony_clearance": {
-      "discovery": 4,
       "round": "method",
       "anchor": "moth",
-      "record": "Press booth raw source interview: fixed wall microphone and wide camera, 6:39–6:45 SECURITY time. Participant calls her source MOTH, burns a name slip in a metal dish, and continues questioning. Remote source retained their copy; longest audio gap nine seconds."
+      "report": "F4",
+      "source": "Press booth",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "injunction"
   },
@@ -897,7 +957,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "13",
-        "evidence_discovery": 13,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -917,10 +977,15 @@
     },
     "introduction": "I’m Frank Lloyd Wrong. I designed the display. If anyone says they have one tiny last-minute change, I will need a chair.",
     "testimony_clearance": {
-      "discovery": 13,
       "round": "opportunity",
       "anchor": "safety harness",
-      "record": "Rig inspection film: participant in safety harness fastened at 6:39 and released at 6:45 SECURITY time. Uncut floor camera shows the architect suspended at the lighting rig throughout. Open-cradle installation is visible below; cabinet proposal remains on drafting table."
+      "report": "F4",
+      "source": "Lighting rig",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "unsafe"
   },
@@ -959,7 +1024,7 @@
     },
     "hearing": {
       "motive_innocent": "Grant’s permanent-gift announcement would wreck the restitution talks. I leaked the negotiations to the press to prevent that. From 6:39 to 6:45 I dictated a custody amendment in the translation booth to overseas counsel. It keeps a disputed title disputed. He preferred a speech that would make the dispute disappear.",
-      "motive_murderer": "Grant intended to announce permanent ownership before our restitution partners could respond. I leaked the talks to the press. I had drafted a custody amendment and left counsel a translation recording. He expected the international representatives to applaud while he cancelled the substance of months of negotiation.",
+      "motive_murderer": "Grant intended to announce permanent ownership before our restitution partners could respond. I leaked the talks to the press. I had drafted a custody amendment and left counsel a translation recording. He expected the international representatives to applaud while he canceled the substance of months of negotiation.",
       "where_innocent": "I saw the bowl early, before its alcove closed. Then I used the booth to work through the title language with counsel. I returned to the gallery with two versions of the amendment and an unusually strong desire to be rude. A diplomatic representative learns to make that desire look like a request for clarification.",
       "where_murderer": "I checked the ownership wording early and reviewed the translated amendment at the gallery desk. Before the toast I compared the two copies. Grant had offered an announcement instead of a negotiation. I intended to give him the words his international guests would hear when they declined to accept it.",
       "evidence_innocent": "I leaked a confidential negotiation and kept the contested export copy. Both language versions of my amendment preserve the same objection. Grant had changed ‘custody’ to ‘ownership’ in a draft prepared for his guests. I crossed it out. A change of noun can accomplish a great deal when nobody reads the translation carefully.",
@@ -968,7 +1033,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "14",
-        "evidence_discovery": 6,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -988,10 +1053,15 @@
     },
     "introduction": "I’m Mona Lott. I negotiate the return of objects. I expect several difficult conversations and at least one excellent canapé.",
     "testimony_clearance": {
-      "discovery": 6,
       "round": "motive",
       "anchor": "custody amendment",
-      "record": "Translation booth retained session: fixed microphone 6:39–6:45 SECURITY time; caller dictates CUSTODY AMENDMENT in two languages while overseas counsel corrects the terms. Both originals retain the same continuous audio; longest pause seventeen seconds."
+      "report": "F4",
+      "source": "Translation booth",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "leaked"
   },
@@ -1039,7 +1109,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "15",
-        "evidence_discovery": 7,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1059,10 +1129,15 @@
     },
     "introduction": "I’m Elon Mosaic. I collect art. Some people collect grudges about the art I collect. Both are expensive hobbies.",
     "testimony_clearance": {
-      "discovery": 7,
       "round": "method",
       "anchor": "wired glove",
-      "record": "Collector demonstration raw feed: participant wears WIRED GLOVE connected to fixed console continuously 6:39–6:45 SECURITY time. Whole room stays in view. Wireless demo is a prerecorded example; operator contact logs and live film agree."
+      "report": "F4",
+      "source": "Technology stand",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "anonymous"
   },
@@ -1110,7 +1185,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "16",
-        "evidence_discovery": 11,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1130,10 +1205,15 @@
     },
     "introduction": "I’m Anya Tique. I helped build this museum. Tonight I reserve the right to judge the lighting and everyone in it.",
     "testimony_clearance": {
-      "discovery": 11,
       "round": "opportunity",
       "anchor": "box three",
-      "record": "Founders oral-history raw video: seated participant opens BOX THREE and discusses the 1989 accession,6:39–6:45 SECURITY time. Continuous wide frame includes the sole door. Donor’s promised export papers remain absent from the box."
+      "report": "F4",
+      "source": "Oral-history room",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "1989"
   },
@@ -1148,7 +1228,7 @@
       "relationships": [
         "Longtime professional rival of Hugh Bidder.",
         "Knows Ella Gance and Elon Mosaic from the auction circuit.",
-        "Anya Tique remembers when Saul was still carrying catalogues for someone else."
+        "Anya Tique remembers when Saul was still carrying catalogs for someone else."
       ],
       "acting": "Old-school charm, status-aware, patient, competitive. Speak as if the room has already agreed you belong in it.",
       "costume": "Optional inspiration: Classic tuxedo or formal dark suit, silk pocket square, signet ring, reading glasses, optional miniature auction gavel."
@@ -1166,22 +1246,22 @@
         "Ella quietly sold a work she had once spoken of as a future institutional gift."
       ],
       "innocent": "The subsidiary sale bypassed our normal process. The insurer’s fixed-line recording accounts for me once its brass-clock overlay is corrected. My ledger was real, as was the fee dispute. I would have preferred a settlement and the full commission. I did not poison Grant, and I will not waive the outstanding invoice.",
-      "murderer": "I did not take the recorded fixed-line call; I used my mobile as cover. The reference sample travelled inside the cloth around the subsidiary ledger. I wiped Grant’s empty coupe while delivering the disputed invoice. He expected a waived fee. I supplied an ending he had not priced into his threat.",
+      "murderer": "I did not take the recorded fixed-line call; I used my mobile as cover. The reference sample traveled inside the cloth around the subsidiary ledger. I wiped Grant’s empty coupe while delivering the disputed invoice. He expected a waived fee. I supplied an ending he had not priced into his threat.",
       "final_innocent": "The subsidiary sale bypassed our normal process. The insurer’s fixed-line recording accounts for me once its brass-clock overlay is corrected. My ledger was real, as was the fee dispute. I would have preferred a settlement and the full commission. I did not poison Grant, and I will not waive the outstanding invoice.",
-      "final_murderer": "I did not take the recorded fixed-line call; I used my mobile as cover. The reference sample travelled inside the cloth around the subsidiary ledger. I wiped Grant’s empty coupe while delivering the disputed invoice. He expected a waived fee. I supplied an ending he had not priced into his threat."
+      "final_murderer": "I did not take the recorded fixed-line call; I used my mobile as cover. The reference sample traveled inside the cloth around the subsidiary ledger. I wiped Grant’s empty coupe while delivering the disputed invoice. He expected a waived fee. I supplied an ending he had not priced into his threat."
     },
     "hearing": {
       "motive_innocent": "Grant wanted me to waive a fee or explain a discreet subsidiary sale to my partners. I arranged it outside the auction house’s ordinary process. The client requested anonymity; I supplied a little too much of it. Grant had never objected to discretion while he was buying. His standards improved remarkably when my invoice arrived.",
       "motive_murderer": "I routed a private sale through a subsidiary. Grant knew and wanted a fee waived in return for silence. He proposed calling my partners during the gala if I declined. One grows accustomed to theatrical bids. A threat to dismantle the auction house that bears one’s name is a less amusing variation.",
       "where_innocent": "I used the valuation booth before the toast to argue with the insurer about the sale. The display clock on the recording said 6:49. I gave them six minutes of my very best courtesy. Afterward I walked back through the gallery. Grant’s fee demand was in my breast pocket, ready for an answer.",
       "where_murderer": "I took the insurer’s callback on my own telephone while walking the gallery. The booth recording was already being prepared for export. I inspected the bowl early and returned to the outer table before the toast. Grant’s fee demand remained in my breast pocket. I intended to give him a counteroffer he would dislike.",
-      "evidence_innocent": "You will hear me say ‘going twice’ on the fixed booth recording while the insurer refuses my valuation. The overlay runs 6:49 to 6:55; check which clock supplied it. The subsidiary ledger remained in my case. Grant wanted the fee gone and the sale discreet. He was particularly insistent on receiving both services together.",
+      "evidence_innocent": "You will hear me say ‘going twice’ on the fixed booth recording while the insurer refuses my valuation. The overlay runs 6:49 to 6:55; it uses the brass clock. The subsidiary ledger remained in my case. Grant wanted the fee gone and the sale discreet. He was particularly insistent on receiving both services together.",
       "evidence_murderer": "I kept the subsidiary ledger in my case and used my own phone for the insurer’s counteroffer. ‘Going twice’ is an expression I use often. Grant’s papers may contain another example. He wanted a free transaction and an appreciative smile. I had prepared a fee statement that would have made both rather difficult."
     },
     "case_facts": {
       "innocent": {
         "cleared_by": "17",
-        "evidence_discovery": 7,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1201,10 +1281,15 @@
     },
     "introduction": "I’m Saul D. Bid. Going once, going twice—no, I am only asking someone to pass the bread.",
     "testimony_clearance": {
-      "discovery": 7,
       "round": "method",
       "anchor": "going twice",
-      "record": "Insurance valuation booth fixed-line recording:6:49–6:55 BRASS overlay. Caller says GOING TWICE while disputing a subsidiary fee; phone stays on the wall. Longest silence thirteen seconds. Export metadata names decorative gallery clock as its overlay source."
+      "report": "F4",
+      "source": "Valuation booth",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "subsidiary"
   },
@@ -1252,7 +1337,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "18",
-        "evidence_discovery": 12,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1272,10 +1357,15 @@
     },
     "introduction": "I’m Elle Loominate. I make installations with light and fabric. Please do not describe either as something your nephew could do.",
     "testimony_clearance": {
-      "discovery": 12,
       "round": "opportunity",
       "anchor": "gold warp",
-      "record": "Textile demonstration uncut wide video:6:49–6:55 BRASS overlay; participant repairs BROKEN GOLD WARP at the fixed loom. Both hands, body and sole room exit remain visible. Decorative gallery clock supplied overlay; original machine time retained for authentication."
+      "report": "F4",
+      "source": "Textile stand",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "family"
   },
@@ -1323,7 +1413,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "19",
-        "evidence_discovery": 2,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1343,10 +1433,15 @@
     },
     "introduction": "I’m Reed DeLabel. I am the graduate fellow. I know where the footnotes go and, more dangerously, where they are missing.",
     "testimony_clearance": {
-      "discovery": 2,
       "round": "motive",
       "anchor": "green index tabs",
-      "record": "Research cage badge log and fixed interior camera: entrant carrying GREEN INDEX TABS enters 6:39 and leaves 6:45 SECURITY time. No secondary exit. The opened folder is the 1988 routing file; annotations contest both the exhibit label and a published claim."
+      "report": "F4",
+      "source": "Research cage",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "fellowship"
   },
@@ -1388,13 +1483,13 @@
       "motive_murderer": "He wanted a replica at the door and an unpaid sculptor outside it. I had altered an internal support without approval. Grant meant to use that alteration to cancel the bill while keeping the opening-night photographs. I can take criticism of a support. I object to a donor using it to support his own theft.",
       "where_innocent": "I went to the load-test rig before the toast. The support had to hold under tension, and I held the armature while the recorder ran. I came back with plaster on my hand and a better answer than ‘it should probably stand up.’ The entrance piece remains mine until somebody pays the invoice.",
       "where_murderer": "The rig’s recorded test was running while I checked the entrance piece in the gallery. I had inspected its support earlier. Before the toast I wiped my hand and went back to the outer worktable with the invoice. Grant had already seen the amended plan in his salon and chosen to misunderstand it.",
-      "evidence_innocent": "Look for the plaster thumb in the raw load-test film. It is mine throughout the 6:49–6:55 brass overlay; the force never releases. I hid the support revision inside the invoice. The welded brace differs from the approved drawing. It held, and I wanted Grant to inspect that result before calling the whole commission defective.",
+      "evidence_innocent": "My plaster thumb is in the raw load-test film throughout the 6:49–6:55 brass overlay; the force never releases. I hid the support revision inside the invoice. The welded brace differs from the approved drawing. It held, and I wanted Grant to inspect that result before calling the whole commission defective.",
       "evidence_murderer": "The plaster thumb came from an earlier adjustment. I put the support revision inside the invoice, where Grant could compare it with his replica estimate. The welded brace was not on the approved plan. I had tested it before the gala. He wanted to keep the opening photographs and replace the sculpture carrying my name."
     },
     "case_facts": {
       "innocent": {
         "cleared_by": "20",
-        "evidence_discovery": 13,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1414,10 +1509,15 @@
     },
     "introduction": "I’m Al Baster. I made the entrance sculpture. I would appreciate your admiration in a tone that suggests prompt payment.",
     "testimony_clearance": {
-      "discovery": 13,
       "round": "method",
       "anchor": "plaster thumb",
-      "record": "Load-test rig raw film: participant with PLASTER THUMB holds an entrance armature in tension continuously 6:49–6:55 BRASS overlay. Wide frame includes feet and exits; force readings never drop. Overlay source is decorative gallery clock, not the rig recorder."
+      "report": "F4",
+      "source": "Load-test platform",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "replica"
   },
@@ -1465,7 +1565,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "21",
-        "evidence_discovery": 9,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1485,10 +1585,15 @@
     },
     "introduction": "I’m Ella Gance. I collect beautiful things and attend beautiful evenings. I am prepared to be disappointed by neither.",
     "testimony_clearance": {
-      "discovery": 9,
       "round": "opportunity",
       "anchor": "second lipstick",
-      "record": "Style-desk uncut mirror interview:6:49–6:55 BRASS overlay. Participant tries a SECOND LIPSTICK, blots it, then admits selling a promised donation. Wide camera includes body and exit. Overlay comes from the decorative gallery clock."
+      "report": "F4",
+      "source": "Style desk",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "sold"
   },
@@ -1536,7 +1641,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "22",
-        "evidence_discovery": 12,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1556,10 +1661,15 @@
     },
     "introduction": "I’m Drew Conclusions. I review art professionally. My expression is not a verdict, but I recommend remaining concerned.",
     "testimony_clearance": {
-      "discovery": 12,
       "round": "method",
       "anchor": "unnamed benefactor",
-      "record": "Critics’ balcony podcast raw wide video:6:49–6:55 BRASS overlay, participant edits UNNAMED BENEFACTOR aloud at the fixed desk. Desk, hands and balcony door stay visible throughout. The clip is live, despite the critic calling it a rehearsal; overlay source is gallery clock."
+      "report": "F4",
+      "source": "Podcast balcony",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "newsletter"
   },
@@ -1592,9 +1702,9 @@
         "Monet has been fighting with the donor office about who is actually paying for tonight's excesses."
       ],
       "innocent": "I changed the setup on Grant’s orders and concealed his unpaid receipt. The green-tray recording keeps me in the kitchen during the contamination interval; the coupe had already left it clean. The service seal and later pour are separate records. I wanted the staff paid. I did not poison their most difficult guest.",
-      "murderer": "I left the kitchen pass and used my authority over private service to approach the empty coupe. The sample travelled on a museum cloth; I wiped the glass before the dome was sealed. I knew every service time because I had arranged them. Grant planned to blame me and withhold the money. I made his private toast final.",
+      "murderer": "I left the kitchen pass and used my authority over private service to approach the empty coupe. The sample traveled on a museum cloth; I wiped the glass before the dome was sealed. I knew every service time because I had arranged them. Grant planned to blame me and withhold the money. I made his private toast final.",
       "final_innocent": "I changed the setup on Grant’s orders and concealed his unpaid receipt. The green-tray recording keeps me in the kitchen during the contamination interval; the coupe had already left it clean. The service seal and later pour are separate records. I wanted the staff paid. I did not poison their most difficult guest.",
-      "final_murderer": "I left the kitchen pass and used my authority over private service to approach the empty coupe. The sample travelled on a museum cloth; I wiped the glass before the dome was sealed. I knew every service time because I had arranged them. Grant planned to blame me and withhold the money. I made his private toast final."
+      "final_murderer": "I left the kitchen pass and used my authority over private service to approach the empty coupe. The sample traveled on a museum cloth; I wiped the glass before the dome was sealed. I knew every service time because I had arranged them. Grant planned to blame me and withhold the money. I made his private toast final."
     },
     "hearing": {
       "motive_innocent": "Grant withheld the invoice and ordered two changes to his private drinks. He meant to blame me for the confusion he created. I changed his setup twice and kept both messages. His assistant wanted garnish; he wanted none. Neither wanted to sign the expense. I can accommodate a difficult guest. An unpaid staff is another matter.",
@@ -1607,7 +1717,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "23",
-        "evidence_discovery": 16,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1627,10 +1737,15 @@
     },
     "introduction": "I’m Brie DeVivre. I am responsible for dinner. If you enjoy it, remember my name. If you do not, blame the donor’s instructions.",
     "testimony_clearance": {
-      "discovery": 16,
       "round": "method",
       "anchor": "green tray",
-      "record": "Kitchen pass raw CCTV: operator at GREEN TRAY continuous 6:39–6:45 SECURITY time. Empty coupe leaves on silver service tray at 6:40; operator remains in kitchen counting plated starters. Camera includes sole exit and both hands. Separate service ledger records dome sealed 6:44, pour 6:46."
+      "report": "F4",
+      "source": "Kitchen pass",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "invoice"
   },
@@ -1678,7 +1793,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "24",
-        "evidence_discovery": 5,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1698,10 +1813,15 @@
     },
     "introduction": "I’m Cary Crates. I move priceless objects for a living. Please do not test that sentence by handing me your drink.",
     "testimony_clearance": {
-      "discovery": 5,
       "round": "opportunity",
       "anchor": "freight lift",
-      "record": "Freight lift breakdown record: trapped occupant calls from cabin intercom 6:39–6:45 SECURITY time. Load camera shows occupant and damaged frame continuously; landing doors remain mechanically shut until recovery. Longest call gap eighteen seconds."
+      "report": "F4",
+      "source": "Freight lift",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "crack"
   },
@@ -1740,7 +1860,7 @@
     },
     "hearing": {
       "motive_innocent": "I organized the anonymous petition against Grant’s education cuts. He wanted a donor lounge where the children’s budget used to be. From 6:39 to 6:45 I was live with a school group and Henri the hippo. Henri asked why the museum needed a private entrance. I had written that question. The children deserved an answer.",
-      "motive_murderer": "The anonymous petition was mine. Grant’s donor lounge would cost school tours and community programmes their budget. I sent an earlier Henri the hippo segment to the school group and kept distributing trustee folders. A puppet was apparently allowed to ask the question adults had been instructed to avoid.",
+      "motive_murderer": "The anonymous petition was mine. Grant’s donor lounge would cost school tours and community programs their budget. I sent an earlier Henri the hippo segment to the school group and kept distributing trustee folders. A puppet was apparently allowed to ask the question adults had been instructed to avoid.",
       "where_innocent": "I took the school-tour proposal to Grant early and then went to the outreach desk. After the session I sorted trustee folders at the gallery entrance. The petition was underneath the donor conditions in every copy. I wanted somebody voting on those conditions to meet the children they were cutting out.",
       "where_murderer": "I was sorting trustee folders near the gallery entrance before the toast. Henri’s segment was with the school moderator already. I had taken my proposal to Grant early and kept an extra petition in my bag. He was going to announce the cuts as an improvement to the visitor experience. I wanted the visitors described accurately.",
       "evidence_innocent": "I slipped the petition into trustee folders without approval. Henri’s question about the private door was deliberate too. The children did not know it was a budget dispute. They understood that some people were being offered a better door than others. Grant asked me to remove the question from the recording. I left it in.",
@@ -1749,7 +1869,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "25",
-        "evidence_discovery": 9,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1769,10 +1889,15 @@
     },
     "introduction": "I’m Anne E. Dote. I run education here. I can make almost anything interesting, including a room full of adults behaving badly.",
     "testimony_clearance": {
-      "discovery": 9,
       "round": "motive",
       "anchor": "Henri the hippo",
-      "record": "School outreach studio live archive: participant presents HENRI THE HIPPO at fixed desk 6:39–6:45 SECURITY time. School moderator retained the uncut whole-room feed; puppet, participant and exit remain visible throughout."
+      "report": "F4",
+      "source": "School-link room",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "petition"
   },
@@ -1814,13 +1939,13 @@
       "motive_murderer": "I kept a backup of the photograph Grant ordered destroyed. It shows his meeting beside the shell-company shipping file. He threatened to cancel my commission if I retained it. I had already agreed to delete the camera image. He wanted the event photographed beautifully and one part of its history left permanently out of focus.",
       "where_innocent": "I worked at the portrait station before the toast. The overhead camera caught me arranging twelve exposures, including rather too much of my own concentration face. I went to the gallery afterward with the prints. Grant’s photograph was in a different sleeve, which I did not put on the public table.",
       "where_murderer": "I set the portrait station to make its exposures and used a remote release while moving through the gallery. Before the toast I was checking the backup print Grant wanted gone. I had brought his approved donor photographs to the salon earlier. He had mistaken approving those photographs for controlling the rest.",
-      "evidence_innocent": "The orange tether in the behind-camera film runs to my camera. I stay beside it through the whole 6:49–6:55 brass overlay. Do not substitute shutter timestamps for that wide film. I borrowed the setup key for a print sleeve and used linen on the lens. The hidden backup is in the unmarked sleeve.",
+      "evidence_innocent": "The orange tether in the behind-camera film runs to my camera. I stay beside it through the whole 6:49–6:55 brass overlay. The wide film shows me beside the camera; shutter timestamps record the exposures. I borrowed the setup key for a print sleeve and used linen on the lens. The hidden backup is in the unmarked sleeve.",
       "evidence_murderer": "The orange tether stayed at the portrait station while I used the remote release. I borrowed the preparation key for a print sleeve and kept the lens cloth. The backup of Grant’s meeting is in the unmarked sleeve. Camera timestamps tell you when an image happened. They do not always tell you where the photographer stood."
     },
     "case_facts": {
       "innocent": {
         "cleared_by": "26",
-        "evidence_discovery": 8,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1840,10 +1965,15 @@
     },
     "introduction": "I’m Faye Stop. I am your photographer. Give me your good side, then try not to confess anything while I have the camera up.",
     "testimony_clearance": {
-      "discovery": 8,
       "round": "method",
       "anchor": "orange tether",
-      "record": "Portrait station raw behind-camera film: operator beside ORANGE TETHER continuously 6:49–6:55 BRASS overlay. Whole-room camera shows operator framing twelve exposures; her camera metadata alone is insufficient. Decorative gallery clock supplied the film overlay."
+      "report": "F4",
+      "source": "Portrait station",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "backup"
   },
@@ -1891,7 +2021,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "27",
-        "evidence_discovery": 3,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1911,10 +2041,15 @@
     },
     "introduction": "I’m Robin Banks. I campaign for restitution. A disputed object does not become less disputed when somebody puts flowers beside it.",
     "testimony_clearance": {
-      "discovery": 3,
       "round": "opportunity",
       "anchor": "return desk",
-      "record": "Restitution teach-in uncut public stream: participant at RETURN DESK continuously 6:39–6:45 SECURITY time, placing PROVENANCE IS A VERB stickers in brochures while explaining the 1988 shipment. Fixed wide camera includes floor and door; student group retained independent feed."
+      "report": "F4",
+      "source": "Return desk",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "stickers"
   },
@@ -1946,23 +2081,23 @@
         "Anya has old concerns about paperwork on Grant's earliest donations.",
         "Tess's relationship with Grant has been unusually tense over family philanthropy."
       ],
-      "innocent": "I took the receipt and intended to embarrass Grant with the family letters. The study-cabinet record and intact blue seals keep me inside during the contamination interval. I wanted the object returned and the disputed sale acknowledged. I did not poison the person whose explanation I had finally arranged to hear.",
-      "murderer": "I used the catalogue photograph, not the sealed object-study room. The linen around my letter carried the reference toxin to Grant’s coupe. He had bought the object cheaply and our silence even more cheaply. I wanted restitution. I chose revenge and told myself that the two could be made to resemble each other.",
-      "final_innocent": "I took the receipt and intended to embarrass Grant with the family letters. The study-cabinet record and intact blue seals keep me inside during the contamination interval. I wanted the object returned and the disputed sale acknowledged. I did not poison the person whose explanation I had finally arranged to hear.",
-      "final_murderer": "I used the catalogue photograph, not the sealed object-study room. The linen around my letter carried the reference toxin to Grant’s coupe. He had bought the object cheaply and our silence even more cheaply. I wanted restitution. I chose revenge and told myself that the two could be made to resemble each other."
+      "innocent": "I took the receipt and intended to embarrass Grant with the family letters. The object-study room log and intact blue seals keep me inside during the contamination interval. I wanted the object returned and the disputed sale acknowledged. I did not poison the person whose explanation I had finally arranged to hear.",
+      "murderer": "I used the catalog photograph, not the sealed object-study room. The linen around my letter carried the reference toxin to Grant’s coupe. He had bought the object cheaply and our silence even more cheaply. I wanted restitution. I chose revenge and told myself that the two could be made to resemble each other.",
+      "final_innocent": "I took the receipt and intended to embarrass Grant with the family letters. The object-study room log and intact blue seals keep me inside during the contamination interval. I wanted the object returned and the disputed sale acknowledged. I did not poison the person whose explanation I had finally arranged to hear.",
+      "final_murderer": "I used the catalog photograph, not the sealed object-study room. The linen around my letter carried the reference toxin to Grant’s coupe. He had bought the object cheaply and our silence even more cheaply. I wanted restitution. I chose revenge and told myself that the two could be made to resemble each other."
     },
     "hearing": {
       "motive_innocent": "The decorative object belonged to my family. Grant bought it through a private sale we contested in writing. I brought the letters to embarrass him in front of witnesses. He preferred a label thanking him for generosity. I have never enjoyed being told how grateful I ought to feel about somebody else displaying our possessions.",
       "motive_murderer": "Grant called the object his generous gift. My family called the sale manipulative and kept the correspondence. I brought it tonight. He wanted to discuss the matter privately, where he could describe the letters as an old misunderstanding. I wanted him to read them with somebody else listening.",
       "where_innocent": "I went into the object-study room to compare the family monogram with the letter. Its security door stayed shut until the inspection ended. I came out and took the letter back to the gallery entrance. The match was clear. Grant’s enthusiasm for private discussion had become rather less mysterious.",
-      "where_murderer": "I compared the letter with the catalogue photograph at the gallery table. I had looked at the object earlier and wanted to copy the monogram accurately. Grant had seen the correspondence in his salon before the glass arrived. Before the toast I was deciding which paragraph to ask him to explain publicly.",
+      "where_murderer": "I compared the letter with the catalog photograph at the gallery table. I had looked at the object earlier and wanted to copy the monogram accurately. Grant had seen the correspondence in his salon before the glass arrived. Before the toast I was deciding which paragraph to ask him to explain publicly.",
       "evidence_innocent": "The object-study room had three blue seals over its side panels. They stayed intact while I was inside from 6:39 to 6:45. The family monogram matched the letter. I also removed the sale receipt from Grant’s archive folder. He already knew what it said; I wanted an original document when he described the sale to the room.",
-      "evidence_murderer": "The catalogue photograph shows the family monogram clearly enough to compare at a table. I removed the sale receipt from Grant’s folder and kept it with our letter. He had retained the correspondence and still intended to tell the story without mentioning it. I wanted him to explain the price as well as the acquisition."
+      "evidence_murderer": "The catalog photograph shows the family monogram clearly enough to compare at a table. I removed the sale receipt from Grant’s folder and kept it with our letter. He had retained the correspondence and still intended to tell the story without mentioning it. I wanted him to explain the price as well as the acquisition."
     },
     "case_facts": {
       "innocent": {
         "cleared_by": "28",
-        "evidence_discovery": 11,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -1982,10 +2117,15 @@
     },
     "introduction": "I’m Penny Pincher. Some things here belonged to my family. I have brought correspondence and a very selective willingness to be polite.",
     "testimony_clearance": {
-      "discovery": 11,
       "round": "method",
       "anchor": "three blue seals",
-      "record": "Object-object-study room security log: entrant with family letter admitted 6:39, released 6:45 SECURITY time. THREE BLUE SEALS stay intact over side service panels; fixed interior camera includes the occupant throughout. Accession comparison uses family monogram on letter and object."
+      "report": "F4",
+      "source": "Object-study room",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "family"
   },
@@ -2033,7 +2173,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "29",
-        "evidence_discovery": 4,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -2053,10 +2193,15 @@
     },
     "introduction": "I’m Justin Tyme. I write about Tulsa’s art scene. I meet every deadline eventually, usually just in time.",
     "testimony_clearance": {
-      "discovery": 4,
       "round": "opportunity",
       "anchor": "old parcel line",
-      "record": "Local radio call-in raw archive: fixed archive-office telephone 6:39–6:45 SECURITY time. Caller reads OLD PARCEL LINE aloud and retracts the donor’s building-origin claim. Station retains continuous two-way exchange; longest pause fifteen seconds. No mobile connection."
+      "report": "F4",
+      "source": "Archive-office radio line",
+      "clock": "SECURITY",
+      "interval": [
+        39,
+        45
+      ]
     },
     "testimony_suspicion": "correction"
   },
@@ -2095,7 +2240,7 @@
     },
     "hearing": {
       "motive_innocent": "Grant demanded a ghastly lighting cue, Frank objected, and my payment became the hostage. I changed the cue after approval. The flicker was mine. He wanted me to apologize for disobeying him while accepting responsibility for whatever his version would have done. I had invoices from people who could not pay their rent with donor gratitude.",
-      "motive_murderer": "I changed the lighting cue after approval because Grant’s version was awful. He threatened to withhold payment when Frank objected. The flicker you saw was my late edit. Grant intended to blame the designer and stop the cheque. I was very tired of producing an evening for a man who thought payment was another creative note.",
+      "motive_murderer": "I changed the lighting cue after approval because Grant’s version was awful. He threatened to withhold payment when Frank objected. The flicker you saw was my late edit. Grant intended to blame the designer and stop the check. I was very tired of producing an evening for a man who thought payment was another creative note.",
       "where_innocent": "I stayed at the show-control desk running the manual tests before the toast. The pink worklight was on because I had forgotten the overhead cue again. I returned to the gallery after the test finished. Grant’s latest demand was beside the unpaid invoice, where I could keep both sources of irritation in view.",
       "where_murderer": "I put the console into its saved test sequence and watched the gallery lights before the toast. The pink worklight stayed on at the desk. I had discussed Grant’s demands at his salon earlier and carried his marked cue sheet with me. He had added another change in the margin after approving the previous one.",
       "evidence_innocent": "The pink-worklight recording and manual-contact log run 6:49 to 6:55 on the brass overlay. My hands stay on the test faders. I had used the setup key for linen screens earlier. I changed the cue without approval, but my console cannot operate the security curtain. Please let each machine retain responsibility for its own disaster.",
@@ -2104,7 +2249,7 @@
     "case_facts": {
       "innocent": {
         "cleared_by": "30",
-        "evidence_discovery": 15,
+        "evidence_report": "F4",
         "actual_interval": [
           39,
           45
@@ -2124,10 +2269,15 @@
     },
     "introduction": "I’m Minnie Malist. I produce the events. A successful gala is one in which nobody notices how close it came to collapsing.",
     "testimony_clearance": {
-      "discovery": 15,
       "round": "method",
       "anchor": "manual-contact log",
-      "record": "Show-control raw desk camera and manual-contact log: operator at PINK WORKLIGHT continuously 6:49–6:55 BRASS overlay. Hands stay on manual test faders; camera includes both feet and only door. Lighting controller is separate from security curtain S-2; overlay source is decorative gallery clock."
+      "report": "F4",
+      "source": "Show desk",
+      "clock": "BRASS",
+      "interval": [
+        49,
+        55
+      ]
     },
     "testimony_suspicion": "payment"
   }

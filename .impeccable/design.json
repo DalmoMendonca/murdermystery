@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T03:56:22.541365+00:00",
+  "generatedAt": "2026-10-06T13:27:06.738193+00:00",
   "title": "Design System: The Last Acquisition â€” Print",
   "extensions": {
     "afterHoursPublic": {
@@ -294,7 +294,11 @@
       "scripts/after_hours_print.py",
       "scripts/evidence_design.py",
       "scripts/export_phone_images.py",
-      "source/game.json"
+      "source/game.json",
+      "scripts/hunt_copy.py",
+      "scripts/american_copy.py",
+      "source/hunt_copy.yaml",
+      "source/investigation.json"
     ],
     "colorMeta": {
       "ink": {
@@ -350,6 +354,12 @@
       },
       "coming-clean": {
         "purpose": "Both Coming Clean statements use 15 pt."
+      },
+      "discovery-exhibit": {
+        "purpose": "Department 16 pt, title 32 pt, body 18 pt, rows and annotations 17 pt, stamp 14 pt; Discovery 3 body 24 pt italic."
+      },
+      "auxiliary-narrative": {
+        "purpose": "Auxiliary narrative at least 14 pt; auxiliary spoken instructions 15–16 pt."
       }
     },
     "shadows": [],
@@ -590,7 +600,11 @@
             457,
             14
           ],
-          "message": "STOP! Do not turn the page yet. Wait for the host to announce the next round."
+          "message": "STOP! Do not turn the page yet. Wait for the host to announce the next round.",
+          "exceptions": [
+            "Ballot page 11",
+            "Coming Clean page 12"
+          ]
         },
         "assembly": "Leave ballot page 11 loose; staple remaining pages in order; retain Coming Clean.",
         "investigationNotes": false,
@@ -603,14 +617,25 @@
           "timing": "Before Motive",
           "policy": "Select one eligible B animal, announce it twice, retain the same branch through all hearings and Coming Clean; never redraw between rounds.",
           "source": "docs/GAME_FLOW.md"
-        }
+        },
+        "ballot": {
+          "page": 11,
+          "stopPanel": false,
+          "handling": "Tear off and give only the ballot to the host; keep the packet for Coming Clean."
+        },
+        "comingCleanIntro": "Read only when the host calls you. Top three suspects read first. Use your own role’s box; keep every other word private. No animal-fallback sentence on player page."
       },
       "hunt": {
-        "envelopes": 16,
         "hintsPerCharacter": 3,
-        "uniqueHintTexts": 90,
         "hintSize": 19,
-        "source": "source/hunt.json"
+        "source": "source/hunt_copy.yaml",
+        "loader": "scripts/hunt_copy.py:load_hunt",
+        "compatibilitySnapshot": "source/hunt.json (generated)",
+        "currentValidation": "Ninety unique hints across sixteen envelope locations, derived from editable source.",
+        "title": "The game is afoot",
+        "introSize": 16,
+        "delivery": "Bring found envelopes to your seat at the table; most envelopes wins a special prize.",
+        "closingParagraph": false
       },
       "tentCards": {
         "count": 30,
@@ -651,8 +676,6 @@
         "assembly": "Use full sheet; fold three dotted gold guides; overlap and tape base flaps; no cutting."
       },
       "discoveries": {
-        "count": 16,
-        "pages": 16,
         "perPage": 1,
         "sheet": [
           612,
@@ -662,57 +685,55 @@
         "cutBorder": false,
         "department": [
           42,
-          104,
+          110,
           528,
-          14
+          16
         ],
-        "titleSize": 28,
+        "departmentAfterGap": 12,
+        "titleSize": 32,
+        "titleAfterGap": 24,
         "contentX": 42,
         "contentMeasure": 528,
         "photoSlot": [
           528,
-          116
+          245
         ],
-        "photoAfterAdvance": 128,
+        "photoAfterAdvance": 265,
         "rowLabel": {
           "x": 42,
           "width": 170,
-          "size": 14
+          "size": 17
         },
         "rowValue": {
           "x": 226,
           "width": 344,
-          "size": 14
+          "size": 17
         },
-        "rowAfterGap": 6,
-        "paragraphAfterGap": 8,
-        "sourceExtractHeading": {
-          "label": "Authenticated source extracts",
-          "size": 18,
-          "separatorWidth": 528,
-          "headingYOffset": 14,
-          "afterGap": 8
+        "rowAfterGap": 10,
+        "bodySize": 18,
+        "discovery3Body": {
+          "size": 24,
+          "font": "BookItalic"
         },
-        "sourceExtractBody": {
-          "size": 14,
-          "measure": 528,
-          "afterGap": 12,
-          "bottomLimit": 715
+        "paragraphAfterGap": 14,
+        "annotation": {
+          "size": 17,
+          "font": "BookItalic",
+          "beforeGap": 12,
+          "afterGap": 14
         },
         "stamp": {
-          "size": 12,
-          "top": "max(content_end + 5, 701)",
+          "size": 14,
+          "top": "content_end + 16",
           "bottomLimit": 730
         },
-        "footer": "Discovery number / Original exhibit and authenticated source extracts",
+        "footer": "The Meridian Museum / Discovery number",
         "renderer": "scripts/evidence_design.py:build_evidence",
         "legacyHelper": "draw_discovery is unused; its half-sheet and dashed-cut geometry is not the implemented discovery system.",
-        "authenticationContract": "Actual anonymous occupied-source extracts certify interval, integrity and operating constraints while withholding participant identity, biography and private content. Historical exhibit names do not identify anonymous occupants. Selected testimony supplies the personal connection; portable props or source certification alone assert no personal alibi.",
-        "sourceExtractPresence": "Inline on the original exhibit page where records are supplied; discovery 14 has no extract."
+        "contentContract": "Short stand-alone original evidence only; no attached recovery, authenticated-source or alibi sections.",
+        "currentSource": "source/discoveries.json; current set contains sixteen original records, with counts derived from source rather than frozen as a release specification."
       },
       "reports": {
-        "count": 5,
-        "pagesEach": 1,
         "photoReports": [
           "F1",
           "F4",
@@ -729,16 +750,35 @@
         "F3Diagram": [
           528,
           135
-        ]
+        ],
+        "source": "source/investigation.json",
+        "F4": {
+          "pages": 2,
+          "page1": "Installation inspection / S-2",
+          "page2": "Recording archive / technical log",
+          "archiveGroups": [
+            "Telephone circuits",
+            "Access-control logs",
+            "Audio and video archive"
+          ],
+          "archiveSourceContract": "Current thirty generic sources; technical findings only, with participant identities and private conversations redacted.",
+          "archiveTitleSize": 28,
+          "intervalSize": 16,
+          "groupTitleSize": 18,
+          "sourceSize": 14,
+          "findingsSize": 15,
+          "noteSize": 14
+        },
+        "F5": "Raw clock synchronization and textile/toxin comparison findings; no solving advice."
       },
       "hostGuide": {
-        "plannedPages": 15,
-        "hostChecklistPages": 3,
-        "turnTracking": [
-          "Here",
-          "Motive",
-          "Opportunity",
-          "Method"
+        "source": "Current host guide source and renderer",
+        "instructions": "Preparation, attendance, ballot tallying, announcements and finale; no turn-tracking, repeated-answer or discussion instructions.",
+        "animalFallback": "Host finale retains the selected-animal fallback when no top-three suspect confesses.",
+        "narrativeFloorPt": 14,
+        "spokenSizePt": [
+          15,
+          16
         ]
       },
       "invitation": {
@@ -931,12 +971,19 @@
     },
     "threeRoundExtension": {
       "brief": "docs/THREE_ROUND_BRIEF.md",
-      "scope": "Extension of the approved light-paper museum system. Existing cover, portrait/frame, phone-image, question-page, report and other geometry stays unchanged.",
+      "scope": "Extension of the approved light-paper museum system; preserve cover axis, framed art, fonts, palette, tents and dark phone identity while updating discovery geometry, technical reports, hunt and instructions.",
       "testimonySource": "source/investigation_copy.yaml",
       "discoverySource": "source/discoveries.json",
       "hearingBranches": "All three hearing pages contain IF INNOCENT / IF MURDERER boxes with equal visual priority.",
       "finale": "Both Coming Clean statements use 15 pt; voting locks before page 12; no essential new proof appears in the finale.",
-      "proofLimit": "Logical consistency and model table reads do not measure human difficulty."
+      "proofLimit": "Logical consistency and model table reads do not measure human difficulty.",
+      "huntSource": "source/hunt_copy.yaml",
+      "reportSource": "source/investigation.json",
+      "discoveryContract": "Short stand-alone original evidence, without attached recovery or authenticated alibi sections."
+    },
+    "americanCopy": {
+      "source": "scripts/american_copy.py",
+      "policy": "Current editable copy uses American spelling; output helper normalizes exported historical material while preserving original historical precursor files."
     }
   },
   "components": [
@@ -966,7 +1013,7 @@
       "name": "Round Stop",
       "kind": "custom",
       "refersTo": "stop-panel",
-      "description": "Explicit round gate reinforced by burgundy octagon; schematic uses words, actual PDF has drawn octagon.",
+      "description": "Explicit round gate reinforced by burgundy octagon; schematic uses words, actual PDF has drawn octagon. Omitted on ballot page 11 and Coming Clean page 12.",
       "html": "<aside class=\"ds-stop\"><b>STOP!</b><span>Do not turn the page yet.<br>Wait for the host to announce the next round.</span></aside>",
       "css": ".ds-stop{width:528pt;min-height:61pt;background:#faf4f1;border:.7pt solid #720f29;color:#720f29;display:flex;align-items:center;gap:10pt;font:700 14pt/1.25 Libron,serif}.ds-stop b{padding:10pt}.ds-stop span{padding:8pt}"
     },
@@ -982,14 +1029,14 @@
       "name": "Full-page Discovery Exhibit",
       "kind": "custom",
       "refersTo": "discovery-exhibit",
-      "description": "One Letter page per envelope; original record and actual anonymous authenticated occupied-source extracts share a 528 pt reading measure. Schematic demonstrates typography and measure; production flow is content measured.",
-      "html": "<article class=\"ds-discovery\"><b>MERIDIAN / SOURCE DEPARTMENT</b><h2>Discovery exhibit</h2><p>Original documentary record.</p><hr><h3>Authenticated source extracts</h3><p>Occupied interval and source integrity certified; identity and private contents withheld.</p></article>",
-      "css": ".ds-discovery{width:528pt;color:#191b1c;background:#fff;font:14pt/1.25 Libron,serif}.ds-discovery>b{color:#720f29;font-size:14pt}.ds-discovery h2{font-size:28pt;margin:8pt 0 13pt}.ds-discovery h3{color:#720f29;font-size:18pt;margin:14pt 0 8pt}.ds-discovery p{margin:0 0 12pt}.ds-discovery hr{border:0;border-top:.6pt solid #191b1c}"
+      "description": "Short stand-alone original evidence on one Letter page per envelope; 528 pt measure. Schematic omits optional photograph and represents measured production flow.",
+      "html": "<article class=\"ds-discovery\"><b>MERIDIAN / SOURCE DEPARTMENT</b><h2>Discovery exhibit</h2><p>Original documentary record.</p><i>Original annotation.</i></article>",
+      "css": ".ds-discovery{width:528pt;color:#191b1c;background:#fff;font:18pt/1.25 Libron,serif}.ds-discovery>b{color:#720f29;font-size:16pt}.ds-discovery h2{font-size:32pt;margin:12pt 0 24pt}.ds-discovery p{margin:0 0 14pt}.ds-discovery i{font-size:17pt;color:#720f29}"
     }
   ],
   "narrative": {
     "northStar": "Museum Patron Folio",
-    "overview": "The user chose an ornate professional museum gala and then requested the black/red After Hours accents across every printable asset, with light paper for comfortable reading. White stock, near-black reading text, burgundy headings and restrained gilt detail now unite invitations, character sheets, player packets, manuals, records, cut cards, room signs and certificates. Libron, all source words, game mechanics, page geometry and existing artwork remain.\n\nThis document extracts `scripts/print_identity.py`, `scripts/build.py`, `scripts/printable_v2.py`, `scripts/after_hours_print.py` and `scripts/evidence_design.py`. It governs printable PDFs. The approved dark phone invitation and thirty character JPEGs remain separately scoped in the sidecar's `afterHoursPublic` extension; their temporary build PDFs are image-export intermediates. The independent homepage remains governed by `docs/DESIGN.md`, with no webpage changes authorized by this print refinement.\n\nThe concept seed `ad4b8f59`, assigned index 5, records the earlier Museum Patron Folio direction. Reconstructed possibilities were gala invitation, exhibition catalogue, conservation dossier, artist salon, museum patron folio, accession ledger and exhibition wall label, not presented user choices. The October 5 light-paper direction supersedes the former teal print palette while retaining the folio geometry, Libron and ornate frames.",
+    "overview": "The user chose an ornate professional museum gala and then requested the black/red After Hours accents across every printable asset, with light paper for comfortable reading. White stock, near-black reading text, burgundy headings and restrained gilt detail now unite invitations, character sheets, player packets, manuals, records, cut cards, room signs and certificates. Libron, the approved identity and existing artwork remain. The current extension updates evidence flow and player/host instructions without changing that identity.\n\nThis document extracts `scripts/print_identity.py`, `scripts/build.py`, `scripts/printable_v2.py`, `scripts/after_hours_print.py` and `scripts/evidence_design.py`. It governs printable PDFs. The approved dark phone invitation and thirty character JPEGs remain separately scoped in the sidecar's `afterHoursPublic` extension; their temporary build PDFs are image-export intermediates. The independent homepage remains governed by `docs/DESIGN.md`, with no webpage changes authorized by this print refinement.\n\nThe concept seed `ad4b8f59`, assigned index 5, records the earlier Museum Patron Folio direction. Reconstructed possibilities were gala invitation, exhibition catalog, conservation dossier, artist salon, museum patron folio, accession ledger and exhibition wall label, not presented user choices. The October 5 light-paper direction supersedes the former teal print palette while retaining the folio geometry, Libron and ornate frames.",
     "keyCharacteristics": [
       "Safe face-up Picasso covers composed on a centered exhibition-poster axis, and twelve-page self-contained books.",
       "Light single-page Van Gogh character PDFs with full-width Acting Tips; separate approved dark phone JPEGs.",
@@ -1018,7 +1065,7 @@
       "Do preserve the centered cover axis at x=306, safe cover, twelve-page order, loose ballot and retained finale.",
       "Do give all three hearings equally styled branch boxes at 15 pt or larger, and Coming Clean statements at 15 pt.",
       "Do select the animal before Motive and preserve the same branch through the finale.",
-      "Do keep each full-page discovery and its anonymous authenticated extracts together in one numbered envelope.",
+      "Do keep each short original discovery on its own full Letter page in one numbered envelope.",
       "Do keep light printable PDFs and approved dark phone JPEGs separate.",
       "Do preserve source words, all game mechanics, fonts and geometry during visual refinements.",
       "Do keep relationship names bold/yellow and Acting Tips full width.",
@@ -1029,7 +1076,7 @@
     "donts": [
       "Don't reintroduce notes grids, A/B cards, external catalogs or separate finale files.",
       "Don't restore common Motive/Method answers, the Method discovery index or half-sheet discovery cutting.",
-      "Don't turn anonymous occupied-source certification or portable props into fixed personal alibis.",
+      "Don't attach recovery or authenticated alibi extracts to discoveries, or add solving advice to raw technical findings.",
       "Don't put private information on a face-up cover or shrink prose to hide overflow.",
       "Don't distribute font binaries or organizer prompts to guests.",
       "Don't apply dark phone backgrounds to printable reading areas.",

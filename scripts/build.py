@@ -42,6 +42,8 @@ def fonts():
     pdfmetrics.registerFontFamily('Book',normal='Book',bold='BookBold',italic='BookItalic',boldItalic='BookBoldItalic')
 def flat(s):return ' '.join(s.split())
 def para(s,width,size=14,font='Book',color=INK):
+    from american_copy import american
+    s=american(s)
     missing={ord(ch) for ch in s if not ch.isspace() and ord(ch) not in pdfmetrics.getFont(font).face.charToGlyph}
     assert not missing,f'Unsupported glyphs: {sorted(missing)}'
     p=Paragraph(html.escape(s).replace('\n','<br/>'),ParagraphStyle('p',fontName=font,fontSize=size,leading=size*1.25,textColor=color,allowWidows=0,allowOrphans=0))
@@ -153,7 +155,7 @@ def invitation():
     s=Sheet(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf','Invitation & arrival')
     after_hours_print.invitation_front(s,__import__(__name__),print_mode=True)
     s.next();s.header('ARRIVAL / Display at check-in');y=s.block('Welcome to the Meridian',42,105,528,32,'BookBold')+24
-    rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Introductions and hunt: read your introduction, try the social tasks and bring discoveries to the Evidence Table.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
+    rules=['Memorize the animal you draw. Return the slip immediately to the closed return box. Never tell anyone your animal.','Keep phones put away. Everything you need is printed.','Introductions and hunt: read your introduction, try the social tasks and bring envelopes to your seat, open them and read the contents aloud.','After the death, follow the three guided hearings. Read your printed answer when your turn comes; acting is optional.','Read only the words inside the speech boxes. Do not invent new locations, events or witnesses.','Your packet includes your ballot and Coming Clean page. Stop before Coming Clean until the host has collected every ballot.']
     for i,t in enumerate(rules):s.block(str(i+1),42,y,32,26,'BookBold',TEAL);y=s.block(t,89,y,481,18)+22
     s.footer('The Last Acquisition / October 30, 2026');s.save()
     phone=Sheet(WORK/'phone-invite.pdf','Invitation image')
@@ -161,6 +163,8 @@ def invitation():
 STYLE=ParagraphStyle('Body',fontName='Book',fontSize=14,leading=18,spaceAfter=9,allowWidows=0,allowOrphans=0,textColor=INK)
 HEAD=ParagraphStyle('Head',parent=STYLE,fontName='BookBold',fontSize=20,leading=24,spaceBefore=12,spaceAfter=8,textColor=TEAL,keepWithNext=True)
 def P(t,style=STYLE):
+    from american_copy import american
+    t=american(t)
     missing={ord(ch) for ch in t if not ch.isspace() and ord(ch) not in pdfmetrics.getFont(style.fontName).face.charToGlyph}
     assert not missing,f'Unsupported glyphs: {sorted(missing)}'
     return Paragraph(html.escape(t),style)
@@ -189,7 +193,7 @@ def awards():
     s=Sheet(KIT/'OPEN_FREELY/Scavenger_Score_Sheet.pdf','Scavenger scores');s.header('SCAVENGER SCORE SHEET / One point per find');s.block('Guest / Character',42,99,440,18,'BookBold');s.block('Finds',498,99,72,18,'BookBold')
     for i in range(30):y=140+i*19;s.line(42,y,474,y);s.line(498,y,570,y)
     s.footer('Award the Curator’s Eye to the guest with the most discoveries.');s.save()
-    captions=[('Best Actor','For committing fully to the role and making everyone else more fun to watch.'),('Best Costume','For arriving as if the Meridian gala had a real red carpet.'),('Curator’s Eye','For finding the most Act I scavenger clues.'),('Master Sleuth','For an innocent guest’s correct accusation supported by evidence and motive.'),('Escaped Justice','For the murderer, if they avoid the three most-accused positions.')]
+    captions=[('Best Actor','For committing fully to the role and making everyone else more fun to watch.'),('Best Costume','For arriving as if the Meridian gala had a real red carpet.'),('Curator’s Eye','For finding the most hidden envelopes.'),('Master Sleuth','For an innocent guest’s correct accusation supported by evidence and motive.'),('Escaped Justice','For the murderer, if they avoid the three most-accused positions.')]
     s=Sheet(KIT/'OPEN_FREELY/Award_Certificates.pdf','Award certificates')
     for i,(title,desc) in enumerate(captions):
         if i%2==0:s.header('THE MERIDIAN MUSEUM / Gala awards')
@@ -204,6 +208,12 @@ def readme():
     s.footer('Actual size / Fonts embedded / No font installation needed');s.save()
 def facilitator(chars):
     pages=json.loads((ROOT/'source/facilitator.json').read_text(encoding='utf-8'));story=[]
+    from hunt_copy import load_hunt
+    hunt=load_hunt(ROOT)
+    for page in pages:
+        if page['title']=='House hunt / sixteen envelopes':
+            for block in page['blocks']:
+                if 'table' in block:block['table']=[[str(l['envelope']),l['location']] for l in hunt['locations']]
     for page in pages:
         if story:story.append(PageBreak())
         story.append(P(page['title'],HEAD))
@@ -232,7 +242,7 @@ def spoiler(chars):
         for label,base in [('Motive','motive'),('Opportunity','where'),('Method','evidence')]:
             for branch in ['innocent','murderer']:body.append(label+' / '+branch+': '+c['hearing'][base+'_'+branch])
         body += ['Innocent Coming Clean: '+p['final_innocent'],'Murderer Coming Clean: '+p['final_murderer'],
-                 'Corroboration / Discovery '+str(c['testimony_clearance']['discovery'])+': '+c['testimony_clearance']['record']]
+                 'Technical support / '+c['testimony_clearance']['report']+': '+c['testimony_clearance']['source']+' / '+c['testimony_clearance']['clock']+' clock.']
         sections.append((c['name'],'\n\n'.join(body)))
     bible_style=ParagraphStyle('BibleBody',parent=STYLE,spaceAfter=7)
     manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf',body_style=bible_style)
@@ -255,6 +265,8 @@ def package():
         for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name)
 def build_kit():
     from character_copy import load_characters
+    from hunt_copy import sync_hunt
+    sync_hunt(ROOT)
     fonts();KIT.mkdir(parents=True,exist_ok=True);chars=load_characters()
     for relative in ['PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf','OPEN_FREELY/11_Questions_and_Notes.pdf']:
         obsolete=KIT/relative

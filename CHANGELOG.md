@@ -1,3 +1,11 @@
+# Packet wording and stand-alone discoveries — 2026-10-06
+
+- Applied the requested briefing, hunt and ballot wording to all thirty packets; removed the specified leading instructions and player finale fallback.
+- Added editable, location-first `source/hunt_copy.yaml` with ninety unique hints, validated character assignments and all sixteen household locations.
+- Removed recovery appendices and solving advice from the sixteen discovery documents. Separated technical report findings from discoveries and aligned the host hunt instructions and prize.
+- Corrected American spellings and regenerated all exports. Preserved the three hearing branches, endings, host fallback and covered twelve-page packets.
+- Full rendered-page review combined independent packet review with disclosed primary-agent review after reviewer account quotas intervened. Validation and limitations: `docs/CLUE_REVISION_REVIEW.md`.
+
 # Three branched hearings for every character — 2026-10-05
 
 - Rewrote all 30 characters with 180 distinct hearing speeches and 60 Coming Clean endings, preserving their public copy and portraits. Every route has personal misconduct; each innocent account has pre-vote source-linked clearance, while each murderer account leaves that connection unresolved.

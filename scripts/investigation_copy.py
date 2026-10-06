@@ -18,6 +18,6 @@ def apply_investigation(characters,root):
             c['private']['final_'+branch]=row['coming_clean'][branch]
             c['private'][branch]=row['coming_clean'][branch]
         c['case_facts']={
-            'innocent':{'cleared_by':row['id'],'evidence_discovery':row['clearance']['discovery'],'actual_interval':[39,45]},
+            'innocent':{'cleared_by':row['id'],'evidence_report':row['clearance']['report'],'actual_interval':[39,45]},
             'murderer':{'cleared_by':None,'actual_poisoning_interval':[40,44]}}
     return characters

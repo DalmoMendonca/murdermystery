@@ -7,21 +7,76 @@
   {
     "id": "F2",
     "title": "An evening of unfinished business",
-    "text": "Grant’s papers concern a naming agreement, disputed objects, unpaid invoices, a trust and threats to careers. The warning note, suppressed reports, altered records and camera shutdown require investigation too. Preparation linen and the cabinet key were available to all registered gala guests; access alone does not identify a poisoner. Separate wrongdoing can explain why a guest conceals an activity. Compare what people say with the actual records before deciding which secret concerns the death."
+    "text": "Preparation linen was stocked in the shared supply room. The conservation cabinet key was available during gala setup. Grant’s naming agreement, outstanding invoices, trust amendments and disputed accession papers were found among his gala documents."
   },
   {
     "id": "F3",
     "title": "Private service / movement statement",
-    "text": "The salon camera was disconnected on Grant’s signed order. The glass arrived clean at 6:40. At 6:44 staff closed a transparent dome and watched its numbered seal continuously until the 6:46 pour; they then watched the glass until 6:49. No substance or substituted glass passed that protection. The contamination window is 6:40–6:44. Other rooms’ raw recordings, fixed-line transcripts and access logs have been recovered with the sixteen discoveries. Their clocks and continuous intervals are being authenticated. A timestamp alone does not place its owner at a device."
+    "text": "The Donor Salon camera was disconnected on Grant’s signed order. Staff delivered the clean coupe at 6:40 and sealed its transparent service dome at 6:44. The numbered seal was watched until the 6:46 pour. The glass remained in view through the 6:49 toast. The service log records no substituted glass or broken seal."
   },
   {
     "id": "F4",
-    "title": "Recovered records / what they establish",
-    "text": "Recovered sources are continuous, live and uncut; originals are preserved. The extracts certify occupied intervals and source integrity, but withhold identities and private contents. They do not certify who used a device. Match each guest’s account to the source: inside versus outside, live versus playback, fixed versus mobile. Wide films include exits; enclosure logs confirm locked rooms. Fixed-call terminals are ninety seconds each way from the salon, with no gap exceeding eighteen seconds. Portable props, automatic clips and shutter times alone prove no presence. The installation curtain locked at 6:38; the old cabinet was never installed."
+    "title": "Installation inspection / S-2",
+    "text": "The mounting alert closed the Star Bowl alcove at 6:38. The curtain remained locked until 7:00. The installed plinth has no sliding-glass cabinet; the cabinet appears only in the superseded proposal. The gallery outside the curtain remained open.",
+    "archive": {
+      "security_interval": "6:39–6:45",
+      "brass_interval": "6:49–6:55",
+      "groups": [
+        {
+          "title": "Telephone circuits",
+          "sources": [
+            "Boardroom speakerphone",
+            "Bid booth",
+            "Legal office",
+            "Translation booth",
+            "Valuation booth",
+            "Archive-office radio line"
+          ],
+          "findings": "Fixed circuits; forwarding disabled. Live two-way audio throughout the inspected interval. Longest silence: 18 seconds. Each terminal is at least 90 seconds on foot from the Donor Salon."
+        },
+        {
+          "title": "Access-control logs",
+          "sources": [
+            "Registrar vault",
+            "Research cage",
+            "Freight lift",
+            "Object-study room"
+          ],
+          "findings": "Occupied throughout the inspected interval. Doors closed; no secondary exit. Freight cabin stranded between floors. Object-study service panels retain three blue seals. Interior recordings show no interruption."
+        },
+        {
+          "title": "Audio and video archive",
+          "sources": [
+            "Cash office",
+            "Conservation booth",
+            "Performance platform",
+            "Arts-channel studio",
+            "Library broadcast room",
+            "Board annex",
+            "North checkpoint",
+            "Press booth",
+            "Lighting rig",
+            "Technology stand",
+            "Oral-history room",
+            "Textile stand",
+            "Load-test platform",
+            "Style desk",
+            "Podcast balcony",
+            "Kitchen pass",
+            "School-link room",
+            "Portrait station",
+            "Return desk",
+            "Show desk"
+          ],
+          "findings": "Original live recordings; no splice, loop or gap in the inspected interval. Wide frames include occupants and exits. Technology glove telemetry and show-desk manual-contact logs agree with their room recordings."
+        }
+      ],
+      "note": "Participant identities and private conversation contents are redacted from this technical inspection. Automatic presentation files and still-photo timestamps are separate archive items."
+    }
   },
   {
     "id": "F5",
     "title": "Two clocks / a contaminated coupe",
-    "text": "Museum linen carried the toxin onto the empty coupe. Shared key and linen access cannot identify its user. SECURITY-labelled records use synchronized time. BRASS-labelled overlays inherit the decorative gallery clock’s ten-minute error: 6:49–6:55 on those exports is 6:39–6:45 in real security time. The physical clock was not corrected before the gala. Compare the corrected interval, exact activity and recording source with each guest’s three statements. A genuine explanation can disclose misconduct while accounting for the contamination window. A denial or an unrelated timestamp does not do that."
+    "text": "The linen sample and residue inside the coupe contain the same botanical toxin as the missing conservation reference sample. SECURITY timestamps are synchronized. BRASS overlays use the decorative gallery clock, recorded ten minutes fast. At SECURITY 6:39, the gallery clock displayed 6:49. Its setting remained unchanged throughout the gala."
   }
 ]

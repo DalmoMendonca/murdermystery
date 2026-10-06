@@ -22,23 +22,18 @@ def build_evidence(b):
     docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
     s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf','Museum discovery documents')
     for i,d in enumerate(docs):
-        s.header('DISCOVERY '+str(d['number'])+' / Fold for its numbered envelope',True)
-        y=s.block(d['department'],42,104,528,14,'BookBold',b.RED)+8
-        y=s.block(d['title'],42,y,528,28,'BookBold')+13
+        s.header('DISCOVERY '+str(d['number']),True)
+        y=s.block(d['department'],42,110,528,16,'BookBold',b.RED)+12
+        y=s.block(d['title'],42,y,528,32,'BookBold')+24
         if d.get('photo'):
-            s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),42,y,528,116)
-            s.rect(42,y,528,116,stroke=b.GOLD);y+=128
+            s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),42,y,528,245)
+            s.rect(42,y,528,245,stroke=b.GOLD);y+=265
         for row in d.get('rows',[]):
-            a=s.block(row[0],42,y,170,14,'BookBold');z=s.block(row[1],226,y,344,14);y=max(a,z)+6
-        for t in d.get('paragraphs',[]):y=s.block(t,42,y,528,14)+8
-        if d.get('annotation'):y=s.block(d['annotation'],42,y+2,528,14,'BookItalic',b.RED)+8
-        if d.get('records'):
-            s.line(42,y+3,570,y+3)
-            y=s.block('Authenticated source extracts',42,y+14,528,18,'BookBold',b.RED)+8
-            for record in d['records']:
-                y=s.block(record['text'],42,y,528,14,bottom=715)+12
-        if d.get('stamp'):s.block(d['stamp'],42,max(y+5,701),528,12,'BookBold',b.RED,bottom=730)
-        s.footer('Discovery '+str(d['number'])+' / Original exhibit and authenticated source extracts')
+            a=s.block(row[0],42,y,170,17,'BookBold');z=s.block(row[1],226,y,344,17);y=max(a,z)+10
+        for t in d.get('paragraphs',[]):y=s.block(t,42,y,528,24 if d['number']==3 else 18,'BookItalic' if d['number']==3 else 'Book')+14
+        if d.get('annotation'):y=s.block(d['annotation'],42,y+12,528,17,'BookItalic',b.RED)+14
+        if d.get('stamp'):s.block(d['stamp'],42,y+16,528,14,'BookBold',b.RED,bottom=730)
+        s.footer('The Meridian Museum / Discovery '+str(d['number']))
         if i+1<len(docs):s.next()
     s.save()
     reports=json.loads((b.ROOT/'source/investigation.json').read_text(encoding='utf-8'))
@@ -48,7 +43,7 @@ def build_evidence(b):
     for report in reports:
         key=report['id'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Reports'/(key+'.pdf'),report['title']);s.header(departments[key])
         y=s.block(report['title'],42,105,528,30,'BookBold',b.TEAL)+15
-        y=s.block('CASE: MERIDIAN / 30 OCT 2026 / '+key,42,y,528,14,'BookBold')+17
+        y=s.block('CASE: MERIDIAN / OCT 30, 2026 / '+key,42,y,528,14,'BookBold')+17
         if key in photos:
             ph=180 if key=='F4' else 225
             s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,ph)
@@ -74,6 +69,17 @@ def build_evidence(b):
         y=s.block('Certified findings',42,y,528,18,'BookBold',b.TEAL)+8
         y=s.block(report['text'],42,y,528,14)+20
         if y<=715:s.line(42,y,570,y)
-        s.footer(key+' / Read aloud and display at the host’s announced release');s.save();paths.append(s.path)
+        s.footer(key+' / Read aloud and display at the host’s announced release')
+        if report.get('archive'):
+            archive=report['archive'];s.next();s.header('MERIDIAN / AV SYSTEMS INSPECTION')
+            y=s.block('Recording archive / technical log',42,105,528,28,'BookBold',b.TEAL)+17
+            y=s.block('Inspected interval: '+archive['security_interval']+' SECURITY\nOverlay interval: '+archive['brass_interval']+' BRASS',42,y,528,16,'BookBold')+18
+            for group in archive['groups']:
+                y=s.block(group['title'],42,y,528,18,'BookBold',b.TEAL)+7
+                y=s.block(' • '.join(group['sources']),42,y,528,14)+8
+                y=s.block(group['findings'],42,y,528,15)+13
+            s.block(archive['note'],42,y,528,14,'BookItalic',bottom=730)
+            s.footer('F4 / AV systems inspection / 2 of 2')
+        s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/Forensic_Reports.pdf')
     b.merge([b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf']+paths,b.KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf')

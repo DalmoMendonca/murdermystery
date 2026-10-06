@@ -15,17 +15,20 @@ def check_testimony():
     endings=[c['private']['final_'+b] for c in characters for b in ['innocent','murderer']]
     assert len(endings)==len(set(endings))==60
     catalog={d['number']:d for d in docs}
-    assert len(catalog)==16 and sum(len(d['records']) for d in docs)==30
+    assert len(catalog)==16 and not any(d.get('records') for d in docs)
+    reports=json.loads((ROOT/'source/investigation.json').read_text(encoding='utf-8'))
+    archive=next(r for r in reports if r['id']=='F4')['archive']
+    sources={s for g in archive['groups'] for s in g['sources']}
+    assert len(sources)==30
     audit=[]
     for c in characters:
         row=rows[c['id']];proof=row['clearance'];base={'motive':'motive','opportunity':'where','method':'evidence'}[proof['round']]
-        text=c['hearing'][base+'_innocent'];record=proof['record']
+        text=c['hearing'][base+'_innocent']
         assert proof['anchor'].casefold() in text.casefold(),(c['name'],'clearing detail missing from designated innocent round')
-        assert any(r['text']==record for r in catalog[proof['discovery']]['records']),c['name']
-        assert proof['anchor'].casefold() in record.casefold(),c['name']
-        stamps=[int(n) for n in re.findall(r'6:(\d\d)',record)]
-        assert len(stamps)>=2,(c['name'],'missing record interval')
-        offset=10 if 'BRASS' in record else 0
+        assert proof['report']=='F4' and proof['source'] in sources,c['name']
+        stamps=proof['interval']
+        assert archive['brass_interval' if proof['clock']=='BRASS' else 'security_interval']==f'6:{stamps[0]:02}–6:{stamps[1]:02}'
+        offset=10 if proof['clock']=='BRASS' else 0
         start,end=stamps[0]-offset,stamps[1]-offset
         assert start<=40 and end>=44,(c['name'],'record does not cover contamination')
         # A murderer may mention the same prop, but must not assert its valid
@@ -38,7 +41,7 @@ def check_testimony():
             spoken=' '.join(c['hearing'][k+'_'+b] for k in ['motive','where','evidence'])
             assert row['suspicion'].casefold() in spoken.casefold(),(c['name'],'suspicious disclosure absent',b)
             assert not any(phrase in spoken.casefold() for phrase in ['i poisoned','i killed him','i wiped grant’s coupe','i took the toxin','i coated his coupe']),c['name']
-        audit.append({'character':c['name'],'round':proof['round'],'discovery':proof['discovery'],'anchor':proof['anchor'],'record_interval_security':[start,end],'suspicion':row['suspicion'],'valid_innocent_clearance':True,'valid_murderer_clearance':False})
+        audit.append({'character':c['name'],'round':proof['round'],'report':'F4','source':proof['source'],'anchor':proof['anchor'],'record_interval_security':[start,end],'suspicion':row['suspicion'],'valid_innocent_clearance':True,'valid_murderer_clearance':False})
     active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
     cases=0
     for killer in characters:
@@ -53,7 +56,7 @@ def check_testimony():
                 facts=c['case_facts']['murderer' if c['id']==killer['id'] else 'innocent']
                 if facts['cleared_by'] is None:unresolved.append(c['id'])
                 else:
-                    assert facts['cleared_by']==c['id'] and facts['evidence_discovery'] in catalog
+                    assert facts['cleared_by']==c['id'] and facts['evidence_report']=='F4'
                     assert facts['actual_interval'][0]<=40 and facts['actual_interval'][1]>=44
             assert unresolved==[killer['id']]
             cases+=1
