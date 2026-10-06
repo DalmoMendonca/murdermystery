@@ -202,22 +202,14 @@ def packets(chars,b):
             pagehead(s,b,c,{'motive':'ACT I: MOTIVE','opportunity':'ACT II: OPPORTUNITY','method':'ACT III: METHOD'}[key])
             y=s.block('Your answer',42,109,528,27,'BookBold',b.TEAL)+12
             y=s.block('Read only the bordered words when asked. Keep your packet facing you. After answering, ask an unheard guest their question from the previous page.',42,y,528,14)+18
-            if key in ['motive','method']:
-                y=speech(s,'EVERYONE / READ ALOUD',h['motive'] if key=='motive' else h['evidence_innocent'],y,b,16)
-            else:
-                words=[h[('where_' if key=='opportunity' else 'evidence_')+branch] for branch in ['innocent','murderer']]
-                total=sum(b.para(t,492,16)[1]+61 for t in words)
-                size=16 if y+total<=675 else 15
-                assert y+sum(b.para(t,492,size)[1]+61 for t in words)<=675,c['name']
-                for branch,t in zip(['innocent','murderer'],words):y=speech(s,'IF '+branch.upper(),t,y,b,size)+6
+            base={'motive':'motive','opportunity':'where','method':'evidence'}[key]
+            words=[h[base+'_'+branch] for branch in ['innocent','murderer']]
+            size=next((size for size in [16,15] if y+sum(b.para(t,492,size)[1]+61 for t in words)<=659),None)
+            assert size,(c['name'],key,'Speaking boxes must fit at15pt or larger')
+            for branch,t in zip(['innocent','murderer'],words):y=speech(s,'IF '+branch.upper(),t,y,b,size)+6
             # No evidence checklist, no three-column grid, no scripted direction toward selected clues.
             if key=='method':
-                docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
-                y=s.block('Evidence Table / discovery index',42,y+13,528,18,'BookBold',b.TEAL,bottom=675)+9
-                base=y
-                for half in range(2):
-                    x=42+276*half;z=base
-                    for d in docs[half*8:half*8+8]:z=s.block(f'{d["number"]}. {d["title"]}',x,z,252,14,bottom=675)+5
+                if y<620:s.block('The sixteen discoveries and five reports remain at the Evidence Table.',42,y+13,528,14,'BookItalic',bottom=675)
             elif y<580:
                 s.block('You can ask someone to repeat a detail. Discuss your suspicions after everyone has answered.',42,y+18,528,16,'BookItalic',bottom=675)
             pagefoot(s,b);s.next()
@@ -233,7 +225,7 @@ def packets(chars,b):
         y=s.block('The last word',42,109,528,27,'BookBold',b.TEAL)+13
         y=s.block('Read only when the host calls you. Top three suspects read first. If none confesses, the host calls the selected animal to stand. Use your own role’s box; keep every other word private.',42,y,528,14)+16
         for branch in ['innocent','murderer']:
-            y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,14)+6
+            y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,15)+6
         pagefoot(s,b,False,'Every selected suspect gets their final word.');s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf')
     (b.WORK/'packet_relationship_fit.json').write_text(json.dumps(relationship_report,indent=2),encoding='utf-8')

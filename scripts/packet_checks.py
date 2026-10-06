@@ -30,7 +30,7 @@ def check():
         targets=[n for g in rd['groups'] for n in g['targets']]
         assert len(targets)==len(set(targets))==30 and set(targets)==names
         for group in rd['groups']:
-            key={'motive':'motive','opportunity':'where_innocent','method':'evidence_innocent'}[rd['key']]
+            key={'motive':'motive_innocent','opportunity':'where_innocent','method':'evidence_innocent'}[rd['key']]
             assert len({c['hearing'][key] for c in chars if c['name'] in group['targets']})==3
     phases={2:'INTRODUCTIONS',3:'INTRODUCTIONS',4:'HUNT FOR CLUES',5:'ACT I: MOTIVE',6:'ACT I: MOTIVE',7:'ACT II: OPPORTUNITY',8:'ACT II: OPPORTUNITY',9:'ACT III: METHOD',10:'ACT III: METHOD',11:'ACCUSATIONS',12:'COMING CLEAN'}
     for c,profile in zip(chars,profiles):
@@ -66,10 +66,17 @@ def check():
                 qt=norm(texts[expected[rd['key']+'_questions'][0]-1])
                 for g in rd['groups']:assert norm(g['question']) in qt and all(norm(n) in qt for n in g['targets'])
             for val in [c['private']['history'],c['private']['secret'],*c['hearing'].values()]:assert norm(val) in norm(alltext),(c['name'],val)
-            assert c['hearing']['evidence_innocent']==c['hearing']['evidence_murderer']
+            for base in ['motive','where','evidence']:assert c['hearing'][base+'_innocent']!=c['hearing'][base+'_murderer']
             for branch in ['innocent','murderer']:assert norm(c['private']['final_'+branch]) in norm(texts[11])
+            final_spans=[s for block in d[11].get_text('dict')['blocks'] if 'lines' in block for line in block['lines'] for s in line['spans'] if s['bbox'][0]>=59 and 160<=s['bbox'][1]<675]
+            assert final_spans and min(s['size'] for s in final_spans)>=14.9, (c['name'],'Coming Clean reading type below15pt')
             assert 'Your ballot' in texts[10] and 'COMING CLEAN' in texts[11] and 'give only the ballot' in texts[10]
-            assert 'IF INNOCENT' in texts[7] and 'IF MURDERER' in texts[7]
+            for n in [5,7,9]:
+                assert texts[n].count('IF INNOCENT')==texts[n].count('IF MURDERER')==1
+                assert 'EVERYONE / READ ALOUD' not in texts[n]
+                spans=[s for block in d[n].get_text('dict')['blocks'] if 'lines' in block for line in block['lines'] for s in line['spans']]
+                spoken_spans=[s for s in spans if s['bbox'][0]>=59 and 210<=s['bbox'][1]<675]
+                assert spoken_spans and min(s['size'] for s in spoken_spans)>=14.9
             before='\n'.join(texts[:11]).lower()
             assert not any(x in before for x in ['i poisoned','i stole the toxin','you poisoned','you dampened','i dampened','i decided he would not'])
             assert norm(c['private']['final_murderer']) not in norm(before)
@@ -83,19 +90,8 @@ def check():
         assert 'WHAT YOU ALREADY KNOW' not in public and 'OPTIONAL QUIPS' not in public
         with Image.open(KIT/'OPEN_FREELY/PreParty_Individual'/f'{c["slug"]}.jpg') as im:assert im.size==(1224,1584)
     assert len(set(pixels))==90
-    assert {c['name'] for c in chars if c['case_facts']['innocent']['false_alibi']}==set(case['innocent_false_alibis'])
-    assert {c['name'] for c in chars if c['case_facts']['innocent']['fabricated_installation']}==set(case['innocent_fabricated_early_errands'])
-    cases=0
-    for killer in range(30):
-        for present in [list(range(30)),sorted(set(range(15))|{killer}),[i for i in range(30) if i==killer or i%3!=killer%3],[i for i in range(30) if i==killer or i%2!=killer%2]]:
-            rows={i:chars[i]['case_facts']['murderer' if i==killer else 'innocent'] for i in present}
-            assert [i for i,f in rows.items() if f['false_alibi'] and f['fabricated_installation']]==[killer]
-            assert all(f['access_to_setup_supplies'] for f in rows.values())
-            if len(present)==30:
-                assert sum(f['false_alibi'] for i,f in rows.items() if i!=killer)>=7
-                assert sum(f['fabricated_installation'] for i,f in rows.items() if i!=killer)>=7
-            assert chars[killer]['case_facts']['murderer']['actual_poisoning_interval']==case['poisoning_interval']
-            cases+=1
+    from check_testimony import check_testimony
+    cases=check_testimony()
     with fitz.open(KIT/'OPEN_FREELY/09_Host_Safe_Name_Cards.pdf') as d:
         assert len(d)==30
         for c,p in zip(chars,d):
@@ -115,6 +111,9 @@ def check():
     guidepath=KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'
     with fitz.open(guidepath) as d:assert len(d)==15
     guide=printed(guidepath)
+    assert norm('Before Act I: Motive') in norm(guide) and norm('Never redraw between rounds') in norm(guide)
+    assert 'After Act I' not in guide
+    assert 'after Motive' not in guide and 'After Motive' not in guide
     assert 'closed return box' in guide and 'top three' in guide and 'alphabetically' in guide
     for x in hunt['locations']:assert norm(x['location']) in norm(guide)
     obsolete=['kept animal slip','ANIMAL NOT CALLED','ANIMAL CALLED','continuous alibi','seating pair','seat-order','next seated','question catalog','Card A','Card B','FINALE envelope','selected receipt','optional bowl']
@@ -125,9 +124,9 @@ def check():
         assert not any(x in t for x in ['Sterling Voss','Pryce','VOSS COLLECTION','â€'])
     for rel in ['PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf','OPEN_FREELY/11_Questions_and_Notes.pdf','PRINT_WITHOUT_READING/Finale_Individual']:assert not (KIT/rel).exists(),rel
     for report in load('investigation.json'):assert norm(report['text']) in norm(printed(KIT/'PRINT_WITHOUT_READING/Reports'/(report['id']+'.pdf')))
-    with fitz.open(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf') as d:assert len(d)==8
+    with fitz.open(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf') as d:assert len(d)==16
     assert norm(GAME['address']) in norm(printed(KIT/'OPEN_FREELY/06_Invitation_and_Arrival_Guide.pdf'))
     for name in ['The_Last_Acquisition_Complete_Kit.zip','The_Last_Acquisition_Source.zip']:
         with zipfile.ZipFile(SITE/'downloads'/name) as z:assert not z.testzip() and not any(n.lower().endswith(('.ttf','.otf','.woff','.woff2')) for n in z.namelist())
     (ROOT/'build/mechanics-check.json').write_text(json.dumps({'cases':cases,'shared_question_groups':30,'working_murderer_branches':30,'packet_pages':12,'unique_hunt_hints':90,'tent_sheets':30,'passed':True,'human_difficulty_test':False},indent=2),encoding='utf-8')
-    print('Passed 30 twelve-page packets, 30 question groups, 90 unique hunt hints, 120 culprit/attendance cases, 30 two-sided tents and all report facts.')
+    print(f'Passed 30 twelve-page packets, 30 question groups, 90 unique hunt hints, {cases} culprit/attendance cases, 30 two-sided tents and all report facts.')

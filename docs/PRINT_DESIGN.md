@@ -12,6 +12,8 @@ colors:
 typography:
   body: {fontFamily: "Libron", fontSize: "14pt", fontWeight: 400, lineHeight: 1.25}
   read-aloud: {fontFamily: "Libron", fontSize: "16pt", fontWeight: 400, lineHeight: 1.25}
+  hearing-speech: {fontFamily: "Libron", fontSize: "measured 16 or 15pt", fontWeight: 400, lineHeight: 1.25}
+  coming-clean: {fontFamily: "Libron", fontSize: "15pt", fontWeight: 400, lineHeight: 1.25}
   poster-body: {fontFamily: "Libron", fontSize: "measured 17, 16.5 or 16pt", fontWeight: 400, lineHeight: 1.2}
   poster-name: {fontFamily: "Libron", fontSize: "largest fitting integer 28–43pt", fontWeight: 700, lineHeight: 1.2}
   cover-event: {fontFamily: "Libron", fontSize: "34pt", fontWeight: 700, lineHeight: 1.2}
@@ -25,10 +27,9 @@ spacing:
   page-margin: "42pt"
   cover-margin: "48pt"
   speech-inset: "18pt"
-  discovery-inset: "16pt"
 components:
   speech-box: {backgroundColor: "{colors.pale}", textColor: "{colors.ink}", width: "528pt"}
-  discovery-card: {backgroundColor: "{colors.paper}", textColor: "{colors.ink}", width: "528pt", height: "302pt", padding: "16pt"}
+  discovery-exhibit: {backgroundColor: "{colors.paper}", textColor: "{colors.ink}", width: "528pt"}
   stop-panel: {backgroundColor: "{colors.pale}", textColor: "{colors.burgundy}", width: "528pt", height: "61pt"}
   tent-face: {backgroundColor: "{colors.paper}", textColor: "{colors.ink}", width: "612pt", height: "288pt"}
 ---
@@ -65,11 +66,13 @@ Libron Regular, Bold, Italic and BoldItalic are embedded as `Book`, `BookBold`, 
 
 Canvas paragraphs use 1.25 leading; manuals use 14/18 pt narrative and 20/24 pt headings. Character sheets measure content and choose 17, 16.5 or 16 pt narrative with 1.2 leading, names at the largest fitting integer from 28–43 pt, 17 pt italic roles and 15 pt section labels. Acting Tips have the same wide measure and narrative size as the relationships below the portrait.
 
-Packets use 16 pt round markers, 14 pt running names and 27 pt section titles. Covers use a 34 pt bold event title, 23 pt italic subtitle and 36 pt bold character name, each with 1.2 leading and centered alignment. Introductions, histories and Motive/Method speaking boxes use 16 pt. Opportunity boxes use 16 pt, or 15 pt when measured content requires it. Coming Clean uses 14 pt. All ten questions and named targets fit on one page at 14 pt. Hunt hints use 19 pt italic. Auxiliary metadata uses 12 pt.
+Packets use 16 pt round markers, 14 pt running names and 27 pt section titles. Covers use a 34 pt bold event title, 23 pt italic subtitle and 36 pt bold character name, each with 1.2 leading and centered alignment. Introductions and histories use 16 pt. Each hearing page uses the same measured size for both speaking branches: 16 pt, or 15 pt when the paired content requires it. Coming Clean uses 15 pt for both statements. All ten questions and named targets fit on one page at 14 pt. Hunt hints use 19 pt italic. Auxiliary metadata uses 12 pt.
 
-Tent cards fit given-name lines up to 64 pt and surnames up to 76 pt in a 365 pt measure; italic roles choose quarter-point sizes from 16–52 pt to fit at most two lines and 65 pt height. Discovery narratives and fields use 14 pt, titles 22 pt and stamps 12 pt. Room signs retain 48 pt names.
+Tent cards fit given-name lines up to 64 pt and surnames up to 76 pt in a 365 pt measure; italic roles choose quarter-point sizes from 16–52 pt to fit at most two lines and 65 pt height. Full-page discovery narratives, departments, fields and authenticated extracts use 14 pt, titles 28 pt, extract headings 18 pt and stamps 12 pt. Room signs retain 48 pt names.
 
 **The Reading Floor Rule.** Preserve at least 14 pt narrative. Reflow or edit content before reducing type. Twelve-point metadata is not a substitute for readable narrative.
+
+**The Spoken Floor Rule.** Hearing speeches and Coming Clean stay at least 15 pt. On each hearing page, both branches receive the same type size, measure, inset and border treatment; their heights follow their measured text.
 
 ## Layout
 
@@ -89,9 +92,9 @@ The authoritative twelve-page map is `source/game.json`:
 | 2 | INTRODUCTIONS: identity, highlighted relationships, acting tips, spoken introduction |
 | 3 | INTRODUCTIONS: private background and conversations |
 | 4 | HUNT FOR CLUES: three cryptic hints |
-| 5–6 | ACT I: MOTIVE: one question page, common answer |
-| 7–8 | ACT II: OPPORTUNITY: one question page, role answers |
-| 9–10 | ACT III: METHOD: one question page, common answer and discovery index |
+| 5–6 | ACT I: MOTIVE: one question page, IF INNOCENT / IF MURDERER answers |
+| 7–8 | ACT II: OPPORTUNITY: one question page, IF INNOCENT / IF MURDERER answers |
+| 9–10 | ACT III: METHOD: one question page, IF INNOCENT / IF MURDERER answers; no discovery index |
 | 11 | ACCUSATIONS: loose ballot |
 | 12 | COMING CLEAN: retained role statements |
 
@@ -103,7 +106,7 @@ Round markers start at (42,30), running names y=62 and black divider y=89, with 
 
 Stop panels occupy (42,686,528,61). A burgundy octagon centered at (66,716), radius 20 pt, reinforces the 14 pt message at (96,700): **“STOP! Do not turn the page yet. Wait for the host to announce the next round.”** Bottom footers number packet pages. Within-round transitions instead give explicit continuation instructions.
 
-Discoveries are two 528 × 302 pt records at (42,104)/(42,422), with 496 × 116 pt photo slots. F1/F5 report photos use 528 × 225 pt, F4 uses 528 × 180 pt, and F3 includes a 528 × 135 pt floor diagram.
+Discoveries are sixteen full-page Letter exhibits, one per numbered envelope, with no cutting or dashed cut border. The active `build_evidence()` renderer starts each department at (42,104) in the 528 pt measure, then flows the title, optional 528 × 116 pt photo, rows, paragraphs and annotation. Row labels span 170 pt at x=42; values span 344 pt at x=226. A full-width separator introduces the authenticated source extracts on the same page. Extract bodies must end by y=715; stamps sit at max(content_end+5,701) and end by y=730. The footer identifies the original exhibit and authenticated extracts. The obsolete half-sheet `draw_discovery()` helper is not invoked. F1/F5 report photos retain 528 × 225 pt, F4 retains 528 × 180 pt, and F3 retains a 528 × 135 pt floor diagram.
 
 Each tent uses the entire Letter sheet, with no cutting or outer border: two 612 × 288 pt faces and two 108 pt base flaps. Dotted fold guides sit at y=108/396/684. Rotate the upper face 180 degrees so both faces read upright when assembled. Names start x=42 in a 365 pt column, fitting each name line at the largest size allowed by its width and height. Titles fit in at most two lines within a 65 pt height; short titles can use larger type. Transparent avatars occupy a 145 × 249 pt slot at x=425. Overlap and tape the base flaps. Print single-sided at 100%.
 
@@ -127,11 +130,13 @@ Safe packet covers retain double gold borders and omit corner ornaments, keeping
 
 **Introduction.** Relationship names are bold/yellow, including unambiguous first-name aliases where used. Description, relationships and wide Acting Tips orient the guest. Only the bordered introduction is spoken. Private briefing follows separately. If a measured spoken introduction ends with a single word, the renderer joins only its final two words with a nonbreaking space and remeasures the box. Source words and punctuation stay unchanged; other speech content and body sizes are preserved.
 
-**Hearing.** Guests choose unanswered present characters by name; the host tracks turns. Role headings stay outside pale, burgundy-bordered spoken boxes. Innocent and murderer branches share identical styling. Motive and Method have common boxes; Opportunity and Coming Clean have IF INNOCENT/IF MURDERER boxes. There is no investigation grid, separate catalog or selected-clue checklist.
+**Hearing.** Guests choose unanswered present characters by name; the host tracks turns. All three hearing pages (6, 8 and 10) contain independently authored IF INNOCENT and IF MURDERER speeches. Role headings stay outside pale, burgundy-bordered spoken boxes. Both branches share identical styling and the same measured 16 or 15 pt size. Coming Clean uses the same paired-box pattern at 15 pt. Select and announce the eligible animal before Motive; retain that branch through all hearings and Coming Clean. There is no investigation grid, separate catalog, Method discovery index or selected-clue checklist.
 
 **Hunt.** Thirty pages each have three distinct cryptic hints from `source/hunt.json`, totaling ninety distinct texts across sixteen house locations. Findings go to the shared Evidence Table. Guests may request physical help; the host retrieves missing envelopes before hearings.
 
 **Museum evidence.** Sixteen original records and five staged reports mix agreements, notes, work orders, diagrams and photographs. Clock-comparison, actual-installation and obsolete-display images join the earlier evidence art; gilt framing is generated too. The old proposal and actual installation photograph carry distinct documentary contexts. These are evidence objects, not descriptions of imagined images.
+
+The discovery set integrates actual anonymous authenticated occupied-source extracts with its original exhibits on the same full pages. Extracts appear where provided by `source/discoveries.json`; discovery 14 is an original exhibit without an extract. Extracts certify source integrity, occupied intervals and operating constraints while withholding participant identities, personal biography and private contents. Original historical records may still name people; those names do not identify the anonymous occupant. A claimant supplies the personal connection through the selected testimony branch. Portable identifying props do not establish whereabouts. Fixed evidence asserts no character's personal alibi regardless of branch. Coming Clean resolves testimony after voting; it supplies no essential new proof.
 
 **Hosting.** Fifteen planned guide pages organize preparation, directories, memorized-animal selection, assembly, sixteen placements, agenda, announcements and finale. A separate three-page roster/tally tracks turns. Player books do not reduce the mystery to a three-column deduction grid.
 
@@ -140,6 +145,9 @@ Safe packet covers retain double gold borders and omit corner ornaments, keeping
 ## Do's and Don'ts
 
 - Do preserve the centered cover axis at x=306, safe cover, twelve-page order, loose ballot and retained finale.
+- Do give all three hearings equally styled branch boxes at 15 pt or larger, and Coming Clean statements at 15 pt.
+- Do select the animal before Motive and preserve the same branch through the finale.
+- Do keep each full-page discovery and its anonymous authenticated extracts together in one numbered envelope.
 - Do keep light printable PDFs and approved dark phone JPEGs separate.
 - Do preserve source words, all game mechanics, fonts and geometry during visual refinements.
 - Do keep relationship names bold/yellow and Acting Tips full width.
@@ -147,6 +155,8 @@ Safe packet covers retain double gold borders and omit corner ornaments, keeping
 - Do print one tent sheet per guest at 100%, with taped base flaps.
 - Do preserve the three spoiler-handling directories and immediately returned memorized-animal slips.
 - Don't reintroduce notes grids, A/B cards, external catalogs or separate finale files.
+- Don't restore common Motive/Method answers, the Method discovery index or half-sheet discovery cutting.
+- Don't turn anonymous occupied-source certification or portable props into fixed personal alibis.
 - Don't put private information on a face-up cover or shrink prose to hide overflow.
 - Don't distribute font binaries or organizer prompts to guests.
 - Don't apply dark phone backgrounds to printable reading areas.

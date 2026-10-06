@@ -1,3 +1,11 @@
+# Three branched hearings for every character — 2026-10-05
+
+- Rewrote all 30 characters with 180 distinct hearing speeches and 60 Coming Clean endings, preserving their public copy and portraits. Every route has personal misconduct; each innocent account has pre-vote source-linked clearance, while each murderer account leaves that connection unresolved.
+- Added organizer-editable `source/investigation_copy.yaml`; public copy remains separate. Updated 16 full-page discoveries, five reports and spoiler bible around fixed anonymous sources that do not reveal unconditional named alibis.
+- Moved animal selection before Motive, retained a stable branch through all three rounds, and enlarged all spoken hearing/finale copy to 15 pt or more.
+- Rendered 87 PDFs/978 page instances/538 distinct pages and completed independent semantic and visual reviews with final SHIP confirmations. Checked 150 configured culprit/attendance cases,150 draw/turn rehearsals and 450 finale outcomes. No new blind difficulty trial or physical print rehearsal was performed.
+- Preserved all 31 approved phone images and 240 unchanged packet page instances. Details and limits: `docs/THREE_ROUND_REVIEW.md`.
+
 # Light-paper museum print collection — 2026-10-05
 
 - Updated every printable PDF with black reading text, burgundy headings and speaking-box outlines, restrained antique-gold rules and white or pale paper backgrounds.

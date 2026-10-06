@@ -30,7 +30,7 @@ def prepare(output,seed):
             (dest/'hunt.txt').write_text(d[3].get_text()+'\nSHARED FINDS\n'+json.dumps(discoveries,ensure_ascii=False,indent=2),encoding='utf-8')
             for ri,rd in enumerate(rounds):
                 text=''
-                if ri==1:text=f'HOST: Selected animal {animals[culprit]}. Selected animal {animals[culprit]}. Keep the comparison private.\n'
+                if ri==0:text=f'HOST: Selected animal {animals[culprit]}. Selected animal {animals[culprit]}. Keep the comparison private.\n'
                 ids={'motive':['F1','F2'],'opportunity':['F3'],'method':['F4','F5']}[rd['key']]
                 text+='\nPUBLIC REPORTS\n'+'\n\n'.join(x['id']+' '+x['text'] for x in reports if x['id'] in ids)
                 pages=GAME['packet_pages'][rd['key']+'_questions']+[GAME['packet_pages'][rd['key']+'_answer']]
@@ -40,7 +40,7 @@ def prepare(output,seed):
                     guest=chars[j];asker=chars[orders[ri][pos-1]]
                     group=next(g for g in rd['groups'] if guest['name'] in g['targets'])
                     branch='murderer' if j==culprit else 'innocent'
-                    key={'motive':'motive','opportunity':'where_'+branch,'method':'evidence_'+branch}[rd['key']]
+                    key={'motive':'motive_'+branch,'opportunity':'where_'+branch,'method':'evidence_'+branch}[rd['key']]
                     speech=guest['hearing'][key]
                     text+=f'\n{asker["name"]} asks {guest["name"]}: {group["question"]}\n{guest["name"]}: {speech}\n'
                 (dest/f'{ri+2:02d}-{rd["key"]}.txt').write_text(text,encoding='utf-8')

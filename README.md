@@ -58,3 +58,9 @@ Archives use fixed entry timestamps, stable ordering and normalized text line en
 ## Agent table read
 
 Read the spoiler-safe `docs/PLAYTEST_SUMMARY.md`. The previous 15/15 solve result was an ease warning, not a difficulty success. New staged assessments and their limitations are recorded separately under `docs/playtest/2026-10-04-GALA-SPOILERS`. AI transcript accuracy is not a human party difficulty measurement. Historical editions are preserved under source/history and docs/history, not used by the build.
+
+## Editing private testimony
+
+`source/investigation_copy.yaml` is organizer-only source containing all thirty characters, their six hearing speeches, two Coming Clean endings, suspicious disclosure and linked clearance. Public descriptions and costumes remain independently editable in `source/character_copy.yaml`. Do not send either private source or full ZIPs to players. Rebuild after an edit, run `scripts/packet_checks.py` and `scripts/check_content.py`, then render with `scripts/verify.py` and inspect the affected pages before publishing. Spoken hearing and Coming Clean text uses at least 15pt.
+
+See `docs/THREE_ROUND_REVIEW.md` for the current rewrite audit and its difficulty limitations. Historical playtest results refer to earlier editions, not these rewritten speeches.

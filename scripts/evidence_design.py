@@ -21,11 +21,25 @@ def draw_discovery(s,d,top,b):
 def build_evidence(b):
     docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
     s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf','Museum discovery documents')
-    for start in range(0,len(docs),2):
-        s.header('PRINT WITHOUT READING / Cut at dashed borders',True)
-        for i,d in enumerate(docs[start:start+2]):draw_discovery(s,d,104+i*318,b)
-        s.footer('Hide discoveries by number / Photographs and records are game props')
-        if start+2<len(docs):s.next()
+    for i,d in enumerate(docs):
+        s.header('DISCOVERY '+str(d['number'])+' / Fold for its numbered envelope',True)
+        y=s.block(d['department'],42,104,528,14,'BookBold',b.RED)+8
+        y=s.block(d['title'],42,y,528,28,'BookBold')+13
+        if d.get('photo'):
+            s.image(b.ROOT/'assets/evidence'/(d['photo']+'.jpg'),42,y,528,116)
+            s.rect(42,y,528,116,stroke=b.GOLD);y+=128
+        for row in d.get('rows',[]):
+            a=s.block(row[0],42,y,170,14,'BookBold');z=s.block(row[1],226,y,344,14);y=max(a,z)+6
+        for t in d.get('paragraphs',[]):y=s.block(t,42,y,528,14)+8
+        if d.get('annotation'):y=s.block(d['annotation'],42,y+2,528,14,'BookItalic',b.RED)+8
+        if d.get('records'):
+            s.line(42,y+3,570,y+3)
+            y=s.block('Authenticated source extracts',42,y+14,528,18,'BookBold',b.RED)+8
+            for record in d['records']:
+                y=s.block(record['text'],42,y,528,14,bottom=715)+12
+        if d.get('stamp'):s.block(d['stamp'],42,max(y+5,701),528,12,'BookBold',b.RED,bottom=730)
+        s.footer('Discovery '+str(d['number'])+' / Original exhibit and authenticated source extracts')
+        if i+1<len(docs):s.next()
     s.save()
     reports=json.loads((b.ROOT/'source/investigation.json').read_text(encoding='utf-8'))
     photos={'F1':'silver_coupe','F4':'actual_installation','F5':'clock_comparison'}
@@ -52,13 +66,14 @@ def build_evidence(b):
             s.block('Balcony overlooks display',278,y+68,270,14)
             s.block('Donor Salon lies outside this gallery',63,y+110,487,12,'BookItalic')
             y+=152
-            for time,words in [('6:40','Empty coupe delivered to Donor Salon.'),('6:46','Cordial poured for the first time.'),('6:49','Grant drinks from his private coupe.')]:
+            for time,words in [('6:40','Clean empty coupe delivered to Donor Salon.'),('6:44','Service dome sealed and continuously watched.'),('6:46','Seal checked; cordial poured for the first time.'),('6:49','Grant drinks from his private coupe.')]:
                 y=s.block(time,42,y,105,18,'BookBold',b.TEAL);y=s.block(words,163,y-22.5,407,16)+18
         if key=='F4':
-            for time,words in [('6:37','S-2 / mounting alert received.'),('6:38','S-2 / curtain locked / interior sealed.'),('6:48','Old scheduled cue cancelled.'),('7:00','First reopening permitted.')]:
+            for time,words in [('6:37','S-2 / mounting alert received.'),('6:38','S-2 / curtain locked / interior sealed.'),('7:00','First reopening permitted.')]:
                 a=s.block(time,42,y,105,16,'BookBold',b.TEAL);z=s.block(words,163,y,407,16);y=max(a,z)+16
         y=s.block('Certified findings',42,y,528,18,'BookBold',b.TEAL)+8
         y=s.block(report['text'],42,y,528,14)+20
-        s.line(42,min(y,707),570,min(y,707));s.footer(key+' / Read aloud and display at the host’s announced release');s.save();paths.append(s.path)
+        if y<=715:s.line(42,y,570,y)
+        s.footer(key+' / Read aloud and display at the host’s announced release');s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/Forensic_Reports.pdf')
     b.merge([b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf']+paths,b.KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf')

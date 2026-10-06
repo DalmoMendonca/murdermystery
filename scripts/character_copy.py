@@ -1,4 +1,4 @@
-"""Apply editable, public character copy without changing private game branches."""
+"""Apply separate editable public copy and organizer-only investigation branches."""
 import json
 from pathlib import Path
 import yaml
@@ -44,7 +44,8 @@ def load_characters(root=ROOT):
             if field=='relationships' and c['id'] in active:
                 assert relationships, f'Add an active relationship for {c["name"]}'
             c['preparty'][field] = relationships
-    return characters
+    from investigation_copy import apply_investigation
+    return apply_investigation(characters, root)
 
 if __name__ == '__main__':
     print(json.dumps(load_characters(), ensure_ascii=False))

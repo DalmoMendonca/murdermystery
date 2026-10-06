@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T01:15:26.841617+00:00",
-  "title": "Design System: The Last Acquisition — Print",
+  "generatedAt": "2026-10-06T03:56:22.541365+00:00",
+  "title": "Design System: The Last Acquisition â€” Print",
   "extensions": {
     "afterHoursPublic": {
       "sourceDocument": "docs/AFTER_HOURS_PUBLIC_DESIGN.md",
@@ -130,7 +130,7 @@
           42,
           528
         ],
-        "scale": "Letter-composition PDF intermediates rasterized at 2× for PHONE images; not printable download authority.",
+        "scale": "Letter-composition PDF intermediates rasterized at 2Ã— for PHONE images; not printable download authority.",
         "ruleWidth": 0.55,
         "portraitOutlineWidth": 0.7,
         "textBottomAssertion": 774,
@@ -331,7 +331,7 @@
         "purpose": "14 pt narrative floor; manuals use 18 pt leading."
       },
       "read-aloud": {
-        "purpose": "16 pt introductions, Motive and Method; Opportunity 16 or measured 15; Coming Clean 14."
+        "purpose": "16 pt introductions; hearing speeches use paired measured 16 or 15 pt; Coming Clean 15 pt."
       },
       "poster-body": {
         "purpose": "Measured 17, 16.5 or 16 pt, 1.2 leading; full-width relationships and Acting Tips."
@@ -344,6 +344,12 @@
       },
       "cover-subtitle": {
         "purpose": "Centered 23 pt italic Dinner Party 2026 subtitle."
+      },
+      "hearing-speech": {
+        "purpose": "Both IF INNOCENT and IF MURDERER share 16 pt, falling back together to 15 pt when paired measured content requires it."
+      },
+      "coming-clean": {
+        "purpose": "Both Coming Clean statements use 15 pt."
       }
     },
     "shadows": [],
@@ -548,7 +554,23 @@
           "backgroundToken": "pale",
           "outlineToken": "burgundy",
           "branchStyling": "Identical innocent and murderer styling.",
-          "introductionTailBalance": "If measured final line has one word, join final two source words with NBSP and remeasure; source words and punctuation unchanged."
+          "introductionTailBalance": "If measured final line has one word, join final two source words with NBSP and remeasure; source words and punctuation unchanged.",
+          "hearingPages": [
+            6,
+            8,
+            10
+          ],
+          "hearingSizeCandidates": [
+            16,
+            15
+          ],
+          "hearingSizeSelection": "Largest candidate for which answer starting y plus sum(measured paragraph height + 61 pt per branch) is at most 659 pt; both branches share the chosen size.",
+          "labelSize": 16,
+          "labelAfterGap": 8,
+          "textTopInset": 11,
+          "branchAfterGap": 6,
+          "comingCleanSize": 15,
+          "heightEquality": "Equal styling, widths and text sizes; individual heights follow measured content."
         },
         "stop": {
           "rectangle": [
@@ -572,10 +594,15 @@
         },
         "assembly": "Leave ballot page 11 loose; staple remaining pages in order; retain Coming Clean.",
         "investigationNotes": false,
-        "methodReading": "Common EVERYONE speaking box; no preparation-record classifier.",
+        "methodReading": "IF INNOCENT / IF MURDERER speaking boxes; no discovery index, preparation-record classifier or selected-clue checklist.",
         "goldDivider": {
           "y": 92,
           "strokeWidth": 0.4
+        },
+        "branchSelection": {
+          "timing": "Before Motive",
+          "policy": "Select one eligible B animal, announce it twice, retain the same branch through all hearings and Coming Clean; never redraw between rounds.",
+          "source": "docs/GAME_FLOW.md"
         }
       },
       "hunt": {
@@ -613,7 +640,7 @@
         "surnameMaximumSize": 76,
         "givenNameColorToken": "ink",
         "surnameColorToken": "burgundy",
-        "roleSize": "Largest quarter-point size 16–52 fitting no more than two lines and 65 pt height",
+        "roleSize": "Largest quarter-point size 16â€“52 fitting no more than two lines and 65 pt height",
         "avatar": [
           425,
           18,
@@ -625,26 +652,63 @@
       },
       "discoveries": {
         "count": 16,
-        "pages": 8,
-        "perPage": 2,
-        "card": [
+        "pages": 16,
+        "perPage": 1,
+        "sheet": [
+          612,
+          792
+        ],
+        "cutting": false,
+        "cutBorder": false,
+        "department": [
+          42,
+          104,
           528,
-          302
+          14
         ],
-        "origins": [
-          [
-            42,
-            104
-          ],
-          [
-            42,
-            422
-          ]
-        ],
+        "titleSize": 28,
+        "contentX": 42,
+        "contentMeasure": 528,
         "photoSlot": [
-          496,
+          528,
           116
-        ]
+        ],
+        "photoAfterAdvance": 128,
+        "rowLabel": {
+          "x": 42,
+          "width": 170,
+          "size": 14
+        },
+        "rowValue": {
+          "x": 226,
+          "width": 344,
+          "size": 14
+        },
+        "rowAfterGap": 6,
+        "paragraphAfterGap": 8,
+        "sourceExtractHeading": {
+          "label": "Authenticated source extracts",
+          "size": 18,
+          "separatorWidth": 528,
+          "headingYOffset": 14,
+          "afterGap": 8
+        },
+        "sourceExtractBody": {
+          "size": 14,
+          "measure": 528,
+          "afterGap": 12,
+          "bottomLimit": 715
+        },
+        "stamp": {
+          "size": 12,
+          "top": "max(content_end + 5, 701)",
+          "bottomLimit": 730
+        },
+        "footer": "Discovery number / Original exhibit and authenticated source extracts",
+        "renderer": "scripts/evidence_design.py:build_evidence",
+        "legacyHelper": "draw_discovery is unused; its half-sheet and dashed-cut geometry is not the implemented discovery system.",
+        "authenticationContract": "Actual anonymous occupied-source extracts certify interval, integrity and operating constraints while withholding participant identity, biography and private content. Historical exhibit names do not identify anonymous occupants. Selected testimony supplies the personal connection; portable props or source certification alone assert no personal alibi.",
+        "sourceExtractPresence": "Inline on the original exhibit page where records are supplied; discovery 14 has no extract."
       },
       "reports": {
         "count": 5,
@@ -864,6 +928,15 @@
       },
       "phoneExportPolicy": "Light printable PDF build and dark PHONE PDF intermediates are separate; JPEG rasterization uses only phone intermediates.",
       "homepagePolicy": "No webpage changes authorized."
+    },
+    "threeRoundExtension": {
+      "brief": "docs/THREE_ROUND_BRIEF.md",
+      "scope": "Extension of the approved light-paper museum system. Existing cover, portrait/frame, phone-image, question-page, report and other geometry stays unchanged.",
+      "testimonySource": "source/investigation_copy.yaml",
+      "discoverySource": "source/discoveries.json",
+      "hearingBranches": "All three hearing pages contain IF INNOCENT / IF MURDERER boxes with equal visual priority.",
+      "finale": "Both Coming Clean statements use 15 pt; voting locks before page 12; no essential new proof appears in the finale.",
+      "proofLimit": "Logical consistency and model table reads do not measure human difficulty."
     }
   },
   "components": [
@@ -878,9 +951,9 @@
       "name": "Speech Box",
       "kind": "custom",
       "refersTo": "speech-box",
-      "description": "Role heading outside pale burgundy-bordered speaking text; identical styling for both branches.",
-      "html": "<section class=\"ds-speech\"><strong>IF INNOCENT</strong><div>Prepared Opportunity answer</div></section>",
-      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#191b1c;line-height:1.25}.ds-speech strong{display:block;font-size:16pt;color:#720f29;margin-bottom:8pt}.ds-speech div{border:.7pt solid #720f29;background:#faf4f1;padding:11pt 18pt;font-size:16pt}"
+      "description": "Equal branch styling on all three hearings (paired measured 16 or 15 pt); Coming Clean uses 15 pt. Heights follow measured text.",
+      "html": "<section class=\"ds-speech\"><strong>IF INNOCENT</strong><div>Prepared hearing answer</div><strong>IF MURDERER</strong><div>Alternate prepared hearing answer</div></section>",
+      "css": ".ds-speech{width:528pt;font-family:Libron,serif;color:#191b1c;line-height:1.25}.ds-speech strong{display:block;font-size:16pt;color:#720f29;margin:6pt 0 8pt}.ds-speech div{border:.7pt solid #720f29;background:#faf4f1;padding:11pt 18pt;font-size:16pt}"
     },
     {
       "name": "Relationship Highlight",
@@ -904,53 +977,63 @@
       "description": "Full-sheet two-sided tent face; black given name and burgundy surname, native transparent avatar omitted in schematic. Names fit to 365 pt; sizes vary.",
       "html": "<article class=\"ds-tent\"><strong>Artie</strong><b>Ficial</b><p>Executive Director of the Meridian Museum</p></article>",
       "css": ".ds-tent{width:612pt;height:288pt;background:#fff;font-family:Libron,serif;color:#191b1c}.ds-tent strong,.ds-tent b{display:block;margin-left:42pt;width:365pt}.ds-tent strong{padding-top:22pt;font-size:64pt;color:#191b1c}.ds-tent b{font-size:76pt;color:#720f29}.ds-tent p{width:365pt;font-size:16pt;margin:10pt 42pt}"
+    },
+    {
+      "name": "Full-page Discovery Exhibit",
+      "kind": "custom",
+      "refersTo": "discovery-exhibit",
+      "description": "One Letter page per envelope; original record and actual anonymous authenticated occupied-source extracts share a 528 pt reading measure. Schematic demonstrates typography and measure; production flow is content measured.",
+      "html": "<article class=\"ds-discovery\"><b>MERIDIAN / SOURCE DEPARTMENT</b><h2>Discovery exhibit</h2><p>Original documentary record.</p><hr><h3>Authenticated source extracts</h3><p>Occupied interval and source integrity certified; identity and private contents withheld.</p></article>",
+      "css": ".ds-discovery{width:528pt;color:#191b1c;background:#fff;font:14pt/1.25 Libron,serif}.ds-discovery>b{color:#720f29;font-size:14pt}.ds-discovery h2{font-size:28pt;margin:8pt 0 13pt}.ds-discovery h3{color:#720f29;font-size:18pt;margin:14pt 0 8pt}.ds-discovery p{margin:0 0 12pt}.ds-discovery hr{border:0;border-top:.6pt solid #191b1c}"
     }
   ],
   "narrative": {
     "northStar": "Museum Patron Folio",
-    "overview": "Museum gala stationery with white paper, near-black Libron reading text, burgundy headings, pale speaking/instruction panels and restrained gilt rules. Safe framed covers and self-contained player books retain content and geometry. Approved dark PHONE images remain separate; homepage remains independent.",
+    "overview": "The user chose an ornate professional museum gala and then requested the black/red After Hours accents across every printable asset, with light paper for comfortable reading. White stock, near-black reading text, burgundy headings and restrained gilt detail now unite invitations, character sheets, player packets, manuals, records, cut cards, room signs and certificates. Libron, all source words, game mechanics, page geometry and existing artwork remain.\n\nThis document extracts `scripts/print_identity.py`, `scripts/build.py`, `scripts/printable_v2.py`, `scripts/after_hours_print.py` and `scripts/evidence_design.py`. It governs printable PDFs. The approved dark phone invitation and thirty character JPEGs remain separately scoped in the sidecar's `afterHoursPublic` extension; their temporary build PDFs are image-export intermediates. The independent homepage remains governed by `docs/DESIGN.md`, with no webpage changes authorized by this print refinement.\n\nThe concept seed `ad4b8f59`, assigned index 5, records the earlier Museum Patron Folio direction. Reconstructed possibilities were gala invitation, exhibition catalogue, conservation dossier, artist salon, museum patron folio, accession ledger and exhibition wall label, not presented user choices. The October 5 light-paper direction supersedes the former teal print palette while retaining the folio geometry, Libron and ornate frames.",
     "keyCharacteristics": [
-      "White printable reading areas with black/burgundy/gold museum stationery",
-      "Safe face-up cover on a centered exhibition-poster axis",
-      "Twelve-page player books",
-      "Full-width acting tips",
-      "Bold yellow relationship names",
-      "Thirty one-sheet tents",
-      "Separate approved dark PHONE invitation and thirty character JPEGs"
+      "Safe face-up Picasso covers composed on a centered exhibition-poster axis, and twelve-page self-contained books.",
+      "Light single-page Van Gogh character PDFs with full-width Acting Tips; separate approved dark phone JPEGs.",
+      "Bold yellow relationship names and strong round boundaries.",
+      "Ninety distinct hunt hints, photographic evidence and freeform accusations.",
+      "Thirty full-sheet, two-sided tent cards with transparent avatars, black given names and burgundy surnames."
     ],
     "rules": [
       {
         "name": "The Reading Floor Rule",
-        "section": "typography",
-        "body": "Keep narrative at least 14 pt and substantial player reading larger; reflow or edit before shrinking."
+        "body": "Preserve at least 14 pt narrative. Reflow or edit content before reducing type. Twelve-point metadata is not a substitute for readable narrative.",
+        "section": "typography"
       },
       {
-        "name": "The Framed Composition Rule",
-        "section": "components",
-        "body": "Intentionally crop only the framed print composition; preserve full-resolution full-composition masters."
+        "name": "The Spoken Floor Rule",
+        "body": "Hearing speeches and Coming Clean stay at least 15 pt. On each hearing page, both branches receive the same type size, measure, inset and border treatment; their heights follow their measured text.",
+        "section": "typography"
       },
       {
         "name": "The Locked Ballot Rule",
-        "section": "components",
-        "body": "Lock all votes, call exactly three suspects, hear all three even after early confession, then use animal fallback only if none confesses."
+        "body": "Collect ballots and match attendance before Coming Clean. Rank attending names by votes, including zero; break ties alphabetically by full name. Exactly three suspects read their appropriate statements, all three even after an early confession. If none confesses, call the selected animal to read IF MURDERER.",
+        "section": "components"
       }
     ],
     "dos": [
-      "Do align cover event, portrait, character name and metadata to x=306.",
-      "Do preserve the safe cover and twelve-page order.",
-      "Do keep ballot page 11 loose and Coming Clean retained.",
-      "Do print single-sided at 100%.",
-      "Do preserve native avatar alpha and immediate animal-slip return.",
-      "Do keep printable PDFs light and dark PHONE exports separate.",
-      "Do preserve all source words, fonts, geometry, art identities and game mechanics."
+      "Do preserve the centered cover axis at x=306, safe cover, twelve-page order, loose ballot and retained finale.",
+      "Do give all three hearings equally styled branch boxes at 15 pt or larger, and Coming Clean statements at 15 pt.",
+      "Do select the animal before Motive and preserve the same branch through the finale.",
+      "Do keep each full-page discovery and its anonymous authenticated extracts together in one numbered envelope.",
+      "Do keep light printable PDFs and approved dark phone JPEGs separate.",
+      "Do preserve source words, all game mechanics, fonts and geometry during visual refinements.",
+      "Do keep relationship names bold/yellow and Acting Tips full width.",
+      "Do preserve readable narrative, distinct art identities and native avatar alpha.",
+      "Do print one tent sheet per guest at 100%, with taped base flaps.",
+      "Do preserve the three spoiler-handling directories and immediately returned memorized-animal slips."
     ],
     "donts": [
-      "Do not restore structured notes, external catalogs, letter cards or separate finales.",
-      "Do not put secrets on face-up covers.",
-      "Do not ship font binaries or private prompts to guests.",
-      "Do not apply ornate print styling to the independent homepage.",
-      "Do not restore the rejected left-aligned event title or corner crosshair ornaments on packet covers.",
-      "Do not reuse dark PHONE backgrounds for printable reading areas."
+      "Don't reintroduce notes grids, A/B cards, external catalogs or separate finale files.",
+      "Don't restore common Motive/Method answers, the Method discovery index or half-sheet discovery cutting.",
+      "Don't turn anonymous occupied-source certification or portable props into fixed personal alibis.",
+      "Don't put private information on a face-up cover or shrink prose to hide overflow.",
+      "Don't distribute font binaries or organizer prompts to guests.",
+      "Don't apply dark phone backgrounds to printable reading areas.",
+      "Don't replace the separate homepage identity with ornate print styling."
     ]
   }
 }

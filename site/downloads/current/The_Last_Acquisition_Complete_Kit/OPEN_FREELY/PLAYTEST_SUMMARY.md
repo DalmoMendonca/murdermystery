@@ -1,5 +1,7 @@
 # Playtest and changes — spoiler-safe
 
+**October 5 three-round rewrite:** every character now has separate innocent and murderer speeches in Motive, Opportunity and Method. The animal is selected before Motive and remains fixed. All thirty routes received independent semantic review and all regenerated PDFs received visual review. Automated draw, handoff, branch and finale checks passed. No new blind player trial has been run on these speeches; the scores below describe earlier editions and must not be presented as current difficulty measurements.
+
 The original 15/15 innocent solve rate and difficulty2/5 were a warning that the mystery was too transparent. That result is historical, not the current release's difficulty certification.
 
 The new case replaces the explicit three-clue elimination scheme with competing dishonest accounts, conflicting museum records and dated visual evidence. Innocent scandals can explain suspicious testimony. Source checks cover all thirty selected-role routes without printing a suspect matrix for players.
