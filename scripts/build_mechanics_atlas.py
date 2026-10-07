@@ -37,27 +37,27 @@ def head(title,sub,n):
  text('THE LAST ACQUISITION / ORGANIZER ONLY / SPOILERS',42,24,1100,14,'BookBold',RED)
  text(title,42,58,1140,30,'BookBold',RED);text(sub,42,103,1140,16)
  rule(136);rule(752)
- c.setFont('Book',12);c.drawString(42,27,'ORGANIZER ONLY / October 6, 2026');c.drawRightString(W-42,27,str(n)+' / 32')
+ c.setFont('Book',12);c.drawString(42,27,'ORGANIZER ONLY / October 7, 2026');c.drawRightString(W-42,27,str(n)+' / 32')
 
 head('The evening: what arrives, and when','Discoveries add context and suspicion. Official exhibits establish the crime facts before voting.',1)
-stages=[('ARRIVAL','Introduce yourselves. Memorize and return your animal slip.','A separate matching bowl selects only an attending guest. The branch stays fixed all evening.'),('HUNT FOR CLUES','Find, read and display all sixteen envelopes. The host supplies missed finds.','13: acquisition receipt. 14: conservator objection. 16: private toast schedule. Other finds expose scandals.'),('ACT I: MOTIVE','Release Evidence 1 (gift terms) and 2 (empty acquired bottle). Everyone answers.','The takeover gives many guests motives. The bottle has been opened; this does not identify who opened it.'),('ACT II: OPPORTUNITY','Release Evidence 3: the caterer’s photos and signed handling record.','The glass is wrapped until 6:40, unattended until 6:44, then sealed and watched. Earlier visits do not prove poisoning.'),('ACT III: METHOD','Release Evidence 4 (bottle access and room plan) and 5 (lab and material records).','Bottle accessible 6:20–6:28. West return slot does not reach it. Received embossing begins 6:45. Punch and food are clear.'),('ACCUSATIONS','Discuss, submit ballots, tally and lock votes.','All necessary facts are available now. Nobody needs a confession to solve the case.'),('COMING CLEAN','Hear the top three suspects. If none confesses, call the selected animal.','Endings connect existing facts and resolve other scandals; they introduce no essential new evidence.')]
+stages=[('ARRIVAL','Introduce yourselves. Memorize and return your animal slip.','A separate matching bowl selects only an attending guest. The branch stays fixed all evening.'),('HUNT FOR CLUES','Find, read and display all sixteen envelopes. The host supplies missed finds.','13: acquisition receipt. 14: conservator objection. 16: private toast schedule. Other finds expose scandals.'),('ACT I: MOTIVE','Release Evidence 1 (gift terms) and 2 (empty acquired bottle). Everyone answers.','The takeover gives many guests motives. The bottle has been opened; this does not identify who opened it.'),('ACT II: OPPORTUNITY','Release Evidence 3: the caterer’s photos and signed handling record.','The new donor glass is set at 6:32. Guests circulate while the server is in the kitchen. At 6:44 the glass goes onto the service tray.'),('ACT III: METHOD','Release Evidence 4 (bottle access and room plan) and 5 (lab and material records).','The bottle’s damaged band was hidden from a casual front view. Punch and food are clear. Inventory records disclose each guest’s own material.'),('ACCUSATIONS','Discuss, submit ballots, tally and lock votes.','All necessary facts are available now. Nobody needs a confession to solve the case.'),('COMING CLEAN','Hear the top three suspects. If none confesses, call the selected animal.','Endings connect existing facts and resolve other scandals; they introduce no essential new evidence.')]
 y=151
 for title,action,meaning in stages:
  text(title,42,y,185,15,'BookBold',RED)
  a=text(action,242,y,410,16);z=text(meaning,680,y,500,16)
  y=max(a,z)+15;rule(y-7)
 c.showPage()
-head('How evidence turns an account into a deduction','Both actions are necessary. An innocent account rules out at least one; a murderer account leaves both possible.',2)
+head('How evidence turns an account into a deduction','Two actions are necessary. Four late arrivals block source access. Twenty-six individual records supply context without complete alibis.',2)
 box(42,155,538,85);box(644,155,538,85)
 text('TAKE THE POISON',60,167,500,20,'BookBold',RED);text('Preparation shelf / 6:20–6:28 / Evidence 2 + 4',60,203,500,17)
-text('REACH INSIDE THE GLASS',662,167,500,20,'BookBold',RED);text('Donor Salon / 6:40–6:44 / Evidence 3 + 5',662,203,500,17)
+text('REACH INSIDE THE GLASS',662,167,500,20,'BookBold',RED);text('Donor Salon / 6:32–6:44 / Evidence 3 + 5',662,203,500,17)
 text('AND',589,183,50,16,'BookBold',RED)
-families=[('Continuous activity','A live, fixed or hands-occupied task covers an entire necessary window.','The murderer’s task finishes before, or begins after, that window.'),('First admission','The first entrance is after 6:28, when the bottle is already locked away.','The murderer enters earlier and can reach the shelf during the tour.'),('Physical route','A west-side paperwork exchange cannot reach the bottle through the wall.','The murderer enters the east visitor room, where the shelf is accessible.'),('Guarded glass','The only visit to the table ends while the blue plastic wrapping is intact.','The murderer sees an uncovered glass on a blue cloth placemat.'),('Document sequence','An original bears the raised RECEIVED mark first used at 6:45; the sole delivery is later.','The murderer delivers a red-pencil working copy before the cover is sealed.')]
+families=[('Ordinary corroboration','Retained drafts, photographs, invoices and correspondence explain distinct scandals without synchronized alibis.','The guest’s inventory records material similar to the bottle band and glass fragment.'),('First admission','Four guests first enter after the bottle has been returned to the locked cupboard.','The guilty branch places its guest at the earlier walkthrough.'),('Material and access','The innocent record supplies a separate, corroborated explanation for the suspicious object or action.','Tour access, an uncovered-glass encounter and the inventory scrap jointly support the accusation.') ]
 y=263
 text('ACCOUNT TYPE',42,y,195,14,'BookBold',RED);text('IF INNOCENT + EVIDENCE',260,y,440,14,'BookBold',RED);text('IF MURDERER + EVIDENCE',735,y,445,14,'BookBold',RED);y+=31
 for title,i,g in families:
  text(title,42,y,195,17,'BookBold');a=text(i,260,y,440,17);z=text(g,735,y,445,17);y=max(a,z)+19;rule(y-9)
-text('Reading rule: printed innocent facts are true. Lack of an exclusion alone is not proof of guilt in real life; this fictional case specifies one killer, no accomplice and no second poison source. Motives and unrelated wrongdoing create suspicion, not a murder verdict.',42,y+7,1140,16)
+text('Twenty-six contextual accounts explain misconduct without proving complete alibis. Chip, Dada and Minnie also have legitimate uses for this shared foil-backed red stock. The suspicious inventory record must be weighed together with bottle access, the glass encounter and the account of the guest’s scandal. A material match alone cannot identify the murderer. This is a strongest-case inference with residual doubt; do not present contextual records as guaranteed exoneration.',42,y+7,1140,16)
 c.showPage()
 maprows=[]
 for index,ch in enumerate(data):
@@ -69,10 +69,10 @@ for index,ch in enumerate(data):
   a=text(ch['hearings'][key+'_innocent'],177,y,478,15)
   z=text(ch['hearings'][key+'_murderer'],705,y,477,15)
   y=max(a,z)+15;rule(y-7)
- refs='Evidence 2 + 4' if p['action']=='acquire_sample' else 'Evidence 3 + 5'
- y=text('WHY THE INNOCENT ACCOUNT EXCLUDES '+blocked.upper(),42,y+2,1140,16,'BookBold',RED)+9
+ refs='Evidence 2 + 4 + 5' if p['family']=='contextual' else ('Evidence 2 + 4' if p['action']=='acquire_sample' else 'Evidence 3 + 5')
+ y=text('WHAT THE INNOCENT DETAIL EXPLAINS' if p['family']=='contextual' else 'WHY THE INNOCENT ACCOUNT EXCLUDES '+blocked.upper(),42,y+2,1140,16,'BookBold',RED)+9
  y=text(p['explanation']+' Apply '+refs+'.',42,y,1140,16)+10
- text('Suspicious admission in both branches: '+ch['suspicion']+'. The murderer account contains no complete exclusion of either required action.',42,y,1140,15)
+ text('Suspicious in both branches: '+ch['suspicion']+'.',42,y,1140,15)
  maprows.append({'id':ch['id'],'name':title,'confirmed':ch['id'] in active,'suspicion':ch['suspicion'],'excluded_action':p['action'],'evidence':refs,'reason':p['explanation'],'hearings':ch['hearings']})
  c.showPage()
 c.save()

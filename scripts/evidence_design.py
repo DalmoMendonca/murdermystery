@@ -17,14 +17,16 @@ def heading(s,title,label,b):
     return s.block(title,42,103,528,28,'BookBold',b.RED)+17
 
 def service(s,report,y,b):
-    # Source image has four photographs. Captions are vector type, never AI text.
-    # Clip each source photograph into its own viewport. Captions stay outside
-    # the image so the museum-logo sticker and embroidered cloth remain visible.
+    # Place each photograph without mixing neighboring quadrants or distorting it.
+    from PIL import Image
+    path=b.ROOT/'assets/evidence'/(report['photo']+'.jpg')
+    with Image.open(path) as im:iw,ih=im.size
+    full_h=292;full_w=full_h*iw/ih;half_w=full_w/2
     for i,t in enumerate(report['timeline']):
-        x=42+(i%2)*264;py=y+(i//2)*190
-        s.c.saveState();clip=s.c.beginPath();clip.rect(x,s.h-py-146,264,146)
+        x=42+(i%2)*264;py=y+(i//2)*190;px=x+(264-half_w)/2
+        s.c.saveState();clip=s.c.beginPath();clip.rect(px,s.h-py-146,half_w,146)
         s.c.clipPath(clip,stroke=0,fill=0)
-        s.image(b.ROOT/'assets/evidence/service_photos.jpg',x+22-(i%2)*219,py-(i//2)*146,438,292)
+        s.image(path,px-(i%2)*half_w,py-(i//2)*146,full_w,full_h)
         s.c.restoreState()
         s.rect(x,py+146,264,40,fill=b.PALE,stroke=b.PALE)
         s.block(t['time']+' / '+t['caption'],x+8,py+150,248,14,'BookBold',bottom=py+186)
@@ -68,8 +70,8 @@ def build_evidence(b):
         elif number==5:
             y=findings(s,r,y,b)
         else:
-            y=photo(s,r['photo'],y,245,b)
-            if number==4:y=s.block('Recovered bottle / photographed after the tour',42,y,528,14,'BookItalic')+14
+            y=photo(s,r['photo'],y,210 if number==4 else 245,b)
+            if number==4:y=s.block('Recovered bottle / photographed during the investigation',42,y,528,14,'BookItalic')+14
             y=rows(s,r['rows'],y,b,16,180,10)+8
         if number in [1,5]:pass
         elif number==3:y=rows(s,r['rows'],y,b,15,180,6)+4
@@ -82,6 +84,11 @@ def build_evidence(b):
             s.line(42,y,570,y);y+=17
             s.block(a['text'],42,y,528,16,bottom=730)
             s.footer(label+' / Supporting record / Display with the first page')
+        if r.get('trace_exhibit'):
+            a=r['trace_exhibit'];s.next();y=heading(s,a['title'],label+' / MATERIAL COMPARISON',b)
+            y=photo(s,a['photo'],y,345,b)
+            s.block(a['text'],42,y+10,528,18,bottom=730)
+            s.footer(label+' / Display with the laboratory findings')
         s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/Forensic_Reports.pdf')
     b.merge([b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf']+paths,b.KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf')

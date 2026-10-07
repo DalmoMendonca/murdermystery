@@ -1,0 +1,2727 @@
+{
+  "review": "Final rendered visual inspection of changed-00.jpg through changed-29.jpg",
+  "source_edited": false,
+  "sheet_count_viewed": 30,
+  "unique_page_count_viewed": 120,
+  "all_page_ids_covered": [
+    112,
+    114,
+    115,
+    116,
+    118,
+    124,
+    126,
+    127,
+    128,
+    130,
+    136,
+    138,
+    139,
+    140,
+    142,
+    148,
+    150,
+    151,
+    152,
+    154,
+    160,
+    162,
+    163,
+    164,
+    166,
+    172,
+    174,
+    175,
+    176,
+    178,
+    186,
+    187,
+    188,
+    190,
+    196,
+    198,
+    199,
+    200,
+    202,
+    208,
+    210,
+    211,
+    212,
+    214,
+    220,
+    222,
+    223,
+    224,
+    226,
+    232,
+    234,
+    235,
+    236,
+    238,
+    241,
+    244,
+    246,
+    247,
+    248,
+    250,
+    256,
+    258,
+    259,
+    260,
+    262,
+    268,
+    270,
+    271,
+    272,
+    274,
+    280,
+    282,
+    283,
+    284,
+    286,
+    292,
+    294,
+    295,
+    296,
+    298,
+    306,
+    307,
+    308,
+    310,
+    316,
+    318,
+    319,
+    320,
+    322,
+    328,
+    330,
+    331,
+    332,
+    334,
+    340,
+    342,
+    343,
+    344,
+    346,
+    352,
+    354,
+    355,
+    356,
+    358,
+    366,
+    367,
+    368,
+    370,
+    373,
+    376,
+    378,
+    379,
+    380,
+    382,
+    388,
+    390,
+    391,
+    392,
+    394,
+    400
+  ],
+  "full_size_render_ids_viewed": [
+    163,
+    164,
+    241,
+    344,
+    392
+  ],
+  "method": "Every contact image was opened with view_image and visually inspected. Five individual render PNGs were additionally opened, with page 241 checked again at original detail. This assessment is from rendered pages, not structural text or PDF-coordinate checks.",
+  "print_assessment": "Body text, burgundy headings, paragraph frames and two-column questions are readable. No clipping, text spills, overlapping boxes, unintended continuation pages or displaced footers observed across these 120 pages. Lower whitespace on short speeches and endings preserves fixed stage gates and footer positions; it is not an accidental blank page. These sheets contain text and small museum/STOP icons rather than large artwork; icons are undistorted and stay within margins.",
+  "issues": [
+    {
+      "severity": "minor",
+      "type": "page_gate_consistency",
+      "sheet": "changed-13.jpg",
+      "page_id": 241,
+      "copies": [
+        {
+          "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+          "page": 135
+        },
+        {
+          "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+          "page": 135
+        },
+        {
+          "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+          "page": 3
+        }
+      ],
+      "description": "Paige Turner introduction / packet page 3 has no STOP / wait-for-host panel. Brie DeVivre introduction / packet page 3 (page ID 373, changed-27.jpg) includes that panel. Paige’s text is complete and unclipped, but the introduction gate is inconsistent.",
+      "suggested_fix": "If page 3 is intended to stop players before the hearings, reserve space for a short STOP panel on Paige’s introduction. Shorten the repeated animal/key paragraph or tighten section spacing rather than shrinking body text. If no gate is required here, make the introduction-page convention consistent."
+    }
+  ],
+  "blocking_print_issues": [],
+  "sheets": [
+    {
+      "sheet": "changed-00.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        112,
+        114,
+        115,
+        116
+      ],
+      "pages": [
+        {
+          "id": 112,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 6",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-112.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 6
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 6
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\01_Artie_Ficial_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 8",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-114.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 8
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 8
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\01_Artie_Ficial_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 9",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-115.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 9
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\01_Artie_Ficial_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 116,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 10",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-116.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 10
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 10
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\01_Artie_Ficial_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "findings": "Artie Motive and Opportunity boxes, Method two-column questions and Method answers fit their frames. Stops and footers remain separate.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-01.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        118,
+        124,
+        126,
+        127
+      ],
+      "pages": [
+        {
+          "id": 118,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 12",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-118.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 12
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 12
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\01_Artie_Ficial_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 18",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-124.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 18
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 18
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\02_Claire_O_Scuro_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 20",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-126.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 20
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 20
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\02_Claire_O_Scuro_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 127,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 21",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-127.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 21
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\02_Claire_O_Scuro_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Artie ending and Claire Motive/Opportunity/Method questions have complete headings and unbroken box borders. Lower whitespace is intentional space before the gate or closing footer.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-02.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        128,
+        130,
+        136,
+        138
+      ],
+      "pages": [
+        {
+          "id": 128,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 22",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-128.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 22
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 22
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\02_Claire_O_Scuro_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 130,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 24",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-130.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 24
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 24
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\02_Claire_O_Scuro_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 136,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 30",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-136.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 30
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 30
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\03_Hugh_Bidder_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 138,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 32",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-138.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 32
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 32
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\03_Hugh_Bidder_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "findings": "Claire Method and ending plus Hugh Motive/Opportunity remain readable. The short Claire murderer response leaves whitespace but does not create an unwanted continuation page.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-03.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        139,
+        140,
+        142,
+        148
+      ],
+      "pages": [
+        {
+          "id": 139,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 33",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-139.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 33
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\03_Hugh_Bidder_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 140,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 34",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-140.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 34
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 34
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\03_Hugh_Bidder_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 142,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 36",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-142.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 36
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 36
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\03_Hugh_Bidder_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 148,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 42",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-148.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 42
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 42
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\04_Monet_Bags_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Hugh Method questions/answers and ending plus Monet Motive are aligned. The long Hugh confession wraps entirely inside its border.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-04.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        150,
+        151,
+        152,
+        154
+      ],
+      "pages": [
+        {
+          "id": 150,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 44",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-150.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 44
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 44
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\04_Monet_Bags_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 151,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 45",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-151.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 45
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\04_Monet_Bags_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 152,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 46",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-152.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 46
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 46
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\04_Monet_Bags_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 154,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 48",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-154.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 48
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 48
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\04_Monet_Bags_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Monet Opportunity, Method questions/answers and ending show no text spill. The narrow two-column question names wrap without colliding with their questions.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-05.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        160,
+        162,
+        163,
+        164
+      ],
+      "pages": [
+        {
+          "id": 160,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 54",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-160.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 54
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 54
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\05_Chip_Patina_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 162,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 56",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-162.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 56
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 56
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\05_Chip_Patina_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 163,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 57",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-163.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 57
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\05_Chip_Patina_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 58",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-164.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 58
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 58
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\05_Chip_Patina_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "findings": "Chip Motive/Opportunity and Method questions/answers fit, including his longer innocent Method paragraph. Full-size pages 163 and 164 confirm question legibility and adequate space above the stop panel.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-06.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        166,
+        172,
+        174,
+        175
+      ],
+      "pages": [
+        {
+          "id": 166,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 60",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-166.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 60
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 60
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\05_Chip_Patina_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 172,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 66",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-172.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 66
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 66
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\06_Dada_DiCapo_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 174,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 68",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-174.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 68
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 68
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\06_Dada_DiCapo_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 175,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 69",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-175.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 69
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\06_Dada_DiCapo_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Chip ending and Dada Motive/Opportunity/questions have complete boxes. The confession and performance account retain normal print-size body text.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-07.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        176,
+        178,
+        186,
+        187
+      ],
+      "pages": [
+        {
+          "id": 176,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 70",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-176.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 70
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 70
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\06_Dada_DiCapo_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 178,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 72",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-178.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 72
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 72
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\06_Dada_DiCapo_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 186,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 80",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-186.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 80
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 80
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\07_Vincent_Van_Faux_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 187,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 81",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-187.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 81
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\07_Vincent_Van_Faux_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Dada Method/ending and Vincent Opportunity/questions are clear; no cut off sentence, border or stage heading is visible.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-08.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        188,
+        190,
+        196,
+        198
+      ],
+      "pages": [
+        {
+          "id": 188,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 82",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-188.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 82
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 82
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\07_Vincent_Van_Faux_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 190,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 84",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-190.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 84
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 84
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\07_Vincent_Van_Faux_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 196,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 90",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-196.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 90
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 90
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\08_Sue_Venir_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 198,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 92",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-198.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 92
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 92
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\08_Sue_Venir_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "findings": "Vincent Method/ending and Sue Motive/Opportunity have appropriate margins. Both long Opportunity accounts stay above the stop panel.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-09.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        199,
+        200,
+        202,
+        208
+      ],
+      "pages": [
+        {
+          "id": 199,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 93",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-199.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 93
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\08_Sue_Venir_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 200,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 94",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-200.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 94
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 94
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\08_Sue_Venir_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 96",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-202.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 96
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 96
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\08_Sue_Venir_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 102",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-208.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 102
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 102
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\09_Dr_Art_E_Fact_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Sue Method questions/answers and ending plus Art Motive are aligned. Footer and closing italic line are separated from the confession boxes.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-10.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        210,
+        211,
+        212,
+        214
+      ],
+      "pages": [
+        {
+          "id": 210,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 104",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-210.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 104
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 104
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\09_Dr_Art_E_Fact_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 105",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-211.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 105
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\09_Dr_Art_E_Fact_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 106",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-212.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 106
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 106
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\09_Dr_Art_E_Fact_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 214,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 108",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-214.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 108
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 108
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\09_Dr_Art_E_Fact_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Art Opportunity, Method questions/answers and ending have no clipping. The lower questions and within-act instruction remain above the footer rule.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-11.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        220,
+        222,
+        223,
+        224
+      ],
+      "pages": [
+        {
+          "id": 220,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 114",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-220.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 114
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 114
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\10_Tess_Tament_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 222,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 116",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-222.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 116
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 116
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\10_Tess_Tament_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 117",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-223.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 117
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\10_Tess_Tament_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 224,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 118",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-224.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 118
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 118
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\10_Tess_Tament_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "findings": "Tess Motive/Opportunity and Method questions/answers retain full entry-time statements, regular margins and a clear bottom gate.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-12.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        226,
+        232,
+        234,
+        235
+      ],
+      "pages": [
+        {
+          "id": 226,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 120",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-226.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 120
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 120
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\10_Tess_Tament_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 232,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 126",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-232.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 126
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 126
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\11_Barb_Dwyer_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 234,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 128",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-234.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 128
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 128
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\11_Barb_Dwyer_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 235,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 129",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-235.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 129
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\11_Barb_Dwyer_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Tess ending and Barb Motive/Opportunity/questions fit. The lower closing and stop blocks are clearly separated from content.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-13.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        236,
+        238,
+        241,
+        244
+      ],
+      "pages": [
+        {
+          "id": 236,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 130",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-236.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 130
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 130
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\11_Barb_Dwyer_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 238,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 132",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-238.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 132
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 132
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\11_Barb_Dwyer_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 241,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 135",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-241.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 135
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 135
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "id": 244,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 138",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-244.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 138
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 138
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Barb Method/ending plus Paige introduction/Motive are otherwise clear. Paige introduction page 241 has no STOP panel while the other introduction in this assignment, Brie page 373, has one; this is a gate consistency issue, not clipped text.",
+      "status": "minor_gate_consistency_issue"
+    },
+    {
+      "sheet": "changed-14.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        246,
+        247,
+        248,
+        250
+      ],
+      "pages": [
+        {
+          "id": 246,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 140",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-246.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 140
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 140
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 247,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 141",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-247.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 141
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 248,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 142",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-248.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 142
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 142
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 250,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 144",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-250.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 144
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 144
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\12_Paige_Turner_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Paige Opportunity, Method questions/answers and ending fit inside the margins. The relatively long editor/recorder account and confession remain within their frames.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-15.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        256,
+        258,
+        259,
+        260
+      ],
+      "pages": [
+        {
+          "id": 256,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 150",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-256.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 150
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 150
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\13_Frank_Lloyd_Wrong_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 258,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 152",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-258.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 152
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 152
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\13_Frank_Lloyd_Wrong_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 259,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 153",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-259.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 153
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\13_Frank_Lloyd_Wrong_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 260,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 154",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-260.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 154
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 154
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\13_Frank_Lloyd_Wrong_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "findings": "Frank Motive/Opportunity/questions/Method have readable serif text and complete frame borders. Dense name groups are legible and do not touch the column divider lines.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-16.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        262,
+        268,
+        270,
+        271
+      ],
+      "pages": [
+        {
+          "id": 262,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 156",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-262.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 156
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 156
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\13_Frank_Lloyd_Wrong_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 268,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 162",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-268.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 162
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 162
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\14_Mona_Lott_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 270,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 164",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-270.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 164
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 164
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\14_Mona_Lott_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 271,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 165",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-271.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 165
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\14_Mona_Lott_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Frank ending and Mona Motive/Opportunity/questions fit. The fuller obstruction account remains clear of the gate.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-17.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        272,
+        274,
+        280,
+        282
+      ],
+      "pages": [
+        {
+          "id": 272,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 166",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-272.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 166
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 166
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\14_Mona_Lott_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 274,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 168",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-274.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 168
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 168
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\14_Mona_Lott_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 280,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 174",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-280.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 174
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 174
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\15_Elon_Mosaic_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 282,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 176",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-282.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 176
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 176
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\15_Elon_Mosaic_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "findings": "Mona Method/ending plus Elon Motive/Opportunity have consistent padding and intact headings. Longer offer details do not spill into the footer.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-18.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        283,
+        284,
+        286,
+        292
+      ],
+      "pages": [
+        {
+          "id": 283,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 177",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-283.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 177
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\15_Elon_Mosaic_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 284,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 178",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-284.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 178
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 178
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\15_Elon_Mosaic_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 286,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 180",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-286.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 180
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 180
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\15_Elon_Mosaic_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 292,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 186",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-292.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 186
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\16_Anya_Tique_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Elon questions/Method/ending plus Anya Motive show complete bodies and borders. The closing footer is separated by deliberately generous whitespace.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-19.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        294,
+        295,
+        296,
+        298
+      ],
+      "pages": [
+        {
+          "id": 294,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 188",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-294.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 188
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\16_Anya_Tique_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 295,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 189",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-295.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 189
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\16_Anya_Tique_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 296,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 190",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-296.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 190
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\16_Anya_Tique_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 298,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 192",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-298.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 192
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\16_Anya_Tique_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Anya Opportunity/questions/Method/ending fit. The innocent and murderer admission times are legible and not lost in line wrapping.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-20.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        306,
+        307,
+        308,
+        310
+      ],
+      "pages": [
+        {
+          "id": 306,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 200",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-306.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 200
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\17_Saul_D_Bid_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 307,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 201",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-307.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 201
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\17_Saul_D_Bid_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 308,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 202",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-308.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 202
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\17_Saul_D_Bid_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 310,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 204",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-310.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 204
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\17_Saul_D_Bid_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Saul Opportunity/questions/Method/ending retain complete lines. Two-column questions and the lower evidence-table reminder remain aligned.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-21.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        316,
+        318,
+        319,
+        320
+      ],
+      "pages": [
+        {
+          "id": 316,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 210",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-316.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 210
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 186
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\18_Elle_Loominate_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 318,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 212",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-318.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 212
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 188
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\18_Elle_Loominate_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 319,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 213",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-319.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 213
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\18_Elle_Loominate_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 320,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 214",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-320.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 214
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 190
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\18_Elle_Loominate_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "findings": "Elle Motive/Opportunity/questions/Method fit. The long textile accounts remain above the gate with consistent border padding.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-22.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        322,
+        328,
+        330,
+        331
+      ],
+      "pages": [
+        {
+          "id": 322,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 216",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-322.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 216
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 192
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\18_Elle_Loominate_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 328,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 222",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-328.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 222
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 198
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\19_Reed_DeLabel_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 330,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 224",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-330.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 224
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 200
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\19_Reed_DeLabel_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 331,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 225",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-331.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 225
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\19_Reed_DeLabel_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Elle ending and Reed Motive/Opportunity/questions fit without orphaned headings or box overflow. Closing whitespace is intentional.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-23.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        332,
+        334,
+        340,
+        342
+      ],
+      "pages": [
+        {
+          "id": 332,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 226",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-332.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 226
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 202
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\19_Reed_DeLabel_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 334,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 228",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-334.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 228
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 204
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\19_Reed_DeLabel_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 340,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 234",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-340.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 234
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 210
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\20_Al_Baster_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 342,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 236",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-342.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 236
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 212
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\20_Al_Baster_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "findings": "Reed Method/ending plus Al Motive/Opportunity retain whole paragraphs. Al’s longer Opportunity frame ends with a usable gap above the stop panel.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-24.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        343,
+        344,
+        346,
+        352
+      ],
+      "pages": [
+        {
+          "id": 343,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 237",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-343.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 237
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\20_Al_Baster_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 344,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 238",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-344.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 238
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 214
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\20_Al_Baster_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 346,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 240",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-346.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 240
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 216
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\20_Al_Baster_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 352,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 246",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-352.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 246
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\21_Ella_Gance_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Al questions/Method/ending plus Ella Motive fit. Full-size page 344 confirms the new apron/mock-toast Method account does not collide with the stop panel.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-25.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        354,
+        355,
+        356,
+        358
+      ],
+      "pages": [
+        {
+          "id": 354,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 248",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-354.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 248
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\21_Ella_Gance_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 355,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 249",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-355.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 249
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\21_Ella_Gance_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 356,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 250",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-356.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 250
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\21_Ella_Gance_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 358,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 252",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-358.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 252
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\21_Ella_Gance_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Ella Opportunity/questions/Method/ending show complete entry-time and packing-list accounts. Method questions remain readable across both columns.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-26.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        366,
+        367,
+        368,
+        370
+      ],
+      "pages": [
+        {
+          "id": 366,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 260",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-366.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 260
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\22_Drew_Conclusions_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 367,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 261",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-367.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 261
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\22_Drew_Conclusions_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 368,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 262",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-368.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 262
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\22_Drew_Conclusions_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 370,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 264",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-370.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 264
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\22_Drew_Conclusions_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "findings": "Drew Opportunity/questions/Method/ending fit. The confession closes inside its frame and the italic closing line remains above the footer.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-27.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        373,
+        376,
+        378,
+        379
+      ],
+      "pages": [
+        {
+          "id": 373,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 267",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-373.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 267
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 219
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "id": 376,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 270",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-376.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 270
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 222
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 378,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 272",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-378.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 272
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 224
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 379,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 273",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-379.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 273
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "findings": "Brie introduction/Motive/Opportunity/questions fit with no overflow. Introduction page 373 includes a STOP panel, providing the contrast for Paige page 241’s omitted panel.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-28.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        380,
+        382,
+        388,
+        390
+      ],
+      "pages": [
+        {
+          "id": 380,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 274",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-380.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 274
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 226
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 382,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 276",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-382.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 276
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 228
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\23_Brie_DeVivre_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 388,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 282",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-388.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 282
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\24_Cary_Crates_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 390,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 284",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-390.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 284
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\24_Cary_Crates_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        }
+      ],
+      "findings": "Brie Method/ending plus Cary Motive/Opportunity have complete borders, readable text and normal margins. The short Brie murderer box creates intentional lower space.",
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-29.jpg",
+      "viewed": true,
+      "view_method": "view_image; all four page panels visually inspected",
+      "page_ids": [
+        391,
+        392,
+        394,
+        400
+      ],
+      "pages": [
+        {
+          "id": 391,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 285",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-391.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 285
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\24_Cary_Crates_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 392,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 286",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-392.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 286
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\24_Cary_Crates_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 394,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 288",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-394.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 288
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\24_Cary_Crates_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 400,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 294",
+          "full_render": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-400.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 294
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 234
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\25_Anne_E_Dote_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "findings": "Cary questions/Method/ending plus Anne Motive fit. Full-size page 392 confirms the new trolley/work-glove paragraph remains entirely inside the murderer box.",
+      "status": "pass"
+    }
+  ],
+  "scope_limit": "This review covers the first 30 contact sheets only, not changed-30.jpg onward or unchanged pages. It establishes visible render quality; it is not a physical printer proof."
+}

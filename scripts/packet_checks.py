@@ -120,7 +120,7 @@ def check():
     assert 'closed return box' in guide and 'top three' in guide and 'alphabetically' in guide
     for x in hunt['locations']:assert norm(x['location']) in norm(guide)
     obsolete=['kept animal slip','ANIMAL NOT CALLED','ANIMAL CALLED','continuous alibi','seating pair','seat-order','next seated','question catalog','Card A','Card B','FINALE envelope','selected receipt','optional bowl']
-    allowed={'01_Facilitator_Guide_SPOILER_SAFE.pdf','10_Blind_Printing_and_Assembly.pdf','99_SPOILER_BIBLE_DO_NOT_OPEN.pdf'}
+    allowed={'01_Facilitator_Guide_SPOILER_SAFE.pdf','10_Blind_Printing_and_Assembly.pdf','99_SPOILER_BIBLE_DO_NOT_OPEN.pdf','Game_Mechanics_2026_ORGANIZER_ONLY.pdf'}
     for p in KIT.rglob('*.pdf'):
         t=printed(p)
         from american_copy import PATTERN
@@ -131,10 +131,13 @@ def check():
     for report in load('investigation.json'):
         path=KIT/'PRINT_WITHOUT_READING/Reports'/(report['id']+'.pdf')
         text=norm(printed(path));assert norm(report['text']) in text
-        with fitz.open(path) as doc:assert len(doc)==(2 if report.get('appendix') else 1)
+        expected_pages=1+bool(report.get('appendix'))+bool(report.get('trace_exhibit'))
+        with fitz.open(path) as doc:assert len(doc)==expected_pages,(report['id'],len(doc),expected_pages)
         if report.get('appendix'):
             appendix=report['appendix'];assert norm(appendix['text']) in text
             for label,value in appendix['rows']:assert norm(label) in text and norm(value) in text
+        if report.get('trace_exhibit'):
+            assert norm(report['trace_exhibit']['text']) in text
     roster=json.loads((ROOT/'build/event-roster.json').read_text(encoding='utf-8'))
     attendees=[c for c in chars if c['name'] in roster['characters']]
     assert len(attendees)==roster['count']==22

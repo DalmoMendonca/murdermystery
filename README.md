@@ -85,3 +85,5 @@ Use `03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf` for the current party
 The source ZIP excludes generated downloads. On its first build, missing frozen public exports are restored from the pinned baseline complete kit and checked against the public lock. Existing files are never replaced. For an offline rebuild, put the complete-kit ZIP and `All_30_Characters_and_Invite.zip` beside the extracted source and call `restore_missing_public` in `scripts/public_lock.py` with their paths before building. Editing private testimony does not regenerate the already-sent invitation or character sheets.
 
 The organizer book contains the case, discovery resolutions and one resolution page per character. Full speeches are in the player packets and `source/investigation_copy.yaml`.
+
+The editable-source ZIP is generated during each build and published by Netlify. It is not committed as a binary because it includes the full-resolution art precursors and exceeds GitHub’s single-file limit. All of its source files remain versioned in this repository.

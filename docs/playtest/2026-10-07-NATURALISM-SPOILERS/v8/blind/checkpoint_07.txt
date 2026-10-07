@@ -1,0 +1,97 @@
+Evidence 4 and 5, released before Act III
+
+[
+  {
+    "id": "F4",
+    "department": "MERIDIAN / COLLECTIONS INVENTORY",
+    "title": "When the bottle was accessible",
+    "text": "The bottle was locked away before the walkthrough. Staff photographed its intact seal before bringing it out. At 6:28 they returned it without inspecting its closure or contents. The cupboard remained locked until investigators opened it after Grant died. Residue in the bottle matches the residue inside his glass. During the inspection, the conservator was called to sign for an incoming crate at the loading bay. The attendant remained at the east doorway; the group was not sent out before the conservator left.",
+    "rows": [
+      [
+        "6:20 / room opens",
+        "Bottle full; original paper seal intact"
+      ],
+      [
+        "6:28 / room closes",
+        "Returned without inspection; cupboard locked"
+      ],
+      [
+        "Other poison objects",
+        "No other bottles brought out or given to guests"
+      ]
+    ],
+    "appendix": {
+      "title": "Two different ways to approach preparation",
+      "diagram": "preparation_routes",
+      "rows": [
+        [
+          "WEST / return counter",
+          "Papers pass through a small slot"
+        ],
+        [
+          "EAST / visitor doorway",
+          "Guests can enter and reach the shelf"
+        ]
+      ],
+      "text": "The west return counter is outside a solid wall. Its small slot passes papers and support sleeves, not people. Staff did not pass the bottle or its contents through it. The east doorway is the only guest entrance to the shelves.",
+      "photo": "preparation_access"
+    },
+    "layout": "inventory_photo",
+    "photo": "cyanide_bottle_v8"
+  },
+  {
+    "id": "F5",
+    "department": "LABORATORY / CASE FINDINGS",
+    "title": "The glass, not the punch",
+    "photo": "service_photos",
+    "text": "The inside of Grant's glass contained cyanide. The food and shared punch were clear. Residue in the acquired bottle matches the residue in his glass. A small scrap found inside the glass has the red paper surface and silver-foil backing of the bottle's torn seal. The comparison photograph follows. Staff secured the guests’ belongings after the death. Examination records were returned to their owners for the Method round.",
+    "rows": [
+      [
+        "Grant’s glass / inside",
+        "CYANIDE DETECTED"
+      ],
+      [
+        "Shared punch pitcher",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Food samples",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Acquired poison bottle",
+        "MIXTURE MATCHES GLASS RESIDUE"
+      ],
+      [
+        "Scrap inside Grant’s glass",
+        "RED PAPER / SILVER FOIL BACKING"
+      ]
+    ],
+    "appendix": {
+      "title": "Two details from the museum’s records",
+      "diagram": "packaging_seals",
+      "rows": [
+        [
+          "Blue protective wrapping",
+          "Logo sticker across a closed seam"
+        ],
+        [
+          "Blue cloth placemat",
+          "Logo embroidered into fabric"
+        ],
+        [
+          "Raised RECEIVED stamp",
+          "First used at 6:45"
+        ]
+      ],
+      "text": "The museum-logo sticker bridged the sealed plastic wrapping. The placemat’s logo was sewn into cloth. They are different objects. The receiving desk opened at 6:45 after the welcome; that is when it first used the raised RECEIVED stamp. Earlier working copies had flat red-pencil corrections, not that stamp.",
+      "photo": "paper_marks"
+    },
+    "layout": "lab_findings",
+    "trace_exhibit": {
+      "title": "The scrap inside the glass",
+      "photo": "seal_fragment_v8",
+      "text": "Left: scrap recovered from inside Grant’s glass. Right: the torn original bottle seal, with silver backing exposed. The laboratory found the same red-paper and silver-foil construction. The guests’ inventory records describe material recovered from their own belongings; similarity alone does not establish how it got there."
+    }
+  }
+]

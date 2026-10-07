@@ -3,8 +3,8 @@ reports:
 - id: F1
   department: MERIDIAN / BOARD SECRETARY
   title: The gift came with conditions
-  text: Grant Larceny has died at the gala after his private toast. His proposed gift agreement is still
-    unsigned. These are the terms he intended to announce tonight.
+  text: Grant Larceny has died at the gala after his private toast. His proposed gift agreement is still unsigned.
+    These are the terms he intended to announce tonight.
   rows:
   - - 1. Museum name
     - The Grant Larceny Meridian Museum
@@ -17,74 +17,67 @@ reports:
 - id: F2
   department: MERIDIAN / COLLECTIONS ASSISTANT
   title: An empty bottle in preparation
-  text: 'I found the newly acquired poison bottle empty after the preparation-room tour. Its paper seal
-    was broken. I locked the room and retained the bottle for examination. It had been brought out for
-    the condition inspection of Grant’s proposed exhibition centerpiece. Signed: Collections Assistant.'
+  text: After Grant died, investigators found the acquired bottle empty in the locked cupboard. A split underneath
+    the back of its red custody band had been hidden from a casual front view. Staff had returned the bottle
+    without checking its contents. Investigators removed the damaged band for examination.
   rows:
   - - Object
     - The Velvet Widow poison bottle / acquisition lot 73
   - - Label
     - CYANIDE / POISON
   - - Found
-    - Empty; original paper seal broken
+    - Empty; museum custody band broken
   layout: bottle_photo
-  photo: cyanide_bottle
+  photo: cyanide_bottle_v8
 - id: F3
   department: MERIDIAN / CATERER’S RECORD
   title: What happened to Grant’s glass
-  text: 'These are my setup photos. I stayed with the wrapped glass until 6:40. From 6:40 to 6:44, I was
-    away from the table. After sealing the cover at 6:44, I watched it until I opened it to pour. I then
-    watched Grant’s glass until his 6:49 toast. The same glass was used throughout. Signed: Service Manager.'
+  text: 'Grant requested the new donor gift glass for his toast. I unwrapped it at 6:32, set his place and
+    returned to the kitchen over the extra course. Guests were circulating through the salon. At 6:44 I collected
+    it on my tray and kept it with me through the 6:46 pour and toast. These photos come from the event photographer’s
+    donor-glass coverage. Signed: Service Manager.'
   rows:
   - - Initial lab finding
     - Cyanide inside Grant’s glass
   - - Shared punch and food
     - No cyanide detected
   layout: service_photos
-  photo: service_photos
+  photo: service_photos_v9
   timeline:
-  - time: '6:39'
-    caption: Still wrapped; seal intact
-  - time: '6:40'
-    caption: Unwrapped; glass left unattended
+  - time: '6:30'
+    caption: New donor glass, still wrapped
+  - time: '6:32'
+    caption: Place set; server returns to kitchen
   - time: '6:44'
-    caption: Covered; red seal applied
+    caption: Glass collected on service tray
   - time: '6:46'
-    caption: Seal opened; punch poured
+    caption: Shared punch poured for the toast
 - id: F4
   department: MERIDIAN / COLLECTIONS INVENTORY
   title: When the bottle was accessible
-  text: The bottle was kept locked away before the tour. It was put on the visitor-side shelf when the
-    room opened and locked away again at closing. Nobody obtained it outside those eight minutes. The
-    laboratory matched material remaining in the bottle to residue inside Grant’s glass.
+  text: Before the walkthrough, Chip applied a new museum custody band and the conservator photographed the
+    full bottle. The museum had not accepted this dangerous acquisition. Grant brought it from his own collection
+    and insisted on a guest preview despite the conservator’s objection. At 6:28 staff returned it to the cupboard,
+    which stayed locked until the murder investigation. The hidden split was discovered then. Residue in the
+    bottle matches residue inside his glass.
   rows:
   - - 6:20 / room opens
-    - Bottle full; original paper seal intact
+    - Bottle full; museum custody band intact
   - - 6:28 / room closes
-    - Bottle empty; cupboard locked
+    - Returned without inspection; cupboard locked
   - - Other poison objects
     - No other bottles brought out or given to guests
-  appendix:
-    title: Two different ways to approach preparation
-    diagram: preparation_routes
-    rows:
-    - - WEST / return counter
-      - Papers pass through a small slot
-    - - EAST / visitor doorway
-      - Guests can enter and reach the shelf
-    text: The west return counter is outside a solid wall. Its small slot passes papers and support sleeves,
-      not people. Staff did not pass the bottle or its contents through it. The east doorway is the only
-      guest entrance to the shelves.
-    photo: preparation_access
   layout: inventory_photo
-  photo: cyanide_bottle
+  photo: cyanide_bottle_v8
 - id: F5
   department: LABORATORY / CASE FINDINGS
   title: The glass, not the punch
   photo: service_photos
-  text: Cyanide was found on the inside of Grant’s glass. Samples of the shared punch and food were clear.
-    Material remaining in the acquired poison bottle matches the residue in the glass. The lab result
-    identifies the poisoned object; the caterer’s record establishes how it was handled.
+  text: The inside of Grant's glass contained cyanide. The food and shared punch were clear. Residue in the
+    acquired bottle matches the residue in his glass. A small scrap found inside the glass has the red paper
+    surface and silver-foil backing of the bottle's red custody band. The comparison photograph follows. Staff
+    secured the guests’ belongings after the death. The examination excerpts in the Method accounts are official
+    findings. Read those excerpts as recorded, then the accompanying explanation.
   rows:
   - - Grant’s glass / inside
     - CYANIDE DETECTED
@@ -94,21 +87,16 @@ reports:
     - NO CYANIDE DETECTED
   - - Acquired poison bottle
     - MIXTURE MATCHES GLASS RESIDUE
-  appendix:
-    title: Two details from the museum’s records
-    diagram: packaging_seals
-    rows:
-    - - Blue protective wrapping
-      - Logo sticker across a closed seam
-    - - Blue cloth placemat
-      - Logo embroidered into fabric
-    - - Raised RECEIVED stamp
-      - First used at 6:45
-    text: The museum-logo sticker bridged the sealed plastic wrapping. The placemat’s logo was sewn into
-      cloth. They are different objects. The receiving desk first used its raised RECEIVED stamp at 6:45.
-      Earlier working copies had flat red-pencil corrections, not that stamp.
-    photo: paper_marks
+  - - Scrap inside Grant’s glass
+    - RED PAPER / SILVER FOIL BACKING
   layout: lab_findings
+  trace_exhibit:
+    title: The scrap inside the glass
+    photo: seal_fragment_v11
+    text: 'Left: scrap from inside Grant’s glass. Right: the damaged bottle band, with silver backing exposed.
+      Both are red paper backed with silver foil. The museum uses this stock for custody bands and decorative
+      work. The laboratory establishes material similarity, not a unique torn-edge fit or which person placed
+      the scrap in the glass.'
 discoveries:
 - number: 1
   department: THE MERIDIAN / BOARD SECRETARY
@@ -148,8 +136,7 @@ discoveries:
   title: GRANT’S NIGHT OF GLORY
   stamp: HOLD FOR 9:00 PM
   paragraphs:
-  - 'Advance program: preparation walkthrough 6:20–6:28. Private glass unwrapped 6:40; cover sealed 6:44.
-    Pour 6:46; toast 6:49.'
+  - Preparation walkthrough 6:20–6:28. Private toast 6:49; naming announcement follows.
   - Grant Larceny will announce the naming agreement after his private toast.
   annotation: Advance proof / planned program, not a record of attendance.
 - number: 5
@@ -171,8 +158,8 @@ discoveries:
   title: Donor agreement / margin copy
   stamp: ORIGINAL OPINION
   paragraphs:
-  - The proposed permanent gift remains subject to outstanding provenance review. An accession does not
-    remove competing ownership claims.
+  - The proposed permanent gift remains subject to outstanding provenance review. An accession does not remove
+    competing ownership claims.
   annotation: Permanent title does not cure disputed title. S.V.
 - number: 7
   department: GAVEL & ROWE / ARCHIVE COPY
@@ -250,9 +237,10 @@ discoveries:
   title: Closing reveal / concept
   photo: performance_sketch
   paragraphs:
-  - 'Original stage concept: Dada DiCapo.'
+  - 'Original stage concept: Dada DiCapo. Closing effect: apparent donor collapse, using an empty jacket and
+    light cue.'
   - 'Printed gala credit: The Larceny Foundation.'
-  annotation: The sketch predates the donor’s program credit.
+  annotation: Manager’s rehearsal file / donor canceled closing effect.
 - number: 13
   department: GAVEL & ROWE / ACQUISITION RECEIPT
   title: The Velvet Widow
@@ -270,12 +258,11 @@ discoveries:
   department: MERIDIAN / CONSERVATOR’S MEMORANDUM
   title: The conservator’s objection
   paragraphs:
-  - The bottle is labeled CYANIDE. Display an empty replica. I object to Grant’s demand that the original
-    poison remain in the exhibition centerpiece.
-  - Grant has requested a final condition inspection before the unveiling. One sealed bottle will be brought
-    from the locked cupboard to the visitor-side preparation shelf during the 6:20–6:28 walkthrough, then
-    locked away again. No other poison objects will be brought out.
-  annotation: The west counter handles returns through a paper slot. Visitors enter from the east doorway.
+  - The bottle is labeled CYANIDE. Display an empty replica. I object to Grant’s demand that the original poison
+    remain in the exhibition centerpiece.
+  - This remains Grant’s private acquisition. The museum has not accepted it. I requested a preview through
+    the closed cupboard door. Grant has overruled that request and will set it on the shelf during the 6:20–6:28
+    walkthrough. I will record its condition and apply a custody band. It must be locked away afterward.
   stamp: EXHIBITION APPROVAL WITHHELD
 - number: 15
   department: MERIDIAN / SHOW-CONTROL CONSOLE
@@ -289,26 +276,24 @@ discoveries:
   - - Curtain position
     - Closed at 6:38 / safety override
   paragraphs:
-  - Display mounting alert received 6:37. Alcove closed at 6:38 pending inspection. Planned 6:48 closure
-    canceled.
+  - Display mounting alert received 6:37. Alcove closed at 6:38 pending inspection. Planned 6:48 closure canceled.
   - Gallery outside the alcove remains open. No change to private service.
 - number: 16
   department: MERIDIAN / PRIVATE SERVICE
   title: Grant Larceny’s toast
   stamp: DONOR SALON DELIVERY
   paragraphs:
-  - 6:40 / Remove the blue wrapping from Grant’s glass.
-  - 6:44 / Fit the clear cover and apply its numbered seal.
-  - 6:46 / Check and open the seal. Pour the shared punch.
-  - 6:49 / Grant’s private toast. Use the same glass throughout.
+  - 'Grant’s private toast: 6:49.'
+  - Use the new donor glass from the museum shop, not the ordinary table glass. Grant specifically requested
+    it.
+  - Shared punch for everyone. The disputed extra course remains a separate catering order.
 discovery_resolutions:
 - number: 1
   resolution: Artie faced forced resignation; unsigned terms explain his grievance, not guilt.
   essential: false
   redundant_official_reports: []
 - number: 2
-  resolution: The missing export file supports the ownership dispute; an exhibition label cannot supply
-    it.
+  resolution: The missing export file supports the ownership dispute; an exhibition label cannot supply it.
   essential: false
   redundant_official_reports: []
 - number: 3
@@ -352,13 +337,13 @@ discovery_resolutions:
   essential: false
   redundant_official_reports: []
 - number: 13
-  resolution: Grant demanded the original poison contents for The Art of Murder. Eleanor Vale’s 1891 case
-    is fictional.
+  resolution: Grant demanded the original poison contents for The Art of Murder. Eleanor Vale’s 1891 case is
+    fictional.
   essential: false
   redundant_official_reports: []
 - number: 14
-  resolution: The conservator objected. One bottle was accessible during the tour; Evidence 4 repeats
-    the inspection schedule.
+  resolution: The conservator objected. One bottle was accessible during the tour; Evidence 4 repeats the inspection
+    schedule.
   essential: true
   redundant_official_reports:
   - F2

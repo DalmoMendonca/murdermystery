@@ -1,0 +1,2142 @@
+{
+  "review_type": "Actual visual review with view_image of every assigned contact sheet",
+  "sheet_range": [
+    30,
+    60
+  ],
+  "sheets_viewed": 31,
+  "unique_page_ids_covered": 122,
+  "full_size_individual_pages_viewed": [
+    550,
+    551,
+    554,
+    593,
+    612,
+    618
+  ],
+  "checks": [
+    "clipping",
+    "text spills and overlaps",
+    "unwanted text spacing",
+    "alignment",
+    "print readability",
+    "artwork proportions"
+  ],
+  "summary": "No clipping, spills, overlapping text, broken alignment or print-blocking defect observed. One minor artwork identity/shape mismatch between the bottle custody strip and its material comparison image.",
+  "issues": [
+    {
+      "id": "artwork-band-shape",
+      "severity": "minor_visual_consistency",
+      "page_ids": [
+        550,
+        552,
+        554
+      ],
+      "description": "Evidence 2/4 bottle artwork shows a narrow plain red paper strip wrapped around the cork. Evidence 5 comparison artwork labels a broad, nearly circular embossed heraldic seal as the removed damaged bottle band. The shape and surface design do not visually match, which can confuse readers comparing the evidence objects.",
+      "recommendation": "Use a comparison photograph depicting the same narrow red foil-backed custody strip seen on the cork, or make the bottle image visibly show the embossed round component as part of its band.",
+      "blocking_print_layout": false
+    }
+  ],
+  "sheets": [
+    {
+      "sheet": "changed-30.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-30.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        402,
+        403,
+        404,
+        406
+      ],
+      "pages": [
+        {
+          "id": 402,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 296",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-402.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 296
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 236
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\25_Anne_E_Dote_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 403,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 297",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-403.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 297
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\25_Anne_E_Dote_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 404,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 298",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-404.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 298
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 238
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\25_Anne_E_Dote_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 406,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 300",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-406.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 300
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 240
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\25_Anne_E_Dote_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-31.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-31.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        412,
+        414,
+        415,
+        416
+      ],
+      "pages": [
+        {
+          "id": 412,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 306",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-412.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 306
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\26_Faye_Stop_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 414,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 308",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-414.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 308
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\26_Faye_Stop_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 415,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 309",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-415.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 309
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\26_Faye_Stop_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 416,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 310",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-416.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 310
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\26_Faye_Stop_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-32.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-32.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        418,
+        426,
+        427,
+        428
+      ],
+      "pages": [
+        {
+          "id": 418,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 312",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-418.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 312
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\26_Faye_Stop_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 426,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 320",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-426.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 320
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\27_Robin_Banks_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 427,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 321",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-427.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 321
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\27_Robin_Banks_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 428,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 322",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-428.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 322
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\27_Robin_Banks_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-33.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-33.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        430,
+        436,
+        438,
+        439
+      ],
+      "pages": [
+        {
+          "id": 430,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 324",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-430.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 324
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\27_Robin_Banks_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 436,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 330",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-436.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 330
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 246
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\28_Penny_Pincher_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "id": 438,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 332",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-438.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 332
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 248
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\28_Penny_Pincher_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 439,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 333",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-439.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 333
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\28_Penny_Pincher_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-34.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-34.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        440,
+        442,
+        450,
+        451
+      ],
+      "pages": [
+        {
+          "id": 440,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 334",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-440.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 334
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 250
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\28_Penny_Pincher_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 442,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 336",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-442.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 336
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 252
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\28_Penny_Pincher_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 450,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 344",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-450.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 344
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 260
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\29_Justin_Tyme_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 451,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 345",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-451.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 345
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\29_Justin_Tyme_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-35.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-35.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        452,
+        454,
+        457,
+        460
+      ],
+      "pages": [
+        {
+          "id": 452,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 346",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-452.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 346
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 262
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\29_Justin_Tyme_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 454,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 348",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-454.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 348
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 264
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\29_Justin_Tyme_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 457,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 351",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-457.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 351
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "id": 460,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 354",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-460.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 354
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-36.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-36.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        462,
+        463,
+        464,
+        466
+      ],
+      "pages": [
+        {
+          "id": 462,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 356",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-462.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 356
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 463,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 357",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-463.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 357
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 464,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 358",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-464.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 358
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "id": 466,
+          "label": "03_Secret_Player_Packets_PRINT_DO_NOT_READ / 360",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-466.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03_Secret_Player_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 360
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Secret_Individual\\30_Minnie_Malist_SECRET.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait packet pages: all branch boxes fit, header rules align, body text is readable, STOP callouts/footer stay separated. Intentional whitespace below short confession blocks; no unwanted gaps within text.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-37.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-37.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        469,
+        472,
+        475,
+        478
+      ],
+      "pages": [
+        {
+          "id": 469,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 9",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-469.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 472,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 21",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-472.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "id": 475,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 33",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-475.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 33
+            }
+          ]
+        },
+        {
+          "id": 478,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 45",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-478.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 45
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Confirmed-cast two-column Method question pages: both columns retain margins, names wrap without clipping, separators and instructions remain distinct; whitespace under shorter column is intentional.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-38.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-38.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        481,
+        484,
+        487,
+        490
+      ],
+      "pages": [
+        {
+          "id": 481,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 57",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-481.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 57
+            }
+          ]
+        },
+        {
+          "id": 484,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 69",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-484.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 69
+            }
+          ]
+        },
+        {
+          "id": 487,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 81",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-487.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 81
+            }
+          ]
+        },
+        {
+          "id": 490,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 93",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-490.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 93
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Confirmed-cast two-column Method question pages: both columns retain margins, names wrap without clipping, separators and instructions remain distinct; whitespace under shorter column is intentional.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-39.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-39.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        493,
+        496,
+        499,
+        502
+      ],
+      "pages": [
+        {
+          "id": 493,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 105",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-493.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 105
+            }
+          ]
+        },
+        {
+          "id": 496,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 117",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-496.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 117
+            }
+          ]
+        },
+        {
+          "id": 499,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 129",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-499.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 129
+            }
+          ]
+        },
+        {
+          "id": 502,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 141",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-502.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 141
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Confirmed-cast two-column Method question pages: both columns retain margins, names wrap without clipping, separators and instructions remain distinct; whitespace under shorter column is intentional.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-40.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-40.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        505,
+        508,
+        511,
+        514
+      ],
+      "pages": [
+        {
+          "id": 505,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 153",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-505.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 153
+            }
+          ]
+        },
+        {
+          "id": 508,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 165",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-508.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 165
+            }
+          ]
+        },
+        {
+          "id": 511,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 177",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-511.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 177
+            }
+          ]
+        },
+        {
+          "id": 514,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 189",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-514.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 189
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Confirmed-cast two-column Method question pages: both columns retain margins, names wrap without clipping, separators and instructions remain distinct; whitespace under shorter column is intentional.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-41.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-41.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        517,
+        520,
+        523,
+        526
+      ],
+      "pages": [
+        {
+          "id": 517,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 201",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-517.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 201
+            }
+          ]
+        },
+        {
+          "id": 520,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 213",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-520.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 213
+            }
+          ]
+        },
+        {
+          "id": 523,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 225",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-523.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 225
+            }
+          ]
+        },
+        {
+          "id": 526,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 237",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-526.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 237
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Confirmed-cast two-column Method question pages: both columns retain margins, names wrap without clipping, separators and instructions remain distinct; whitespace under shorter column is intentional.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-42.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-42.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        529,
+        532,
+        536,
+        544
+      ],
+      "pages": [
+        {
+          "id": 529,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 249",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-529.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 249
+            }
+          ]
+        },
+        {
+          "id": 532,
+          "label": "03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ / 261",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-532.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf",
+              "page": 261
+            }
+          ]
+        },
+        {
+          "id": 536,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 4",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-536.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 4
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Discovery_Props.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "id": 544,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 12",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-544.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 12
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Discovery_Props.pdf",
+              "page": 12
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Mixed question/discovery pages: column text fits; press proof remains deliberately spare. Notebook art retains natural aspect ratio and caption clears image.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-43.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-43.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        546,
+        548,
+        550,
+        551
+      ],
+      "pages": [
+        {
+          "id": 546,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 14",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-546.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 14
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Discovery_Props.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "id": 548,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 16",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-548.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 16
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Discovery_Props.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "id": 550,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 18",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-550.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 18
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Forensic_Reports.pdf",
+              "page": 2
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Reports\\F2.pdf",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": 551,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 19",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-551.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 19
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Forensic_Reports.pdf",
+              "page": 3
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Reports\\F3.pdf",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [
+        550,
+        551
+      ],
+      "observations": "Discovery and illustrated evidence pages: clear margins and paragraphs. Four service-photo captions fit and align; full-size service text remains readable. Bottle image proportions are natural.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-44.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-44.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        552,
+        553,
+        554,
+        555
+      ],
+      "pages": [
+        {
+          "id": 552,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 20",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-552.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 20
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Forensic_Reports.pdf",
+              "page": 4
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Reports\\F4.pdf",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": 553,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 21",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-553.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 21
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Forensic_Reports.pdf",
+              "page": 5
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Reports\\F5.pdf",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": 554,
+          "label": "04B_Clues_and_Forensics_PRINT_DO_NOT_READ / 22",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-554.png",
+          "copies": [
+            {
+              "file": "PRINT_WITHOUT_READING\\04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf",
+              "page": 22
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Forensic_Reports.pdf",
+              "page": 6
+            },
+            {
+              "file": "PRINT_WITHOUT_READING\\Reports\\F5.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "id": 555,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 1",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-555.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 1
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [
+        554
+      ],
+      "observations": "Inventory/lab/comparison and organizer opening pages: rows and shaded finding boxes fit cleanly. Comparison image has natural proportions; artwork identity mismatch recorded separately.",
+      "findings": [
+        {
+          "id": "artwork-band-shape",
+          "severity": "minor_visual_consistency",
+          "page_ids": [
+            550,
+            552,
+            554
+          ],
+          "description": "Evidence 2/4 bottle artwork shows a narrow plain red paper strip wrapped around the cork. Evidence 5 comparison artwork labels a broad, nearly circular embossed heraldic seal as the removed damaged bottle band. The shape and surface design do not visually match, which can confuse readers comparing the evidence objects.",
+          "recommendation": "Use a comparison photograph depicting the same narrow red foil-backed custody strip seen on the cork, or make the bottle image visibly show the embossed round component as part of its band.",
+          "blocking_print_layout": false
+        }
+      ],
+      "status": "pass_with_minor_artwork_consistency_note"
+    },
+    {
+      "sheet": "changed-45.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-45.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        557,
+        558,
+        559,
+        560
+      ],
+      "pages": [
+        {
+          "id": 557,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 3",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-557.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "id": 558,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 4",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-558.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "id": 559,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 5",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-559.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "id": 560,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 6",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-560.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-46.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-46.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        561,
+        562,
+        563,
+        564
+      ],
+      "pages": [
+        {
+          "id": 561,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 7",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-561.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "id": 562,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 8",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-562.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 563,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 9",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-563.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 564,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 10",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-564.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-47.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-47.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        565,
+        566,
+        567,
+        568
+      ],
+      "pages": [
+        {
+          "id": 565,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 11",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-565.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "id": 566,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 12",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-566.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 567,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 13",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-567.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "id": 568,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 14",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-568.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 14
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-48.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-48.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        569,
+        570,
+        571,
+        572
+      ],
+      "pages": [
+        {
+          "id": 569,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 15",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-569.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "id": 570,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 16",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-570.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "id": 571,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 17",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-571.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "id": 572,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 18",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-572.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 18
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-49.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-49.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        573,
+        574,
+        575,
+        576
+      ],
+      "pages": [
+        {
+          "id": 573,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 19",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-573.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "id": 574,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 20",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-574.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "id": 575,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 21",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-575.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "id": 576,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 22",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-576.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 22
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-50.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-50.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        577,
+        578,
+        579,
+        580
+      ],
+      "pages": [
+        {
+          "id": 577,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 23",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-577.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "id": 578,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 24",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-578.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "id": 579,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 25",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-579.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "id": 580,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 26",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-580.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 26
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-51.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-51.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        581,
+        582,
+        583,
+        584
+      ],
+      "pages": [
+        {
+          "id": 581,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 27",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-581.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "id": 582,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 28",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-582.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 28
+            }
+          ]
+        },
+        {
+          "id": 583,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 29",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-583.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 29
+            }
+          ]
+        },
+        {
+          "id": 584,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 30",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-584.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 30
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Portrait organizer character pages: headings, paragraphs and footer are consistently aligned; no clipping, spills or text collisions. Large lower-page whitespace is intentional one-character-per-page treatment.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-52.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-52.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        585,
+        586,
+        587,
+        588
+      ],
+      "pages": [
+        {
+          "id": 585,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 31",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-585.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 31
+            }
+          ]
+        },
+        {
+          "id": 586,
+          "label": "99_SPOILER_BIBLE_DO_NOT_OPEN / 32",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-586.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\99_SPOILER_BIBLE_DO_NOT_OPEN.pdf",
+              "page": 32
+            }
+          ]
+        },
+        {
+          "id": 587,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 1",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-587.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "id": 588,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 2",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-588.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 2
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-53.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-53.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        589,
+        590,
+        591,
+        592
+      ],
+      "pages": [
+        {
+          "id": 589,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 3",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-589.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "id": 590,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 4",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-590.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "id": 591,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 5",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-591.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "id": 592,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 6",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-592.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 6
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-54.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-54.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        593,
+        594,
+        595,
+        596
+      ],
+      "pages": [
+        {
+          "id": 593,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 7",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-593.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "id": 594,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 8",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-594.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "id": 595,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 9",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-595.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "id": 596,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 10",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-596.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [
+        593
+      ],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-55.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-55.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        597,
+        598,
+        599,
+        600
+      ],
+      "pages": [
+        {
+          "id": 597,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 11",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-597.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "id": 598,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 12",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-598.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": 599,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 13",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-599.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "id": 600,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 14",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-600.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 14
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-56.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-56.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        601,
+        602,
+        603,
+        604
+      ],
+      "pages": [
+        {
+          "id": 601,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 15",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-601.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "id": 602,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 16",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-602.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "id": 603,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 17",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-603.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "id": 604,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 18",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-604.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 18
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-57.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-57.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        605,
+        606,
+        607,
+        608
+      ],
+      "pages": [
+        {
+          "id": 605,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 19",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-605.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "id": 606,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 20",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-606.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "id": 607,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 21",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-607.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "id": 608,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 22",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-608.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 22
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-58.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-58.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        609,
+        610,
+        611,
+        612
+      ],
+      "pages": [
+        {
+          "id": 609,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 23",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-609.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "id": 610,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 24",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-610.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "id": 611,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 25",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-611.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "id": 612,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 26",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-612.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 26
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [
+        612
+      ],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-59.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-59.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        613,
+        614,
+        615,
+        616
+      ],
+      "pages": [
+        {
+          "id": 613,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 27",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-613.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "id": 614,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 28",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-614.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 28
+            }
+          ]
+        },
+        {
+          "id": 615,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 29",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-615.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 29
+            }
+          ]
+        },
+        {
+          "id": 616,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 30",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-616.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 30
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    },
+    {
+      "sheet": "changed-60.jpg",
+      "sheet_path": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\naturalism-v11\\visual\\changed-60.jpg",
+      "visually_viewed": true,
+      "page_ids": [
+        617,
+        618
+      ],
+      "pages": [
+        {
+          "id": 617,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 31",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-617.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 31
+            }
+          ]
+        },
+        {
+          "id": 618,
+          "label": "Game_Mechanics_2026_ORGANIZER_ONLY / 32",
+          "image": "C:\\Users\\dalmo\\Documents\\Codex\\2026-10-03\\referenced-chatgpt-conversation-this-is-an\\work\\murdermystery\\build\\review\\page-618.png",
+          "copies": [
+            {
+              "file": "SPOILERS_DO_NOT_OPEN\\Game_Mechanics_2026_ORGANIZER_ONLY.pdf",
+              "page": 32
+            }
+          ]
+        }
+      ],
+      "individual_full_size_viewed": [
+        618
+      ],
+      "observations": "Landscape mechanics/branch pages: tables fit within page, labels and separators align, columns remain distinct. Contact-sheet gray space below landscape thumbnails is not whitespace in the PDF. Dense tables examined visually; no clipped rows or footer collisions.",
+      "findings": [],
+      "status": "pass"
+    }
+  ],
+  "source_edits": false
+}

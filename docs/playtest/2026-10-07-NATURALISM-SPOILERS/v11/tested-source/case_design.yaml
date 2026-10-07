@@ -1,0 +1,108 @@
+schema_version: 1
+revision: 'Tenth pass: distinct gala activities and plausible shared materials'
+status: Fresh blind and naturalism validation pending
+victim: Grant Larceny
+fictional_material: Cyanide in a sealed historical poison bottle acquired by Grant; fictional artifact, murder
+  case and laboratory comparison. No recipe or quantity.
+crime:
+  actor_count: 1
+  actor_pool: attending characters only
+  necessary_actions:
+  - id: acquire_sample
+    place: shared conservation preparation room
+    interval:
+    - 20
+    - 28
+    facts:
+    - F2
+    - F4
+    explanation: The bottle was photographed full with its custody band intact before the 6:20 walkthrough.
+      It was returned to the locked cupboard at 6:28. A concealed split beneath the band was discovered during
+      the investigation. Grant had overruled the conservator’s request to keep the object behind the cupboard
+      door.
+  - id: contaminate_coupe
+    place: Donor Salon
+    interval:
+    - 32
+    - 44
+    facts:
+    - F3
+    - F5
+    explanation: The new glass was unwrapped and placed on the table at 6:32. The server returned to the kitchen.
+      At 6:44 the server collected it on the tray and kept it through the pour and toast. The shared punch
+      and food were clear.
+  pour: 46
+  toast: 49
+  common_access: All gala guests were invited to the preparation walkthrough. The preparation room was open
+    to them from 6:20 to 6:28; the Donor Salon service table was unattended while the glass was uncovered.
+    No role requires specialist credentials to commit the crime.
+  innocent_testimony_rule: Printed innocent facts are true, including admissions of unrelated misconduct. Murderer
+    facts before confession can be true or evasive but never assert a complete exclusion. Guests do not invent
+    additional factual claims.
+  inference_limit: Documents establish access and object custody. Scripted testimony supplies personal actions.
+    Laboratory comparison is fictional case evidence, not proof that any real chemical can be uniquely traced
+    to one bottle. No dosage or preparation is specified.
+  immutable_public_copy: source/public_assets_lock.json
+  eliminated_mechanisms:
+  - thirty-source certification archive
+  - BRASS clock correction
+  - compulsory discovery-based alibi attachments
+  - precisely synchronized manual-task alibis
+  - RECEIVED stamp activation
+  - wrapper-versus-placemat test
+  - glass cover with numbered security seal
+  - mandatory counter-barrier exclusion families
+  transport_film: Ordinary protective gift-shop wrapping, removed before setting the donor’s place; no logo-construction
+    test.
+  death: Grant becomes ill and dies at the gala shortly after the private toast. No instant-death claim, hospital
+    detour or overnight story jump.
+release_order:
+  motive:
+  - F1
+  - F2
+  opportunity:
+  - F3
+  method:
+  - F4
+  - F5
+discovery_policy: All sixteen discoveries are opened and publicly shared during the hunt. Missing discoveries
+  are supplied by the host before Act I. Necessary crime facts also appear in official releases. No finder
+  has exclusive evidence.
+constraints:
+- Every one of thirty culprit choices must support both necessary actions.
+- Each innocent supplies exculpatory facts about suspicious evidence or activity. Four first-admission accounts
+  exclude source access; twenty-six supply ordinary corroboration and contextual explanations.
+- Each character has an unrelated scandal disclosed in both branches.
+- No fixed exhibit permanently excludes a named character.
+- No public role, relationship, portrait, invite, or already-sent character sheet changes.
+- Coming Clean explains evidence already released; it introduces no necessary solution fact.
+proof_families:
+  first_admission: 4
+  contextual: 26
+reveal_design:
+  motive: Grievances and concealed misconduct; no uniquely defensible accusation.
+  opportunity: Individual scandals and comparable access accounts. Material findings and the limits of each
+    account are disclosed in Method.
+  method: Similar foil stock has legitimate conservation and performance uses. Innocent retained records explain
+    the separate misconduct and materials. The strongest accusation combines an otherwise unexplained inventory
+    scrap, source access, glass encounter and motive; similarity alone does not prove identity.
+  difficulty_measurement: Expert full-transcript solve rate is not a human solve-rate estimate. Track premature
+    unique solutions, proof clarity, repeated language and actual human rehearsal separately.
+poison_backstory:
+  artifact: 'Lot 73: The Velvet Widow poison bottle'
+  provenance: Eleanor Vale murder case, 1891; entirely fictional
+  buyer: Grant Larceny
+  exhibition: The Art of Murder
+  conflict: Grant insisted on retaining the original contents. The conservator requested an empty replica and
+    withheld exhibition approval.
+  preparation: Final condition inspection before the unveiling, during the 6:20–6:28 guest walkthrough.
+  discovery_documents:
+    '13': Acquisition receipt with buyer’s original-contents condition
+    '14': Conservator’s objection and inspection arrangements
+  design_purpose: The victim’s newest acquisition becomes the murder weapon; the hazard reflects his vanity
+    and disregard for museum staff rather than routine pesticide use.
+residual_suspects:
+- '02'
+- '04'
+- '12'
+- '23'

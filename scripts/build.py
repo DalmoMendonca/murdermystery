@@ -264,7 +264,7 @@ def spoiler(chars):
         y=s.block(c['name'],42,105,528,28,'BookBold',TEAL)+20
         for label,text in [('Innocent Coming Clean',c['private']['final_innocent']),
                            ('Murderer Coming Clean',c['private']['final_murderer']),
-                           ('Why the innocent account excludes murder',c['testimony_clearance']['explanation'])]:
+                           ('What the innocent evidence explains' if c['testimony_clearance']['family']=='contextual' else 'Why the innocent account excludes murder',c['testimony_clearance']['explanation'])]:
             y=s.block(label,42,y,528,16,'BookBold',TEAL)+7
             y=s.block(text,42,y,528,15,bottom=725)+20
         s.footer('Full hearings and briefing: this character’s packet / editable investigation_copy.yaml')

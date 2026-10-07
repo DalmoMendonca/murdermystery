@@ -1,5 +1,5 @@
 {
-  "revision": "Visible evidence / plain language / The Art of Murder acquisition",
+  "revision": "Tenth pass: distinct gala activities and plausible shared materials",
   "necessary_actions": [
     {
       "id": "acquire_sample",
@@ -12,24 +12,24 @@
         "F2",
         "F4"
       ],
-      "explanation": "The only acquired poison bottle was sealed and full when the preparation room opened at 6:20. It was empty when the room was locked at 6:28. It was unavailable before opening and after closure. The murderer personally took its contents; no accomplice or separate poison source exists in this fictional case."
+      "explanation": "The bottle was photographed full with its custody band intact before the 6:20 walkthrough. It was returned to the locked cupboard at 6:28. A concealed split beneath the band was discovered during the investigation. Grant had overruled the conservator’s request to keep the object behind the cupboard door."
     },
     {
       "id": "contaminate_coupe",
       "place": "Donor Salon",
       "interval": [
-        40,
+        32,
         44
       ],
       "facts": [
         "F3",
         "F5"
       ],
-      "explanation": "The glass was inside intact blue protective wrapping under staff watch until 6:40. Its inside was accessible until staff covered and sealed it at 6:44. The cover stayed sealed until the watched 6:46 pour, followed by the 6:49 toast. The same glass was used throughout; the shared punch was not poisoned."
+      "explanation": "The new glass was unwrapped and placed on the table at 6:32. The server returned to the kitchen. At 6:44 the server collected it on the tray and kept it through the pour and toast. The shared punch and food were clear."
     }
   ],
   "poisoning_interval": [
-    40,
+    32,
     44
   ],
   "sample_access_interval": [
@@ -54,17 +54,11 @@
     ]
   },
   "inference_limit": "Documents establish access and object custody. Scripted testimony supplies personal actions. Laboratory comparison is fictional case evidence, not proof that any real chemical can be uniquely traced to one bottle. No dosage or preparation is specified.",
-  "source_routes": {
-    "east_visitor": "shelves accessible during walkthrough",
-    "west_return": "fixed barrier, staff paperwork exchanges only, no cyanide issued"
-  },
-  "transport_film": "Blue protective plastic wrapping with the museum logo sticker bridging its sealed seam; distinct from the embroidered blue cloth placemat.",
-  "receiving_seal": "Raised RECEIVED embossing first activated 6:45 after the glass cover was sealed; red-pencil working carbons lack raised impression.",
+  "source_routes": {},
+  "transport_film": "Ordinary protective gift-shop wrapping, removed before setting the donor’s place; no logo-construction test.",
+  "receiving_seal": null,
   "proof_families": {
-    "continuous_activity": 8,
     "first_admission": 4,
-    "route": 5,
-    "guard": 7,
-    "sequence": 6
+    "contextual": 26
   }
 }

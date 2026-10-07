@@ -8,7 +8,7 @@ def sync():
     design=yaml.safe_load((ROOT/'source/case_design.yaml').read_text(encoding='utf-8'))
     evidence=yaml.safe_load((ROOT/'source/evidence_design.yaml').read_text(encoding='utf-8'))
     write('investigation.json',evidence['reports']);write('discoveries.json',evidence['discoveries'])
-    write('case.json',{'revision':design['revision'],'necessary_actions':design['crime']['necessary_actions'],'poisoning_interval':[40,44],'sample_access_interval':[20,28],'critical_discoveries':[14,16],'release_order':design['release_order'],'inference_limit':design['crime']['inference_limit'],'source_routes':design['crime']['source_routes'],'transport_film':design['crime']['transport_film'],'receiving_seal':design['crime']['receiving_seal'],'proof_families':design['proof_families']})
+    write('case.json',{'revision':design['revision'],'necessary_actions':design['crime']['necessary_actions'],'poisoning_interval':[32,44],'sample_access_interval':[20,28],'critical_discoveries':[14,16],'release_order':design['release_order'],'inference_limit':design['crime']['inference_limit'],'source_routes':design['crime'].get('source_routes',{}),'transport_film':design['crime']['transport_film'],'receiving_seal':design['crime'].get('receiving_seal'),'proof_families':design['proof_families']})
     # The sent public fields are untouched. Compatibility private fields use one loader.
     from character_copy import load_characters
     chars=load_characters();write('characters.json',chars);names={int(c['id']):c['name'] for c in chars}
@@ -39,13 +39,13 @@ def sync():
       ([2,8,9],'What detail on your paperwork or its packaging should we notice?'),
       ([1,10,30],'What did you handle around the speech or service preparations?'),
       ([3,15,17],'What original record or material completes your account of the dispute?'),
-      ([5,20,24],'When did that work or interruption end, and what were your materials used for?'),
+      ([5,20,24],'Which retained record or material explains the work or problem you described?'),
       ([6,7,18],'What physical detail completes your account of the work you wanted protected?'),
       ([4,16,28],'What was on the material you brought, and what does it actually record?'),
       ([11,23,27],'What did your access or service arrangements actually involve?'),
       ([12,22,26],'Which original or retained material did you handle, and what marks does it bear?'),
       ([13,19,25],'What does the completed work or return record tell us?'),
-      ([14,21,29],'What detail on the original paper or record confirms the sequence you described?')]
+      ([14,21,29],'What retained paper or record supports your account, and what does it disclose?')]
     }
     write('question_rounds.json',[{'key':key,'title':key.title(),'groups':[{'targets':[names[i] for i in ids],'question':q} for ids,q in groups]} for key,groups in specifications.items()])
     print('Compiled evidence, case constraints, private compatibility data, and three regrouped question pages')
