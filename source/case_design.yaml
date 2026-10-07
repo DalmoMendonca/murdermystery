@@ -1,8 +1,9 @@
 schema_version: 1
-revision: Evidence-led gala / dramatic accounts and staged deductions
+revision: Visible evidence / plain language / The Art of Murder acquisition
 status: implementation in progress
 victim: Grant Larceny
-fictional_material: C-17 botanical reference solution; invented for this game, no real recipe or dosage
+fictional_material: Cyanide in a sealed historical poison bottle acquired by Grant; fictional artifact,
+  murder case and laboratory comparison. No recipe or quantity.
 crime:
   actor_count: 1
   actor_pool: attending characters only
@@ -15,10 +16,10 @@ crime:
     facts:
     - F2
     - F4
-    explanation: The sole C-17 vial was full and sealed when the room opened at 6:20. It was empty when
-      the room was locked at 6:28. It was never available to guests before or after that period. The sole
-      murderer personally removed its contents; no accomplice or independent poison source exists in this
-      fictional case.
+    explanation: The only acquired poison bottle was sealed and full when the preparation room opened
+      at 6:20. It was empty when the room was locked at 6:28. It was unavailable before opening and after
+      closure. The murderer personally took its contents; no accomplice or separate poison source exists
+      in this fictional case.
   - id: contaminate_coupe
     place: Donor Salon
     interval:
@@ -27,20 +28,21 @@ crime:
     facts:
     - F3
     - F5
-    explanation: The coupe came from guarded sealed transport at the first service bell. A numbered dome
-      was sealed at the second bell. Only the inside of this coupe, not the drink supply or food, carried
-      C-17. One guest applied it directly during the open service period.
+    explanation: The glass was inside intact blue protective wrapping under staff watch until 6:40. Its
+      inside was accessible until staff covered and sealed it at 6:44. The cover stayed sealed until the
+      watched 6:46 pour, followed by the 6:49 toast. The same glass was used throughout; the shared punch
+      was not poisoned.
   pour: 46
   toast: 49
   common_access: All gala guests were invited to the preparation walkthrough. The preparation room was
-    open to them from 6:20 to 6:28; the Donor Salon service table was unattended between the two service
-    bells. No role requires specialist credentials to commit the crime.
+    open to them from 6:20 to 6:28; the Donor Salon service table was unattended while the glass was uncovered.
+    No role requires specialist credentials to commit the crime.
   innocent_testimony_rule: Printed innocent facts are true, including admissions of unrelated misconduct.
     Murderer facts before confession can be true or evasive but never assert a complete exclusion. Guests
     do not invent additional factual claims.
-  inference_limit: Operational evidence establishes crime constraints. Individual presence still comes
-    from scripted testimony; the kit must not label it independently certified when it is not. Automatic
-    validation proves authored-world consistency, not human belief or difficulty.
+  inference_limit: Documents establish access and object custody. Scripted testimony supplies personal
+    actions. Laboratory comparison is fictional case evidence, not proof that any real chemical can be
+    uniquely traced to one bottle. No dosage or preparation is specified.
   immutable_public_copy: source/public_assets_lock.json
   eliminated_mechanisms:
   - thirty-source certification archive
@@ -48,11 +50,13 @@ crime:
   - compulsory discovery-based alibi attachments
   source_routes:
     east_visitor: shelves accessible during walkthrough
-    west_return: fixed barrier, staff paperwork exchanges only, no C-17 issued
-  transport_film: Blue factory film with crest across sealed seam; distinct from reusable blue felt mat.
-    Papers may be delivered beside guarded package before the first bell, without interior access.
-  receiving_seal: Raised RECEIVED embossing first activated 6:45 after dome seal; red-pencil working carbons
+    west_return: fixed barrier, staff paperwork exchanges only, no cyanide issued
+  transport_film: Blue protective plastic wrapping with the museum logo sticker bridging its sealed seam;
+    distinct from the embroidered blue cloth placemat.
+  receiving_seal: Raised RECEIVED embossing first activated 6:45 after the glass cover was sealed; red-pencil working carbons
     lack raised impression.
+  death: Grant becomes ill and dies at the gala shortly after the private toast. No instant-death claim,
+    hospital detour or overnight story jump.
 release_order:
   motive:
   - F1
@@ -86,3 +90,16 @@ reveal_design:
     case.
   difficulty_measurement: Expert full-transcript solve rate is not a human solve-rate estimate. Track
     premature unique solutions, proof clarity, repeated language and actual human rehearsal separately.
+poison_backstory:
+  artifact: 'Lot 73: The Velvet Widow poison bottle'
+  provenance: Eleanor Vale murder case, 1891; entirely fictional
+  buyer: Grant Larceny
+  exhibition: The Art of Murder
+  conflict: Grant insisted on retaining the original contents. The conservator requested an empty replica
+    and withheld exhibition approval.
+  preparation: Final condition inspection before the unveiling, during the 6:20–6:28 guest walkthrough.
+  discovery_documents:
+    '13': Acquisition receipt with buyer’s original-contents condition
+    '14': Conservator’s objection and inspection arrangements
+  design_purpose: The victim’s newest acquisition becomes the murder weapon; the hazard reflects his vanity
+    and disregard for museum staff rather than routine pesticide use.

@@ -1,5 +1,5 @@
 {
-  "revision": "Evidence-led gala / dramatic accounts and staged deductions",
+  "revision": "Visible evidence / plain language / The Art of Murder acquisition",
   "necessary_actions": [
     {
       "id": "acquire_sample",
@@ -12,7 +12,7 @@
         "F2",
         "F4"
       ],
-      "explanation": "The sole C-17 vial was full and sealed when the room opened at 6:20. It was empty when the room was locked at 6:28. It was never available to guests before or after that period. The sole murderer personally removed its contents; no accomplice or independent poison source exists in this fictional case."
+      "explanation": "The only acquired poison bottle was sealed and full when the preparation room opened at 6:20. It was empty when the room was locked at 6:28. It was unavailable before opening and after closure. The murderer personally took its contents; no accomplice or separate poison source exists in this fictional case."
     },
     {
       "id": "contaminate_coupe",
@@ -25,7 +25,7 @@
         "F3",
         "F5"
       ],
-      "explanation": "The coupe came from guarded sealed transport at the first service bell. A numbered dome was sealed at the second bell. Only the inside of this coupe, not the drink supply or food, carried C-17. One guest applied it directly during the open service period."
+      "explanation": "The glass was inside intact blue protective wrapping under staff watch until 6:40. Its inside was accessible until staff covered and sealed it at 6:44. The cover stayed sealed until the watched 6:46 pour, followed by the 6:49 toast. The same glass was used throughout; the shared punch was not poisoned."
     }
   ],
   "poisoning_interval": [
@@ -53,13 +53,13 @@
       "F5"
     ]
   },
-  "inference_limit": "Operational evidence establishes crime constraints. Individual presence still comes from scripted testimony; the kit must not label it independently certified when it is not. Automatic validation proves authored-world consistency, not human belief or difficulty.",
+  "inference_limit": "Documents establish access and object custody. Scripted testimony supplies personal actions. Laboratory comparison is fictional case evidence, not proof that any real chemical can be uniquely traced to one bottle. No dosage or preparation is specified.",
   "source_routes": {
     "east_visitor": "shelves accessible during walkthrough",
-    "west_return": "fixed barrier, staff paperwork exchanges only, no C-17 issued"
+    "west_return": "fixed barrier, staff paperwork exchanges only, no cyanide issued"
   },
-  "transport_film": "Blue factory film with crest across sealed seam; distinct from reusable blue felt mat. Papers may be delivered beside guarded package before the first bell, without interior access.",
-  "receiving_seal": "Raised RECEIVED embossing first activated 6:45 after dome seal; red-pencil working carbons lack raised impression.",
+  "transport_film": "Blue protective plastic wrapping with the museum logo sticker bridging its sealed seam; distinct from the embroidered blue cloth placemat.",
+  "receiving_seal": "Raised RECEIVED embossing first activated 6:45 after the glass cover was sealed; red-pencil working carbons lack raised impression.",
   "proof_families": {
     "continuous_activity": 8,
     "first_admission": 4,

@@ -2,144 +2,165 @@
   {
     "id": "F1",
     "department": "MERIDIAN / BOARD SECRETARY",
-    "title": "Conditions attached to the gift",
-    "text": "Grant Larceny collapsed after the private toast and has died. Until the investigators finish their findings, preserve the service materials. His unsigned gift agreement would rename the museum, grant him acquisition vetoes, and require Artie's resignation. The related papers include a trust amendment, withheld invoices, disputed ownership files, and proposed cuts to education. These conditions were scheduled for announcement tonight.",
+    "title": "The gift came with conditions",
+    "text": "Grant Larceny has died at the gala after his private toast. His proposed gift agreement is still unsigned. These are the terms he intended to announce tonight.",
     "rows": [
       [
-        "Agreement status",
-        "Unsigned / awaiting acceptance"
+        "1. Museum name",
+        "The Grant Larceny Meridian Museum"
       ],
       [
-        "Announcement",
-        "After the private toast"
+        "2. Collection decisions",
+        "Grant may veto future acquisitions"
       ],
       [
-        "Attached papers",
-        "Trust, budget, invoices, accession file"
+        "3. Museum director",
+        "Artie Ficial must resign within sixty days"
       ]
-    ]
+    ],
+    "layout": "gift_document",
+    "document_label": "DRAFT GIFT AGREEMENT / NOT SIGNED"
   },
   {
     "id": "F2",
-    "department": "MERIDIAN / PREPARATION STEWARD",
-    "title": "Reference room incident notice",
-    "text": "All gala guests were invited to the preparation walkthrough. The shared room and reference cupboard were open to visitors. After the walkthrough, the steward discovered the C-17 reference vial empty and secured the room. The vial and service materials have been preserved for comparison. The inventory discrepancy is being investigated. A missing reference material is not, by itself, a finding about the cause of death.",
+    "department": "MERIDIAN / COLLECTIONS ASSISTANT",
+    "title": "An empty bottle in preparation",
+    "text": "I found the newly acquired poison bottle empty after the preparation-room tour. Its paper seal was broken. I locked the room and retained the bottle for examination. It had been brought out for the condition inspection of Grant’s proposed exhibition centerpiece. Signed: Collections Assistant.",
     "rows": [
       [
-        "Visitor permission",
-        "All gala guests"
+        "Object",
+        "The Velvet Widow poison bottle / acquisition lot 73"
       ],
       [
-        "Missing material",
-        "Contents of the sole C-17 vial"
+        "Label",
+        "CYANIDE / POISON"
       ],
       [
-        "Initial action",
-        "Room locked; vial preserved"
+        "Found",
+        "Empty; original paper seal broken"
       ]
-    ]
+    ],
+    "layout": "bottle_photo",
+    "photo": "cyanide_bottle"
   },
   {
     "id": "F3",
-    "department": "MERIDIAN / PRIVATE SERVICE STEWARD",
-    "title": "The two service bells",
-    "text": "The initial examination found C-17 inside Grant's coupe. The communal cordial and food controls were clear. Service account: The coupe arrived in blue factory film with a white crest across the closed seam. I guarded that package during paper deliveries. At the first bell, 6:40, I cut through the crest, unwrapped the coupe, and left it unattended on the service table. At the second bell, 6:44, I sealed a clear dome over it. I watched the intact seal until the 6:46 pour and watched the glass until Grant drank at 6:49. Nobody substituted a vessel. Guests delivered papers before and after the open period too.",
+    "department": "MERIDIAN / CATERER’S RECORD",
+    "title": "What happened to Grant’s glass",
+    "text": "These are my setup photos. I stayed with the wrapped glass until 6:40. From 6:40 to 6:44, I was away from the table. After sealing the cover at 6:44, I watched it until I opened it to pour. I then watched Grant’s glass until his 6:49 toast. The same glass was used throughout. Signed: Service Manager.",
     "rows": [
       [
-        "First bell / 6:40",
-        "Coupe unwrapped; table accessible"
+        "Initial lab finding",
+        "Cyanide inside Grant’s glass"
       ],
       [
-        "Second bell / 6:44",
-        "Numbered dome seal applied"
-      ],
-      [
-        "6:46",
-        "Seal opened; cordial poured"
-      ],
-      [
-        "6:49",
-        "Grant drank from the coupe"
+        "Shared punch and food",
+        "No cyanide detected"
       ]
+    ],
+    "layout": "service_photos",
+    "photo": "service_photos",
+    "timeline": [
+      {
+        "time": "6:39",
+        "caption": "Still wrapped; seal intact"
+      },
+      {
+        "time": "6:40",
+        "caption": "Unwrapped; glass left unattended"
+      },
+      {
+        "time": "6:44",
+        "caption": "Covered; red seal applied"
+      },
+      {
+        "time": "6:46",
+        "caption": "Seal opened; punch poured"
+      }
     ]
   },
   {
     "id": "F4",
-    "department": "MERIDIAN / REFERENCE INVENTORY",
-    "title": "One vial, one missing sample",
-    "text": "The steward inspected the sole C-17 vial full and sealed when the preparation room opened at 6:20. It was empty at the 6:28 closure. The cupboard was accessible only during that walkthrough. Laboratory comparison identifies the distinctive C-17 batch in the material recovered from the coupe. The batch log records one sealed vial of this formulation prepared for tonight’s walkthrough. No other aliquot was issued. The room was locked after closure; nobody could obtain it later.",
+    "department": "MERIDIAN / COLLECTIONS INVENTORY",
+    "title": "When the bottle was accessible",
+    "text": "The bottle was kept locked away before the tour. It was put on the visitor-side shelf when the room opened and locked away again at closing. Nobody obtained it outside those eight minutes. The laboratory matched material remaining in the bottle to residue inside Grant’s glass.",
     "rows": [
       [
-        "6:20 / room opened",
-        "Vial full; original seal intact"
+        "6:20 / room opens",
+        "Bottle full; original paper seal intact"
       ],
       [
-        "6:28 / room closed",
-        "Vial empty; cupboard secured"
+        "6:28 / room closes",
+        "Bottle empty; cupboard locked"
       ],
       [
-        "Source comparison",
-        "Unique C-17 reference batch"
+        "Other poison objects",
+        "No other bottles brought out or given to guests"
       ]
     ],
     "appendix": {
-      "title": "Preparation department / access plan",
+      "title": "Two different ways to approach preparation",
       "diagram": "preparation_routes",
       "rows": [
         [
-          "East visitor entrance",
-          "Only guest route to the open shelves"
+          "WEST / return counter",
+          "Papers pass through a small slot"
         ],
         [
-          "West return counter",
-          "Outside the fixed barrier; staff exchanges only"
-        ],
-        [
-          "Source cupboard",
-          "Visitor side / open 6:20–6:28"
+          "EAST / visitor doorway",
+          "Guests can enter and reach the shelf"
         ]
       ],
-      "text": "The west counter is in the corridor, separated from the preparation shelves by a fixed solid barrier. The staff return slot passes loan papers and support sleeves; it does not give guests access to the cupboard. Staff did not issue or pass C-17 through that slot. Guests entering the east visitor door could reach the open cupboard during the walkthrough. The source was unavailable before opening and after closure."
-    }
+      "text": "The west return counter is outside a solid wall. Its small slot passes papers and support sleeves, not people. Staff did not pass the bottle or its contents through it. The east doorway is the only guest entrance to the shelves.",
+      "photo": "preparation_access"
+    },
+    "layout": "inventory_photo",
+    "photo": "cyanide_bottle"
   },
   {
     "id": "F5",
-    "department": "FORENSIC LABORATORY / SERVICE MATERIALS",
-    "title": "The poison was on the vessel",
-    "photo": "silver_coupe",
-    "text": "C-17 was present on the inner surface of Grant's private coupe, beneath the cordial line. The communal decanter, food, serving utensils, and poured cordial control were free of C-17. The coupe's guarded transport film excluded interior access before the first bell; the intact service dome and continuous watch excluded later contamination. The solution was deliberately applied directly inside the open coupe between the two bells, before the pour.",
+    "department": "LABORATORY / CASE FINDINGS",
+    "title": "The glass, not the punch",
+    "photo": "service_photos",
+    "text": "Cyanide was found on the inside of Grant’s glass. Samples of the shared punch and food were clear. Material remaining in the acquired poison bottle matches the residue in the glass. The lab result identifies the poisoned object; the caterer’s record establishes how it was handled.",
     "rows": [
       [
-        "Coupe interior",
-        "C-17 detected"
+        "Grant’s glass / inside",
+        "CYANIDE DETECTED"
       ],
       [
-        "Decanter and food",
-        "C-17 not detected"
+        "Shared punch pitcher",
+        "NO CYANIDE DETECTED"
       ],
       [
-        "Service dome",
-        "Seal intact until witnessed opening"
+        "Food samples",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Acquired poison bottle",
+        "MIXTURE MATCHES GLASS RESIDUE"
       ]
     ],
     "appendix": {
-      "title": "Packaging and receiving desk log",
+      "title": "Two details from the museum’s records",
       "diagram": "packaging_seals",
       "rows": [
         [
-          "Transport covering",
-          "Blue factory film / crest crosses sealed seam"
+          "Blue protective wrapping",
+          "Logo sticker across a closed seam"
         ],
         [
-          "Table mat",
-          "Blue reusable felt / stitched crest"
+          "Blue cloth placemat",
+          "Logo embroidered into fabric"
         ],
         [
-          "RECEIVED embossing",
-          "First impression at 6:45"
+          "Raised RECEIVED stamp",
+          "First used at 6:45"
         ]
       ],
-      "text": "The original transport film stayed sealed until the first bell. Its factory crest crossed the closed seam; the recovered film bears the cut made during unwrapping. The felt mat has a stitched crest and no sealed seam. The receiving clerk activated the raised RECEIVED seal at 6:45, after the second bell and dome seal. Earlier working carbons and red-pencil corrections have no raised impression. Originals were embossed individually on presentation; a carbon copy is not an embossed original."
-    }
+      "text": "The museum-logo sticker bridged the sealed plastic wrapping. The placemat’s logo was sewn into cloth. They are different objects. The receiving desk first used its raised RECEIVED stamp at 6:45. Earlier working copies had flat red-pencil corrections, not that stamp.",
+      "photo": "paper_marks"
+    },
+    "layout": "lab_findings"
   }
 ]

@@ -1,0 +1,1 @@
+Original generated artwork and prompts for the sixth evidence revision. Print-sized JPEG derivatives are included in the editable source ZIP; these full-resolution PNG precursors are preserved in the repository. Evidence captions, times and document text are typeset by scripts/evidence_design.py, not delegated to generated image text.

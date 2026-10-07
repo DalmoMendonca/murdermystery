@@ -36,9 +36,9 @@ def check_testimony():
         for branch in ['innocent','murderer']:
             spoken=' '.join(c['hearing'][b+'_'+branch] for b in ['motive','where','evidence']).casefold()
             assert row['suspicion'].casefold() in spoken,(c['name'],'scandal not disclosed',branch)
-            assert not re.search(r'\bi (?:poisoned|killed|murdered|took c-17|coated his coupe)\b',spoken),(c['name'],'premature confession')
+            assert not re.search(r'\bi (?:poisoned|killed|murdered|took cyanide|coated his glass)\b',spoken),(c['name'],'premature confession')
         final=c['private']['final_murderer'].casefold()
-        assert 'c-17' in final and ('bell' in final) and ('coupe' in final),c['name']
+        assert 'cyanide' in final and 'uncovered' in final and 'glass' in final,c['name']
         audit.append({'character':c['name'],'excluded_required_action':proof['action'],'argument':proof['explanation'],'references':actions[proof['action']]['facts'],'assumption':'Scripted innocent testimony is true; this is not independently certified identity evidence.'})
     active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
     # Enumerate every selected culprit under five attendance families. No all-subsets claim.

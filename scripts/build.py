@@ -338,6 +338,9 @@ def build_kit():
             im=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
             origin='impeccable:prompt Origin: rendered from '+path.name+' by scripts/build.py; exact portrait prompt in source/art_direction.json.'
             im.save(KIT/'OPEN_FREELY/PreParty_Individual'/path.with_suffix('.jpg').name,quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
+    import runpy
+    runpy.run_path(str(ROOT/'scripts/build_mechanics_atlas.py'),run_name='__main__')
+    shutil.copy2(WORK/'organizer/Game_Mechanics_2026_ORGANIZER_ONLY.pdf',KIT/'SPOILERS_DO_NOT_OPEN/Game_Mechanics_2026_ORGANIZER_ONLY.pdf')
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
     from export_phone_images import export
     if not frozen_public:export()
@@ -381,7 +384,7 @@ def play_aids(chars):
               'Leave ballot page 11 loose inside. Staple other pages in order at the upper left. Orientation, hunt hints, questions, answers and Coming Clean stay with the guest.',
               'Place the covered packet facing up at the guest’s named seat, with a pencil. Keep the public introduction separate for sending before the party.',
               'If using the combined file, each consecutive twelve-page block belongs to the next name listed below. Do not read private pages while assembling.',
-              'Print the host guide and roster. Hide Discoveries 1–16; display missed finds afterward. Reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
+              'Print the host guide and roster. Hide Discoveries 1–16; display missed finds afterward. Evidence 1–2 before Motive, Evidence 3 before Opportunity, Evidence 4–5 before Method.']:
         y=s.block(t,42,y,528,14)+12
     active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
     event_chars=[c for c in chars if c['id'] in active];half=(len(event_chars)+1)//2

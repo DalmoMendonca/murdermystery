@@ -8,9 +8,9 @@ characters:
     anchors:
     - I began revising the acknowledgments with the board chair at 6:36.
     - The chair's final correction came at 6:46.
-    explanation: Artie's live exchange on a fixed boardroom speakerphone spans both service bells; the
-      caller's requested edits tie the conversation to live participation, not a recording. The fixed
-      line is in another room.
+    explanation: Artie's live exchange on a fixed boardroom speakerphone spans the full uncovered-glass
+      period; the caller's requested edits tie the conversation to live participation, not a recording.
+      The fixed line is in another room.
     activity_premise: The speakerphone is fixed to the boardroom wall.
     family: continuous_activity
   hearings:
@@ -41,12 +41,12 @@ characters:
   coming_clean:
     innocent: The rival museum is real. I was leaving, and I let Grant think I might still accept his
       terms because I wanted the board to see what he demanded. My conversation with the chair lasted
-      across both service bells on the fixed boardroom phone. I concealed a career move, not a trip to
-      his glass. Tomorrow I will submit my resignation on my own stationery.
-    murderer: I murdered Grant. During the preparation walkthrough I took C-17 from the open room and
-      hid it in my pocket square. Between the service bells, I brought his corrected speech cards to the
-      Salon and wiped the solution inside his coupe. The dome and the pour finished the service exactly
-      as planned. He wanted my resignation. I gave him a farewell toast instead.
+      across the full uncovered-glass period on the fixed boardroom phone. I concealed a career move,
+      not a trip to his glass. Tomorrow I will submit my resignation on my own stationery.
+    murderer: I murdered Grant. During the preparation walkthrough I took cyanide from the open room and
+      hid it in my pocket square. While the glass was uncovered, I brought his corrected speech cards
+      to the Salon and wiped the solution inside his glass. The glass cover and the pour finished the
+      service exactly as planned. He wanted my resignation. I gave him a farewell toast instead.
   briefing:
     history: 'Grant had privately informed you that tonight''s gift would come with a new governance agreement:
       he wanted veto power over acquisitions, his name on the museum, and your resignation within sixty
@@ -65,22 +65,22 @@ characters:
     round: opportunity
     anchors:
     - I delivered the revised provenance folder to the private service station. The steward held the wrapped
-      coupe while Grant criticized my label. Across the package, the printed museum crest joined neatly
+      glass while Grant criticized my label. Across the package, the printed museum logo joined neatly
       over the closed seam. It was still joined when the steward took my folder and I left. That was the
       whole of my visit to Grant's service table before the toast.
     activity_premise: I delivered the revised provenance folder to the private service station.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
       text: I delivered the revised provenance folder to the private service station. The steward held
-        the wrapped coupe while Grant criticized my label. Across the package, the printed museum crest
+        the wrapped glass while Grant criticized my label. Across the package, the printed museum logo
         joined neatly over the closed seam. It was still joined when the steward took my folder and I
         left. That was the whole of my visit to Grant's service table before the toast.
     - round: evidence
-      text: I remember that crest because Grant said my ownership history should fit beneath one just
-        as neatly.
+      text: I remember that museum logo because Grant said my ownership history should fit beneath one
+        just as neatly.
   hearings:
     motive_innocent: I entered the preparation room through the east visitor door during the walkthrough
       to check the supplier names on the reference labels. I commissioned an independent review and concealed
@@ -92,28 +92,28 @@ characters:
       I concealed it because he had threatened to remove me and replace the label with his preferred history.
       A curator chooses what a museum says. He wanted me to be the person who stood beside a lie and smiled.
     where_innocent: I delivered the revised provenance folder to the private service station. The steward
-      held the wrapped coupe while Grant criticized my label. Across the package, the printed museum crest
+      held the wrapped glass while Grant criticized my label. Across the package, the printed museum logo
       joined neatly over the closed seam. It was still joined when the steward took my folder and I left.
       That was the whole of my visit to Grant's service table before the toast.
     where_murderer: I delivered the revised provenance folder to the private service station. The steward
-      had stepped away. Blue material lay beside Grant's coupe while I spread out the folder. Grant thought
+      had stepped away. Blue material lay beside Grant's glass while I spread out the folder. Grant thought
       the longer ownership history spoiled the design. I offered to shorten his biography instead. A patron's
       title is often the least well-supported claim on a label.
-    evidence_innocent: I remember that crest because Grant said my ownership history should fit beneath
-      one just as neatly. The missing export permit remained missing. I had brought a folder with a longer
-      label; I left with instructions to make the facts smaller.
-    evidence_murderer: The blue material was the reusable felt mat, with a stitched museum crest. The
-      coupe stood on it without wrapping. The missing export permit remained missing. A shorter label
+    evidence_innocent: I remember that museum logo because Grant said my ownership history should fit
+      beneath one just as neatly. The missing export permit remained missing. I had brought a folder with
+      a longer label; I left with instructions to make the facts smaller.
+    evidence_murderer: The blue material was the reusable cloth placemat, with a stitched museum logo.
+      The glass stood on it without wrapping. The missing export permit remained missing. A shorter label
       would not have made it exist.
   coming_clean:
     innocent: I concealed an independent review because Grant wanted it withdrawn. The board will receive
-      it now. My sole approach to the service station ended with the coupe still inside intact transport
-      film, under the steward's eye. My hidden folder and my argument were real. Neither reached the inside
-      of his glass.
-    murderer: I took C-17 during the walkthrough and carried it in the label cloth. Between the bells,
-      I approached Grant with the revised provenance label and applied the solution inside his coupe beside
-      the folder. He drank after the dome was sealed and reopened for service. I preserved the review
-      and destroyed the man suppressing it. That was murder, not curatorial independence.
+      it now. My sole approach to the service station ended with the glass still inside intact blue plastic
+      wrapping, under the steward's eye. My hidden folder and my argument were real. Neither reached the
+      inside of his glass.
+    murderer: I took cyanide during the walkthrough and carried it in the label cloth. While the glass
+      was uncovered, I approached Grant with the revised provenance label and applied the solution inside
+      his glass beside the folder. He drank after the glass cover was sealed and reopened for service.
+      I preserved the review and destroyed the man suppressing it. That was murder, not curatorial independence.
   briefing:
     history: You discovered that Grant knew the Star Bowl's provenance file contained a major gap and
       ordered the exhibition to proceed anyway. He threatened to remove you from the show if you raised
@@ -159,13 +159,13 @@ characters:
       in the sale file was false, and my alteration concealed that failure rather than curing it.
   coming_clean:
     innocent: I hid a failure of due diligence, and clients deserve the corrected file. But I first entered
-      at 6:29, after the reference room was locked with its vial already empty. I could not personally
+      at 6:29, after the preparation room was locked with its bottle already empty. I could not personally
       acquire that sample. My envelope offered a settlement. Grant's talent was making a legitimate dispute
       sound like extortion with better stationery.
-    murderer: I took C-17 from the preparation shelves and hid it in my polishing cloth. Between the bells,
-      the settlement envelope gave me a reason to stand over Grant's coupe. I applied the solution inside
-      it while arranging the papers. The decanter stayed clean. I killed him over the ruin he threatened,
-      then hoped everyone would blame the forged certificate.
+    murderer: I took cyanide from the preparation shelves and hid it in my polishing cloth. While the
+      glass was uncovered, the settlement envelope gave me a reason to stand over Grant's glass. I applied
+      the solution inside it while arranging the papers. The pitcher stayed clean. I killed him over the
+      ruin he threatened, then hoped everyone would blame the forged certificate.
   briefing:
     history: Grant had learned that one certificate in a major private sale you brokered was forged before
       it ever reached you. He planned to imply publicly that you had created it unless you refunded him
@@ -184,17 +184,17 @@ characters:
     round: opportunity
     anchors:
     - I took the disputed expense schedule to Grant. His steward stood beside him holding the blue-wrapped
-      coupe. Grant circled my refusal so hard his pen tore the schedule. The museum crest ran across the
+      glass. Grant circled my refusal so hard his pen tore the schedule. The museum logo ran across the
       package seam without a break; it stayed that way until I left. I went once to that service station
       before the toast, and that was the visit.
     activity_premise: I took the disputed expense schedule to Grant.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
       text: I took the disputed expense schedule to Grant. His steward stood beside him holding the blue-wrapped
-        coupe. Grant circled my refusal so hard his pen tore the schedule. The museum crest ran across
+        glass. Grant circled my refusal so hard his pen tore the schedule. The museum logo ran across
         the package seam without a break; it stayed that way until I left. I went once to that service
         station before the toast, and that was the visit.
     - round: evidence
@@ -211,28 +211,28 @@ characters:
       If I refused, he would blame the whole mess on me. Apparently the museum's finance department existed
       to provide him with a culprit and a calculator.
     where_innocent: I took the disputed expense schedule to Grant. His steward stood beside him holding
-      the blue-wrapped coupe. Grant circled my refusal so hard his pen tore the schedule. The museum crest
+      the blue-wrapped glass. Grant circled my refusal so hard his pen tore the schedule. The museum logo
       ran across the package seam without a break; it stayed that way until I left. I went once to that
       service station before the toast, and that was the visit.
     where_murderer: I took the disputed expense schedule to the private service station. Grant circled
-      my refusal beside the coupe while the steward was away. Blue material was under the vessel. He wanted
+      my refusal beside the glass while the steward was away. Blue material was under the glass. He wanted
       his marble-wing expenses added to the same accounts I had abused for payroll. Two wrongs apparently
       qualify for a donor plaque.
     evidence_innocent: Grant's circles are on the schedule. The torn paper is mine; the blue package remained
       with the steward. My unauthorized transfer covered salaries. His proposed addition covered a marble
       likeness of himself. He wanted both charged to the same account.
-    evidence_murderer: The blue material was a reusable felt mat, not transport film. Its crest was stitched.
-      The cup above it was open. My unauthorized transfer covered salaries. Grant's proposed addition
-      covered a likeness of himself.
+    evidence_murderer: The blue material was a reusable cloth placemat, not blue plastic wrapping. Its
+      museum logo was stitched. The glass above it was open. My unauthorized transfer covered salaries.
+      Grant's proposed addition covered a likeness of himself.
   coming_clean:
     innocent: I will reverse the transfer and report it. It was unauthorized bookkeeping, and Grant's
       proposed expenses made the pressure worse. My only approach to his service station ended with the
-      coupe's factory film still intact. I could argue over the schedule beside a guarded package. I could
-      not contaminate the interior through that sealed wrapping.
-    murderer: I removed C-17 during the walkthrough and carried it in the pen cloth. Between the bells
-      I laid the expense schedule beside Grant's coupe and coated the inside while he inspected the figures.
-      The staff poured from a clean decanter into my contaminated glass. I balanced nothing. I murdered
-      the man threatening to make me answer for his accounts.
+      glass's sealed blue wrapping still intact. I could argue over the schedule beside a guarded package.
+      I could not contaminate the interior through that sealed wrapping.
+    murderer: I removed cyanide during the walkthrough and carried it in the pen cloth. While the glass
+      was uncovered I laid the expense schedule beside Grant's glass and coated the inside while he inspected
+      the figures. The staff poured from a clean pitcher into my contaminated glass. I balanced nothing.
+      I murdered the man threatening to make me answer for his accounts.
   briefing:
     history: Grant demanded that you disguise several gala and naming-wing expenses inside restricted
       museum funds until his promised donation cleared. When you resisted, he threatened to blame the
@@ -252,8 +252,8 @@ characters:
     - I started the panel treatment at 6:16.
     - The assistant released the treatment-box pressure seal at 6:30.
     explanation: Both hands remained in sealed treatment-box glove ports during the entire preparation
-      access period; an assistant outside passed tools and checked the pressure seal. The C-17 vial was
-      elsewhere.
+      access period; an assistant outside passed tools and checked the pressure seal. The poison bottle
+      was elsewhere.
     activity_premise: Both my arms stayed in the glove ports throughout the treatment.
     family: continuous_activity
   hearings:
@@ -284,13 +284,13 @@ characters:
   coming_clean:
     innocent: I falsified a date, and I will correct it even if the insurer makes a spectacle of me. The
       panel treatment occupied both hands in sealed glove ports for the whole preparation-room opening.
-      I could not remove the reference solution during that period. My later cloth held water. I was protecting
-      an object and concealing a professional mistake. Grant deserved an honest report, however badly
-      he behaved.
+      I could not remove the poison during that period. My later cloth held water. I was protecting an
+      object and concealing a professional mistake. Grant deserved an honest report, however badly he
+      behaved.
     murderer: The treatment box was my demonstration, not my alibi. I left it with my assistant, took
-      C-17 during the walkthrough, and hid it in treatment linen. Between the bells I approached Grant's
-      service table as if removing a mark, then coated the inside of his coupe. I knew what that solution
-      could do. After years of stabilizing damage, I deliberately caused it.
+      cyanide during the walkthrough, and hid it in treatment linen. While the glass was uncovered I approached
+      Grant's service table as if removing a mark, then coated the inside of his glass. I knew what that
+      solution could do. After years of stabilizing damage, I deliberately caused it.
   briefing:
     history: Grant pressured you to soften a conservation report showing that one supposedly untouched
       object had been recently altered. He threatened to replace you with a private conservator if you
@@ -309,8 +309,8 @@ characters:
     anchors:
     - My live pedestal performance started at 6:34.
     - The stage manager called the final live prompt at 6:46.
-    explanation: Dada performs continuously on a fixed pedestal across both service bells, with a stage
-      manager answering spoken prompts; it is a live performance rather than a video loop.
+    explanation: Dada performs continuously on a fixed pedestal across the full uncovered-glass period,
+      with a stage manager answering spoken prompts; it is a live performance rather than a video loop.
     activity_premise: I stayed on the fixed pedestal in the sculpture gallery, wearing the red shoes and
       answering each new prompt throughout the performance.
     family: continuous_activity
@@ -342,11 +342,11 @@ characters:
       not the performer. Returning what was taken still meant returning my work.
   coming_clean:
     innocent: The warning was mine, and I want it returned to my portfolio instead of the police file.
-      I stayed on the pedestal, answering the stage manager's live prompts across the service bells. Grant
-      stole a concept. I responded with a threat-shaped piece of paper and a performance. Neither put
-      C-17 in his glass.
-    murderer: I stole the C-17 reference solution during the preparation walkthrough and carried it in
-      my performance cloth. Between the bells I approached Grant about the credits and coated his coupe.
+      I stayed on the pedestal, answering the stage manager's live prompts throughout the uncovered-glass
+      period. Grant stole a concept. I responded with a threat-shaped piece of paper and a performance.
+      Neither put cyanide in his glass.
+    murderer: I stole the cyanide during the preparation walkthrough and carried it in my performance
+      cloth. While the glass was uncovered I approached Grant about the credits and coated his glass.
       I left the cue track playing without me, then returned to the stage. My warning had begun as art-world
       provocation. I made its implication literal, and there is no artistic exemption for murder.
   briefing:
@@ -365,20 +365,20 @@ characters:
     action: contaminate_coupe
     round: opportunity
     anchors:
-    - I offered Grant a replacement sketch at the service table. The steward was guarding his coupe in
-      blue wrapping. I noticed how the white crest lined up across the closed seam, then spent the rest
-      of the visit looking at Grant instead of the sketch he refused to examine. When I left, the seam
-      was still closed. I made no second approach before the toast.
+    - I offered Grant a replacement sketch at the service table. The steward was guarding his glass in
+      blue wrapping. I noticed how the white museum logo lined up across the closed seam, then spent the
+      rest of the visit looking at Grant instead of the sketch he refused to examine. When I left, the
+      seam was still closed. I made no second approach before the toast.
     activity_premise: I offered Grant a replacement sketch at the service table.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
-      text: I offered Grant a replacement sketch at the service table. The steward was guarding his coupe
-        in blue wrapping. I noticed how the white crest lined up across the closed seam, then spent the
-        rest of the visit looking at Grant instead of the sketch he refused to examine. When I left, the
-        seam was still closed. I made no second approach before the toast.
+      text: I offered Grant a replacement sketch at the service table. The steward was guarding his glass
+        in blue wrapping. I noticed how the white museum logo lined up across the closed seam, then spent
+        the rest of the visit looking at Grant instead of the sketch he refused to examine. When I left,
+        the seam was still closed. I made no second approach before the toast.
     - round: evidence
       text: I took the rejected sketch away.
   hearings:
@@ -389,28 +389,28 @@ characters:
       refused to sell his student painting back. He wanted the gala to laugh at it. He had never painted
       anything, yet tonight he intended to become the author of my reputation.
     where_innocent: I offered Grant a replacement sketch at the service table. The steward was guarding
-      his coupe in blue wrapping. I noticed how the white crest lined up across the closed seam, then
-      spent the rest of the visit looking at Grant instead of the sketch he refused to examine. When I
-      left, the seam was still closed. I made no second approach before the toast.
-    where_murderer: I brought a replacement sketch to Grant at the private service station. The coupe
+      his glass in blue wrapping. I noticed how the white museum logo lined up across the closed seam,
+      then spent the rest of the visit looking at Grant instead of the sketch he refused to examine. When
+      I left, the seam was still closed. I made no second approach before the toast.
+    where_murderer: I brought a replacement sketch to Grant at the private service station. The glass
       stood on blue material and the steward was away. Grant refused my buyback offer before looking at
       the sketch. He preferred an early painting I hated. It is difficult to negotiate artistic growth
       with someone buying an embarrassing souvenir.
     evidence_innocent: I took the rejected sketch away. The package stayed with the steward. Grant wanted
       to exhibit the student painting I hated, and my buyback offer was real. I had painted over my own
       name on the replacement sketch. That made the negotiation considerably less dignified.
-    evidence_murderer: The blue material was the reusable felt mat; the white crest was stitched into
-      it. The coupe was unwrapped. I took the rejected sketch away. I wanted the student painting removed
-      because it was mine and I hated it. That is not an especially flattering art-market strategy.
+    evidence_murderer: The blue material was the reusable cloth placemat; the white museum logo was stitched
+      into it. The glass was unwrapped. I took the rejected sketch away. I wanted the student painting
+      removed because it was mine and I hated it. That is not an especially flattering art-market strategy.
   coming_clean:
     innocent: I offered to buy my early work back and concealed earlier buybacks because I was ashamed
-      of it. I will let the records show those purchases. My sole service-station visit involved a coupe
-      still sealed in its transport film. The steward kept it guarded when I took my sketch away. My vanity
-      was on display. My hands never had access to the glass interior.
-    murderer: I took C-17 during the preparation tour and carried it in my rag. Between the bells I spread
-      the replacement sketch beside Grant's coupe and wiped the solution inside the glass. The staff sealed
-      it and later poured the clean drink. I wanted control of my own work so badly that I took control
-      of his last act. I killed him.
+      of it. I will let the records show those purchases. My sole service-station visit involved a glass
+      still sealed in its blue plastic wrapping. The steward kept it guarded when I took my sketch away.
+      My vanity was on display. My hands never had access to the glass interior.
+    murderer: I took cyanide during the preparation tour and carried it in my rag. While the glass was
+      uncovered I spread the replacement sketch beside Grant's glass and wiped the solution inside the
+      glass. The staff sealed it and later poured the clean drink. I wanted control of my own work so
+      badly that I took control of his last act. I killed him.
   briefing:
     history: Grant owned an embarrassing student painting you have spent years trying to buy back. He
       planned to display it tonight beside your celebrated recent work as a joke about 'humble beginnings.'
@@ -470,11 +470,11 @@ characters:
       That was a professional compromise I intend to correct. My entire preparation visit stayed outside
       the west return barrier. The source shelves were on the other side. I could return an annex there;
       I could not remove the murder sample.
-    murderer: I took C-17 during the walkthrough and concealed it in my spectacles cloth. I collected
-      the unsigned signature page from the secretary's desk and brought it to Grant's open coupe between
-      the bells. I coated its inside while he read, then left him to his private service. The lab found
-      poison on the vessel because that is where I put it. I cannot draft a qualification that excuses
-      murder.
+    murderer: I took cyanide during the walkthrough and concealed it in my spectacles cloth. I collected
+      the unsigned signature page from the secretary's desk and brought it to Grant's open glass while
+      the glass was uncovered. I coated its inside while he read, then left him to his private service.
+      The lab found poison on the glass because that is where I put it. I cannot draft a qualification
+      that excuses murder.
   briefing:
     history: You wrote a private legal memorandum concluding that the Star Bowl's acquisition was too
       risky to defend confidently. Grant forced you to replace it with a softer opinion and planned to
@@ -499,8 +499,8 @@ characters:
     - The clerk embossed RECEIVED into my original citation sheet while I waited.
     activity_premise: I carried the corrected citation sheet to Grant once before the toast.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I carried the corrected citation sheet to Grant once before the toast. Its fold had a red
@@ -534,12 +534,12 @@ characters:
   coming_clean:
     innocent: One inference in my article needed correction. I had overstated it, and I will publish that
       correction. I waited for the original's RECEIVED embossing before my sole service-station visit.
-      The clerk's seal was first used after the dome closed. My visit could embarrass Grant, but it could
-      not reach the exposed cup.
-    murderer: I took the reference solution during the tour and hid it in my handling cloth. Between the
-      service bells I approached Grant with my citations and applied C-17 inside his coupe. The lab's
-      vessel finding describes my action, not an accident in catering. I protected my authority by committing
-      the crime he could never have accused me of truthfully before tonight.
+      The clerk's seal was first used after the glass cover closed. My visit could embarrass Grant, but
+      it could not reach the exposed cup.
+    murderer: I took the poison during the tour and hid it in my handling cloth. While the glass was uncovered
+      I approached Grant with my citations and applied cyanide inside his glass. The lab's glass finding
+      describes my action, not an accident in catering. I protected my authority by committing the crime
+      he could never have accused me of truthfully before tonight.
   briefing:
     history: Grant suppressed your research showing that two objects in his collection passed through
       a dealer linked to questionable wartime sales. He threatened to release correspondence suggesting
@@ -558,7 +558,7 @@ characters:
     anchors:
     - The entrance attendant admitted me for the first time at 6:31.
     - My entrance receipt records the admission I described.
-    explanation: Tess entered the museum for the first time at 6:31 after the reference room was locked
+    explanation: Tess entered the museum for the first time at 6:31 after the preparation room was locked
       at 6:28; her entrance receipt is a staff-issued arrival record, not a photo timestamp. No guest
       access beforehand.
     activity_premise: The attendant checked me in from the car and issued it then.
@@ -588,13 +588,13 @@ characters:
       signature. The objection was meant to correct that mistake in writing.
   coming_clean:
     innocent: The trustees' revolt was mine. I wanted Grant to lose control of the foundation, and I will
-      still fight that amendment. But I entered at 6:31, after the only reference vial was locked away
+      still fight that amendment. But I entered at 6:31, after the only poison bottle was locked away
       empty. My receipt records an arrival, not a flattering photograph taken later. I couldn't acquire
       that sample. I am entirely capable of taking his money away. Killing him was never part of the campaign.
-    murderer: I came early, took C-17 in the preparation room, and carried it in my little bottle. At
-      the service table I used it inside Grant's coupe while laying down the trustees' objection. The
-      first bell gave me an excuse to approach; the second sealed the glass. I let the staff pour and
-      watched him toast the foundation he was stealing. I was the murderer, beautifully dressed.
+    murderer: I came early, took cyanide in the preparation room, and carried it in my little bottle.
+      At the service table I used it inside Grant's glass while laying down the trustees' objection. I
+      approached while the glass was uncovered. Staff sealed the cover afterward. I let the staff pour
+      and watched him toast the foundation he was stealing. I was the murderer, beautifully dressed.
   briefing:
     history: Grant told you he intended to rewrite the family trust tonight, removing you from control
       of the charitable foundation unless you publicly backed his museum naming plan.
@@ -645,13 +645,13 @@ characters:
   coming_clean:
     innocent: I signed an order I should have challenged. The technician disconnected the camera while
       I handled the gate. I also spent the entire 6:20–6:28 opening manually admitting the setup queue
-      at the north gate with my assistant. I could not acquire C-17 then. I will answer for the camera.
+      at the north gate with my assistant. I could not acquire cyanide then. I will answer for the camera.
       Grant's signature does not remove my responsibility, but it does establish whose privacy he was
       buying.
-    murderer: I left the gate with my assistant and removed C-17 during the walkthrough. Between the bells
-      I used a security inspection to approach Grant's coupe and applied the solution with the cloth.
-      The camera was already disconnected on his own order. I then returned to my radio. I used the failure
-      he demanded to commit the murder he never expected.
+    murderer: I left the gate with my assistant and removed cyanide during the walkthrough. While the
+      glass was uncovered I used a security inspection to approach Grant's glass and applied the solution
+      with the cloth. The camera was already disconnected on his own order. I then returned to my radio.
+      I used the failure he demanded to commit the murder he never expected.
   briefing:
     history: Grant ordered you to disable the Donor Salon camera because he planned several off-the-record
       meetings. He then told you that if anything went wrong tonight, security would 'own the failure.'
@@ -677,8 +677,8 @@ characters:
     - The proof I handed him was the original.
     activity_premise: I delivered one revised proof to Grant at the service station before the toast.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I delivered one revised proof to Grant at the service station before the toast. A red mark
@@ -716,13 +716,13 @@ characters:
   coming_clean:
     innocent: I protected the source and concealed the proof's weak paragraph until counsel forced the
       correction. Both decisions deserve an explanation. I waited for the original's RECEIVED seal before
-      my only service visit. Its first use followed the sealed dome. My account involved an injunction
-      and an awkward correction, not access to Grant's open cup.
-    murderer: I acquired C-17 during the walkthrough and hid it in the cloth around my recorder. Between
-      the bells I brought Grant the working carbon of my revised proof. He demanded my source's name and
-      asked me to stop recording. I turned the recorder off and applied the solution inside his coupe
-      beside the paper. Staff sealed the dome and later poured from a clean decanter. I called it protecting
-      a source. I murdered him, and no revision makes that anything else.
+      my only service visit. Its first use followed the sealed glass cover. My account involved an injunction
+      and an awkward correction, not access to Grant's uncovered glass.
+    murderer: I acquired cyanide during the walkthrough and hid it in the cloth around my recorder. While
+      the glass was uncovered I brought Grant the working carbon of my revised proof. He demanded my source's
+      name and asked me to stop recording. I turned the recorder off and applied the solution inside his
+      glass beside the paper. Staff sealed the glass cover and later poured from a clean pitcher. I called
+      it protecting a source. I murdered him, and no revision makes that anything else.
   briefing:
     history: You were preparing a major investigation into Grant's collection and labor empire. He discovered
       enough to threaten an injunction and promised to reveal the identity of one of your confidential
@@ -742,7 +742,7 @@ characters:
     - The rigger raised me to the lighting gantry at 6:36.
     - The rigger lowered me from the gantry at 6:47.
     explanation: Frank is tethered on the lighting gantry through the service window; a staff rigger only
-      lowers him after the second bell, and the controls are at ground level.
+      lowers him after the cover was sealed, and the controls are at ground level.
     activity_premise: The harness stayed attached until he lowered me.
     family: continuous_activity
   hearings:
@@ -774,12 +774,12 @@ characters:
   coming_clean:
     innocent: The temporary rig was unacceptable, and my signature makes that my responsibility. During
       the service period I was tethered above the gallery, with the rigger controlling my descent until
-      after the second bell. I couldn't reach the coupe. Grant's death does not improve the engineering.
+      after the cover was sealed. I couldn't reach the glass. Grant's death does not improve the engineering.
       We will close the rig until it is rebuilt properly.
-    murderer: I removed C-17 during the tour and concealed it in the layout cloth. I had come down from
-      the gantry before the bells. The load diagram brought me to Grant's table, where I coated his coupe
-      inside. He demanded an impossible design, and I chose an entirely possible murder. The service dome
-      concealed the result until his toast.
+    murderer: I removed cyanide during the tour and concealed it in the layout cloth. I had come down
+      from the gantry before the glass was unwrapped. The load diagram brought me to Grant's table, where
+      I coated the inside of his uncovered glass. He demanded an impossible design, and I chose an entirely
+      possible murder. The glass cover concealed the result until his toast.
   briefing:
     history: Grant demanded a dangerous last-minute change to the centerpiece display and threatened to
       withhold your firm's final payment if you refused. He also planned to blame you publicly for any
@@ -805,8 +805,8 @@ characters:
     activity_premise: I delivered the translated amendment to Grant, with a red mark across its folded
       signature panel.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I delivered the translated amendment to Grant, with a red mark across its folded signature
@@ -840,12 +840,12 @@ characters:
   coming_clean:
     innocent: I leaked the talks and will admit that to the partners. I translated the agreement accurately.
       The original's RECEIVED embossing preceded my sole service visit, and that seal did not start operating
-      until after the dome closed. My amendment could change the loan's meaning. It could not reach the
-      interior of the guarded coupe.
-    murderer: I took C-17 during the walkthrough and hid it in the loan-handling cloth. Between the bells
-      I put the amendment beside Grant's coupe and coated the glass. The sealed service dome protected
-      what I had done until the pour. I wanted restitution and committed murder instead. The cause cannot
-      absolve the person who chose that act.
+      until after the glass cover closed. My amendment could change the loan's meaning. It could not reach
+      the interior of the guarded glass.
+    murderer: I took cyanide during the walkthrough and hid it in the loan-handling cloth. While the glass
+      was uncovered I put the amendment beside Grant's glass and coated the glass. The sealed glass cover
+      protected what I had done until the pour. I wanted restitution and committed murder instead. The
+      cause cannot absolve the person who chose that act.
   briefing:
     history: Grant intended to announce that the Star Bowl would become a permanent Meridian holding,
       undermining months of quiet restitution negotiations and publicly humiliating the international
@@ -870,8 +870,8 @@ characters:
     - I had the original proposal embossed RECEIVED at the desk before delivering it.
     activity_premise: I brought Grant the installation proposal.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I brought Grant the installation proposal. The folded price page had a red mark. He was offended
@@ -904,13 +904,13 @@ characters:
   coming_clean:
     innocent: I was the anonymous auction buyer. I concealed that interest while presenting myself as
       a disinterested donor, and I will disclose it. I waited for the original's RECEIVED embossing before
-      my sole service visit. The seal first operated after the dome closed. My proposal concerned an installation;
-      that delivery could not contaminate the sealed cup.
-    murderer: I took C-17 during the preparation walkthrough and hid it in my screen cloth. Between the
-      bells I delivered the working carbon of my installation proposal to Grant and coated his coupe beside
-      the folded price page. Staff sealed the dome and later poured the cordial. He had threatened my
-      board appointment over the auction purchase. I wanted him out of my way, and I killed him. My corrected
-      estimate did not correct what I did.
+      my sole service visit. The seal first operated after the glass cover closed. My proposal concerned
+      an installation; that delivery could not contaminate the covered glass.
+    murderer: I took cyanide during the preparation walkthrough and hid it in my screen cloth. While the
+      glass was uncovered I delivered the working carbon of my installation proposal to Grant and coated
+      his glass beside the folded price page. Staff sealed the glass cover and later poured the punch.
+      He had threatened my board appointment over the auction purchase. I wanted him out of my way, and
+      I killed him. My corrected estimate did not correct what I did.
   briefing:
     history: Grant had blacklisted you from a major acquisition after you outbid him anonymously for a
       work he wanted. Tonight he planned to announce that your collecting practices were 'speculative
@@ -960,13 +960,13 @@ characters:
       document exist.
   coming_clean:
     innocent: I accepted the incomplete file in 1989 and will help reopen the accession review. Tonight
-      my first entry was 6:30, after C-17 had been removed and the room locked. The staff guest book records
-      that arrival. I failed the collection decades ago. I did not steal the solution or poison its donor
-      tonight.
-    murderer: I took C-17 during the walkthrough and concealed it in the letter's linen sleeve. Between
-      the bells I approached Grant with the 1989 correspondence and coated his coupe. The promise on that
-      paper had haunted the museum for decades. I murdered the man who made it, then tried to let the
-      old scandal explain away my presence at his glass.
+      my first entry was 6:30, after cyanide had been removed and the room locked. The staff guest book
+      records that arrival. I failed the collection decades ago. I did not steal the solution or poison
+      its donor tonight.
+    murderer: I took cyanide during the walkthrough and concealed it in the letter's linen sleeve. While
+      the glass was uncovered I approached Grant with the 1989 correspondence and coated his glass. The
+      promise on that paper had haunted the museum for decades. I murdered the man who made it, then tried
+      to let the old scandal explain away my presence at his glass.
   briefing:
     history: Grant planned to reveal that you accepted his first questionable donation in 1989 despite
       incomplete paperwork, staining the legacy you built.
@@ -983,21 +983,21 @@ characters:
     action: contaminate_coupe
     round: opportunity
     anchors:
-    - I presented the subsidiary fee statement beside the steward and Grant's wrapped coupe. I examined
-      the crest spanning the closed package seam while Grant examined my fee. We both like to know whether
-      something has been tampered with. The crest was unbroken when I departed. That was my sole service-table
-      meeting before he drank.
+    - I presented the subsidiary fee statement beside the steward and Grant's wrapped glass. I examined
+      the museum logo spanning the closed package seam while Grant examined my fee. We both like to know
+      whether something has been tampered with. The museum logo was unbroken when I departed. That was
+      my sole service-table meeting before he drank.
     activity_premise: I presented the subsidiary fee statement beside the steward and Grant's wrapped
-      coupe.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+      glass.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
-      text: I presented the subsidiary fee statement beside the steward and Grant's wrapped coupe. I examined
-        the crest spanning the closed package seam while Grant examined my fee. We both like to know whether
-        something has been tampered with. The crest was unbroken when I departed. That was my sole service-table
-        meeting before he drank.
+      text: I presented the subsidiary fee statement beside the steward and Grant's wrapped glass. I examined
+        the museum logo spanning the closed package seam while Grant examined my fee. We both like to
+        know whether something has been tampered with. The museum logo was unbroken when I departed. That
+        was my sole service-table meeting before he drank.
     - round: evidence
       text: The steward kept the package, and I kept the unsigned fee statement.
   hearings:
@@ -1007,29 +1007,29 @@ characters:
     motive_murderer: The subsidiary sale was mine. Grant wanted the fee waived and the arrangement buried.
       Otherwise he would announce it tonight as my personal scandal. I have auctioned many ugly objects.
       His proposal had particularly poor proportions.
-    where_innocent: I presented the subsidiary fee statement beside the steward and Grant's wrapped coupe.
-      I examined the crest spanning the closed package seam while Grant examined my fee. We both like
-      to know whether something has been tampered with. The crest was unbroken when I departed. That was
-      my sole service-table meeting before he drank.
+    where_innocent: I presented the subsidiary fee statement beside the steward and Grant's wrapped glass.
+      I examined the museum logo spanning the closed package seam while Grant examined my fee. We both
+      like to know whether something has been tampered with. The museum logo was unbroken when I departed.
+      That was my sole service-table meeting before he drank.
     where_murderer: I presented the subsidiary fee statement at the private service station. Grant read
-      it beside the coupe, with blue material below it and no steward beside us. He knew the fee and demanded
+      it beside the glass, with blue material below it and no steward beside us. He knew the fee and demanded
       the client's identity too. I offered to discuss the fee. He preferred to discuss my reputation.
       An auction without numbers is generally unpleasant.
     evidence_innocent: The steward kept the package, and I kept the unsigned fee statement. The subsidiary
       concealed a client's name, not a different fee. Grant wanted to purchase discretion and then deduct
       its price because he disliked the answer.
-    evidence_murderer: The blue material was the reusable felt mat. Its crest was embroidery, and the
-      coupe was open. The subsidiary concealed a client's name, not a different fee. Grant expected discretion
-      to become free once he threatened its seller.
+    evidence_murderer: The blue material was the reusable cloth placemat. Its museum logo was embroidery,
+      and the glass was open. The subsidiary concealed a client's name, not a different fee. Grant expected
+      discretion to become free once he threatened its seller.
   coming_clean:
     innocent: The subsidiary concealed the client's identity, and I should have disclosed the conflict.
-      Grant knew the actual fee. My sole service visit ended while the coupe remained in intact factory
-      film under the steward's watch. I negotiated over a package, not an accessible glass. Discretion
+      Grant knew the actual fee. My sole service visit ended while the glass remained in intact sealed
+      blue wrapping under the steward's watch. I negotiated over a package, not an accessible glass. Discretion
       is costly enough without calling it murder.
-    murderer: I took C-17 during the tour after the count and hid it in the presentation cloth. Between
-      the bells I laid the statement beside Grant's coupe and coated its interior. The dome sealed my
-      work until staff poured. He intended to auction my reputation for the price of a waived fee. I killed
-      him, and there is no respectable commission on that transaction.
+    murderer: I took cyanide during the tour after the count and hid it in the presentation cloth. While
+      the glass was uncovered I laid the statement beside Grant's glass and coated its interior. The glass
+      cover sealed my work until staff poured. He intended to auction my reputation for the price of a
+      waived fee. I killed him, and there is no respectable commission on that transaction.
   briefing:
     history: Grant threatened to expose a private sale you arranged outside your auction house's normal
       process unless you waived a substantial fee.
@@ -1086,12 +1086,12 @@ characters:
   coming_clean:
     innocent: The incomplete papers were my mistake. I have now made the loan explicit, and the textile
       will return to my family. My only preparation contact was across the west return barrier. I never
-      reached the source shelves. Grant could dispute the loan's wording; that did not put C-17 in my
-      hands.
-    murderer: I took C-17 after joining the walkthrough and carried it in the loan sleeve. Between the
-      bells I spread the amendment beside Grant's coupe and applied the solution inside the glass. He
-      treated my refusal as bargaining. I answered with murder. Returning the textile cannot undo the
-      act I chose in its name.
+      reached the source shelves. Grant could dispute the loan's wording; that did not put cyanide in
+      my hands.
+    murderer: I took cyanide after joining the walkthrough and carried it in the loan sleeve. While the
+      glass was uncovered I spread the amendment beside Grant's glass and applied the solution inside
+      the glass. He treated my refusal as bargaining. I answered with murder. Returning the textile cannot
+      undo the act I chose in its name.
   briefing:
     history: Grant intended to purchase a family-owned ceremonial textile you had borrowed for your installation,
       despite your refusal to sell.
@@ -1149,11 +1149,11 @@ characters:
     innocent: I concealed the correction that would embarrass Art, because I feared for my fellowship.
       The complete transcription will now go to both of them. My entire preparation visit stayed at the
       west return counter, outside the source barrier. My dishonesty concerned a sentence. It did not
-      give me access to the vial.
-    murderer: I left the archive before the walkthrough, removed C-17 from the reference room, and carried
-      it in my handling cloth. Between the bells the transcription gave me a reason to approach Grant's
-      coupe. I coated the inside while he read the threat back to me. I preserved the disputed document
-      and killed the man threatening my fellowship.
+      give me access to the bottle.
+    murderer: I left the archive before the walkthrough, removed cyanide from the preparation room, and
+      carried it in my handling cloth. While the glass was uncovered the transcription gave me a reason
+      to approach Grant's glass. I coated the inside while he read the threat back to me. I preserved
+      the disputed document and killed the man threatening my fellowship.
   briefing:
     history: You found an archival document that contradicted the Star Bowl label. Grant told your department
       your fellowship could disappear if you pushed it.
@@ -1200,13 +1200,13 @@ characters:
       from the plan. It deserves an accurate drawing, not a patron's excuse to replace the entire sculpture.
   coming_clean:
     innocent: I changed the support and owe the museum the accurate drawing. I remained holding the plaster
-      mold with both hands across the service bells while the assistant clamped it. I couldn't leave for
-      Grant's glass. The replica dispute made me furious. Fury does not explain away unsafe fabrication,
-      and I will fix the part I actually made.
-    murderer: I took C-17 during the walkthrough and concealed it in the polishing rag. I finished the
-      mold before service, then carried the drawing to Grant between the bells and coated his coupe. The
-      staff poured into the glass I had prepared. He threatened to replace my work. I murdered him instead
-      of making him pay for it.
+      mold with both hands throughout the uncovered-glass period while the assistant clamped it. I couldn't
+      leave for Grant's glass. The replica dispute made me furious. Fury does not explain away unsafe
+      fabrication, and I will fix the part I actually made.
+    murderer: I took cyanide during the walkthrough and concealed it in the polishing rag. I finished
+      the mold before service, then carried the drawing to Grant while the glass was uncovered and coated
+      his glass. The staff poured into the glass I had prepared. He threatened to replace my work. I murdered
+      him instead of making him pay for it.
   briefing:
     history: Grant planned to replace your commissioned entrance sculpture with a cheaper replica after
       the opening and dispute your final payment.
@@ -1224,8 +1224,8 @@ characters:
     anchors:
     - The entrance attendant admitted me for the first time at 6:32.
     - The entrance record is the first admission I described.
-    explanation: Ella's staffed entrance record marks her first arrival at 6:32, after the reference room
-      was locked; the branch excludes an earlier entry.
+    explanation: Ella's staffed entrance record marks her first arrival at 6:32, after the preparation
+      room was locked; the branch excludes an earlier entry.
     activity_premise: The attendant issued it when I came from outside, and I hadn't entered earlier.
     family: first_admission
   hearings:
@@ -1253,13 +1253,13 @@ characters:
       I should have explained to the institution expecting the original.
   coming_clean:
     innocent: I sold the donation and concealed the loss. I will tell the institution expecting it and
-      offer repayment. Tonight I first entered at 6:32, after the C-17 cupboard was locked. My later silk
-      wrapping and visit to the coupe concerned the replacement offer. I was trying to repair a promise,
+      offer repayment. Tonight I first entered at 6:32, after the cyanide cupboard was locked. My later
+      silk wrapping and visit to the glass concerned the replacement offer. I was trying to repair a promise,
       however badly.
-    murderer: I took C-17 during the walkthrough and carried it in the silk wrapping. Between the bells
-      I placed my replacement offer beside Grant's coupe and applied the solution inside. The dome sealed
-      it until service. I traded a financial embarrassment for a murder, then let the room believe the
-      embarrassment explained everything I had done.
+    murderer: I took cyanide during the walkthrough and carried it in the silk wrapping. While the glass
+      was uncovered I placed my replacement offer beside Grant's glass and applied the solution inside.
+      The glass cover sealed it until service. I traded a financial embarrassment for a murder, then let
+      the room believe the embarrassment explained everything I had done.
   briefing:
     history: Grant knew you quietly sold a work you had publicly promised to donate to another institution
       and planned to expose the contradiction.
@@ -1276,19 +1276,19 @@ characters:
     round: opportunity
     anchors:
     - I brought the revised newsletter page to Grant at the service station. The steward watched him read.
-      There was a white crest printed across the seam of the blue package containing his coupe. I considered
-      drawing a mustache on it. I left it joined exactly as I found it and handed over my page. I did
-      not visit that station again before the toast.
+      There was a white museum logo printed across the seam of the blue package containing his glass.
+      I considered drawing a mustache on it. I left it joined exactly as I found it and handed over my
+      page. I did not visit that station again before the toast.
     activity_premise: I brought the revised newsletter page to Grant at the service station.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
       text: I brought the revised newsletter page to Grant at the service station. The steward watched
-        him read. There was a white crest printed across the seam of the blue package containing his coupe.
-        I considered drawing a mustache on it. I left it joined exactly as I found it and handed over
-        my page. I did not visit that station again before the toast.
+        him read. There was a white museum logo printed across the seam of the blue package containing
+        his glass. I considered drawing a mustache on it. I left it joined exactly as I found it and handed
+        over my page. I did not visit that station again before the toast.
     - round: evidence
       text: The anonymous joke was mine.
   hearings:
@@ -1301,29 +1301,29 @@ characters:
       coverage in exchange. A man unable to recognize satire had finally discovered its author and wished
       to become its editor.
     where_innocent: I brought the revised newsletter page to Grant at the service station. The steward
-      watched him read. There was a white crest printed across the seam of the blue package containing
-      his coupe. I considered drawing a mustache on it. I left it joined exactly as I found it and handed
+      watched him read. There was a white museum logo printed across the seam of the blue package containing
+      his glass. I considered drawing a mustache on it. I left it joined exactly as I found it and handed
       over my page. I did not visit that station again before the toast.
     where_murderer: I brought the revised newsletter page to the private service station. Grant read beside
-      the coupe on blue material while the steward was away. I offered to delete the cruel joke. Grant
+      the glass on blue material while the steward was away. I offered to delete the cruel joke. Grant
       wanted his biography added. It was the first negotiation in which silence seemed like the ambitious
       option.
     evidence_innocent: The anonymous joke was mine. The correction in Grant's handwriting is a paragraph
       about his philanthropy, followed by a request for a larger portrait. The steward took the page.
       I took my pencil. Neither of us acquired the other's editorial judgment.
-    evidence_murderer: The blue material was the reusable felt mat, its crest stitched. The coupe stood
-      open on it. I wrote the anonymous joke. Grant's correction would have turned it into an advertisement,
-      with a remarkably defensive subject.
+    evidence_murderer: The blue material was the reusable cloth placemat, its museum logo stitched. The
+      glass stood open on it. I wrote the anonymous joke. Grant's correction would have turned it into
+      an advertisement, with a remarkably defensive subject.
   coming_clean:
     innocent: The anonymous newsletter was mine, including the passage I now regret. I intended to correct
       it without writing Grant an advertisement. My sole approach to his service station ended with the
-      glass still in intact transport film under the steward's watch. I supplied a nasty sentence. I did
-      not have access to the cup's inside.
-    murderer: I took C-17 during the preparation walkthrough and hid it in the cloth wrapped around my
-      pencils. Between the bells I brought Grant the revised newsletter page and coated the inside of
-      his coupe while he read. The staff sealed the dome and later poured a clean drink into the glass
-      I had poisoned. He wanted me to turn a cruel joke into his advertisement. I answered with murder.
-      That was my decision, and the joke excuses none of it.
+      glass still in intact blue plastic wrapping under the steward's watch. I supplied a nasty sentence.
+      I did not have access to the glass’s inside.
+    murderer: I took cyanide during the preparation walkthrough and hid it in the cloth wrapped around
+      my pencils. While the glass was uncovered I brought Grant the revised newsletter page and coated
+      the inside of his glass while he read. The staff sealed the glass cover and later poured a clean
+      drink into the glass I had poisoned. He wanted me to turn a cruel joke into his advertisement. I
+      answered with murder. That was my decision, and the joke excuses none of it.
   briefing:
     history: Grant discovered that you write an anonymous satirical newsletter skewering museum patrons
       and planned to unmask you during his speech.
@@ -1340,22 +1340,22 @@ characters:
     action: contaminate_coupe
     round: opportunity
     anchors:
-    - I brought the final invoice to the steward at Grant's service station. He kept the coupe in its
-      blue package while checking the additions. The printed crest crossed the sealed join. It was still
-      unbroken when he kept the invoice and sent me back to catering. I stayed away from that station
+    - I brought the final invoice to the steward at Grant's service station. He kept the glass in its
+      blue package while checking the additions. The printed museum logo crossed the sealed join. It was
+      still unbroken when he kept the invoice and sent me back to catering. I stayed away from that station
       until after the toast; that was my entire earlier visit.
     activity_premise: I brought the final invoice to the steward at Grant's service station.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
-      text: I brought the final invoice to the steward at Grant's service station. He kept the coupe in
-        its blue package while checking the additions. The printed crest crossed the sealed join. It was
-        still unbroken when he kept the invoice and sent me back to catering. I stayed away from that
-        station until after the toast; that was my entire earlier visit.
+      text: I brought the final invoice to the steward at Grant's service station. He kept the glass in
+        its blue package while checking the additions. The printed museum logo crossed the sealed join.
+        It was still unbroken when he kept the invoice and sent me back to catering. I stayed away from
+        that station until after the toast; that was my entire earlier visit.
     - round: evidence
-      text: The invoice charges for Grant's additions, including the private vessel.
+      text: The invoice charges for Grant's additions, including the private glass.
   hearings:
     motive_innocent: I joined the preparation walkthrough through the east visitor door. I checked which
       shelves held museum materials before collecting anything for catering. Grant refused my invoice,
@@ -1368,27 +1368,27 @@ characters:
       orders. He called them excuses. I told him a chef can absorb a criticism. Absorbing payroll is considerably
       harder. He laughed at my staff's wages.
     where_innocent: I brought the final invoice to the steward at Grant's service station. He kept the
-      coupe in its blue package while checking the additions. The printed crest crossed the sealed join.
-      It was still unbroken when he kept the invoice and sent me back to catering. I stayed away from
-      that station until after the toast; that was my entire earlier visit.
+      glass in its blue package while checking the additions. The printed museum logo crossed the sealed
+      join. It was still unbroken when he kept the invoice and sent me back to catering. I stayed away
+      from that station until after the toast; that was my entire earlier visit.
     where_murderer: I delivered the final invoice to the private service station. Grant checked the additions
-      beside the coupe on blue material while the steward was away. He wanted to call the extras hospitality.
-      I wanted him to call them payable. The private service used a separate vessel, not a separate recipe.
-    evidence_innocent: The invoice charges for Grant's additions, including the private vessel. The cordial
+      beside the glass on blue material while the steward was away. He wanted to call the extras hospitality.
+      I wanted him to call them payable. The private service used a separate glass, not a separate recipe.
+    evidence_innocent: The invoice charges for Grant's additions, including the private glass. The punch
       came from the common supply. He kept calling the extras hospitality. I kept writing them down. My
       service linen carried the ordinary kitchen mess; it did not create a special recipe for him.
-    evidence_murderer: The blue material was the reusable felt mat, with a stitched crest. The coupe was
-      unwrapped. The linen was for service, not a special drink ingredient. My bill grew because Grant
-      kept changing his mind.
+    evidence_murderer: The blue material was the reusable cloth placemat, with a stitched museum logo.
+      The glass was unwrapped. The linen was for service, not a special drink ingredient. My bill grew
+      because Grant kept changing his mind.
   coming_clean:
     innocent: My invoice included changes Grant refused to recognize. I concealed how badly his promises
-      had affected the rest of my work. My sole service-station visit ended while his coupe remained in
-      intact factory film. I served the same cordial recipe elsewhere. The guarded interior, not my disputed
-      invoice, decides whether that visit could deliver C-17.
-    murderer: I checked the preparation supplies during the walkthrough and took C-17. Between the service
-      bells I used Grant's private linen to put it inside his coupe. I left the communal drink untouched
-      and let the staff seal the dome and pour. He had made an entire service revolve around one glass.
-      I used his demand to kill him, then hid behind my unpaid invoice.
+      had affected the rest of my work. My sole service-station visit ended while his glass remained in
+      intact sealed blue wrapping. I served the same punch recipe elsewhere. The guarded interior, not
+      my disputed invoice, decides whether that visit could deliver cyanide.
+    murderer: I checked the preparation supplies during the walkthrough and took cyanide. While the glass
+      was uncovered I used Grant's private linen to put it inside his glass. I left the shared punch untouched
+      and let the staff seal the glass cover and pour. He had made an entire service revolve around one
+      glass. I used his demand to kill him, then hid behind my unpaid invoice.
   briefing:
     history: Grant had refused to approve the final catering invoice and planned to blame you for a last-minute
       service change he personally ordered.
@@ -1407,8 +1407,8 @@ characters:
     - The freight lift stopped between floors at 6:37.
     - The mechanic released the stranded lift at 6:46.
     explanation: Cary is trapped in the interlocked freight lift between floors across the service window;
-      staff release the brake only after the second bell. No exit or Salon route exists from the stranded
-      cabin.
+      staff release the brake only after the cover was sealed. No exit or Salon route exists from the
+      stranded cabin.
     activity_premise: I stayed in the cabin until the release.
     family: continuous_activity
   hearings:
@@ -1436,13 +1436,13 @@ characters:
       Concealing it made the decision worse, even if the reversible mount itself did no further damage.
   coming_clean:
     innocent: I concealed the frame crack and will document the repair. The lift trapped me between floors
-      across the service bells, until the mechanic released its brake. I couldn't reach the coupe. Grant
-      threatened my job over a repairable mistake. It was still my mistake, and his death does not remove
-      the obligation to put it right.
-    murderer: I took C-17 on the walkthrough and hid it in the padded cloth. The lift trip ended before
-      service. Between the bells I brought the repair estimate to Grant and coated his coupe with that
-      cloth. I returned to work while staff sealed and poured. He threatened my livelihood, and I made
-      a deliberate killing look like somebody else's service failure.
+      throughout the uncovered-glass period, until the mechanic released its brake. I couldn't reach the
+      glass. Grant threatened my job over a repairable mistake. It was still my mistake, and his death
+      does not remove the obligation to put it right.
+    murderer: I took cyanide on the walkthrough and hid it in the padded cloth. The lift trip ended before
+      service. While the glass was uncovered I brought the repair estimate to Grant and coated his glass
+      with that cloth. I returned to work while staff sealed and poured. He threatened my livelihood,
+      and I made a deliberate killing look like somebody else's service failure.
   briefing:
     history: Grant saw you damage a minor frame during installation and threatened to have you fired after
       the gala, despite the damage being repairable.
@@ -1501,10 +1501,10 @@ characters:
       also keep asking who the museum serves. My only preparation visit was a return-counter exchange
       outside the barrier. I could collect a loan tag there, not the sample on the visitor-side shelves.
       Grant's death will not restore the budget by itself.
-    murderer: I took C-17 during the walkthrough and hid it in the puppet's cleaning cloth. Between the
-      bells I brought Grant the petition and applied the solution inside his coupe while spreading the
-      signatures. I told myself I was defending a program. I was killing a person, and the children I
-      invoked would recognize the difference.
+    murderer: I took cyanide during the walkthrough and hid it in the puppet's cleaning cloth. While the
+      glass was uncovered I brought Grant the petition and applied the solution inside his glass while
+      spreading the signatures. I told myself I was defending a program. I was killing a person, and the
+      children I invoked would recognize the difference.
   briefing:
     history: Grant's gift conditions would cut public education programming to fund a private donor lounge
       and VIP entrance.
@@ -1562,11 +1562,11 @@ characters:
     innocent: I kept the separate print after promising to delete the camera image. That evasion was deliberate.
       The print deserves an explanation, not another deletion. My preparation contact was entirely outside
       the west return barrier. I had no access to the source shelves. Preserving evidence was my secret;
-      poisoning the cup was not.
-    murderer: I took C-17 on the walkthrough and carried it in my lens cloth. Between the bells I laid
-      the backup beside Grant's coupe and applied the solution inside the glass. The sealed dome and later
-      pour completed the sequence. I kept an image of his secret and created a death of my own. The photograph
-      did not force my hand.
+      poisoning the glass was not.
+    murderer: I took cyanide on the walkthrough and carried it in my lens cloth. While the glass was uncovered
+      I laid the backup beside Grant's glass and applied the solution inside the glass. The sealed glass
+      cover and later pour completed the sequence. I kept an image of his secret and created a death of
+      my own. The photograph did not force my hand.
   briefing:
     history: Grant ordered you to surrender a photograph showing him meeting privately with Hugh beside
       a shell-company shipping file.
@@ -1582,19 +1582,19 @@ characters:
     action: contaminate_coupe
     round: opportunity
     anchors:
-    - I asked Grant to read the provenance brochure at his service station. The steward had the coupe
-      inside a blue package whose printed crest crossed the shut seam. Grant called my stickers offensive.
-      I gave the steward the brochure and left; the crest was still joined. That conversation was my only
-      visit to the station before the toast.
+    - I asked Grant to read the provenance brochure at his service station. The steward had the glass
+      inside a blue package whose printed museum logo crossed the shut seam. Grant called my stickers
+      offensive. I gave the steward the brochure and left; the museum logo was still joined. That conversation
+      was my only visit to the station before the toast.
     activity_premise: I asked Grant to read the provenance brochure at his service station.
-    explanation: The complete sole service approach ends while the same coupe remains inside intact factory
-      transport film under staff watch. Its interior is inaccessible; later reacquisition is excluded
-      by the spoken complete account.
+    explanation: The complete sole service approach ends while the same glass remains inside intact sealed
+      blue wrapping under staff watch. Its interior is inaccessible; later reacquisition is excluded by
+      the spoken complete account.
     claim_fragments:
     - round: where
       text: I asked Grant to read the provenance brochure at his service station. The steward had the
-        coupe inside a blue package whose printed crest crossed the shut seam. Grant called my stickers
-        offensive. I gave the steward the brochure and left; the crest was still joined. That conversation
+        glass inside a blue package whose printed museum logo crossed the shut seam. Grant called my stickers
+        offensive. I gave the steward the brochure and left; the museum logo was still joined. That conversation
         was my only visit to the station before the toast.
     - round: evidence
       text: I kept the stickers.
@@ -1607,28 +1607,28 @@ characters:
       threatened to have me removed again before the unveiling. He would announce permanent ownership
       while the people asking questions waited outside. A gala was becoming another ceremony of possession.
     where_innocent: I asked Grant to read the provenance brochure at his service station. The steward
-      had the coupe inside a blue package whose printed crest crossed the shut seam. Grant called my stickers
-      offensive. I gave the steward the brochure and left; the crest was still joined. That conversation
-      was my only visit to the station before the toast.
-    where_murderer: I asked Grant to read my provenance brochure at the private service station. The coupe
+      had the glass inside a blue package whose printed museum logo crossed the shut seam. Grant called
+      my stickers offensive. I gave the steward the brochure and left; the museum logo was still joined.
+      That conversation was my only visit to the station before the toast.
+    where_murderer: I asked Grant to read my provenance brochure at the private service station. The glass
       stood on blue material while the steward was away. Grant called the protest stickers offensive.
       I thought the disputed ownership stories were more offensive. We were comparing different forms
       of bad taste.
     evidence_innocent: I kept the stickers. The brochure stayed with the steward, who had watched the
       entire exchange. I had planned a peaceful protest, and I had already put stickers in gallery brochures.
       Grant would have found the same demand for provenance in several places that night.
-    evidence_murderer: The blue material was the reusable felt mat; its crest was stitched. The cup above
-      it was open. I left the brochure and took my stickers away. They asked people to think about provenance.
-      Grant preferred an easier question, such as the size of his plaque.
+    evidence_murderer: The blue material was the reusable cloth placemat; its museum logo was stitched.
+      The glass above it was open. I left the brochure and took my stickers away. They asked people to
+      think about provenance. Grant preferred an easier question, such as the size of his plaque.
   coming_clean:
     innocent: The protest stickers were mine. I distributed them without permission and will defend their
-      questions. My sole approach to the private service station ended with the coupe still in intact
-      transport film under the steward's watch. My criticism reached Grant. The sealed interior did not
-      become accessible to me.
-    murderer: I entered early, took C-17 during the walkthrough, and hid it in my protective cloth. Between
-      the bells I brought Grant the brochure and coated his coupe. I returned to the room while staff
-      sealed and poured. I used a restitution campaign to justify murder to myself. Nobody represented
-      by that collection authorized what I did.
+      questions. My sole approach to the private service station ended with the glass still in intact
+      blue plastic wrapping under the steward's watch. My criticism reached Grant. The sealed interior
+      did not become accessible to me.
+    murderer: I entered early, took cyanide during the walkthrough, and hid it in my protective cloth.
+      While the glass was uncovered I brought Grant the brochure and coated his glass. I returned to the
+      room while staff sealed and poured. I used a restitution campaign to justify murder to myself. Nobody
+      represented by that collection authorized what I did.
   briefing:
     history: Grant had you removed from a previous museum event and threatened legal action if you disrupted
       tonight's unveiling.
@@ -1652,8 +1652,8 @@ characters:
     - The original cover sheet has raised RECEIVED letters.
     activity_premise: I took Grant the family letters with a red mark across their cover sheet.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I took Grant the family letters with a red mark across their cover sheet. Their account of
@@ -1688,11 +1688,12 @@ characters:
   coming_clean:
     innocent: The letters disclose a disputed sale and my family's part in it. I withheld some of them
       because I wanted a cleaner family story. I waited for the cover sheet's RECEIVED embossing before
-      my only service visit. That seal began after the dome closed. Concealing an uncomfortable history
-      did not give that visit access to the cup's interior.
-    murderer: I took C-17 during the tour and concealed it in the letters' handling cloth. I brought the
-      correspondence to Grant between the bells and coated his coupe. The dome sealed it until the pour.
-      I killed him over a family claim and then hid behind letters that deserved a better advocate.
+      my only service visit. That seal began after the glass cover closed. Concealing an uncomfortable
+      history did not give that visit access to the glass's interior.
+    murderer: I took cyanide during the tour and concealed it in the letters' handling cloth. I brought
+      the correspondence to Grant while the glass was uncovered and coated his glass. The glass cover
+      sealed it until the pour. I killed him over a family claim and then hid behind letters that deserved
+      a better advocate.
   briefing:
     history: One decorative object in the exhibition once belonged to your family. You believe Grant acquired
       it through a manipulative private sale decades ago.
@@ -1716,8 +1717,8 @@ characters:
     - I watched the clerk emboss RECEIVED into the original print before I took it to Grant.
     activity_premise: I carried Grant my corrected parcel story.
     explanation: The original was embossed before the complete sole service approach. The RECEIVED seal
-      was first activated after the dome closed. Thus the document sequence places the only approach after
-      interior access ended.
+      was first activated after the glass cover closed. Thus the document sequence places the only approach
+      after interior access ended.
     claim_fragments:
     - round: where
       text: I carried Grant my corrected parcel story. The folded print had a red mark. I had published
@@ -1753,12 +1754,12 @@ characters:
   coming_clean:
     innocent: I printed Grant's old story too readily. The parcel record corrects it, and I will publish
       the correction under my own name. I waited for the original's RECEIVED embossing before my only
-      service visit. That seal was first used after the dome closed. My credulity was real. That delivery
-      did not give me access to an open coupe.
-    murderer: I took C-17 during the preparation walkthrough and put it on the rag in my archive folder.
-      Between the bells I brought Grant the parcel print and wiped the solution inside his coupe while
-      spreading the paper beside it. He postponed my correction until after his toast. I made sure he
-      would never deliver the story he planned. I turned a historical grievance into murder.
+      service visit. That seal was first used after the glass cover closed. My credulity was real. That
+      delivery did not give me access to an open glass.
+    murderer: I took cyanide during the preparation walkthrough and put it on the rag in my archive folder.
+      While the glass was uncovered I brought Grant the parcel print and wiped the solution inside his
+      glass while spreading the paper beside it. He postponed my correction until after his toast. I made
+      sure he would never deliver the story he planned. I turned a historical grievance into murder.
   briefing:
     history: Grant fed you several flattering claims for an earlier profile that you later discovered
       were exaggerated. He threatened to cut off access if you corrected them.
@@ -1805,13 +1806,13 @@ characters:
       The flickers were a badly timed correction to an already bad choice.
   coming_clean:
     innocent: I changed the approved cue and will document it. During the glass window I held the spring-return
-      test lever and answered the electrician across both bells. I couldn't leave for the Salon. The flickers
-      came from my disputed design choice, not a signal to a murderer. We needed fewer effects and a better
-      approval process.
-    murderer: I took C-17 during the walkthrough and hid it in the label cloth. I left the lighting sequence
-      on automatic, then brought Grant the cue sheet between the bells and coated his coupe. The lights
-      could continue without me. Staff sealed and poured into the poisoned glass. I made his final spectacle
-      a murder and cannot call that good design.
+      test lever and answered the electrician throughout the uncovered-glass period. I couldn't leave
+      for the Salon. The flickers came from my disputed design choice, not a signal to a murderer. We
+      needed fewer effects and a better approval process.
+    murderer: I took cyanide during the walkthrough and hid it in the label cloth. I left the lighting
+      sequence on automatic, then brought Grant the cue sheet while the glass was uncovered and coated
+      his glass. The lights could continue without me. Staff sealed and poured into the poisoned glass.
+      I made his final spectacle a murder and cannot call that good design.
   briefing:
     history: Grant ordered you to add a gaudy lighting cue to the unveiling and threatened to withhold
       payment when Frank objected.

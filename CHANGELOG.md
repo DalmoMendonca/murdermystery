@@ -1,3 +1,10 @@
+# Evidence clarity and complete branch atlas — 2026-10-06
+
+- Replaced abstract major clues with service photos, collection records, a preparation-room plan and document-mark evidence. Added the Velvet Widow acquisition and conservation dispute.
+- Replaced coded poison and obscure service wording with cyanide, glass, punch, wrapping and cover; reconciled all confessions.
+- Added a reproducible 32-page organizer flow and all thirty side-by-side branch comparisons. Preserved 184 locked public assets.
+- Reviewed 89 PDFs / 1,262 rendered page instances / 620 distinct pages. All 89 PDFs reproduce identically from a fresh source extraction. Human difficulty and physical rehearsal remain unmeasured.
+
 # Packet wording and stand-alone discoveries — 2026-10-06
 
 - Applied the requested briefing, hunt and ballot wording to all thirty packets; removed the specified leading instructions and player finale fallback.

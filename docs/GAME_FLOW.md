@@ -16,9 +16,9 @@ Each guest has the shared question groups for each round on one page. The confir
 
 | Round | Report release | Questions | Answer |
 | --- | --- | --- | --- |
-| Act I: Motive | F1–F2 | 5 | 6, IF INNOCENT / IF MURDERER |
-| Act II: Opportunity | F3 | 7 | 8, IF INNOCENT / IF MURDERER |
-| Act III: Method | F4–F5 | 9 | 10, IF INNOCENT / IF MURDERER |
+| Act I: Motive | Evidence 1–2 | 5 | 6, IF INNOCENT / IF MURDERER |
+| Act II: Opportunity | Evidence 3 | 7 | 8, IF INNOCENT / IF MURDERER |
+| Act III: Method | Evidence 4–5 | 9 | 10, IF INNOCENT / IF MURDERER |
 
 Before Motive, select one eligible B animal and announce it twice. Nobody identifies themselves. The memorized matching animal uses IF MURDERER; everyone else uses IF INNOCENT. Use the same branch in Motive, Opportunity, Method and Coming Clean. Never redraw between rounds or because of a suspected identity. Innocent speeches can conceal other scandals; follow the prepared account until Coming Clean. Brief discussion and repeats follow each hearing. STOP panels mark the ends of phases; question pages explicitly permit turning to that act's answer page. There are no investigation grids or external player catalogs.
 
@@ -26,7 +26,7 @@ Before Motive, select one eligible B animal and announce it twice. Nobody identi
 
 Leave ballot page 11 loose. Guests accuse one attending character and explain their reasoning in their own words. Remove page 11 and submit only the ballot; retain the rest of the packet. Collect and lock every vote before opening page 12. Rank attending names including zero votes; break ties alphabetically by full name and call exactly three suspects. Hear all three appropriate Coming Clean boxes even if the first confesses. Innocents resolve their secrets and deceptions; the murderer explains the motive, preparation, poisoning and cover story. If none confesses, call the announced animal to stand and read IF MURDERER. No separate finale file or envelope is used.
 
-The mystery asks guests to compare motives, testimony and actual documents. The guide does not hand them a shortlist or a three-clue elimination grid. The five laboratory/service reports explain physical evidence without naming a culprit. Full-case mechanics are spoiler material. Automated consistency checks and AI transcript assessments do not certify human difficulty or actual party timing.
+The mystery asks guests to compare motives, testimony and actual documents. The guide does not hand them a shortlist or a three-clue elimination grid. The five official exhibits explain physical evidence without naming a culprit. Full-case mechanics are spoiler material. Automated consistency checks and AI transcript assessments do not certify human difficulty or actual party timing.
 
 ## Testimony and evidence contract
 
@@ -37,3 +37,9 @@ The case uses five kinds of exclusion: continuous activity, late first admission
 The sixteen discoveries are original museum papers, records, images and disagreements. They create suspicions and illuminate the larger story. They do not contain appended alibi certifications, recovery paragraphs or directions for solving the case. Essential crime constraints also appear in the official reports, so a missed envelope or absent guest cannot make the answer unknowable.
 
 Scripted innocent testimony is true. It is not independent facial identification or proof from an external witness. The audience must interpret the accounts with the physical evidence. A careful listener with complete information can eliminate all innocents. Logical solvability does not establish human difficulty. See the current restructure review for actual trial findings.
+
+## Visible evidence revision
+
+Grant’s latest acquisition is the fictional Velvet Widow poison bottle, intended for The Art of Murder. Discoveries 13 and 14 establish his insistence on retaining its contents and the conservator’s objection. The caterer’s photos show the wrapping, uncovered glass, sealed cover and pour. The preparation-room plan and original-versus-carbon photographs establish physical distinctions. Printed exhibits use Evidence 1–5; F remains only an internal file identifier.
+
+The organizer-only mechanics PDF has a release overview, a two-action deduction diagram and thirty separate branch comparisons. Each comparison reproduces all six actual hearing speeches and identifies the evidence that excludes the innocent branch. Do not give this solution atlas to players.
