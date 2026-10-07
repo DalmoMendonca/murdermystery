@@ -4,7 +4,7 @@ Status: fifth prototype implemented, independently reviewed and visually verifie
 
 The fourth prototype introduced five proof families but still sounded repetitive. The fifth replaces eighteen innocent accounts and six guilty document accounts with individual incidents. Seven exclusions are disclosed in Opportunity. Forensic records describe observations; the one-actor rule appears in the rules. Production remains on the baseline.
 
-The proposed 15–45% solve-rate target requires a human rehearsal. It cannot be estimated by experts who retain a full transcript. Expert trials remain a gate for coherent inference, premature unique solutions, missing facts and mechanical repetition; an all-correct final score must still be reported. This corrects the measurement model, rather than claiming the game has become harder or treating earlier unanimous results as evidence of human balance. Human difficulty and physical rehearsal remain unverified.
+The proposed 15â€“45% solve-rate target requires a human rehearsal. It cannot be estimated by experts who retain a full transcript. Expert trials remain a gate for coherent inference, premature unique solutions, missing facts and mechanical repetition; an all-correct final score must still be reported. This corrects the measurement model, rather than claiming the game has become harder or treating earlier unanimous results as evidence of human balance. Human difficulty and physical rehearsal remain unverified.
 
 ## 1. What the study changes
 
@@ -101,7 +101,7 @@ Keep the animal-selection procedure explicit in the host guide. A helper can pre
 
 At each act, the first guest answers, then asks a question of an eligible guest who has not answered. Continue until everyone present has spoken. Use character names; skip absent targets. The host's private attendance checklist supports this procedure without adding "the host tracks turns" to player pages. The questions do not depend on seating pairs or guests arriving together.
 
-Provisional pacing for 22 guests: introductions 12–15 minutes; mingling/hunt and sharing 25–30; each act 18–22; accusations 8–10; Coming Clean 10–15. Allow transition and meal time. Measure the actual read-aloud length before publishing a schedule. A full thirty-person edition needs its own timing guidance; do not claim it takes the same time.
+Provisional pacing for 22 guests: introductions 12â€“15 minutes; mingling/hunt and sharing 25â€“30; each act 18â€“22; accusations 8â€“10; Coming Clean 10â€“15. Allow transition and meal time. Measure the actual read-aloud length before publishing a schedule. A full thirty-person edition needs its own timing guidance; do not claim it takes the same time.
 
 ## 5. Give each act a distinct job
 
@@ -213,9 +213,9 @@ Keep the twelve-page packet unless real readability checks establish that it can
 2. Day-of character orientation, bold yellow relationship names, acting tips, introduction box. No costume suggestions or duplicate portrait.
 3. Private briefing, animal instructions, personal stakes, allowed gossip prompts.
 4. Hunt for Clues: approved title, introduction, and three hints.
-5–6. Act I question page and branch answer page.
-7–8. Act II question page and branch answer page.
-9–10. Act III question page and branch answer page.
+5â€“6. Act I question page and branch answer page.
+7â€“8. Act II question page and branch answer page.
+9â€“10. Act III question page and branch answer page.
 11. Tear-off ballot with clear submission instructions; no STOP box.
 12. Both Coming Clean branches, read only after voting.
 
@@ -243,57 +243,57 @@ Update `docs/GAME_FLOW.md`, the host guide, inspector/facilitator materials, spo
 
 ## 10. Ordered work phases and exit gates
 
-### Phase A — Freeze and map
+### Phase A â€” Freeze and map
 
-- [ ] Archive the current edition and record its source commit and download hashes.
-- [ ] Refresh the attendance snapshot without overwriting guest assignments.
-- [ ] Inventory all current speeches, exhibits, questions, and endings; identify obsolete dependencies.
-- [ ] Record all preserved user copy and formatting constraints.
+- [x] Archive the current edition and record its source commit and download hashes.
+- [x] Refresh the attendance snapshot without overwriting guest assignments.
+- [x] Inventory all current speeches, exhibits, questions, and endings; identify obsolete dependencies.
+- [x] Record all preserved user copy and formatting constraints.
 
 Exit: every current component has a preserve, replace, or remove decision.
 
-### Phase B — Solve the author-side case
+### Phase B â€” Solve the author-side case
 
-- [ ] Complete the physical crime sequence and evidence ledger.
-- [ ] Establish a plausible guilty route for all thirty characters.
-- [ ] Establish thirty innocent exclusions, with disclosure stages and corroboration.
-- [ ] Check each selected-culprit world for conflicts among all other statements.
-- [ ] Assign every discovery a purpose and every red herring a resolution.
+- [x] Complete the physical crime sequence and evidence ledger.
+- [x] Establish a plausible guilty route for all thirty characters.
+- [x] Establish thirty innocent exclusions, with disclosure stages and corroboration.
+- [x] Check each selected-culprit world for conflicts among all other statements.
+- [x] Assign every discovery a purpose and every red herring a resolution.
 
 Exit: the crime works independently of decorative copy; no universal certification archive or finale-only proof is required.
 
-### Phase C — Prototype contrasting packets
+### Phase C â€” Prototype contrasting packets
 
-- [ ] Draft Artie, Chip, Tess, Brie, and Justin, with Paige included wherever their shared question requires it.
-- [ ] Build the three official round releases and grouped questions alongside them.
+- [x] Draft Artie, Chip, Tess, Brie, and Justin, with Paige included wherever their shared question requires it.
+- [x] Build the three official round releases and grouped questions alongside them.
 - [ ] Read all prototype branches aloud and inspect the actual rendered pages.
-- [ ] Review voice differences, branch concealment, evidence limits, and question coverage.
+- [x] Review voice differences, branch concealment, evidence limits, and question coverage.
 
 Exit: contrasting occupations and personalities work with the same crime. This small prototype is not a claim that the whole party is balanced.
 
-### Phase D — Complete all thirty
+### Phase D â€” Complete all thirty
 
-- [ ] Author and review all 180 round speeches and 60 Coming Clean statements.
-- [ ] Complete the sixteen discoveries and any useful evidence imagery.
-- [ ] Generate full-cast and attendance-specific questions and gossip.
-- [ ] Rewrite host transitions, error handling, voting, and ending instructions.
+- [x] Author and review all 180 round speeches and 60 Coming Clean statements.
+- [x] Complete the sixteen discoveries and any useful evidence imagery.
+- [x] Generate full-cast and attendance-specific questions and gossip.
+- [x] Rewrite host transitions, error handling, voting, and ending instructions.
 
 Exit: every role can play either branch, every present role can answer each act, and no necessary fact depends on an absent character or missed envelope.
 
-### Phase E — Validate meaning and difficulty
+### Phase E â€” Validate meaning and difficulty
 
-- [ ] Run continuity and dependency checks across all thirty culprit choices.
-- [ ] Independently review the evidence-to-exclusion argument for each innocent route. A checker matching a metadata label is insufficient.
+- [x] Run continuity and dependency checks across all thirty culprit choices.
+- [x] Independently review the evidence-to-exclusion argument for each innocent route. A checker matching a metadata label is insufficient.
 - [ ] Inspect anonymized speeches for stylistic guilt signals.
 - [ ] Run multiple phase-gated blind playtests with different culprits and rosters, including a host who also plays.
-- [ ] Revise the crime or evidence release when failures appear; do not patch difficulty with confusing wording.
+- [x] Revise the crime or evidence release when failures appear; do not patch difficulty with confusing wording.
 
 Exit: fair solutions exist before voting and repeated blind sessions show investigation rather than automatic missing-record matching.
 
-### Phase F — Produce and release
+### Phase F â€” Produce and release
 
-- [ ] Render and visually inspect every final PDF page; record file/page coverage and reuse only identical reviewed page images.
-- [ ] Check large type, wrapping, spills, alignment, artwork, fold lines, ballot detachment, and STOP placement.
+- [x] Render and visually inspect every final PDF page; record file/page coverage and reuse only identical reviewed page images.
+- [x] Check large type, wrapping, spills, alignment, artwork, fold lines, ballot detachment, and STOP placement.
 - [ ] Rehearse reading and transitions; print/fold representative assets if physically available.
 - [ ] Rebuild all PDFs, texting images, and ZIPs from canonical source. Check no font files, stale artifacts, or spoiler leaks in guest exports.
 - [ ] Record actual test results and remaining limitations. Commit source and generated changes, then publish and verify the live download hashes during the implementation task.
@@ -308,7 +308,7 @@ Vary the culprit, attendance, and participant behavior. Include literal readers,
 
 Capture private guesses and confidence after each act, then final votes and the evidence each player cites. Record accidental disclosures, unclear questions, unexplained facts, reading duration, and whether the finale contradicts anything. Keep those guesses private during play so they do not manufacture consensus.
 
-Use a provisional final-solve target of roughly 15–45% of innocent players across several sessions, reflecting the user's request for a real mystery with some successful detectives. Treat the percentage as a design diagnostic. All-correct results across repeated sessions fail the difficulty gate; nobody solving with no defensible route fails the fairness gate. Small samples and agent consensus cannot establish human difficulty.
+Use a provisional final-solve target of roughly 15â€“45% of innocent players across several sessions, reflecting the user's request for a real mystery with some successful detectives. Treat the percentage as a design diagnostic. All-correct results across repeated sessions fail the difficulty gate; nobody solving with no defensible route fails the fairness gate. Small samples and agent consensus cannot establish human difficulty.
 
 Separate four verdicts: logical coherence, player comprehension, difficulty, and physical usability. A perfect logical checker does not pass the other three. Agent sessions can find problems, but human memory, social dynamics, and dinner pacing still require a human rehearsal. If none is available, state that limitation honestly at release.
 
@@ -317,3 +317,10 @@ Separate four verdicts: logical coherence, player comprehension, difficulty, and
 The restructure is complete only when a casual guest can follow their packet, hear the relevant evidence, ask an appropriate named question, answer in character without improvising facts, and make a defensible accusation. The selected murderer must remain plausible through all three rounds. Innocents must reveal meaningful scandals and fair exclusions without sounding like an alibi registry.
 
 The hunt must reward curiosity without controlling access to the solution. The ending must resolve the published evidence and the characters' secrets. The host must be able to play while running the evening. Every released page must be readable and visually reviewed. Difficulty and rehearsal claims must describe tests actually performed.
+
+
+## Current execution outcome — fifth candidate
+
+Implementation, automated logic/rehearsal checks, independent semantic review, complete visual review and a fresh source-archive rebuild have passed. All 88 clean-build PDFs match the reviewed byte hashes. The confirmed 22-guest edition is included. Four blind expert readers all solved only after Method; this does not measure human difficulty. The before-vote information is coherent across all thirty selected-role routes.
+
+Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
