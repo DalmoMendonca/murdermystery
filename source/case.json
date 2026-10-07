@@ -1,39 +1,70 @@
 {
-  "revision": "Short discovery artifacts / separate technical report",
+  "revision": "Evidence-led gala / dramatic accounts and staged deductions",
+  "necessary_actions": [
+    {
+      "id": "acquire_sample",
+      "place": "shared conservation preparation room",
+      "interval": [
+        20,
+        28
+      ],
+      "facts": [
+        "F2",
+        "F4"
+      ],
+      "explanation": "The sole C-17 vial was full and sealed when the room opened at 6:20. It was empty when the room was locked at 6:28. It was never available to guests before or after that period. The sole murderer personally removed its contents; no accomplice or independent poison source exists in this fictional case."
+    },
+    {
+      "id": "contaminate_coupe",
+      "place": "Donor Salon",
+      "interval": [
+        40,
+        44
+      ],
+      "facts": [
+        "F3",
+        "F5"
+      ],
+      "explanation": "The coupe came from guarded sealed transport at the first service bell. A numbered dome was sealed at the second bell. Only the inside of this coupe, not the drink supply or food, carried C-17. One guest applied it directly during the open service period."
+    }
+  ],
   "poisoning_interval": [
     40,
     44
   ],
-  "first_pour": 46,
-  "toast": 49,
-  "clean_glass_delivery": 40,
-  "service_dome_sealed": 44,
-  "actual_alcove_closure": 38,
-  "scheduled_closure": 48,
-  "gallery_clock_offset_minutes": 10,
+  "sample_access_interval": [
+    20,
+    28
+  ],
   "critical_discoveries": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
     14,
-    15,
     16
   ],
-  "timing_sources": {
-    "SECURITY": "synchronized",
-    "BRASS": "ten minutes fast; subtract ten"
+  "release_order": {
+    "motive": [
+      "F1",
+      "F2"
+    ],
+    "opportunity": [
+      "F3"
+    ],
+    "method": [
+      "F4",
+      "F5"
+    ]
   },
-  "fairness": "Every innocent supplies a source-linked personal account before voting. F4 contains technical findings for all thirty sources without naming their occupants. F5 records the clock discrepancy. The sixteen discoveries contain only their own short documentary evidence and scandals, with no attached alibi summaries or solving instructions. The murderer supplies no valid corresponding account. Identity comes from testimony, not a named-person certificate.",
-  "difficulty_limit": "Complete information intentionally permits eliminating every innocent, as requested. This establishes logical fairness, not a measured human difficulty level. No new blind player trial has been run.",
-  "record_identity_rule": "Certified sources withhold character identity, job title, conversation content and personal activity details. A generic occupied source can exist without the corresponding character using it: ordinary non-playing museum staff and scheduled guests also use these facilities. They are not additional murder suspects. Testimony supplies the personal connection to a source; the innocent and murderer accounts make different claims about that connection. No extract asserts that a particular character performed an activity regardless of branch. Both the source and operating constraints remain fixed."
+  "inference_limit": "Operational evidence establishes crime constraints. Individual presence still comes from scripted testimony; the kit must not label it independently certified when it is not. Automatic validation proves authored-world consistency, not human belief or difficulty.",
+  "source_routes": {
+    "east_visitor": "shelves accessible during walkthrough",
+    "west_return": "fixed barrier, staff paperwork exchanges only, no C-17 issued"
+  },
+  "transport_film": "Blue factory film with crest across sealed seam; distinct from reusable blue felt mat. Papers may be delivered beside guarded package before the first bell, without interior access.",
+  "receiving_seal": "Raised RECEIVED embossing first activated 6:45 after dome seal; red-pencil working carbons lack raised impression.",
+  "proof_families": {
+    "continuous_activity": 8,
+    "first_admission": 4,
+    "route": 5,
+    "guard": 7,
+    "sequence": 6
+  }
 }

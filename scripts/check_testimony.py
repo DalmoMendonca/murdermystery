@@ -1,68 +1,59 @@
-"""Cross-check authored testimony against printed proof, clocks and attendance.
-
-This verifies the elimination rule. It does not simulate or measure human guesses.
-"""
+"""Check authored constraints and release coverage; not a human difficulty test."""
 import json,re,yaml
 from pathlib import Path
 from character_copy import load_characters,ROOT
+from public_lock import verify_public_lock
 
 def check_testimony():
-    characters=load_characters();copy=yaml.safe_load((ROOT/'source/investigation_copy.yaml').read_text(encoding='utf-8'))
-    docs=json.loads((ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
-    rows={r['id']:r for r in copy['characters']}
-    speeches=[t for c in characters for t in c['hearing'].values()]
-    assert len(speeches)==len(set(speeches))==180
-    endings=[c['private']['final_'+b] for c in characters for b in ['innocent','murderer']]
+    verify_public_lock(ROOT)
+    chars=load_characters();data=yaml.safe_load((ROOT/'source/investigation_copy.yaml').read_text(encoding='utf-8'))
+    design=yaml.safe_load((ROOT/'source/case_design.yaml').read_text(encoding='utf-8'))
+    evidence=yaml.safe_load((ROOT/'source/evidence_design.yaml').read_text(encoding='utf-8'))
+    reports={r['id']:r for r in evidence['reports']}
+    assert not any(r.get('archive') for r in reports.values())
+    actions={a['id']:a for a in design['crime']['necessary_actions']}
+    assert set(actions)=={'acquire_sample','contaminate_coupe'}
+    assert actions['acquire_sample']['interval']==[20,28] and actions['contaminate_coupe']['interval']==[40,44]
+    all_words=[t for c in chars for t in c['hearing'].values()]
+    endings=[c['private']['final_'+b] for c in chars for b in ['innocent','murderer']]
+    assert len(all_words)==180
+    for key in ['motive_innocent','motive_murderer','where_innocent','where_murderer','evidence_innocent','evidence_murderer']:
+        assert len({c['hearing'][key] for c in chars})==30,('Repeated speech across characters',key)
     assert len(endings)==len(set(endings))==60
-    catalog={d['number']:d for d in docs}
-    assert len(catalog)==16 and not any(d.get('records') for d in docs)
-    reports=json.loads((ROOT/'source/investigation.json').read_text(encoding='utf-8'))
-    archive=next(r for r in reports if r['id']=='F4')['archive']
-    sources={s for g in archive['groups'] for s in g['sources']}
-    assert len(sources)==30
     audit=[]
-    for c in characters:
-        row=rows[c['id']];proof=row['clearance'];base={'motive':'motive','opportunity':'where','method':'evidence'}[proof['round']]
-        text=c['hearing'][base+'_innocent']
-        assert proof['anchor'].casefold() in text.casefold(),(c['name'],'clearing detail missing from designated innocent round')
-        assert proof['report']=='F4' and proof['source'] in sources,c['name']
-        stamps=proof['interval']
-        assert archive['brass_interval' if proof['clock']=='BRASS' else 'security_interval']==f'6:{stamps[0]:02}–6:{stamps[1]:02}'
-        offset=10 if proof['clock']=='BRASS' else 0
-        start,end=stamps[0]-offset,stamps[1]-offset
-        assert start<=40 and end>=44,(c['name'],'record does not cover contamination')
-        # A murderer may mention the same prop, but must not assert its valid
-        # complete alibi tuple. Read the full sentences in the semantic review.
-        guilty=' '.join(c['hearing'][b+'_murderer'] for b in ['motive','where','evidence'])
-        assert not (proof['anchor'].casefold() in guilty.casefold() and
-                    all(f'6:{n:02}' in guilty for n in stamps[:2])),(c['name'],'complete clearing tuple leaked into guilty testimony')
-        innocent=' '.join(c['hearing'][b+'_innocent'] for b in ['motive','where','evidence'])
-        for b in ['innocent','murderer']:
-            spoken=' '.join(c['hearing'][k+'_'+b] for k in ['motive','where','evidence'])
-            assert row['suspicion'].casefold() in spoken.casefold(),(c['name'],'suspicious disclosure absent',b)
-            assert not any(phrase in spoken.casefold() for phrase in ['i poisoned','i killed him','i wiped grant’s coupe','i took the toxin','i coated his coupe']),c['name']
-        audit.append({'character':c['name'],'round':proof['round'],'report':'F4','source':proof['source'],'anchor':proof['anchor'],'record_interval_security':[start,end],'suspicion':row['suspicion'],'valid_innocent_clearance':True,'valid_murderer_clearance':False})
+    for c,row in zip(chars,data['characters']):
+        assert c['id']==row['id']
+        proof=row['exclusion'];assert proof['action'] in actions
+        assert proof['activity_premise'] in c['hearing']['where_innocent']
+        assert proof['activity_premise'] not in c['hearing']['evidence_innocent']
+        assert c['case_facts']['innocent']['excluded_actions']==[proof['action']],(c['name'],'Printed chronology does not establish designed exclusion')
+        assert not c['case_facts']['murderer']['excluded_actions'],(c['name'],'Guilty chronology supplies a murder exclusion')
+        innocent=' '.join(c['hearing'][b+'_innocent'] for b in ['motive','where','evidence']).casefold()
+        guilty=' '.join(c['hearing'][b+'_murderer'] for b in ['motive','where','evidence']).casefold()
+        missing=[a for a in proof['anchors'] if a.casefold() not in innocent]
+        assert not missing,(c['name'],'missing claimed exclusion language',missing)
+        assert not all(a.casefold() in guilty for a in proof['anchors']),(c['name'],'full exclusion wording in guilty account')
+        for branch in ['innocent','murderer']:
+            spoken=' '.join(c['hearing'][b+'_'+branch] for b in ['motive','where','evidence']).casefold()
+            assert row['suspicion'].casefold() in spoken,(c['name'],'scandal not disclosed',branch)
+            assert not re.search(r'\bi (?:poisoned|killed|murdered|took c-17|coated his coupe)\b',spoken),(c['name'],'premature confession')
+        final=c['private']['final_murderer'].casefold()
+        assert 'c-17' in final and ('bell' in final) and ('coupe' in final),c['name']
+        audit.append({'character':c['name'],'excluded_required_action':proof['action'],'argument':proof['explanation'],'references':actions[proof['action']]['facts'],'assumption':'Scripted innocent testimony is true; this is not independently certified identity evidence.'})
     active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
+    # Enumerate every selected culprit under five attendance families. No all-subsets claim.
     cases=0
-    for killer in characters:
-        attendance=[{c['id'] for c in characters},active|{killer['id']},
-                    {c['id'] for c in characters[:15]}|{killer['id']},
-                    {c['id'] for c in characters if int(c['id'])%2}|{killer['id']},
-                    {c['id'] for c in characters if int(c['id'])%3}|{killer['id']}]
-        for present in attendance:
-            unresolved=[]
-            for c in characters:
+    for killer in chars:
+        for present in [set(c['id'] for c in chars),active|{killer['id']},set(c['id'] for c in chars[:15])|{killer['id']},set(c['id'] for c in chars if int(c['id'])%2)|{killer['id']},set(c['id'] for c in chars if int(c['id'])%3)|{killer['id']}]:
+            candidates=[]
+            for c in chars:
                 if c['id'] not in present:continue
-                facts=c['case_facts']['murderer' if c['id']==killer['id'] else 'innocent']
-                if facts['cleared_by'] is None:unresolved.append(c['id'])
-                else:
-                    assert facts['cleared_by']==c['id'] and facts['evidence_report']=='F4'
-                    assert facts['actual_interval'][0]<=40 and facts['actual_interval'][1]>=44
-            assert unresolved==[killer['id']]
-            cases+=1
-    evidence={'revision':'three branched rounds','hearing_speeches':180,'coming_clean_speeches':60,'culprit_attendance_scenarios':cases,'confirmed_cast_size':len(active),'characters':audit,'passed':True,'human_or_blind_agent_playtest':False}
-    (ROOT/'build/testimony-check.json').write_text(json.dumps(evidence,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Passed180distinct hearing speeches,60endings,30linked clearances and{cases}culprit/attendance scenarios including current{len(active)}guest cast.')
+                account=c['case_facts']['murderer' if c['id']==killer['id'] else 'innocent']
+                if account['excluded_action'] is None:candidates.append(c['id'])
+                else:assert account['excluded_action'] in actions
+            assert candidates==[killer['id']];cases+=1
+    report={'passed':True,'revision':design['revision'],'hearing_speeches':180,'coming_clean_speeches':60,'culprit_attendance_scenarios':cases,'confirmed_cast_size':len(active),'characters':audit,'human_or_blind_agent_playtest':False,'limitation':'Anchor and constraint checks validate the authored model. Independent reading and blind trials are needed for inference quality and difficulty.'}
+    (ROOT/'build/testimony-check.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+    print(f'Passed 180 speech boxes across all thirty roles, 60 endings and {cases} authored-world scenarios; independent inference review remains separate.')
     return cases
-
 if __name__=='__main__':check_testimony()

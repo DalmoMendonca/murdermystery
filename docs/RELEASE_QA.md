@@ -1,3 +1,5 @@
+> Historical edition audit. The October 6 restructure supersedes its mechanics and release claims; see RESTRUCTURE_2026_10_06.md.
+
 # Museum gala release QA — October 4, 2026
 
 All 87 final PDFs were rendered: 961 page instances, including combined copies, and 529 distinct raster images on 133 contact sheets. Every distinct page was visually inspected. Exact duplicate raster hashes map repeated pages to reviewed images. No structural layout issues remain. The independent reviewer inspected the 360 private packet pages, representative full-page zooms, then all 46 changed packet pages and two changed guide pages. The root reviewed the public assets, discoveries, reports and complete final 50-page spoiler reference. Actual inspection scope and hashes are in GALA_FINISH_REVIEW.json and RELEASE_QA.json; the full raster map remains in ignored build/review/report.json.

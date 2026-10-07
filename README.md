@@ -1,6 +1,6 @@
 # The Last Acquisition
 
-Museum gala murder mystery, October 30, 2026, Tulsa. 15 core roles and up to 15 optional guests.
+Museum gala murder mystery, October 30, 2026, Tulsa. 30 eligible roles; 22 currently confirmed.
 
 ## Downloads and spoilers
 
@@ -14,9 +14,13 @@ Printable PDFs use white/light reading areas, black text and burgundy/gold museu
 
 ## Editable sources
 
-- `source/characters.json`: canonical introductions, prepared answers, private canon, case facts and both Coming Clean statements.
+- `source/character_copy.yaml`: the already-sent public copy, now frozen by `source/public_assets_lock.json`.
+- `source/investigation_copy.yaml`: canonical private briefings, six hearing speeches, two endings and exclusion arguments for all thirty roles.
+- `source/case_design.yaml`: the crime, evidence dependencies, release order and limits of the inference.
+- `source/evidence_design.yaml`: five official reports and sixteen short discoveries.
+- `source/characters.json`, `investigation.json`, `discoveries.json` and `case.json`: generated compatibility output; edit the YAML sources.
 - `source/game.json`: address, packet page map and one familiar animal pool.
-- `source/question_rounds.json`: ten shared questions per round, each with three named targets.
+- `source/question_rounds.json`: generated shared questions, with two to four named targets per question; the confirmed edition filters absent names.
 - `source/discoveries.json`: sixteen actual museum document payloads.
 - `source/evidence_art.json`: photographic exhibit prompts and hashes.
 - `source/investigation.json`: current staged forensic reports and physical evidence and competing accounts.
@@ -57,16 +61,27 @@ Archives use fixed entry timestamps, stable ordering and normalized text line en
 
 ## Agent table read
 
-Read the spoiler-safe `docs/PLAYTEST_SUMMARY.md`. The previous 15/15 solve result was an ease warning, not a difficulty success. New staged assessments and their limitations are recorded separately under `docs/playtest/2026-10-04-GALA-SPOILERS`. AI transcript accuracy is not a human party difficulty measurement. Historical editions are preserved under source/history and docs/history, not used by the build.
+Read the spoiler-safe `docs/PLAYTEST_SUMMARY.md`. The previous 15/15 solve result was an ease warning, not a difficulty success. Current staged assessments and their limitations are recorded under `docs/playtest/2026-10-06-RESTRUCTURE-SPOILERS`; older results remain historical. AI transcript accuracy is not a human party difficulty measurement. Historical editions are preserved under source/history and docs/history, not used by the build.
 
 ## Editing private testimony
 
-`source/investigation_copy.yaml` is organizer-only source containing all thirty characters, their six hearing speeches, two Coming Clean endings, suspicious disclosure and linked clearance. Public descriptions and costumes remain independently editable in `source/character_copy.yaml`. Do not send either private source or full ZIPs to players. Rebuild after an edit, run `scripts/packet_checks.py` and `scripts/check_content.py`, then render with `scripts/verify.py` and inspect the affected pages before publishing. Spoken hearing and Coming Clean text uses at least 15pt.
+`source/investigation_copy.yaml` is organizer-only source containing all thirty characters, their six hearing speeches, two Coming Clean endings, suspicious disclosure and linked clearance. The already-sent public descriptions, relationships and costumes are frozen in `source/character_copy.yaml`; the build rejects changes to them. Do not send either private source or full ZIPs to players. Rebuild after an edit, run `scripts/check_content.py` (which includes packet checks), then render with `scripts/verify.py` and inspect the affected pages before publishing. Spoken hearing and Coming Clean text uses at least 15pt.
 
-See `docs/CLUE_REVISION_REVIEW.md` for the current evidence/format revision audit and `docs/THREE_ROUND_REVIEW.md` for the preceding rewrite audit and its difficulty limitations. Historical playtest results refer to earlier editions, not these rewritten speeches.
+See `docs/RESTRUCTURE_2026_10_06.md` for the current revision audit and `docs/THREE_ROUND_REVIEW.md` for the preceding rewrite audit and its difficulty limitations. Historical playtest results refer to earlier editions, not these rewritten speeches.
 
 ## Editing hunt hints
 
 Edit `source/hunt_copy.yaml`. Each numbered envelope has its real hiding place and the character names and hints that point there. Change the `hint` text directly; keep each character assigned to three different locations. The build validates all ninety hints and regenerates the packet pages, host placement table and compatibility snapshot `source/hunt.json`. Do not edit that generated JSON. Rebuild with `python scripts/build.py`, then check content and inspect rendered pages before publishing.
 
-The sixteen discovery exhibits contain only their own short evidence. Technical recording findings are released separately as the second page of F4; the discovery envelopes contain no appended alibi summaries.
+The sixteen discovery exhibits contain only their own short evidence. Five official reports release the shared case facts in stages. No discovery contains appended alibi summaries or a recovery section.
+
+## October 6 restructure
+
+Use `03A_Confirmed_22_Guest_Packets_PRINT_DO_NOT_READ.pdf` for the current party. The 30-role masters remain available for roster changes. The public invitation and every already-sent character image/PDF are hash-locked and skipped by the build. See `docs/RESTRUCTURE_2026_10_06.md` for the architecture, independent reviews, trial results and limitations.
+
+
+## Rebuilding the source archive
+
+The source ZIP excludes generated downloads. On its first build, missing frozen public exports are restored from the pinned baseline complete kit and checked against the public lock. Existing files are never replaced. For an offline rebuild, put the complete-kit ZIP and `All_30_Characters_and_Invite.zip` beside the extracted source and call `restore_missing_public` in `scripts/public_lock.py` with their paths before building. Editing private testimony does not regenerate the already-sent invitation or character sheets.
+
+The organizer book contains the case, discovery resolutions and one resolution page per character. Full speeches are in the player packets and `source/investigation_copy.yaml`.

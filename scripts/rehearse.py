@@ -34,7 +34,7 @@ def rehearse():
                     heard.append(respondent);pending.remove(respondent);asker=respondent
                 assert set(heard)==set(attending) and len(heard)==len(set(heard))
             facts={n:by_name[n]['case_facts']['murderer' if n==killer else 'innocent'] for n in attending}
-            assert [n for n,f in facts.items() if f['cleared_by'] is None]==[killer]
+            assert [n for n,f in facts.items() if f['excluded_action'] is None]==[killer]
             for votes in [{n:rng.randrange(5) for n in attending},{n:1 for n in attending},{n:0 for n in attending}]:
                 top=finalists(votes);readers=list(top)
                 assert len(top)==min(3,len(attending)) and set(top)<=set(attending)

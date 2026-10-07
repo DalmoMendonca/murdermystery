@@ -1,3 +1,5 @@
+> Historical edition audit. The October 6 restructure supersedes its mechanics and release claims; see RESTRUCTURE_2026_10_06.md.
+
 # Packet and discovery corrections — October 6, 2026
 
 ## Delivered changes

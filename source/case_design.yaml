@@ -1,0 +1,88 @@
+schema_version: 1
+revision: Evidence-led gala / dramatic accounts and staged deductions
+status: implementation in progress
+victim: Grant Larceny
+fictional_material: C-17 botanical reference solution; invented for this game, no real recipe or dosage
+crime:
+  actor_count: 1
+  actor_pool: attending characters only
+  necessary_actions:
+  - id: acquire_sample
+    place: shared conservation preparation room
+    interval:
+    - 20
+    - 28
+    facts:
+    - F2
+    - F4
+    explanation: The sole C-17 vial was full and sealed when the room opened at 6:20. It was empty when
+      the room was locked at 6:28. It was never available to guests before or after that period. The sole
+      murderer personally removed its contents; no accomplice or independent poison source exists in this
+      fictional case.
+  - id: contaminate_coupe
+    place: Donor Salon
+    interval:
+    - 40
+    - 44
+    facts:
+    - F3
+    - F5
+    explanation: The coupe came from guarded sealed transport at the first service bell. A numbered dome
+      was sealed at the second bell. Only the inside of this coupe, not the drink supply or food, carried
+      C-17. One guest applied it directly during the open service period.
+  pour: 46
+  toast: 49
+  common_access: All gala guests were invited to the preparation walkthrough. The preparation room was
+    open to them from 6:20 to 6:28; the Donor Salon service table was unattended between the two service
+    bells. No role requires specialist credentials to commit the crime.
+  innocent_testimony_rule: Printed innocent facts are true, including admissions of unrelated misconduct.
+    Murderer facts before confession can be true or evasive but never assert a complete exclusion. Guests
+    do not invent additional factual claims.
+  inference_limit: Operational evidence establishes crime constraints. Individual presence still comes
+    from scripted testimony; the kit must not label it independently certified when it is not. Automatic
+    validation proves authored-world consistency, not human belief or difficulty.
+  immutable_public_copy: source/public_assets_lock.json
+  eliminated_mechanisms:
+  - thirty-source certification archive
+  - BRASS clock correction
+  - compulsory discovery-based alibi attachments
+  source_routes:
+    east_visitor: shelves accessible during walkthrough
+    west_return: fixed barrier, staff paperwork exchanges only, no C-17 issued
+  transport_film: Blue factory film with crest across sealed seam; distinct from reusable blue felt mat.
+    Papers may be delivered beside guarded package before the first bell, without interior access.
+  receiving_seal: Raised RECEIVED embossing first activated 6:45 after dome seal; red-pencil working carbons
+    lack raised impression.
+release_order:
+  motive:
+  - F1
+  - F2
+  opportunity:
+  - F3
+  method:
+  - F4
+  - F5
+discovery_policy: All sixteen discoveries are opened and publicly shared during the hunt. Missing discoveries
+  are supplied by the host before Act I. Necessary crime facts also appear in official releases. No finder
+  has exclusive evidence.
+constraints:
+- Every one of thirty culprit choices must support both necessary actions.
+- Each innocent excludes at least one necessary action through facts disclosed before voting.
+- Each character has an unrelated scandal disclosed in both branches.
+- No fixed exhibit permanently excludes a named character.
+- No public role, relationship, portrait, invite, or already-sent character sheet changes.
+- Coming Clean explains evidence already released; it introduces no necessary solution fact.
+proof_families:
+  continuous_activity: 8
+  first_admission: 4
+  route: 5
+  guard: 7
+  sequence: 6
+reveal_design:
+  motive: Grievances and concealed misconduct; no uniquely defensible accusation.
+  opportunity: Service custody now resolves seven innocent branches. Other stories remain open until the
+    source and document records arrive.
+  method: Source access and document sequence resolve the remaining branches. Endings explain the already-solvable
+    case.
+  difficulty_measurement: Expert full-transcript solve rate is not a human solve-rate estimate. Track
+    premature unique solutions, proof clarity, repeated language and actual human rehearsal separately.

@@ -1,3 +1,5 @@
+> Historical edition audit. The October 6 restructure supersedes its mechanics and release claims; see RESTRUCTURE_2026_10_06.md.
+
 # Thirty-character testimony rewrite — October 5, 2026
 
 All thirty characters now have separately authored IF INNOCENT and IF MURDERER speeches in Motive, Opportunity and Method: 180 hearing speeches and 60 Coming Clean endings. Public character copy, portrait masters and all 31 approved phone images are preserved. Organizer editing source is `source/investigation_copy.yaml`.

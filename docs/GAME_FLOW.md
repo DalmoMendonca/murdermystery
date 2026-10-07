@@ -1,6 +1,6 @@
 # Current game flow
 
-October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an offstage donor. Current structured JSON and this flow supersede archived editions.
+October 30, 2026. 1537 S 74th East Ave, Tulsa, OK 74112. Grant Larceny is an offstage donor. Current canonical YAML and this flow supersede archived editions.
 
 ## Arrival and hunt
 
@@ -12,7 +12,7 @@ Page 4 gives three distinct cryptic hints per guest, pointing to sixteen numbere
 
 ## Three hearings
 
-Each guest has all ten shared question groups for each round on one page. Each question names three possible targets with different character-specific answers. Choose an unheard attending guest by name; ask that guest their group's question. The guest reads their own speech box and passes the question chain onward. The host ticks the name checklist, including the starting speaker, until everyone has answered once. Skip absent names; the host can redirect without fixed partners or seat order. Read only speech boxes, never IF labels.
+Each guest has the shared question groups for each round on one page. The confirmed 22-guest edition filters out absent targets. Each question names two to four possible targets with different character-specific answers. Choose an unheard attending guest by name; ask that guest their group's question. The guest reads their own speech box and passes the question chain onward. The host ticks the name checklist, including the starting speaker, until everyone has answered once. Skip absent names; the host can redirect without fixed partners or seat order. Read only speech boxes, never IF labels.
 
 | Round | Report release | Questions | Answer |
 | --- | --- | --- | --- |
@@ -30,6 +30,10 @@ The mystery asks guests to compare motives, testimony and actual documents. The 
 
 ## Testimony and evidence contract
 
-Every character has six independently authored hearing speeches and two endings in `source/investigation_copy.yaml`. Both routes disclose personal misconduct; an innocent route also connects the speaker to a clearing source before voting. The sixteen discoveries are short stand-alone original objects, without alibi attachments or instructions for solving the case. F4 separately records installation facts and a technical inspection of anonymous recording sources, occupied intervals and operating constraints. Those technical findings withhold personal identities and private contents: a portable prop, job title or biographical detail cannot automatically clear a character whichever branch is selected. Testimony supplies the personal connection. Reports establish the contamination window and correct the two clocks. Nobody needs an absent guest to corroborate them.
+Every character has six hearing speeches and two endings in `source/investigation_copy.yaml`. Both branches disclose unrelated misconduct. Some Opportunity answers are identical within a role; others disclose different details of the same ordinary task. An ordinary work activity alone must not identify the branch. Voices and scandals differ across all thirty roles.
 
-The audience must compare the complete accounts with the evidence. A source certification is not facial identification or independent proof of every claim. The branch scripts define the story facts. The design deliberately gives every innocent a resolvable explanation; a careful listener with complete information can eliminate all innocents. This is fair deduction, not a measured difficulty level.
+The case uses five kinds of exclusion: continuous activity, late first admission, a restricted route, guarded vessel custody, and a document sequence. Seven innocent custody accounts become usable during Opportunity. Other branches need the source or receiving records released in Method. Characters recall specific objects and incidents rather than reciting a common clearance formula. Full-information inference remains deterministic; no necessary fact is postponed until Coming Clean.
+
+The sixteen discoveries are original museum papers, records, images and disagreements. They create suspicions and illuminate the larger story. They do not contain appended alibi certifications, recovery paragraphs or directions for solving the case. Essential crime constraints also appear in the official reports, so a missed envelope or absent guest cannot make the answer unknowable.
+
+Scripted innocent testimony is true. It is not independent facial identification or proof from an external witness. The audience must interpret the accounts with the physical evidence. A careful listener with complete information can eliminate all innocents. Logical solvability does not establish human difficulty. See the current restructure review for actual trial findings.

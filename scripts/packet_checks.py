@@ -27,12 +27,12 @@ def check():
     assert set(coverage)==set(range(1,17)) and set(coverage.values())<={5,6}
     assert {h['envelope'] for c in chars[:15] for h in hunt['characters'][c['slug']]}==set(range(1,17))
     for rd in rounds:
-        assert len(rd['groups'])==10 and all(len(g['targets'])==3 for g in rd['groups'])
+        assert len(rd['groups'])==10 and all(2<=len(g['targets'])<=5 for g in rd['groups'])
         targets=[n for g in rd['groups'] for n in g['targets']]
         assert len(targets)==len(set(targets))==30 and set(targets)==names
         for group in rd['groups']:
             key={'motive':'motive_innocent','opportunity':'where_innocent','method':'evidence_innocent'}[rd['key']]
-            assert len({c['hearing'][key] for c in chars if c['name'] in group['targets']})==3
+            assert len({c['hearing'][key] for c in chars if c['name'] in group['targets']})==len(group['targets'])
     phases={2:'INTRODUCTIONS',3:'INTRODUCTIONS',4:'HUNT FOR CLUES',5:'ACT I: MOTIVE',6:'ACT I: MOTIVE',7:'ACT II: OPPORTUNITY',8:'ACT II: OPPORTUNITY',9:'ACT III: METHOD',10:'ACT III: METHOD',11:'ACCUSATIONS',12:'COMING CLEAN'}
     for c,profile in zip(chars,profiles):
         assert c['name']==profile['name'] and 'age' not in c
@@ -69,7 +69,7 @@ def check():
                 qt=norm(texts[expected[rd['key']+'_questions'][0]-1])
                 for g in rd['groups']:assert norm(g['question']) in qt and all(norm(n) in qt for n in g['targets'])
             for val in [c['private']['history'],c['private']['secret'],*c['hearing'].values()]:assert norm(val) in norm(alltext),(c['name'],val)
-            for base in ['motive','where','evidence']:assert c['hearing'][base+'_innocent']!=c['hearing'][base+'_murderer']
+            for base in ['motive','evidence']:assert c['hearing'][base+'_innocent']!=c['hearing'][base+'_murderer']
             for branch in ['innocent','murderer']:assert norm(c['private']['final_'+branch]) in norm(texts[11])
             final_spans=[s for block in d[11].get_text('dict')['blocks'] if 'lines' in block for line in block['lines'] for s in line['spans'] if s['bbox'][0]>=59 and 160<=s['bbox'][1]<675]
             assert final_spans and min(s['size'] for s in final_spans)>=14.9, (c['name'],'Coming Clean reading type below15pt')
@@ -112,7 +112,7 @@ def check():
             titles=[block for block in blocks if norm(' '.join(''.join(span['text'] for span in line['spans']) for line in block['lines']))==norm(c['role'])]
             assert len(titles)==2 and all(len(block['lines'])<=2 for block in titles), (c['name'],'title exceeds two lines')
     guidepath=KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf'
-    with fitz.open(guidepath) as d:assert len(d)==15
+    with fitz.open(guidepath) as d:assert len(d)==len(load('facilitator.json'))
     guide=printed(guidepath)
     assert norm('Before Act I: Motive') in norm(guide) and norm('Never redraw between rounds') in norm(guide)
     assert 'After Act I' not in guide
@@ -128,13 +128,35 @@ def check():
         if p.name not in allowed:assert not any(re.search(r'\b'+re.escape(x)+r'\b',t,re.I) for x in obsolete),(p.name,'obsolete instruction')
         assert not any(x in t for x in ['Sterling Voss','Pryce','VOSS COLLECTION','â€'])
     for rel in ['PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf','OPEN_FREELY/11_Questions_and_Notes.pdf','PRINT_WITHOUT_READING/Finale_Individual']:assert not (KIT/rel).exists(),rel
-    for report in load('investigation.json'):assert norm(report['text']) in norm(printed(KIT/'PRINT_WITHOUT_READING/Reports'/(report['id']+'.pdf')))
+    for report in load('investigation.json'):
+        path=KIT/'PRINT_WITHOUT_READING/Reports'/(report['id']+'.pdf')
+        text=norm(printed(path));assert norm(report['text']) in text
+        with fitz.open(path) as doc:assert len(doc)==(2 if report.get('appendix') else 1)
+        if report.get('appendix'):
+            appendix=report['appendix'];assert norm(appendix['text']) in text
+            for label,value in appendix['rows']:assert norm(label) in text and norm(value) in text
+    roster=json.loads((ROOT/'build/event-roster.json').read_text(encoding='utf-8'))
+    attendees=[c for c in chars if c['name'] in roster['characters']]
+    assert len(attendees)==roster['count']==22
+    absent=names-set(roster['characters'])
+    with fitz.open(KIT/roster['packet_file']) as event:
+        assert len(event)==12*len(attendees)
+        for i,c in enumerate(attendees):
+            with fitz.open(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf') as master:
+                for pn in range(12):
+                    page=event[i*12+pn]
+                    if pn in [4,6,8]:
+                        qt=norm(page.get_text());rd=rounds[[4,6,8].index(pn)]
+                        assert not any(norm(name) in qt for name in absent)
+                        for g in rd['groups']:
+                            targets=[n for n in g['targets'] if n not in absent]
+                            if targets:assert norm(g['question']) in qt and all(norm(n) in qt for n in targets)
+                    else:
+                        assert page.get_pixmap().samples==master[pn].get_pixmap().samples,(c['name'],pn+1,'Story changed in attendance edition')
     with fitz.open(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf') as d:assert len(d)==16
     discovery_text=printed(KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf')
     assert not any(x in discovery_text.lower() for x in ['authenticated source extracts','recovery','fold for its numbered envelope','supplies an alibi'])
-    archive_text=norm(printed(KIT/'PRINT_WITHOUT_READING/Reports/F4.pdf'))
-    for group in load('investigation.json')[3]['archive']['groups']:
-        for source in group['sources']:assert norm(source) in archive_text,source
+    assert not any(report.get('archive') for report in load('investigation.json'))
     for c in chars:
         packet=norm(printed(KIT/'PRINT_WITHOUT_READING/Secret_Individual'/f'{c["slug"]}_SECRET.pdf'))
         for phrase in ['save corrections for Coming Clean','The host tracks turns','You can ask someone to repeat a detail','Votes lock when all ballots are collected','If none confesses, the host calls the selected animal to stand']:

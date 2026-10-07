@@ -1,6 +1,7 @@
 """Measured museum-gala layouts. Build fonts are never included in downloads."""
 from pathlib import Path
 import shutil
+import yaml
 import json,re,html,zipfile,io,urllib.request,hashlib
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
@@ -231,21 +232,48 @@ def facilitator(chars):
     import fitz
     with fitz.open(KIT/'OPEN_FREELY/01_Facilitator_Guide_SPOILER_SAFE.pdf') as doc:assert len(doc)==len(pages),'Facilitator section spilled onto an unplanned page'
 def spoiler(chars):
-    case=json.loads((ROOT/'source/case.json').read_text(encoding='utf-8'))
-    sections=[('Canonical murder facts',
-        'Grant Larceny dies from the conservation reference toxin wiped into his clean empty coupe between 6:40 and 6:44. The glass arrives clean at 6:40, is covered and continuously guarded from 6:44, is poured at 6:46, and is watched through the 6:49 toast. One attending guest acts alone. Linen and preparation access are shared.\n\n'
-        'Select the murderer animal before Motive. Every player uses one stable branch throughout all three rounds. Each innocent reveals suspicious misconduct plus an individual clearing fact. Recovered records cover 6:39–6:45; SECURITY timestamps are synchronized and BRASS overlays run ten minutes fast. F4 authenticates source intervals and integrity, withholding identities and private contents. Testimony supplies the personal connection; the fixed evidence never asserts a named guest was elsewhere regardless of branch. Continuous films, sealed-room logs and fixed live calls are distinguished from their portable or automatic counterparts. F5 supplies clock corrections. Prerecorded clips, mobile calls, automatic tests and shutter metadata cannot establish personal presence. All necessary proof is available before voting and independent of absent characters.\n\n'
-        'The murderer has no valid matching clearance. Each guilty route uses its own uncorroborated or contradicted account; an impossible cabinet visit is no longer a universal tell. Compare the whole three-round account, contamination interval and exhibits, rather than selecting whoever admits a scandal. Every innocent also has one. The laboratory does not name the killer.\n\n'
-        'All three highest-voted attending suspects read Coming Clean after ballots lock, even if a confession occurs early. If none confesses, call the retained selected animal. The confession reconstructs already available facts. Complete evidence permits clearing every innocent, as requested; this logical property is not a measured human difficulty guarantee.')]
-    for c in chars:
-        p=c['private'];body=['Victim relationship: '+p['history'],'Hidden complication: '+p['secret']]
-        for label,base in [('Motive','motive'),('Opportunity','where'),('Method','evidence')]:
-            for branch in ['innocent','murderer']:body.append(label+' / '+branch+': '+c['hearing'][base+'_'+branch])
-        body += ['Innocent Coming Clean: '+p['final_innocent'],'Murderer Coming Clean: '+p['final_murderer'],
-                 'Technical support / '+c['testimony_clearance']['report']+': '+c['testimony_clearance']['source']+' / '+c['testimony_clearance']['clock']+' clock.']
-        sections.append((c['name'],'\n\n'.join(body)))
-    bible_style=ParagraphStyle('BibleBody',parent=STYLE,spaceAfter=7)
-    manual('SPOILER BIBLE / Do not open if playing',sections,KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf',body_style=bible_style)
+    design=yaml.safe_load((ROOT/'source/case_design.yaml').read_text(encoding='utf-8'))
+    sections=[('Canonical case / organizer only',design['crime']['common_access']+'\n\n'+design['crime']['inference_limit'])]
+    for action in design['crime']['necessary_actions']:
+        sections.append((action['id'],action['explanation']))
+    evidence=yaml.safe_load((ROOT/'source/evidence_design.yaml').read_text(encoding='utf-8'))
+    for item in evidence['discovery_resolutions']:
+        sections.append(('Discovery '+str(item['number'])+' / resolution',item['resolution']))
+    # Keep each role's resolution together. Complete speeches/backstories remain
+    # in its packet and canonical YAML; duplicating them here caused orphan pages.
+    core=KIT/'SPOILERS_DO_NOT_OPEN/_work_case.pdf'
+    s=Sheet(core,'Organizer case and discovery resolutions')
+    s.header('SPOILER BIBLE / Organizer only')
+    y=105
+    for title,text in sections[:3]:
+        title={'acquire_sample':'Source sample','contaminate_coupe':'Poisoned vessel'}.get(title,title)
+        y=s.block(title,42,y,528,22,'BookBold',TEAL)+10
+        y=s.block(text,42,y,528,15,bottom=725)+20
+    s.footer('Organizer only / Every required deduction is available before voting');s.next()
+    s.header('SPOILER BIBLE / Organizer only')
+    y=s.block('Discovery resolutions',42,105,528,26,'BookBold',TEAL)+18
+    for item in evidence['discovery_resolutions']:
+        left=s.block(str(item['number'])+'.',42,y,35,14,'BookBold',TEAL)
+        right=s.block(item['resolution'],88,y,482,14,bottom=725)
+        y=max(left,right)+9
+    s.footer('Organizer only / Findings create suspicion; the hearings resolve personal accounts');s.save()
+    resolutions=KIT/'SPOILERS_DO_NOT_OPEN/_work_resolutions.pdf'
+    s=Sheet(resolutions,'All thirty role resolutions')
+    for i,c in enumerate(chars):
+        s.header('SPOILER BIBLE / Organizer only')
+        y=s.block(c['name'],42,105,528,28,'BookBold',TEAL)+20
+        for label,text in [('Innocent Coming Clean',c['private']['final_innocent']),
+                           ('Murderer Coming Clean',c['private']['final_murderer']),
+                           ('Why the innocent account excludes murder',c['testimony_clearance']['explanation'])]:
+            y=s.block(label,42,y,528,16,'BookBold',TEAL)+7
+            y=s.block(text,42,y,528,15,bottom=725)+20
+        s.footer('Full hearings and briefing: this character’s packet / editable investigation_copy.yaml')
+        if i+1<len(chars):s.next()
+    s.save()
+    merge([core,resolutions],KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf')
+    for temporary in [core,resolutions]:
+        assert temporary.resolve().is_relative_to(KIT.resolve())
+        temporary.unlink()
 
 def archive_entry(z,p,name):
     data=p.read_bytes()
@@ -266,6 +294,11 @@ def package():
 def build_kit():
     from character_copy import load_characters
     from hunt_copy import sync_hunt
+    from public_lock import verify_public_lock,restore_missing_public
+    if (ROOT/'source/public_assets_lock.json').exists():restore_missing_public(ROOT)
+    frozen_public=verify_public_lock(ROOT)
+    from restructure import sync
+    sync()
     sync_hunt(ROOT)
     fonts();KIT.mkdir(parents=True,exist_ok=True);chars=load_characters()
     for relative in ['PRINT_WITHOUT_READING/05_Character_Evidence_Cards_PRINT_DO_NOT_READ.pdf','PRINT_WITHOUT_READING/03B_Sealed_Finales_PRINT_DO_NOT_READ.pdf','OPEN_FREELY/11_Questions_and_Notes.pdf']:
@@ -275,11 +308,16 @@ def build_kit():
     # Clear superseded character filenames, keeping only current canonical exports.
     for folder in ['OPEN_FREELY/PreParty_Individual','PRINT_WITHOUT_READING/Secret_Individual','PRINT_WITHOUT_READING/Finale_Individual']:
         dest=KIT/folder
+        if frozen_public and folder.endswith('PreParty_Individual'):continue
         if dest.exists():
             for old in dest.iterdir():
                 if old.suffix in ['.pdf','.png','.jpg']:old.unlink()
             if folder.endswith('Finale_Individual'):dest.rmdir()
-    preparty(chars);secret_packets(chars);play_aids(chars);clues();props(chars);invitation();exhibits();awards();readme();facilitator(chars);spoiler(chars)
+    if not frozen_public:preparty(chars);invitation()
+    secret_packets(chars);
+    from event_packets import build_event
+    build_event(chars,__import__(__name__))
+    play_aids(chars);clues();props(chars);exhibits();awards();readme();facilitator(chars);spoiler(chars)
     for c in chars:
         dest=KIT/'OPEN_FREELY/Portraits'/c['slug'];dest.mkdir(parents=True,exist_ok=True)
         (dest/'chibi.jpg').unlink(missing_ok=True)
@@ -293,7 +331,7 @@ def build_kit():
                     im.save(dest/(style+ext),lossless=True,exif=exif)
                 else:im.save(dest/(style+ext),quality=88,subsampling=1,comment=('impeccable:prompt\0'+origin).encode('utf-8'))
     import fitz
-    for path in sorted((WORK/'phone-posters').glob('*.pdf')):
+    for path in ([] if frozen_public else sorted((WORK/'phone-posters').glob('*.pdf'))):
         with fitz.open(path) as doc:
             assert len(doc)==1,path
             pix=doc[0].get_pixmap(matrix=fitz.Matrix(2,2))
@@ -302,8 +340,9 @@ def build_kit():
             im.save(KIT/'OPEN_FREELY/PreParty_Individual'/path.with_suffix('.jpg').name,quality=90,subsampling=0,dpi=(144,144),comment=origin.encode('utf-8'))
     (WORK/'layout-ledger.json').write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2),encoding='utf-8');(KIT/'README.txt').write_text('Start with 00_READ_ME_FIRST.pdf. Print at 100%, single-sided. Handle private files face down. OPEN_FREELY is host-safe; all other folders contain spoilers. Fonts are embedded.\n',encoding='utf-8')
     from export_phone_images import export
-    export()
-    sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs and 30 character JPEG posters')
+    if not frozen_public:export()
+    verify_public_lock(ROOT)
+    sync_playtest_records();package();print(f'Built {len(list(KIT.rglob("*.pdf")))} PDFs; already-sent posters and invite remain locked')
 
 def sync_playtest_records():
     summary=ROOT/'docs/PLAYTEST_SUMMARY.md'
@@ -338,16 +377,19 @@ def play_aids(chars):
     s.footer('Keep collected ballots folded / Guests retain packets for Coming Clean');s.save()
     s=Sheet(KIT/'OPEN_FREELY/10_Blind_Printing_and_Assembly.pdf','Complete packet assembly');s.header('OPEN FREELY / Packet assembly')
     y=s.block('One guest. One complete packet.',42,101,528,28,'BookBold')+18
-    for t in ['Print one named twelve-page SECRET packet per attending guest: single-sided, 100%, face down. A non-playing helper can handle exposed text.',
+    for t in ['Print the confirmed 22-guest file (03A): single-sided, 100%, face down. A helper can handle exposed text.',
               'Leave ballot page 11 loose inside. Staple other pages in order at the upper left. Orientation, hunt hints, questions, answers and Coming Clean stay with the guest.',
               'Place the covered packet facing up at the guest’s named seat, with a pencil. Keep the public introduction separate for sending before the party.',
               'If using the combined file, each consecutive twelve-page block belongs to the next name listed below. Do not read private pages while assembling.',
-              'Print one host guide and name checklist. Hide Discoveries 1–16, then display any missed at hunt end. Stage reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
+              'Print the host guide and roster. Hide Discoveries 1–16; display missed finds afterward. Reports: F1–F2 before Motive, F3 before Opportunity, F4–F5 before Method.']:
         y=s.block(t,42,y,528,14)+12
-    y=s.block('Packet order / character names',42,y,528,18,'BookBold',TEAL)+9
-    for row in range(15):
-        for i,x in [(row,42),(row+15,318)]:s.block(chars[i]['name'],x,y,252,12)
-        y+=18
+    active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
+    event_chars=[c for c in chars if c['id'] in active];half=(len(event_chars)+1)//2
+    y=s.block('Confirmed packet order / character names',42,y,528,18,'BookBold',TEAL)+9
+    for row in range(half):
+        for i,x in [(row,42),(row+half,318)]:
+            if i<len(event_chars):s.block(event_chars[i]['name'],x,y,252,14)
+        y+=22
     s.footer('The complete packet includes its ballot and Coming Clean page');s.save()
 
 if __name__=='__main__':build_kit()

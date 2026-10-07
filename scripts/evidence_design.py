@@ -18,6 +18,33 @@ def draw_discovery(s,d,top,b):
     if d.get('stamp'):s.block(d['stamp'],58,bottom-35,496,12,'BookBold',b.RED,bottom=bottom-16)
     s.block('Discovery '+str(d['number']),440,bottom-18,114,12,'Book',b.TEAL,bottom=bottom-2)
 
+def diagram(s,kind,y,b):
+    """Print diagrams carry actual route/material information, with readable labels."""
+    if kind=='preparation_routes':
+        s.rect(42,y,240,154,fill=b.PALE,stroke=b.GOLD)
+        s.rect(322,y,248,154,stroke=b.GOLD)
+        s.block('WEST / CORRIDOR',55,y+12,214,16,'BookBold',b.RED)
+        s.block('Return counter',55,y+45,214,16)
+        s.block('Papers pass to staff',55,y+85,214,14)
+        s.block('EAST / VISITOR ROOM',335,y+12,222,16,'BookBold',b.RED)
+        s.block('Open source shelves',335,y+45,222,16)
+        s.block('Visitor entrance',335,y+108,222,14)
+        s.rect(292,y,20,154,fill=b.INK)
+        s.block('FIXED BARRIER',42,y+165,528,14,'BookBold')
+        return y+198
+    s.rect(42,y,250,142,fill=b.PALE,stroke=b.GOLD)
+    s.rect(320,y,250,142,fill=b.PALE,stroke=b.GOLD)
+    s.block('FACTORY FILM',55,y+10,224,16,'BookBold',b.RED)
+    s.block('REUSABLE FELT',333,y+10,224,16,'BookBold',b.RED)
+    s.line(165,y+42,165,y+102)
+    s.rect(90,y+62,148,31,stroke=b.RED)
+    s.block('MERIDIAN',101,y+67,125,16,'BookBold',b.RED)
+    s.rect(366,y+62,148,31,stroke=b.RED,dash=[2,2])
+    s.block('MERIDIAN',377,y+67,125,16,'BookBold',b.RED)
+    s.block('Crest crosses joined seam',55,y+114,224,14)
+    s.block('Crest stitched into fabric',333,y+114,224,14)
+    return y+166
+
 def build_evidence(b):
     docs=json.loads((b.ROOT/'source/discoveries.json').read_text(encoding='utf-8'))
     s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf','Museum discovery documents')
@@ -37,49 +64,33 @@ def build_evidence(b):
         if i+1<len(docs):s.next()
     s.save()
     reports=json.loads((b.ROOT/'source/investigation.json').read_text(encoding='utf-8'))
-    photos={'F1':'silver_coupe','F4':'actual_installation','F5':'clock_comparison'}
-    departments={'F1':'FORENSIC LABORATORY / TOXICOLOGY','F2':'MERIDIAN / DONOR PAPERS','F3':'MERIDIAN / STEWARD STATEMENT','F4':'MERIDIAN / CONSERVATION AUDIT','F5':'FORENSIC LABORATORY / TEXTILE COMPARISON'}
     paths=[]
     for report in reports:
-        key=report['id'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Reports'/(key+'.pdf'),report['title']);s.header(departments[key])
-        y=s.block(report['title'],42,105,528,30,'BookBold',b.TEAL)+15
-        y=s.block('CASE: MERIDIAN / OCT 30, 2026 / '+key,42,y,528,14,'BookBold')+17
-        if key in photos:
-            ph=180 if key=='F4' else 225
-            s.image(b.ROOT/'assets/evidence'/(photos[key]+'.jpg'),42,y,528,ph)
-            s.rect(42,y,528,ph,stroke=b.GOLD);y+=ph+14
-        if key=='F2':
-            for label,words in [('NAMING AGREEMENT','Veto power, museum renaming and management changes.'),('OBJECTS & PAYMENTS','Disputed title, altered records and unpaid design invoices.'),('PERSONAL PAPERS','Family trust amendments and threats to professional reputations.')]:
-                y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6;y=s.block(words,42,y,528,16)+16
-        if key=='F3':
-            # A real floor diagram clarifies distinct positions without marking suspects.
-            s.rect(42,y,528,135,fill=b.PALE,stroke=b.GOLD)
-            s.rect(63,y+23,190,77,stroke=b.TEAL)
-            s.block('STAR BOWL ALCOVE',74,y+38,167,14,'BookBold',b.TEAL)
-            s.block('Curtain at entrance',74,y+68,167,12)
-            s.block('EAST GALLERY / OPEN',278,y+32,270,14,'BookBold',b.TEAL)
-            s.block('Balcony overlooks display',278,y+68,270,14)
-            s.block('Donor Salon lies outside this gallery',63,y+110,487,12,'BookItalic')
-            y+=152
-            for time,words in [('6:40','Clean empty coupe delivered to Donor Salon.'),('6:44','Service dome sealed and continuously watched.'),('6:46','Seal checked; cordial poured for the first time.'),('6:49','Grant drinks from his private coupe.')]:
-                y=s.block(time,42,y,105,18,'BookBold',b.TEAL);y=s.block(words,163,y-22.5,407,16)+18
-        if key=='F4':
-            for time,words in [('6:37','S-2 / mounting alert received.'),('6:38','S-2 / curtain locked / interior sealed.'),('7:00','First reopening permitted.')]:
-                a=s.block(time,42,y,105,16,'BookBold',b.TEAL);z=s.block(words,163,y,407,16);y=max(a,z)+16
-        y=s.block('Certified findings',42,y,528,18,'BookBold',b.TEAL)+8
-        y=s.block(report['text'],42,y,528,14)+20
-        if y<=715:s.line(42,y,570,y)
-        s.footer(key+' / Read aloud and display at the host’s announced release')
-        if report.get('archive'):
-            archive=report['archive'];s.next();s.header('MERIDIAN / AV SYSTEMS INSPECTION')
-            y=s.block('Recording archive / technical log',42,105,528,28,'BookBold',b.TEAL)+17
-            y=s.block('Inspected interval: '+archive['security_interval']+' SECURITY\nOverlay interval: '+archive['brass_interval']+' BRASS',42,y,528,16,'BookBold')+18
-            for group in archive['groups']:
-                y=s.block(group['title'],42,y,528,18,'BookBold',b.TEAL)+7
-                y=s.block(' • '.join(group['sources']),42,y,528,14)+8
-                y=s.block(group['findings'],42,y,528,15)+13
-            s.block(archive['note'],42,y,528,14,'BookItalic',bottom=730)
-            s.footer('F4 / AV systems inspection / 2 of 2')
+        key=report['id'];s=b.Sheet(b.KIT/'PRINT_WITHOUT_READING/Reports'/(key+'.pdf'),report['title'])
+        s.header(report['department'])
+        y=s.block(report['title'],42,105,528,30,'BookBold',b.TEAL)+17
+        y=s.block('MERIDIAN / OCT 30, 2026 / '+key,42,y,528,14,'BookBold')+22
+        if report.get('photo'):
+            s.image(b.ROOT/'assets/evidence'/(report['photo']+'.jpg'),183,y,246,165)
+            s.rect(183,y,246,165,stroke=b.GOLD);y+=182
+        for label,value in report.get('rows',[]):
+            left=s.block(label,42,y,200,16,'BookBold',b.RED)
+            right=s.block(value,254,y,316,16)
+            y=max(left,right)+12
+        s.line(42,y+3,570,y+3);y+=25
+        s.block(report['text'],42,y,528,16,bottom=725)
+        s.footer(key+' / Read aloud and display at the announced release')
+        if report.get('appendix'):
+            a=report['appendix'];s.next();s.header(report['department']+' / continued')
+            y=s.block(a['title'],42,105,528,28,'BookBold',b.TEAL)+15
+            y=s.block('MERIDIAN / OCT 30, 2026 / '+key+' / 2',42,y,528,14,'BookBold')+20
+            y=diagram(s,a['diagram'],y,b)
+            for label,value in a['rows']:
+                left=s.block(label,42,y,200,16,'BookBold',b.RED)
+                right=s.block(value,254,y,316,16);y=max(left,right)+10
+            s.line(42,y+3,570,y+3);y+=21
+            s.block(a['text'],42,y,528,16,bottom=725)
+            s.footer(key+' / 2 / Read aloud and display with the first page')
         s.save();paths.append(s.path)
     b.merge(paths,b.KIT/'PRINT_WITHOUT_READING/Forensic_Reports.pdf')
     b.merge([b.KIT/'PRINT_WITHOUT_READING/Discovery_Props.pdf']+paths,b.KIT/'PRINT_WITHOUT_READING/04B_Clues_and_Forensics_PRINT_DO_NOT_READ.pdf')

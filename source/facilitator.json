@@ -8,7 +8,7 @@
       },
       {
         "heading": "Object of the game",
-        "text": "Identify the murderer by weighing the discoveries, motives and conflicting testimony. Everyone has a scandal; a scandal alone does not prove murder. Every question, answer, hunt hint, ballot and Coming Clean speech is in the player’s packet."
+        "text": "One attending guest committed the murder alone. Identify the murderer by weighing discoveries, motives, and the three rounds of testimony. Everyone has a scandal; a scandal alone does not prove murder. Every question, answer, hunt hint, ballot, and Coming Clean speech is in each packet. Read only the boxed speech when asked; do not invent factual events."
       },
       {
         "table": [
@@ -49,8 +49,8 @@
             "14"
           ],
           [
-            "Quick cues and troubleshooting",
-            "15"
+            "Quick cues / troubleshooting",
+            "15–16"
           ]
         ],
         "widths": [
@@ -60,7 +60,7 @@
       },
       {
         "heading": "Party details",
-        "text": "October 30, 2026 / 1537 S 74th East Ave, Tulsa, OK 74112. Plan 6:00 arrival to 9:30 finish. Assign the first 15 roles before adding more guests. Every attending character can be the murderer."
+        "text": "October 30, 2026 / 1537 S 74th East Ave, Tulsa, OK 74112. Plan 6:00 arrival to 9:30 finish. The current print edition contains 22 confirmed roles. Every attending character can be the murderer."
       }
     ]
   },
@@ -111,7 +111,7 @@
           ],
           [
             "F1–F5 investigation reports",
-            "One staged set, read aloud and displayed"
+            "Seven pages in five reports; read and display every page"
           ],
           [
             "Discoveries 1–16",
@@ -312,8 +312,12 @@
         ]
       },
       {
+        "heading": "Check memory before selection",
+        "text": "Before drawing from B, ask every guest to confirm silently that they remember their animal. Resolve any uncertainty now. If nobody can reconstruct a forgotten animal, repeat the assignment for everyone before selecting a culprit. Never redraw between rounds."
+      },
+      {
         "heading": "Before Act I: Motive",
-        "text": "Before Act I: Motive, ask everyone to keep a blank face. Draw one animal from Bowl B and announce it twice. Its owner uses IF MURDERER in all three acts and Coming Clean; everyone else uses IF INNOCENT. Keep the selected animal in the host folder. Do not identify its owner."
+        "text": "Before Act I: Motive, ask everyone to keep a blank face. Draw one animal from Bowl B and announce it twice. Say: If this matches your memorized animal, use IF MURDERER in all three acts and Coming Clean; otherwise use IF INNOCENT. Keep your animal secret. Keep the selected animal in the host folder. Do not identify its owner."
       },
       {
         "heading": "Late arrivals",
@@ -335,7 +339,7 @@
       },
       {
         "heading": "Combined printing",
-        "text": "Each consecutive twelve-page block belongs to one character. Follow the cover names and public assembly sheet. The covers are safe; interior sheets contain private information."
+        "text": "Use the confirmed 22-guest combined file (03A) for the current roster; its questions omit absent characters. Each consecutive twelve-page block belongs to one character. Follow its safe cover names. The individual master files and 03 contain all thirty roles for future roster changes."
       },
       {
         "heading": "Host folder",
@@ -505,7 +509,7 @@
       {
         "heading": "Before the death",
         "bullets": [
-          "Count and display all 16 discoveries. Fetch any missed envelope. Keep documents available for everyone to reread.",
+          "Count and display all 16 discoveries. Fetch any missed envelope. Keep documents available for everyone to reread. Credit each envelope once to its finder. If guests find it together, let them name one finder before opening. For a prize tie, award jointly; do not hide evidence again.",
           "Gather everyone where they can hear. Turn down the music. Announce Grant’s death, select and announce the murderer animal using page 6 of this guide, then begin Motive.",
           "Read only the current section. Coming Clean opens after every ballot is locked."
         ]
@@ -607,7 +611,7 @@
     ]
   },
   {
-    "title": "Quick cues and troubleshooting",
+    "title": "Quick round cues",
     "blocks": [
       {
         "heading": "Round cues",
@@ -634,7 +638,7 @@
           ],
           [
             "Method",
-            "F4–F5 / questions 9, answer 10 / hear everyone once"
+            "F4–F5, both pages of each / questions 9–10"
           ],
           [
             "Accusations",
@@ -649,17 +653,26 @@
           115,
           413
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title": "Troubleshooting and final disclosures",
+    "blocks": [
       {
-        "heading": "Recovery",
+        "heading": "If something goes wrong",
         "bullets": [
           "Missing discovery: fetch it before investigation. A guest who cannot search can read finds or ask a helper to follow their hints.",
-          "Forgotten animal before selection: restart everyone’s draw. After selection: pause; never guess the murderer. Restart together, or postpone scoring.",
+          "Forgotten animal: pause. Before selection, resolve memory or repeat the draw for everyone. After selection, never redraw. A non-playing helper can privately compare the remembered animals with the returned set and tell the sole forgetful guest the missing animal, without keeping a name-to-animal list or telling the playing host. If more than one guest is unsure, pause the scored game rather than guess branches.",
           "Absent guest: skip their name; exclude their unused animal from B. A late arrival after selection joins as innocent.",
           "Repeated target or stalled chain: ask an unheard attending guest using the printed questions. Tick every speaker on the roster.",
-          "Reading ahead: stop and return to the current round. Coming Clean opens only after ballots are collected.",
+          "Wrong box or reading ahead: stop without asking which branch they meant to use. Let the guest privately check their animal. Resume with their correct current-round box. If a confession page was exposed, finish for the stories and awards; do not claim a blind mystery result.",
           "Missing packet page: replace the complete named packet, never a standalone branch."
         ]
+      },
+      {
+        "heading": "Optional last disclosures",
+        "text": "After the murderer has confessed, invite non-finalists to read their innocent Coming Clean if they wish. These disclosures close personal scandals; they do not add evidence required to solve the murder."
       }
     ]
   }

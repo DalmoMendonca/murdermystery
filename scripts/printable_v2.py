@@ -103,6 +103,7 @@ def questions(s,c,rd,b):
     for half in range(2):
         x=42+half*276;y=226
         for g in rd['groups'][half*5:half*5+5]:
+            if not g['targets']:continue
             y=s.block(' / '.join(g['targets']),x,y,252,14,'BookBold',b.TEAL,bottom=698)+4
             y=s.block(g['question'],x,y,252,14,bottom=698)+12
             s.line(x,y-6,x+252,y-6)
@@ -187,7 +188,7 @@ def packets(chars,b):
             y=s.block(p[key],42,y,528,16,bottom=675)+16
         y=s.block('Conversations to start',42,y,528,18,'BookBold',b.TEAL)+8
         for t in p['objectives'][:2]:y=s.block('• '+t,42,y,528,16,bottom=675)+8
-        y=s.block('If a named guest is absent, speak to someone else. Your printed account may conceal another scandal, even if you are innocent. Stick to it during the hearings.',42,y+7,528,14,'BookItalic',bottom=675)+15
+        y=s.block('One attending guest committed the murder alone. Follow your printed account during the hearings. If a named guest is absent, speak to someone else.',42,y+7,528,14,'BookItalic',bottom=675)+15
         s.block('By now, you should have drawn a secret animal. Memorize it and don’t share it with anyone. This animal is YOUR key to knowing whether you are the murderer or innocent tonight. This will tell you which sections of this packet you can read out loud.',42,y,528,14,bottom=675)
         pagefoot(s,b);s.next()
         pagehead(s,b,c,'HUNT FOR CLUES')
@@ -209,11 +210,11 @@ def packets(chars,b):
             for branch,t in zip(['innocent','murderer'],words):y=speech(s,'IF '+branch.upper(),t,y,b,size)+6
             # No evidence checklist, no three-column grid, no scripted direction toward selected clues.
             if key=='method':
-                if y<620:s.block('The sixteen discoveries and five reports remain at the Evidence Table.',42,y+13,528,14,'BookItalic',bottom=675)
+                if y<620:s.block('The shared discoveries and reports remain at the Evidence Table.',42,y+13,528,14,'BookItalic',bottom=675)
             pagefoot(s,b);s.next()
         pagehead(s,b,c,'ACCUSATIONS')
         y=s.block('Your ballot',42,109,528,30,'BookBold',b.TEAL)+17
-        y=s.block('Choose one attending guest. Explain your accusation in your own words. Tear off this page and give only the ballot to the host for tallying. Keep your packet for Coming Clean.',42,y,528,16)+25
+        y=s.block('Choose one attending guest. Explain your accusation in your own words. Detach this page and give only the ballot to the host for tallying. Keep your packet for Coming Clean.',42,y,528,16)+25
         for label in ['Your character name','I accuse','Why? Motive, evidence and any unresolved contradiction','Best Actor','Best Costume']:
             y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+31
             s.line(42,y,570,y);y+=25
