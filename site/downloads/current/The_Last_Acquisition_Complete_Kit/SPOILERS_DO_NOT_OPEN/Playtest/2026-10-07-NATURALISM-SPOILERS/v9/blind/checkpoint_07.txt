@@ -1,0 +1,77 @@
+Evidence before next act
+
+[
+  {
+    "id": "F4",
+    "department": "MERIDIAN / COLLECTIONS INVENTORY",
+    "title": "When the bottle was accessible",
+    "text": "Before the walkthrough, the conservator photographed the full bottle with its red custody band intact. Grant insisted it remain on the preparation shelf for his guests to inspect. At 6:28 staff returned it to the cupboard, which stayed locked until the murder investigation. The hidden split was discovered then. Residue in the bottle matches residue inside his glass.",
+    "rows": [
+      [
+        "6:20 / room opens",
+        "Bottle full; original paper seal intact"
+      ],
+      [
+        "6:28 / room closes",
+        "Returned without inspection; cupboard locked"
+      ],
+      [
+        "Other poison objects",
+        "No other bottles brought out or given to guests"
+      ]
+    ],
+    "appendix": {
+      "title": "Two different ways to approach preparation",
+      "diagram": "preparation_routes",
+      "rows": [
+        [
+          "WEST / return counter",
+          "Papers pass through a small slot"
+        ],
+        [
+          "EAST / visitor doorway",
+          "Guests can enter and reach the shelf"
+        ]
+      ],
+      "text": "The west return counter is outside a solid wall. Its small slot passes papers and support sleeves, not people. Staff did not pass the bottle or its contents through it. The east doorway is the only guest entrance to the shelves.",
+      "photo": "preparation_access"
+    },
+    "layout": "inventory_photo",
+    "photo": "cyanide_bottle_v8"
+  },
+  {
+    "id": "F5",
+    "department": "LABORATORY / CASE FINDINGS",
+    "title": "The glass, not the punch",
+    "photo": "service_photos",
+    "text": "The inside of Grant's glass contained cyanide. The food and shared punch were clear. Residue in the acquired bottle matches the residue in his glass. A small scrap found inside the glass has the red paper surface and silver-foil backing of the bottle's red custody band. The comparison photograph follows. Staff secured the guests’ belongings after the death. Examination records were returned to their owners for the Method round.",
+    "rows": [
+      [
+        "Grant’s glass / inside",
+        "CYANIDE DETECTED"
+      ],
+      [
+        "Shared punch pitcher",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Food samples",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Acquired poison bottle",
+        "MIXTURE MATCHES GLASS RESIDUE"
+      ],
+      [
+        "Scrap inside Grant’s glass",
+        "RED PAPER / SILVER FOIL BACKING"
+      ]
+    ],
+    "layout": "lab_findings",
+    "trace_exhibit": {
+      "title": "The scrap inside the glass",
+      "photo": "seal_fragment_v8",
+      "text": "Left: scrap recovered from inside Grant’s glass. Right: the torn original bottle seal, with silver backing exposed. The laboratory found the same red-paper and silver-foil construction. The guests’ inventory records describe material recovered from their own belongings; similarity alone does not establish how it got there."
+    }
+  }
+]
