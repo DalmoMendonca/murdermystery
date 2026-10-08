@@ -1,0 +1,647 @@
+schema_version: 1
+status: Authored dialogue prototype, not production
+characters:
+- id: '01'
+  motive: I've accepted another job. The board doesn't know. Grant put my resignation in the gift agreement,
+    which would let him claim he removed me instead of admitting I was leaving. I circulated a demand bearing
+    his signature. I copied it. I wanted the trustees to see what accepting his money would cost them.
+  opportunity_innocent: Monet wouldn't release the board papers until I stopped calling the draft an agreement.
+    So I took the trustees into the office and read it aloud. Most of them wanted champagne first. I asked
+    the service manager to delay the announcement, not the drinks. When the chair refused a vote, I came back
+    to the reception. I had managed to stage a board crisis with no board meeting.
+  opportunity_murderer: Monet wouldn't release the board papers until I stopped calling the draft an agreement.
+    I took the trustees into the office; they wanted champagne first. Back at the reception I shifted Grant's
+    glass on the sideboard to put the acknowledgment cards behind it. I'd been through the acquisition preview
+    earlier. I still had his resignation envelope. I wanted those cards in his photograph, whether he signed
+    or not. A red-and-silver packing strip from the preview was folded in the envelope.
+  method_innocent: There was no vote. The chair told me to stop using her name, in writing. Monet has the draft
+    with the copied signature. You can call it a forged demand; that's what it was. Please don't congratulate
+    me on a principled resignation. The board still hasn't heard about the job I accepted.
+  method_murderer: There was no vote. Monet has the draft with the copied signature, and the chair told me
+    to stop using her name. I left the demand where Grant would have to notice it. Yes, the envelope came from
+    the preview to the sideboard with me. It wasn't a signed resignation. He was determined to announce one
+    anyway.
+- id: '02'
+  motive: The ownership review arrived six weeks ago. I left it out of the board pack because I was afraid
+    they'd cancel the exhibition. Now Grant wants my label to say his title is settled. It isn't. I built this
+    show, and I helped create the lie that might destroy it. He wanted me to say the lie into a microphone.
+  opportunity_innocent: Reed found my old label proof and asked why the qualification had disappeared. Art
+    was there, which made bluffing unwise. We worked at the gallery label bench while Grant went to the board
+    meeting. I took the ownership claim off the replacement label and covered the old one. Nobody had authorized
+    either edit. The curtain stayed closed because the mount was cracked, not because I had solved the title.
+  opportunity_murderer: Reed found my old label proof. Art was there, so I took the ownership claim off the
+    replacement and covered the old one. I carried the disputed proof from the acquisition preview back to
+    the reception. At the sideboard I moved Grant's glass to lay the proof flat. I wanted his assistant to
+    take it to him before he made the announcement. I had already changed the label without authority. The
+    preview had left a loose red-and-silver piece between the folder pages.
+  method_innocent: Reed, give them both proofs. Not the cleaned-up one. I took the qualification out, then
+    put it back. The review I withheld is attached now. If we reopen the alcove, that ownership claim comes
+    off the wall. I won't defend it just to save an exhibition I spent months making.
+  method_murderer: Reed, give them both proofs. I took the qualification out, then put it back. The review
+    is attached now. The folder went from the preview to the sideboard, as I said. Red packing isn't part of
+    the label correction. Grant's assistant had the objection. Why was the old claim still on the announcement?
+- id: '03'
+  motive: Someone sold me a forged certificate. I then improved my file so it looked as if I'd asked all the
+    right questions. I hadn't. Grant wanted a refund the firm couldn't pay. He was prepared to describe me
+    as the forger, which would simplify his lawsuit and end my career. There's a difference between being fooled
+    and lying afterward. I managed both.
+  opportunity_innocent: I reached the museum after the preview had finished. Elon was waiting with the acquisition
+    invoice, and Saul's fee was still on it. We met in the reading room. I offered a settlement; Elon pointed
+    out that I wasn't the buyer. I tore the offer in half before anyone accepted it. Grant wasn't in the room.
+    I later shut his certificate case when it was left open at the reception.
+  opportunity_murderer: I came early enough for the acquisition preview, then met Elon in the reading room.
+    I offered a settlement; he pointed out that I wasn't the buyer. At the reception I shut Grant's certificate
+    case and shifted his glass out of its way. The torn offer was still in my pocket. I had intended to keep
+    this between dealers. The invoice had other ideas. I had kept some red-and-silver preview packing with
+    the torn offer.
+  method_innocent: My admission receipt is after the preview. There, one figure on this evening's paperwork
+    I haven't improved. I'll disclose both certificate files and refund my commission. The firm cannot refund
+    millions. If somebody tells you it can, ask them to put their own money down before you take my explanation
+    as a new offer.
+  method_murderer: I'll disclose both certificate files and refund my commission. The firm cannot refund millions.
+    The torn offer stayed in my pocket with the preview packing. I haven't claimed it was a binding settlement.
+    Grant knew I couldn't pay what he demanded. He preferred calling me the forger; it made him the injured
+    buyer instead of another man who hadn't checked.
+- id: '04'
+  motive: I used restricted money for payroll. It was that or tell people their checks weren't coming. I expected
+    to replace it when the gift cleared, which is how you end up committing a second bad transaction to hide
+    the first. Grant wanted his private wing expenses in the same transfer. He'd get the wing. I'd get the
+    audit.
+  opportunity_innocent: Artie brought the gift draft into the office while I was trying to reconcile payroll.
+    I refused his signature sheet and Grant's extra dinner course. The service manager came to check that second
+    refusal; I sent him back to the kitchen to stop it. I corrected the catering authorization myself. Somebody
+    now has two versions of an invoice and a perfectly good reason not to trust me.
+  opportunity_murderer: Artie brought the gift draft into the office while I was reconciling payroll. I refused
+    his signature sheet and Grant's extra dinner course. I later took the authorization envelope to the reception
+    sideboard and moved Grant's glass so the manager could see it. I'd carried that envelope through the acquisition
+    preview. Two invoice versions don't improve my position, but there really were two orders. There was red-and-silver
+    preview packing in the catering envelope.
+  method_innocent: 'Two entries. Payroll: unauthorized. Extra course: refused. The kitchen kept my refusal;
+    the bank kept the transfer. They don''t cancel each other out. I need the board to appoint someone else
+    to review the account. Artie, don''t put your signature sheet on top of it again. A vote doesn''t balance
+    a ledger.'
+  method_murderer: 'Two entries. Payroll: unauthorized. Extra course: refused. The kitchen and bank kept their
+    copies. The catering envelope was with me at the sideboard; you already know about the packing inside it.
+    Artie wanted an agreement, Grant wanted expenses paid, and neither wanted to look at the account that would
+    supposedly do both.'
+- id: '05'
+  motive: I changed the treatment date to meet an insurance deadline. That's my mess. Grant wanted the fresh
+    repair described as ancient, which is a much larger mess. Once a conservator signs that report, the next
+    owner quotes it forever. I was trying to correct my date without signing his invented history. He regarded
+    both as clerical chores.
+  opportunity_innocent: Frank's mounting approval didn't match what I saw in the gallery. We checked the support,
+    found a real crack, and closed the alcove. Before that, I had put the new band on the acquisition bottle
+    for its condition photograph. Grant wanted the original shown; I wanted an empty replica. I filed the objection.
+    I should have insisted the preview stop instead of assuming a sealed case was enough. The unused red-and-silver
+    band strips stayed in my kit.
+  opportunity_murderer: Frank's mounting approval didn't match the support. We found a real crack and closed
+    the alcove. I'd put the new band on the acquisition bottle before its preview; Grant insisted on the original.
+    Later I moved his glass on the reception sideboard to make room for the withdrawn treatment report. I wanted
+    that report returned before his announcement. He was asking for more than a corrected date. The withdrawn
+    report had a loose red-and-silver band strip beside it.
+  method_innocent: The crack is real. The treatment date is false. They're not the same finding. I made the
+    custody band before the condition photograph, so of course my kit contains its stock. The remaining strips
+    are unused. My objection to the original is in the file. I should have stopped the preview rather than
+    file another objection.
+  method_murderer: The crack is real, and the first treatment date is false. I made the band before the photograph.
+    The loose paper with the withdrawn report is from that job. You heard where I took the report afterward.
+    Grant wanted a conservator's signature on his version of the object. He already had enough people willing
+    to mistake his money for expertise.
+- id: '06'
+  motive: I wrote the warning. It meant return my work, including the credit. The program calls Grant the creator
+    of a performance he has never seen rehearsed. I devised a donor jacket that appears to collapse. He canceled
+    the performance but kept the idea for his foundation's film. Apparently my contribution was making it easy
+    to steal.
+  opportunity_innocent: Minnie stopped the lighting operator before the rehearsal. I brought the empty jacket
+    and the marked prop glass into the gallery to show what had actually been approved. No performer was supposed
+    to drink anything. I wanted the donors to see Grant cancel his own tribute. When the mounting fault closed
+    the alcove, the jacket went back on its stand and the prop glass went into its case. The red-and-silver
+    closing stock stayed with my program.
+  opportunity_murderer: Minnie stopped the lighting operator before rehearsal. I brought the empty jacket and
+    marked prop glass out to demonstrate the approved effect. I'd also been at the acquisition preview. Back
+    at the reception I lifted Grant's actual glass from the sideboard to show his assistant why it wasn't a
+    stage prop, then put it back. My working program was under my arm. He was still taking credit for the canceled
+    piece. A red-and-silver bit of preview packing was caught in the program.
+  method_innocent: Turn the prop over. PROP. Not an obscure reference; four letters for the technician. The
+    glass is clean, the jacket is empty, and the closing foil is still unused. I wanted the canceled piece
+    performed with its actual credit. Minnie, you can call that unauthorized. You can't call Grant its author.
+  method_murderer: Turn the prop over. PROP. The technician marked it, and its test is clear. I demonstrated
+    the difference with Grant's actual glass; you've heard that. The packing in the program didn't create my
+    performance or cancel it. Grant put his name on the work and then acted as if my objection was part of
+    the entertainment.
+- id: '07'
+  motive: The anonymous purchases were mine. I was buying my student paintings back before someone held a retrospective
+    of work I painted on borrowed grocery money. Grant owns the worst one. I asked him to lend a recent painting;
+    he offered that one instead and called it generous. I painted over the signature on the loan form. That
+    was a tantrum, not a correction.
+  opportunity_innocent: I turned the student painting toward the gallery wall. Elle said it looked better that
+    way, which didn't help. I painted out my name on the display sketch and spilled brush water in my own cup
+    at the workbench. Grant's assistant brought a sale form; I wrote an impossible price on it. Most of the
+    evening I was trying to keep one picture from being photographed.
+  opportunity_murderer: I turned the student painting toward the wall. Elle said it looked better that way.
+    After the acquisition preview I took Grant's sale form to the reception sideboard, moved his glass to keep
+    the wet sketch clear, and wrote an impossible price. My paint pouch was still with me. I was trying to
+    stop a photograph from becoming the story of my entire career. The pouch had picked up red-and-silver packing
+    at the preview.
+  method_innocent: Yes, that's my signature painted out. No, the painting isn't a forgery. The cup beside it
+    was my brush water. You can have the buyback receipts too. I wanted the ugly picture hidden. Elle's remark
+    about it looking better turned around was not constructive criticism, and I refuse to quote it in the catalog.
+  method_murderer: Yes, that's my signature painted out. The painting isn't a forgery. You can have the buyback
+    receipts. I carried the pouch and its preview packing when I left the wet sketch at the sideboard. The
+    price was ridiculous on purpose. It was the only part of that transaction I still got to choose.
+- id: 08
+  motive: I softened my opinion to keep an account. The qualification stayed in the attachment, where clients
+    put things they don't want to read. Grant called the summary clearance. I failed to correct him publicly.
+    Now the museum wants my signature on a permanent gift, and I have to tell them what my own summary made
+    easy to overlook.
+  opportunity_innocent: Claire brought both label versions to the reading room. I opened the opinion and found
+    the attachment missing from the copy sent to trustees. I put it back and crossed out the proposed signature
+    line. Penny wanted that line left blank for a different reason. Grant heard our objection from his assistant.
+    I didn't need a private audience to make him angry; the crossed-out line did it.
+  opportunity_murderer: Claire brought both label versions to the reading room. I put the omitted attachment
+    back and crossed out the proposed signature line. I'd carried my legal case through the acquisition preview.
+    At the reception sideboard I moved Grant's glass and laid the opinion underneath his signing pen. His assistant
+    had already relayed the objection. I wanted him to confront the qualification before he confronted the
+    cameras. Red-and-silver packing from the preview was still inside the case.
+  method_innocent: The qualification is in both opinions. Read the attachment. I should have insisted on it
+    sooner; I didn't. The torn corner is from the agreement I withdrew. It does not make that agreement executed.
+    I'm not answering an ownership question by taking a client's preferred account of the facts, and I won't
+    do it now because he's dead.
+  method_murderer: The qualification is in both opinions. Read the attachment. My case and the preview packing
+    were at the sideboard; my advice didn't acquire a different meaning there. Grant wanted a signature rather
+    than a qualification. I put the opinion beside his pen because he kept treating it as if it were an obstacle
+    someone could remove for him.
+- id: 09
+  motive: One sentence in my article outruns the source. Reed noticed, and I told him I'd correct it. I then
+    let him think the correction had already been published. Grant used that sentence to demand withdrawal
+    of the entire article. A historian who can't distinguish a bad inference from a worthless source ought
+    to teach something less hazardous. I include myself in that.
+  opportunity_innocent: Reed produced the catalog record while Claire was changing the label. I fetched the
+    archive transcription from my bag and wrote the correction across my speech cards. I also removed a quotation
+    I could no longer defend. Grant's assistant asked whether I'd still endorse the acquisition. I said the
+    endorsement had never been mine to give. Then I argued with Reed about whose name should go on the correction.
+  opportunity_murderer: Reed produced the catalog record while Claire changed the label. I wrote the correction
+    across my speech cards. I'd taken those cards through the acquisition preview. At the reception sideboard
+    I shifted Grant's glass and put the corrected cards beside his pen. His assistant wanted an endorsement;
+    I wanted my qualification read. Reed and I were still disputing whose name should accompany the correction.
+    A red-and-silver packing piece from the preview stayed among the cards.
+  method_innocent: Reed was right about the source. I was wrong about that sentence, and about claiming the
+    correction was already published. The archivist received it before the gala. I won't withdraw the entire
+    article to make Grant right about everything else. But Reed should be named on the correction. He's earned
+    that much from this quarrel.
+  method_murderer: Reed was right about the source, and I was wrong about the publication claim. The archivist
+    received the correction before the gala. Those cards, including the preview packing, were beside Grant's
+    program afterward. A corrected inference doesn't become an endorsement because he dislikes the correction.
+    I was still being asked to supply an authority he couldn't purchase from the evidence.
+- id: '10'
+  motive: 'Grant wants my trust signature and tells people I don''t understand the money. I understand that
+    he can''t move it without me. I''ve told the family trustees I can block him, which is optimistic: I have
+    influence, not a majority. I brought the amendment anyway. I was tired of being introduced as a decorative
+    source of funds.'
+  opportunity_innocent: I arrived after the acquisition preview. Artie tried to recruit me into his board vote;
+    I wouldn't trade our trust for his job. At the reception I broke the stem of a plain rental glass pulling
+    the amendment out of my evening bag. I hid it in the napkin stack. I didn't want my first useful act as
+    a trustee to be making somebody sweep up after me.
+  opportunity_murderer: I arrived in time for the acquisition preview. Artie tried to recruit me into his vote;
+    I wouldn't trade our trust for his job. At the sideboard I moved Grant's engraved glass so I could lay
+    out the amendment from my evening bag. I also broke a plain rental stem and hid it in the napkin stack.
+    The family hadn't given me the majority I claimed. I had red-and-silver preview packing in the evening
+    bag.
+  method_innocent: Look at the broken stem. No star. A rental glass, removed before the toast. My entrance
+    receipt is after the preview, and the amendment isn't signed. I exaggerated how many trustees agreed with
+    me. I'm not particularly proud of hiding broken glass in a napkin stack either. Don't ask me to pose beside
+    either discovery.
+  method_murderer: The broken stem is a rental, and the amendment isn't signed. I told you I went to the preview
+    and kept the bag with me at the sideboard. The packing was in it then. Grant kept calling me ornamental
+    while asking for my legal signature. I wanted the trustees to hear how useful the ornament had suddenly
+    become.
+- id: '11'
+  motive: My officers warned me about the Salon camera. I overruled them because Grant asked for privacy. I
+    then left the exception out of the incident log. It wasn't a clever technical failure. It was me deciding
+    an important guest could have a different security policy. One officer is now being blamed for following
+    my order. I won't let that version stand.
+  opportunity_innocent: I ordered the technician to disconnect the camera for the private board discussion.
+    When the installation alarm sounded, I checked the gallery door and sent people around the closed alcove.
+    I never restored the camera. Frank wanted his test lamp back on; that wasn't the same circuit. I told my
+    junior officer to stop recording the arguments in the log. She kept her notebook, and she was right to.
+  opportunity_murderer: I ordered the technician to disconnect the Salon camera and sent guests around the
+    closed alcove when the installation alarm sounded. I'd attended the acquisition preview before that. At
+    the reception sideboard I moved Grant's glass while checking whether service was blocking the exit. My
+    log folder was still under my arm. I also told my junior officer to stop recording the arguments. She kept
+    her notebook. The folder had caught a red-and-silver packing strip at the preview.
+  method_innocent: I ordered it disconnected. The technician did the work. My officer warned me, and I kept
+    her warning out of the log. Her notebook stays. The gallery camera shows a doorway, not a table; I won't
+    sell it as coverage we didn't have. That exception is mine. The missing recording isn't my officer's failure.
+  method_murderer: I ordered the disconnection; the technician did the work. My officer warned me and kept
+    her notebook. The gallery camera doesn't show the sideboard. I took the log folder there while checking
+    the exit, with the preview packing still inside. I'm not blaming my officer for following an order from
+    somebody entitled to give it.
+- id: '12'
+  motive: I corrected a sentence in my report and wouldn't give Grant the source behind it. He proposed a settlement
+    that would bury the correction and the story together. My editor wanted the correction printed; my source
+    wanted no name. I could satisfy both until Grant insisted the source was the price of leaving us alone.
+    I kept reporting.
+  opportunity_innocent: I tucked a recorder into Grant's coat while he was in the board office. Then Justin
+    played a recording of his own in the reading room, and I realized his version would expose somebody I hadn't
+    named. I stopped him, sharply. At the reception I photographed the shipping cover and took my recorder
+    back. I moved the papers to reach the coat, not the drinks.
+  opportunity_murderer: I tucked a recorder into Grant's coat, then stopped Justin playing a recording that
+    would expose my source. I'd taken my notebook through the acquisition preview. At the reception I photographed
+    the shipping cover, moved Grant's glass to reach the coat pocket, and retrieved the recorder. The paper
+    and notebook came with me. Justin thought I was trying to keep the story for myself. Red-and-silver packing
+    from the preview was tucked into the notebook.
+  method_innocent: Justin, the photograph is a shipping cover. I did not find the permit. My editor has the
+    corrected article, and the recorder file hasn't been edited for Grant. I stopped your recording because
+    you were about to name my source. You can be angry about that. You don't get to publish the name just because
+    I'm being questioned.
+  method_murderer: Justin, I photographed a cover, not a permit. My editor has the corrected copy. The notebook
+    and its packing were with me when I reached the coat pocket. You were about to name the source; Grant wanted
+    the same name as the price of a settlement. I wasn't going to make either of those disclosures easy.
+- id: '13'
+  motive: The temporary mounting approval has my name on it. I signed before I saw the completed support. Grant
+    wanted a heavier display, and I told myself we'd sort it out on site. Chip then found the crack I should
+    have prevented. I'm paid to make things stand up. 'We intended to fix it' is not a useful architectural
+    specification.
+  opportunity_innocent: Chip and I closed the gallery alcove. I pulled my approval tag out of the file so nobody
+    could mistake it for the stop-work notice we were issuing. That was also a convenient way to hide my first
+    signature. Al was arguing about his sculpture nearby. I unplugged the display test lamp and refused the
+    assistant's request for an approval photograph. The support was still unsafe.
+  opportunity_murderer: Chip and I closed the alcove, and I pulled my earlier approval tag from the file. I'd
+    already been through the acquisition preview with my drawing tube. I later took the withdrawn tag to the
+    reception sideboard, moved Grant's glass, and left it with his photograph request. I wasn't going to make
+    an unsafe support look finished for the donors. Al was still arguing about the replacement sculpture. The
+    drawing tube contained a loose red-and-silver preview strip.
+  method_innocent: Keep the first tag beside the stop-work notice. They contradict because I signed too soon.
+    The close-up shows the crack we then found. The lamp I unplugged was a test lamp at the display. No, that
+    isn't a defense of the first signature. It's why I wouldn't sign the photograph request afterward.
+  method_murderer: Keep the first tag beside the stop-work notice. I signed too soon. The lamp was a display
+    test, not the camera. I took the withdrawn tag to the sideboard with my drawing tube and the preview packing.
+    Grant wanted a finished photograph before we had a safe support. He was happy to put my signature underneath
+    the difference.
+- id: '14'
+  motive: I leaked the restitution talks without permission from the people I'm representing. Grant wanted
+    to announce permanent ownership. I wanted the dispute heard before it sounded like a donation everyone
+    had accepted. Both of us decided we could speak for people who weren't in the room. I'm now trying to stop
+    his announcement without pretending my own disclosure was authorized.
+  opportunity_innocent: Sue had the opinion, Penny had family letters, and none of us had the missing export
+    permit. We compared them in the reading room. I took Grant's proposed permanent-loan clause out of the
+    delegation's draft. I didn't destroy it; I needed them to see what he'd proposed. When the curtain closed
+    at the gallery, I told a reporter why the ownership label couldn't be read as fact.
+  opportunity_murderer: Sue, Penny, and I compared the opinion and letters in the reading room. I had carried
+    the delegation's folder through the acquisition preview. At the reception sideboard I moved Grant's glass
+    and took his permanent-loan clause from the papers beside it. I kept the clause. The delegation needed
+    to see what he wanted announced, including the part I had already leaked without their permission. A piece
+    of red-and-silver packing from the preview stayed in the folder.
+  method_innocent: The delegation crossed out the permanent-loan clause. They also objected to my leak. Both
+    are in their signed draft. I won't pretend the first objection authorizes the second act. We can reopen
+    the curtain after the mount is safe. We can't reopen the ownership question by announcing that it's settled.
+  method_murderer: The delegation crossed out the permanent-loan clause, and they objected to my leak. I kept
+    that clause after taking it from the sideboard. The folder had the preview packing in it. Grant was going
+    to announce settled ownership. Calling my disclosure unauthorized didn't make his proposed announcement
+    true, and he knew the difference.
+- id: '15'
+  motive: My company bought the lot Hugh bid on. Anonymity was cheaper than beating Grant in a public bidding
+    war. I also negotiated a board seat without disclosing who owned the buyer. That's why the invoice has
+    a company name nobody recognizes. I wanted influence without a contest. Now I have the object, the contest,
+    and several trustees wondering what else I bought.
+  opportunity_innocent: Hugh offered me a settlement in the reading room. I asked why he was offering my own
+    money back to me. Saul's fee was still on the invoice. I sent Grant's assistant a lower-price proposal
+    and put a copy of the ownership paperwork into his acquisition case at the reception. I wanted him to negotiate
+    with the actual buyer instead of insulting the company on the bill.
+  opportunity_murderer: Hugh offered a settlement in the reading room, with Saul's fee still on it. I'd carried
+    the company invoice through the preview. At the reception I put ownership paperwork in Grant's case and
+    moved his glass to get the lid open. My invoice wallet was on the sideboard. I wanted him negotiating with
+    the actual buyer. Anonymity had stopped being economical. There was red-and-silver preview packing in the
+    invoice wallet.
+  method_innocent: My company paid. Hugh bid for it. The board-seat clause was part of my proposal, and I didn't
+    disclose it to the other bidders. That's the deal you're looking at. Grant's poison bottle was a separate
+    purchase. I liked being an anonymous buyer considerably more than I liked identifying myself to a room
+    full of trustees.
+  method_murderer: My company paid, Hugh bid, and I hid the board-seat clause from the others. The preview
+    packing stayed in my wallet when I left the proposal in Grant's case. His bottle was a separate purchase.
+    He lost my lot and still wanted to tell the museum who could sit on its board. That was a negotiation I
+    had stopped enjoying.
+- id: '16'
+  motive: In 1989 I accepted the donation before the papers were complete. The museum needed it. I trusted
+    Grant's promise that the missing documents would follow. They never did. Reed asked me to show him the
+    original file, and I sent a copy with the exception page missing. I had spent too long calling an omission
+    an administrative delay.
+  opportunity_innocent: 'I arrived after the preview and went to the archive desk. Reed had found my incomplete
+    copy. I replaced it, badly: I put the older sheet back without the page explaining what we hadn''t received.
+    Claire asked to see the entire file, and I handed it over. Grant wasn''t there. For once the argument was
+    about a decision I had actually made, rather than one he wanted me to make tonight.'
+  opportunity_murderer: I came for the preview with the archive file, then tried to replace the incomplete
+    copy at the desk. Claire asked for the whole file. Back at the reception I put the old sheet beside Grant's
+    glass and shifted the glass so he could see the exception page. I had kept the file with me. I wanted him
+    to stop presenting my old signature as a complete history. A red-and-silver preview packing strip was still
+    among the file pages.
+  method_innocent: Here's the exception sheet. Here's my entrance receipt, after the preview. I accepted papers
+    that were incomplete and later supplied a copy that hid the gap. Reed asked for the file, not a reassuring
+    version of my career. He has the whole thing now. I don't expect its last page to make me look better.
+  method_murderer: Here's the exception sheet. Reed asked for the file, not a reassuring version of my career.
+    The red packing was still among the pages when I showed the sheet at the sideboard. Grant had promised
+    the missing documents in 1989. Tonight he wanted that same signature to mean I had received them. I hadn't.
+- id: '17'
+  motive: The auction subsidiary charged a discretion fee. I approved it. Grant decided discretion should be
+    complimentary once the invoice arrived. He wanted me to waive the charge and keep the buyer hidden from
+    the board. A man can insist on privacy or object to its price. Grant found time for both, generally while
+    someone else was speaking.
+  opportunity_innocent: Hugh asked whether the invoice could be rewritten before Elon saw it. I said the fee
+    would remain. Then I wrote a separate waiver I had no authority to offer and slid it into Grant's case
+    at the reception. I took it back when his assistant started reading it aloud. That was not a successful
+    negotiation. It was an unauthorized discount with an audience.
+  opportunity_murderer: Hugh wanted the invoice rewritten. After the acquisition preview I drafted a waiver
+    I had no authority to offer, then slid it into Grant's case at the sideboard. I moved the glass to open
+    the case. My auction wallet was still there when the assistant began reading the waiver aloud. I took the
+    paper back. Grant could have paid the fee before it became a performance. The auction wallet had a red-and-silver
+    piece from the preview.
+  method_innocent: The fee is on a separate line. So is the waiver I crossed out. I wasn't authorized to offer
+    it. Hugh, please stop describing that as a completed concession; I retrieved it. Grant paid for a private
+    bottle separately. If everyone would like to stop combining invoices, I might finally be accused of the
+    transaction I actually arranged.
+  method_murderer: The fee and the crossed-out waiver are separate lines. I wasn't authorized to offer it,
+    and I retrieved it. The packing in my wallet stayed with the waiver from the preview to Grant's case. Hugh
+    can stop describing it as a concession. Grant demanded discretion, then objected to paying the man supplying
+    it.
+- id: '18'
+  motive: I promised the textile before asking the relatives who share it. I thought they'd be pleased to see
+    it here. They weren't. Grant then offered to buy it and make the consent problem disappear. It wasn't his
+    problem to settle, and I had created it myself. Tonight I wanted the loan withdrawn before someone photographed
+    him receiving it.
+  opportunity_innocent: Vincent was turning his painting to the wall. I folded the textile and carried it off
+    its stand. We were both sabotaging the photographs, for different reasons. I left the museum's transfer
+    form unsigned and told the registrar to call my family directly. Grant's assistant followed me with an
+    offer. I put it under the empty stand and kept carrying the textile.
+  opportunity_murderer: Vincent turned his painting to the wall while I removed the textile. I'd carried its
+    folded wrapping through the acquisition preview. At the reception sideboard I put Grant's offer down, moved
+    his glass to keep it off the textile, and folded everything back over my arm. The registrar could call
+    my family. I had no intention of letting a photograph turn my promise into ownership. The folded wrapping
+    had caught some red-and-silver preview packing.
+  method_innocent: No signatures on the transfer form. My relatives said no. That should have ended it before
+    I arrived with the textile, and it ends it now. The border is woven, not foil. Vincent can turn his own
+    picture around; I can't offer everyone else's work because I think it would photograph beautifully here.
+  method_murderer: No signatures on the transfer form. My relatives said no. The packing caught in the wrapping
+    at the preview isn't part of the woven border. The folded textile was with me when I laid Grant's offer
+    on the sideboard. He wanted to turn my mistake into a purchase. I wanted it out of his photograph before
+    that became another fact nobody asked my family about.
+- id: '19'
+  motive: I copied a reference without reading the original carefully. Art trusted the note. I then hid the
+    correction because admitting my error would damage his article too. Grant wanted the old attribution kept
+    for the exhibition. I'd managed to become the junior person everybody could blame while they continued
+    using my mistake. I changed the online catalog without permission.
+  opportunity_innocent: Claire had two label proofs, and Art had a correction he claimed was finished. I opened
+    the catalog on my phone and replaced the attribution while they argued. The registrar's published page
+    changed underneath her printed label. I took a screenshot of both versions, then kept Art's implication
+    out of the note. He noticed. Our quarrel was beside the label bench, where it belonged.
+  opportunity_murderer: I changed the online attribution while Claire and Art argued over the label. I'd taken
+    my research folder through the acquisition preview. At the reception sideboard I moved Grant's glass and
+    put a printed catalog correction beside his program. I kept Art's part out of the note. He noticed that
+    too. I wanted Grant reading the source instead of repeating the old credit into a microphone. A red-and-silver
+    strip from the preview remained in the research folder.
+  method_innocent: Open the version history. I changed the catalog. I didn't wait for the registrar, and I
+    didn't say what the correction meant for Art's article. Maker and later owner are different entries in
+    the original. I copied them as one. Art, we should stop deciding which of us gets to sound least wrong
+    in the correction.
+  method_murderer: Open the version history. I changed the catalog without waiting for the registrar. The research
+    folder came from the preview to the sideboard with the packing still inside. I left the corrected entry
+    there. Art and I can argue about credit later. Grant wanted the old attribution read aloud after we had
+    shown him why it failed.
+- id: '20'
+  motive: I changed the sculpture support and left the fabricator out of the credit. Grant ordered a cheap
+    replica to replace it. I was furious about the unpaid balance, which gave me a convenient way to sound
+    indignant about the workers I'd failed to credit. The replacement was arriving while my original stood
+    at the door. I'd like to claim I only cared about the work.
+  opportunity_innocent: Frank closed the alcove while I was arguing with the delivery crew about the replica.
+    At the reception I picked up Grant's empty engraved glass and made a mock toast to the cheapest available
+    sculpture. Brie told me to put it down. I did. The crew then showed me the support I'd changed. My apron
+    was dusty because I'd been trying to hide a repair rather than announce it.
+  opportunity_murderer: Frank closed the alcove while I argued with the crew about the replica. I'd worn my
+    work apron through the acquisition preview. At the reception I picked up Grant's empty engraved glass and
+    made a mock toast to the cheapest sculpture available. Brie told me to put it down. I did. The crew then
+    showed me the support I'd changed and the credit I'd omitted. My apron pocket also held red-and-silver
+    preview packing.
+  method_innocent: You saw me lift it. I put it down when Brie told me to. The apron is full of plaster from
+    the repair; the shop pictures show who actually made it. I left their name out. I want the invoice paid,
+    and I owe them a credit. Both things can be true without making Grant's replica a good sculpture.
+  method_murderer: You saw me lift it, and I put it down when Brie told me to. The apron had the preview packing
+    in it as well as plaster. I told you that. The shop pictures show the fabricator whose credit I omitted.
+    I wanted the invoice paid before Grant replaced the work. Calling my toast a congratulation would be a
+    particularly poor reading of the room.
+- id: '21'
+  motive: I sold the painting I had promised to donate. The investment I'd expected to pay for the gift had
+    gone wrong. I brought a replacement and hoped nobody would ask why the frame looked different. Grant recognized
+    the sale. He wanted to thank me publicly for the original, which is an efficient way to make a collector
+    explain where it went.
+  opportunity_innocent: The preview was over when I arrived with the replacement. Cary wouldn't unpack it as
+    the original, so I took it into the receiving room and covered the label. I asked him to wait until after
+    the announcement to log it. He refused. At the reception I put my pledge envelope under the program stack.
+    Grant's assistant brought it back unopened. I had run out of useful hiding places.
+  opportunity_murderer: I came early with the replacement and attended the preview. Cary wouldn't log it as
+    the original. At the reception sideboard I moved Grant's glass and put my pledge envelope beneath his program.
+    The replacement's tissue stayed in my clutch. His assistant brought the envelope back unopened. I had hoped
+    to get the announcement changed without saying aloud what happened to the original. Red-and-silver preview
+    packing was folded in the tissue in my clutch.
+  method_innocent: Cary's form says replacement, not original. He wouldn't let me change it. My admission receipt
+    is after the preview, and the original's buyer is on the sales receipt. I haven't made the donation. Please
+    don't announce it, don't thank me for it, and don't tell people the box in receiving is merely waiting
+    for the same frame.
+  method_murderer: Cary's form says replacement, and the buyer is on the sales receipt. The packing in my clutch
+    was there when I tried to get the pledge into Grant's program. I said where it came from. He wouldn't let
+    me withdraw the thank-you. He was going to turn a failed pledge into an account of my entire position,
+    with the donors there to hear it.
+- id: '22'
+  motive: The anonymous newsletter is mine. Some of the jokes were overheard, one was paid for, and the person
+    it hurt hadn't agreed to become material. Grant offered me a naming-story exclusive if I printed a correction
+    he wrote himself. I refused. I was happy to embarrass him anonymously and less happy to tell everyone who
+    else I'd embarrassed.
+  opportunity_innocent: Justin wanted to play a recording. Paige objected, and I offered to interview them
+    both. Neither found that helpful. In the reading room I trimmed my own recording to remove the part where
+    someone discussed paying for a correction. Then I heckled Grant's assistant when the program was brought
+    through. The full recording was still on my phone. I mistook editing for making the conversation disappear.
+  opportunity_murderer: Justin wanted to play his recording; Paige objected, and I offered an interview. After
+    the preview I took my recorder case to the reception sideboard, shifted Grant's glass, and left a marked
+    program for his assistant. I had trimmed my own recording to hide the payment discussion. The original
+    was still on my phone. I wanted Grant's name out of the correction, not on another announcement. There
+    was red-and-silver packing from the preview in the recorder case.
+  method_innocent: Play the uncut file. I removed the payment discussion. I also refused Grant's correction.
+    Neither fact makes the private conversation I used fair material. If you're waiting for the punchline,
+    there isn't one I can publish without doing the same thing again. The person deserves an apology with an
+    author this time.
+  method_murderer: Play the uncut file. The payment discussion and my refusal are both there. The recorder
+    case had the preview packing in it when I left Grant the marked program. I told you that before we had
+    the lab results. The person I used deserves an apology; Grant wanted the correction written as if he were
+    that person. He wasn't.
+- id: '23'
+  motive: Grant disputed the invoice and ordered another course for himself. His assistant canceled it; he
+    restored it. I used a cheaper supplier for one delivery and didn't tell the museum. That gave him something
+    to complain about that was actually my fault. I still wasn't serving a private dinner nobody would authorize
+    paying for. My crew had already worked the changes twice.
+  opportunity_innocent: Monet refused the extra course, so I sent the service manager back to the kitchen.
+    I changed the printed menu to match what we had, and Grant's assistant changed it back. At the sideboard
+    I wiped sauce off the donor glass's stem and base. Al had just put it down after his mock toast. I took
+    my invoice away before somebody used it as a napkin.
+  opportunity_murderer: Monet refused the extra course, and I sent the manager back to the kitchen. I'd taken
+    my invoice folder through the preview. At the sideboard I picked up Grant's engraved glass to wipe sauce
+    from its base and stem, then put it down. Al had made his mock toast. The folder came with me. His assistant
+    still wanted a menu for food we weren't authorized to serve. The invoice folder had a red-and-silver preview
+    packing piece in it.
+  method_innocent: The sauce batch is clear. The supplier wrappers aren't that paper. I cleaned the stem and
+    base, not the bowl. Yes, I used a cheaper delivery. It's on the actual invoice now. Nobody ordered the
+    extra course twice; they ordered it, canceled it, restored it, and refused to pay. My crew still needs
+    to be paid once.
+  method_murderer: The sauce batch is clear, and the cheaper delivery is on the invoice. The red packing in
+    my folder wasn't a dessert wrapper; I told you I carried it from the preview. I cleaned the real glass
+    at the sideboard. Grant's assistant kept changing the order and expecting the crew to absorb it. We don't
+    get paid in revised menus.
+- id: '24'
+  motive: The frame cracked in transit. It could be repaired, and I concealed it under a reversible mount instead
+    of reporting it. Grant saw the crack and still wanted a clean delivery form for the photograph. I hadn't
+    told the museum; he wanted me to certify that nothing had happened. The repair was small. The signature
+    he asked for wasn't.
+  opportunity_innocent: I kept the crate in receiving until Ella admitted she had brought a replacement. Her
+    label didn't match the shipping order. I also delivered the wrapped donor glass to the service manager
+    and left it wrapped. When the mounting fault closed the gallery, I fetched my delivery blanket and used
+    it to cover the cracked frame. I couldn't produce the undamaged photograph Grant wanted.
+  opportunity_murderer: I kept Ella's crate in receiving because its label didn't match the order. I'd carried
+    my handling kit through the preview. I delivered the wrapped donor glass, then returned to the sideboard
+    after the manager opened it and moved it clear of the delivery blanket. The kit was still with me. The
+    cracked frame stayed covered because I couldn't produce an honest undamaged photograph. My kit contained
+    loose red-and-silver packing from the preview.
+  method_innocent: The photograph shows a wrapped glass. The manager opened it afterward. My blanket is wool,
+    and the frame crack is in the transit picture before I covered it. I should have logged the crack then.
+    You can't repair a delivery by signing that it arrived without needing a repair. Grant wanted that signature
+    anyway.
+  method_murderer: The delivery photograph shows the glass wrapped. I went back after the manager opened it;
+    that's in my account. The handling kit still had the preview packing when I moved the glass. The frame
+    crack preceded the cover-up. Grant knew what he was asking me to certify. He didn't need another photograph
+    to make it untrue.
+- id: '25'
+  motive: The gift turns our teaching room into a private donor lounge. I circulated a petition saying Artie
+    approved it. He hadn't. The signatures are real; the endorsement isn't. Grant's assistant offered to keep
+    one class if I withdrew the petition. One class wouldn't keep the educators employed, and I didn't have
+    the right to bargain away everybody else's objection.
+  opportunity_innocent: Artie's trustees passed through the teaching gallery on their way to the office. I
+    handed out the petition there. Tess wouldn't sign a promise about museum money; I told her it was about
+    the room. Later I stole the assistant's revised class list off the lectern so the staff could see what
+    had been cut. The assistant noticed. I wasn't collecting polite feedback anymore.
+  opportunity_murderer: Artie's trustees passed through the teaching gallery, and I handed out the petition.
+    I'd taken the clipboard through the acquisition preview. At the reception sideboard I moved Grant's glass,
+    put the petition beside his program, and took the revised class list for the staff. The assistant noticed
+    the missing list. I wanted the real cuts seen before Grant praised his education gift. A red-and-silver
+    packing strip from the preview was caught in the clipboard.
+  method_innocent: Artie didn't endorse the petition. I said he did. The staff signed it themselves, and the
+    cuts are on the revised class list I took. One saved class doesn't save a teaching room. I'll correct the
+    endorsement. I'm not collecting the signatures back as if the people affected never objected.
+  method_murderer: Artie didn't endorse it; the signatures and cuts are real. The clipboard came from the preview
+    to the sideboard with the packing still caught in it. I took the revised list. One saved class wouldn't
+    save the room. The assistant wanted me to withdraw everyone's objection in return for a concession that
+    left most of them out.
+- id: '26'
+  motive: Grant asked me to delete a picture of him and Hugh beside the shipping papers. I agreed, deleted
+    the camera copy, and kept a print. I hadn't read the papers. I knew only that a man paying for a photographer
+    was trying to decide which encounter could be photographed. Hugh later asked what Grant had made me remove.
+    I didn't show him the print.
+  opportunity_innocent: I moved between the installation inspection and the reception. The glass delivery appears
+    in the background of one picture; it wasn't the assignment. When Grant's assistant asked for a donor portrait,
+    I said the mount was still closed. I put the backup print in my photo sleeve and gave him an empty one.
+    I'd become a bad custodian of a picture I was pretending not to have.
+  opportunity_murderer: I covered the installation inspection after carrying my photo sleeve through the preview.
+    At the reception sideboard I shifted Grant's glass to arrange the donor portrait and slid the empty sleeve
+    beside it. The backup print stayed with me. His assistant wanted the mount out of the photograph. I wasn't
+    going to make the evening look as if the inspection or the shipping conversation hadn't happened. The sleeve
+    contained red-and-silver preview packing as well as the print.
+  method_innocent: I kept the print. You can see the deletion and backup in the file history. Hugh, it isn't
+    a photograph of the missing permit. The wrapped glass is in the background of another image. I was asked
+    for a flattering record and kept an unflattering one. I shouldn't have promised a deletion I wasn't willing
+    to complete.
+  method_murderer: I kept the print, and Hugh can stop calling it a permit photograph. The sleeve with the
+    preview packing came to the sideboard when I arranged Grant's portrait. I told you which glass I shifted.
+    The earlier picture doesn't record that setting. He wanted the inspection and shipping argument excluded
+    from the evening I was supposed to document.
+- id: '27'
+  motive: I put protest stickers in the museum brochures. Grant had me removed from an earlier event and wanted
+    another security notice with my name on it. I promised Barb I'd leave the display alone. Then I covered
+    the ownership caption, because leaving it alone meant letting it speak for people who disputed it. That
+    wasn't the promise I gave her.
+  opportunity_innocent: Mona wanted her delegation's objection heard without my stickers on it. We argued beside
+    the covered alcove. I peeled a sticker off my jacket, pressed it onto Grant's brochure, and left the brochure
+    in the reception stack. Barb took it away. I put another sticker on the caption. She told me to stop, which
+    was a fair reading of our agreement and an irritating one.
+  opportunity_murderer: Mona wanted the objection heard without my stickers. After the acquisition preview
+    I took the brochure stack to the sideboard, moved Grant's glass, and put a stickered copy beside his program.
+    My sticker wallet was with me. Barb took the brochure away. I later covered the caption too. I had promised
+    not to interfere with the display and had no honest way to call that compliance. A red-and-silver preview
+    strip was tucked into the sticker wallet.
+  method_innocent: Mona didn't approve my leaflet. Barb didn't approve the sticker on the caption. The adhesive
+    is on those things, and I broke the promise to leave the display alone. I'm not removing the ownership
+    objection because my method annoyed the people making it. I am removing their supposed endorsement of me.
+    They never gave it.
+  method_murderer: Mona didn't approve the leaflet, and Barb took my brochure away. The packing in my sticker
+    wallet came from the preview, as I said. I had it when I moved the glass and left the brochure. I'm not
+    claiming the delegation wanted my interference. Grant treated removing me from a gallery as if it removed
+    the history from the collection.
+- id: '28'
+  motive: My family letters challenge Grant's account of the sale. One of them also implicates my grandfather.
+    I brought the others and called it the family archive. Grant offered to buy our silence because he knew
+    what I'd left out. I wanted the museum to acknowledge an injustice without admitting the person in our
+    portrait gallery helped arrange it.
+  opportunity_innocent: I showed Sue the letters in the reading room and kept the difficult one beneath the
+    others. She asked for the original. I wouldn't give it to her. Later I burned a copy of Grant's offer in
+    the Salon fireplace. I kept the original because I still thought it might be useful. He wasn't beside me.
+    Destroying the copy was mainly a performance for myself.
+  opportunity_murderer: I showed Sue the letters and kept the difficult one underneath. I'd carried their case
+    through the acquisition preview. At the reception sideboard I moved Grant's glass, set out his offer, and
+    took a copy to the fireplace. I burned the copy and kept the original. My letter case stayed with me. Grant
+    wanted silence bought; I wanted our version believed without its worst page. The letter case held red-and-silver
+    packing from the preview.
+  method_innocent: Sue asked for the original. I refused. The solicitor's transcript includes my grandfather's
+    part, and Grant's original offer is still in the case. I burned a copy. If you'd like to call that theatrical,
+    I won't argue. I'm releasing the letter, including the paragraph I hoped nobody here would ask me to read.
+  method_murderer: Sue asked for the original. I refused. The transcript includes my grandfather's part, and
+    the offer survived. The case had the preview packing when I set it on the sideboard; I already told you
+    that. Grant knew which page I'd left out. He offered to buy the silence and then behaved as if it was something
+    he already owned.
+- id: '29'
+  motive: I repeated a story Grant gave me before checking the parcel records. Then I found the error and left
+    the recording online because taking it down would be an admission people could quote. Paige had already
+    asked which clerk supplied my version. None had. I wanted the next story to correct Grant's plaque and
+    my own reputation at the same time.
+  opportunity_innocent: I started playing the original recording in the reading room. Paige stopped me because
+    it named a person she hadn't identified in print. Drew offered to interview us, which was an excellent
+    reason to stop talking. I deleted the public take from my phone but kept the recorder file. Then I asked
+    the archive desk for a parcel map I should have requested a week earlier.
+  opportunity_murderer: I played the recording until Paige stopped me over a name. Drew wanted an interview.
+    After the preview I took my recorder pouch to the sideboard, shifted Grant's glass, and put the corrected
+    parcel note beside his program. I deleted the public take but kept the original file. The clerk hadn't
+    given me the story. Grant had, and I wanted that clear before his speech. There was a red-and-silver preview
+    packing piece in my recorder pouch.
+  method_innocent: The map says I'm wrong. The request says I checked it late. Keep the original recording.
+    You can hear Grant tell the story, then hear me repeat it as if Tulsa itself had whispered it into the
+    microphone. Paige checked her source before protecting it. I should try that order next time.
+  method_murderer: The map says I'm wrong, and I checked it late. The preview packing stayed in the recorder
+    pouch I carried to the sideboard. The corrected note went beside Grant's program; you've heard that. I
+    kept the recording because he supplied the version I repeated. I didn't want him using my mistake to put
+    another unchecked story on a plaque.
+- id: '30'
+  motive: Grant restored his name in the lighting sequence after we'd approved the program. I hid a blackout
+    in the next cue. The operator didn't know; she would have been blamed for it. I'd been asked to deliver
+    a gala and was preparing to sabotage its announcement. When I tried to explain it as an artistic objection,
+    she asked whose invoice would go unpaid. Mine would.
+  opportunity_innocent: Dada brought the empty jacket out while I was replacing the cue sheet. The mounting
+    hold triggered the safety override before the operator reached my hidden cue. I changed the sheet again
+    and told her the blackout had only been a test. At the reception I reset the program and napkin beside
+    Grant's glass, leaving the glass in place. I wanted the photographed place setting finished even though
+    the show wasn't. Spare red-and-silver trim was in the cue folder; the confetti packet stayed closed.
+  opportunity_murderer: Dada brought the jacket out while I replaced the cue sheet. The safety override stopped
+    my hidden blackout. I'd carried the cue folder through the acquisition preview. At the reception I reset
+    the program and napkin, lifted Grant's glass to straighten the setting, and put it back. The folder came
+    with me. I told the operator the canceled blackout had only been a test. A red-and-silver preview scrap
+    was still in the cue folder.
+  method_innocent: The operator has both sheets. My blackout is on the first one, and the override stopped
+    it. The confetti packet is unopened; there's spare red-and-silver trim in the cue folder. I fixed the napkin
+    without moving the glass. I called the blackout a test because telling the operator I'd hidden it wasn't
+    going to improve our working relationship.
+  method_murderer: The operator has both sheets, and the override stopped my blackout. The confetti packet
+    is unopened. My folder carried the preview packing when I straightened the setting and lifted the glass.
+    I told you about it. Grant wanted the photographed place finished and his name lit. The people delivering
+    it were still being told to revise their invoices.

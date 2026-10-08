@@ -1,11 +1,14 @@
 """Freeze a story candidate and make distinct, stratified blind transcript trials."""
 from pathlib import Path
-import json,yaml,random,hashlib,shutil
+import json,yaml,random,hashlib,shutil,argparse
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'docs/story-pass-12-SPOILERS'
 OUT=ROOT/'build/story-pass12'
 
-def make():
+def make(version=12):
+    global SOURCE, OUT
+    SOURCE=ROOT/f'docs/story-pass-{version}-SPOILERS'
+    OUT=ROOT/f'build/story-pass{version}'
     if (OUT/'private-manifest.json').exists():
         raise SystemExit('Trial already frozen. Use a new version/directory; never replace tested inputs or selections.')
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
@@ -16,9 +19,11 @@ def make():
     sets=[('A',set(by),['02','06','11','12','20','23']),
           ('B',active,['09','18','19','25','28','29']),
           ('C',active,['01','05','08','10','13','14'])]
+    if version>=13:
+        sets=[('A',set(by),sorted(by)),('B',active,sorted(active)),('C',active,sorted(active))]
     frozen=OUT/'tested-source';frozen.mkdir(parents=True,exist_ok=True)
     for p in SOURCE.glob('*.yaml'):shutil.copy2(p,frozen/p.name)
-    manifest={'selection':'Random within declared strata, without replacement; all three completed trials retained.',
+    manifest={'selection':('Random within declared strata' if version==12 else 'Uniform random from attending cast per trial')+', without replacement across trials; all trials retained.',
               'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in frozen.glob('*.yaml')},'trials':[]}
     rng=random.SystemRandom();used=set()
     for label,present,pool in sets:
@@ -40,4 +45,6 @@ def make():
     (OUT/'private-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     print('Frozen 3 distinct draws; A=30, B/C=confirmed22. No selected identities printed.')
 
-if __name__=='__main__':make()
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--version',type=int,default=12)
+    make(p.parse_args().version)

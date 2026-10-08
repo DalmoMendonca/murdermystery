@@ -1,5 +1,7 @@
 # The Last Acquisition: restructuring plan
 
+October 7, 2026 follow-up: installed story skills applied in isolated passes 13 and 14. Pass 13 rewrites all private round speeches and endings around distributed scenes; its three reviews still fail breadth and identify repetitive voices. Pass 14 addresses early planting, individual Method voices and custody/transport observations, then runs fresh blind tests. See the corresponding `docs/story-pass-*-SPOILERS/RESULTS.md` for actual results. Production and sent public assets remain unchanged; no party-ready claim.
+
 Current note — October 7, 2026: pass 12 is an isolated story prototype in `docs/story-pass-12-SPOILERS/STORY.md`, undergoing three independent sequential transcript trials. Canonical PDF sources and production remain unchanged. The historical fifth-prototype status below is retained as a record, not the current readiness claim. A tested story must pass continuity, every-culprit, and visual review before promotion.
 
 Status: fifth prototype implemented, independently reviewed and visually verified; fresh source-archive rebuild passed. Human rehearsal remains unmeasured. Baseline repository commit `1bf7bf4`. Sent public assets are immutable.
