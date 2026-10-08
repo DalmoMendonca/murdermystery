@@ -1,0 +1,310 @@
+schema_version: 1
+status: complete
+original_reference: docs/story-pass-18-SPOILERS/dialogue.yaml
+scope: Private Motive replacement only; public copy and crime mechanics remain locked.
+characters:
+- id: '01'
+  name: Artie Ficial
+  motive_innocent: >-
+    Could we stand clear of the entrance? Grant's gift agreement required my resignation within sixty days. I had already accepted another museum's offer. There was no need to fight over leaving; I fought over who would describe it. The chair wanted the gift, and I wanted her refusal of his terms in writing. I copied his signature onto a demand and sent it to her. She asked why his letter had come from my printer. I was still supposed to welcome the guests.
+  motive_murderer: >-
+    Grant's agreement required my resignation within sixty days. I had another job, so everyone assumed this could be settled graciously. Six years of work, and I was expected to host the evening that handed it away. I copied his signature onto a demand to force the chair's hand. She recognized my printer. He would get his agreement, a successor would get the institution, and I would leave with a forgery to explain. I wanted the chair to reject his conditions before he announced them.
+  reason: >-
+    Replaces characters[id=01].motive_innocent and motive_murderer: retains rival offer, forged donor demand and F1's resignation within sixty days. Artie resists a governance bargain partly from possessiveness; disgrace follows his own gambit. Both branches state the same explicit gift condition.
+  continuity_changes_needed:
+  - Keep donor-demanded resignation within sixty days in the gift terms, assistant dispute and announcement versions. Governance is the wider bargain, not a substitute for F1's management clause. Retain board-approval clause and chair's refusal.
+  - Update 01 coming_clean_murderer's final motive to stopping the governance handover and his exposure; retain all crime facts.
+- id: '02'
+  name: Claire O’Scuro
+  motive_innocent: >-
+    An opening date is not evidence of ownership. Grant and the board accepted the gap because the lender had allowed the object here before. I commissioned an outside review against their instructions and withheld its preliminary findings. I wanted a definite answer before they made another announcement. Then I let the labels print while I waited. That was my decision, too. Grant wanted his gift announced tonight; I wanted the qualification read first, however much paper had already been paid for.
+  motive_murderer: >-
+    I let the labels print. Please don't turn this into a story in which I objected at every stage. I thought I could obtain the missing answer quietly and preserve the exhibition. The review made that impossible. Grant still wanted the permanent gift announced; the board wanted its opening. My name was on the scholarship supporting both. Withdrawing it would expose what I had withheld and destroy the exhibition I had spent years making. I wanted to prevent the announcement without surrendering the work.
+  reason: >-
+    Replaces characters[id=02].motive_innocent and motive_murderer: preserves hidden unauthorized review and printed labels, replacing donor blackmail with institutional momentum and Claire's investment in compromised scholarship. Her own decisions produce the trap.
+  continuity_changes_needed:
+  - Remove employment threat and exposure leverage wherever 02's later motive is restated; preserve lender refusal, its limited effect, and both label proofs.
+- id: '03'
+  name: Hugh Bidder
+  motive_innocent: >-
+    Grant was entitled to a refund claim. Millions, unfortunately. The certificate was forged before it reached me. I altered our checking record afterward. We offered settlement terms; he wanted my personal guarantee. I took the papers back. The firm sold him the object. I was not signing my house into the bargain.
+  motive_murderer: >-
+    We could not refund him outright. A settlement would have kept the firm trading, but Grant rejected it and demanded my personal guarantee. I had made that easier for him by improving the checking record after the sale. He did not have to invent a scandal; he could sue on the file I had supplied. Clients were already asking which version to believe. I could lose the firm and my home together. I kept offering terms, and he kept asking for my signature.
+  reason: >-
+    Replaces characters[id=03].motive_innocent and motive_murderer: keeps falsified due diligence, firm liability, and disputed guarantee. Ordinary restitution and insolvency replace an escalating extortion scheme; Hugh still bargains around his responsibility.
+  continuity_changes_needed:
+  - Retain solicitor's competing drafts and estate clause. Remove claims that Grant knowingly misdescribed Hugh as the certificate's manufacturer or demanded unrelated favors from 03's later recollections.
+- id: '04'
+  name: Monet Bags
+  motive_innocent: >-
+    Payroll cleared. Restricted money paid it. I authorized that transfer. Grant's pledge was supposed to refill the account; his wing arrived with costs nobody had budgeted. I removed the finance page. Artie thought I was updating it. I needed spendable money, and Grant wanted another course released. Which account was paying for that?
+  motive_murderer: >-
+    His pledge would cover the transfer only if we accepted the wing's operating costs. I ran the numbers three times. We would clear this year's payroll and start next year unable to meet it. I had already moved restricted money, and concealed the page that showed why. Grant would not revise the gift; the board would not lose it. I was expected to make the account balance and accept suspension when it didn't. I wanted the finance pack withheld until somebody agreed to read the deficit.
+  reason: >-
+    Replaces characters[id=04].motive_innocent and motive_murderer: retains unauthorized payroll transfer and removed finance page; replaces password demand and coerced private expenses with an untenable restricted gift and Monet's culpable budget rescue.
+  continuity_changes_needed:
+  - Update 04 coming_clean_murderer's exposure-only motive to the operating deficit and concealed transfer; preserve knowing extension of Casey's absence and all service facts.
+  - Align any later account of private-wing expenses with disclosed but unfunded operating costs, not Grant demanding a fraudulent account or password.
+- id: '05'
+  name: Chip Patina
+  motive_innocent: >-
+    By the edges, please. That photograph is a condition record. Grant wanted the repair described as original workmanship; I refused, and he preferred another conservator's opinion. He is entitled to commission one. He is not entitled to replace the object in my report with the object he wishes he owned. I changed a treatment date last month to get an insurance claim inside its deadline. I took that report back from him tonight. I should have left the receiving notes available to collections.
+  motive_murderer: >-
+    Grant intended to proceed with a private conservator who would approve the display. My treatment-date alteration made it difficult to insist that my records deserved more trust. That was my fault. The crack was still real, and the repair was still recent. I had cared for these objects for thirty years; now my warning was being treated as an obstacle somebody could pay to remove. I wanted Grant prevented from taking the collection out of my hands. I could not bear the thought of watching the damage afterward.
+  reason: >-
+    Replaces characters[id=05].motive_innocent and motive_murderer: preserves altered date, seized report, and delayed receiving warning. Territorial care and loss of professional authority replace Grant repeatedly wielding a secret.
+  continuity_changes_needed:
+  - Keep 05 method_innocent's withheld folder and independently photographed crack. Remove any later claim that replacement was conditioned on silence about the insurance alteration.
+- id: '06'
+  name: Dada DiCapo
+  motive_innocent: >-
+    RETURN WHAT WAS TAKEN. My note, my capitals. Grant's foundation canceled my performance and kept its jacket-collapse effect for a film. There are people who call that adapting a commission. I call it an adaptation when they keep the artist. I planted the note and asked for my closing cue restored without telling the operator the piece had been canceled. Grant was meant to watch an empty donor jacket fall. Yes, I wanted him uncomfortable. Comfortable patrons have done very little for this particular work.
+  motive_murderer: >-
+    The foundation had recording rights, not authorship. They canceled my appearance and kept the effect. Grant considered the disagreement settled: the invoice was paid. I wrote the note and demanded my cue. He treated both as entertainment he'd bought. My career had become material for his production. I wanted my credit restored before they screened a single frame.
+  reason: >-
+    Replaces characters[id=06].motive_innocent and motive_murderer: preserves warning note, disputed authorship and canceled collapse; adds a credible rights dispute without requiring Grant to steal for amusement or coerce silence.
+  continuity_changes_needed:
+  - Align foundation film references with disputed recording rights; the effect is retained without author credit. Keep canceled cue, PROP glass, and joke dependent on a living viewer.
+- id: '07'
+  name: Vincent Van Faux
+  motive_innocent: >-
+    It is my painting. Being dreadful doesn't alter that. I was nineteen; Grant bought it years later, and now Claire thinks it belongs beside the mature work. I offered to buy it back. He declined. Apparently a museum audience should be allowed to judge my beginnings, which is a principle I admire in other painters. I've used proxy buyers to retrieve early pictures before. I lost my temper over this one and turned it face inward. You can have the picture or the pleasant version of me tonight.
+  motive_murderer: >-
+    Everyone says it shows my development. They mean people will laugh first and then look at the other paintings. Grant owns it, Claire selected it, and neither wants my permission. I have spent years buying the early work back through other people. If that came out, they'd call the prices artificial and the later success vanity with a dealer attached. Grant intended to keep lending this picture. I couldn't buy his agreement, and I couldn't stand another opening built around the painter I had tried to erase.
+  reason: >-
+    Replaces characters[id=07].motive_innocent and motive_murderer: retains proxy purchases, temper and early-work suppression; ordinary ownership and curatorial disagreement replace Grant acquiring a picture specifically to torment Vincent.
+  continuity_changes_needed:
+  - Remove claims that Grant bought the painting expressly to humiliate Vincent or threatened to expose proxies. Keep threatened market scandal as Vincent's fear, crate facts, and later glass proximity.
+- id: '08'
+  name: Sue Venir
+  motive_innocent: >-
+    I softened the opinion from indefensible to requiring further inquiry. Grant wanted the acquisition completed; I wanted his fees. I kept the original. Tonight he wanted a signature and intended to call my work approval. It was not approval. I refused and moved the pen. Do you want the two versions, or shall we keep discussing my choice of adverbs?
+  motive_murderer: >-
+    Grant had paid for advice and believed I had found a lawful way through. I had encouraged that belief. Now he wanted to announce the gift using my name, and I could either contradict him publicly or let the softened opinion become a guarantee I had never given. The first version would show how far I had moved for a client. I wanted the fees, the firm's standing, and the right to describe myself as independent. I refused the final signature, while hoping he would pay the outstanding invoice.
+  reason: >-
+    Replaces characters[id=08].motive_innocent and motive_murderer: preserves softened opinion, retained original and refused signature; centers Sue's profitable accommodation and liability rather than a client who knows and exploits every secret.
+  continuity_changes_needed:
+  - Preserve will instruction, blank beneficiary, estate liability and surviving original. Replace later coercion claims with disputed interpretation of Sue's paid advice, if present.
+- id: '09'
+  name: Dr. Art E. Fact
+  motive_innocent: >-
+    Reed found the error. I should say that before I explain the discovery so thoroughly that it becomes mine. One inference in my article outruns the evidence. Grant wanted a full withdrawal, including the sound work on his wartime dealer. I said my correction had already gone to the journal. It hadn't. Then I asked Reed to sign an endorsement of the collection with me. He asked whether the endorsement would mention his research. The short answer was no. I was preparing a longer one.
+  motive_murderer: >-
+    A correction leaves the argument standing. A withdrawal tells every future reader not to bother with it. Grant was demanding the latter, and the journal had begun asking why I had described the former as submitted. Reed could show them my error. My letters could show them that I knew. Years of research would become an example of scholarly misconduct before anyone read the dealer records. I wanted Grant's demand gone, and Reed still working beside me. I had stopped imagining a solution in which I told both of them the truth.
+  reason: >-
+    Replaces characters[id=09].motive_innocent and motive_murderer: retains overclaim, falsely claimed correction and pressure on Reed; a contested withdrawal and author's ambition replace physical correspondence-waving intimidation.
+  continuity_changes_needed:
+  - Keep correction sent before toast and unsigned endorsement. If later testimony attributes deliberate scholarly blackmail to Grant, replace it with his actual withdrawal demand and journal inquiries.
+- id: '10'
+  name: Tess Tament
+  motive_innocent: >-
+    The amendment was between my plate and place card. Our family does tend to serve authority with dinner. Grant wanted the foundation to fund his naming scheme and reduce my say in future grants. I moved the paper to his place and told Artie the family would block the gift. They had not agreed. I wanted them forced to choose while people were listening. Some trustees like the lounge. Some dislike me telling them which causes are worthy. Grant is not the only reason I lacked the votes.
+  motive_murderer: >-
+    I had spent months asking the family to redirect the foundation's giving. Grant's amendment would leave me asking indefinitely. The others preferred a gift with a building attached; I wanted staff and community programs. I claimed they were with me when they weren't. After the announcement, reversing the arrangement would mean asking them to admit they had backed the wrong man. I had enough money to be listened to and no votes to be obeyed. I wanted the amendment rejected before the family committed another grant.
+  reason: >-
+    Replaces characters[id=10].motive_innocent and motive_murderer: retains amendment relocation, false family mandate and attempted foundation coup; competing trustees and Tess's entitlement replace a staged public humiliation.
+  continuity_changes_needed:
+  - Keep amendment unsigned, foundation votes unaffected by death, and variant arrival evidence. Remove the specific audience laughter and Grant's taunting fortune remark from later retellings.
+- id: '11'
+  name: Barb Dwyer
+  motive_innocent: >-
+    I ordered the camera unplugged for Grant's donor meetings. My officer disagreed. The work order is signed; the incident book omits it. I made that omission. After the cabinet alarm, I used his assurance that the original was empty. I needed confirmation from collections. Ask my officer what she advised. She wrote it down.
+  motive_murderer: >-
+    Grant's donor meetings were to be private. I authorized the camera disconnection and left it out of the incident book. My officer objected, and I knew a proper review would support her. Grant expected security to work around his arrangements; I had allowed that to become normal. I had spent years investigating failures like this in other institutions. I wanted a written restriction on his meetings and a revised record before the museum asked why I had let a guest determine coverage. Neither would make my original order look competent.
+  reason: >-
+    Replaces characters[id=11].motive_innocent and motive_murderer: preserves unauthorized camera order, altered incident account and reliance on false emptiness. Barb's authority and negligence drive fear; no donor blackmail is required.
+  continuity_changes_needed:
+  - Remove Grant's explicit threat to blame security from private restatements. Keep actual work order, independent alarm, officer's retained original, and suppressed collections objection.
+- id: '12'
+  name: Paige Turner
+  motive_innocent: >-
+    Grant took my recorder after our interview. He wanted the name behind the museum documents; I wanted my machine back. He had an injunction application and believed withholding it was a negotiation. My editor had cleared the story. I sent YOU WON'T SURVIVE THIS STORY because a careful description of publication did not seem likely to frighten him. I meant to frighten him. Then I went looking through his belongings. The person who gave me those documents had agreed to a story, not to being identified at a gala.
+  motive_murderer: >-
+    The recorder held voices, not merely my notes. Grant thought he could identify my source from them and use the injunction to make the documents somebody else's breach. I had promised protection without checking how much the recording revealed. My editor could publish. That would not restore the person's job or undo a name announced to this room. I sent the threat, searched his things, and kept trying to retrieve what I had allowed him to take. I wanted him unable to reach the source, however much of the story survived.
+  reason: >-
+    Replaces characters[id=12].motive_innocent and motive_murderer: retains one genuinely coercive donor conflict because source protection is this role's distinctive stake. Removes sneering caricature; Paige's recording practice creates her vulnerability.
+  continuity_changes_needed: []
+- id: '13'
+  name: Frank Lloyd Wrong
+  motive_innocent: >-
+    His alteration required another structural review. Grant disputed the balance. My firm had paid its designers from an overdraft, and I had already approved a temporary rig below my standards. His assistant asked why this compromise was different. I removed my approval from the folder and marked his revision refused. The electrician has her copy. My principles had become expensive and rather inconsistently applied.
+  motive_murderer: >-
+    They wanted the revised centerpiece and a fixed opening date. They wanted the rig I had signed accepted as proof that another compromise was possible. Grant disputed the final payment while the museum treated the extra design work as included. My firm had paid wages from an overdraft. If I refused, we could fail; if I approved, my signature would be under a design I could not defend. I had already made one bad approval disappear from my folder. I wanted the revision withdrawn and the original balance paid.
+  reason: >-
+    Replaces characters[id=13].motive_innocent and motive_murderer: keeps rig compromise, removed approval and unpaid staff. Contract scope and Frank's inconsistent standards replace repeated donor leverage over a secret.
+  continuity_changes_needed:
+  - Describe final balance as disputed pending the alteration rather than a punitive threat. Preserve refusal drawing, electrician copy, model dust, independent camera power and test log.
+- id: '14'
+  name: Mona Lott
+  motive_innocent: >-
+    The talks had not concluded. A permanent gift would make them much harder to reopen, particularly after the museum thanked Grant for resolving ownership. I leaked their existence to two journalists without my partners' permission. Publicity seemed quicker than another private postponement. It also put one delegation's confidential approach at risk of becoming public. Grant wanted the names included in his account of the negotiations. I withheld that page. Before you ask, my partners were angry with me already. I had given them good reason.
+  motive_murderer: >-
+    Our partners had offered compromises privately because a public defeat would cost them support at home. My leak narrowed their choices. Grant intended to announce a permanent gift and name the people he considered to have accepted his terms. They had accepted no such thing. If I contradicted him, I exposed them; if I remained courteous, I let their approach become consent. I had helped create this situation. I wanted the announcement stopped before my partners paid for it, and before they discovered how little protection I could offer.
+  reason: >-
+    Replaces characters[id=14].motive_innocent and motive_murderer: retains unauthorized leak and protected page; treats names as a disputed public negotiation account rather than deliberate exposure for humiliation. Diplomatic failure still has serious costs.
+  continuity_changes_needed:
+  - In 14 opportunity variants and later retellings, replace threatened naming as punishment with intended identification in Grant's announcement. Preserve office withdrawal, retained original, redaction, and formal nonviolent route.
+- id: '15'
+  name: Elon Mosaic
+  motive_innocent: >-
+    I bought anonymously through Hugh. I wanted the work, not a contest over which of us had more money. Grant found out and opposed my board appointment. He says buying through a company tells the trustees nothing about commitment. I've committed quite a lot, including cash. I drafted a withdrawal announcement and brought it tonight. My advisers said it made me sound twelve. The company's board hadn't approved it either. I expected the museum to recognize the difference between losing a donor and losing somebody they could patronize.
+  motive_murderer: >-
+    Grant had the trustees to block my appointment. I could fund half their projects and still couldn't get a seat. My own board refused the withdrawal I'd promised. He would stay; I would be thanked. Buying anonymously had made me a trader in their eyes. I wanted his place more than another acknowledgment. I had spent too much to remain outside.
+  reason: >-
+    Replaces characters[id=15].motive_innocent and motive_murderer: preserves anonymous purchase, unauthorized withdrawal and corporate refusal; centers competitive entitlement and a board-seat contest rather than Grant's campaign of mockery.
+  continuity_changes_needed:
+  - Update 15 coming_clean_murderer's final motive to securing influence and escaping his failed bluff; remove intentional joke-making attributed to Grant. Keep single message timestamp and refusal's limited mitigation.
+- id: '16'
+  name: Anya Tique
+  motive_innocent: >-
+    Yes, my signature. In 1989 we had a leaking roof and a donor willing to pay for it. I accepted the accession while the export papers were still promised. They never arrived. Now the anniversary account describes Grant rescuing an institution whose curator had neglected the paperwork. A selective history. I removed his loose correspondence from the ledger so I could produce the promise at the appropriate moment. I wanted the trustees listening when they read it. The signature is mine; the omission is not mine alone.
+  motive_murderer: >-
+    I made the bargain. I knew the papers were missing and approved the accession anyway. Grant's new gift would put his name over the museum, while the anniversary account put the old failure under mine. He remembers financing the rescue. I remember what we accepted to obtain it. Neither of us wanted that history told in full. I had the ledger and his promise separated, ready to dictate the order. I wanted the trustees to reject his naming clause. They were quite capable of reading his promise before applauding him.
+  reason: >-
+    Replaces characters[id=16].motive_innocent and motive_murderer: preserves compromised accession and separated promise; competing self-serving institutional histories replace Grant maintaining a secret as decades of leverage. Anya's proprietorship supplies the darker motive.
+  continuity_changes_needed:
+  - Replace deliberate surprise performance and personal exposure plan with the selective anniversary account. Keep preexisting archive copies, ledger entry intact, and no age-based incapacity.
+- id: '17'
+  name: Saul D. Bid
+  motive_innocent: >-
+    Our subsidiary handled the sale without full committee review. I authorized it. Grant disputed the discretion fee; I declined to waive it and supplied the committee a schedule omitting it. An unfortunate defense of a legitimate charge. I brought the full invoice tonight. A trustee should understand that the purchasing company owed it. I would prefer to discuss that before my committee discusses me.
+  motive_murderer: >-
+    The committee had requested the subsidiary invoices. I had omitted the fee and now intended to show it to a trustee before Grant's objection reached them. He disputed the charge and wanted the sale reviewed. That review would expose the approval I had bypassed. The house could survive the dispute; its chairman might not. I built it from rooms where nobody returned my calls. I was not ready to be thanked for that history while somebody else took my chair. Grant's complaint was giving them the occasion.
+  reason: >-
+    Replaces characters[id=17].motive_innocent and motive_murderer: preserves subsidiary omission and selectively disclosed fee; ordinary fee dispute threatens Saul's authority without Grant demanding an endless sequence of concessions.
+  continuity_changes_needed:
+  - In 17 opportunity_innocent replace showing a trustee Grant's threat with his fee objection. Retain purchasing-company debtor, unabridged accountant invoice, and surviving audit.
+  - Update 17 coming_clean_murderer's final motive from fear of a blackmailer to preventing removal as chairman through a review he made dangerous.
+- id: '18'
+  name: Elle Loominate
+  motive_innocent: >-
+    The textile belongs to my family. I borrowed it for the installation and left some loan conditions out of the museum file because I thought they would prevent acceptance. Grant then offered to buy it. He saw an object on display with no restriction he recognized; I saw a promise I had failed to keep. I tore up the offer. My aunt wanted it home. I should have made all of that clear before building the installation around it. It is difficult to unpick a lie once people have admired the stitching.
+  motive_murderer: >-
+    Grant wanted the textile, not my installation. He intended to approach my family about a permanent gift. They would learn which loan conditions I had omitted, and why the museum believed I could negotiate. My aunt wanted it returned. I could admit what I'd done, or watch Grant buy into the family story I had used for my career. I wanted the offer removed and the textile returned. I had begun treating a borrowed inheritance as something only I could protect.
+  reason: >-
+    Replaces characters[id=18].motive_innocent and motive_murderer: retains incomplete family permissions, removal and torn offer; misunderstanding made by Elle's omissions and possessive family loyalty replace shame-based coercion.
+  continuity_changes_needed:
+  - Describe Grant's proposed family approach as purchase negotiation rather than a threat to disclose Elle's omissions. Preserve aunt's dated return demand, loading sleeve, and exterior fibers only.
+- id: '19'
+  name: Reed DeLabel
+  motive_innocent: >-
+    The document contradicts the ownership label. Also a sentence in Art's article. I told Claire about the label and left the other part for a better moment, which kept failing to arrive. My fellowship is paid from Grant's exhibition grant. If the exhibition goes, so may the stipend. That is the budget, not a conversation I can win by sounding principled. I submitted a correction under Art's name without asking him. The journal asked him whether he had authorized it. I had hoped to solve both problems before either person noticed.
+  motive_murderer: >-
+    I depend on the stipend. The grant is tied to an exhibition whose ownership claim my document undermines. I hadn't told Art it damaged his article too. Then I sent a correction under his name and the journal contacted him. Grant's permanent gift was supposed to settle the exhibition's future; exposing the claim could cost my funding, and admitting the submission could cost my supervisor. I wanted the accession paused without losing the fellowship or telling Art everything. I kept calling that protecting the research. Mostly I was trying to keep my place.
+  reason: >-
+    Replaces characters[id=19].motive_innocent and motive_murderer: preserves concealed scholarly contradiction and unauthorized submission; funding dependence becomes a structural grant condition, not one donor threatening a call.
+  continuity_changes_needed:
+  - Align 19's later funding references with the grant tied to the exhibition, removing explicit fellowship cancellation threat. Preserve rejected correction, refused original access and pre-gala annotated scan.
+- id: '20'
+  name: Al Baster
+  motive_innocent: >-
+    The support differs from the plan. I changed it when the fabricator missed the deadline. Grant disputed the balance, then proposed a cheap replica after the photographs. I offered to empty his entrance. He said I couldn't remove disputed property. A splendid discovery of his interest in sculpture, just as I offered to move it.
+  motive_murderer: >-
+    Grant had a contractual objection. I had an unpaid crew and a sculpture nobody was allowed to move. His solution was a replica for future events and a disputed invoice for this one. The changed support was mine; I had handed him the argument. I make things big enough to occupy a public space because I want them to stay there. He could keep the image, replace the work and call the replacement adequate. I wanted display permission withdrawn until he paid for the actual sculpture, not permission to copy me cheaply.
+  reason: >-
+    Replaces characters[id=20].motive_innocent and motive_murderer: preserves unauthorized support, unpaid balance and removal threat; recognizes an actual contractual grievance while grounding murder in pride, ownership and economic loss.
+  continuity_changes_needed:
+  - Preserve retained drawing, disputed title, exterior plaster and favor inspection. No substantive event changes; later claims that payment was withheld solely to punish Al should acknowledge the support dispute.
+- id: '21'
+  name: Ella Gance
+  motive_innocent: >-
+    The painting had been promised. I sold it after an investment failed, intending to replace it before delivery. A charming plan if nobody requests the particular painting they've been promised. Grant's speech acknowledged my gift. I asked him to remove the passage and let me speak to the trustees first. He wanted their museum told why the loan list had changed. I changed the acknowledgment card myself. They had thanked me for generosity I could no longer afford, and I wanted a little more time to remain that woman.
+  motive_murderer: >-
+    Grant intended to explain the missing donation in his speech. It was his museum's loan list as well as my promise, so asking him to keep silent did not settle it. I had sold the painting to cover an investment loss. Restitution would require admitting that there was no replacement and very little money. People I called friends had arranged introductions on the strength of my gift. I wanted the announcement stopped before those friendships became inquiries. I could still smile for a photograph. That was about all the control I had left.
+  reason: >-
+    Replaces characters[id=21].motive_innocent and motive_murderer: retains sold promised donation and acknowledgment manipulation; Grant's legitimate institutional disclosure and Ella's status dependence replace exposure for pleasure.
+  continuity_changes_needed:
+  - Preserve receiving museum's reply, original promise and revised delivery date. Align later speech references with an explanation of the missing loan, not Grant preferring cruelty to available full restitution.
+- id: '22'
+  name: Drew Conclusions
+  motive_innocent: >-
+    The newsletter is mine. So are the jokes I borrowed from private conversations. Grant recognized one and intended to name me. I accepted payment for his naming item and labeled it independent. Then I withdrew it and tried to retrieve the proof. My editor kept it. She apparently considered a purchasable critic good copy.
+  motive_murderer: >-
+    Being named would cost me the private conversations that feed the newsletter, not just the pleasure of anonymity. Several friends would discover how carefully I had listened while pretending not to work. Grant's paid item would make the independent critic look purchasable as well. I had withdrawn it, but the editor retained the proof and he still intended to identify me. I could apologize for the jokes or explain the money. I wanted neither conversation to begin. I tried to retrieve the proof before he supplied its author to the room.
+  reason: >-
+    Replaces characters[id=22].motive_innocent and motive_murderer: preserves anonymous newsletter, stolen private jokes, paid item and withdrawal. Drew's conflicting revenue and social access replace a quid-pro-quo silence offer.
+  continuity_changes_needed:
+  - Remove conditional unmasking unless Drew prints the advertisement from later accounts. Keep intended identification, Grant's payment, editor's dated proof and pre-theft withdrawal.
+- id: '23'
+  name: Brie DeVivre
+  motive_innocent: >-
+    He ordered the extra course, his assistant canceled it, and he restored it. Monet would not authorize payment. My crew had changed the order twice and still hadn't been paid for the first version. I substituted a cheaper dessert supplier without correcting the menu. Grant's objection to that was justified; his idea that it paid for another course wasn't. I offered the difference on the invoice. He wanted the promised menu honored. I threatened to stop his private service and left reception uncovered to make somebody decide.
+  motive_murderer: >-
+    My crew were carrying drinks while Grant and Monet disagreed about whose instructions counted. I had used a cheaper dessert supplier and left the expensive name on the menu. That gave him a real complaint and left me with no margin to make tonight right. The balance was unpaid. More service meant more wages, and a donor telling his friends we had broken the contract could end next season's bookings. I wanted his private service suspended until the balance was authorized. My crew were still expected to smile while I argued.
+  reason: >-
+    Replaces characters[id=23].motive_innocent and motive_murderer: retains supplier misrepresentation, unpaid changes and deliberate service pressure; a real customer complaint and booking risk replace extortion for free food.
+  continuity_changes_needed:
+  - Align 23's later livelihood language with feared lost bookings rather than Grant's explicit threat to tell every donor. Keep supplier labels, unpaid kitchen order, towel and deliberate lack of reserve coverage.
+- id: '24'
+  name: Cary Crates
+  motive_innocent: >-
+    Cracked the frame. Hid it under a reversible mount for Chip to inspect after opening. Grant found it and refused delivery. I wanted the job paid. Made the record cleaner than the frame. The trolley photograph survives. Repairable damage. I should have reported it before trying to explain it away.
+  motive_murderer: >-
+    The frame was repairable. The clean sheet wasn't. I'd concealed the crack and put my name under an installation that looked complete. Grant could reject the delivery and the museum could stop hiring me. One unpaid job is bad. Losing the next year's work is worse. I brought the lever and the clipboard back to reception and kept thinking about what I could still fix. The frame, yes. My record, no. I wanted provisional acceptance so I could repair it without losing the work.
+  reason: >-
+    Replaces characters[id=24].motive_innocent and motive_murderer: preserves concealed cracked frame and falsified delivery account; changes a client demanding fraudulent acceptance into Cary trying to evade a justified rejection.
+  continuity_changes_needed:
+  - Replace Grant's demand for a clean signature, firing threat and reference offer with refusal to accept the concealed damage. Cary still produces an improperly clean job record.
+  - Preserve intact original after trolley work, courier photograph of frame, unsealed lever roll and coming_clean_murderer's job-loss motive.
+- id: '25'
+  name: Anne E. Dote
+  motive_innocent: >-
+    The donor lounge takes the teaching room. The budget cuts tours and community sessions to staff it. Grant likes a gift people can visit; our trustees like a gift they can name. I circulated the staff petition without my name because temporary teachers couldn't afford to have their objection dismissed as another argument with Anne. Then I borrowed Artie's authority to push it farther. He hadn't agreed. There were children booked for that room already. I wanted somebody to explain where they expected us to put them.
+  motive_murderer: >-
+    We can adapt a lesson. We cannot teach in a room children are no longer permitted to enter. Grant's gift paid for his lounge; the museum would pay for it by cutting our sessions. The trustees had heard the petition and still preferred the announcement. I had used Artie's name without permission, so the next discussion would be about my conduct instead of the bookings. I wanted the gift rejected before the teaching room disappeared. The staff had trusted me to get their objections heard, and I was running out of people willing to listen.
+  reason: >-
+    Replaces characters[id=25].motive_innocent and motive_murderer: retains anonymous petition and borrowed authority; budget priorities and ignored staff argument replace a donor threatening temporary signatories.
+  continuity_changes_needed:
+  - Remove Grant's offer to save a favorite class and threat to identify signatories. Preserve both petition versions, school bookings, trustees' decision and covert card removal.
+- id: '26'
+  name: Faye Stop
+  motive_innocent: >-
+    Grant and Hugh were beside the shipping file. I took the picture; Grant asked me to delete it under the portrait agreement. I deleted the camera copy and kept a print. The file was visible between them, and I wanted my editor to see it before I decided whether the agreement covered it. I had already told Grant it was gone. He was paying for portraits. I was beginning to treat the commission as access for another job. The envelope had a photograph in it, not an explanation I could give him comfortably.
+  motive_murderer: >-
+    I had promised deletion and sent the image to an editor. Grant wanted the remaining print collected before I left. If I surrendered it, I lost the picture; if I published it, I risked the commission and every editor who expected me to keep an agreement. The file made it valuable precisely because it was something he hadn't hired me to photograph. I wanted the evidence preserved and the contract objection gone. I kept looking at the envelope as though those two wishes were the same assignment.
+  reason: >-
+    Replaces characters[id=26].motive_innocent and motive_murderer: preserves deletion promise, backup and editor contact; a real image-rights conflict and Faye's divided assignment replace threats to blacklist and search her bag.
+  continuity_changes_needed:
+  - Remove Grant's implied bag search and explicit editor-smear threat; retain requested collection of the print, original shipping image, saved editor preview and clear FIXER.
+- id: '27'
+  name: Robin Banks
+  motive_innocent: >-
+    I planted the stickers in brochures. The board approved attending to build contacts. They did not approve a protest, and I called it outreach when I reported the printing cost. Grant had excluded me from an earlier event and his solicitors had sent a notice about this one. I came anyway. A removable sticker does not make legal bills removable. I told the volunteers I would handle the risk. I hadn't asked the people responsible for our grants what they could afford to defend.
+  motive_murderer: >-
+    Our board refused the protest. I brought the stickers and booked them as outreach. Grant's solicitors had already sent notice. His gift would become a museum success while our organization answered for disruption and lost the grant paying our staff. I had promised volunteers we could manage it. I wanted the gift withdrawn before they discovered how recklessly I had committed them.
+  reason: >-
+    Replaces characters[id=27].motive_innocent and motive_murderer: preserves unauthorized protest, legal exposure and misleading board report; activist overreach meets an existing legal dispute rather than Grant inventing threats for enjoyment.
+  continuity_changes_needed:
+  - Preserve pending action that survives death, board refusal and printer order. Remove claims that Grant's principal purpose was making Robin look unreasonable or enjoying exclusion.
+- id: '28'
+  name: Penny Pincher
+  motive_innocent: >-
+    I brought three letters. There are four. Grandfather arranged the sale we contest. I left that letter out; Grant has it. He proposed settlement money. I wanted the object returned. I took his speech cards and kept my fourth letter hidden. Before he explained the sale, I intended to choose the part everyone heard first.
+  motive_murderer: >-
+    I have spent years telling the family that Grant took the object from us. Grandfather helped him obtain it. I knew and left the letter out of the claim. Grant's settlement would make that history a transaction we had finally accepted; rejecting it would bring the complete correspondence into the argument. I wanted the object returned and Grandfather remembered as the man we thought he was. Grant could insist on the sale's terms while I explained the missing page. I wanted the letter kept out of his speech. It was in my handbag.
+  reason: >-
+    Replaces characters[id=28].motive_innocent and motive_murderer: preserves withheld grandfather letter and contested sale; incompatible family claims and genuine settlement replace purchase of silence and a humiliation threat.
+  continuity_changes_needed:
+  - Describe offer as settlement of the ownership dispute rather than money for silence. Preserve fourth letter lodged with solicitor, earlier three-page receipt and non-exculpatory coat-check trip.
+- id: '29'
+  name: Justin Tyme
+  motive_innocent: >-
+    I printed Grant's parcel story before checking the city lease. Wrong boundary, wrong story. He disputed my correction and contacted the bookshop about using its desk for the blog. The shop pays my wages. I brought the lease tonight and deleted a public take I no longer trusted. The recorder kept it. I wanted to keep writing without losing the job that lets me.
+  motive_murderer: >-
+    The lease contradicted the profile. Grant called it a personal attack and contacted the bookshop about the work I was doing there. If the shop barred the blog, I would lose my desk; if it lost patience with me, I would lose my wages. I had spent years making local history into something people read, and one credulous profile could leave me without either kind of work. I wanted the proprietor to read the lease before answering Grant. I had delayed the correction while rehearsing how to explain the original mistake.
+  reason: >-
+    Replaces characters[id=29].motive_innocent and motive_murderer: preserves false history, deleted take, lease correction and real bookshop contact. Employment risk becomes a complaint arising from Justin's mixed workplace uses, not donor control of museum access; stakes remain material.
+  continuity_changes_needed:
+  - Remove threatened museum-access withdrawal from 29's private retellings; retain objection to the correction and bookshop contact. Any genuine family-archive offer already in the packet may remain an earlier separate inducement.
+  - Keep lease email, recorder's complete boundary remark and source restriction. The restriction belongs to Justin's source, not an instruction from Grant.
+- id: '30'
+  name: Minnie Malist
+  motive_innocent: >-
+    I removed the donor lettering and hid a blackout in the naming sequence. The operator found it. She asked whether I expected her to lose her wages for my artistic conscience, which was an excellent question at a very inconvenient moment. Grant wanted his lighting cue; Frank objected; the final payment depended on an approved production we no longer agreed about. I wanted one interruption loud enough to settle it. Instead I promised the operator the museum would cover her invoice. Nobody had given me that money to promise.
+  motive_murderer: >-
+    Grant wanted the cue before releasing the balance. Frank wouldn't approve it. I had removed the lettering, hidden a blackout and promised the operator money I didn't control. The safety override stopped the interruption meant to make Grant negotiate. His announcement would go ahead; my crew would have promises instead of wages. I wanted the cue dropped and payment agreed before everyone learned how much of their security I had improvised. I could still make the room beautiful. I couldn't make those promises good.
+  reason: >-
+    Replaces characters[id=30].motive_innocent and motive_murderer: preserves hidden cue, lettering removal and unauthorized payment promise; a disputed deliverable and producer's overcommitment replace payment threatened solely to impose bad taste.
+  continuity_changes_needed:
+  - Keep florist's payment-dispute call note, canceled blackout, independent later flickers and operator innocence. Describe balance as contingent on disputed production approval rather than retaliation for Frank's objection.
+  - Keep 30 coming_clean_murderer's admission that blackout was stopped before poisoning; motive should include failed promises and payment as well as anger.

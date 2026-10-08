@@ -28,6 +28,8 @@ def make(version=12, selection_from=None):
         prior=json.loads((ROOT/f'build/story-pass{selection_from}/private-manifest.json').read_text(encoding='utf-8'))
     manifest={'selection':(f'Same originally random draws as pass{selection_from} for comparison; all trials retained.' if prior else ('Random within declared strata' if version==12 else 'Uniform random from attending cast per trial')+', without replacement across trials; all trials retained.'),
               'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in frozen.glob('*.yaml')},'trials':[]}
+    if version >= 19:
+        manifest['presentation'] = 'Shared evidence text equivalents; renderer-only layout/photo identifiers omitted. No actual images supplied to transcript readers.'
     rng=random.SystemRandom();used=set()
     for label,present,pool in sets:
         path=OUT/label;path.mkdir(parents=True,exist_ok=True)
@@ -48,6 +50,10 @@ def make(version=12, selection_from=None):
             lines += ['Game premise: Exactly one of the listed playing characters is the murderer. There are no accomplices or offstage killers. Nonplaying staff are not accusation choices. Guest statements may be evasive or false.']
         (path/'checkpoint_01.txt').write_text('\n'.join(lines),encoding='utf-8')
         for n,items in [(2,evidence['discoveries']),(3,[r for r in evidence['reports'] if r['id'] in ['F1','F2']]),(5,[r for r in evidence['reports'] if r['id']=='F3']),(7,[r for r in evidence['reports'] if r['id'] in ['F4','F5']])]:
+            if version >= 19:
+                # Internal asset names are not player evidence. Text must carry
+                # every observation needed for a fair transcript evaluation.
+                items=[{k:v for k,v in item.items() if k not in ('layout','photo','photos','service_photo','document_label')} for item in items]
             (path/f'checkpoint_{n:02}.txt').write_text(json.dumps(items,indent=2,ensure_ascii=False),encoding='utf-8')
         for n,key in [(4,'motive'),(6,'where'),(8,'evidence')]:
             lines=[]

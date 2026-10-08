@@ -323,8 +323,22 @@ The restructure is complete only when a casual guest can follow their packet, he
 The hunt must reward curiosity without controlling access to the solution. The ending must resolve the published evidence and the characters' secrets. The host must be able to play while running the evening. Every released page must be readable and visually reviewed. Difficulty and rehearsal claims must describe tests actually performed.
 
 
-## Current execution outcome — fifth candidate
+## Historical execution outcome — fifth candidate (superseded)
 
 Implementation, automated logic/rehearsal checks, independent semantic review, complete visual review and a fresh source-archive rebuild have passed. All 88 clean-build PDFs match the reviewed byte hashes. The confirmed 22-guest edition is included. Four blind expert readers all solved only after Method; this does not measure human difficulty. The before-vote information is coherent across all thirty selected-role routes.
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
+
+## Current execution — round 18 tested, round 19 rejected before freeze
+
+Round18 completed four fresh eight-stage transcript tests. All readers selected the correct final leader only in ActIII. None met the midpoint suspect-density target: A3/30, B7/22, C5/22, D0/22 above5 after Opportunity. Final alternatives at5–6 were6,7,3,0. D is an unanchored fresh reader of B's identical releases, demonstrating scoring sensitivity. The full32-stage archive and reviews are in `docs/story-pass-18-SPOILERS/tests/`; source and input/result hashes were verified during export.
+
+Round19 has thirty new motive pairs, innocent/guilty round pairs and endings, but its prefreeze audit rejected the universal filled-glass mechanism. Snapshots cannot prove continuous state; the common guilty-only observation and generic retreat risk another scripted giveaway. No round19 blind scores exist. Distinct service, object and disclosure covers are being designed against retained records before any next freeze.
+
+Historical visual review applies only to the historical PDF edition. These private candidates have not been integrated into a final kit, regenerated, visually verified or deployed. All sent public assets remain locked. The active goal remains incomplete.
+
+- [ ] Coherent differentiated covers for every selectable culprit, including weak quiet-role variants.
+- [ ] Fresh sequential blind tests meeting breadth, late identification and final competition goals without contrived stories.
+- [ ] Reconcile private setup, question prompts, host sequence and endings with the accepted candidate.
+- [ ] Integrate evidence artwork and render/inspect every final PDF page.
+- [ ] Rebuild archives, commit generated results, publish and verify live download hashes.
