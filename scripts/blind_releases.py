@@ -22,7 +22,7 @@ def run(version, trial, action, stage):
     journal_path = folder / "release-journal.json"
     journal = json.loads(journal_path.read_text(encoding="utf-8")) if journal_path.exists() else {"releases": []}
     first = (folder / "checkpoint_01.txt").read_text(encoding="utf-8").splitlines()
-    names = {line.split(" / ", 1)[0] for line in first[2::3] if line}
+    names = {line.split(" / ", 1)[0] for line in first[2::3] if " / " in line}
     assert names, "Missing attending names"
     entries = journal["releases"]
     if action == "read":

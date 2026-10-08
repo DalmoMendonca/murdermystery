@@ -1,6 +1,6 @@
 # The Last Acquisition: restructuring plan
 
-October 7, 2026 follow-up: installed story skills applied in isolated passes 13 and 14. Pass 13 rewrites all private round speeches and endings around distributed scenes; its three reviews still fail breadth and identify repetitive voices. Pass 14 addresses early planting, individual Method voices and custody/transport observations, then runs fresh blind tests. See the corresponding `docs/story-pass-*-SPOILERS/RESULTS.md` for actual results. Production and sent public assets remain unchanged; no party-ready claim.
+October 8, 2026 active goal: continue autonomous iteration through story acceptance, every-culprit continuity, integration, and full visual review. Rounds 15 and 16 are archived and pushed. Round 16 exposed reliance on an author-coded guilty-only exception: the strict Justin trial chose Al instead. Round 17 is an isolated fracture-comparison experiment with distributed disputes and three fresh guarded sequential readers. Its acceptance remains unproven. See each `docs/story-pass-*-SPOILERS/RESULTS.md` for actual results; production and sent public assets remain unchanged.
 
 Current note — October 7, 2026: pass 12 is an isolated story prototype in `docs/story-pass-12-SPOILERS/STORY.md`, undergoing three independent sequential transcript trials. Canonical PDF sources and production remain unchanged. The historical fifth-prototype status below is retained as a record, not the current readiness claim. A tested story must pass continuity, every-culprit, and visual review before promotion.
 

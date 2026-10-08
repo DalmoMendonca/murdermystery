@@ -44,6 +44,8 @@ def make(version=12, selection_from=None):
         manifest['trials'].append(private)
         lines=['Introductions / '+str(len(cast))+' attending characters','']
         for c in cast:lines += [c['name']+' / '+c['role'],c['introduction'],'']
+        if version >= 17:
+            lines += ['Game premise: Exactly one of the listed playing characters is the murderer. There are no accomplices or offstage killers. Nonplaying staff are not accusation choices. Guest statements may be evasive or false.']
         (path/'checkpoint_01.txt').write_text('\n'.join(lines),encoding='utf-8')
         for n,items in [(2,evidence['discoveries']),(3,[r for r in evidence['reports'] if r['id'] in ['F1','F2']]),(5,[r for r in evidence['reports'] if r['id']=='F3']),(7,[r for r in evidence['reports'] if r['id'] in ['F4','F5']])]:
             (path/f'checkpoint_{n:02}.txt').write_text(json.dumps(items,indent=2,ensure_ascii=False),encoding='utf-8')
