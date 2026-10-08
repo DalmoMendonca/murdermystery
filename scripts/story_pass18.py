@@ -5,6 +5,7 @@ authoring files, so a partial agent output cannot become a tested story.
 """
 from pathlib import Path
 import json
+import re
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +23,27 @@ def main():
         rows += data['characters']
     by = {str(r['id']).zfill(2): r for r in rows}
     assert len(rows) == 30 and set(by) == {f'{i:02}' for i in range(1, 31)}, 'Exactly thirty complete roles required'
+    edits = yaml.safe_load((OUT / 'line_edits.yaml').read_text(encoding='utf-8'))
+    for ident, removed in edits['opportunity_remove_sentences'].items():
+        row = by[ident]
+        sentences = re.split(r'(?<=[.!?])\s+', row['opportunity_murderer'])
+        replacements = edits.get('opportunity_replace_sentences', {}).get(ident, {})
+        row['opportunity_murderer'] = ' '.join(replacements.get(i, s) for i, s in enumerate(sentences) if i not in removed)
+        if ident in edits.get('opportunity_additions', {}):
+            row['opportunity_murderer'] += ' ' + edits['opportunity_additions'][ident]
+        assert not re.search(r'\b(broken|broke|damaged)\b.*\b(favor|gift)\b|\b(favor|gift)\b.*\b(broken|broke|damaged)\b', row['opportunity_murderer'], re.I), ident + ': early breakage remains'
+    for ident, text in edits.get('method_overrides', {}).items():
+        by[ident]['method_murderer'] = text
+    for ident, fields in edits.get('innocent_sentence_removals', {}).items():
+        for key, removed in fields.items():
+            sentences = re.split(r'(?<=[.!?])\s+', by[ident][key])
+            assert max(removed) < len(sentences), f'{ident} {key}: edit index out of range'
+            by[ident][key] = ' '.join(s for i, s in enumerate(sentences) if i not in removed)
+    for ident, fields in edits.get('text_replacements', {}).items():
+        for key, changes in fields.items():
+            for before, after in changes:
+                assert before in by[ident][key], f'{ident} {key}: expected edit text absent'
+                by[ident][key] = by[ident][key].replace(before, after)
     for ident, row in by.items():
         for key in FIELDS:
             assert isinstance(row.get(key), str) and row[key].strip(), f'{ident}: missing {key}'

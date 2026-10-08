@@ -1,6 +1,6 @@
 status: Prototype packet-contained questions; exclude absent names at build time
-procedure: Choose a listed person by name. Host ensures every attending person answers once in each act. Questions
-  appear inside every packet, never in an outside catalog.
+procedure: Choose a listed person by name. Host ensures every attending person answers once in each act.
+  Questions appear inside every packet, never in an outside catalog.
 acts:
   motive:
   - question: What did you want kept out of Grant’s announcement?
@@ -149,59 +149,14 @@ acts:
     - '29'
     - '30'
   method:
-  - question: What did you bring to the reception desk, and what was it for?
-    targets:
-    - Artie Ficial
-    - Claire O’Scuro
-    - Sue Venir
-    - Dr. Art E. Fact
-    - Mona Lott
-    - Anya Tique
-    - Saul D. Bid
-    - Reed DeLabel
-    - Drew Conclusions
-    - Anne E. Dote
-    - Robin Banks
-    - Penny Pincher
-    - Justin Tyme
-    source_ids:
-    - '01'
-    - '02'
-    - 08
-    - 09
-    - '14'
-    - '16'
-    - '17'
-    - '19'
-    - '22'
-    - '25'
-    - '27'
-    - '28'
-    - '29'
-  - question: What did you bring to the reception desk, and what was it for?
-    targets:
-    - Hugh Bidder
-    - Monet Bags
-    - Tess Tament
-    - Elon Mosaic
-    - Ella Gance
-    source_ids:
-    - '03'
-    - '04'
-    - '10'
-    - '15'
-    - '21'
-  - question: What did you bring to the reception desk, and what was it for?
+  - question: What do the objects tell us about what you handled?
     targets:
     - Chip Patina
     - Dada DiCapo
     - Vincent Van Faux
-    - Barb Dwyer
-    - Paige Turner
     - Frank Lloyd Wrong
     - Elle Loominate
     - Al Baster
-    - Brie DeVivre
     - Cary Crates
     - Faye Stop
     - Minnie Malist
@@ -209,12 +164,60 @@ acts:
     - '05'
     - '06'
     - '07'
-    - '11'
-    - '12'
     - '13'
     - '18'
     - '20'
-    - '23'
     - '24'
     - '26'
     - '30'
+  - question: What do your records show about the dispute with Grant?
+    targets:
+    - Artie Ficial
+    - Hugh Bidder
+    - Monet Bags
+    - Sue Venir
+    - Tess Tament
+    - Elon Mosaic
+    - Anya Tique
+    - Saul D. Bid
+    - Ella Gance
+    - Drew Conclusions
+    - Penny Pincher
+    source_ids:
+    - '01'
+    - '03'
+    - '04'
+    - 08
+    - '10'
+    - '15'
+    - '16'
+    - '17'
+    - '21'
+    - '22'
+    - '28'
+  - question: What was missing from the account you gave us, and what supports it?
+    targets:
+    - Claire O’Scuro
+    - Dr. Art E. Fact
+    - Paige Turner
+    - Mona Lott
+    - Reed DeLabel
+    - Anne E. Dote
+    - Robin Banks
+    - Justin Tyme
+    source_ids:
+    - '02'
+    - 09
+    - '12'
+    - '14'
+    - '19'
+    - '25'
+    - '27'
+    - '29'
+  - question: What did your decisions change about service or the investigation?
+    targets:
+    - Barb Dwyer
+    - Brie DeVivre
+    source_ids:
+    - '11'
+    - '23'
