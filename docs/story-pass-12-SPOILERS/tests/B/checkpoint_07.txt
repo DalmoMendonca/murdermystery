@@ -1,0 +1,63 @@
+[
+  {
+    "id": "F4",
+    "department": "MERIDIAN / COLLECTIONS INVENTORY",
+    "title": "The condition record and the walkthrough",
+    "text": "The Velvet Widow remained Grant's private acquisition. The conservator withheld exhibition approval because the original poison was still inside. Grant insisted on a preview of the sealed bottle during the 6:20–6:28 walkthrough. Staff returned it to the cupboard and locked it away. The band still appeared intact from the front; the split beneath its back edge was found during the investigation. Residue from the bottle is consistent with the poison found in the donor glass.",
+    "rows": [
+      [
+        "6:20 / before walkthrough",
+        "Condition photograph: stopper seated; custody band intact"
+      ],
+      [
+        "6:28 / walkthrough ends",
+        "Returned to cupboard; access locked until investigation"
+      ],
+      [
+        "Remaining contents",
+        "Original poison remains; no depletion alarm was raised"
+      ]
+    ],
+    "layout": "inventory_photo",
+    "photo": "cyanide_bottle_v8"
+  },
+  {
+    "id": "F5",
+    "department": "LABORATORY / CASE FINDINGS",
+    "title": "The glass, not the punch",
+    "photo": "service_photos",
+    "text": "Cyanide was found inside the donor glass. Food and shared punch tested clear. The glass has the museum star etched into its base. A rehearsal glass recovered from the performance case has PROP painted underneath and no poison residue. A small foil-backed red scrap was found in the donor glass; it is the same construction as the damaged bottle band. The museum uses that stock for custody bands and decorations. Guests' belongings were secured after the death. Their Method accounts include recorded examination findings and their own explanations.",
+    "rows": [
+      [
+        "Grant’s glass / inside",
+        "CYANIDE DETECTED"
+      ],
+      [
+        "Shared punch pitcher",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Food samples",
+        "NO CYANIDE DETECTED"
+      ],
+      [
+        "Rehearsal glass / PROP",
+        "NO POISON RESIDUE; returned to prop case"
+      ],
+      [
+        "Acquired poison bottle",
+        "MIXTURE MATCHES GLASS RESIDUE"
+      ],
+      [
+        "Scrap inside Grant’s glass",
+        "RED PAPER / SILVER FOIL BACKING"
+      ]
+    ],
+    "layout": "lab_findings",
+    "trace_exhibit": {
+      "title": "The scrap inside the glass",
+      "photo": "seal_fragment_v11",
+      "text": "Left: scrap from inside Grant’s glass. Right: the damaged bottle band, with silver backing exposed. Both are red paper backed with silver foil. The museum uses this stock for custody bands and decorative work. The laboratory establishes material similarity, not a unique torn-edge fit or which person placed the scrap in the glass."
+    }
+  }
+]

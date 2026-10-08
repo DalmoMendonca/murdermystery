@@ -1,0 +1,43 @@
+"""Freeze a story candidate and make distinct, stratified blind transcript trials."""
+from pathlib import Path
+import json,yaml,random,hashlib,shutil
+ROOT=Path(__file__).resolve().parents[1]
+SOURCE=ROOT/'docs/story-pass-12-SPOILERS'
+OUT=ROOT/'build/story-pass12'
+
+def make():
+    if (OUT/'private-manifest.json').exists():
+        raise SystemExit('Trial already frozen. Use a new version/directory; never replace tested inputs or selections.')
+    chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
+    rows=yaml.safe_load((SOURCE/'investigation_copy.yaml').read_text(encoding='utf-8'))['characters']
+    by={r['id']:r for r in rows}
+    evidence=yaml.safe_load((SOURCE/'evidence_design.yaml').read_text(encoding='utf-8'))
+    active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
+    sets=[('A',set(by),['02','06','11','12','20','23']),
+          ('B',active,['09','18','19','25','28','29']),
+          ('C',active,['01','05','08','10','13','14'])]
+    frozen=OUT/'tested-source';frozen.mkdir(parents=True,exist_ok=True)
+    for p in SOURCE.glob('*.yaml'):shutil.copy2(p,frozen/p.name)
+    manifest={'selection':'Random within declared strata, without replacement; all three completed trials retained.',
+              'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in frozen.glob('*.yaml')},'trials':[]}
+    rng=random.SystemRandom();used=set()
+    for label,present,pool in sets:
+        path=OUT/label;path.mkdir(parents=True,exist_ok=True)
+        killer=rng.choice([ident for ident in pool if ident not in used]);used.add(killer)
+        cast=[c for c in chars if c['id'] in present]
+        private={'trial':label,'killer_id':killer,'cast_ids':[c['id'] for c in cast]}
+        (path/'private-selection.json').write_text(json.dumps(private,indent=2)+'\n',encoding='utf-8')
+        manifest['trials'].append(private)
+        lines=['Introductions / '+str(len(cast))+' attending characters','']
+        for c in cast:lines += [c['name']+' / '+c['role'],c['introduction'],'']
+        (path/'checkpoint_01.txt').write_text('\n'.join(lines),encoding='utf-8')
+        for n,items in [(2,evidence['discoveries']),(3,[r for r in evidence['reports'] if r['id'] in ['F1','F2']]),(5,[r for r in evidence['reports'] if r['id']=='F3']),(7,[r for r in evidence['reports'] if r['id'] in ['F4','F5']])]:
+            (path/f'checkpoint_{n:02}.txt').write_text(json.dumps(items,indent=2,ensure_ascii=False),encoding='utf-8')
+        for n,key in [(4,'motive'),(6,'where'),(8,'evidence')]:
+            lines=[]
+            for c in cast:lines += [c['name'],by[c['id']]['hearings'][key+('_murderer' if c['id']==killer else '_innocent')],'']
+            (path/f'checkpoint_{n:02}.txt').write_text('\n'.join(lines),encoding='utf-8')
+    (OUT/'private-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+    print('Frozen 3 distinct draws; A=30, B/C=confirmed22. No selected identities printed.')
+
+if __name__=='__main__':make()

@@ -1,5 +1,7 @@
 # The Last Acquisition: restructuring plan
 
+Current note — October 7, 2026: pass 12 is an isolated story prototype in `docs/story-pass-12-SPOILERS/STORY.md`, undergoing three independent sequential transcript trials. Canonical PDF sources and production remain unchanged. The historical fifth-prototype status below is retained as a record, not the current readiness claim. A tested story must pass continuity, every-culprit, and visual review before promotion.
+
 Status: fifth prototype implemented, independently reviewed and visually verified; fresh source-archive rebuild passed. Human rehearsal remains unmeasured. Baseline repository commit `1bf7bf4`. Sent public assets are immutable.
 
 The fourth prototype introduced five proof families but still sounded repetitive. The fifth replaces eighteen innocent accounts and six guilty document accounts with individual incidents. Seven exclusions are disclosed in Opportunity. Forensic records describe observations; the one-actor rule appears in the rules. Production remains on the baseline.
