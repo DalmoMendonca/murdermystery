@@ -1,0 +1,120 @@
+[
+  {
+    "trial": "A",
+    "cast_size": 30,
+    "selected_character": "Ella Gance",
+    "act_II_above_5": 11,
+    "act_II_target": 10,
+    "final_selected_score": 8,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 7,
+    "selected_scores": [
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5,
+      8
+    ],
+    "protocol_notes": [],
+    "non_attending_scores_retained_in_raw_files": [
+      "casey hart",
+      "eleanor vale",
+      "grant larceny",
+      "jordan west"
+    ],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  },
+  {
+    "trial": "B",
+    "cast_size": 22,
+    "selected_character": "Justin Tyme",
+    "act_II_above_5": 13,
+    "act_II_target": 8,
+    "final_selected_score": 8,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 4,
+    "selected_scores": [
+      1,
+      2,
+      2,
+      4,
+      4,
+      5,
+      6,
+      8
+    ],
+    "protocol_notes": [
+      "Procedural exception: checkpoint02 was exposed after the first write failed, before checkpoint01 save verification; the reconstructed prior judgments cannot be independently verified.",
+      "Procedural exception retained in result01: checkpoint02 was exposed after first save failure before result01 verification; prior judgments were not independently timestamped before exposure. Remaining assessments saved and verified sequentially."
+    ],
+    "non_attending_scores_retained_in_raw_files": [
+      "anya tique",
+      "casey hart",
+      "eleanor vale",
+      "grant larceny",
+      "jordan west",
+      "saul d. bid"
+    ],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  },
+  {
+    "trial": "C",
+    "cast_size": 22,
+    "selected_character": "Elon Mosaic",
+    "act_II_above_5": 3,
+    "act_II_target": 8,
+    "final_selected_score": 8,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 4,
+    "selected_scores": [
+      2,
+      3,
+      3,
+      5,
+      5,
+      5,
+      5,
+      8
+    ],
+    "protocol_notes": [],
+    "non_attending_scores_retained_in_raw_files": [
+      "anya tique",
+      "casey hart",
+      "eleanor vale",
+      "grant larceny",
+      "jordan west",
+      "saul d. bid"
+    ],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  },
+  {
+    "trial": "B2",
+    "cast_size": 22,
+    "selected_character": "Justin Tyme",
+    "act_II_above_5": 4,
+    "act_II_target": 8,
+    "final_selected_score": 6,
+    "selected_highest": false,
+    "selected_unique_highest": false,
+    "final_alternatives_5_to_6": 2,
+    "selected_scores": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      6
+    ],
+    "protocol_notes": [],
+    "non_attending_scores_retained_in_raw_files": [],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  }
+]

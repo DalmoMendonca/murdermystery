@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'docs/story-pass-12-SPOILERS'
 OUT=ROOT/'build/story-pass12'
 
-def make(version=12):
+def make(version=12, selection_from=None):
     global SOURCE, OUT
     SOURCE=ROOT/f'docs/story-pass-{version}-SPOILERS'
     OUT=ROOT/f'build/story-pass{version}'
@@ -23,13 +23,22 @@ def make(version=12):
         sets=[('A',set(by),sorted(by)),('B',active,sorted(active)),('C',active,sorted(active))]
     frozen=OUT/'tested-source';frozen.mkdir(parents=True,exist_ok=True)
     for p in SOURCE.glob('*.yaml'):shutil.copy2(p,frozen/p.name)
-    manifest={'selection':('Random within declared strata' if version==12 else 'Uniform random from attending cast per trial')+', without replacement across trials; all trials retained.',
+    prior=None
+    if selection_from is not None:
+        prior=json.loads((ROOT/f'build/story-pass{selection_from}/private-manifest.json').read_text(encoding='utf-8'))
+    manifest={'selection':(f'Same originally random draws as pass{selection_from} for comparison; all trials retained.' if prior else ('Random within declared strata' if version==12 else 'Uniform random from attending cast per trial')+', without replacement across trials; all trials retained.'),
               'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in frozen.glob('*.yaml')},'trials':[]}
     rng=random.SystemRandom();used=set()
     for label,present,pool in sets:
         path=OUT/label;path.mkdir(parents=True,exist_ok=True)
-        killer=rng.choice([ident for ident in pool if ident not in used]);used.add(killer)
         cast=[c for c in chars if c['id'] in present]
+        if prior:
+            previous=next(t for t in prior['trials'] if t['trial']==label)
+            assert previous['cast_ids']==[c['id'] for c in cast], 'Controlled comparison must preserve attending cast'
+            killer=previous['killer_id'];assert killer in pool and killer not in used
+        else:
+            killer=rng.choice([ident for ident in pool if ident not in used])
+        used.add(killer)
         private={'trial':label,'killer_id':killer,'cast_ids':[c['id'] for c in cast]}
         (path/'private-selection.json').write_text(json.dumps(private,indent=2)+'\n',encoding='utf-8')
         manifest['trials'].append(private)
@@ -43,8 +52,9 @@ def make(version=12):
             for c in cast:lines += [c['name'],by[c['id']]['hearings'][key+('_murderer' if c['id']==killer else '_innocent')],'']
             (path/f'checkpoint_{n:02}.txt').write_text('\n'.join(lines),encoding='utf-8')
     (OUT/'private-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-    print('Frozen 3 distinct draws; A=30, B/C=confirmed22. No selected identities printed.')
+    print('Frozen 3 distinct selections; A=30, B/C=confirmed22. No selected identities printed.')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--version',type=int,default=12)
-    make(p.parse_args().version)
+    p.add_argument('--selection-from',type=int)
+    args=p.parse_args();make(args.version,args.selection_from)
