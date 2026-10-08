@@ -39,6 +39,7 @@ def run(version, trial, action, stage):
         assert "result_sha256" not in entries[-1], "A saved assessment cannot be overwritten"
         result_path = folder / f"result_{stage:02}.json"
         result = json.loads(result_path.read_text(encoding="utf-8-sig"))
+        assert result.get('stage') == stage, 'Score file must identify its actual stage'
         rows = result["scores"]
         assert len(rows) == len(names) and {row["name"] for row in rows} == names, "One score per exact attending name required"
         assert all(type(row["score"]) is int and 0 <= row["score"] <= 10 for row in rows), "Integer scores 0–10 required"

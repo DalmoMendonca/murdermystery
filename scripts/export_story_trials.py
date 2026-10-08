@@ -19,6 +19,15 @@ def export(version=12, trials=('A','B','C')):
         for n in range(1,9):
             if not (SRC/label/f'result_{n:02}.json').exists():
                 raise SystemExit(f'Incomplete {label}, stage {n}; no selections revealed.')
+        if version >= 18:
+            folder = SRC / label
+            journal = json.loads((folder / 'release-journal.json').read_text(encoding='utf-8'))
+            releases = journal['releases']
+            assert [r['stage'] for r in releases] == list(range(1, 9)), 'Eight sequential releases required'
+            for release in releases:
+                n = release['stage']
+                for field, filename in [('input_sha256', f'checkpoint_{n:02}.txt'), ('result_sha256', f'result_{n:02}.json')]:
+                    assert release.get(field) == hashlib.sha256((folder / filename).read_bytes()).hexdigest(), f'{label} stage{n}: missing validation or changed bytes'
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
     manifest=json.loads((SRC/'private-manifest.json').read_text(encoding='utf-8'))
     frozen=SRC/'tested-source'
