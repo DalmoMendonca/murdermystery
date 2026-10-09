@@ -109,7 +109,8 @@ characters:
   other_guest_stakes: Sue and Monet
   innocent_payoff_premise: Keep the board able to reject the deal; lose the rescue money rather than surrender the
     museum.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '02'
   name: Claire O’Scuro
   locked_role: Chief Curator of World Cultures
@@ -126,7 +127,8 @@ characters:
     purchase he brokered for Grant.
   other_guest_stakes: Elon and Saul
   innocent_payoff_premise: Keep the client while admitting an expensive appraisal failure.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '04'
   name: Monet Bags
   locked_role: Chief Financial Officer of the Meridian Museum
@@ -135,7 +137,8 @@ characters:
     service.
   other_guest_stakes: Brie and Artie
   innocent_payoff_premise: Prevent an unauthorized donor expense being charged to payroll money.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '05'
   name: Chip Patina
   locked_role: Chief Conservator
@@ -144,7 +147,8 @@ characters:
     condition record behind.
   other_guest_stakes: Claire and Frank
   innocent_payoff_premise: Correct an insurance date without approving a false historical repair.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '06'
   name: Dada DiCapo
   locked_role: Performance Artist & Cultural Celebrity
@@ -154,7 +158,8 @@ characters:
   other_guest_stakes: Minnie and Faye
   innocent_payoff_premise: Show a prerecorded empty suit falling out of a gilded chair, a satirical image rather
     than a plan to injure Grant.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '07'
   name: Vincent Van Faux
   locked_role: Celebrated Contemporary Painter
@@ -171,7 +176,8 @@ characters:
     celebration as acceptance, not ordinary private hospitality.
   other_guest_stakes: Artie and Tess
   innocent_payoff_premise: Stop a celebratory ritual being presented as board acceptance.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: 09
   name: Dr. Art E. Fact
   locked_role: Professor of Art History & Provenance Scholar
@@ -188,7 +194,8 @@ characters:
     podium.
   other_guest_stakes: Sue and Monet
   innocent_payoff_premise: Make him discuss the family gift before announcing it as settled.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '11'
   name: Barb Dwyer
   locked_role: Director of Museum Security & Former Art-Crimes Investigator
@@ -198,7 +205,8 @@ characters:
   other_guest_stakes: Frank and Paige
   innocent_payoff_premise: Protect a requested private donor meeting; misuse of discretion, not a thirty-person
     perfect alibi.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '12'
   name: Paige Turner
   locked_role: Investigative Arts Journalist
@@ -207,7 +215,8 @@ characters:
     interview opening at the private place.
   other_guest_stakes: Drew and Reed
   innocent_payoff_premise: Verify the allegation while concealing the source she had promised to protect.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '13'
   name: Frank Lloyd Wrong
   locked_role: Exhibition Architect & Designer
@@ -298,7 +307,8 @@ characters:
   other_guest_stakes: Monet and Barb
   innocent_payoff_premise: Use ordinary culinary flavoring; the ingredient identity must be independently supplied
     before the vote, not invented in Coming Clean.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
 - id: '24'
   name: Cary Crates
   locked_role: Senior Art Handler & Installation Specialist
@@ -371,8 +381,8 @@ primary_hypothesis_ids:
 - '03'
 - '12'
 acceptance_limits:
-- These ten are intended hypotheses, not ten measured suspicion scores. Claire's label change and Frank's closure
-  may still be insufficiently connected to poisoning.
+- Ten primary premises exist, not ten measured suspicion scores. Claire and Frank remain rejected as primary poisoning
+  hypotheses.
 - Brie's garnish changes the target-residue interpretation. It cannot be pasted into the old food/punch lab record
   without a specific pre-vote sample result.
 - The projection requires new actual images and a simple understandable staged effect. It is not accepted merely
@@ -518,5 +528,16 @@ first_scene_set:
 - '04'
 - 08
 - '23'
-first_scene_reason: 'A connected payment/service/legal problem: three different agendas create one interruption.
-  Must avoid three copies of moving the glass. Test premises first; no scripted statements yet.'
+first_scene_reason: Historical first three-role service group; now extended by Hugh/Paige and the production/family
+  group. Ten complete drafts exist.
+authored_complete_route_ids:
+- '01'
+- '03'
+- '04'
+- '05'
+- '06'
+- 08
+- '10'
+- '11'
+- '12'
+- '23'

@@ -1,0 +1,72 @@
+schema_version: 1
+status: explicit_text_edits_for_authoring_bank_not_final_packet_integration
+policy: >-
+  When a guest is absent, remove their reception intervention from the spoken account.
+  Ordinary accounts, legal, editorial or production work may continue through offstage
+  staff; previous business correspondence remains historical. Do not add a replacement
+  playing character or depend on that offstage person giving a speech.
+rules:
+- absent: '04'
+  find: Monet needed the check
+  replace: The accounts office needed the check
+- absent: '04'
+  find: Monet could call it rescue money
+  replace: The accounts office could call it rescue money
+- absent: '08'
+  find: Sue needed an agreement
+  replace: Counsel needed an agreement
+- absent: '15'
+  find: Elon wanted to know
+  replace: Other clients wanted to know
+- absent: '17'
+  find: Saul was delighted to ask that question loudly
+  replace: The auction house was delighted to circulate that question
+- absent: '17'
+  find: This was my business, not Saul's auction house
+  replace: This was my dealer business, not an auction-house commission
+- absent: '01'
+  find: Artie calls it a rescue
+  replace: The museum office calls it a rescue
+- absent: '23'
+  find: Brie had ordered it
+  replace: The caterer had ordered it
+- absent: '23'
+  find: refusing Brie money we still owed
+  replace: refusing the caterer money we still owed
+- absent: '23'
+  find: Brie needs a funded answer
+  replace: The caterer needs a funded answer
+- absent: '13'
+  find: Frank wanted a grand opening
+  replace: The installation team wanted a grand opening
+- absent: '01'
+  find: Artie was trying
+  replace: The museum office was trying
+- absent: '08'
+  find: asked Sue to read
+  replace: asked counsel to read
+- absent: '08'
+  find: went looking for Sue
+  replace: went to find the gala coordinator
+- absent: '08'
+  find: asked Sue about
+  replace: asked counsel about
+- absent: '22'
+  find: I gave Drew a short export
+  replace: I gave the press desk a short export
+- absent: '22'
+  find: Drew's export
+  replace: the press export
+- absent: '04'
+  find: Monet wanted the bill stopped
+  replace: The accounts office wanted the bill stopped
+- absent: '04'
+  find: Monet had every reason
+  replace: The accounts office had every reason
+- absent: '29'
+  find: Justin's property records
+  replace: The retained property records
+limits:
+- The ten-role bank is incomplete; additional authored routes require their own checked substitutions.
+- These edits do not manufacture a new alibi, transfer criminal conduct to absent guests, or alter the shared crime facts.
+- Final question targets must be filtered to the actual cast when the full packet bank is integrated.
