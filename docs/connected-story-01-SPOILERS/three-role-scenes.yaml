@@ -1,0 +1,83 @@
+schema_version: 1
+status: prototype_dialogue_not_accepted_or_scored
+scope: Three connected roles only. Shared staff records and limited lab comparison are premise contracts, not generated
+  final evidence. No endings or other twenty-seven routes supplied.
+questions:
+  motive: What would accepting Grant's gift change for you?
+  opportunity: What did you do about the disputed gala order?
+  method: What happened at Grant's private place, and what supports your account?
+evidence_dependencies:
+- Original private-service order predating the gala
+- Accounts hold on additional course only
+- Legal objection to public acceptance, with private-hospitality exception
+- Manager's collection account and kitchen ticket
+- Pitcher and glass flavoring comparison, plus retained ingredient result
+characters:
+- id: '04'
+  name: Monet Bags
+  motive_shared: The donation is large enough to cover payroll. That's the attraction. It also gives Grant a say
+    in what we buy, what we build and who runs the place. Artie calls it a rescue. I keep asking whether the rescuer
+    gets a vote on every paycheck. We need the money. That doesn't make these terms affordable.
+  opportunity_shared: I put the extra cheese course on hold. It wasn't in the approved budget. Brie had ordered
+    it because it was on Grant's list; Grant hadn't paid for it. The manager went back to sort that out. I took
+    the invoice to Grant's place myself. There was his glass and not his signature. I left the invoice for him.
+    Nobody had authorized me to use payroll money for another donor treat, and I wasn't going to ask the staff which
+    of them could afford it.
+  method_innocent: 'I went to the place while the extra-course ticket was still open. That was the point: get his
+    approval so the kitchen could stop waiting. The retained invoice says ''charge to donor''; the museum account
+    is crossed out. The bank request in my file is about the earlier transfer into payroll. I had used restricted
+    money to pay the staff, and I was trying not to add this bill to it. I still have the crossed-out account line.
+    The staff had already been paid; I couldn''t put their wages back into the restricted fund.'
+  method_murderer: I went to the place before joining the incoming-object preview. His glass was already unwrapped;
+    I remember setting the invoice beside it. The extra-course ticket was still being argued over later, but my
+    visit was finished. The bank request in my file is about the transfer into payroll. I had used restricted money
+    to pay the staff. The invoice says 'charge to donor.' I wanted his approval, and he hadn't signed it when I
+    left.
+- id: 08
+  name: Sue Venir
+  motive_shared: A draft is a useful place to argue. An announcement from a microphone is a useful place to pretend
+    the argument is over. Grant's agreement reserved control of future purchases to him. I had advised the museum
+    on the acquisition behind this exhibition. If the ownership file fails, my advice will be read with it. I wanted
+    the board to decide what it was accepting before anyone called this a rescue.
+  opportunity_shared: My note stopped the public celebration of an accepted gift. It did not stop serving Grant
+    a private drink. Those are different instructions. I found the unsigned agreement at his place and took it out
+    of the announcement papers. I kept the marked running order too. Artie was trying to keep tonight moving; I
+    was trying to keep a draft from becoming tomorrow's statement of what the board had agreed to. No one asked
+    me to remove the agreement. I did it anyway.
+  method_innocent: I took the agreement while the private place was unattended and the kitchen ticket was still
+    open. The glass stayed there. My note has 'public announcement' underlined and 'private hospitality may proceed'
+    beneath it. The missing ownership attachment was a problem I had known about before tonight. I let the file
+    go forward without resolving it. Taking back the agreement was an attempt to stop another approval built on
+    that advice, not to cancel Grant's service.
+  method_murderer: I took the agreement when the manager poured Grant's punch at the private place. The glass was
+    standing over the papers. I waited for the manager to finish, then the manager lifted it while I pulled the
+    agreement clear. My note has 'public announcement' underlined and 'private hospitality may proceed' beneath
+    it. The missing ownership attachment was a problem I had known about before tonight. I let the file go forward
+    without resolving it. I removed an unsigned document from an announcement it had no business supporting.
+- id: '23'
+  name: Brie DeVivre
+  motive_shared: Grant asked for another cheese course after we'd agreed the menu. The museum hadn't approved the
+    charge, and he hadn't paid it. We had already bought the food. Monet wanted the bill stopped; I wanted someone
+    to tell me where the money was coming from. The private toast was on the original order. I couldn't settle the
+    museum's gift agreement, but I could insist that feeding the donor was still a bill.
+  opportunity_shared: 'The manager came back about the held charge. I showed the original order: extra course disputed,
+    private toast still booked. Then I went to Grant''s place with the culinary flavoring for that drink. It wasn''t
+    a new request. I left the ingredient container with the service things and came back to the kitchen. I had kept
+    the added course on our purchase list without a funded authorization. That was my problem to fix, and I was
+    not going to pretend the food hadn''t cost us anything.'
+  method_innocent: I prepared his individual glass with the flavoring from the original order. The shared pitcher
+    didn't contain it; that was why his drink had separate preparation. The retained container is the one with that
+    order. The lab found no cyanide in that container. I agreed to an expensive addition before payment was settled.
+    Monet had every reason to refuse that bill. We still owed our supplier.
+  method_murderer: I brought the flavoring to the place because it was on the private order. It stayed closed. The
+    manager had already put the culinary flavoring into the shared pitcher, so there was no separate preparation
+    left for me to do. We used that pitcher for Grant's toast. I left the container with the service things. The
+    held charge was for the added course. I had already agreed to buy the food, and I was trying to keep that dispute
+    from becoming another failure of service.
+repair_notes:
+  Sue: 'Revision after SCENE_FOLLOWUP: claims supervised access during pouring at the private place. The required
+    ordinary service account instead places pouring in the kitchen followed by direct delivery to Grant. This location
+    contradiction replaces the ambiguous ticket-closure overlap. Newly revised; not yet reviewed.'
+  Brie: Retains the same container purpose in both rounds. Claims individual preparation was unnecessary because
+    flavoring was already in the shared pitcher; the ingredient comparison disputes that protective source claim.
+    Does not pretend the lab proves who added it.

@@ -12,6 +12,12 @@ Trial completed through Act II and stopped at the failed gate: **2/30 above five
 
 Next decision: `NEXT_DECISION.md` replaces the dialogue-only loop with six connected disputes and ten distinct, plausible unresolved murder hypotheses. Author a compact crime/investigation ledger and small connected scene set before another score trial. Keep accepted custody/photo repairs but do not promote the rejected story. All original gates remain required; public fallback stays pinned.
 
+## Current connected-story authoring — October 9
+
+`docs/connected-story-01-SPOILERS/README.md` records six disputes, thirty role-specific premises and a three-role scene draft. Review accepted the service causal chain and Brie's repaired source claim, retained Monet's earlier-visit cover, and rejected Sue's ticket-close contradiction as ambiguous. A new pouring-location conflict is authored but unreviewed. Claire/Frank's weak hypotheses were removed, leaving eight provisional cases. No scores, complete all-thirty bank, generated final evidence or publication changes exist. Public hashes match.
+
+Next: audit Sue's revised sequence; strengthen weak hypotheses and fill the two genuinely missing primary cases; then grow small connected scenes with explicit pre-vote facts and innocent payoffs. Do not restore thirty inventory fragments or thirty victim confrontations. All original all-culprit, breadth, timing, alternative-count and full visual/publication gates remain required.
+
 ## Earlier plans (historical; superseded where they conflict)
 
 Latest measured bounded pass: `docs/baseline-improvement-01-SPOILERS/README.md`. Ten shared Opportunity rewrites were frozen and read sequentially by one fresh blind reader. Midpoint failed at 4/30 above 5, with no unique solution. The trial stopped there; final stages are unmeasured. Do not claim a controlled positive trend or promote this draft. Repair shared custody plausibility, photographic convenience and discovery/round disclosure overlap before another dialogue expansion or scored trial. Public fallback unchanged.
