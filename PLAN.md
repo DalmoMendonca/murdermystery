@@ -329,7 +329,13 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — round 18 tested, round 19 rejected before freeze
+## Current execution — round 20 rejected after four completed tests
+
+Round20's original/copy physical prototype completed all four readers, including D whose final agent notification failed after its saved eight-stage review. Export verified all32 input/result journal hashes and frozen sources. All four heatmaps were visually inspected. Midpoint counts were5/30,3/22,3/22,4/22; required10,8,8,8. All correctly led at8 in the end, with6,1,1,3 alternatives at5–6. D considered no individual accusation securely established. Thus the prototype fails breadth and consistent final competition; it is not accepted or published. See `docs/story-pass-20-SPOILERS/RESULTS.md` for scope and limitations.
+
+The next experiment must replace generic reception errands with consequential, scene-fitting competing actions and delay their meaningful innocent interpretations until Method. A better selected case alone does not solve the game. Only three guilty routes have been tested in this physical prototype; all30 remain required before integration. Public asset lock was reverified after this archive.
+
+### Previous rounds 18–19
 
 Round18 completed four fresh eight-stage transcript tests. All readers selected the correct final leader only in ActIII. None met the midpoint suspect-density target: A3/30, B7/22, C5/22, D0/22 above5 after Opportunity. Final alternatives at5–6 were6,7,3,0. D is an unanchored fresh reader of B's identical releases, demonstrating scoring sensitivity. The full32-stage archive and reviews are in `docs/story-pass-18-SPOILERS/tests/`; source and input/result hashes were verified during export.
 

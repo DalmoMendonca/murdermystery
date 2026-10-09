@@ -12,7 +12,8 @@ def make(version=12, selection_from=None):
     if (OUT/'private-manifest.json').exists():
         raise SystemExit('Trial already frozen. Use a new version/directory; never replace tested inputs or selections.')
     chars=json.loads((ROOT/'source/characters.json').read_text(encoding='utf-8'))
-    rows=yaml.safe_load((SOURCE/'investigation_copy.yaml').read_text(encoding='utf-8'))['characters']
+    story=yaml.safe_load((SOURCE/'investigation_copy.yaml').read_text(encoding='utf-8'))
+    rows=story['characters']
     by={r['id']:r for r in rows}
     evidence=yaml.safe_load((SOURCE/'evidence_design.yaml').read_text(encoding='utf-8'))
     active=set(yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['active_character_ids'])
@@ -40,6 +41,9 @@ def make(version=12, selection_from=None):
             killer=previous['killer_id'];assert killer in pool and killer not in used
         else:
             killer=rng.choice([ident for ident in pool if ident not in used])
+        if 'prototype_guilty_ids' in story:
+            assert killer in story['prototype_guilty_ids'], 'Untested prototype role cannot be selected'
+            manifest['scope'] = 'Three designated culprit worlds only; remaining guilty branches are not validated.'
         used.add(killer)
         private={'trial':label,'killer_id':killer,'cast_ids':[c['id'] for c in cast]}
         (path/'private-selection.json').write_text(json.dumps(private,indent=2)+'\n',encoding='utf-8')
