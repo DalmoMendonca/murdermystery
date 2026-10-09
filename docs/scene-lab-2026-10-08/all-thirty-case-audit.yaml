@@ -39,15 +39,18 @@ rows:
   name: Hugh Bidder
   guilty_cover: Grant proposes an earlier private toast over Hugh's personal guarantee.
   family: glass_before_stock
-  speaking_pair_complete: false
+  speaking_pair_complete: true
   route_accepted: false
-  agenda: Escape a personal guarantee attached to Grant's art purchase.
+  agenda: Escape a personal guarantee without admitting how badly he priced Grant's deal.
   suspicious_innocent_action: Hugh tears the recourse paragraph out of the donor's copy and conceals what
     he personally guaranteed.
-  innocent_payoff: The bank's retained agreement survives, and Grant's death activates Hugh's liability
-    rather than canceling it.
-  payoff_scope: Motive only; a relevant source or target mitigation is still missing.
-  evidence_not_yet_planted: The complete guarantee, if this financial subplot is retained.
+  innocent_payoff: The retained bank agreement makes Hugh liable if Grant fails to complete the purchase,
+    including after death. Tearing the paragraph out of one copy cannot discharge that obligation.
+  payoff_scope: Reverses the assumed financial benefit of murder. It does not exclude spite or physical
+    access.
+  evidence_not_yet_planted: Treasury folder in the Method context items; no new continuous alibi.
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '04'
   name: Monet Bags
   guilty_cover: Monet claims he did not hold Casey for the count until after the toast; the kitchen count
@@ -107,16 +110,20 @@ rows:
   guilty_cover: Grant seals his supposed legal approval with an earlier toast from the identified gift
     glass.
   family: glass_before_stock
-  speaking_pair_complete: false
+  speaking_pair_complete: true
   route_accepted: false
-  agenda: Preserve a legal arrangement Grant intends to replace publicly.
-  suspicious_innocent_action: Sue removes the proposed gift conditions from the announcement folder and
-    substitutes an estate instruction that looks authoritative.
-  innocent_payoff: Neither paper accepts the gift. The estate instruction takes effect only after separate
-    approval; Grant's death does not transfer the collection to her client.
-  payoff_scope: Motive and document authority only; direct crime mitigation remains weak.
-  evidence_not_yet_planted: The relevant condition on the unsigned gift, not a new universal legal-clearance
-    certificate.
+  agenda: Conceal an unauthorized legal substitution while stopping Grant from presenting a disputed gift
+    as accepted.
+  suspicious_innocent_action: Sue substitutes an unauthorized hold instruction in the announcement folder
+    and lets the assistant mistake it for clearance.
+  innocent_payoff: Sue substituted a signed storage restriction for unsigned acquisition conditions. The
+    original stays secured, display release is prohibited, and its condition travels with it. Her signature
+    is not a source-release authorization.
+  payoff_scope: Rebuts the signed-release theory; does not exclude breaking her own instruction or entering
+    the preparation room.
+  evidence_not_yet_planted: Existing source receiving file includes the actual hold instruction.
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: 09
   name: Dr. Art E. Fact
   guilty_cover: Grant lets Art read the original's loan label at six while demanding changes to his historical
@@ -253,16 +260,21 @@ rows:
   guilty_cover: Grant uses an earlier toast from his engraved gift glass to announce ownership of Elle's
     family textile.
   family: glass_before_stock
-  speaking_pair_complete: false
+  speaking_pair_complete: true
   route_accepted: false
-  agenda: Recover a family textile Grant claims as a purchase before it enters his new museum arrangement.
+  agenda: Recover her family textile without admitting she dismantled its presentation and concealed its
+    ownership paperwork.
   suspicious_innocent_action: Elle takes the textile off its mount and pockets the purchase card instead
     of leaving a signed collection record.
-  innocent_payoff: The textile and canceled purchase card explain the concealed gallery removal. They
-    do not explain source access or individual-glass contamination.
-  payoff_scope: Scandal only at present; a crime-related mitigation must still be designed.
-  evidence_not_yet_planted: Do not manufacture another cloth contact with the source or glass to make
-    this role relevant.
+  innocent_payoff: The purchase card canceled the sale and released the textile to Elle before the gala.
+    The empty mount and unsigned pickup conceal a protest and incomplete collection record, rather than
+    a cancellation obtained by killing Grant.
+  payoff_scope: Weakens the need to kill to recover the work. Attribution resentment and unrelated source
+    access remain; this is not a full crime exclusion.
+  evidence_not_yet_planted: Canceled textile card, unchanged purchaser credit on the mount, incomplete
+    pickup entry.
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '19'
   name: Reed DeLabel
   guilty_cover: Grant hands Reed the original to ridicule a proposed label correction before the cabinet
@@ -300,16 +312,19 @@ rows:
     and approve an acknowledgment in her name. He threatens to expose her unpaid pledge if she refuses.
     He is offering sponsor recognition, not ownership of the loan in exchange for nonexistent money.
   family: source_before_alarm
-  speaking_pair_complete: false
+  speaking_pair_complete: true
   route_accepted: false
-  agenda: Avoid publicly admitting she cannot afford the donation announced in her name.
+  agenda: Keep an unaffordable pledge from exposing the borrowed backing behind her society-page generosity.
   suspicious_innocent_action: Ella substitutes a donor acknowledgment and removes the pledge before the
     photograph.
-  innocent_payoff: The promised donation was never paid. Grant's death does not erase the debt or make
-    the altered acknowledgment genuine.
-  payoff_scope: Motive and scandal only; relevant source or target mitigation is missing.
-  evidence_not_yet_planted: Retain the pledge only if this subplot earns a crime-related scene. Do not
-    insert a gratuitous drink accident.
+  innocent_payoff: The gift was settled by the backing company before the gala. Ella concealed its financing,
+    not an unpaid payment instruction. Her repayment obligation survives Grant.
+  payoff_scope: Rebuts killing to escape an unpaid pledge. Exposure remains a motive, so this is limited
+    mitigation.
+  evidence_not_yet_planted: Treasury ledger, acknowledgment, and backing letter together in one retained
+    folder.
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '22'
   name: Drew Conclusions
   guilty_cover: Grant proposes an earlier toast from the identified gift glass while trading a favorable

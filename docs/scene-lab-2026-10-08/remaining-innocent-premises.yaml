@@ -1,5 +1,5 @@
 schema_version: 1
-status: nineteen_private_scene_premises_not_speaking_parts
+status: nineteen_premises_four_now_have_separate_paired_scenes
 scope: Feasibility planning for the roles outside the eleven-character speaking prototype. These are proposals,
   not facts already planted in player evidence. None changes public copy. A motive explanation alone does
   not satisfy the requested crime mitigation.
@@ -13,13 +13,15 @@ characters:
   payoff_scope: Answers the apparent source-label substitution, not all access.
   shared_evidence_needed: A photograph locating the two labels beside the bowl in the ownership exhibit.
 - id: '03'
-  agenda: Escape a personal guarantee attached to Grant's art purchase.
+  agenda: Escape a personal guarantee without admitting how badly he priced Grant's deal.
   suspicious_action: Hugh tears the recourse paragraph out of the donor's copy and conceals what he personally
     guaranteed.
-  innocent_payoff: The bank's retained agreement survives, and Grant's death activates Hugh's liability
-    rather than canceling it.
-  payoff_scope: Motive only; a relevant source or target mitigation is still missing.
-  shared_evidence_needed: The complete guarantee, if this financial subplot is retained.
+  innocent_payoff: The retained bank agreement makes Hugh liable if Grant fails to complete the purchase,
+    including after death. Tearing the paragraph out of one copy cannot discharge that obligation.
+  payoff_scope: Reverses the assumed financial benefit of murder. It does not exclude spite or physical
+    access.
+  shared_evidence_needed: Treasury folder in the Method context items; no new continuous alibi.
+  paired_scene_file: four-paired-repairs.yaml
 - id: '07'
   agenda: Prevent Grant from publishing evidence that Vincent's celebrated work is another artist's composition.
   suspicious_action: Vincent turns the disputed canvas to the wall and removes the bottle from his studio
@@ -30,14 +32,17 @@ characters:
   shared_evidence_needed: The actual studio tray and canvas in the same photograph, with the existing
     laboratory result.
 - id: 08
-  agenda: Preserve a legal arrangement Grant intends to replace publicly.
-  suspicious_action: Sue removes the proposed gift conditions from the announcement folder and substitutes
-    an estate instruction that looks authoritative.
-  innocent_payoff: Neither paper accepts the gift. The estate instruction takes effect only after separate
-    approval; Grant's death does not transfer the collection to her client.
-  payoff_scope: Motive and document authority only; direct crime mitigation remains weak.
-  shared_evidence_needed: The relevant condition on the unsigned gift, not a new universal legal-clearance
-    certificate.
+  agenda: Conceal an unauthorized legal substitution while stopping Grant from presenting a disputed gift
+    as accepted.
+  suspicious_action: Sue substitutes her hold instruction for unsigned acquisition conditions, without
+    board authority, and lets the assistant mistake it for clearance.
+  innocent_payoff: Sue substituted a signed storage restriction for unsigned acquisition conditions. The
+    original stays secured, display release is prohibited, and its condition travels with it. Her signature
+    is not a source-release authorization.
+  payoff_scope: Rebuts the signed-release theory; does not exclude breaking her own instruction or entering
+    the preparation room.
+  shared_evidence_needed: Existing source receiving file includes the actual hold instruction.
+  paired_scene_file: four-paired-repairs.yaml
 - id: 09
   agenda: Keep an attribution correction from exposing a published historical error.
   suspicious_action: Art requests the old coroner's account and the source's original label, then withholds
@@ -96,14 +101,18 @@ characters:
   shared_evidence_needed: The invoice needs the actual licensed subject and scope, not a paragraph declaring
     Saul innocent.
 - id: '18'
-  agenda: Recover a family textile Grant claims as a purchase before it enters his new museum arrangement.
+  agenda: Recover her family textile without admitting she dismantled its presentation and concealed its
+    ownership paperwork.
   suspicious_action: Elle takes the textile off its mount and pockets the purchase card instead of leaving
     a signed collection record.
-  innocent_payoff: The textile and canceled purchase card explain the concealed gallery removal. They
-    do not explain source access or individual-glass contamination.
-  payoff_scope: Scandal only at present; a crime-related mitigation must still be designed.
-  shared_evidence_needed: Do not manufacture another cloth contact with the source or glass to make this
-    role relevant.
+  innocent_payoff: The purchase card canceled the sale and released the textile to Elle before the gala.
+    The empty mount and unsigned pickup conceal a protest and incomplete collection record, rather than
+    a cancellation obtained by killing Grant.
+  payoff_scope: Weakens the need to kill to recover the work. Attribution resentment and unrelated source
+    access remain; this is not a full crime exclusion.
+  shared_evidence_needed: Canceled textile card, unchanged purchaser credit on the mount, incomplete pickup
+    entry.
+  paired_scene_file: four-paired-repairs.yaml
 - id: '19'
   agenda: Correct an attribution without revealing how much of his doctoral argument relies on Grant's
     account.
@@ -115,13 +124,15 @@ characters:
   shared_evidence_needed: Place the correction beside the existing bowl labels, not in a roster of personal
     clearances.
 - id: '21'
-  agenda: Avoid publicly admitting she cannot afford the donation announced in her name.
+  agenda: Keep an unaffordable pledge from exposing the borrowed backing behind her society-page generosity.
   suspicious_action: Ella substitutes a donor acknowledgment and removes the pledge before the photograph.
-  innocent_payoff: The promised donation was never paid. Grant's death does not erase the debt or make
-    the altered acknowledgment genuine.
-  payoff_scope: Motive and scandal only; relevant source or target mitigation is missing.
-  shared_evidence_needed: Retain the pledge only if this subplot earns a crime-related scene. Do not insert
-    a gratuitous drink accident.
+  innocent_payoff: The gift was settled by the backing company before the gala. Ella concealed its financing,
+    not an unpaid payment instruction. Her repayment obligation survives Grant.
+  payoff_scope: Rebuts killing to escape an unpaid pledge. Exposure remains a motive, so this is limited
+    mitigation.
+  shared_evidence_needed: Treasury ledger, acknowledgment, and backing letter together in one retained
+    folder.
+  paired_scene_file: four-paired-repairs.yaml
 - id: '22'
   agenda: Hide a sponsored review while retaining his reputation as an independent critic.
   suspicious_action: Drew removes a page headed Grant's Legacy from the press proof and refuses to explain

@@ -37,10 +37,12 @@ rows:
   name: Hugh Bidder
   family: glass_before_stock
   guilty_cover_scene: Grant proposes an earlier private toast over Hugh's personal guarantee.
-  innocent_payoff_to_write_or_check: The torn guarantee and its actual surviving liability; needs a stronger
-    crime-relevant innocent mitigation.
-  paired_scene_authored: false
+  innocent_payoff_to_write_or_check: The retained bank agreement makes Hugh liable if Grant fails to complete
+    the purchase, including after death. Tearing the paragraph out of one copy cannot discharge that obligation.
+  paired_scene_authored: true
   accepted: false
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '04'
   name: Monet Bags
   family: count_after_toast
@@ -85,10 +87,13 @@ rows:
   family: glass_before_stock
   guilty_cover_scene: Grant seals his supposed legal approval with an earlier toast from the identified
     gift glass.
-  innocent_payoff_to_write_or_check: Actual unsigned conditions and estate instruction; needs a stronger
-    crime-relevant innocent mitigation.
-  paired_scene_authored: false
+  innocent_payoff_to_write_or_check: Sue substituted a signed storage restriction for unsigned acquisition
+    conditions. The original stays secured, display release is prohibited, and its condition travels with
+    it. Her signature is not a source-release authorization.
+  paired_scene_authored: true
   accepted: false
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: 09
   name: Dr. Art E. Fact
   family: source_before_alarm
@@ -175,10 +180,13 @@ rows:
   family: glass_before_stock
   guilty_cover_scene: Grant uses an earlier toast from his engraved gift glass to announce ownership of
     Elle's family textile.
-  innocent_payoff_to_write_or_check: Actual textile retrieval and canceled purchase card; mitigation must
-    address the relevant source or target action.
-  paired_scene_authored: false
+  innocent_payoff_to_write_or_check: The purchase card canceled the sale and released the textile to Elle
+    before the gala. The empty mount and unsigned pickup conceal a protest and incomplete collection record,
+    rather than a cancellation obtained by killing Grant.
+  paired_scene_authored: true
   accepted: false
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '19'
   name: Reed DeLabel
   family: source_before_alarm
@@ -207,13 +215,15 @@ rows:
   guilty_cover_scene: At six Grant presents the loan original while demanding that Ella sponsor its display
     and approve an acknowledgment in her name. He threatens to expose her unpaid pledge if she refuses.
     He is offering sponsor recognition, not ownership of the loan in exchange for nonexistent money.
-  innocent_payoff_to_write_or_check: The altered donor acknowledgment concerns her promised gift, not
-    possession of the historical source; scene still needed.
-  paired_scene_authored: false
+  innocent_payoff_to_write_or_check: The gift was settled by the backing company before the gala. Ella
+    concealed its financing, not an unpaid payment instruction. Her repayment obligation survives Grant.
+  paired_scene_authored: true
   accepted: false
   cover_purpose: Blames an observed early donor presentation for source handling; the storage record challenges
     physical access at six. The transaction is recognition and coerced endorsement, not gifting a borrowed
     object.
+  small_scene_editorial_status: New paired scenes awaiting bounded causal and dialogue review; not route
+    acceptance.
 - id: '22'
   name: Drew Conclusions
   family: glass_before_stock
