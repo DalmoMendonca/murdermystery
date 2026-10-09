@@ -6,6 +6,8 @@ The human prioritizes a durable playable fallback over more unpublished wholesal
 
 ## Earlier plans (historical; superseded where they conflict)
 
+Latest measured bounded pass: `docs/baseline-improvement-01-SPOILERS/README.md`. Ten shared Opportunity rewrites were frozen and read sequentially by one fresh blind reader. Midpoint failed at 4/30 above 5, with no unique solution. The trial stopped there; final stages are unmeasured. Do not claim a controlled positive trend or promote this draft. Repair shared custody plausibility, photographic convenience and discovery/round disclosure overlap before another dialogue expansion or scored trial. Public fallback unchanged.
+
 ## Authoritative status — October 9 scene-lab gate
 
 No reliable positive balance trend has been demonstrated. Round22 remains the latest completed scored test and failed balance. Round23 is interrupted, with no midpoint or final result. Historical notes below are not current readiness or running-agent status.
