@@ -66,7 +66,25 @@ rules:
 - absent: '29'
   find: Justin's property records
   replace: The retained property records
+- absent: '19'
+  find: Reed kept the old wording
+  replace: The catalog desk kept the old wording
+- absent: '19'
+  find: Reed found the gap
+  replace: The catalog desk found the gap
+- absent: '19'
+  find: I asked Reed to hold
+  replace: I asked the catalog desk to hold
+- absent: '19'
+  find: Reed was right to keep the drafts
+  replace: The catalog desk was right to keep the drafts
+- absent: '12'
+  find: Paige's interview
+  replace: the press interview
+- absent: '12'
+  find: Paige was recording
+  replace: the press correspondent was recording
 limits:
-- The ten-role bank is incomplete; additional authored routes require their own checked substitutions.
+- The authoring bank is incomplete; additional routes require their own checked substitutions.
 - These edits do not manufacture a new alibi, transfer criminal conduct to absent guests, or alter the shared crime facts.
 - Final question targets must be filtered to the actual cast when the full packet bank is integrated.

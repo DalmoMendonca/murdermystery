@@ -20,12 +20,12 @@ def compile_bank(active):
     if not selected or not selected <= set(known):
         raise ValueError('Use all, confirmed, or known comma-separated character IDs.')
     first = yaml.safe_load((LAB / 'five-role-bank.yaml').read_text(encoding='utf-8'))
-    second = yaml.safe_load((LAB / 'production-family-scenes.yaml').read_text(encoding='utf-8'))
     rules = yaml.safe_load((LAB / 'attendance-edits.yaml').read_text(encoding='utf-8'))['rules']
-    rows = first['characters'] + [
-        {k: row[k] for k in ('id', 'name', 'hearings', 'coming_clean')}
-        for row in second['characters']
-    ]
+    rows = first['characters']
+    for filename in ('production-family-scenes.yaml', 'collection-scenes.yaml'):
+        group = yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))
+        rows.extend({k: row[k] for k in ('id', 'name', 'hearings', 'coming_clean')}
+                    for row in group['characters'])
     seen = set()
     for row in rows:
         ident = str(row['id']).zfill(2)
@@ -45,6 +45,15 @@ def compile_bank(active):
                 row[section][field] = speech
     result = [r for r in rows if str(r['id']).zfill(2) in selected]
     result.sort(key=lambda r: int(r['id']))
+    contracts = yaml.safe_load((LAB / 'evidence-contracts.yaml').read_text(encoding='utf-8'))
+    opening = []
+    if selected & {'12', '27'}:
+        opening = list(contracts['editor_opening'])
+        if '12' not in selected:
+            opening = [line.replace('PAIGE:', 'PRESS CORRESPONDENT:')
+                       .replace('Thank you. Paige, I', 'Thank you. I') for line in opening]
+        if '27' in selected:
+            opening += contracts['robin_interruption']
     # These drafted paragraphs use unique first names for guest references.
     # Reject a new absent-person mention until an explicit contextual edit exists.
     for row in result:
@@ -62,6 +71,7 @@ def compile_bank(active):
         'active_character_ids': sorted(selected),
         'authored_route_count': len(result),
         'unwritten_active_ids': sorted(selected - seen),
+        'pre_method_press_interview_opening': opening,
         'characters': result,
     }
 

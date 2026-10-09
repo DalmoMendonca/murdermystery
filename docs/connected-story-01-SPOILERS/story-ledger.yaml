@@ -5,11 +5,18 @@ crime_constraints:
   victim: Grant Larceny
   source: The historical Velvet Widow bottle falsely declared inert by Grant; laboratory identification, not its
     label, establishes active poison.
-  source_access: Closed-object preview 6:20–6:28; opening unauthorized. No employee knowingly offers active poison
-    for handling.
-  target: Grant's private glass; do not pretend salon placement proves exclusive contamination timing.
+  source_access: Closed-object preview 6:20–6:28; opening unauthorized. Ordinary staff access to the preparation
+    cupboard continues after storage; a locked door does not prove the preview was the exclusive extraction period.
+    Selected authored crimes remain possible during the preview. No employee knowingly offers active poison for
+    handling.
+  target: Grant's private glass, set at 6:32 for a scheduled toast at 7:09 and collected at 7:04. Grant rejoins
+    the public reception after the press interview; no witness certifies a continuous room watch or exact guest
+    intervals.
   late_identification: Retain pre-vote positive evidence for every chosen culprit; endings cannot supply a new identifying
     fact.
+  custody_counterstory: A retained staff/spare key permits later source access. When Anya attends, her actual key
+    and account are available; otherwise retain ordinary staff cupboard access without attributing a gala visit
+    to Anya.
 threads:
 - id: collection
   title: The label is a promise
@@ -118,7 +125,8 @@ characters:
   reception_action: Changed the ownership label and retained its old version instead of destroying it.
   other_guest_stakes: Reed and Robin
   innocent_payoff_premise: Correct the exhibition even if that discredits the department that approved it.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
 - id: '03'
   name: Hugh Bidder
   locked_role: International Art Dealer & Collector Liaison
@@ -185,7 +193,8 @@ characters:
   reception_action: Asked Reed to keep an earlier catalog version out of the press copies.
   other_guest_stakes: Reed and Mona
   innocent_payoff_premise: Hide a citation error while keeping the ownership objection on record.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
 - id: '10'
   name: Tess Tament
   locked_role: Philanthropist & Heir to the Larceny Family Fortune
@@ -248,7 +257,8 @@ characters:
   reception_action: Removed a founding memo from the loan display papers.
   other_guest_stakes: Anne and Chip
   innocent_payoff_premise: Hide her own old shortcut while preserving the collection she helped build.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
 - id: '17'
   name: Saul D. Bid
   locked_role: Chairman of Gavel & Rowe Auction House
@@ -273,7 +283,8 @@ characters:
   reception_action: Kept both label versions and corrected a date in the catalog without his supervisor's approval.
   other_guest_stakes: Claire and Paige
   innocent_payoff_premise: Publish an accurate correction that also embarrasses Art.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
 - id: '20'
   name: Al Baster
   locked_role: Sculptor & Public-Art Star
@@ -343,7 +354,8 @@ characters:
   reception_action: Distributed the ownership petition despite a warning from security.
   other_guest_stakes: Mona and Anne
   innocent_payoff_premise: Force an answer about restitution; no mere assertion of nonviolence is an alibi.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired replacement interview-place cover after rejection of band-removal cover.
+    Replacement not independently accepted or scored.
 - id: '28'
   name: Penny Pincher
   locked_role: Eccentric Private Collector
@@ -518,10 +530,10 @@ reception_timeline:
 - when: Reception, overlapping small groups
   events: One ownership-label argument; one gift/governance discussion; one commissioning/access problem; one production/service
     dispute. Other conversations occur between guests, not with Grant.
-- when: 6:32–6:44
+- when: 6:32–7:04
   events: Private place set and later collected; service interrupted by the kitchen ticket. This is an exposed interval,
     not proof contamination before it was impossible.
-- when: 6:46 and 6:49
+- when: 7:06 and 7:09
   events: Shared punch poured; private toast served. Death at the gala remains part of the fiction. No hospital
     interlude.
 first_scene_set:
@@ -532,12 +544,20 @@ first_scene_reason: Historical first three-role service group; now extended by H
   group. Ten complete drafts exist.
 authored_complete_route_ids:
 - '01'
+- '02'
 - '03'
 - '04'
 - '05'
 - '06'
 - 08
+- 09
 - '10'
 - '11'
 - '12'
+- '16'
+- '19'
 - '23'
+- '27'
+authoring_timeline_change: The private place waits for a scheduled later toast, allowing ordinary circulation rather
+  than compressing all draft visits into twelve minutes. No personal clock alibis are added. This authoring change
+  has not been independently reviewed or scored.
