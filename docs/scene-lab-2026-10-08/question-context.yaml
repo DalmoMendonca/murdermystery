@@ -1,0 +1,42 @@
+schema_version: 1
+status: eleven_role_question_context_not_a_full_game
+scope: >-
+  These questions belong inside each prototype packet. They are not a separate catalog.
+  The full thirty-role and attendance-derived pages remain to be written. Motive answers
+  for the eight additional roles and their guilty branches remain incomplete.
+procedure: >-
+  The host opens the round by asking one listed guest a question. After answering from
+  the correct section, that guest asks a listed question of someone who has not answered
+  in this round. A question can be asked of several of its named guests; their answers
+  differ. If every name under that question has answered, choose another question.
+  Each guest answers once in each act. Pause when everyone has answered.
+rounds:
+  motive:
+  - question: What did Grant want you to keep quiet?
+    targets: [Chip Patina, Paige Turner]
+  - question: What was Grant expecting you to provide or pay for?
+    targets: [Brie DeVivre, Monet Bags]
+  - question: What would his deal cost the museum?
+    targets: [Anne E. Dote, Artie Ficial]
+  - question: What personal dispute were you trying to settle tonight?
+    targets: [Barb Dwyer, Dada DiCapo, Frank Lloyd Wrong, Al Baster, Penny Pincher]
+  opportunity:
+  - question: What did you change while Grant waited for the ceremony?
+    targets: [Artie Ficial, Monet Bags, Brie DeVivre, Anne E. Dote]
+  - question: What did you remove or reopen after the loan case was damaged?
+    targets: [Chip Patina, Frank Lloyd Wrong, Al Baster]
+  - question: What did you move or take away without giving a proper account of it?
+    targets: [Barb Dwyer, Paige Turner, Penny Pincher]
+  - question: What ending were you trying to restore?
+    targets: [Dada DiCapo]
+  method:
+  - question: What do the recovered case, tools, and work records show about your actions?
+    targets: [Chip Patina, Barb Dwyer, Frank Lloyd Wrong, Al Baster]
+  - question: What were you actually holding, hiding, or replacing through your orders?
+    targets: [Artie Ficial, Brie DeVivre, Monet Bags]
+  - question: What really happened when Grant's assistant read your petition?
+    targets: [Anne E. Dote]
+  - question: What was your canceled ending supposed to do?
+    targets: [Dada DiCapo]
+  - question: What did the missing pages actually contain?
+    targets: [Paige Turner, Penny Pincher]

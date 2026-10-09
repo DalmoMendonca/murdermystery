@@ -1,5 +1,5 @@
 {
-  "scope": "Structure, roster identity, archived first-review snapshot and immutable-public-asset checks only; no balance or PDF verification.",
+  "scope": "Structure, names, question coverage, archived review and public lock only. Not balance or PDF verification.",
   "speaking_boxes": [
     {
       "character": "Chip Patina",
@@ -94,12 +94,12 @@
     {
       "character": "Artie Ficial",
       "box": "opportunity_innocent",
-      "words": 72
+      "words": 84
     },
     {
       "character": "Artie Ficial",
       "box": "method_innocent",
-      "words": 82
+      "words": 87
     },
     {
       "character": "Monet Bags",
@@ -124,12 +124,12 @@
     {
       "character": "Dada DiCapo",
       "box": "opportunity_innocent",
-      "words": 74
+      "words": 82
     },
     {
       "character": "Dada DiCapo",
       "box": "method_innocent",
-      "words": 82
+      "words": 91
     },
     {
       "character": "Frank Lloyd Wrong",
@@ -182,6 +182,11 @@
   },
   "reports": 9,
   "hunt_artifacts": 16,
+  "question_context": {
+    "scope": "eleven-role prototype",
+    "targets_per_act": 11,
+    "every_target_exactly_once": "passed"
+  },
   "public_asset_lock": "passed",
   "first_review_snapshot_hashes": "passed"
 }
