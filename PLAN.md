@@ -8,7 +8,9 @@ The human prioritizes a durable playable fallback over more unpublished wholesal
 
 `docs/baseline-improvement-02-SPOILERS/README.md` records the shared-scene and packet-question repairs. An independent reviewer accepted causal coherence and all thirty targets' three-round prompt parity after rejecting the first draft. Thirty guilty Method answers no longer recite the same tour/glass itinerary. Four retrospective endings were corrected as requested. Sixty derived accounts and all private briefings remain unchanged; six question-page layouts were rendered and inspected. This is editorial progress, not measured balance. No new scores or replacement artwork exist, and no canonical source/PDF or production change was made.
 
-Next: ONE fresh sequential all-thirty blind trial, with actual questions and image-observation descriptions included. Freeze exact inputs and retain every result. Stop at the midpoint if the required ten suspects above five is missed. Do not chase scores with repeated identical trials. Only a successful narrative/balance gate permits artwork integration and whole-kit rebuilding/visual review. Public fallback stays pinned.
+Trial completed through Act II and stopped at the failed gate: **2/30 above five, required ten**, no unique culprit reported. All six results, eight frozen inputs, seven source snapshots and visually inspected heatmap are archived in `docs/baseline-improvement-02-SPOILERS/trial/`. Final correctness and alternatives are unmeasured. Actual question inclusion exposed the still-uniform confessions and implausibly compressed confrontations. See `TRIAL_RESULTS.md`. No controlled numeric trend is claimed.
+
+Next decision: `NEXT_DECISION.md` replaces the dialogue-only loop with six connected disputes and ten distinct, plausible unresolved murder hypotheses. Author a compact crime/investigation ledger and small connected scene set before another score trial. Keep accepted custody/photo repairs but do not promote the rejected story. All original gates remain required; public fallback stays pinned.
 
 ## Earlier plans (historical; superseded where they conflict)
 
