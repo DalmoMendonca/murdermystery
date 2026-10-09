@@ -1,0 +1,72 @@
+schema_version: 1
+status: small_authoring_prototype_not_tested
+shared_across_selections: true
+reports:
+- id: initial-gift
+  release: motive
+  title: The proposed gift
+  form: Unsigned agreement with three marked conditions
+  facts:
+  - The museum will take Grant's name.
+  - Grant will have approval rights over acquisitions.
+  - Artie must resign within sixty days.
+  - The education rooms will become a private donor lounge.
+  - The board has not signed the agreement.
+- id: initial-incident
+  release: motive
+  title: Death at the gala
+  form: Short incident bulletin
+  facts:
+  - Grant collapsed after the toast and died at the museum. Poisoning is suspected; chemical identification is pending.
+  - A historical poison bottle received for The Art of Murder is missing from a preparation cabinet.
+  - The cabinet alarm reported forced opening at 6:12. Grant told staff the bottle had been emptied.
+  - The responding investigators obtained the original loan condition after the death; it records retained historical contents.
+  - No private glass, prop, food or drink has yet been cleared by the laboratory.
+- id: working-service-card
+  release: opportunity
+  title: Three changes to the same setting
+  form: Service card with handwritten alterations
+  facts:
+  - Artie wrote HOLD DONOR SETTING without board authorization.
+  - Monet wrote NO PRIVATE RETURNS while disputing the catering charge.
+  - Brie crossed out REPLACE FROM CLEAN STOCK and withdrew the available cover server.
+  - Casey placed the museum-star glass at 6:32, collected it at 6:44 and filled it from shared punch on the service tray at 6:46.
+  - Casey kept the tray until the 6:49 toast. He did not continuously observe the glass while it stood at reception.
+- id: short-scene-accounts
+  release: opportunity
+  title: Unfinished work
+  form: Three retained notes from people doing their jobs
+  facts:
+  - Jordan photographed the damaged source case after the alarm. Chip subsequently removed a caught strip of lining despite Jordan's request to preserve the case.
+  - The reserve server returned an ordinary rental replacement to the clean rack at Brie's instruction. The kitchen roster had no task for that server when Brie withdrew cover.
+  - Grant's assistant collected an education petition from the donor setting. Its endorsement used Artie's signature; Artie denied signing it. Anne had laid the petition over the planned announcement.
+- id: source-storage
+  release: method
+  title: The loan had not been cleared for display
+  form: Receiving photograph, cabinet opening log and loan condition
+  facts:
+  - The receiving photograph shows the original intact in its secondary case when the preparation cabinet was secured at 5:45.
+  - The cabinet opening log records no opening between securing and the forced-opening alarm at 6:12. The loan had not been retrieved for a donor demonstration.
+  - Display approval was withheld. The original had not been issued to Grant or installed on the reception table.
+  - The original was recovered with neck damage among packing on the staff-returns shelf after the death. Its individual handler is not identified by that recovery.
+  - The photograph after the alarm shows the lining still caught on the forced case edge. The removed strip fits that gap.
+- id: glass-stock
+  release: method
+  title: A glass from the shop order
+  form: Stock photograph and service order
+  facts:
+  - The star-on-the-bowl design was new stock for this gala. The delivery carton was still sealed when Casey opened it at 6:30 and unwrapped the first glass for Grant.
+  - Grant's glass is the custom donor gift, with GRANT LARCENY engraved below the bowl's star. The stock order lists one such engraved glass.
+  - The stock photograph shows the shop wrapping and the star on the bowl. It is not a photograph of earlier drinks consumed by Grant.
+  - Casey's opening photograph records the sealed delivery carton, not just a sleeve that could have been put around a used glass. No earlier star-bowl stock was supplied for this event.
+  - The reserve replacement was an ordinary rental glass. Grant's portrait order specifically requested the museum star.
+  - Photographs at placement and collection show an empty-looking glass. They do not establish uninterrupted custody or exclude invisible contamination.
+- id: laboratory
+  release: method
+  title: Findings from the drink and exhibit
+  form: Compact results sheet without a deduction paragraph
+  facts:
+  - Cyanide was found in Grant's museum-star glass and in the recovered historical original.
+  - The sampled shared punch, food, sauce, rehearsal PROP glass, brush water and studio FIXER tested clear for cyanide.
+  - These findings do not identify a person's ownership of a container or establish their complete movements.
+  - No miniature carrier, individual fingerprint match or last-holder conclusion is supplied by this report.

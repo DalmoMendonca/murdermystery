@@ -1,12 +1,14 @@
 # The Last Acquisition: restructuring plan
 
-## Authoritative status — October 8 process review
+## Authoritative status — October 9 scene-lab gate
 
-No reliable positive balance trend has been demonstrated. The latest completed test is round22; round23 was interrupted and has no midpoint or final result. Historical notes below describe earlier work and must not be read as current readiness or running-agent status.
+No reliable positive balance trend has been demonstrated. Round22 remains the latest completed scored test and failed balance. Round23 is interrupted, with no midpoint or final result. Historical notes below are not current readiness or running-agent status.
 
-The revised process and verified comparison are in `docs/process-reset-2026-10-08/ASSESSMENT_AND_PLAN.md`. Its first inexpensive design gate has now been executed: thirty cover premises were audited, and three representative accusation/counterstory arguments were written in `CASE_PROOF.md`. **The proposed C1/C2/C3 foundation failed; zero premises are approved for a blind trial.** `foundation-decision.json` records the result. No additional transcript test was commissioned to discover a weakness already visible to the author.
+The process reset is in `docs/process-reset-2026-10-08/ASSESSMENT_AND_PLAN.md`. Its first foundation audit rejected the C1/C2/C3 premises before more testing. A new small authoring prototype is in `docs/scene-lab-2026-10-08/STATUS.md`: three paired dossiers, eight additional innocent rival scenes, nine draft evidence components, and sixteen hunt artifacts. These are authored content, not a validated edition. Thirty routes are allocated; none is accepted and four ineffective timing covers are withdrawn.
 
-Next implementation must replace the incomplete identity argument before dialogue expansion. Retain character agendas; reconsider the compulsory miniature/fragment/replica chain. A representative scene must support both a grounded accusation and an independently motivated innocent interpretation, without assigning every crime object to G. It then needs compatibility with the other selectable roles and actual question context. No full edition, art regeneration or score batch until those gates pass. At most two tested revisions per causal architecture; early stop on a failed required checkpoint. Public asset hashes remain verified. Production has not been changed.
+A bounded editorial review supported further small-prototype work. Its follow-up rejected Anne's cover because the claimed scene still allowed her to contaminate the drink. The author changed her claim to arrival after consumption and supplied the ordinary petition-restoration-before-toast workflow that challenges it. That repair remains independently unaccepted. Other weak crime mitigations and a possible guilty-answer style fingerprint remain unresolved. No new suspicion scores exist.
+
+Next: review that repaired accusation/counterstory, resolve the weak innocent payoffs and style asymmetry, then decide whether the foundation earns expansion and one early-stopping blind test. Do not fund another full scored batch, regenerate art or integrate PDFs before the gate passes. Public asset hashes remain verified. Production and sent assets remain unchanged.
 
 ## Historical planning and execution record
 
