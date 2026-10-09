@@ -118,6 +118,51 @@ rules:
 - absent: '01'
   find: Artie and I
   replace: The museum office and I
+- absent: '05'
+  find: Chip
+  replace: the conservation specialist
+- absent: '18'
+  find: Elle
+  replace: the textile artist
+- absent: '20'
+  find: Al's
+  replace: the sculptor's
+- absent: '20'
+  find: Al wanted
+  replace: the sculptor wanted
+- absent: '25'
+  find: Anne
+  replace: the education team
+- absent: '13'
+  find: Frank
+  replace: the exhibition architect
+- absent: '06'
+  find: Dada
+  replace: the installation artist
+- absent: '24'
+  find: Cary
+  replace: the handling crew
+- absent: 08
+  find: Sue
+  replace: counsel
+- absent: '10'
+  find: Tess
+  replace: the prospective client
+- absent: '12'
+  find: Paige
+  replace: the editor
+- absent: '19'
+  find: Reed
+  replace: the catalog desk
+- absent: '21'
+  find: Ella
+  replace: the society patron
+- absent: '11'
+  find: Barb
+  replace: the security office
+- absent: '04'
+  find: Monet
+  replace: accounts
 limits:
 - The authoring bank is incomplete; additional routes require their own checked substitutions.
 - These edits do not manufacture a new alibi, transfer criminal conduct to absent guests, or alter the shared crime

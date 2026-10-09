@@ -1,0 +1,11 @@
+# Remaining routes follow-up
+
+**ACCEPT both targeted causal repairs.** Reviewed Anne/Faye's current paired speeches, endings and case limits, plus `completed_short_tour` and `preview_camera_source_import`. No scoring or whole-cast acceptance.
+
+Anne's assistant-docent note now records the actual group turnback and continuation to the public cases, explicitly excluding a donor-room stop. It challenges her claimed group visit, not merely whether that stop was approved. Her innocent description and the shared group event coexist naturally: Anne turns the tour around and the assistant takes it back. Her guilty early answer does not already assert the disputed donor-room stop. The offstage assistant permits the same essential group fact when selectable guests are absent. Nothing in that note follows Anne afterward or independently establishes her contamination of the glass. Her ending now refers to a pre-vote contradiction rather than introducing the missing group distinction itself.
+
+Faye's source provenance is now an actual sequence: card handover after preview, complete import retained by the agency editor, card returned, later export prepared. The independently held source frame containing the bottle challenges her specific claim of insertion into the later export. The receipt and retained frame earn that comparison without treating a filename, contact-sheet label or alleged lack of layers as authentication. This remains ordinary corroboration rather than proof that earlier tampering was impossible or that Faye handled poison.
+
+The import concerns frames on the card at that handover; it should not be presented as already containing the later toast photograph. Faye's guilty Opportunity statement about withholding “that source material” follows her toast-photograph sentence and can refer to that later material. It must not be expanded into a claim that the agency editor received no preview originals before any export, which would conflict with the new shared import.
+
+Removing spoken alibi/watch disclaimers does not remove the private evidence limits. These two fixes make the respective false accounts genuinely challengeable before endings. They supply neither unique transfer identity nor an innocent whereabouts certificate. Rendered source/crest images remain outside this text-only check.

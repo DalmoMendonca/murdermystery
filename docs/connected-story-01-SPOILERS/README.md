@@ -1,6 +1,6 @@
 # Connected story authoring bank — not a release
 
-The current master bank has **twenty complete paired drafts**: 120 act readings and forty Coming Clean readings. Ten master roles and six of the twenty-two confirmed roles remain unwritten. Authored coverage is not acceptance, balance or publication readiness.
+The current master bank has **thirty complete paired drafts**: 180 act readings and sixty Coming Clean readings. No master or confirmed roles remain unwritten. See [the current checkpoint](THIRTY_ROUTE_CHECKPOINT.md). Authored coverage is not acceptance, balance or publication readiness.
 
 The latest measured result is [the current fifteen-role diagnostic](balance-slice-02/RESULTS.md): eleven suspects strictly above five after Act II, correct final leader at nine, eight final alternatives at five to six. The preceding connected draft had eleven and nine respectively; the earlier repair had seven and four. This shows retained midpoint breadth but no convincing overall balance improvement. It omits the hunt and uses one reader per version with the same fifteen-character cast and hidden culprit.
 
@@ -12,12 +12,14 @@ Since that frozen test, [the errand repair](ERRAND_REPAIR.md) removes three inno
 - `production-family-scenes.yaml`: Artie, Chip, Dada, Tess and Barb.
 - `collection-scenes.yaml`: Claire, Dr. Art, Anya, Reed and Robin.
 - `market-scenes.yaml`: Vincent, Elon, Saul, Ella and Penny.
-- `twenty-role-bank.yaml` and `confirmed-authoring-bank.yaml`: compiler outputs; twenty master drafts and sixteen confirmed drafts.
+- `remaining-scenes.yaml`: Frank, Mona, Elle, Al, Drew, Cary, Anne, Faye, Justin and Minnie.
+- `thirty-role-bank.yaml` and `confirmed-authoring-bank.yaml`: current compiler outputs; thirty master drafts and twenty-two confirmed drafts.
+- `question-rounds.yaml`: current six named target groups per act; each active character exactly once, printed inside each packet at integration.
 - `reception-events.yaml`: current shared sequence; no thirty-person source-handling or target-visiting circuit.
 - `evidence-contracts.yaml` and `evidence-stage-map.yaml`: ordinary facts, attendance limits and release dependencies. These are unrendered artifact contracts.
-- `late-case-arguments.yaml`: twenty circumstantial cover arguments, with no claim of uniquely corroborated individual transfer.
+- `late-case-arguments.yaml`: thirty circumstantial cover arguments, with no claim of uniquely corroborated individual transfer.
 - `attendance-edits.yaml`: explicit absent-character substitutions; compiler rejects unresolved absent-name references.
-- `twenty-role-validation.json` and `current-authoring-hashes.json`: current coverage/reference/sent-file checks and exact working-text hashes.
+- `thirty-role-validation.json` and `current-authoring-hashes.json`: current coverage/reference/sent-file checks and exact working-text hashes.
 
 ## What the reviews establish
 
@@ -27,12 +29,12 @@ These are bounded causal reviews. They do not establish that all thirty variants
 
 ## Historical evidence
 
-[Balance slice 01](balance-slice-01/RESULTS.md) and [balance slice 02](balance-slice-02/RESULTS.md) preserve exact frozen inputs and stage scores. Never rerun the freezer against an existing tested directory. The ten- and fifteen-role banks, first scene sets and old premise/review snapshots are historical checkpoints; they are not the current compiled bank.
+[Balance slice 01](balance-slice-01/RESULTS.md) and [balance slice 02](balance-slice-02/RESULTS.md) preserve exact frozen inputs and stage scores. Never rerun the freezer against an existing tested directory. The ten-, fifteen- and twenty-role banks, first scene sets and old premise/review snapshots are historical checkpoints; they are not the current compiled bank.
 
 ## Remaining completion gates
 
-Finish Frank, Mona, Elle, Al, Drew, Cary, Anne, Faye, Justin and Minnie within their shared commissioning, public-story and gala disputes. Build all named packet questions, actual attendance variants and sixteen hunt exhibits around the completed story. Review the whole thirty-route crime/investigation architecture; then test fresh sequential releases for midpoint breadth, late identification, three or four final alternatives and narrative plausibility. Preserve every immutable public file. Integrate only a candidate that withstands those gates; render and inspect every final PDF page, rebuild archives, publish and verify live download hashes.
+The ten remaining professions now have full paired drafts and named question coverage. Reconcile the sixteen hunt exhibits and staged releases around the full bank; review every selected world and the whole host sequence. Integrate the named questions into actual packet layout. Review the whole thirty-route crime/investigation architecture; then test fresh sequential releases for midpoint breadth, late identification, three or four final alternatives and narrative plausibility. Preserve every immutable public file. Integrate only a candidate that withstands those gates; render and inspect every final PDF page, rebuild archives, publish and verify live download hashes.
 
-Current checks: thirty single-omission casts, twenty isolated authored roles and four recording attendance combinations pass reference checks; all 184 already-sent assets retain their locked hashes. Those checks cover identity and text references only. Final artwork, packet layout, live pacing and full-cast inference are unverified.
+Current checks: thirty single-omission casts, thirty isolated authored roles and four recording attendance combinations pass reference checks; all 184 already-sent assets retain their locked hashes. Those checks cover identity, text references and exact named-question coverage only. Final artwork, packet layout, live pacing and full-cast inference are unverified.
 
 The pinned complete fallback remains available at https://murder.dalmo.ai. This authoring work has not replaced it.

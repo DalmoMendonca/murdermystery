@@ -25,7 +25,8 @@ for selected in ('12','27','12,27','01'):
 lock=json.loads((ROOT/'source/public_assets_lock.json').read_text(encoding='utf-8'))
 for relative,expected in lock['files'].items():
     assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==expected,relative
-for filename,bank in [('twenty-role-bank.yaml',full),('confirmed-authoring-bank.yaml',confirmed)]:
+prefix='thirty-role' if len(authored)==30 else 'twenty-role'
+for filename,bank in [(prefix+'-bank.yaml',full),('confirmed-authoring-bank.yaml',confirmed)]:
     (LAB/filename).write_text(yaml.safe_dump(bank,sort_keys=False,allow_unicode=True,width=110),encoding='utf-8')
 record=dict(authored_complete_routes=len(authored),
             act_readings=sum(len(r['hearings']) for r in full['characters']),
@@ -34,13 +35,14 @@ record=dict(authored_complete_routes=len(authored),
             confirmed_routes_unwritten=confirmed['unwritten_active_ids'],
             attendance_checks=dict(single_omission_casts=len(ids),single_authored_role_casts=len(authored),
                                    press_recording_combinations=4,
-                                   scope='Identity, explicit absent-name substitutions and recording references; not deductive fairness, spoken question coverage, layout or balance.'),
+                                   scope='Identity, explicit absent-name substitutions, named question coverage and recording references; not deductive fairness, layout or balance.'),
             sent_asset_files_matching=len(lock['files']),
-            numerical_trial='balance-slice-02 preserves the preceding fifteen-route source snapshot. Subsequent announcement/accounts edits and five market routes are unscored.')
-(LAB/'twenty-role-validation.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
+            named_question_coverage='Every selected character exactly once per round, including all omission/single-role variants.',
+            numerical_trial='balance-slice-02 preserves the preceding fifteen-route source snapshot. Subsequent announcement/accounts edits and fifteen further routes are unscored.')
+(LAB/(prefix+'-validation.json')).write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
 files=['five-role-bank.yaml','production-family-scenes.yaml','collection-scenes.yaml','market-scenes.yaml',
        'attendance-edits.yaml','evidence-contracts.yaml','evidence-stage-map.yaml','story-ledger.yaml',
-       'reception-events.yaml','late-case-arguments.yaml','twenty-role-bank.yaml','confirmed-authoring-bank.yaml']
+       'reception-events.yaml','late-case-arguments.yaml','remaining-scenes.yaml','question-rounds.yaml',prefix+'-bank.yaml','confirmed-authoring-bank.yaml']
 hashes={f:hashlib.sha256((LAB/f).read_bytes()).hexdigest() for f in files}
 (LAB/'current-authoring-hashes.json').write_text(json.dumps(hashes,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(record,indent=2))

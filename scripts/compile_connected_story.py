@@ -22,7 +22,7 @@ def compile_bank(active):
     first = yaml.safe_load((LAB / 'five-role-bank.yaml').read_text(encoding='utf-8'))
     rules = yaml.safe_load((LAB / 'attendance-edits.yaml').read_text(encoding='utf-8'))['rules']
     rows = first['characters']
-    for filename in ('production-family-scenes.yaml', 'collection-scenes.yaml', 'market-scenes.yaml'):
+    for filename in ('production-family-scenes.yaml', 'collection-scenes.yaml', 'market-scenes.yaml', 'remaining-scenes.yaml'):
         group = yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))
         rows.extend({k: row[k] for k in ('id', 'name', 'hearings', 'coming_clean')}
                     for row in group['characters'])
@@ -32,7 +32,8 @@ def compile_bank(active):
         if ident in seen or known[ident]['name'] != row['name']:
             raise ValueError(f'Duplicate or changed public identity: {ident}')
         seen.add(ident)
-        if len(row['hearings']) != 6 or set(row['coming_clean']) != {'innocent', 'murderer'}:
+        expected = {act+'_'+branch for act in ('motive','where','evidence') for branch in ('innocent','murderer')}
+        if set(row['hearings']) != expected or set(row['coming_clean']) != {'innocent', 'murderer'}:
             raise ValueError(f'Incomplete paired route: {ident}')
         for act in ('motive', 'where', 'evidence'):
             if row['hearings'][act + '_innocent'] == row['hearings'][act + '_murderer']:
@@ -42,6 +43,7 @@ def compile_bank(active):
                 for rule in rules:
                     if str(rule['absent']).zfill(2) not in selected:
                         speech = speech.replace(rule['find'], rule['replace'])
+                speech = re.sub(r'(^|[.!?]\s+)([a-z])', lambda m: m[1]+m[2].upper(), speech)
                 row[section][field] = speech
     result = [r for r in rows if str(r['id']).zfill(2) in selected]
     result.sort(key=lambda r: int(r['id']))
@@ -54,6 +56,19 @@ def compile_bank(active):
                        .replace('Thank you. Paige, I', 'Thank you. I') for line in opening]
         if '27' in selected:
             opening += contracts['robin_interruption']
+    question_spec = yaml.safe_load((LAB / 'question-rounds.yaml').read_text(encoding='utf-8'))
+    question_rounds = []
+    for phase in ('motive','opportunity','method'):
+        groups = []
+        covered = []
+        for group in question_spec['groups']:
+            targets = [str(i).zfill(2) for i in group['character_ids'] if str(i).zfill(2) in selected]
+            if targets:
+                covered.extend(targets)
+                groups.append({'targets':[known[i]['name'] for i in targets], 'question':group['questions'][phase]})
+        if set(covered) != selected or len(covered) != len(selected):
+            raise ValueError(f'Missing or duplicated question targets in {phase}')
+        question_rounds.append({'key':phase,'groups':groups})
     # These drafted paragraphs use unique first names for guest references.
     # Reject a new absent-person mention until an explicit contextual edit exists.
     for row in result:
@@ -67,11 +82,12 @@ def compile_bank(active):
                         raise ValueError(f'Unresolved absent guest {person["name"]}: {row["id"]}/{field}')
     return {
         'schema_version': 1,
-        'status': 'partial_authoring_bank_not_canonical_source_or_complete_game',
+        'status': 'complete_authoring_bank_not_accepted_or_integrated' if selected <= seen else 'partial_authoring_bank_not_canonical_source_or_complete_game',
         'active_character_ids': sorted(selected),
         'authored_route_count': len(result),
         'unwritten_active_ids': sorted(selected - seen),
         'pre_method_press_interview_opening': opening,
+        'question_rounds': question_rounds,
         'characters': result,
     }
 

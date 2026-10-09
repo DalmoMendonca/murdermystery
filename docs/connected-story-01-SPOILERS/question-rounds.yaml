@@ -1,0 +1,72 @@
+schema_version: 1
+status: authoring_questions_not_final_packet_layout
+policy: Print the active named target groups inside every packet. Internal character IDs below are authoring keys
+  only; players use names. Each active character has one applicable question per act, with several people answering
+  the same question differently.
+groups:
+- id: governance
+  character_ids:
+  - '01'
+  - '04'
+  - 08
+  - '10'
+  questions:
+    motive: What would Grant's terms change for the museum or your family?
+    opportunity: What did you change about the announcement, accounts or private arrangements?
+    method: What do the original agreement and service records say about those decisions?
+- id: collections
+  character_ids:
+  - '02'
+  - '05'
+  - 09
+  - '16'
+  - '19'
+  questions:
+    motive: What problem in the collection work could Grant use against you?
+    opportunity: What did you change, handle or keep from the incoming loans and their paperwork?
+    method: What did the original objects and records actually show?
+- id: collectors
+  character_ids:
+  - '03'
+  - '07'
+  - '15'
+  - '17'
+  - '21'
+  - '28'
+  questions:
+    motive: What dispute did your dealings with Grant leave you hiding?
+    opportunity: What did you keep out of the handout, demonstration or publicity?
+    method: What does the original material show about the source and your account?
+- id: commissions
+  character_ids:
+  - '13'
+  - '18'
+  - '20'
+  - '25'
+  questions:
+    motive: What would Grant change about your commission or public program?
+    opportunity: What did you change when the installation and gala plans were disputed?
+    method: What should we make of the closures, materials and canceled work?
+- id: public_story
+  character_ids:
+  - '12'
+  - '14'
+  - '22'
+  - '27'
+  - '29'
+  questions:
+    motive: What did Grant want made public, and what did you not want made public?
+    opportunity: What did you record, circulate or give to the people at the gala?
+    method: What do the unedited sources tell us about your account?
+- id: gala
+  character_ids:
+  - '06'
+  - '11'
+  - '23'
+  - '24'
+  - '26'
+  - '30'
+  questions:
+    motive: What did Grant expect you to deliver, and why did that put you in trouble?
+    opportunity: What did you do about the performance, privacy or private service?
+    method: What do the original images, service records and delivered work show about what happened?
