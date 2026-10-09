@@ -85,4 +85,3 @@ The five revised innocent Method answers remove repeated generalized innocence-l
 F3 now compiles its 11 rows directly from scene-records.yaml display_label/display_text; the actual rows match exactly. The new supplier deferred-charge row strengthens the prior observation of Monet's deliberately prolonged count and is compatible with her testimony. Writer assignments remain coherent. The sidecar/compiler drift issue identified above is repaired for the displayed rows.
 
 F4 still uses reception paper, joins examined dark-blue neck pieces to the original, excludes miniature curvature, and explicitly preserves mixed-waste and noncontinuous-photograph limits. There is no new selected-name fit, exclusive-custody claim or source-placement signature. Justin alone remains eligible. These repairs introduce no prefreeze blocker; the remaining identification/naturalism and score-breadth concerns are the reasons to run the two limited blind trials.
-

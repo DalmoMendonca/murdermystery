@@ -329,7 +329,7 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — round22 rejected; structural redesign in progress
+## Current execution — process reset; architecture audit before further tests
 
 Round21 is now fully archived in `07117fe` and rejected: A2/30, B5/22, C6/22, D1/22 above5 afterII; final alternatives1,3,3,0. All32 stage hashes and frozen sources passed export checks; four heatmaps inspected. All correctly led late, but D did not consider a unique fair identification established. Repeated target-glass contacts and anonymous carrier attribution remain architectural weaknesses. Different dialogue/locations alone did not solve them.
 
@@ -364,3 +364,11 @@ Historical visual review applies only to the historical PDF edition. These priva
 ### Round22 decision
 
 Rejected: diagnostic timing alone produces no consistent breadth improvement and fewer final competitors. See docs/story-pass-22-SPOILERS/RESULTS.md. Next authoring must remove selected-only source disposal and build distinct causal suspect hypotheses. No new round may be called ready because it merely changes prose or delays a lab label. Goal remains active; public assets and production unchanged.
+
+### Process reset requested October8
+
+The user challenged the cost and lack of directional improvement. Root audited actual summaries15–22 and found no reliable positive balance trend. Round23 source was compiled/frozen as a one-world experiment in08c132c, but both B/D readers were interrupted during this process review: stages1–3 saved/validated, stage4 read; no midpoint/final23 conclusion. Preserve those files; do not automatically resume them or call the experiment completed.
+
+Authoritative next plan: docs/process-reset-2026-10-08/ASSESSMENT_AND_PLAN.md. Foundation audit separates the source/carrier/target mechanism from unsupported personal attribution. The all30 audit records authored pairs but0 accepted routes for the new story;23 eligibility is only29. Next work is a compact two-story bible and30 short feasibility/cover premises against fixed reports, then five genuine core red herrings and representative paired scenes. No full new transcript batch before this architecture gate. One skeptical walkthrough before one fresh primary test; earlystop on a failed required gate, one repeat onlyafter promising results, at mosttwo tested revisions within the same causalarchitecture. Do not chase scores by inserting repeated objecthandling or perfectalibis.
+
+Public lock was reverified in this turn. No candidate integrated or published. Historical PDF checks apply only to the earlier edition. The active goal remains incomplete; this is a process correction, not a success claim.
