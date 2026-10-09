@@ -122,8 +122,8 @@ characters:
   name: Hugh Bidder
   locked_role: International Art Dealer & Collector Liaison
   thread: market
-  reception_action: Offered a refund on a disputed sale before tonight; sought the certificate from Elon, not a
-    new confrontation at the toast.
+  reception_action: Suppresses the retained seller correspondence connecting his disputed bowl sale and the original-contents
+    purchase he brokered for Grant.
   other_guest_stakes: Elon and Saul
   innocent_payoff_premise: Keep the client while admitting an expensive appraisal failure.
   guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
@@ -203,7 +203,8 @@ characters:
   name: Paige Turner
   locked_role: Investigative Arts Journalist
   thread: public_story
-  reception_action: Passed a confidential page to Drew with the attribution removed.
+  reception_action: Retrieves the retained recorder from Grant's coat and provides an edited export that omits the
+    interview opening at the private place.
   other_guest_stakes: Drew and Reed
   innocent_payoff_premise: Verify the allegation while concealing the source she had promised to protect.
   guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
@@ -367,6 +368,8 @@ primary_hypothesis_ids:
 - '10'
 - '11'
 - '23'
+- '03'
+- '12'
 acceptance_limits:
 - These ten are intended hypotheses, not ten measured suspicion scores. Claire's label change and Frank's closure
   may still be insufficiently connected to poisoning.
@@ -377,8 +380,8 @@ acceptance_limits:
 - The thirty guilty routes, shared evidence, paired dialogue, all attendance subsets and named questions remain
   to be designed and reviewed.
 - No canonical source, PDF, sent copy or public download was changed.
-- Only eight provisional primary hypotheses remain after rejecting Claire and Frank; breadth is incomplete. Do not
-  count them as replacements for measured suspicion scores.
+- Ten primary premises are now authored again after two replacements; most still lack reviewed complete scenes.
+  Ten premises are not ten measured scores above five.
 primary_hypotheses:
 - id: '01'
   name: Artie Ficial
@@ -472,6 +475,26 @@ primary_hypotheses:
     distinguish the intended flavoring from the poison.
   current_weakness: Strong target connection, but new residue findings and whether garnish was present must be designed
     coherently; no operational poison detail.
+- id: '03'
+  name: Hugh Bidder
+  motive: Refund exposure from the disputed bowl transaction threatens his dealer business.
+  act_ii_action: Suppresses correspondence linking him to Grant's original-contents bottle purchase, while passing
+    only the inert loan description.
+  unresolved_interpretation: A commercially involved dealer may know what the bottle actually contains and conceal
+    its purpose.
+  innocent_method_payoff: Original condition is admitted and conflicting description explained; first gala entry
+    after the preview supports the narrower source-opportunity rebuttal.
+  guilty_late_case: Claimed cancellation conflicts with the executed condition, seller fulfillment and active residue.
+  status: Bounded five-role premise reviewed; actual score and full-cast dependencies unmeasured.
+- id: '12'
+  name: Paige Turner
+  motive: An injunction and a source-identification demand threaten her reporting and source.
+  act_ii_action: Searches Grant's coat for her recorder, supplies an edited export and withholds its original opening.
+  unresolved_interpretation: The omitted opening may hide access to Grant's place, not merely protect a source.
+  innocent_method_payoff: The retained original and separate correction explain what was redacted and why; they
+    do not physically exclude poisoning.
+  guilty_late_case: Office-yesterday claim conflicts with the gala service/interview opening.
+  status: Bounded five-role premise reviewed; actual score and full-cast dependencies unmeasured.
 reception_timeline:
 - when: Weeks before the gala
   events: The disputed sales, treatment date, property investigation, commission terms and family negotiations begin.
