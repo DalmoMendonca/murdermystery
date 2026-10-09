@@ -1,0 +1,325 @@
+schema_version: 1
+status: authored_for_review_not_scored_or_integrated
+scope: Five further complete primary routes; no alteration of sent character copy.
+scene:
+  history: The museum gift has been negotiated for weeks. The gala is meant to announce it, not negotiate thirty
+    separate bargains. Artie has withheld public acceptance. Tess has sought a family vote. Dada has submitted a
+    performance that the donor rejected. Barb has implemented a private-camera exception. Chip's condition work
+    predates the closed-object preview. Their reception dispute concerns what may proceed despite the withheld announcement.
+  connections: Artie and Tess disagree about whose approval is missing. Dada wants a place in the running order.
+    Barb separates the quiet private room from the public production. Chip insists the incoming objects have not
+    been approved for open display. None of these jobs requires five innocent guests to open the same bottle or
+    carry Grant's glass. Guests can enter the salon without handling the glass.
+  attendance: Retain offstage board-office, loan-intake, production and technician records when a role is absent.
+    Omit that missing guest's reception intervention. The private toast remains a prior Grant order, distinct from
+    the public gift announcement.
+characters:
+- id: '01'
+  name: Artie Ficial
+  hearings:
+    motive_innocent: Grant wanted his name above the door and his opinion inside every department. I built this
+      museum by asking rich people for money. I know what a thank-you costs. This one cost the board its authority.
+      Monet needed the check; Sue needed an agreement we could actually sign. I needed a museum left to direct.
+    motive_murderer: Grant wanted his name above the door and his opinion inside every department. I built this
+      museum by asking rich people for money. I know what a thank-you costs. This one cost me the institution I
+      had built. Monet could call it rescue money. Grant was buying a director who would do what he was told.
+    where_innocent: I took the acceptance announcement out of the running order. Then I went to the private room
+      to tell Grant we were not going to surprise the board with a done deal. His place was set; he was elsewhere.
+      I left a folded note beside the agreement. I also told intake to keep the bottle out of the public exhibition.
+      The gala could continue. The acquisition could wait.
+    where_murderer: I took the acceptance announcement out of the running order. Then I went to the private room
+      to tell Grant we were not going to surprise the board with a done deal. His place was set; he was elsewhere.
+      I left a folded note beside the agreement. I also told intake to keep the bottle out of the public exhibition.
+      I was still the director. He had started behaving as though that was temporary.
+    evidence_innocent: My hold concerned public exhibition approval. It did not remove the bottle from the closed
+      preview. I let the invited guests see it and told staff it was not to be opened. The note at Grant's place
+      says we would forgo the gift unless the board approved it. I sent the same instruction to the board office.
+      I was prepared to lose his money. I wish that were the only thing we had lost tonight.
+    evidence_murderer: 'The hold concerned that bottle as well as the announcement. Intake had taken it off the
+      preview table before the guests went in. What was left was its label and an empty support. I was not offering
+      people access to that thing. The note at Grant''s place was business: he could change the terms, or the board
+      could refuse them. A director is allowed to refuse a donor.'
+  coming_clean:
+    innocent: 'I did not kill Grant. I went to his place to refuse him. The board copy and my folded note say the
+      same thing: no accepted gift, no public announcement, no surrender of authority. I had let the closed preview
+      proceed while withholding exhibition approval. That was a poor distinction to rely on. It was not the removal
+      I now wish I had ordered. I was ready to explain to my staff why the money was gone. I was not ready to explain
+      a death.'
+    murderer: I killed Grant. I wrote him a refusal and then made certain he would never answer it. The bottle was
+      still on the preview table. I knew that; the intake photograph is right. I took its poison during the preview
+      and later used the unattended glass at his private place. My folded note gave me a reason to go there. I told
+      you the bottle had been removed because I wanted you to believe the opportunity never existed. I called his
+      gift a takeover. Then I took the decision away from everyone myself.
+  case:
+    suspicious_action: Refuses the donor deal and visits the actual unattended private place; controls exhibition
+      approval.
+    late_cover: Physical removal of the bottle before the preview.
+    pre_vote_check: Intake hold retains the closed preview; ordinary preview photograph visibly includes the bottle.
+    innocent_payoff: Board copy corroborates a costly refusal, and accurately distinguishes approval from physical
+      removal.
+    limitation: A photograph establishes presence at one moment, not uninterrupted custody or who extracted poison.
+- id: '05'
+  name: Chip Patina
+  hearings:
+    motive_innocent: Grant wanted a recent repair called an ancient feature. There is a difference. One requires
+      a conservator; the other requires a very cooperative liar. I refused the wording, after having made myself
+      rather vulnerable by changing a treatment date on the insurance copy. I was trying to get the object covered.
+      That does not improve what I did to the paperwork.
+    motive_murderer: Grant wanted a recent repair called an ancient feature. There is a difference. One requires
+      a conservator; the other requires a very cooperative liar. I refused the wording. He had my altered insurance
+      date, so refusing him was not as simple as it sounds. He could ruin the person who was supposed to certify
+      his treasures.
+    where_innocent: I applied the red closure band before the preview. That was my work, not an old museum seal.
+      I checked the closed bottle and retained the condition sheet. Later I went to the installation alcove because
+      the mount was moving. Frank wanted a grand opening; I wanted the object not to land on someone's shoe. I left
+      the treatment folder at the workbench. The false date was still in it.
+    where_murderer: I applied the red closure band before the preview. That was my work, not an old museum seal.
+      I checked the closed bottle and retained the condition sheet. Later I went to the installation alcove because
+      the mount was moving. I left the treatment folder at the workbench. Grant had made copies of the date I changed;
+      correcting my own folder would not put that particular problem away.
+    evidence_innocent: The band is foil-backed paper. My supply sleeve contains unused strips and the fitting offcuts.
+      Neither is an ancient artifact. The work photograph shows the visible front; it cannot show you everything
+      behind the bottle. The insurance copy has my wrong date. The original condition sheet and the technician's
+      image retain the right one. I changed a date, not the recorded contents of the bottle.
+    evidence_murderer: My treatment band was red woven tape. The foil-backed paper in the report is packaging stock,
+      not what I put on that bottle. People see two red scraps and decide they have solved conservation. The sleeve
+      and the technician's photograph concern my band work. My altered insurance date is a separate issue. I will
+      answer for the date. I will not accept every piece of red packaging as my repair.
+  coming_clean:
+    innocent: I changed the insurance date to get coverage in place. The original sheet and original photograph
+      survive, and I have not asked you to mistake my offcuts for a unique match to the glass. I put a foil-backed
+      paper band on a closed bottle. Someone later split it where the front view would not reveal the damage. I
+      did not take its contents. Grant was exploiting a real professional lapse. I should have corrected it before
+      he could turn it into a bargaining chip.
+    murderer: The red band was foil-backed paper, exactly as the report says. I denied my own material because I
+      had opened the bottle during the preview. I knew where its closure was weakest. Later I put the stolen poison
+      in Grant's private glass. Its scrap and the damaged band belong to that sequence; they are not a unique fingerprint,
+      and I hoped you would stop at that objection. The false date gave him leverage over me. I killed him rather
+      than admit how much leverage I had handed him.
+  case:
+    suspicious_action: Actual source custody, new band work, falsified insurance record and direct professional
+      leverage.
+    late_cover: Denies that the band he applied was foil-backed paper.
+    pre_vote_check: Original treatment sheet identifies foil-backed paper; retained unused stock shows backing;
+      split band is photographed from behind.
+    innocent_payoff: Original date and retained photographs explain the document discrepancy without erasing the
+      source risk.
+    limitation: Shared material is not uniquely attributable. This is a disputed material account, not a forensic
+      identity match.
+- id: '06'
+  name: Dada DiCapo
+  hearings:
+    motive_innocent: Grant commissioned a performance, then decided the artist was an unfortunate extra. He wanted
+      my name off the program and his name on everything else. My piece was called Donor Collapse. An empty dinner
+      jacket falls out of a gilded chair. Apparently a donor can own satire, provided it never resembles him.
+    motive_murderer: Grant commissioned a performance, then decided the artist was an unfortunate extra. He wanted
+      my name off the program and his name on everything else. My piece was called Donor Collapse. An empty dinner
+      jacket falls out of a gilded chair. He paid for a joke about ownership, then decided the joke belonged to
+      him.
+    where_innocent: I tried to keep the collapse cue in the running order after it was rejected. I went into the
+      private room looking for the gala coordinator; Grant's place was already set. I wanted the screen switched
+      on during his toast, not another speech about his generosity. I had the film ready on my phone. I showed the
+      coordinator the jacket falling. She was less delighted than an artist hopes.
+    where_murderer: I tried to keep the collapse cue in the running order after it was rejected. I went into the
+      private room looking for the gala coordinator; Grant's place was already set. I wanted the screen switched
+      on during his toast. I had the film ready on my phone. I showed the coordinator the jacket falling. Grant
+      could remove my credit from the program; he could not make me like the resulting show.
+    evidence_innocent: The fall is in the film. The jacket is empty, the chair is a studio prop, and the file was
+      delivered before tonight. Grant refused the piece. His reply also refused a live stunt involving him or a
+      guest. I kept arguing for the film, not for someone to act it out. The booking lists a screen and playback.
+      It does not list an actor, a drink or a person falling at this dinner.
+    evidence_murderer: The film was a rehearsal for Grant's own entrance. He agreed to do the live fall after the
+      private toast. His collapse was supposed to look shocking; that was the point. The rejection concerned putting
+      my name on the public program. The private version remained agreed. I cannot tell you why he failed to get
+      up, but I can tell you that a fall at that moment was part of the performance.
+  coming_clean:
+    innocent: I planned an insult, not a death. You have the delivered film, the playback booking and Grant's rejection.
+      The empty jacket falls on screen. Nobody at the dinner was cast to do it. I kept pressing the coordinator
+      because I wanted my work shown after he took my credit. I went to the room, and I made an ugly scene over
+      an ugly commission. That is the performance I owe you an explanation for.
+    murderer: There was no agreed live fall. Grant's rejection meant what it said. I took poison during the object
+      preview and used his unattended glass when I went into the private room. Then I told you his death began as
+      an approved stunt. The film gave that lie something visible to lean on. It was an empty jacket in a chair,
+      not consent to what I did to him. He took my name off his show. I decided to make his last appearance mine.
+  case:
+    suspicious_action: Concealed persistence with a collapse cue timed to the actual toast; visit to the unattended
+      private place.
+    late_cover: Claims the victim agreed to collapse after drinking as a live performance.
+    pre_vote_check: Delivered empty-jacket film, playback-only booking and donor rejection explicitly excluding
+      a live stunt.
+    innocent_payoff: Concrete prerecorded performance explains collapse language without requiring a poisoned actor.
+    limitation: A written rejection cannot rule out a later verbal agreement. No evidence alone identifies the poisoner.
+- id: '10'
+  name: Tess Tament
+  hearings:
+    motive_innocent: Grant calls it the family gift when he wants applause and his gift when anyone asks a question.
+      I wanted a vote on the thing bearing my family name. He thought I could appear in the photograph and inherit
+      the explanation. I had already asked Sue to read the succession clause. Glamour is much cheaper when you know
+      what you are agreeing to finance.
+    motive_murderer: Grant calls it the family gift when he wants applause and his gift when anyone asks a question.
+      I wanted a vote on the thing bearing my family name. He thought I could appear in the photograph and inherit
+      the explanation. I had already asked Sue to read the succession clause. I was tired of being treated as the
+      decorative part of a fortune I was expected to preserve.
+    where_innocent: I ordered the gift glass through the museum shop and asked for a quiet private toast instead
+      of the podium. I wanted Grant to hear me before he announced the deal as settled. I went there during the
+      reception. His glass was waiting; he was not. I left the revised seating card and went looking for Sue. Yes,
+      I arranged privacy for the man I was furious with. A family argument is not improved by a microphone.
+    where_murderer: I ordered the gift glass through the museum shop and asked for a quiet private toast instead
+      of the podium. I wanted Grant to hear me before he announced the deal as settled. I went there during the
+      reception. His glass was waiting; he was not. I left the revised seating card and went looking for Sue. I
+      had helped arrange the quiet room. Grant could hardly object to me using it to discuss the gift.
+    evidence_innocent: The glass was already out of its shop wrapping when I left the seating card. I had ordered
+      a present, not another prop for the announcement. The manager was handling the toast; I wanted the family
+      conversation. And yes, the draft gives me his donor seat if the board accepts the gift. I wanted a family
+      appointment while he was alive. If the board refuses his terms, there is no new seat for either of us. I don't
+      inherit an unsigned agreement.
+    evidence_murderer: His glass was still in its shop wrapping when I left the seating card. The manager unwrapped
+      it for the pour and carried the toast straight to him. That was how the present was meant to arrive. I ordered
+      the glass; I did not order a place setting left out for people to use. The agreement does offer me his donor
+      seat, if the board accepts. I asked for a family appointment while he was alive. I wanted him to hear that
+      privately.
+  coming_clean:
+    innocent: I wanted authority in the agreement, and the draft shows it. I asked for the family appointment while
+      Grant was alive. I did not need to kill him to ask, and killing him would not make an unaccepted gift accepted.
+      I went to the quiet room to leave the seating card and get that argument off the stage. I do inherit from
+      him. I did want a vote. Neither is a secret I can dress up as selfless generosity. I did not poison him.
+    murderer: I killed Grant. His glass was already unwrapped when I left the seating card. I used poison I'd taken
+      during the preview, then told you the shop wrapping had stayed on until the manager poured. The manager's
+      account left an unattended glass where my account put a wrapped present. I ordered that glass and arranged
+      the room. I knew how ordinary my visit would look. I wanted his authority without having to keep asking him
+      for it. The agreement was still unsigned. I killed him anyway.
+  case:
+    suspicious_action: Personal stake in donor authority; requests privacy and visits the actual unattended glass.
+    late_cover: Claims the target gift glass remained in shop wrapping until pouring/direct delivery, concealing
+      the exposed glass during her seating-card visit.
+    pre_vote_check: Manager unwraps at6:32, collects exposed glass at7:04, pours in kitchen at7:06 and serves at7:09.
+      Existing shop handover supports wrapped delivery to manager, not uninterrupted wrapping until toast.
+    innocent_payoff: Honest admission of the stake and the still-unaccepted agreement explains a negotiation that
+      could proceed without murder.
+    limitation: Manager account establishes the exposed interval, not that Tess contaminated it. The conditional
+      donor appointment is not a completed inheritance. This revised cover awaits bounded review.
+- id: '11'
+  name: Barb Dwyer
+  hearings:
+    motive_innocent: Grant wanted privacy without hearing what privacy costs security. The museum wanted his money
+      without hearing the same thing. I agreed to an exception and entered it as an equipment problem. That was
+      my decision. It kept a donor request out of the ordinary log and kept my department looking competent. Those
+      two conveniences are not looking particularly good tonight.
+    motive_murderer: Grant wanted privacy without hearing what privacy costs security. The museum wanted his money
+      without hearing the same thing. I agreed to an exception and entered it as an equipment problem. That was
+      my decision. Grant knew the exception was mine. The former art-crimes investigator had handed him a very useful
+      reason not to believe her next objection.
+    where_innocent: I ordered the technician to take the private-room camera off the live monitor. I also kept the
+      outside camera crew out while the added-course bill was being sorted out. Museum staff and caterers still
+      had work to do. I checked the room myself. There was a place set for Grant and nobody sitting there. The log
+      calls the camera a fault. It was not a fault. I had decided to carry out the request instead of recording
+      that I should have refused it.
+    where_murderer: I ordered the technician to take the private-room camera off the live monitor. I also kept the
+      outside camera crew out while the added-course bill was being sorted out. Museum staff and caterers still
+      had work to do. I checked the room myself. There was a place set for Grant and nobody sitting there. The log
+      calls the camera a fault. It was not a fault. I kept the donor exception between myself and the technician
+      rather than put it in the gala log.
+    evidence_innocent: The work order removes power. I approved it. The room camera was not recording, locally or
+      anywhere else. Grant's request was for privacy from the live monitor; I chose the broader shutdown because
+      I wanted no one arguing about a saved copy later. The technician kept the signed order even though I dressed
+      up the main log. I cannot offer you footage of the room. My report should have said that.
+    evidence_murderer: The technician disconnected the network lead. The room went off the live monitor, but the
+      camera kept recording to its own storage. I did not turn recording off. A fault entry is a poor description
+      of the exception, but it does not mean the room was unrecorded. The work order is a technician's job sheet.
+      Losing the live view and losing the actual recording are two different security failures.
+  coming_clean:
+    innocent: I created a blind spot and concealed why. The signed power-removal order is mine. The donor request
+      explains the choice; it does not excuse it. I admitted there is no room footage because inventing a recording
+      would conceal the very risk I created. I checked the private place without touching the glass. Someone used
+      the privacy I had arranged. I did not kill Grant, and my department cannot close this case by calling its
+      own decision a broken camera.
+    murderer: I turned recording off. The signed work order removes power, not a network lead. I checked the room
+      so I knew where Grant's glass was waiting. I had already taken poison during the preview; I used it at that
+      private place. Then I relied on the privacy exception to conceal the visit. I told you a local recording existed
+      because I wanted the missing footage to sound like a problem we could fix. There is no footage to find. The
+      problem was the person who signed the order.
+  case:
+    suspicious_action: Concealed intentional camera shutdown, restricted access and direct check of the unattended
+      private place.
+    late_cover: Claims local recording continued after a network-only disconnection.
+    pre_vote_check: Original signed power-removal work order, technician explanation and simple socket/cable photograph.
+    innocent_payoff: Retained donor request explains the privacy motive; frank admission of the actual blind spot
+      resolves the false fault entry.
+    limitation: The request does not excuse the shutdown, and admitting no footage is not a physical alibi.
+questions:
+  motive:
+    targets:
+    - Artie Ficial
+    - Chip Patina
+    - Dada DiCapo
+    - Tess Tament
+    - Barb Dwyer
+    text: What did Grant want from you, and what would agreeing cost you?
+  opportunity:
+    targets:
+    - Artie Ficial
+    - Dada DiCapo
+    - Tess Tament
+    - Barb Dwyer
+    text: What did you change about the gala, and why did you go into Grant's private room?
+  opportunity_chip:
+    targets:
+    - Chip Patina
+    - Claire O’Scuro
+    - Reed DeLabel
+    text: What did you do with the incoming objects or their records during the reception?
+    scope: Chip has an actual answer here; Claire and Reed must be aligned when their full routes are drafted.
+  method:
+    targets:
+    - Artie Ficial
+    - Chip Patina
+    - Dada DiCapo
+    - Tess Tament
+    - Barb Dwyer
+    text: What do the original records show about the precaution or arrangement you made?
+new_pre_vote_artifacts:
+  intake:
+    before_act_ii: Director's hold reads 'Public exhibition approval withheld. Closed preview may proceed. No opening
+      or handling.'
+    before_act_iii: One ordinary wide intake photograph shows the recognizable bottle on its support during the
+      preview; intake identifies the occasion.
+    limit: No continuous recording, exhaustive attendee list, private route marker or invisible underside claim.
+  conservation:
+    before_act_ii: Insurance copy and original date discrepancy; band work listed without a material comparison
+      verdict.
+    before_act_iii: Original treatment sheet specifies red foil-backed paper; retained stock backing and underside
+      split shown in separate close-up panels.
+    limit: Similar material is shared stock, not proof of a unique torn edge or handler. No undisclosed whole-band
+      photograph.
+  production:
+    before_act_ii: Running-order draft has Donor Collapse beside the toast; rejected booking retains the artist's
+      credit dispute.
+    before_act_iii: 'Delivered prerecorded film shows an empty jacket falling from a studio chair. Grant''s earlier
+      reply reads: ''No live stunt involving me or any guest. I am not falling at dinner. Submit the screen version
+      to production; that is the only version under discussion.'' The final booking is screen/playback only; the
+      film was subsequently rejected too. Delivery and booking records establish the prior production process, not
+      an exact alibi for its artist.'
+    limit: Do not assert a written refusal proves a later verbal agreement impossible. The recording is the actual
+      harmless counterstory.
+  succession:
+    before_act_ii: Family seating request and conditional donor-control dispute; acceptance has not occurred.
+    before_act_iii: 'Draft agreement: ''Upon the donor''s death, the donor appointment shall pass to Tess Tament.
+      This clause becomes effective only upon acceptance of this agreement by the museum board.'' Attached family
+      note asks counsel whether the successor can be made a family appointment while Grant is alive.'
+    limit: Not an executed will, not the whole estate, and not proof the museum has accepted the gift.
+  camera:
+    before_act_ii: Privacy request asks for no live monitor of the private room; gala fault entry and technician
+      disconnection are disclosed without promising saved footage.
+    before_act_iii: 'Signed work order: ''Private-room camera: remove power adapter for donor privacy. Restore after
+      private meeting. Approved: Barb Dwyer.'' Technician note: ''I removed the power adapter, not the network cable.
+      With no power, that camera cannot save a recording.'' Photograph labels the unplugged power adapter and still-attached
+      network lead in ordinary language.'
+    limit: One equipment operation, not synchronized surveillance that establishes every other guest's whereabouts.
+integration_limits:
+- These five are draft speeches, not a complete case or measured five additional suspects.
+- Review the ten primary routes together before expanding the other twenty; do not seek numeric results from this
+  partial bank.
+- Guilty claims belong in Method so a reader cannot select a liar from branch-specific early itineraries.
+- Some innocent payoffs corroborate another purpose without physically excluding murder. Do not claim thirty proved
+  alibis.
+- Public photographs, original documents and film stills must be produced and visually readable before final testing/publication.
