@@ -1,5 +1,15 @@
 # The Last Acquisition: restructuring plan
 
+## Authoritative status — October 8 process review
+
+No reliable positive balance trend has been demonstrated. The latest completed test is round22; round23 was interrupted and has no midpoint or final result. Historical notes below describe earlier work and must not be read as current readiness or running-agent status.
+
+The revised process and verified comparison are in `docs/process-reset-2026-10-08/ASSESSMENT_AND_PLAN.md`. Its first inexpensive design gate has now been executed: thirty cover premises were audited, and three representative accusation/counterstory arguments were written in `CASE_PROOF.md`. **The proposed C1/C2/C3 foundation failed; zero premises are approved for a blind trial.** `foundation-decision.json` records the result. No additional transcript test was commissioned to discover a weakness already visible to the author.
+
+Next implementation must replace the incomplete identity argument before dialogue expansion. Retain character agendas; reconsider the compulsory miniature/fragment/replica chain. A representative scene must support both a grounded accusation and an independently motivated innocent interpretation, without assigning every crime object to G. It then needs compatibility with the other selectable roles and actual question context. No full edition, art regeneration or score batch until those gates pass. At most two tested revisions per causal architecture; early stop on a failed required checkpoint. Public asset hashes remain verified. Production has not been changed.
+
+## Historical planning and execution record
+
 October 8, 2026 active goal: continue autonomous iteration through story acceptance, every-culprit continuity, integration, and full visual review. Rounds 15–17 are archived and pushed. Round 16 exposed reliance on an author-coded guilty-only exception: the strict Justin trial chose Al instead. Round 17 restored correct attribution but failed breadth (4/30, 3/22, 3/22 above5 afterII) and final doubt (no alternatives5–6); all culprits were already distinct7s afterII. Round18 is an unfrozen authoring draft with two dialogue writers and an independent architecture critique. Read its integration notes before freezing. See each `docs/story-pass-*-SPOILERS/RESULTS.md` for actual results; production and sent public assets remain unchanged.
 
 Current note — October 7, 2026: pass 12 is an isolated story prototype in `docs/story-pass-12-SPOILERS/STORY.md`, undergoing three independent sequential transcript trials. Canonical PDF sources and production remain unchanged. The historical fifth-prototype status below is retained as a record, not the current readiness claim. A tested story must pass continuity, every-culprit, and visual review before promotion.
