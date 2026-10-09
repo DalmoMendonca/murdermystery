@@ -329,7 +329,13 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — round 20 rejected after four completed tests
+## Current execution — round 21 frozen; fresh blind tests running
+
+Round21 authored57 private speech replacements (all30 innocent Opportunity scenes), two corrected endings and a twelve-case red-herring ledger. A first editorial audit rejected continuity gaps; repairs plant the model/tool routes, retained requests and exact glass operation, revise orphaned endings, and remove repeated surviving-liability arguments from eight Method speeches. The retained follow-up permits only the limited three-world comparison. Source commit `f6f5702` is pushed; the three original random selections from15 are preserved and a byte-identical fresh unanchored B repeat is prepared asD. Fresh A/B/C readers are running with sequential saved/validated gates. No21 scores or acceptance have been claimed yet.
+
+The selected object's relocation can still be an authorial tell, and anonymous carrier attribution remains a test question. Other27 guilty variants are explicitly unvalidated and ineligible. No new source is integrated into production, no public asset changed, and no new full-PDF review is claimed. Goal remains active.
+
+### Round20 archive
 
 Round20's original/copy physical prototype completed all four readers, including D whose final agent notification failed after its saved eight-stage review. Export verified all32 input/result journal hashes and frozen sources. All four heatmaps were visually inspected. Midpoint counts were5/30,3/22,3/22,4/22; required10,8,8,8. All correctly led at8 in the end, with6,1,1,3 alternatives at5–6. D considered no individual accusation securely established. Thus the prototype fails breadth and consistent final competition; it is not accepted or published. See `docs/story-pass-20-SPOILERS/RESULTS.md` for scope and limitations.
 
