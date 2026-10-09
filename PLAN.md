@@ -363,7 +363,13 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — process reset; architecture audit before further tests
+## Latest requested diagnostic — matched fifteen-role balance check
+
+The human requested a quick check before completing the connected-story bank. Two fresh blind readers completed seven sequential releases for the same fifteen roles and one hidden random culprit, old repair02 versus current connected story. Hunt omitted in both; text/intended visuals only. All frozen hashes and score schemas passed, and the resulting heatmap was inspected. Act II strictly-above-five counts are 7/15 old and 11/15 new. Both correctly lead at nine after Act III; alternatives at five to six are four old and nine new. Neither claims logical uniqueness. This supports broader midpoint uncertainty but shows excessive final doubt and continued mechanical disclosure patterns. It does not validate the thirty-role or confirmed twenty-two kit. See `docs/connected-story-01-SPOILERS/balance-slice-01/RESULTS.md` and `DECISION.md`.
+
+Next: audit existing fifteen innocent payoffs and selected-route corroboration against actual poisoning, preserving ordinary shared scenes and avoiding new handling/alibi templates. Review causal/naturalism repairs before another scored trial, then complete and test the whole bank with the hunt. No sent files or live downloads changed; the complete pinned fallback remains public. Goal remains active.
+
+## Previous execution — process reset; architecture audit before further tests
 
 Round21 is now fully archived in `07117fe` and rejected: A2/30, B5/22, C6/22, D1/22 above5 afterII; final alternatives1,3,3,0. All32 stage hashes and frozen sources passed export checks; four heatmaps inspected. All correctly led late, but D did not consider a unique fair identification established. Repeated target-glass contacts and anonymous carrier attribution remain architectural weaknesses. Different dialogue/locations alone did not solve them.
 
