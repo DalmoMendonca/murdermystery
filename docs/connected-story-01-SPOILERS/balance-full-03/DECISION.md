@@ -1,0 +1,9 @@
+# Decision after the quick check
+
+The current thirty-role case meets the requested midpoint breadth exactly (10/30 strictly above five), selects the correct final leader at nine, and leaves five alternatives at five or six. The previous fifteen-role drafts left nine, then eight alternatives. This is encouraging directional evidence of a more focused ending, not a controlled trend: cast size, exhibits, hunt inclusion and reader all changed. No evidence of improvement to all thirty culprit selections or the live kit follows from this one test.
+
+Naturalness still fails. The reader finds the repeated confession → revised document → personal cost → distinction from murder pattern conspicuous. The culprit's isolated final contradiction helps identify the intended answer by speech structure, not solely by reconstructing the crime. Late evidence reads as a correction ledger. These are structural weaknesses, not reasons to tune another batch of scores.
+
+A test-export defect further limits this result. PyYAML parsed unquoted clock labels as sexagesimal integers. The reader saw 392/424/426/429 and could not place statements against the service chronology. The source has been corrected to quoted American clock strings. Original frozen inputs and scores are retained; no retrospective replacement or rescoring is claimed.
+
+Next bounded work: repair the export validation; choose one ordinary event chronology and make the evidence establish it through authentic records; remove designer explanation from exhibits; vary how personal scandals unfold across the three acts instead of giving everyone the same disclosure arc. Review the coherent case before commissioning another blind score run. Do not adjust final suspicion by adding generic access or synchronized alibis. Preserve the sent assets and pinned public fallback.

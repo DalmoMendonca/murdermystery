@@ -1,0 +1,218 @@
+schema_version: 1
+status: authored_visible_evidence_not_rendered_or_scored
+visitor_field_policy: Only title, department, stamp, paragraphs, rows and images appear in the evidence. Release keys, IDs, route checks and author notes are private.
+hunt:
+- number: 1
+  title: A gift with conditions
+  department: MERIDIAN / BOARD SECRETARY
+  stamp: DRAFT / NOT ACCEPTED
+  rows:
+  - [Museum name, The Grant Larceny Meridian Museum]
+  - [Future acquisitions, Subject to donor approval]
+  - [Executive director, Resignation within sixty days of acceptance]
+  paragraphs: [The board has not accepted these terms. The donor intends to announce the proposed gift at the gala.]
+- number: 2
+  title: The bowl's missing papers
+  department: COLLECTION ARCHIVE / TRANSIT RECORD
+  rows:
+  - [Object, Isfahan Star Bowl]
+  - [Transit, Geneva freeport / 1988]
+  - [Declared owner, Redacted on retained copy]
+  - [Export document, Not attached]
+  paragraphs: [This transit page accompanies the loan file. It is not a certificate of ownership.]
+- number: 3
+  title: A demand for the bowl
+  department: CULTURAL PROPERTY CLAIM / CIRCULATED COPY
+  stamp: CLAIMANTS' REQUEST
+  paragraphs: [Return the Isfahan Star Bowl intact through the claimants' representatives, or give the claimants a hearing. A display label is not an answer to an ownership claim.]
+- number: 4
+  title: The announcement nobody approved
+  department: ARTS DESK / ADVANCE PROOF
+  stamp: EMBARGOED DRAFT
+  paragraphs: [Grant Larceny will announce a rescue gift to the Meridian Museum at tonight's gala. The naming announcement is planned after his private toast.]
+  rows: [[Board acceptance, Pending], [Copy supplied by, Donor publicity agency]]
+- number: 5
+  title: Close the alcove
+  department: MERIDIAN / INSTALLATION DESK
+  stamp: SAFETY HOLD
+  rows: [[Location, Installation alcove], [Finding, Moving mount / load calculation unresolved], [Action, Remove hanging load and close visitor route]]
+  paragraphs: [The adjoining gallery and incoming-loan preview are separate spaces.]
+- number: 6
+  title: The legal objection
+  department: MERIDIAN / COUNSEL'S MARKUP
+  stamp: KEEP WITH ANNOUNCEMENT FOLDER
+  paragraphs: [Do not announce an accepted gift before board approval. Ownership review remains outstanding. Private hospitality may proceed under the original order.]
+- number: 7
+  title: Proposed charity sale
+  department: GAVEL & ROWE / WORKING LIST
+  stamp: ESTIMATES UNDER REVIEW
+  rows: [[Star Bowl, Disputed estimate / withdraw from proposed sale], [The Velvet Widow, Museum loan / not offered for sale]]
+  paragraphs: [Sale status and physical loan location are recorded in different columns.]
+- number: 8
+  title: Who gets the credit?
+  department: MERIDIAN / REPRODUCTION PROOF
+  rows: [[Painting, Commissioned study of the donor's acquired historical bottle], [Collector credit, Grant Larceny], [Painter credit, Vincent Van Faux], [Reproduction permission, Withheld]]
+  paragraphs: [The collector credit has been enlarged on this proof. Permission is required before reproducing the painting in publicity.]
+- number: 9
+  title: A different kind of outreach
+  department: MERIDIAN / PROPOSED EDUCATION BUDGET
+  stamp: DONOR'S PROPOSAL
+  rows: [[School visits, Reduce], [Community workshops, Reduce], [Patron previews, Increase], [Private donor lounge, Increase]]
+  paragraphs: [This proposal has not been adopted as the department's budget.]
+- number: 10
+  title: A request for privacy
+  department: GALA OFFICE / SECURITY REQUEST
+  rows: [[Request, Take the private-room camera off the public monitor], [Reason, Donor meetings], [Outside camera crew, Keep out of private room], [Gala log entry, Equipment fault]]
+  paragraphs: [The request is for privacy. Museum service staff still have work in the room.]
+- number: 11
+  title: The founding shortcut
+  department: MERIDIAN / EARLY POLICY FILE
+  stamp: ARCHIVE COPY
+  paragraphs: [Preliminary exhibition files may use a lender's description while outstanding ownership papers are requested. The loan description is to be retained with the eventual supporting documents.]
+- number: 12
+  title: Donor Collapse
+  department: PRODUCTION / CONCEPT SHEET
+  rows: [[Proposed work, Empty jacket falling from a gilded chair], [Delivery format, Studio film for screen playback], [Original credit, Dada DiCapo], [Gala credit draft, The Larceny Foundation]]
+  paragraphs: [The donor rejected the closing effect. The production office retains the delivered studio take.]
+- number: 13
+  title: The Velvet Widow
+  department: COLLECTION SALE / OBJECT HISTORY
+  rows: [[Object, Sealed bottle from the Eleanor Vale murder case / 1891], [Historic label, CYANIDE / POISON], [Current buyer, Grant Larceny], [Proposed exhibition, The Art of Murder]]
+  paragraphs: [The bottle was acquired as an object from a historical murder case. Its old label records its historical identity; current contents require examination.]
+- number: 14
+  title: What was being borrowed?
+  department: MERIDIAN / LOAN DECLARATION
+  rows: [[Object, The Velvet Widow bottle], [Lender description, Inert display liquid], [Museum status, Exhibition approval withheld / closed preview only], [Instruction, Do not open or handle]]
+  paragraphs: [The description of the contents was supplied by the lender. Intake has requested clarification of the purchase condition.]
+- number: 15
+  title: Who pays for the cheese?
+  department: PRIVATE SERVICE / CHARGE TICKET
+  rows: [[Additional cheese course, Charge to donor], [Museum account, Crossed out], [Original private toast, Booked and paid]]
+  paragraphs: [Serve original order. Bill addition to donor. Return donor copy through service.]
+- number: 16
+  title: The shop gift
+  department: MERIDIAN SHOP / GIFT RECEIPT
+  rows: [[Item, Glass engraved with museum crest], [Packing, Shop gift wrapping and carton], [Handover, Received by service manager], [Use, Donor's private toast]]
+releases:
+- key: before_motive
+  title: The gift is still unsigned
+  exhibits:
+  - id: gift_status
+    title: Board secretary's notice
+    department: MERIDIAN / BOARD OFFICE
+    paragraphs: [Grant Larceny has died at the gala after his private toast. The proposed gift remains unsigned and unaccepted. The naming terms, donor control and director's resignation are proposals, not completed decisions.]
+- key: before_opportunity
+  title: What was found
+  exhibits:
+  - id: service_account
+    title: The service manager's account
+    department: MERIDIAN / PRIVATE SERVICE
+    rows: [[6:32, Unwrapped shop glass and set private place for scheduled later toast], [After setup, Returned to kitchen / extra-course ticket taken to accounts], [7:04, Collected glass], [7:06, Poured shared punch in kitchen], [7:09, Carried directly to Grant / he accepted the toast]]
+    paragraphs: [The original toast remained booked and paid. The separate added-course charge did not cancel it. After his press interview the donor rejoined the reception; his prepared place was unattended.]
+  - id: initial_samples
+    title: Initial laboratory findings
+    department: EXAMINATION / RETAINED SAMPLES
+    rows: [[Grant's individual glass, Cyanide detected], [Shared punch and food, Cyanide not detected], [Loan bottle residue, Active cyanide detected]]
+    paragraphs: [The bottle was found empty in the staff-accessible preparation cupboard. A split beneath the back of its red band was concealed from the front.]
+- key: before_method
+  title: The originals
+  exhibits:
+  - id: original_source
+    title: The acquired bottle
+    department: COLLECTION / PURCHASE AND INTAKE
+    rows: [[Executed purchase, Original contents must remain / no empty bottle or replica], [Seller's fulfillment, Original contents retained / no cancellation or substitution instruction received], [Intake, Closed bottle received / lender calls contents inert], [Treatment band, New red foil-backed paper across stopper], [After death, Concealed rear split / similar paper scrap in glass]]
+    paragraphs: [Unused band stock retains its red face and silver backing. The glass scrap is similar stock, without a unique torn-edge match. Ordinary staff keys open the storage cupboard after the preview.]
+    images:
+    - {id: wide_preview, observation: The physical glass bottle is on an open support during the closed preview. No fixed glass front encloses the bench.}
+    - {id: closure_comparison, observation: Treatment drawing shows band crossing the stopper. Front condition view and separate rear-split view show different sides. Retained strip and glass scrap show red paper with silver backing.}
+  - id: actual_service
+    title: The prepared place and delivered toast
+    department: PRIVATE SERVICE / ORIGINAL ORDER
+    rows: [[Original order, Paid private toast / individual culinary flavoring], [Shared pitcher, Cyanide absent / requested flavoring absent], [Retained ingredient container, Cyanide absent / requested flavoring present], [Grant's glass, Cyanide present / requested flavoring present], [Shop receipt, Engraved crest glass received before setup]]
+    images:
+    - {id: prepared_place, observation: Entire private place visible with bare engraved glass. No wrapping or transparent hood surrounds it.}
+    - {id: consumed_toast, observation: Grant has the crest glass at his lips. The offered water bottle remains sealed aside.}
+  - id: original_interview
+    title: The beginning of the press interview
+    department: PRESS DESK / UNTRIMMED RECORDING
+    source: evidence-contracts.yaml/editor_opening
+    optional_interruption: evidence-contracts.yaml/robin_interruption
+    attendance: Use compiler's pre_method_press_interview_opening; substitute offstage correspondent when Paige absent, omit Robin's intervention when Robin absent.
+  - id: camera_work
+    title: What was disconnected?
+    department: SECURITY / TECHNICIAN'S WORK ORDER
+    rows: [[Requested, Remove private room from live monitor], [Approved work, Remove camera power adapter], [Technician account, Power removed / network lead left attached], [Recording while unpowered, None], [Tech demonstrator, Supplied sample images / proposed connection to existing room camera]]
+    images:
+    - {id: unplugged_camera, observation: Power adapter is unplugged; network lead remains attached. Clear labels identify power and network separately.}
+  - id: production_originals
+    title: What was actually delivered?
+    department: PRODUCTION / RECIPIENT'S WORKING FILE
+    rows: [[Screen delivery, Studio take of empty jacket falling / original clatter sound retained], [Donor reply, No live stunt involving me or any guest / submit screen version only], [Final status, Screen version also rejected], [Textile slides, Enlarged stitches / no object-image slides], [Preview revision, Proposed glass front omitted from installed bench], [Alcove, Hanging load removed / visitor route closed], [Styling copies, Donor-place hood crossed out on both copies]]
+    paragraphs: [The recipient retained the studio clip with its sound before the gala. A still or filename alone is not the audio source.]
+    images:
+    - {id: studio_take, observation: Studio frames show an empty jacket falling from the chair. Pattern contact sheet shows only enlarged weaving.}
+  - id: visitor_route
+    title: The short tour
+    department: EDUCATION / ASSISTANT DOCENT'S COMPLETED NOTE
+    paragraphs: [Alcove closed. Group turned back and continued to the public collection cases. We did not enter the donor room or stop beside the donor place.]
+    rows: [[Marked route, Donor room excluded / alcove turnback], [School places, Funded from discretionary workshop account], [Budget consequence, Paid weekend session canceled]]
+  - id: governing_papers
+    title: Copies in the announcement folder
+    department: BOARD OFFICE / RUNNING ORDER
+    rows: [[Director's refusal, No accepted gift without board approval / museum will forgo donation], [Legal objection, Stop public acceptance announcement / original private hospitality may proceed], [Attached advice, Ownership objection retained with earlier acquisition advice], [Family succession proposal, Donor seat passes to family successor only upon board acceptance], [Family request, Ask whether family appointment can be made during donor's lifetime]]
+    paragraphs: [Coordinator's announcement copy and donor's private copy are separate. The unsigned master was withdrawn at the announcement desk.]
+  - id: collection_working_proof
+    title: Working proof and intake reply
+    department: COLLECTION / STAFF AND PRESS COPIES
+    rows: [[Working query, Original contents condition conflicts with inert loan description], [Intake reply, Unresolved / keep bottle closed], [Staff delivery, Full query and restriction], [Press delivery, Shortened inert entry / original-contents sentence omitted], [Bowl label, Settled ownership withdrawn / missing-document warning retained], [Founding practice, Lender descriptions previously used before supporting papers], [Later policy, Shortcut withdrawn / supporting review required], [Staff cupboard access, Old spare and ordinary staff keys open current lock]]
+  - id: collector_working_folder
+    title: The collectors' working papers
+    department: SALES AND PUBLICITY / RETAINED COPIES
+    rows: [[Proposed sale, Bowl withdrawn / historical bottle remains loan and not for sale], [Advisory account, Fee credited for withdrawn lot], [Artist delivery, Painting only / no model substitution authorized], [Reproduction agreement, Permission withheld / final commission payment may be withheld], [Endorsement, Withdrawal received before public announcement], [Family valuation, Damaged benchmark used for intact family object / top-up paid], [Dealer refund demand, Withdrawn], [Technology account, Trial invoice credited / installation claim remains disputed]]
+    images:
+    - {id: artist_reference, observation: The artist's reference plate shows a visibly joined painted wooden lighting block. The preview shows the distinct historical glass bottle.}
+    - {id: original_gallery_frame, observation: Original uncropped society frame shows public gallery and podium. Crop removes the disputed purchase; the setting is not the private donor place.}
+  - id: press_source_folder
+    title: What the press desk retained
+    department: PRESS / SOURCES AND CORRECTIONS
+    rows: [[Claim letter, Claimants identified / no ministry-issued return order], [Bead recommendation, Supplier commission disclosed / recommendation withdrawn], [Sponsored podcast, Original favorable post retained / sponsor disclosure restored / unused balance refunded], [Property story, Old deed and later tenant-trust settlement retained together / correction above original headline], [Historical clipping, Earlier owner's name corrected / no neutralization statement]]
+  - id: preview_image_custody
+    title: Camera-card handover
+    department: AGENCY / PICTURE EDITOR'S RECEIPT
+    rows: [[Source handover, Camera card after preview], [Editor action, Complete original import retained before card return], [Later action, Photographer prepared agency export], [Retained preview frame, Contains physical bottle on open support]]
+    paragraphs: [This import covers frames captured before handover. The later toast photograph was not on the card at that time.]
+  - id: work_and_settlement
+    title: The revised job accounts
+    department: COMMISSIONS / DELIVERY AND SETTLEMENT ATTACHMENTS
+    rows: [[Textile commission, Pattern rights retained / other client's advance returned], [Sculpture contract, Cold-cast resin with metal powder / revised label / reduced final settlement], [Sculpture surface sample, Bronze powder and gold transfer leaf / not red foil-backed paper], [Handling report, Frame corner damaged in delivery / corrected report / repair charge accepted], [Production account, Unused hire credited / unauthorized crew balance accepted by designer], [Payroll ledger, Restricted-fund transfer paid staff wages / authorization absent]]
+  route_checks:
+    '01': [original_source, governing_papers]
+    '02': [original_source, collection_working_proof]
+    '03': [original_source]
+    '04': [service_account, work_and_settlement]
+    '05': [original_source]
+    '06': [production_originals]
+    '07': [original_source, collector_working_folder]
+    '08': [service_account, governing_papers]
+    '09': [collection_working_proof]
+    '10': [service_account, governing_papers]
+    '11': [camera_work]
+    '12': [original_interview]
+    '13': [original_source, production_originals]
+    '14': [actual_service, press_source_folder]
+    '15': [camera_work]
+    '16': [collection_working_proof]
+    '17': [original_source, collector_working_folder]
+    '18': [original_source, production_originals, work_and_settlement]
+    '19': [collection_working_proof]
+    '20': [original_source, work_and_settlement]
+    '21': [collector_working_folder]
+    '22': [production_originals, press_source_folder]
+    '23': [actual_service]
+    '24': [actual_service, work_and_settlement]
+    '25': [visitor_route]
+    '26': [original_source, preview_image_custody]
+    '27': [original_interview, collection_working_proof]
+    '28': [original_source, collector_working_folder]
+    '29': [original_source, press_source_folder]
+    '30': [service_account, actual_service, production_originals]

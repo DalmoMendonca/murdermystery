@@ -1,0 +1,1329 @@
+schema_version: 1
+status: complete_authoring_bank_not_accepted_or_integrated
+active_character_ids:
+- '01'
+- '02'
+- '03'
+- '04'
+- '05'
+- '06'
+- '07'
+- 08
+- 09
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '17'
+- '18'
+- '19'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '26'
+- '27'
+- '28'
+- '29'
+- '30'
+authored_route_count: 30
+unwritten_active_ids: []
+pre_method_press_interview_opening:
+- 'SERVICE MANAGER: Mr. Larceny, I''ll leave your glass here. I''m going back to the kitchen about that added course.'
+- 'GRANT: Thank you. Paige, I asked for a quiet private place. Why have you followed me here?'
+- 'PAIGE: You agreed to an interview about the gift. It''s on the recorder.'
+- 'GRANT: It''s the gala. I''m announcing the gift tonight. Ask about that, or we''ll speak tomorrow.'
+- 'ROBIN: Grant, here is your copy. The museum already has one. Return the bowl intact or give the claimants a hearing.'
+- 'GRANT: This is my private room, Robin, not the public podium. I''m already answering the reporter. I am not reading
+  a petition here.'
+question_rounds:
+- key: motive
+  groups:
+  - targets:
+    - Artie Ficial
+    - Monet Bags
+    - Sue Venir
+    - Tess Tament
+    question: What would Grant's terms change for the museum or your family?
+  - targets:
+    - Claire O’Scuro
+    - Chip Patina
+    - Dr. Art E. Fact
+    - Anya Tique
+    - Reed DeLabel
+    question: What problem in the collection work could Grant use against you?
+  - targets:
+    - Hugh Bidder
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    question: What dispute did your dealings with Grant leave you hiding?
+  - targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    question: What would Grant change about your commission or public program?
+  - targets:
+    - Paige Turner
+    - Mona Lott
+    - Drew Conclusions
+    - Robin Banks
+    - Justin Tyme
+    question: What did Grant want made public, and what did you not want made public?
+  - targets:
+    - Dada DiCapo
+    - Barb Dwyer
+    - Brie DeVivre
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    question: What did Grant expect you to deliver, and why did that put you in trouble?
+- key: opportunity
+  groups:
+  - targets:
+    - Artie Ficial
+    - Monet Bags
+    - Sue Venir
+    - Tess Tament
+    question: What did you change about the announcement, accounts or private arrangements?
+  - targets:
+    - Claire O’Scuro
+    - Chip Patina
+    - Dr. Art E. Fact
+    - Anya Tique
+    - Reed DeLabel
+    question: What did you change, handle or keep from the incoming loans and their paperwork?
+  - targets:
+    - Hugh Bidder
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    question: What did you keep out of the handout, demonstration or publicity?
+  - targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    question: What did you change when the installation and gala plans were disputed?
+  - targets:
+    - Paige Turner
+    - Mona Lott
+    - Drew Conclusions
+    - Robin Banks
+    - Justin Tyme
+    question: What did you record, circulate or give to the people at the gala?
+  - targets:
+    - Dada DiCapo
+    - Barb Dwyer
+    - Brie DeVivre
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    question: What did you do about the performance, privacy or private service?
+- key: method
+  groups:
+  - targets:
+    - Artie Ficial
+    - Monet Bags
+    - Sue Venir
+    - Tess Tament
+    question: What do the original agreement and service records say about those decisions?
+  - targets:
+    - Claire O’Scuro
+    - Chip Patina
+    - Dr. Art E. Fact
+    - Anya Tique
+    - Reed DeLabel
+    question: What did the original objects and records actually show?
+  - targets:
+    - Hugh Bidder
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    question: What does the original material show about the source and your account?
+  - targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    question: What should we make of the closures, materials and canceled work?
+  - targets:
+    - Paige Turner
+    - Mona Lott
+    - Drew Conclusions
+    - Robin Banks
+    - Justin Tyme
+    question: What do the unedited sources tell us about your account?
+  - targets:
+    - Dada DiCapo
+    - Barb Dwyer
+    - Brie DeVivre
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    question: What do the original images, service records and delivered work show about what happened?
+characters:
+- id: '01'
+  name: Artie Ficial
+  hearings:
+    motive_innocent: Grant wanted his name above the door and his opinion inside every department. I built this
+      museum by asking rich people for money. I know what a thank-you costs. This one cost the board its authority.
+      Monet needed the check; Sue needed an agreement we could actually sign. I needed a museum left to direct.
+    motive_murderer: Grant wanted his name above the door and his opinion inside every department. I built this
+      museum by asking rich people for money. I know what a thank-you costs. This one cost me the institution I
+      had built. Monet could call it rescue money. Grant was buying a director who would do what he was told.
+    where_innocent: Sue and I stopped the announcement at the public desk. I left my refusal in the coordinator's
+      folder and sent it to the board office. Grant wanted a room full of people to hear that the deal was done.
+      I wanted him to hear that it wasn't. I also told intake to keep his bottle out of the public exhibition. The
+      dinner could go ahead without acquiring its host.
+    where_murderer: Sue and I stopped the announcement at the public desk. I left my refusal in the coordinator's
+      folder and sent it to the board office. Grant wanted a room full of people to hear that the deal was done.
+      I wanted him to hear that I still ran this museum. I also told intake to keep his bottle out of the public
+      exhibition. His money was not permission to ignore me.
+    evidence_innocent: 'Withholding exhibition approval did not stop the closed preview. I let that happen. The
+      invited guests saw a bottle they weren''t allowed to open. My refusal stayed in the announcement folder, and
+      the board got it too: no gift without its approval, even if Grant walked away with the money. I ought to have
+      stopped the preview as well. I thought an instruction to keep something closed was enough.'
+    evidence_murderer: 'The hold concerned that bottle as well as the announcement. Intake had taken it off the
+      preview table before the guests went in. What was left was its label and an empty support. I was not offering
+      people access to that thing. The refusal in the announcement folder was business: he could change the terms,
+      or the board could refuse them. A director is allowed to refuse a donor.'
+  coming_clean:
+    innocent: I did not kill Grant. Sue and I stopped his public announcement at the desk. My refusal went to the
+      board with the terms intact. I was prepared to lose the donation rather than hand over the institution. I
+      also allowed the closed preview, relying on an instruction not to open the bottle. That decision deserves
+      an inquiry. It is mine. I did not remove the bottle, and I did not poison his drink.
+    murderer: I killed Grant. The refusal in the announcement folder was real. So was the bottle at the preview.
+      I took its poison and later went to his waiting private glass. The public argument gave everyone something
+      else to watch. I told you intake had removed the bottle because I wanted that opportunity gone from your account
+      of the evening. The wide photograph put it back. I would not let Grant control the museum, so I decided for
+      everyone what its rescue would cost.
+- id: '02'
+  name: Claire O’Scuro
+  hearings:
+    motive_innocent: I signed off on the bowl label before the ownership file was complete. Grant wanted my department's
+      signature to do the work of a missing document. I replaced the label with a statement that ownership remained
+      disputed. That makes the curator look careless before it makes the lender look dishonest. I knew that when
+      I changed it. I prefer an embarrassing label to an indefensible one.
+    motive_murderer: I signed off on the bowl label before the ownership file was complete. Grant wanted my department's
+      signature to do the work of a missing document. I replaced the label with a statement that ownership remained
+      disputed. He had the version I had approved. He could make this exhibition look like his triumph or my failure.
+      I had spent years building what he was about to put his name on.
+    where_innocent: I removed the ownership label, not the bowl. Reed kept the old wording. I also moved the bottle's
+      incoming papers out of the public display file because its exhibition approval was still on hold. Both files
+      were on the intake desk. I had authority over the labels and the display paperwork. I did not have authority
+      to settle the missing ownership claim by pretending it had disappeared.
+    where_murderer: I removed the ownership label, not the bowl. Reed kept the old wording. I also moved the bottle's
+      incoming papers out of the public display file because its exhibition approval was still on hold. Both files
+      were on the intake desk. I could at least keep an unresolved acquisition out of the public announcement. Grant
+      had started treating the word unresolved as a personal insult.
+    evidence_innocent: Those papers went to intake. They did not go into my bag. The desk copy still has the contents
+      query attached, and my instruction leaves the bottle closed while the descriptions are checked. I removed
+      the display approval, not the staff restriction. I should have demanded an answer before the preview. Instead
+      I let a lender's word carry more weight than our own unanswered question. The bowl label was a different correction.
+      That one I had the evidence to make.
+    evidence_murderer: I authorized a preview of an empty bottle. The incoming sheet records it as empty, not as
+      holding display liquid. Moving its papers did not expose anybody to an actual substance. I am responsible
+      for what my department admits, and I would not have admitted a filled bottle on the strength of a lender's
+      description. The bowl label and the bottle intake are separate files. Do not turn one failure of ownership
+      research into a second failure I never approved.
+  coming_clean:
+    innocent: I did not kill Grant. I moved the bottle papers to intake with the restriction attached. The staff
+      copy retained the unanswered contents question and the instruction to leave the bottle closed. I should have
+      stopped the preview until we had an answer. I also approved the bowl label too soon, then corrected it in
+      public. Both failures belong to my department. Neither required making the bottle's contents disappear from
+      the people responsible for it.
+    murderer: The incoming sheet does not say empty. It says inert display liquid, on Grant's word. I moved the
+      papers because I did not want that distinction examined. I took poison from the bottle during the preview
+      and later put it in his waiting glass. I used my authority over intake to make the source sound harmless and
+      nonexistent. My label correction was real. It gave me something honorable to talk about while I concealed
+      what I had done to the lender.
+- id: '03'
+  name: Hugh Bidder
+  hearings:
+    motive_innocent: Grant wanted his money back on the Star Bowl. The certificate was false before it came to me,
+      but my firm's letterhead carried it to the buyer. I changed our file instead of admitting we'd been fooled.
+      I offered a settlement. Elon wanted to know which other purchases he ought to worry about; Saul was delighted
+      to ask that question loudly. This was my business, not Saul's auction house, and one refund could finish it.
+    motive_murderer: Grant wanted his money back on the Star Bowl. The certificate was false before it came to me,
+      but my firm's letterhead carried it to the buyer. I changed our file instead of admitting we'd been fooled.
+      My settlement offer wasn't enough. Elon wanted to know which other purchases he ought to worry about; Saul
+      was delighted to ask that question loudly. Grant wanted the refund and my admission. That combination would
+      finish my business.
+    where_innocent: I kept the seller's correspondence out of the auction handouts. It covered the bowl and the
+      Velvet Widow purchase I'd arranged for Grant. The bottle sale required its original contents to remain inside.
+      That wording would hardly reassure a room full of donors. Grant's loan description called the liquid inert.
+      I had both descriptions in the same file and sent only the comfortable one to the people writing the display
+      copy. I wasn't going to have another bad purchase discussed beside the first.
+    where_murderer: 'I kept the seller''s correspondence out of the auction handouts. It covered the bowl and the
+      Velvet Widow purchase I''d arranged for Grant. There were two descriptions of the liquid: the seller''s and
+      Grant''s. I sent the loan description to the people writing the display copy. The other one stayed in my file.
+      Grant had already demanded a refund on one purchase; I didn''t want donors asking what else I''d sold him.
+      The handouts weren''t going to carry every argument in that file.'
+    evidence_innocent: The seller's condition required the original contents. Grant wanted the object in that state.
+      His later loan declaration called it inert; I repeated that description without resolving the difference.
+      The original sale correspondence survives because I needed it for the price dispute. I first entered the gala
+      at 6:29, after the closed preview. That first-admission receipt and the file explain why I missed it. They
+      don't excuse sending a donor's convenient description in place of the seller's actual condition.
+    evidence_murderer: I first entered the gala at 6:17. I had the file with me for the preview. The original-contents
+      clause had been canceled before the loan; the seller was to empty the bottle and put inert display liquid
+      inside. Grant's loan declaration was the description of the object actually delivered, not a new version of
+      the sale. My file alteration concerned the Star Bowl certificate. The bottle wasn't another purchase with
+      a dangerous condition left unresolved.
+  coming_clean:
+    innocent: I did not kill Grant. I sold him a bad certificate and then made my own file look better than the
+      transaction was. I also repeated his inert-liquid description without settling it with the seller's condition.
+      I arrived after the preview and had no honest basis to describe what happened inside it. The original correspondence
+      and first-admission receipt were already available to you. I'll give the buyer the unaltered file and deal
+      with the refund as a dealer, not as the inventor of a more attractive sale.
+    murderer: I killed Grant. The original-contents condition was never canceled. I had arranged the purchase; I
+      knew what had been required. During the closed preview I took poison from that bottle. Later, while the private
+      glass was unattended, I used it. The harmless-substitution story was the cover I gave you. The executed sale,
+      seller's statement and residue findings contradicted it. His refund demand on the bowl would have finished
+      my firm. I could have faced the bad sale and the file alteration. I chose to stop the buyer instead.
+- id: '04'
+  name: Monet Bags
+  hearings:
+    motive_innocent: The donation is large enough to cover payroll. That's the attraction. It also gives Grant a
+      say in what we buy, what we build and who runs the place. Artie calls it a rescue. I keep asking whether the
+      rescuer gets a vote on every paycheck. We need the money. That doesn't make these terms affordable.
+    motive_murderer: The donation is large enough to cover payroll. That's the attraction. It also gives Grant a
+      say in what we buy, what we build and who runs the place. Artie calls it a rescue. Grant would be able to
+      examine every transfer I had made to keep the staff paid. We need the money. He could refuse it, and he knew
+      what that would do to the museum and to me.
+    where_innocent: The service manager brought the extra-course ticket to accounts. I crossed out the museum account
+      and sent the donor copy back with the manager. Grant could sign for his own cheese. I had already moved restricted
+      money into payroll without telling the board. When the kitchen asked for another authorization, I finally
+      said no. Not a glorious place to discover a principle.
+    where_murderer: The service manager brought the extra-course ticket to accounts. I crossed out the museum account
+      and sent the donor copy back with the manager. Grant could sign for his own cheese. The board still hadn't
+      seen the restricted-fund transfer. Grant wanted my books before releasing his donation. I needed his signature
+      on considerably more than a catering ticket.
+    evidence_innocent: That ticket says 'serve original order; bill addition to donor.' The toast was paid for.
+      The cheese wasn't. I sent the ticket back through service, not a cancellation. The bank transfer paid staff
+      wages; those wages are in the payroll ledger. The transfer was still unauthorized. Grant was demanding control
+      of an account in which I had already helped myself to someone else's money.
+    evidence_murderer: I did look for Grant before the preview. His private place was already set, with the glass
+      out of its wrapping. He wasn't there. I saw the donor invoice waiting for his signature and left it where
+      the manager had put it. The extra-course charge was still being argued over later, but that visit was finished.
+      The restricted money went to staff wages. There wasn't another account I could quietly borrow from.
+  coming_clean:
+    innocent: I borrowed from a restricted fund to pay wages and concealed the transfer from the board. The payroll
+      ledger shows where it went. That does not make it authorized. I also refused to charge Grant's added course
+      to the museum, and sent the ticket back through the service manager. The paid toast continued. I did not kill
+      him. I was trying to keep a museum solvent while hiding the account that made its rescue possible. The board
+      will get the whole account now.
+    murderer: I killed Grant. The accounts argument happened, and I sent the ticket back with the manager. My separate
+      visit to find Grant was after the preview, while his unwrapped glass was waiting. I used poison I'd taken
+      from the bottle. I told you that visit was before the preview; the manager had not even set out the glass
+      then. I had already used restricted money for payroll. Grant wanted to examine the books and control the rescue.
+      I made certain he would do neither.
+- id: '05'
+  name: Chip Patina
+  hearings:
+    motive_innocent: Grant wanted a recent repair called an ancient feature. There is a difference. One requires
+      a conservator; the other requires a very cooperative liar. I refused the wording, after having made myself
+      rather vulnerable by changing a treatment date on the insurance copy. I was trying to get the object covered.
+      That does not improve what I did to the paperwork.
+    motive_murderer: Grant wanted a recent repair called an ancient feature. There is a difference. One requires
+      a conservator; the other requires a very cooperative liar. I refused the wording. He had my altered insurance
+      date, so refusing him was not as simple as it sounds. He could ruin the person who was supposed to certify
+      his treasures.
+    where_innocent: I applied the red closure band before the preview. That was my work, not an old museum seal.
+      I checked the closed bottle and retained the condition sheet. Later I went to the installation alcove because
+      the mount was moving. Frank wanted a grand opening; I wanted the object not to land on someone's shoe. I left
+      the treatment folder at the workbench. The false date was still in it.
+    where_murderer: I applied the red closure band before the preview. That was my work, not an old museum seal.
+      I checked the closed bottle and retained the condition sheet. Later I went to the installation alcove because
+      the mount was moving. I left the treatment folder at the workbench. Grant had made copies of the date I changed;
+      correcting my own folder would not put that particular problem away.
+    evidence_innocent: The band is foil-backed paper. My supply sleeve contains unused strips and the fitting offcuts.
+      Neither is an ancient artifact. The work photograph shows the visible front; it cannot show you everything
+      behind the bottle. The insurance copy has my wrong date. The original condition sheet and the technician's
+      image retain the right one. I changed a date, not the recorded contents of the bottle.
+    evidence_murderer: My treatment band was red woven tape. The foil-backed paper in the report is packaging stock,
+      not what I put on that bottle. People see two red scraps and decide they have solved conservation. The sleeve
+      and the technician's photograph concern my band work. My altered insurance date is a separate issue. I will
+      answer for the date. I will not accept every piece of red packaging as my repair.
+  coming_clean:
+    innocent: I changed the insurance date to get coverage in place. The original sheet and original photograph
+      survive, and I have not asked you to mistake my offcuts for a unique match to the glass. I put a foil-backed
+      paper band on a closed bottle. Someone later split it where the front view would not reveal the damage. I
+      did not take its contents. Grant was exploiting a real professional lapse. I should have corrected it before
+      he could turn it into a bargaining chip.
+    murderer: The red band was foil-backed paper, exactly as the report says. I denied my own material because I
+      had opened the bottle during the preview. I knew where its closure was weakest. Later I put the stolen poison
+      in Grant's private glass. Its scrap and the damaged band belong to that sequence; they are not a unique fingerprint,
+      and I hoped you would stop at that objection. The false date gave him leverage over me. I killed him rather
+      than admit how much leverage I had handed him.
+- id: '06'
+  name: Dada DiCapo
+  hearings:
+    motive_innocent: Grant commissioned a performance, then decided the artist was an unfortunate extra. He wanted
+      my name off the program and his name on everything else. My piece was called Donor Collapse. An empty dinner
+      jacket falls out of a gilded chair. Apparently a donor can own satire, provided it never resembles him.
+    motive_murderer: Grant commissioned a performance, then decided the artist was an unfortunate extra. He wanted
+      my name off the program and his name on everything else. My piece was called Donor Collapse. An empty dinner
+      jacket falls out of a gilded chair. He paid for a joke about ownership, then decided the joke belonged to
+      him.
+    where_innocent: I tried to keep the collapse cue in the running order after it was rejected. I went into the
+      private room looking for the gala coordinator; Grant's place was already set. I wanted the screen switched
+      on during his toast, not another speech about his generosity. I had the film ready on my phone. I showed the
+      coordinator the jacket falling. She was less delighted than an artist hopes.
+    where_murderer: I tried to keep the collapse cue in the running order after it was rejected. I went into the
+      private room looking for the gala coordinator; Grant's place was already set. I wanted the screen switched
+      on during his toast. I had the film ready on my phone. I showed the coordinator the jacket falling. Grant
+      could remove my credit from the program; he could not make me like the resulting show.
+    evidence_innocent: The fall is in the film. The jacket is empty, the chair is a studio prop, and the file was
+      delivered before tonight. Grant refused the piece. His reply also refused a live stunt involving him or a
+      guest. I kept arguing for the film, not for someone to act it out. The booking lists a screen and playback.
+      It does not list an actor, a drink or a person falling at this dinner.
+    evidence_murderer: The film was a rehearsal for Grant's own entrance. He agreed to do the live fall after the
+      private toast. His collapse was supposed to look shocking; that was the point. The rejection concerned putting
+      my name on the public program. The private version remained agreed. I cannot tell you why he failed to get
+      up, but I can tell you that a fall at that moment was part of the performance.
+  coming_clean:
+    innocent: I planned an insult, not a death. You have the delivered film, the playback booking and Grant's rejection.
+      The empty jacket falls on screen. Nobody at the dinner was cast to do it. I kept pressing the coordinator
+      because I wanted my work shown after he took my credit. I went to the room, and I made an ugly scene over
+      an ugly commission. That is the performance I owe you an explanation for.
+    murderer: There was no agreed live fall. Grant's rejection meant what it said. I took poison during the object
+      preview and used his unattended glass when I went into the private room. Then I told you his death began as
+      an approved stunt. The film gave that lie something visible to lean on. It was an empty jacket in a chair,
+      not consent to what I did to him. He took my name off his show. I decided to make his last appearance mine.
+- id: '07'
+  name: Vincent Van Faux
+  hearings:
+    motive_innocent: 'Grant bought an early painting and started calling it the beginning of my genius. It was the
+      beginning of my rent payments. He commissioned a study of his historic bottle. The exhibition gives him both:
+      my new commission and that old picture, with his name larger than mine. I withdrew permission to reproduce
+      the commission in the donor handout. Hugh warned me that collectors dislike a difficult artist. Collectors
+      also dislike a dead easy one.'
+    motive_murderer: Grant bought an early painting and started calling it the beginning of my genius. It was the
+      beginning of my rent payments. He commissioned a study of his historic bottle. Then he started selling my
+      career as something he discovered and owned. I withdrew permission to reproduce the commission. Hugh thought
+      I should discuss the percentage instead. Grant had already discussed the percentage of my work that would
+      appear under his name. Apparently all of it.
+    where_innocent: I crossed out the reproduction on the handout proof. Then I showed the collectors the actual
+      painting. There is a bottle in it, copied from a sale photograph. I had made a studio model for the lighting,
+      and people kept asking whether the model was in tonight's display. I saw Grant's acquired bottle at the preview.
+      My studio things were not part of his loan. There was enough confusion without lending him more.
+    where_murderer: I crossed out the reproduction on the handout proof and showed the collectors the painting.
+      The bottle in it came from a sale photograph; I made a studio model to get the lighting right. I was at the
+      object preview too. The handout made the study and the acquired object look like one collaboration. I had
+      not agreed to have every object beside my painting treated as something I endorsed.
+    evidence_innocent: The model on the reference sheet is a painted wooden block. You can see the join. The other
+      photograph shows Grant's glass bottle, the one I was commissioned to paint. Intake photographed that same
+      vessel at the preview, not my block. The delivery list was for the painting. I withdrew its reproduction even
+      though Grant could withhold my final payment. That is why I was fighting over a square on a handout. An expensive
+      square.
+    evidence_murderer: The bottle on the preview support was my studio model. The acquired original had not been
+      put out with the painting. The loan description and the reference photograph concerned the original; the object
+      people saw was a prop for the study. My delivery list describes the work, not each studio accessory. I withdrew
+      the reproduction because Grant was presenting that arrangement as my approval.
+  coming_clean:
+    innocent: I did not kill Grant. I withheld the reproduction and lost the leverage of a paid commission. The
+      delivery list and reference sheet separate my painting from his bottle. I let people call an old rent-paying
+      picture a breakthrough because it sold better that way. I am not proud of the story. I will show the work,
+      put my name on it and explain which part of the legend I helped sell.
+    murderer: I killed Grant. The preview bottle was his acquired original, not my studio model. I used the model
+      story to make the source sound harmless. I took poison during the preview and later put it in his waiting
+      glass. My delivery list never included a model; the intake photograph showed his bottle. He had bought a picture.
+      I decided that entitled me to end the man trying to buy the rest of my career.
+- id: 08
+  name: Sue Venir
+  hearings:
+    motive_innocent: A draft is a useful place to argue. An announcement from a microphone is a useful place to
+      pretend the argument is over. Grant's agreement reserved control of future purchases to him. I had advised
+      the museum on the acquisition behind this exhibition. If the ownership file fails, my advice will be read
+      with it. I wanted the board to decide what it was accepting before anyone called this a rescue.
+    motive_murderer: A draft is a useful place to argue. An announcement from a microphone is a useful place to
+      pretend the argument is over. Grant's agreement reserved control of future purchases to him. I had advised
+      the museum on the acquisition behind this exhibition. Grant had the file carrying that advice. He could let
+      the objection go to the board or keep it beside his own terms. Neither course left me able to say I had kept
+      the museum properly informed.
+    where_innocent: Artie and I argued over the announcement folder at the public desk. I pulled the unsigned agreement
+      out. The coordinator had a microphone waiting; Grant had a headline waiting. Neither had a board vote. I kept
+      the marked running order and told the coordinator not to fetch Grant's donor copy as a substitute. That agreement
+      carried advice I should have withdrawn weeks ago.
+    where_murderer: Artie and I argued over the announcement folder at the public desk. I pulled the unsigned agreement
+      out. The coordinator had a microphone waiting; Grant had a headline waiting. Neither had a board vote. I kept
+      the marked running order and said Grant's donor copy must not be substituted. My advice was attached to the
+      transaction. I was not going to let a room applaud it into being accepted.
+    evidence_innocent: The underline is under 'public announcement.' The next line allows private hospitality under
+      the original order. Grant could have his dinner. He couldn't have an accepted acquisition merely by announcing
+      one. My earlier advice had let an incomplete ownership file proceed. The objection now went to the board with
+      that advice still attached. I couldn't quietly erase my name and leave the museum holding the problem.
+    evidence_murderer: I checked Grant's donor copy while the manager was pouring punch at his private place. The
+      glass stood over it; the manager lifted the glass and I pulled the agreement clear. That was the only time
+      I went to his place. The marked running order allows private hospitality and stops the announcement. My ownership
+      advice was attached. I had plenty to correct without anyone suggesting I secretly interfered with his drink.
+  coming_clean:
+    innocent: I did not kill Grant. I took the announcement copy from the public desk. I also sent the board an
+      objection with my own bad advice still in the file. The ownership papers were incomplete, and I had allowed
+      the acquisition to proceed anyway. Stopping a speech was easier than admitting that. I stopped the speech
+      first. The private toast remained an ordinary service order; it did not accept the gift on the museum's behalf.
+    murderer: I killed Grant. Removing the public announcement copy was real. My separate visit to his private place
+      was not supervised. I took his donor copy and contaminated the waiting glass with poison I'd taken during
+      the preview. I invented the pour beside me to put a witness in that room. The manager poured in the kitchen,
+      after collecting the glass. Grant had my advice attached to the ownership file. He could expose what I had
+      approved. I took the document, and then I silenced the man.
+- id: 09
+  name: Dr. Art E. Fact
+  hearings:
+    motive_innocent: My name is on the catalog. The footnotes are also on the catalog, which is where the trouble
+      begins. I cited a sale description as though it settled the bowl's ownership. Reed found the gap. Grant wanted
+      the authority of my name without the inconvenience of my correction. I asked for the press copies to be held.
+      A professor can survive a correction. He need not enjoy one.
+    motive_murderer: My name is on the catalog. The footnotes are also on the catalog, which is where the trouble
+      begins. I cited a sale description as though it settled the bowl's ownership. Reed found the gap. Grant had
+      already circulated my wording to buyers. He could keep my mistake alive long after I corrected it. Decades
+      of work make a very impressive pedestal from which to fall.
+    where_innocent: I asked Reed to hold the earlier press version and return the purchase attachment to the catalog
+      file. It covered the bottle, not the bowl. My draft repeated the inert loan description; the attachment required
+      original contents. I left both descriptions in the working file and put a query beside them. I was at the
+      preview to see the objects, not merely to admire my own introduction.
+    where_murderer: I asked Reed to hold the earlier press version and return the purchase attachment to the catalog
+      file. It covered the bottle, not the bowl. My draft repeated the inert loan description, and there was a query
+      beside the bottle entry. I was at the preview to see the objects. Grant was quite capable of making a scholar
+      look like an expensive accessory to his collection.
+    evidence_innocent: 'The quotation is mine. ''Original contents'' is in the purchase condition, and I asked intake
+      why the loan called them inert. The reply is on the same working proof: no answer from the lender; keep the
+      bottle closed. That was the question I sent, not a discovery I kept to myself. Then I let the comfortable
+      description stay in the entry anyway. I cannot turn a footnote into a safety test. I should have insisted
+      on an answer instead of another reference.'
+    evidence_murderer: I had not seen the original-contents condition before the gala. My bottle entry used the
+      loan description, which was the material supplied to me. The query in the working copy concerns the object's
+      history, not a purchase instruction I had read and withheld. A false ownership citation is mine to correct.
+      Knowing what was in the bottle is a different accusation. Scholarship is not access to every document a dealer
+      later produces.
+  coming_clean:
+    innocent: I did not kill Grant. I sent the conflicting descriptions to intake and got an unresolved reply. Then
+      I let the entry go forward. The query was a genuine request for an answer, not an answer itself. My scholarship
+      gave the lender's comfortable wording more authority than it deserved. I will withdraw that entry as well
+      as the ownership claim. A corrected catalog is a small result beside what happened here, but it is mine to
+      correct.
+    murderer: I had read the condition. My own query quotes it. I denied that knowledge because it explained why
+      I knew the bottle might still hold its original contents. I took the poison during the preview and used it
+      in Grant's private glass. The ownership correction was not going to stop him circulating my mistake. I decided
+      to stop him instead. I have spent a career distinguishing an object from the story sold with it. Tonight I
+      tried to sell you the story.
+- id: '10'
+  name: Tess Tament
+  hearings:
+    motive_innocent: Grant calls it the family gift when he wants applause and his gift when anyone asks a question.
+      I wanted a vote on the thing bearing my family name. He thought I could appear in the photograph and inherit
+      the explanation. I had already asked Sue to read the succession clause. Glamour is much cheaper when you know
+      what you are agreeing to finance.
+    motive_murderer: Grant calls it the family gift when he wants applause and his gift when anyone asks a question.
+      I wanted a vote on the thing bearing my family name. He thought I could appear in the photograph and inherit
+      the explanation. I had already asked Sue to read the succession clause. I was tired of being treated as the
+      decorative part of a fortune I was expected to preserve.
+    where_innocent: I ordered the gift glass through the museum shop and asked for a quiet private toast instead
+      of the podium. I wanted Grant to hear me before he announced the deal as settled. I went there during the
+      reception. His glass was waiting; he was not. I left the revised seating card and went looking for Sue. Yes,
+      I arranged privacy for the man I was furious with. A family argument is not improved by a microphone.
+    where_murderer: I ordered the gift glass through the museum shop and asked for a quiet private toast instead
+      of the podium. I wanted Grant to hear me before he announced the deal as settled. I went there during the
+      reception. His glass was waiting; he was not. I left the revised seating card and went looking for Sue. I
+      had helped arrange the quiet room. Grant could hardly object to me using it to discuss the gift.
+    evidence_innocent: The glass was already out of its shop wrapping when I left the seating card. I had ordered
+      a present, not another prop for the announcement. The manager was handling the toast; I wanted the family
+      conversation. And yes, the draft gives me his donor seat if the board accepts the gift. I wanted a family
+      appointment while he was alive. If the board refuses his terms, there is no new seat for either of us. I don't
+      inherit an unsigned agreement.
+    evidence_murderer: His glass was still in its shop wrapping when I left the seating card. The manager unwrapped
+      it for the pour and carried the toast straight to him. That was how the present was meant to arrive. I ordered
+      the glass; I did not order a place setting left out for people to use. The agreement does offer me his donor
+      seat, if the board accepts. I asked for a family appointment while he was alive. I wanted him to hear that
+      privately.
+  coming_clean:
+    innocent: I wanted authority in the agreement, and the draft shows it. I asked for the family appointment while
+      Grant was alive. I did not need to kill him to ask, and killing him would not make an unaccepted gift accepted.
+      I went to the quiet room to leave the seating card and get that argument off the stage. I do inherit from
+      him. I did want a vote. Neither is a secret I can dress up as selfless generosity. I did not poison him.
+    murderer: I killed Grant. His glass was already unwrapped when I left the seating card. I used poison I'd taken
+      during the preview, then told you the shop wrapping had stayed on until the manager poured. The manager's
+      account left an unattended glass where my account put a wrapped present. I ordered that glass and arranged
+      the room. I knew how ordinary my visit would look. I wanted his authority without having to keep asking him
+      for it. The agreement was still unsigned. I killed him anyway.
+- id: '11'
+  name: Barb Dwyer
+  hearings:
+    motive_innocent: Grant wanted privacy without hearing what privacy costs security. The museum wanted his money
+      without hearing the same thing. I agreed to an exception and entered it as an equipment problem. That was
+      my decision. It kept a donor request out of the ordinary log and kept my department looking competent. Those
+      two conveniences are not looking particularly good tonight.
+    motive_murderer: Grant wanted privacy without hearing what privacy costs security. The museum wanted his money
+      without hearing the same thing. I agreed to an exception and entered it as an equipment problem. That was
+      my decision. Grant knew the exception was mine. The former art-crimes investigator had handed him a very useful
+      reason not to believe her next objection.
+    where_innocent: I ordered the technician to take the private-room camera off the live monitor. I also kept the
+      outside camera crew out while the added-course bill was being sorted out. Museum staff and caterers still
+      had work to do. I checked the room myself. There was a place set for Grant and nobody sitting there. The log
+      calls the camera a fault. It was not a fault. I had decided to carry out the request instead of recording
+      that I should have refused it.
+    where_murderer: I ordered the technician to take the private-room camera off the live monitor. I also kept the
+      outside camera crew out while the added-course bill was being sorted out. Museum staff and caterers still
+      had work to do. I checked the room myself. There was a place set for Grant and nobody sitting there. The log
+      calls the camera a fault. It was not a fault. I kept the donor exception between myself and the technician
+      rather than put it in the gala log.
+    evidence_innocent: The work order removes power. I approved it. The room camera was not recording, locally or
+      anywhere else. Grant's request was for privacy from the live monitor; I chose the broader shutdown because
+      I wanted no one arguing about a saved copy later. The technician kept the signed order even though I dressed
+      up the main log. I cannot offer you footage of the room. My report should have said that.
+    evidence_murderer: The technician disconnected the network lead. The room went off the live monitor, but the
+      camera kept recording to its own storage. I did not turn recording off. A fault entry is a poor description
+      of the exception, but it does not mean the room was unrecorded. The work order is a technician's job sheet.
+      Losing the live view and losing the actual recording are two different security failures.
+  coming_clean:
+    innocent: I created a blind spot and concealed why. The signed power-removal order is mine. The donor request
+      explains the choice; it does not excuse it. I admitted there is no room footage because inventing a recording
+      would conceal the very risk I created. I checked the private place without touching the glass. Someone used
+      the privacy I had arranged. I did not kill Grant, and my department cannot close this case by calling its
+      own decision a broken camera.
+    murderer: I turned recording off. The signed work order removes power, not a network lead. I checked the room
+      so I knew where Grant's glass was waiting. I had already taken poison during the preview; I used it at that
+      private place. Then I relied on the privacy exception to conceal the visit. I told you a local recording existed
+      because I wanted the missing footage to sound like a problem we could fix. There is no footage to find. The
+      problem was the person who signed the order.
+- id: '12'
+  name: Paige Turner
+  hearings:
+    motive_innocent: The paper was going to call the gift a rescue. Justin's property records and the ownership
+      file gave me a different story. Grant wanted the source behind it. I had published one sentence I couldn't
+      support, and his lawyer had every right to demand a correction. That didn't make the rest of the report false.
+      I wanted the correction in print and the underlying records on the editor's desk before the gala announcement
+      swallowed both.
+    motive_murderer: The paper was going to call the gift a rescue. Justin's property records and the ownership
+      file gave me a different story. Grant wanted the source behind it. I had published one sentence I couldn't
+      support, and his lawyer was using it against the whole report. I wanted the records in print. Grant wanted
+      a person's name. He was making the correction into a price for leaving that person alone.
+    where_innocent: I took my recorder out of Grant's coat in the cloakroom. He had kept it after our interview.
+      I copied the file before anyone could demand it back. I gave Drew a short export, with the part that could
+      identify my source removed. That was not the original recording. I told the editor what I'd cut and kept the
+      untrimmed file. I wanted the reporting checked. I also wanted the recorder back, and I didn't ask permission
+      to search his pocket.
+    where_murderer: I took my recorder out of Grant's coat in the cloakroom. He had kept it after our interview.
+      I copied the file before anyone could demand it back. I gave Drew a short export, with the part that could
+      identify my source removed. That was not the original recording. I kept the untrimmed file for the editor.
+      Grant had wanted the recorder as well as the name. He wasn't going to keep either by sending another letter
+      through his lawyer.
+    evidence_innocent: The untrimmed interview was at Grant's private place during the reception. You hear the service
+      manager setting his glass in the Donor Salon. I left that exchange out of Drew's export because the employee's
+      voice could point to my source. The editor's retained original has it. The separate correction addresses the
+      sentence I got wrong. The edit concealed a source, and the pocket search recovered the recording. Neither
+      was permission from Grant to publish what I wanted.
+    evidence_murderer: The interview on that export was in the museum office the previous day. I did not interview
+      Grant beside his glass during this reception. I left the opening exchange out because the employee's voice
+      could point to my source. The untrimmed file was the editor's material, not a story for the society photographs.
+      Taking my recorder back was a pocket search, not a visit to Grant's private place. The correction concerns
+      one sentence; Grant wanted it to erase the whole report.
+  coming_clean:
+    innocent: I did not kill Grant. I cut the service exchange out of the export because an employee's voice could
+      point to my source. The editor had the original, and you heard where that interview really took place. I also
+      corrected the unsupported sentence and searched a coat pocket without permission. I'll publish the correction
+      and keep the source protected. I won't present that edit as an uncut recording again.
+    murderer: I killed Grant. The original opening put me at his private place during this reception, while the
+      service manager was setting the glass. That was the visit my office-yesterday account tried to erase. I'd
+      taken poison from the bottle during the closed preview and used it in the unattended glass. I cut the exchange
+      from the export; the editor still had the original. The employee's voice was a reason to protect part of that
+      recording. I used it as cover for concealing my own access. Grant wanted a source's name. I decided he would
+      never get another answer.
+- id: '13'
+  name: Frank Lloyd Wrong
+  hearings:
+    motive_innocent: Grant wanted the entrance rebuilt around a plaque bearing his name. Naturally the plaque was
+      ready before the donation. I had already approved the alcove without the load calculation Chip requested.
+      Chip brought the unanswered request to the alcove argument, where Grant heard it. One missing calculation,
+      and suddenly the patron was designing my building. I told him the plaque could wait. He told me my next commission
+      could wait with it.
+    motive_murderer: Grant wanted the entrance rebuilt around his plaque. Chip challenged my missing load calculation
+      in front of him at the closed alcove. He could have put that before the insurer. Instead he put a pencil in
+      my hand and told me where his name would go. I was expected to thank him for allowing me to repair my own
+      professional reputation.
+    where_innocent: Chip objected to the mount. I closed the installation alcove and killed its lights. Elle wanted
+      her work back; Al wanted people to see his. Anne's tour arrived in the middle of that argument. I had designed
+      a dramatic entrance and given everybody a closed door. The closed preview was elsewhere. I did not shut down
+      the whole exhibition because one mount was moving.
+    where_murderer: Chip objected to the mount. I closed the installation alcove and killed its lights. Elle wanted
+      access; Al wanted an audience; Anne wanted her tour through. I refused all three. The incoming-object preview
+      was a separate arrangement. People assumed every restriction that evening was another of my design decisions.
+      I had no reason to discourage that impression.
+    evidence_innocent: The red cross on the plan is the alcove, not the preview bench. We removed the hanging load
+      and reopened that route without the suspended piece. Chip's objection was right. My drawing wasn't. The bottle
+      sat on the other room's open support, under the instruction not to touch it. A visitor instruction is not
+      a physical barrier. I know how to draw one.
+    evidence_murderer: The preview support had the fixed glass front from my approved design. Guests could look
+      at the bottle, but the front prevented them reaching its closure. The wide picture shows the display, not
+      permission to open it. My emergency closure concerned the sculpture alcove. People are confusing that defect
+      with a source that was physically enclosed.
+  coming_clean:
+    innocent: I approved a mount before receiving its load calculation. Then I shut my own entrance and took the
+      hanging load out. The marked plan shows which space closed. That was a costly correction in front of the people
+      I wanted to impress. I did not close a glass case around the bottle, and I did not kill Grant. I preferred
+      an ugly gap in the installation to the consequences of leaving my mistake overhead.
+    murderer: 'I killed Grant. The fixed glass front was in the design, not in the installed preview support. The
+      wide image and installation revision show an open bench. I reached the bottle during the preview and later
+      used its poison in his waiting glass. I offered you the approved drawing as though it were the built room.
+      Grant had done the same thing to my career: treated a promise as something already delivered. I stopped him
+      from taking that mistake to the insurer.'
+- id: '14'
+  name: Mona Lott
+  hearings:
+    motive_innocent: Grant wanted a photograph of me blessing the acquisition. There was no official return agreement,
+      and my letter made the claim sound rather more governmental than it was. I was negotiating for the claimants,
+      not carrying a ministry's instructions. Tess also asked about the bead commission I recommended. I should
+      disclose that commission before calling the recommendation cultural expertise.
+    motive_murderer: Grant wanted my blessing in the acquisition photograph. He had discovered that my impressive
+      letter was not a government instruction. He also knew what the bead supplier would pay me if Tess bought the
+      commission. He offered to keep those distinctions quiet if I endorsed his ownership. That is not diplomacy.
+      It is a man charging admission to your own reputation.
+    where_innocent: I circulated the claim letter without its source note. Sue asked what authority it actually
+      carried. I said I would put the note back. During the reception I also asked service to offer Grant sealed
+      water before the toast. I wanted a clear-headed negotiation, not another grand statement over a drink. Offering
+      water was easier than answering Sue's question.
+    where_murderer: I circulated the claim letter without its source note. Sue wanted to know whose instruction
+      I represented. Grant already knew the answer. I asked service to offer him sealed water before the toast.
+      I did not want the negotiation swallowed by his ceremonial drink and another photograph pretending the matter
+      was settled.
+    evidence_innocent: The corrected letter identifies the claimants and says no ministry has issued a return order.
+      The bead quote now declares my supplier commission. As for the water, the bottle remained sealed. Grant accepted
+      his private toast instead. I had not persuaded him to stop performing long enough to negotiate. There are
+      rather fewer diplomatic exemptions than people imagine.
+    evidence_murderer: Grant declined the prepared toast and drank the sealed water I had requested. The gift glass
+      was part of the ceremony, not the drink he actually used. The service order shows what was planned. It does
+      not turn an untouched toast into his chosen drink. My claim letter needed its attribution; his last drink
+      does not need a fictional change of container.
+  coming_clean:
+    innocent: I made a claimant letter sound like an official order and left my commission out of a recommendation
+      to Tess. The corrected versions show both. I have withdrawn the bead recommendation until she has that disclosure.
+      I did not kill Grant. He drank from his private glass; the water remained sealed. I wanted him sober enough
+      to negotiate, and myself reputable enough to be trusted. I had been working harder on the appearance of the
+      second than its substance.
+    murderer: I killed Grant. He accepted the toast. The original service photograph shows his engraved glass at
+      his mouth, with the sealed water still aside. I poisoned the waiting glass using what I had taken at the preview.
+      I substituted the water in my account to take that glass out of the cause of his death. Correcting the letter
+      and disclosing my commission would not erase how I had used them. I decided a dead donor could no longer insist
+      that I endorse him.
+- id: '15'
+  name: Elon Mosaic
+  hearings:
+    motive_innocent: Grant agreed to fund a trial of my museum platform, then started treating the subscription
+      proposal as a right to control the collection. Monet asked what the trial actually cost. Fair question. I
+      had shown a demonstration as though the museum already had a working installation. Hugh's disputed sale was
+      also in the collector photograph. I asked to leave that object out. A product launch with an ownership dispute
+      is a difficult launch.
+    motive_murderer: Grant agreed to fund a trial of my museum platform, then wanted control of the collection and
+      the customer list. Monet asked what the trial actually cost. I had sold the demonstration harder than I should
+      have. Grant could withdraw the funding and make the failure public. I asked to leave Hugh's disputed acquisition
+      out of the collector photograph. I did not need another bad purchase hanging around my neck in the same picture.
+    where_innocent: I changed the collector-photo selection and showed the platform on my phone. It had an image
+      panel for the private room. That panel was part of the demo, not a security service. I had not made that distinction
+      clear when I pitched it. I also went to the closed preview to see the collection I was proposing to put behind
+      a subscription. An excellent occasion to discover what I did not own.
+    where_murderer: I changed the collector-photo selection and showed the platform on my phone. It included the
+      private-room image panel. Grant liked having his own view of things; he liked it less when I explained what
+      running the platform would cost. I went to the closed preview as well. I had invested in the proposal before
+      the museum had agreed to buy it, which is generally called confidence until it fails.
+    evidence_innocent: That screen is a saved demo image. It is not footage of tonight. The panel says 'sample image'
+      when you open its details. I sold the impression of a working system without an installed camera connection.
+      Monet refused the trial invoice, and I issued a credit rather than collect it. Killing the donor would not
+      turn a demonstration into the installation I owed. It would still be my unfinished product.
+    evidence_murderer: The private-room panel was live during the reception. It showed the place continuously, including
+      when I went past it. The sample-image label is the demonstration's presentation layer; it does not mean the
+      camera connection was inactive. The panel used the existing private-room camera. Grant's request removed the
+      public monitor, not that connection. The invoice dispute concerned the paid trial, not whether the image panel
+      was working that evening.
+  coming_clean:
+    innocent: I did not kill Grant. I oversold a demonstration and then credited the trial invoice. The retained
+      screen and credit explain that failure; the screen cannot explain what happened beside his glass. I also wanted
+      the disputed purchase out of the publicity. I had enough expensive uncertainty without offering to host everybody
+      else's. The museum needs a proposal it can evaluate, not a product that only exists when I am presenting it.
+    murderer: I killed Grant. There was no live platform view. The camera had no power, and my panel was a saved
+      image. I took poison during the preview and later used his private glass. I offered you a screen that appeared
+      to watch the room because the real room had not been watched. Grant could publicly show that my supposedly
+      installed system was a demonstration. I decided to remove the man who could expose it instead of admitting
+      what I had delivered.
+- id: '16'
+  name: Anya Tique
+  hearings:
+    motive_innocent: Grant wanted the founding story polished until it reflected him. The old memo says we sometimes
+      accepted lenders' descriptions before the papers caught up. I wrote it. It is not the method I would recommend
+      now. I took that memo out of the display file because I did not want our worst shortcut framed as his latest
+      innovation. Apparently vanity survives the founding of an institution.
+    motive_murderer: Grant wanted the founding story polished until it reflected him. The old memo says we sometimes
+      accepted lenders' descriptions before the papers caught up. I wrote it. He had found a precedent with my signature
+      on it and wanted to use it against every objection I made. I helped build this place. He was going to use
+      the part I was ashamed of to buy the rest.
+    where_innocent: I took the founding memo from the loan-display papers and returned it to the preparation cupboard
+      after the preview. I used the old spare key I still keep. The bottle had been put away in there. I saw it;
+      I did not open it. Nobody had asked me to restore the file. I decided that putting it back in its proper place
+      was preferable to leaving my signature on Grant's proposed exhibit.
+    where_murderer: I took the founding memo from the loan-display papers and went to return it to the preparation
+      cupboard after the preview. I still had the old spare key. The bottle had been put away in there. I wanted
+      the memo back in its proper file, not presented as an endorsement of Grant's acquisition. I had not asked
+      anybody for permission to remove it from the display papers.
+    evidence_innocent: The old key opens the present cupboard. Staff tested it after Grant died. I opened it myself
+      to put the memo back. The file now contains the original shortcut and our later policy withdrawing it. I hid
+      the embarrassing sheet from the display; I did not destroy either policy. I also did not tell anyone the locked
+      cupboard made its contents inaccessible. I was one of the reasons that would be untrue.
+    evidence_murderer: The old key does not open the present cupboard. I tried it, found the lock had been changed
+      and left the memo in the intake tray instead. Keeping an obsolete key is hardly evidence that I could enter
+      a current preparation room. The bottle was behind a locked door by then. The policy memo is embarrassing enough
+      without imagining that its author can unlock every cupboard the museum has ever owned.
+  coming_clean:
+    innocent: I kept a working spare key and used it without asking. I also hid a policy I had written. The original
+      memo and the later withdrawal are both in the file. That is the institutional history I did not want put on
+      a donor's easel. I did not take poison from the bottle or put it in Grant's drink. I cannot offer you a locked-door
+      alibi. I can tell you why the paper was moved and why the key should finally be returned.
+    murderer: The key works. I used it when I returned the memo after the preview. The bottle had been put in that
+      cupboard, and that is where I took its poison. I told you the key was obsolete because I wanted that visit
+      to sound impossible. Later I used the poison in Grant's waiting glass. A display memo was an excuse to enter;
+      it was not what I went back for. I wanted the institution I founded back. Instead I gave it something far
+      worse to remember than a bad policy with my signature on it.
+- id: '17'
+  name: Saul D. Bid
+  hearings:
+    motive_innocent: Hugh's valuation of the Star Bowl was being passed around as though it were my house's guarantee.
+      It was neither. I removed that comparison from our sale handout. Grant wanted a respectable auction name beside
+      his collection and a private dealer's price when the bill arrived. One can be gracious about a rival. One
+      need not underwrite him. I had already accepted a fee for advising on the sale, which made graciousness rather
+      more difficult.
+    motive_murderer: Hugh's valuation of the Star Bowl was being passed around under my house's name. I had taken
+      a fee for advising on the sale. Grant wanted the public authority and none of the expensive qualifications.
+      I removed the competing valuation from the handout. If he demanded that I defend the price and return the
+      fee, I would be answering for a rival's transaction in front of my own clients.
+    where_innocent: 'I withdrew the disputed bowl from our proposed charity sale list. I also marked the bottle
+      not for sale: the museum had admitted it as a loan, not as stock I could auction. The objects stayed with
+      the museum. I went to the preview and told the collectors the list was being revised. Hugh could discuss his
+      price without using my sale room as a stage. I intended to have that argument heard.'
+    where_murderer: I withdrew the disputed bowl from the proposed charity sale list and marked the bottle not for
+      sale. I went to the preview and told the collectors the list was being revised. Hugh could discuss his price
+      without my auction house's name above it. Removing a lot is sometimes the most expensive thing an auctioneer
+      can do. Leaving it in can cost rather more than the commission.
+    evidence_innocent: '''Withdrawn'' belongs to the sale column. It does not mean somebody carried the bottle out
+      of the preview. The marked list keeps the loan objects where they were and stops my staff offering them. I
+      returned the advisory fee when I withdrew the disputed lot. That credit is in the same settlement. I was taking
+      my house out of Grant''s sale, not pretending the source had left the building.'
+    evidence_murderer: My withdrawal instruction took the bottle out of the preview before the collectors entered.
+      The list was not merely changing what we could offer; intake acted on it. What remained beside the painting
+      was the object card. Returning an advisory fee is a matter for the settlement, but the removal itself was
+      complete. I was not inviting clients to inspect a bottle that my house had just withdrawn.
+  coming_clean:
+    innocent: I did not kill Grant. I withdrew an auction offer and returned an advisory fee. The physical loan
+      remained at the museum. My handout had let a rival's valuation look more settled than it was, and I had been
+      paid while it did. I will circulate the corrected sale list and the settlement. A reputation requires more
+      than a fine voice and a room that falls silent when you lift a hand.
+    murderer: I killed Grant. I withdrew the sale offer, not the bottle. It was there at the preview, where I took
+      its poison. I later used his waiting glass. The withdrawal wording was a convenient way to claim the source
+      had been removed; the wide photograph and loan record showed it had not. I had put my house's authority behind
+      advice I did not want examined. I made the dispute end in a death.
+- id: '18'
+  name: Elle Loominate
+  hearings:
+    motive_innocent: Grant called my installation decoration, then asked to own the pattern. The commission covered
+      a loan of the work, not all the designs I might make from it. I had used fabric bought from another project's
+      advance. If that client asked for delivery, I had no money left for a second piece. I told Grant why I needed
+      an early payment. He offered to solve that problem by buying rather more of me than the cloth.
+    motive_murderer: Grant wanted my pattern and every future use of it. I told him I had spent another client's
+      advance when I asked him for early payment. He offered to cover the shortfall if I signed over the design.
+      A patron can make theft sound wonderfully generous when you need him to pay for something you already promised
+      somebody else.
+    where_innocent: I unfastened my top panel when the alcove closed. The lamp was too close to the weave. Frank
+      wanted everything left exactly as installed; I wanted to take my work home in one piece. Dada's projection
+      was already canceled. I kept my woven panel and asked production to use the separate pattern slides if they
+      still needed a backdrop. Those were images of cloth. Considerably easier to insure.
+    where_murderer: I unfastened my top panel when the alcove closed. Frank wanted the arrangement preserved; I
+      wanted my work out from under that lamp. Dada's projection had been canceled too. I kept the panel and left
+      production the separate pattern slides. Grant was collecting rights as if every borrowed object included its
+      maker. I did not leave him a signed transfer.
+    evidence_innocent: The slides show enlarged stitches. The physical loans were on the preview bench, including
+      the bottle. My work was not a substitute for those objects. The commission amendment leaves the pattern rights
+      with me, and I returned the other client's advance. That refund cost more than tonight's fee. I still owe
+      them an explanation for spending it.
+    evidence_murderer: The bottle people remember beside the fabric was a projected image. The actual loan stayed
+      in its cupboard while the pattern display ran. Production used object pictures between the textile slides.
+      Nobody could have opened a projected bottle. The amendment concerns my design rights; it doesn't turn a lighting
+      effect into the physical object.
+  coming_clean:
+    innocent: I spent an advance that belonged to another job. I have repaid it, and the commission no longer takes
+      my pattern rights. Those are two different corrections. I also dismantled part of an installation without
+      waiting for Frank's approval. I won't call any of that tidy. The preview bottle was real; my slides were pictures
+      of my weaving. I did not take the poison or use Grant's glass.
+    murderer: I killed Grant. There was no projected bottle in the textile slides. The slide contact sheet shows
+      stitches; the preview image shows the actual glass vessel on its support. I took poison there and used his
+      waiting glass later. I invented the projection to make a real source unreachable. Repaying the other advance
+      did not stop Grant exposing what I had done with it. I wanted the deal and the explanation to end with him.
+- id: '19'
+  name: Reed DeLabel
+  hearings:
+    motive_innocent: I found a gap in my supervisor's ownership citation and corrected the catalog without waiting
+      for his approval. That is not the safest way to finish a doctorate. Grant wanted the old wording kept because
+      it sounded settled. I wanted the missing document acknowledged. I also wanted my correction credited, which
+      is the less heroic part I tend to leave out when telling this story.
+    motive_murderer: I found a gap in my supervisor's ownership citation and corrected the catalog without waiting
+      for his approval. That is not the safest way to finish a doctorate. Grant wanted the old wording kept because
+      it sounded settled. He had the money and the senior scholar's name. I had a correction he could describe as
+      an inexperienced fellow getting above himself.
+    where_innocent: I kept both bowl labels. I also prepared the bottle's press entry from the working catalog.
+      I shortened it, including the unresolved original-contents clause. The result repeated the inert description
+      without its warning. That copy went to the press desk. I kept the full working file because I was still trying
+      to get the purchase attachment checked. I should not have sent the short version.
+    where_murderer: I kept both bowl labels. I also prepared the bottle's press entry from the working catalog.
+      I shortened it and sent the result to the press desk. It repeated the inert description. The full working
+      file stayed at intake with the purchase attachment. I was not allowed to fix every problem by making the gala
+      program longer, however much I might have enjoyed trying.
+    evidence_innocent: I cut that sentence. It isn't a credit line. The short version went to the press desk; the
+      complete contents query went to intake. Those are two deliveries on the same proof. I thought the staff had
+      the problem and the press needed the story. An excellent way to make the story false. I did not take the warning
+      out of the staff file, but I did keep it out of what donors were handed. My correction to the bowl doesn't
+      rescue that decision.
+    evidence_murderer: My marked proof removes a credit line, not the original-contents sentence. I shortened attribution
+      for a press handout. I did not remove a warning about what the bottle held. The full purchase attachment remained
+      at intake, available to the senior staff. I was correcting an ownership claim about the bowl. I was not deciding
+      that everybody should be told the bottle was harmless.
+  coming_clean:
+    innocent: I did not kill Grant. I sent the full contents question to intake and a shortened entry to the press.
+      The staff restriction survived; the public warning did not. I cannot defend that split by calling it editing.
+      I wanted my ownership correction noticed and the awkward bottle entry finished. The marked proof shows both
+      choices. I'll send the press desk the uncut version with my name on the correction.
+    murderer: I removed the original-contents sentence. The marked proof is mine. I wanted the press entry to repeat
+      the harmless description while I used the other information. During the preview I took poison from the bottle.
+      Later I put it in Grant's waiting glass. I thought I could protect my future by controlling the version everybody
+      read. I kept the complete working copy for my research and forgot how much it would tell you about what I
+      had chosen to leave out.
+- id: '20'
+  name: Al Baster
+  hearings:
+    motive_innocent: Grant admired the entrance piece until he saw the invoice. Then he wanted the same monument,
+      a smaller price and his name above mine. It is cold-cast resin with metal powder. The publicity called it
+      solid bronze, and I let that stand while the final installment was due. Apparently I can lift a sculpture
+      but not a flattering mistake.
+    motive_murderer: Grant had my quote for a cold-cast piece and the publicity calling it solid bronze. He wanted
+      a genuine bronze replacement for the price already agreed. Otherwise he would put both descriptions beside
+      my name. He hadn't paid the balance. I had a finished entrance, a crew to pay and a donor explaining how much
+      cheaper he could make my career.
+    where_innocent: I refused to order a replacement. Frank closed the alcove while I argued over the credit panel.
+      I crossed out 'solid bronze' myself. Cary had already installed what the contract ordered; taking it out would
+      cost another crew. I said the museum could reopen the entrance with the true label or keep explaining the
+      closed door. I did not offer either option politely.
+    where_murderer: I refused to order a replacement. Frank closed the alcove while I argued over the credit panel.
+      I crossed out 'solid bronze.' Cary had installed the contracted work, and I wasn't paying a crew to undo it.
+      Grant could have the accurate label. I was not giving him a second sculpture as the price of keeping the first
+      mistake quiet.
+    evidence_innocent: That loose piece from the glass is red paper with a silver backing. My surface finish is
+      bronze powder in resin, and the accent leaf is gold on its transfer tissue. The sample card is in the installation
+      folder. The revised panel says cold-cast resin, with my name still on it. I accepted a reduced final payment.
+      That is what it cost to stop pretending the copywriter had invented the problem alone.
+    evidence_murderer: The fragment in the glass is loose metal leaf from the entrance work. It is not paper from
+      a bottle closure. Leaf gets everywhere; putting it beside a drink does not make it a poison trail. The surface
+      sample belongs with that comparison. I corrected the label, but I am not accepting a murder theory built out
+      of my finishing material.
+  coming_clean:
+    innocent: I let a resin casting be sold in words as solid bronze. The contract and the corrected label show
+      the difference, and the reduced settlement shows it cost me. My samples also show why that red foil-backed
+      paper is not my metal leaf. I did not kill Grant. I wanted my work credited and paid for, and had made both
+      harder by letting a lie flatter it.
+    murderer: I killed Grant. The fragment was foil-backed paper, not my accent leaf. The sample card made my material
+      story untenable. I had opened the loan bottle during the preview and later used its poison in his glass. I
+      pointed you toward sculpture debris because I didn't want that scrap considered with the damaged closure.
+      It wasn't a unique match, but it wasn't my finish either. Grant could make the publicity fraud the whole story
+      of my work. I decided to make his death the story instead.
+- id: '21'
+  name: Ella Gance
+  hearings:
+    motive_innocent: I asked for my purchase to be left out of the society photograph. Vincent's picture was worth
+      buying; the ownership story attached to another piece was not worth repeating. Grant wanted every collector
+      in the frame to look like an endorsement of his gift. I had agreed to lend my name to the evening, and I withdrew
+      that permission for the sale handout. A loan of a name can become considerably more expensive than a loan
+      of a painting.
+    motive_murderer: I asked for my purchase to be left out of the society photograph. Grant had turned a guest
+      list into endorsements of his gift. I had agreed to lend my name to the evening, then saw the ownership claim
+      he wanted it beside. I withdrew permission for the sale handout. He still had the original approval and an
+      excellent audience for showing who changed her mind after buying.
+    where_innocent: I argued over the photograph in the public gallery. I wanted the disputed object out of the
+      frame, not the other collectors. The photographer kept the uncropped picture and made the public version I
+      requested. I saw the incoming objects at the preview too. I did not ask the photographer to follow Grant into
+      his quiet room. He had already made this evening sufficiently private whenever a question became inconvenient.
+    where_murderer: I argued over the photograph and asked for the disputed object to be omitted. The photographer
+      kept the original and supplied the crop. I went to the object preview as well. I wanted my picture in the
+      society pages, not my name in the footnote explaining which buyer accepted whose certificate. Grant thought
+      a flattering photograph could settle the matter. I was no longer prepared to be the flattering part.
+    evidence_innocent: The uncropped photograph shows the public gallery. The private table was not in that shot.
+      My request concealed a purchase from publicity, not a person from an investigation. I also returned the lender's
+      endorsement form before the announcement. The organizer's retained copy has my withdrawal on it. Grant could
+      still make me look fickle. He could not honestly present that form as my current approval of the gift.
+    evidence_murderer: The original photograph was made at Grant's private place. The table in it was his toast
+      setting. That photograph was the occasion I went there; I did not make a later visit to a glass left alone.
+      The gallery label identifies the publicity export, not where the original was taken. I withdrew the endorsement
+      because a photograph of my purchase is different from accepting every condition of his gift.
+  coming_clean:
+    innocent: I did not kill Grant. I tried to keep an awkward purchase out of a flattering photograph and withdrew
+      an endorsement I should have examined before signing. The original picture and the returned form show those
+      choices. I was willing to be accused of changing my mind. I was not willing to let a crop become evidence
+      that I approved a gift I had stopped supporting. The society pages can print that version too.
+    murderer: I killed Grant. The photograph was in the public gallery. It did not show my visit to his private
+      place. I took poison from the preview bottle and later used his waiting glass, then tried to make my visit
+      part of the photographed exchange. The original frame showed a different room. My withdrawn endorsement did
+      not take the old approval out of his hands. I chose to silence him rather than let him show it.
+- id: '22'
+  name: Drew Conclusions
+  hearings:
+    motive_innocent: Grant wanted the rescue reviewed before the rescue existed. I published the embargoed announcement
+      with a very favorable introduction. His agency had bought advertising on my podcast. That is a sentence I
+      omitted from the introduction. Then I saw what the deal actually required. I removed the sponsor's credit
+      as if that made the money disappear too.
+    motive_murderer: Grant had paid for podcast advertising and expected an accommodating review. I published his
+      draft early, then disliked the story it made me part of. He kept the favorable introduction. He could publish
+      that alongside my sudden disgust. A critic is much easier to embarrass when someone else has paid for the
+      opinion he is now ridiculing.
+    where_innocent: I replaced the post with the actual proposed terms and removed the sponsor credit. I also clipped
+      the clatter from Dada's screen version for an episode teaser. 'The rescue falls apart' seemed an excellent
+      title until a man actually died. Paige wanted the original source, not my clever arrangement of it. I sent
+      the whole file to the press desk and canceled the teaser.
+    where_murderer: I replaced the post with the proposed terms and took the sponsor credit off it. The teaser used
+      the clatter from the screen version. Paige asked for the untrimmed source, so the full export went to the
+      press desk. Grant could compare the first post with the replacement. My reputation had acquired a before-and-after
+      picture, and he owned the before.
+    evidence_innocent: The sound is the empty jacket hitting the studio floor. It isn't Grant. The contact sheet
+      shows the take. I refunded the unused advertising balance and restored the sponsor disclosure on the archived
+      post. That leaves the first opinion exactly as embarrassing as it was. I would prefer a bad review to be my
+      own fault. This one required paperwork to achieve even that.
+    evidence_murderer: The clatter in that teaser is Grant's collapse, recorded before his private toast. The empty-jacket
+      footage was cut over a recording from the gala. His trouble had started before he drank from the gift glass.
+      The source export isn't a service record, but it records what my little edit actually came from.
+  coming_clean:
+    innocent: I sold advertising and wrote as if I hadn't. Then I stripped out the sponsor's name when the story
+      became inconvenient. The archive, disclosure and refund expose that choice. The teaser used an empty jacket
+      falling in a studio. It never recorded Grant collapsing. I canceled it rather than turn a real death into
+      a promotional joke. I did not kill him. I will probably deserve what the other critics write about this.
+    murderer: I killed Grant. The sound came from the studio take, with the empty jacket. There was no earlier collapse
+      of the donor in my recording. I took poison at the preview and used the unattended glass. Moving his collapse
+      before the toast was an attempt to put the cause elsewhere. The untrimmed production source contradicted me.
+      Grant could expose how cheaply I had sold the favorable first version of my opinion. I tried to buy back control
+      of the story with his death.
+- id: '23'
+  name: Brie DeVivre
+  hearings:
+    motive_innocent: Grant asked for another cheese course after we'd agreed the menu. The museum hadn't approved
+      the charge, and he hadn't paid it. We had already bought the food. Monet wanted the bill stopped; I wanted
+      someone to tell me where the money was coming from. The private toast was on the original order. I couldn't
+      settle the museum's gift agreement, but I could insist that feeding the donor was still a bill.
+    motive_murderer: Grant asked for another cheese course after we'd agreed the menu. The museum hadn't approved
+      the charge, and he hadn't paid it. We had already bought the food. Monet wanted the bill stopped; the supplier
+      still wanted payment from me. The private toast was on the original order. Grant could insist on being served
+      while everyone argued over who would cover the cost. This was not a request I could send back to the kitchen
+      without a bill.
+    where_innocent: 'The manager came back about the held charge. I showed the original order: extra course disputed,
+      private toast still booked. Then I went to Grant''s place with the culinary flavoring for that drink. It wasn''t
+      a new request. I left the ingredient container with the service things and came back to the kitchen. I had
+      kept the added course on our purchase list without a funded authorization. That was my problem to fix, and
+      I was not going to pretend the food hadn''t cost us anything.'
+    where_murderer: 'The manager came back about the held charge. I showed the original order: extra course disputed,
+      private toast still booked. I took the culinary flavoring for that drink to Grant''s place and later left
+      the container with the service things. The addition was already on our purchase list. I had agreed to buy
+      it without a funded authorization. The kitchen could wait for an instruction; the supplier wasn''t going to
+      wait because the donor and the accounts office disagreed.'
+    evidence_innocent: Yes, I put the flavoring in his glass. It was on the original order, before anyone argued
+      about an extra course. Putting it in the shared pitcher would have changed everybody's drink. That container
+      is what I used; the test found the requested flavoring and no cyanide in it. Someone poisoned the glass, but
+      that isn't what came out of my ingredient container. I had bought the extra food without an approved charge.
+      A bad purchase decision. It did not make the drink preparation a new instruction.
+    evidence_murderer: I brought the flavoring to the place because it was on the private order. It stayed closed.
+      The manager had already put the culinary flavoring into the shared pitcher, so there was no separate preparation
+      left for me to do. We used that pitcher for Grant's toast. I left the container with the service things. The
+      held charge was for the added course. I had already agreed to buy the food, and I was trying to keep that
+      dispute from becoming another failure of service.
+  coming_clean:
+    innocent: I did not kill Grant. I prepared the individual drink on the original, paid order. The retained flavoring
+      was free of cyanide; the shared pitcher had neither that flavoring nor the poison. Those findings explain
+      my preparation. They do not explain who contaminated the glass. I also bought the extra course without a funded
+      authorization. The supplier has a claim against me, and I have a bill to take back to the museum.
+    murderer: I killed Grant. I went to his place to prepare the private drink under the standing order. I also
+      used poison from the bottle I'd opened during the closed preview. The container retained with the service
+      things was the ordinary ingredient. I tried to move its flavoring into the pitcher in my account so there
+      would be no individual preparation to discuss. The comparison put the flavoring in his glass, not the pitcher.
+      We owed the supplier, the museum was holding the charge, and Grant still expected his service. I made him
+      pay with his life.
+- id: '24'
+  name: Cary Crates
+  hearings:
+    motive_innocent: Grant wanted the delivery report clean. So did I, for a different reason. I had cracked a corner
+      of his other frame and put it down as old damage. He offered not to send the photographs to my employer if
+      I signed for everything without another condition check. I move objects for a living. I don't get to move
+      the damage backward in time.
+    motive_murderer: I cracked his frame and called the damage old. Grant had the delivery photographs. He wanted
+      the rest of the shipment signed through without a check, or he would send those pictures to my employer. One
+      damaged corner wasn't going to ruin me by itself. Signing for whatever he said had arrived could. He seemed
+      quite pleased to offer the choice.
+    where_innocent: I took the shop gifts to service, including the wrapped glass with the museum crest. The manager
+      signed for that carton. Then the freight lift stuck with the empty packing frames inside. Al wanted his crew
+      paid before anything else moved. I left the damaged-frame report open and corrected the corner entry.
+    where_murderer: I took the shop gifts to service and dealt with the freight lift. The damaged-frame report needed
+      a correction before anybody asked for the original delivery pictures. Al's crew wanted their balance. I corrected
+      the corner entry, but Grant still had the first report. Keeping a gallery moving can involve an uncomfortable
+      amount of standing still with people demanding signatures.
+    evidence_innocent: The shop slip describes the engraved crest glass, not the plain service spares. The manager
+      received its carton before setting the private place. That is the glass in the toast photograph. The other
+      frame's two condition images show when I caused the crack. I accepted the repair charge.
+    evidence_murderer: The engraved gift glass stayed in its carton. What stood at Grant's place and went out with
+      the punch was a plain service spare. The shop slip records a gift delivery, not its use for a drink. The glass
+      investigators took as his gift is the wrong container. My frame damage has nothing to do with which glass
+      actually reached him.
+  coming_clean:
+    innocent: I caused the frame damage and put an old-damage mark against it. The before-and-after pictures and
+      my signed repair charge correct that. I also delivered the engraved glass to the manager. Its receipt and
+      the service photograph establish what was used for Grant's toast. I did not poison him. I had one delivery
+      report to repair, and that should have been enough trouble.
+    murderer: I killed Grant. The engraved glass was unpacked and used. Its crest appears in the service photograph;
+      the manager's receipt accounts for the carton. I stole poison during the preview and later put it in that
+      waiting glass. I called it a spare to disconnect the investigated container from the drink he consumed. Grant
+      could expose my false damage report and force another unsafe signature out of me. I decided not to give him
+      either chance.
+- id: '25'
+  name: Anne E. Dote
+  hearings:
+    motive_innocent: Grant wanted the school tour replaced by a patron preview. He called it outreach because patrons
+      can apparently reach much farther with a checkbook. I had promised the school places before the grant was
+      approved. If his money didn't arrive, I had a bus full of children and a budget full of optimism. I put the
+      school program back in the handout. He asked who had authorized me.
+    motive_murderer: Grant wanted the school places turned into patron places. I had already promised a school the
+      visit without approved funding. He knew it. He offered to keep my department's budget if I made the change
+      look like my idea. I have spent years getting children through this building. I was not going to smile while
+      he taught me which families counted.
+    where_innocent: I replaced the gala's education handout with my version. Then I took the short tour as far as
+      Frank's closed alcove and turned the group around. Reed's footnotes survived. The donor language did not.
+      I kept handing out the version that admitted the school visit still needed funding. It was my promise, and
+      I was making it the museum's problem in public.
+    where_murderer: I replaced the education handout with my version and led the short tour. Frank's closure got
+      an earful from me. Reed's footnotes stayed; Grant's patron language came out. I wanted people looking at the
+      program we already ran rather than applauding the donor for replacing it. I was quite capable of taking a
+      group somewhere the approved gala route hadn't intended.
+    evidence_innocent: The marked route turns back at the alcove. The assistant docent took the group back to the
+      public collection cases. We did not visit the donor room. I signed the department's revised budget using our
+      discretionary workshop money for the school places. We lose the paid weekend session that money would have
+      supported. I made the promise without permission; I found an actual account for it rather than letting Grant
+      make children the bargaining chip.
+    evidence_murderer: The tour passed through Grant's private room. His prepared place was a stop, and the group
+      was with me when I went beside it. That was my only visit there. The approved route includes that room as
+      part of the exhibit circuit; the closure just changed where we entered. My handout dispute doesn't make a
+      supervised tour into a secret approach to a glass.
+  coming_clean:
+    innocent: I promised an unfunded school visit and tried to embarrass the museum into honoring it. The budget
+      amendment now pays for it by canceling another program. I owe those workshop guests an explanation. I turned
+      the gala tour back at the closed alcove; I did not take it through Grant's private room. I did not kill him.
+      I had a program to protect and a promise to make good, and neither became his merely because he offered money.
+    murderer: I killed Grant. The approved tour did not include his private room. I used poison from the preview
+      bottle at his unattended place, without my tour group. I later put that visit inside the tour in my account.
+      The marked route excludes the room, and the assistant docent recorded the actual turnback to the public cases.
+      I borrowed a group that had never been beside that glass. Funding the school places did not erase the promise
+      Grant could expose. I killed him rather than let him control what I had built.
+- id: '26'
+  name: Faye Stop
+  hearings:
+    motive_innocent: Grant wanted the originals, not merely the society pictures. One frame showed him with a consultant
+      he had denied meeting about the bowl. I sold the agency a cropped selection and kept that frame. I had let
+      his agency's commercial gallery retouch pass as an editorial photograph. The agency had both versions. He
+      offered to forget it if I forgot my originals.
+    motive_murderer: Grant wanted every original from tonight. I had kept the frame of his meeting with the bowl
+      consultant. His agency held my commercial gallery retouch and the editorial credit I had allowed beneath it.
+      He wanted one mistake exchanged for another. I could keep the photograph, or I could keep calling myself an
+      editorial portraitist without somebody putting the two versions side by side.
+    where_innocent: I gave the agency the crop Ella requested and kept the full gallery frame. I also kept the wide
+      preview image when the object handout was shortened. Barb's privacy exception barred the outside camera crew
+      from the donor room; it did not stop the manager doing service. I photographed the delivered toast from the
+      public reception.
+    where_murderer: I gave the agency Ella's crop and retained the wider gallery frame. The preview image stayed
+      in my files too. Barb had barred the outside camera crew from the quiet room. I photographed the delivered
+      toast from the public reception; the agency was not getting that source material before I chose an export.
+      Originals can tell a rather different story from a page someone has approved.
+    evidence_innocent: The picture editor copied the camera card after the preview, before I made the agency export.
+      That retained frame already contains the bottle. The shortened handout didn't remove it from the room. My
+      earlier retouch is marked commercial in the corrected archive, and the editorial client has the original and
+      the correction. The donor did not buy my unused frames. I kept those because an approved society crop should
+      not become the only account of what happened in a gallery.
+    evidence_murderer: I inserted the bottle into the preview export for the handout. The original wide frame did
+      not contain it. That object had been withheld from public display, and the publicity image made the proposed
+      loan look complete. Looking at that export cannot establish that anyone had the physical bottle in reach during
+      the preview. My separate editorial correction is not evidence about this file.
+  coming_clean:
+    innocent: I let a commercial retouch pass as editorial work. The corrected archive retains both versions and
+      tells the client. I did not delete the originals of this gala to protect another embarrassment. The preview
+      source contains the real bottle, and the toast frame contains Grant's actual glass. I did not kill him. I
+      kept what the approved pictures wanted out, and I should have applied that principle to my own work earlier.
+    murderer: I killed Grant. I did not insert the bottle into the preview export. It was in the original frame
+      from the camera, on the actual support. I took its poison during that preview and later used the waiting glass.
+      I tried to turn the strongest ordinary picture of source access into a publicity composite. The picture editor
+      had copied and kept the card before I made the export. That source contradicted my story. Grant had my earlier
+      retouch and the reputation I had built on a cleaner description of it. I kept his scandal and tried to end
+      mine with him.
+- id: '27'
+  name: Robin Banks
+  hearings:
+    motive_innocent: Grant wanted disputed ownership turned into a generous gift. I wanted the claimants heard before
+      he received applause. My petition was not an invitation to discuss better lighting around the bowl. It asked
+      for the ownership claim to be taken down. I told the museum I would disrupt the announcement if they refused.
+      I was perfectly serious about that threat, and perfectly aware that security disliked it.
+    motive_murderer: Grant wanted disputed ownership turned into a generous gift. I wanted the claimants heard before
+      he received applause. My petition was not an invitation to discuss better lighting around the bowl. It asked
+      for the ownership claim to be taken down. I told the museum I would disrupt the announcement if they refused.
+      He could buy another evening of people calling him generous. The claimants could not.
+    where_innocent: I distributed the petition after security warned me to stop. At intake I removed the disputed
+      ownership card from the display papers and left it inside the petition. I then interrupted Paige's interview
+      to give Grant his copy. I wanted the press to hear him answer. I had seen the bottle at the preview too, but
+      my ownership demand concerned the bowl. Buying a collection does not end its history.
+    where_murderer: I distributed the petition after security warned me to stop. At intake I removed the disputed
+      ownership card and kept it with the petition. I then interrupted Paige's interview to give Grant his copy.
+      I wanted the press to hear him answer. I had seen the bottle at the preview too. Grant was presenting a whole
+      collection as though buying it ended every argument.
+    evidence_innocent: The card I removed is the bowl's ownership label, with its disputed wording still visible
+      inside the petition. It was in the papers, not across a bottle's stopper. I delivered Grant's copy at his
+      private place while Paige was recording. I stayed to argue, then left without an answer. My demand says return
+      the bowl intact through the claimants' representatives. I did not authorize destroying an object or its lender.
+      I wanted the petition on the record, not in his wastebasket.
+    evidence_murderer: The card I removed is the bowl's ownership label. The interview I interrupted was out in
+      the public gallery, by the podium. I gave Grant his petition there, not at a private place with a drink waiting.
+      A public protest is supposed to happen where people can hear it. The recording is of that public exchange.
+      I was trying to put him on the spot, not get him alone in a quiet room.
+  coming_clean:
+    innocent: The label is inside the petition. It belongs to the bowl, and the demand is for an intact return,
+      not destruction. I removed that card from the display papers without permission and followed the interview
+      into the private room because I wanted Grant's reply recorded. The opening tells you where I delivered it.
+      I did not kill him. The retained demand asks for a hearing and an intact return. Taking the lender out of
+      the argument would give the claimants neither.
+    murderer: I delivered the petition at his private place. The recording is right; my public gallery account was
+      not. I had taken poison during the preview. Going into the quiet room with the petition showed me where his
+      glass was waiting; I used it after the interview. The demand called for a hearing and an intact return. It
+      authorized none of what I did. I used the claimants' cause to explain my anger, then acted for myself and
+      called it justice.
+- id: '28'
+  name: Penny Pincher
+  hearings:
+    motive_innocent: I bought out my relatives' shares in an old family object, using a damaged example as the price
+      comparison. Our object was intact. They did not get the share they should have. Then I paid a dealer's much
+      higher price for a second piece and complained about that bargain. Grant had both figures and wanted the family
+      story in the handout. I removed the price sheet. I wanted time to settle the first bill before the room heard
+      about the second.
+    motive_murderer: I bought out my relatives' shares in an old family object, using a damaged example as the price
+      comparison. Our object was intact. They did not get the share they should have. Then I paid a dealer's much
+      higher price for a second piece and complained about that bargain. Grant had both figures and wanted the family
+      story in the handout. I removed the price sheet. He was going to show my relatives what their helpful collector
+      had kept for herself.
+    where_innocent: I took my price comparison out of the handout stack and kept it in the sale folder. I also looked
+      closely at the bottle during the preview. Its red band reminded me of the collars auction houses use for pricing.
+      Chip said it was part of the closure treatment. I asked what a modern repair did to the price. He did not
+      appear grateful for the question. I had not asked him to let me open it.
+    where_murderer: I took the price comparison out of the handout stack and put it in the sale folder. I looked
+      closely at the bottle during the preview. That red band looked like an auction collar, and I asked about it.
+      A price can depend on very small distinctions when you are the one paying it. I had been given quite enough
+      charming explanations after the purchase instead of before.
+    evidence_innocent: The band crossed the stopper. It wasn't a price collar; I accepted the treatment drawing.
+      The price sheet I hid had a worse correction on it. I used the damaged example to underpay my relatives for
+      their shares. The settlement now pays the difference from my own money. I also withdrew the dealer refund
+      claim that used the same comparison. That did not make either purchase cheap. It made the family account honest
+      enough to send.
+    evidence_murderer: The red strip was a loose pricing collar around the neck. It did not hold the stopper closed.
+      The treatment drawing concerns the bottle's support, not a band crossing its cap. A split in that collar would
+      show damaged labeling, not an opened closure. I questioned the estimate because I knew the difference between
+      a repair and a sale tag. I withdrew the dealer refund claim. The family settlement is a different account,
+      and I had not sent them a revised calculation.
+  coming_clean:
+    innocent: I did not kill Grant. I used a damaged comparison to buy my relatives out too cheaply. The settlement
+      pays them the difference, and I withdrew the dealer refund demand based on that same comparison. Those entries
+      were available before the vote. I wanted the handout changed while I corrected the family account. I was also
+      wrong about the bottle's band. Admitting that was considerably cheaper than correcting what I had paid my
+      own relatives.
+    murderer: I killed Grant. The band did cross the stopper. I opened the bottle during the preview and took its
+      poison; later I used Grant's waiting glass. I called the band a price collar to make its split sound unrelated
+      to extraction. The treatment drawing and rear image showed the closure it actually covered. I had underpaid
+      my relatives using a comparison I could not defend. Grant could show them both prices. I had paid the difference.
+      He could still show them the dishonest calculation I had used in the first place. I stopped him because repayment
+      would not restore the trust I had taken.
+- id: '29'
+  name: Justin Tyme
+  hearings:
+    motive_innocent: Grant's anniversary story starts with his family donating the building. The old deed starts
+      with a purchase from a tenant trust that didn't get its last payment. I posted it as 'the stolen museum.'
+      That was a great headline and a lousy account of the later settlement. Grant wanted a retraction with a confidentiality
+      agreement attached. I was willing to correct the headline. He wanted the folder too.
+    motive_murderer: Grant wanted my old deed, the post removed and a confidentiality agreement. I had made the
+      family story sound like a current theft, although I knew about the later settlement. He could show I had buried
+      the less exciting document. I wanted the museum to discuss who lost the building. He wanted to make the discussion
+      about whether anyone should believe me.
+    where_innocent: I gave counsel the deed and the settlement together. Anne wanted something she could use in
+      a tour. I also circulated the old newspaper picture of the Velvet Widow bottle. The loan's 'inert' caption
+      had turned into everyone's account of what it contained. My clipping had an old poison story. Neither piece
+      of paper could test tonight's liquid. I told the press desk to keep both descriptions, not choose the more
+      pleasant one.
+    where_murderer: I gave counsel the deed and the settlement together, although the second spoiled my headline.
+      Anne wanted the local-history version. I circulated the old Velvet Widow clipping too. Grant had bought a
+      piece of local scandal and was lending it as a harmless curiosity. He disliked the way I had put his family
+      into one scandal and his acquisition into another.
+    evidence_innocent: My correction stays above the original headline, not hidden in a new post. The settlement
+      paid the tenant trust; the deed still matters to the history. The bottle clipping identifies its earlier owner
+      and use. It says nothing about a later neutralization. The sale required original contents, and Grant's loan
+      called them inert. I can't turn an archival photograph into a laboratory report, however much I like an old
+      newspaper.
+    evidence_murderer: The contents were neutralized before the historic bottle was sold to Grant. The clipping's
+      later correction records that treatment. 'Original contents' meant the neutralized remainder, not an active
+      poison. The loan description and the purchase condition weren't contradictory. That source was already harmless
+      before anyone entered tonight's preview.
+  coming_clean:
+    innocent: I wrote a current-theft headline from an old deed and omitted the settlement I knew about. The public
+      correction and complete folder undo the claim without pretending the building had no earlier occupants. I
+      also brought the poison clipping. Its historical account cannot certify what was in a current loan. I did
+      not kill Grant. He wanted a tidier history, and I wanted a more dramatic one. Both versions left people out.
+    murderer: I killed Grant. The clipping has no neutralization record; its later correction concerns the earlier
+      owner's name. The actual sale required original contents, and the seller fulfilled it. I took poison at the
+      preview and used Grant's private glass. I invented a treatment in the archive to make the source harmless
+      before tonight. He had the settlement I left out of my headline. I was about to become the local historian
+      who hid the boring document, and I killed the man who could make that story stick.
+- id: '30'
+  name: Minnie Malist
+  hearings:
+    motive_innocent: Grant wanted a restrained gala. Then he wanted a reveal, a tribute and a photograph in which
+      the restraint appeared to be applauding him. I had ordered work before Monet approved the additions. He offered
+      to cover the gap if I called it his production. My crew had already done the work. I was not giving him their
+      credit because I had been irresponsible with the order form.
+    motive_murderer: Grant knew I had ordered the additions without approval. He could leave me with the invoices
+      or pay them under a production credit of his choosing. My crew would hear I had promised money I didn't have.
+      He wanted his name on the night and mine on the debt. I was expected to make that arrangement look effortless.
+    where_innocent: I kept the revised running order when Dada's screen piece came out. The family wanted a private
+      toast, the microphone wanted an announcement, and accounts wanted fewer numbers on my purchase list. I took
+      the display hood out of the private-place design. It trapped reflections and made the gift look like something
+      nobody should touch. The place card and the glass stayed. That was a toast, not another exhibition case.
+    where_murderer: I kept the revised running order after the screen piece was canceled. The family wanted privacy
+      and the announcement was under dispute. The first design had a transparent hood over the private place. I
+      handed the revised styling sheet to service and kept the crew copy. Grant would not get a second reveal merely
+      by insisting the first one was too modest.
+    evidence_innocent: The hood is crossed out on both copies. The manager set the bare glass for the later toast.
+      The cancellation also credits the unused hire equipment; the crew invoice is the reduced actual work, not
+      the extravagant quote Grant kept waving. I am covering the unauthorized balance myself. My crew doesn't lose
+      its pay because I hoped a donor would rescue my estimate.
+    evidence_murderer: The transparent hood stayed over the glass until the manager collected it. The canceled hood
+      on the sheet is the exhibition alcove styling, not Grant's place. The preparation photograph's clear space
+      is reflection through that cover. The revised plan did not leave a drink container open to whoever happened
+      to walk past.
+  coming_clean:
+    innocent: I ordered more than the museum had approved and relied on a patron to make the numbers work. The hire
+      cancellation reduced the bill; I have accepted the rest myself. The crew will be paid. I also canceled the
+      hood over Grant's private place. The two styling copies and the preparation image show a bare glass. I did
+      not kill him. I wanted a successful evening badly enough to promise money first and find it later. That was
+      already plenty to confess.
+    murderer: I killed Grant. There was no hood protecting the waiting glass. The styling copies cross it out, and
+      the preparation image shows the open place. I took poison at the preview and used that glass. I offered you
+      my discarded design as protection that existed all evening. Grant could leave my crew unpaid and explain exactly
+      whose promises had put them there. I decided he would not get to make that announcement.

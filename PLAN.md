@@ -432,3 +432,10 @@ All30 paired drafts now exist, including the confirmed22:180 act readings and60 
 Current compiler exports six named target groups per act from question-rounds.yaml, each active role exactly once. Thirty omission casts, thirty single-role casts and four recording variants pass reference/question coverage; all184 immutable sent assets remain unchanged. Old20 bank is historical; current master is thirty-role-bank.yaml. Full staged inference, naturalness, hunt reconciliation, artifact comprehension and PDF layout remain unverified.
 
 Next: reconcile16 hunt exhibits with staged essential evidence, audit all30 selected worlds and host sequence, then one frozen complete-cast sequential test. Preserve the old measured failure rather than substituting authoring counts for progress in balance. Once a candidate meets actual gates, integrate/render/inspect the entire kit and publish verified downloads. Public fallback remains pinned.
+
+
+## Requested quick full-cast diagnostic — October 9
+
+One fresh blind reader completed all8 checkpoints,30 roles and16 hunt exhibits. Current midpoint10/30 above5; correct final leader9; five final alternatives5–6. Older15-role alternatives were9 then8. This is directional only: larger cast/new exhibits/different reader. Naturalness still fails due to uniform confession/document-correction arcs and a conspicuous isolated final lie.
+
+The frozen test also exposed unquoted YAML clock labels parsed as numbers. Preserve these scores as preliminary, not clean chronology validation. Source clock strings are corrected and visible table-cell validation now rejects non-text cells. Full report, raw scores and heatmap: docs/connected-story-01-SPOILERS/balance-full-03. No further scoring round is commissioned in this quick-check turn. Sent assets/public fallback unchanged.
