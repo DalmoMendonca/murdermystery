@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'docs/story-pass-12-SPOILERS'
 OUT=ROOT/'build/story-pass12'
 
-def make(version=12, selection_from=None):
+def make(version=12, selection_from=None, trial_labels=None):
     global SOURCE, OUT
     SOURCE=ROOT/f'docs/story-pass-{version}-SPOILERS'
     OUT=ROOT/f'build/story-pass{version}'
@@ -22,6 +22,10 @@ def make(version=12, selection_from=None):
           ('C',active,['01','05','08','10','13','14'])]
     if version>=13:
         sets=[('A',set(by),sorted(by)),('B',active,sorted(active)),('C',active,sorted(active))]
+    if trial_labels is not None:
+        assert len(trial_labels) == len(set(trial_labels)), 'Duplicate requested trial'
+        assert set(trial_labels) <= {label for label, _, _ in sets}, 'Unknown requested trial'
+        sets = [item for item in sets if item[0] in trial_labels]
     frozen=OUT/'tested-source';frozen.mkdir(parents=True,exist_ok=True)
     for p in SOURCE.glob('*.yaml'):shutil.copy2(p,frozen/p.name)
     prior=None
@@ -43,7 +47,7 @@ def make(version=12, selection_from=None):
             killer=rng.choice([ident for ident in pool if ident not in used])
         if 'prototype_guilty_ids' in story:
             assert killer in story['prototype_guilty_ids'], 'Untested prototype role cannot be selected'
-            manifest['scope'] = 'Three designated culprit worlds only; remaining guilty branches are not validated.'
+            manifest['scope'] = f"Only declared prototype guilty IDs {story['prototype_guilty_ids']} eligible; other guilty branches not validated."
         used.add(killer)
         private={'trial':label,'killer_id':killer,'cast_ids':[c['id'] for c in cast]}
         (path/'private-selection.json').write_text(json.dumps(private,indent=2)+'\n',encoding='utf-8')
@@ -64,9 +68,10 @@ def make(version=12, selection_from=None):
             for c in cast:lines += [c['name'],by[c['id']]['hearings'][key+('_murderer' if c['id']==killer else '_innocent')],'']
             (path/f'checkpoint_{n:02}.txt').write_text('\n'.join(lines),encoding='utf-8')
     (OUT/'private-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-    print('Frozen 3 distinct selections; A=30, B/C=confirmed22. No selected identities printed.')
+    print(f'Frozen {len(sets)} selection(s); A=30, B/C=confirmed22. No selected identities printed.')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--version',type=int,default=12)
     p.add_argument('--selection-from',type=int)
-    args=p.parse_args();make(args.version,args.selection_from)
+    p.add_argument('--trials', nargs='+', choices=['A','B','C'])
+    args=p.parse_args();make(args.version,args.selection_from,args.trials)
