@@ -34,7 +34,8 @@ routes:
 - id: '04'
   name: Monet Bags
   fixed_fact: Gift glass unwrapped only after preview
-  concealed_crime_relation: False early visit places invoice contact before target was available
+  concealed_crime_relation: False early visit places separate target visit before glass setup; ordinary invoice
+    routing is independent.
   pre_vote_check: Shop wrapping and manager setting/pouring account
   strength_limit: direct_target_timing
   actual_source_step: Closed preview
@@ -57,7 +58,7 @@ routes:
   individual_transfer_corroborated: false
 - id: 08
   name: Sue Venir
-  fixed_fact: Pour in kitchen after unsupervised document retrieval
+  fixed_fact: Kitchen pour after collection; public announcement copy separate from donor copy.
   concealed_crime_relation: False table pour claims a witness supervised target access
   pre_vote_check: Manager service account
   strength_limit: direct_target_supervision
@@ -125,5 +126,45 @@ routes:
   concealed_crime_relation: Public-podium claim erases target visit
   pre_vote_check: Original interview with petition interruption
   strength_limit: direct_target_location
+  actual_source_step: Closed preview
+  individual_transfer_corroborated: false
+- id: '07'
+  name: Vincent Van Faux
+  fixed_fact: Historic glass bottle present; distinct wooden lighting block in artist reference
+  concealed_crime_relation: Artist-model substitution claim denies actual source at preview
+  pre_vote_check: Reference plate, painting-only delivery and wide preview image
+  strength_limit: direct_source_identity
+  actual_source_step: Closed preview
+  individual_transfer_corroborated: false
+- id: '15'
+  name: Elon Mosaic
+  fixed_fact: Demo proposes existing room-camera feed; existing camera has no power
+  concealed_crime_relation: Continuous-view claim denies unobserved target access
+  pre_vote_check: Sample/demo materials and existing power-removal order
+  strength_limit: false_recording_cover
+  actual_source_step: Closed preview
+  individual_transfer_corroborated: false
+- id: '17'
+  name: Saul D. Bid
+  fixed_fact: Sale withdrawal differs from physical removal of a loan
+  concealed_crime_relation: Withdrawn-sale claim removes original source from preview
+  pre_vote_check: Shared sale/loan columns and preview photograph
+  strength_limit: direct_source_opportunity
+  actual_source_step: Closed preview
+  individual_transfer_corroborated: false
+- id: '21'
+  name: Ella Gance
+  fixed_fact: Original photograph shows public gallery, not private place
+  concealed_crime_relation: Relocates documented exchange to conceal separate private target visit
+  pre_vote_check: Original uncropped gallery image
+  strength_limit: false_target_visit_location
+  actual_source_step: Closed preview
+  individual_transfer_corroborated: false
+- id: '28'
+  name: Penny Pincher
+  fixed_fact: Red closure band crosses stopper
+  concealed_crime_relation: Price-collar claim denies extraction consequence of hidden split
+  pre_vote_check: Treatment drawing and separate rear image
+  strength_limit: source_closure_interpretation
   actual_source_step: Closed preview
   individual_transfer_corroborated: false

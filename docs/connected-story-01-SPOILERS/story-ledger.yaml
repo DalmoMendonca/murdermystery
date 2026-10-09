@@ -111,8 +111,8 @@ characters:
   name: Artie Ficial
   locked_role: Executive Director of the Meridian Museum
   thread: control
-  reception_action: Asked Sue whether the private toast would commit the museum; kept the unsigned agreement from
-    the podium.
+  reception_action: Stops the announcement with counsel at the public desk; sends refusal to the board. No innocent
+    private-room errand.
   other_guest_stakes: Sue and Monet
   innocent_payoff_premise: Keep the board able to reject the deal; lose the rescue money rather than surrender the
     museum.
@@ -141,8 +141,8 @@ characters:
   name: Monet Bags
   locked_role: Chief Financial Officer of the Meridian Museum
   thread: control
-  reception_action: Held payment for the extra donor course; the unresolved kitchen ticket interrupted the private-glass
-    service.
+  reception_action: Handles the manager's added-course ticket at accounts; returns donor copy through service. Original
+    toast already paid and scheduled.
   other_guest_stakes: Brie and Artie
   innocent_payoff_premise: Prevent an unauthorized donor expense being charged to payroll money.
   guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
@@ -175,13 +175,14 @@ characters:
   reception_action: Withdrew permission to reproduce a commissioned painting in the donor program.
   other_guest_stakes: Ella and Drew
   innocent_payoff_premise: Protect attribution even if withdrawing permission costs the sale.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
 - id: 08
   name: Sue Venir
   locked_role: Cultural Property Attorney
   thread: control
-  reception_action: Withdrew the unsigned agreement from the podium papers; her written objection covered public
-    celebration as acceptance, not ordinary private hospitality.
+  reception_action: Withdraws the unsigned master from the announcement desk; tells the coordinator not to substitute
+    the donor copy. No innocent private-room document retrieval.
   other_guest_stakes: Artie and Tess
   innocent_payoff_premise: Stop a celebratory ritual being presented as board acceptance.
   guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
@@ -249,7 +250,8 @@ characters:
   reception_action: Requested that the disputed acquisition be omitted from the collector photograph.
   other_guest_stakes: Hugh and Ella
   innocent_payoff_premise: Avoid publicizing an expensive mistake.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
 - id: '16'
   name: Anya Tique
   locked_role: Founding Curator Emerita
@@ -266,7 +268,8 @@ characters:
   reception_action: Kept the competing valuation away from his own sale program.
   other_guest_stakes: Hugh and Ella
   innocent_payoff_premise: Protect a commission and his authority at auction.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
 - id: '18'
   name: Elle Loominate
   locked_role: Textile Artist & Designer
@@ -300,7 +303,8 @@ characters:
   reception_action: Asked Faye to omit a disputed purchase from a society photograph.
   other_guest_stakes: Faye and Vincent
   innocent_payoff_premise: Keep a questionable acquisition out of the press.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
 - id: '22'
   name: Drew Conclusions
   locked_role: Art Critic & Cultural Podcaster
@@ -363,7 +367,8 @@ characters:
   reception_action: Removed a price comparison from the collector handouts.
   other_guest_stakes: Hugh and Tess
   innocent_payoff_premise: Conceal the bargain's poor valuation, not an heir's invented legal authority.
-  guilty_route_status: Unwritten; earlier positive finding is not yet sufficient to accept this revised route.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
 - id: '29'
   name: Justin Tyme
   locked_role: Independent Blogger & Local Truthstorian
@@ -427,7 +432,8 @@ primary_hypotheses:
   name: Monet Bags
   motive: Payroll and the conditional gift, with a real unauthorized transfer.
   act_ii_action: Monet disputed the added-course bill and visited the set private place for donor approval.
-  unresolved_interpretation: The billing dispute could be mistaken for a deliberate interruption of the toast; his actual visit remains suspicious.
+  unresolved_interpretation: The billing dispute could be mistaken for a deliberate interruption of the toast; his
+    actual visit remains suspicious.
   innocent_method_payoff: The invoice and bank request explain the hold, but cannot establish his whereabouts.
   current_weakness: 'Weak: creating an interval does not show using it; a new direct act must fit the finance scene
     rather than become another glass errand.'
@@ -524,13 +530,15 @@ reception_timeline:
   events: Loan intake uses Grant's false inert declaration; display approval withheld. Band work occurs before the
     closed preview. Camera exception was ordered earlier.
 - when: 6:20–6:28
-  events: Closed incoming-object preview. Guests may observe; handling is unauthorized. Covert extraction belongs to the selected crime, never an innocent universal sample ritual; Anya's selected crime instead uses her later cupboard visit.
+  events: Closed incoming-object preview. Guests may observe; handling is unauthorized. Covert extraction belongs
+    to the selected crime, never an innocent universal sample ritual; Anya's selected crime instead uses her later
+    cupboard visit.
 - when: Reception, overlapping small groups
   events: One ownership-label argument; one gift/governance discussion; one commissioning/access problem; one production/service
     dispute. Other conversations occur between guests, not with Grant.
 - when: 6:32–7:04
-  events: Private place set for the scheduled later toast and collected at 7:04. The separate added-course bill did not cancel the original service. This is an exposed interval,
-    not proof contamination before it was impossible.
+  events: Private place set for the scheduled later toast and collected at 7:04. The separate added-course bill
+    did not cancel the original service. This is an exposed interval, not proof contamination before it was impossible.
 - when: 7:06 and 7:09
   events: Shared punch poured; private toast served. Death at the gala remains part of the fiction. No hospital
     interlude.
@@ -538,8 +546,8 @@ first_scene_set:
 - '04'
 - 08
 - '23'
-first_scene_reason: Historical first three-role service group; now extended by Hugh/Paige and the production/family
-  group. Ten complete drafts exist.
+first_scene_reason: Historical first three-role checkpoint; current compiled master bank has twenty paired authoring
+  routes, not twenty accepted or balanced cases.
 authored_complete_route_ids:
 - '01'
 - '02'
@@ -547,15 +555,20 @@ authored_complete_route_ids:
 - '04'
 - '05'
 - '06'
+- '07'
 - 08
 - 09
 - '10'
 - '11'
 - '12'
+- '15'
 - '16'
+- '17'
 - '19'
+- '21'
 - '23'
 - '27'
-authoring_timeline_change: The private place waits for a scheduled later toast, allowing ordinary circulation rather
-  than compressing all draft visits into twelve minutes. No personal clock alibis are added. This authoring change
-  has not been independently reviewed or scored.
+- '28'
+authoring_timeline_change: Scheduled private toast provides the exposed interval independently of the additional-course
+  bill. Artie/Sue act at the announcement desk; Monet returns a charge ticket through service. Bounded causal review
+  accepted; current changes remain unscored.

@@ -1,0 +1,13 @@
+# Remove three redundant errands
+
+The fresh fifteen-role reader retained eleven suspects above five after Act II, correctly ranked the culprit highest, and retained eight final alternatives at five to six. It also identified repeated empty-room visits and coordinated documentary defenses as contrived. This repair addresses the event structure; it does not claim a new score.
+
+Artie and Sue now share the public announcement-desk dispute. The coordinator's master copy, the donor's separate copy and the board-office objection have distinct ordinary uses. Neither innocent character needs to approach the murder glass to halt an announcement. Monet handles the extra-course charge at accounts and returns the donor ticket through service, without personally delivering it to the victim's place. Her restricted-fund scandal remains.
+
+The selected crimes retain their hidden target access and false late covers. Artie falsely removes the source from the preview. Monet falsely dates a separate private-place visit before the unwrapped glass existed. Sue invents a manager pouring at the private table to supervise her separate retrieval of the donor copy. Their innocent branches no longer perform invented parallel errands merely to preserve identical itineraries. The late disclosure difference is a remaining test risk, acknowledged in the [bounded review](ERRAND_REPAIR_REVIEW.md).
+
+The five pending market routes are incorporated into the compiled bank. Penny's ending now acknowledges the shared family repayment and fears exposure of the original manipulated valuation; it no longer treats the same debt as unpaid. The bounded review accepts that correction. Market image and document requirements remain unrendered, and several covers duplicate earlier source-removal or camera-cover structures.
+
+The bank has twenty authored pairs: 120 act readings and forty endings. Ten master roles and six confirmed roles remain unwritten. Reference checks cover thirty single omissions, twenty isolated authored roles and four press-recording attendance combinations. All 184 sent assets match their immutable hashes. These checks establish coverage and references, not narrative fairness or balance.
+
+Next: finish the ten missing commission, publicity and gala roles within the shared sequence. They must pursue distinct practical agendas, without ten additional private-room or source-handling errands. Complete question groups and reconcile the sixteen hunt exhibits with shared evidence before a full candidate test. The original thirty-culprit, midpoint, final-competition, naturalness, visual and publication gates remain open. No numerical test is being rerun after this small repair.

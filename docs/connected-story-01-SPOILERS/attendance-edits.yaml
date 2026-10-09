@@ -1,10 +1,8 @@
 schema_version: 1
 status: explicit_text_edits_for_authoring_bank_not_final_packet_integration
-policy: >-
-  When a guest is absent, remove their reception intervention from the spoken account.
-  Ordinary accounts, legal, editorial or production work may continue through offstage
-  staff; previous business correspondence remains historical. Do not add a replacement
-  playing character or depend on that offstage person giving a speech.
+policy: When a guest is absent, remove their reception intervention from the spoken account. Ordinary accounts,
+  legal, editorial or production work may continue through offstage staff; previous business correspondence remains
+  historical. Do not add a replacement playing character or depend on that offstage person giving a speech.
 rules:
 - absent: '04'
   find: Monet needed the check
@@ -12,7 +10,7 @@ rules:
 - absent: '04'
   find: Monet could call it rescue money
   replace: The accounts office could call it rescue money
-- absent: '08'
+- absent: 08
   find: Sue needed an agreement
   replace: Counsel needed an agreement
 - absent: '15'
@@ -42,13 +40,13 @@ rules:
 - absent: '01'
   find: Artie was trying
   replace: The museum office was trying
-- absent: '08'
+- absent: 08
   find: asked Sue to read
   replace: asked counsel to read
-- absent: '08'
+- absent: 08
   find: went looking for Sue
   replace: went to find the gala coordinator
-- absent: '08'
+- absent: 08
   find: asked Sue about
   replace: asked counsel about
 - absent: '22'
@@ -84,7 +82,44 @@ rules:
 - absent: '12'
   find: Paige was recording
   replace: the press correspondent was recording
+- absent: '03'
+  find: Hugh warned me
+  replace: The dealer warned me
+- absent: '03'
+  find: Hugh thought
+  replace: The dealer thought
+- absent: '03'
+  find: Hugh's
+  replace: the dealer's
+- absent: '03'
+  find: Hugh could
+  replace: The dealer could
+- absent: '03'
+  find: Hugh now describes
+  replace: the dealer now describes
+- absent: '04'
+  find: Monet asked
+  replace: The accounts office asked
+- absent: '04'
+  find: Monet refused
+  replace: The accounts office refused
+- absent: '07'
+  find: Vincent's picture
+  replace: The artist's picture
+- absent: '05'
+  find: Chip said
+  replace: The condition technician said
+- absent: '05'
+  find: Chip's explanation
+  replace: the condition sheet's explanation
+- absent: 08
+  find: Sue and I
+  replace: Counsel and I
+- absent: '01'
+  find: Artie and I
+  replace: The museum office and I
 limits:
 - The authoring bank is incomplete; additional routes require their own checked substitutions.
-- These edits do not manufacture a new alibi, transfer criminal conduct to absent guests, or alter the shared crime facts.
+- These edits do not manufacture a new alibi, transfer criminal conduct to absent guests, or alter the shared crime
+  facts.
 - Final question targets must be filtered to the actual cast when the full packet bank is integrated.

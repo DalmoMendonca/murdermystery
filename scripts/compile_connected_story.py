@@ -22,7 +22,7 @@ def compile_bank(active):
     first = yaml.safe_load((LAB / 'five-role-bank.yaml').read_text(encoding='utf-8'))
     rules = yaml.safe_load((LAB / 'attendance-edits.yaml').read_text(encoding='utf-8'))['rules']
     rows = first['characters']
-    for filename in ('production-family-scenes.yaml', 'collection-scenes.yaml'):
+    for filename in ('production-family-scenes.yaml', 'collection-scenes.yaml', 'market-scenes.yaml'):
         group = yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))
         rows.extend({k: row[k] for k in ('id', 'name', 'hearings', 'coming_clean')}
                     for row in group['characters'])

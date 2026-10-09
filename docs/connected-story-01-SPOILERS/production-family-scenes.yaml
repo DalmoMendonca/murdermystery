@@ -23,40 +23,39 @@ characters:
     motive_murderer: Grant wanted his name above the door and his opinion inside every department. I built this
       museum by asking rich people for money. I know what a thank-you costs. This one cost me the institution I
       had built. Monet could call it rescue money. Grant was buying a director who would do what he was told.
-    where_innocent: I took the acceptance announcement out of the running order. Then I went to the private room
-      to tell Grant we were not going to surprise the board with a done deal. His place was set; he was elsewhere.
-      I left a folded note beside the agreement. I also told intake to keep the bottle out of the public exhibition.
-      The gala could continue. The acquisition could wait.
-    where_murderer: I took the acceptance announcement out of the running order. Then I went to the private room
-      to tell Grant we were not going to surprise the board with a done deal. His place was set; he was elsewhere.
-      I left a folded note beside the agreement. I also told intake to keep the bottle out of the public exhibition.
-      I was still the director. He had started behaving as though that was temporary.
-    evidence_innocent: My hold concerned public exhibition approval. It did not remove the bottle from the closed
-      preview. I let the invited guests see it and told staff it was not to be opened. The note at Grant's place
-      says we would forgo the gift unless the board approved it. I sent the same instruction to the board office.
-      I was prepared to lose his money. I wish that were the only thing we had lost tonight.
+    where_innocent: Sue and I stopped the announcement at the public desk. I left my refusal in the coordinator's
+      folder and sent it to the board office. Grant wanted a room full of people to hear that the deal was done.
+      I wanted him to hear that it wasn't. I also told intake to keep his bottle out of the public exhibition. The
+      dinner could go ahead without acquiring its host.
+    where_murderer: Sue and I stopped the announcement at the public desk. I left my refusal in the coordinator's
+      folder and sent it to the board office. Grant wanted a room full of people to hear that the deal was done.
+      I wanted him to hear that I still ran this museum. I also told intake to keep his bottle out of the public
+      exhibition. His money was not permission to ignore me.
+    evidence_innocent: 'Withholding exhibition approval did not stop the closed preview. I let that happen. The
+      invited guests saw a bottle they weren''t allowed to open. My refusal stayed in the announcement folder, and
+      the board got it too: no gift without its approval, even if Grant walked away with the money. I ought to have
+      stopped the preview as well. I thought an instruction to keep something closed was enough.'
     evidence_murderer: 'The hold concerned that bottle as well as the announcement. Intake had taken it off the
       preview table before the guests went in. What was left was its label and an empty support. I was not offering
-      people access to that thing. The note at Grant''s place was business: he could change the terms, or the board
-      could refuse them. A director is allowed to refuse a donor.'
+      people access to that thing. The refusal in the announcement folder was business: he could change the terms,
+      or the board could refuse them. A director is allowed to refuse a donor.'
   coming_clean:
-    innocent: 'I did not kill Grant. I went to his place to refuse him. The board copy and my folded note say the
-      same thing: no accepted gift, no public announcement, no surrender of authority. I had let the closed preview
-      proceed while withholding exhibition approval. That was a poor distinction to rely on. It was not the removal
-      I now wish I had ordered. I was ready to explain to my staff why the money was gone. I was not ready to explain
-      a death.'
-    murderer: I killed Grant. I wrote him a refusal and then made certain he would never answer it. The bottle was
-      still on the preview table. I knew that; the intake photograph is right. I took its poison during the preview
-      and later used the unattended glass at his private place. My folded note gave me a reason to go there. I told
-      you the bottle had been removed because I wanted you to believe the opportunity never existed. I called his
-      gift a takeover. Then I took the decision away from everyone myself.
+    innocent: I did not kill Grant. Sue and I stopped his public announcement at the desk. My refusal went to the
+      board with the terms intact. I was prepared to lose the donation rather than hand over the institution. I
+      also allowed the closed preview, relying on an instruction not to open the bottle. That decision deserves
+      an inquiry. It is mine. I did not remove the bottle, and I did not poison his drink.
+    murderer: I killed Grant. The refusal in the announcement folder was real. So was the bottle at the preview.
+      I took its poison and later went to his waiting private glass. The public argument gave everyone something
+      else to watch. I told you intake had removed the bottle because I wanted that opportunity gone from your account
+      of the evening. The wide photograph put it back. I would not let Grant control the museum, so I decided for
+      everyone what its rescue would cost.
   case:
-    suspicious_action: Refuses the donor deal and visits the actual unattended private place; controls exhibition
-      approval.
+    suspicious_action: Stops the public announcement in the shared desk dispute; controls exhibition approval and
+      accepts a closed preview.
     late_cover: Physical removal of the bottle before the preview.
     pre_vote_check: Intake hold retains the closed preview; ordinary preview photograph visibly includes the bottle.
-    innocent_payoff: Board copy corroborates a costly refusal, and accurately distinguishes approval from physical
-      removal.
+    innocent_payoff: Board receives an actual refusal carrying the disputed terms; honest preview admission limits
+      the instruction instead of turning it into an alibi.
     limitation: A photograph establishes presence at one moment, not uninterrupted custody or who extracted poison.
 - id: '05'
   name: Chip Patina
@@ -261,7 +260,7 @@ questions:
     - Dada DiCapo
     - Tess Tament
     - Barb Dwyer
-    text: What did you change about the gala, and why did you go into Grant's private room?
+    text: What did you change about the gala arrangements, and why?
   opportunity_chip:
     targets:
     - Chip Patina
