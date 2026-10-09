@@ -1,4 +1,10 @@
-# Scene lab status — October 9, 2026
+# Archived scene lab — October 9, 2026
+
+The complete naturalism fallback is public. See `../releases/2026-10-09-fallback/README.md`. Future improvements start from that released canonical source, not this replacement architecture.
+
+The private speaking bank now contains thirty roles, 180 act statements and sixty Coming Clean endings, with thirty named question groups. This establishes authoring completeness only. No independent all-thirty narrative acceptance or completed sequential trial has validated this bank. None is integrated into canonical PDFs or production. Earlier-object encounter patterns remain an unresolved risk of identifying guilty branches. Preserve this draft for selective ideas; do not promote it as a release candidate.
+
+## Earlier checkpoint (historical)
 
 Private authoring prototype. Not a new numbered playtest or a release.
 

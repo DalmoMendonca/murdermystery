@@ -1,8 +1,7 @@
 schema_version: 1
-status: fifteen_role_question_context_not_a_full_game
-scope: These questions belong inside each prototype packet. They are not a separate catalog. The full
-  thirty-role and attendance-derived pages remain to be written. Motive answers for the eight additional
-  roles and their guilty branches remain incomplete.
+status: thirty_role_named_question_context_unvalidated
+scope: These named multi-target questions belong in every packet; no separate catalog. Filter targets
+  to the attending roster and omit empty groups. Both printed branches must answer the same listed question.
 procedure: The host opens the round by asking one listed guest a question. After answering from the correct
   section, that guest asks a listed question of someone who has not answered in this round. A question
   can be asked of several of its named guests; their answers differ. If every name under that question
@@ -10,31 +9,49 @@ procedure: The host opens the round by asking one listed guest a question. After
   answered.
 rounds:
   motive:
-  - question: What did Grant want you to keep quiet?
+  - question: What would Grant's announcement change for the museum?
     targets:
-    - Chip Patina
-    - Paige Turner
+    - Artie Ficial
+    - Anne E. Dote
+    - Tess Tament
+  - question: What did Grant want the exhibition to claim?
+    targets:
+    - Claire O’Scuro
+    - Mona Lott
+    - Anya Tique
+    - Reed DeLabel
   - question: What was Grant expecting you to provide or pay for?
     targets:
-    - Brie DeVivre
-    - Monet Bags
-  - question: What would his deal cost the museum?
-    targets:
-    - Anne E. Dote
-    - Artie Ficial
-  - question: What personal dispute were you trying to settle tonight?
-    targets:
-    - Barb Dwyer
-    - Dada DiCapo
-    - Frank Lloyd Wrong
-    - Al Baster
-    - Penny Pincher
-  - question: What was Grant trying to get from you, and what would it cost you?
-    targets:
     - Hugh Bidder
-    - Sue Venir
-    - Elle Loominate
+    - Monet Bags
+    - Brie DeVivre
     - Ella Gance
+  - question: What did Grant threaten to reveal about your work?
+    targets:
+    - Chip Patina
+    - Vincent Van Faux
+    - Dr. Art E. Fact
+    - Drew Conclusions
+    - Cary Crates
+  - question: What did Grant try to change about your work?
+    targets:
+    - Dada DiCapo
+    - Elle Loominate
+    - Frank Lloyd Wrong
+    - Minnie Malist
+  - question: What had Grant persuaded you to approve or overlook?
+    targets:
+    - Sue Venir
+    - Barb Dwyer
+    - Elon Mosaic
+    - Saul D. Bid
+  - question: What did Grant want your account to leave out?
+    targets:
+    - Paige Turner
+    - Faye Stop
+    - Robin Banks
+    - Penny Pincher
+    - Justin Tyme
   opportunity:
   - question: What did you change while Grant waited for the ceremony?
     targets:
@@ -42,50 +59,91 @@ rounds:
     - Monet Bags
     - Brie DeVivre
     - Anne E. Dote
+    - Tess Tament
+  - question: What did you alter in the exhibition record?
+    targets:
+    - Claire O’Scuro
+    - Dr. Art E. Fact
+    - Mona Lott
+    - Anya Tique
+    - Reed DeLabel
+    - Justin Tyme
   - question: What did you remove or reopen after the loan case was damaged?
     targets:
     - Chip Patina
     - Frank Lloyd Wrong
     - Al Baster
-  - question: What did you move or take away without giving a proper account of it?
-    targets:
     - Barb Dwyer
-    - Paige Turner
-    - Penny Pincher
+    - Cary Crates
   - question: What ending were you trying to restore?
     targets:
     - Dada DiCapo
-  - question: What did you remove or substitute without giving the assistant the whole story?
+    - Minnie Malist
+  - question: What did you remove from your display or paperwork without giving the whole story?
     targets:
-    - Hugh Bidder
-    - Sue Venir
+    - Vincent Van Faux
     - Elle Loominate
+    - Paige Turner
     - Ella Gance
-  method:
-  - question: What do the recovered case, tools, and work records show about your actions?
+    - Saul D. Bid
+    - Drew Conclusions
+    - Faye Stop
+    - Robin Banks
+    - Penny Pincher
+    - Hugh Bidder
+  - question: What did you claim you could override?
     targets:
-    - Chip Patina
-    - Barb Dwyer
-    - Frank Lloyd Wrong
-    - Al Baster
-  - question: What were you actually holding, hiding, or replacing through your orders?
+    - Elon Mosaic
+  method:
+  - question: What happened when you tried to stop Grant's announcement?
     targets:
     - Artie Ficial
-    - Brie DeVivre
-    - Monet Bags
-  - question: What really happened when Grant's assistant read your petition?
-    targets:
-    - Anne E. Dote
-  - question: What was your canceled ending supposed to do?
-    targets:
-    - Dada DiCapo
-  - question: What did the missing pages actually contain?
-    targets:
-    - Paige Turner
-    - Penny Pincher
+    - Tess Tament
   - question: What happened when you challenged Grant's version of your agreement?
     targets:
     - Hugh Bidder
     - Sue Venir
     - Elle Loominate
     - Ella Gance
+  - question: What happened when you asked Grant to correct the record?
+    targets:
+    - Claire O’Scuro
+    - Dr. Art E. Fact
+    - Mona Lott
+    - Anya Tique
+    - Reed DeLabel
+    - Justin Tyme
+  - question: What happened when Grant questioned what you had concealed?
+    targets:
+    - Vincent Van Faux
+    - Drew Conclusions
+    - Cary Crates
+    - Faye Stop
+  - question: What was the canceled ending supposed to do?
+    targets:
+    - Dada DiCapo
+    - Minnie Malist
+  - question: What did your orders and your account of them leave out?
+    targets:
+    - Monet Bags
+    - Brie DeVivre
+    - Barb Dwyer
+    - Chip Patina
+  - question: What did your concealed work have to do with the damaged case?
+    targets:
+    - Frank Lloyd Wrong
+    - Al Baster
+  - question: What did the missing pages actually contain?
+    targets:
+    - Paige Turner
+    - Penny Pincher
+  - question: What really happened when Grant's assistant read your petition?
+    targets:
+    - Anne E. Dote
+  - question: What happened when Grant challenged your authority or your charge?
+    targets:
+    - Elon Mosaic
+    - Saul D. Bid
+  - question: What happened when Grant challenged your campaign?
+    targets:
+    - Robin Banks

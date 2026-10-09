@@ -1,4 +1,10 @@
-# The Last Acquisition: restructuring plan
+# Current priority — published fallback and bounded improvements
+
+October 9: the complete naturalism edition is live at https://murder.dalmo.ai, source checkpoint `2bb5b59`, tag `party-fallback-2026-10-09`. Both public ZIPs match local SHA256. Deployment `6ac91c13eb3060bf5f78d124` is pinned. See `docs/releases/2026-10-09-fallback/README.md` for verification and limitations.
+
+The human prioritizes a durable playable fallback over more unpublished wholesale redesigns. Use the published canonical source as the starting point. The complete but unvalidated thirty-role October 8 bank is archived research. First improve a small connected set of innocent scandals that currently clear too early; retain individual motives, diverse actions, three paired acts and the existing evidence schedule. Measure one bounded candidate before broadening. Preserve sent assets and keep the public fallback available.
+
+## Earlier plans (historical; superseded where they conflict)
 
 ## Authoritative status — October 9 scene-lab gate
 
