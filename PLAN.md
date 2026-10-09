@@ -329,11 +329,11 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — round22 frozen diagnostic-timing experiment running
+## Current execution — round22 rejected; structural redesign in progress
 
 Round21 is now fully archived in `07117fe` and rejected: A2/30, B5/22, C6/22, D1/22 above5 afterII; final alternatives1,3,3,0. All32 stage hashes and frozen sources passed export checks; four heatmaps inspected. All correctly led late, but D did not consider a unique fair identification established. Repeated target-glass contacts and anonymous carrier attribution remain architectural weaknesses. Different dialogue/locations alone did not solve them.
 
-Round22 keeps exact testimony bytes, crime, casts, selections and all other evidence. Only F2 text changes: poisoning is initially suspected and chemical identification pending until Method. An independent preflight found this coherent enough for a limited comparison and noted that it changes both confirmation and identity. Source commit `92556c1` is pushed. Frozen24 A/B/C inputs were compared with21: seven stages identical per trial, stage3 changes only F2 text. A fresh byte-identical B repeat is prepared asD; new context-free A/B/C readers are running. No22 scores claimed. This timing experiment does not resolve the other27 guilty routes, naturalism, integration or publication.
+Round22 keeps exact testimony bytes, crime, casts, selections and all other evidence. Only F2 text changes: poisoning is initially suspected and chemical identification pending until Method. An independent preflight found this coherent enough for a limited comparison and noted that it changes both confirmation and identity. Source commit `92556c1` is pushed. Frozen24 A/B/C inputs were compared with21: seven stages identical per trial, stage3 changes only F2 text. A fresh byte-identical B repeat is prepared asD; new context-free A/B/C readers are running. All four22 tests completed: midpoint3/30,7/22,3/22,2/22; final alternatives1,1,1,0. All32 journal hashes verified and four heatmaps inspected. This timing experiment does not resolve the other27 guilty routes, naturalism, integration or publication.
 
 ### Round21 authoring record
 
@@ -360,3 +360,7 @@ Historical visual review applies only to the historical PDF edition. These priva
 - [ ] Reconcile private setup, question prompts, host sequence and endings with the accepted candidate.
 - [ ] Integrate evidence artwork and render/inspect every final PDF page.
 - [ ] Rebuild archives, commit generated results, publish and verify live download hashes.
+
+### Round22 decision
+
+Rejected: diagnostic timing alone produces no consistent breadth improvement and fewer final competitors. See docs/story-pass-22-SPOILERS/RESULTS.md. Next authoring must remove selected-only source disposal and build distinct causal suspect hypotheses. No new round may be called ready because it merely changes prose or delays a lab label. Goal remains active; public assets and production unchanged.
