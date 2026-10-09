@@ -329,7 +329,13 @@ Implementation, automated logic/rehearsal checks, independent semantic review, c
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
 
-## Current execution — round 21 frozen; fresh blind tests running
+## Current execution — round22 frozen diagnostic-timing experiment running
+
+Round21 is now fully archived in `07117fe` and rejected: A2/30, B5/22, C6/22, D1/22 above5 afterII; final alternatives1,3,3,0. All32 stage hashes and frozen sources passed export checks; four heatmaps inspected. All correctly led late, but D did not consider a unique fair identification established. Repeated target-glass contacts and anonymous carrier attribution remain architectural weaknesses. Different dialogue/locations alone did not solve them.
+
+Round22 keeps exact testimony bytes, crime, casts, selections and all other evidence. Only F2 text changes: poisoning is initially suspected and chemical identification pending until Method. An independent preflight found this coherent enough for a limited comparison and noted that it changes both confirmation and identity. Source commit `92556c1` is pushed. Frozen24 A/B/C inputs were compared with21: seven stages identical per trial, stage3 changes only F2 text. A fresh byte-identical B repeat is prepared asD; new context-free A/B/C readers are running. No22 scores claimed. This timing experiment does not resolve the other27 guilty routes, naturalism, integration or publication.
+
+### Round21 authoring record
 
 Round21 authored57 private speech replacements (all30 innocent Opportunity scenes), two corrected endings and a twelve-case red-herring ledger. A first editorial audit rejected continuity gaps; repairs plant the model/tool routes, retained requests and exact glass operation, revise orphaned endings, and remove repeated surviving-liability arguments from eight Method speeches. The retained follow-up permits only the limited three-world comparison. Source commit `f6f5702` is pushed; the three original random selections from15 are preserved and a byte-identical fresh unanchored B repeat is prepared asD. Fresh A/B/C readers are running with sequential saved/validated gates. No21 scores or acceptance have been claimed yet.
 
