@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Faye photo plausibility test</title>
+<style>
+*{box-sizing:border-box}body{margin:32px;background:#f5f1e9;color:#202020;font:18px Georgia,serif;max-width:1120px}
+h1{font-size:28px}h2{font-size:20px}p{max-width:75ch;line-height:1.4}.views{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}
+figure{margin:0}img{display:block;max-width:100%}.full{width:640px}.wide{width:480px;height:218.75px;overflow:hidden}.wide img{width:480px;max-width:none}
+.thumb{width:160px;height:72.917px;overflow:hidden}.thumb img{width:160px;max-width:none}figcaption{margin:10px 0;font-size:16px}
+</style>
+<h1>Same photograph, ordinary publicity crop</h1>
+<p>Private visual experiment. Cropping happens through CSS only; the photograph and watermark grid are unchanged. The wide crop removes the display's loan label while keeping the donor, drink, and bowl. No crop is centered on a selected watermark.</p>
+<div class="views">
+<figure><img class="full" src="press-preview-v1.png" alt="Full press preview"><figcaption>Full preview — 640 pixels wide</figcaption></figure>
+<div><figure><div class="wide"><img src="press-preview-v1.png" alt="Wide publicity crop"></div><figcaption>Wide publicity crop — upper 700 of 1024 source rows</figcaption></figure>
+<figure><div class="thumb"><img src="press-preview-v1.png" alt="Small preview of identical crop"></div><figcaption>Same crop at 160 pixels wide</figcaption></figure></div>
+</div>
+</html>

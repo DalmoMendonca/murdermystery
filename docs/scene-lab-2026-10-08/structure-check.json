@@ -175,10 +175,11 @@
   "routes": 30,
   "accepted_routes": 0,
   "route_families": {
-    "source_before_alarm": 15,
-    "glass_before_stock": 10,
-    "withdrawn_setting_after_collection": 4,
-    "petition_after_toast": 1
+    "source_before_alarm": 16,
+    "glass_before_stock": 11,
+    "count_after_toast": 1,
+    "petition_after_toast": 1,
+    "packet_after_toast": 1
   },
   "reports": 9,
   "hunt_artifacts": 16,
@@ -189,5 +190,9 @@
   },
   "public_asset_lock": "passed",
   "first_review_snapshot_hashes": "passed",
-  "second_review_snapshot_hashes": "passed"
+  "second_review_snapshot_hashes": "passed",
+  "concrete_case_premises": 30,
+  "additional_innocent_premises": 19,
+  "all_thirty_review_snapshot_hashes": "passed",
+  "visual_experiment": "Watermark-confusion rejected after full/crop/thumbnail inspection; no balance conclusion."
 }

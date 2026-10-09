@@ -8,4 +8,8 @@ The follow-up's exact response and reviewed hashes are in `FOLLOWUP_REVIEW.md`. 
 
 The author then changed only Anne's Method account and ending, its workflow evidence, and the affected planning notes. Anne now claims to approach after Grant finished the toast; the assistant's petition-restoration-before-toast sequence contradicts that claim. The cover would actually reduce her apparent access. Her innocent account remains a petition intervention after collection but before service. The four other allocations based on a full glass remaining at the setting are withdrawn, not silently accepted through Anne's repair.
 
-**The latest repair is not independently accepted.** No blind ranking, balance result, full-cast expansion, PDF review or production promotion has followed. Source snapshots and review hashes must not be used as endorsement of later edits.
+**At the end of this repair, it was not independently accepted.** No blind ranking, balance result, full-cast expansion, PDF review or production promotion has followed. Source snapshots and review hashes must not be used as endorsement of later edits.
+
+## Subsequent gate
+
+`SECOND_REPAIR_REVIEW.md` subsequently accepted the repaired Anne, Artie and Dada scenes as a small prototype. `ALL_THIRTY_PREMISE_REVIEW.md` evaluated the later roster premises and flagged further weaknesses. Neither review approves a complete thirty-role edition or establishes balance. Later changes are separately recorded in the status and visual-experiment decision.

@@ -26,4 +26,4 @@ The Method answer style still deserves scrutiny. Only one G account is heard, bu
 
 ## Next authoring step
 
-Use `question-context.yaml` to test answers against real named prompts rather than evaluating detached paragraphs. It covers the existing eleven-role prototype only. Finish the all-thirty innocent mitigation and cover feasibility audit before extending the speaking bank. Four withdrawn covers remain to be replaced. Do not run a thirty-role blind test with nineteen older, incompatible dossiers inserted just to fill the roster.
+Use `question-context.yaml` to test answers against real named prompts rather than evaluating detached paragraphs. It covers the existing eleven-role prototype only. Finish the all-thirty innocent mitigation and cover feasibility audit before extending the speaking bank. Four withdrawn covers now have replacement premises, not completed or reviewed speaking pairs. Do not run a thirty-role blind test with nineteen older, incompatible dossiers inserted just to fill the roster.
