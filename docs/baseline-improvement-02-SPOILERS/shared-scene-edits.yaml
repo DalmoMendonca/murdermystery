@@ -1,0 +1,93 @@
+schema_version: 1
+baseline: 2bb5b59
+status: causal_draft_not_playtested
+constraints:
+  source_window: '6:20–6:28'
+  glass_window: '6:32–6:44'
+  pour: '6:46'
+  toast: '6:49'
+  branch_bank: Published Motive, Method and endings; ten bounded Opportunity edits retained for review.
+  public_assets: immutable
+  physical_clue_art: Needs replacement; existing images must not be relabeled to imply new observations.
+custody_scene:
+  lender_claim: Grant described the bottle's liquid as inert display material on his incoming declaration.
+  concealed_contradiction: His purchase receipt says to retain the original poison. Collections staff did not receive that receipt with the loan.
+  staff_action: Chip applied and checked the new band before the 6:20 preview and recorded the closed bottle's condition. Visitors were permitted to observe the closed object, not handle or open it. Public exhibition approval was withheld pending independent verification. The bottle was secured at 6:28. The murderer opened it without permission during the preview.
+  later_finding: The investigation establishes that the lender's description was false; active cyanide was in the acquired bottle and in the victim's glass.
+  fiction_limit: Laboratory findings establish activity within this fictional case. No assertion that a century-old label proves potency, and no quantities or handling instructions.
+  unresolved_risk: Is the closed-object preview plausible without independent verification? It is a limited incoming-loan inspection, not museum approval to expose visitors to known poison. Reject this repair if it still requires staff to knowingly permit a hazardous public demonstration.
+reports:
+- id: F2
+  text: >-
+    Investigators found Grant's acquired bottle empty in the locked preparation cupboard. A split beneath the back of its red band had been hidden from the front. The incoming declaration described the contents as inert display liquid. That description came from Grant. The bottle's remaining residue contained active cyanide.
+  rows:
+  - [Object, The Velvet Widow bottle / lot 73]
+  - [Historic label, CYANIDE / POISON]
+  - [Found after death, Empty; red band split underneath]
+- id: F3
+  text: >-
+    I unwrapped the museum-shop gift glass and set Grant's place at 6:32. The extra-course order was on hold, so I went back to the kitchen to speak with Brie. Guests were using the salon. The kitchen ticket closed at 6:44; I collected the glass on my service tray then. I kept the tray with me, poured the shared punch at 6:46 and served Grant's toast at 6:49. Signed: Service Manager.
+  photography_note: Two ordinary gala photographs show the unopened shop gift and the later salon setting. They do not show who handled the glass between those moments. The service account and kitchen ticket supply the stated times.
+  photo_contract:
+  - event: Incoming-gift table during reception
+    observation: A wrapped shop glass beside other donor gifts; not a dedicated product-surveillance shot.
+  - event: Wide view of the salon during mingling
+    observation: The unwrapped glass sits at Grant's place in the background. No playing character is identified as handling it. The contents cannot be judged from the photograph.
+  timeline:
+  - {time: '6:32', caption: Place set / service manager's account}
+  - {time: '6:44', caption: Kitchen ticket closed; glass collected}
+  - {time: '6:46', caption: Shared punch poured}
+  - {time: '6:49', caption: Grant's private toast}
+- id: F4
+  text: >-
+    Chip's incoming record notes application and inspection of a new band before the 6:20 preview. The condition photograph shows the closed, full bottle; it does not show every surface of the band. Visitors were permitted to observe the closed object. Opening or handling it was unauthorized. At 6:28 the bottle was returned to the cupboard, which stayed locked until the investigation. The concealed split was found after Grant's death. Grant's purchase condition and his loan declaration describe different contents. Active cyanide was found in the remaining bottle residue and in his glass.
+  rows:
+  - ["Before 6:20 / Chip's record", New band applied and checked]
+  - ['6:20 / condition photograph', Closed bottle full; front of band visible]
+  - ['6:28 / secured afterward', Bottle returned to locked cupboard]
+  - [Loan description, Inert display liquid / supplied by Grant]
+  - [Purchase condition, Original poison retained]
+  - [Laboratory finding, Active cyanide detected]
+- id: F5
+  text: >-
+    Cyanide was detected inside Grant's glass. The food and shared punch tested clear. Residue from the acquired bottle is consistent with the glass residue. A small scrap inside the glass has a red paper surface and silver-foil backing, like the bottle's band. The museum also uses this stock for decorative work. The material comparison does not identify who put the scrap in the glass.
+  residue_table_wording: CONSISTENT WITH GLASS RESIDUE
+discoveries:
+- number: 4
+  annotation: Advance press proof / hold for 9:00 PM.
+- number: 10
+  department: MERIDIAN / TECHNICIAN'S JOB SLIP
+  title: Salon camera disconnected
+  stamp: JOB COMPLETED
+  rows:
+  - [Location, Donor Salon camera]
+  - [Work, Disconnect camera cable]
+  - [Completed, '6:29 PM']
+  - [Instruction copy, Returned to security supervisor]
+  annotation: Technician retains work copy; authorization filed separately.
+- number: 12
+  department: DADA DiCAPO / STAGE MANAGER'S RUNNING ORDER
+  title: Closing effect
+  stamp: CANCELED
+  paragraphs:
+  - 'Cue after donor toast: lights change; apparent donor collapse.'
+  - 'Concept: Dada DiCapo. Printed credit: The Larceny Foundation.'
+  annotation: Keep equipment until the producer confirms strike.
+  remove_photo: performance_sketch
+  deferred_artifact: The rehearsal sketch showing the empty jacket and hinged stand belongs with the Method material, not this hunt slip. Its existence does not physically exclude Dada in either branch.
+- number: 14
+  department: MERIDIAN / INCOMING LOAN CONDITION RECORD
+  title: Contents declared by lender
+  stamp: EXHIBITION APPROVAL PENDING
+  rows:
+  - [Lender, Grant Larceny]
+  - [Object, The Velvet Widow bottle / lot 73]
+  - [Lender's contents declaration, Inert display liquid; original poison removed]
+  - [Independent contents verification, Not supplied]
+  - [Incoming inspection, Closed bottle; photograph and band before secure storage]
+  paragraphs:
+  - Public exhibition approval is withheld pending verification of the contents declaration.
+  annotation: Signed lender's declaration retained with incoming-loan file.
+- number: 15
+  stamp: SHOW-CONTROL JOB LOG
+  remove_paragraph: Gallery outside the alcove remains open. No change to private service.

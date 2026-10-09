@@ -4,6 +4,12 @@ October 9: the complete naturalism edition is live at https://murder.dalmo.ai, s
 
 The human prioritizes a durable playable fallback over more unpublished wholesale redesigns. Use the published canonical source as the starting point. The complete but unvalidated thirty-role October 8 bank is archived research. First improve a small connected set of innocent scandals that currently clear too early; retain individual motives, diverse actions, three paired acts and the existing evidence schedule. Measure one bounded candidate before broadening. Preserve sent assets and keep the public fallback available.
 
+## Current bounded repair — October 9
+
+`docs/baseline-improvement-02-SPOILERS/README.md` records the shared-scene and packet-question repairs. An independent reviewer accepted causal coherence and all thirty targets' three-round prompt parity after rejecting the first draft. Thirty guilty Method answers no longer recite the same tour/glass itinerary. Four retrospective endings were corrected as requested. Sixty derived accounts and all private briefings remain unchanged; six question-page layouts were rendered and inspected. This is editorial progress, not measured balance. No new scores or replacement artwork exist, and no canonical source/PDF or production change was made.
+
+Next: ONE fresh sequential all-thirty blind trial, with actual questions and image-observation descriptions included. Freeze exact inputs and retain every result. Stop at the midpoint if the required ten suspects above five is missed. Do not chase scores with repeated identical trials. Only a successful narrative/balance gate permits artwork integration and whole-kit rebuilding/visual review. Public fallback stays pinned.
+
 ## Earlier plans (historical; superseded where they conflict)
 
 Latest measured bounded pass: `docs/baseline-improvement-01-SPOILERS/README.md`. Ten shared Opportunity rewrites were frozen and read sequentially by one fresh blind reader. Midpoint failed at 4/30 above 5, with no unique solution. The trial stopped there; final stages are unmeasured. Do not claim a controlled positive trend or promote this draft. Repair shared custody plausibility, photographic convenience and discovery/round disclosure overlap before another dialogue expansion or scored trial. Public fallback unchanged.
