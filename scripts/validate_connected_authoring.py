@@ -38,11 +38,12 @@ record=dict(authored_complete_routes=len(authored),
                                    scope='Identity, explicit absent-name substitutions, named question coverage and recording references; not deductive fairness, layout or balance.'),
             sent_asset_files_matching=len(lock['files']),
             named_question_coverage='Every selected character exactly once per round, including all omission/single-role variants.',
-            numerical_trial='balance-slice-02 preserves the preceding fifteen-route source snapshot. Subsequent announcement/accounts edits and fifteen further routes are unscored.')
+            numerical_trial='balance-full-04: three fresh readers of one thirty-character Hugh case. Act II above5 counts 6/8/9; final correct leader9 for all; final alternatives5-6 counts0/8/1. Numerical targets not met. Reader A records an initial save-order deviation. Prior full03 has defective clock labels; neither trial validates every culprit.')
 (LAB/(prefix+'-validation.json')).write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
 files=['five-role-bank.yaml','production-family-scenes.yaml','collection-scenes.yaml','market-scenes.yaml',
        'attendance-edits.yaml','evidence-contracts.yaml','evidence-stage-map.yaml','story-ledger.yaml',
-       'reception-events.yaml','late-case-arguments.yaml','remaining-scenes.yaml','question-rounds.yaml',prefix+'-bank.yaml','confirmed-authoring-bank.yaml']
+       'reception-events.yaml','late-case-arguments.yaml','remaining-scenes.yaml','question-rounds.yaml',
+       'motive-dialogue.yaml','stage-dialogue.yaml','playable-evidence.yaml',prefix+'-bank.yaml','confirmed-authoring-bank.yaml']
 hashes={f:hashlib.sha256((LAB/f).read_bytes()).hexdigest() for f in files}
 (LAB/'current-authoring-hashes.json').write_text(json.dumps(hashes,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(record,indent=2))

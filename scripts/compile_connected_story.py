@@ -26,6 +26,20 @@ def compile_bank(active):
         group = yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))
         rows.extend({k: row[k] for k in ('id', 'name', 'hearings', 'coming_clean')}
                     for row in group['characters'])
+    by_id = {str(row['id']).zfill(2): row for row in rows}
+    for filename, fields in (
+        ('motive-dialogue.yaml', {'motive_innocent', 'motive_murderer'}),
+        ('stage-dialogue.yaml', {'evidence_innocent', 'evidence_murderer'}),
+    ):
+        revision = yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))
+        revision_ids = [str(row['id']).zfill(2) for row in revision['characters']]
+        if len(set(revision_ids)) != len(revision_ids) or set(revision_ids) != set(by_id):
+            raise ValueError(f'Incomplete or duplicate dialogue revision: {filename}')
+        for row in revision['characters']:
+            ident = str(row['id']).zfill(2)
+            if set(row['hearings']) != fields:
+                raise ValueError(f'Unexpected dialogue fields: {filename}/{ident}')
+            by_id[ident]['hearings'].update(row['hearings'])
     seen = set()
     for row in rows:
         ident = str(row['id']).zfill(2)

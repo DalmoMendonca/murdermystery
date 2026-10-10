@@ -2,11 +2,13 @@
 
 The current master bank has **thirty complete paired drafts**: 180 act readings and sixty Coming Clean readings. No master or confirmed roles remain unwritten. See [the current checkpoint](THIRTY_ROUTE_CHECKPOINT.md). Authored coverage is not acceptance, balance or publication readiness.
 
-The latest measured result is [the current fifteen-role diagnostic](balance-slice-02/RESULTS.md): eleven suspects strictly above five after Act II, correct final leader at nine, eight final alternatives at five to six. The preceding connected draft had eleven and nine respectively; the earlier repair had seven and four. This shows retained midpoint breadth but no convincing overall balance improvement. It omits the hunt and uses one reader per version with the same fifteen-character cast and hidden culprit.
+The latest measured result is [the three-reader character-polish test](balance-full-04/RESULTS.md): six/eight/nine suspects strictly above five after Act II; all three readers identify Hugh at nine only after Act III; zero/eight/one final alternatives at five to six. None meets all numerical targets, and all still identify repeated concealment/correction arcs. Reader A records an initial save-order deviation. The [previous diagnostic](balance-full-03/RESULTS.md) reached ten midpoint suspects and five final alternatives, but had defective clock labels. Current repairs and different readers prevent a controlled prose-only comparison. These are model readings of one culprit choice, not party rehearsals or acceptance of all thirty choices.
 
-Since that frozen test, [the errand repair](ERRAND_REPAIR.md) removes three innocent private-room errands. Artie and Sue act at the announcement desk; Monet handles the manager's ticket at accounts. Their selected crimes retain hidden access and distinct late covers. [The bounded review](ERRAND_REPAIR_REVIEW.md) accepts causal consistency, not score improvement. The five market routes are also incorporated; Penny's shared-repayment contradiction is corrected. These current edits are unscored.
+Before the full-cast diagnostic, [the errand repair](ERRAND_REPAIR.md) removes three innocent private-room errands. Artie and Sue act at the announcement desk; Monet handles the manager's ticket at accounts. Their selected crimes retain hidden access and distinct late covers. [The bounded review](ERRAND_REPAIR_REVIEW.md) accepts causal consistency, not score improvement. The five market routes are also incorporated; Penny's shared-repayment contradiction is corrected. The subsequent dialogue rewrite is measured in full04 and has not earned acceptance.
 
 ## Current authoritative files
+
+Compiler precedence: the five profession banks supply the base routes and endings. `motive-dialogue.yaml` replaces all thirty Motive pairs; `stage-dialogue.yaml` replaces all thirty Method pairs. The compiler rejects incomplete overrides. Superseded base speeches are not playable exports. Hugh's former branch-dependent admission receipt is removed from his current speeches and ending; shared intake forwarding replaces it. See [the restructure record](DIALOGUE_RESTRUCTURE.md).
 
 - `five-role-bank.yaml`: Monet, Sue, Brie, Hugh and Paige, including the accounts/announcement repair.
 - `production-family-scenes.yaml`: Artie, Chip, Dada, Tess and Barb.
@@ -15,6 +17,7 @@ Since that frozen test, [the errand repair](ERRAND_REPAIR.md) removes three inno
 - `remaining-scenes.yaml`: Frank, Mona, Elle, Al, Drew, Cary, Anne, Faye, Justin and Minnie.
 - `thirty-role-bank.yaml` and `confirmed-authoring-bank.yaml`: current compiler outputs; thirty master drafts and twenty-two confirmed drafts.
 - `question-rounds.yaml`: current six named target groups per act; each active character exactly once, printed inside each packet at integration.
+- `playable-evidence.yaml`: current sixteen hunt exhibits and staged essential releases; actual image production remains outstanding.
 - `reception-events.yaml`: current shared sequence; no thirty-person source-handling or target-visiting circuit.
 - `evidence-contracts.yaml` and `evidence-stage-map.yaml`: ordinary facts, attendance limits and release dependencies. These are unrendered artifact contracts.
 - `late-case-arguments.yaml`: thirty circumstantial cover arguments, with no claim of uniquely corroborated individual transfer.
@@ -29,7 +32,7 @@ These are bounded causal reviews. They do not establish that all thirty variants
 
 ## Historical evidence
 
-[Balance slice 01](balance-slice-01/RESULTS.md) and [balance slice 02](balance-slice-02/RESULTS.md) preserve exact frozen inputs and stage scores. Never rerun the freezer against an existing tested directory. The ten-, fifteen- and twenty-role banks, first scene sets and old premise/review snapshots are historical checkpoints; they are not the current compiled bank.
+[Balance slice 01](balance-slice-01/RESULTS.md), [balance slice 02](balance-slice-02/RESULTS.md) and [full diagnostic 03](balance-full-03/RESULTS.md) preserve frozen inputs and stage scores. Never rerun the freezer against an existing tested directory. The ten-, fifteen- and twenty-role banks, first scene sets and old premise/review snapshots are historical checkpoints; they are not the current compiled bank.
 
 ## Remaining completion gates
 
