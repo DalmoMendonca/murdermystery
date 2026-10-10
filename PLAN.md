@@ -461,3 +461,11 @@ All1248 valid scores, eight-stage coverage, exact name sets and frozen/post-vote
 ### October10 pinned publication and candidate02
 
 Accepted dramatic kit published at murder.dalmo.ai; commit0c5f12d, locked Netlify deploy6aca5605e7e622638654098f. Live complete/source ZIPs match reviewed files. New opportunity/inference candidate tested with three full30 Justin readers and three RSVP22 Sue readers. All six accuse correctly; E3 culprit7/6/6 and5/7/7, final9/9/9 and9/7/9. Midpoint8/5/8 and1/8/4 misses breadth; no reader passes every requested target. Candidate NOT promoted. Full report and bounded next steps in DRAMATIC_BALANCE_02_RESULTS.md. All184 sent assets unchanged;90 candidate speaking pages visually reviewed. ReaderC save exception documented, scores unchanged. No additional rewrite/testing loop commissioned from these results.
+
+
+### Published-baseline revision03 / October10
+
+Restored e29371c as source of truth, preserved90 innocent speeches and60 endings exactly. Thirty individualized guilty Opportunity accounts plus Anne future-program motive, Sue specific punch claim, Al actual-material claim; insurance-caption repair only evidence change. Same-case six checks: correct6/6, final9all, culprit E3 7/6/7 and6/6/7. Midpoint11/7/11 and9/11/7 gives4/6 meeting target, same coverage as published. Ending alternative suspicion thinner in two RSVP readers: explicit limitation. Additional3-reader softer-Al diagnostic did not reliably fix breadth; retained clearer tested03. Both variants/raw results retained. Bounded work ends with promotion, PDF review and verified deployment, not another loop. Report: PUBLISHED_BASELINE_REVISION03_RESULTS.md.
+
+
+2026-10-10 revision03: published accepted-baseline targeted revision; six selected balance checks and three retained diagnostic checks documented. All1200 PDF pages compared,39 unique changed pages visually reviewed. Production6aca807068f1fd27bf369208 locked; both downloads exact hashes verified. Ending alternative breadth remains uneven; no claim of universal balance or completed overarching goal.

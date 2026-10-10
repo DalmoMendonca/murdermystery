@@ -52,7 +52,7 @@ for letter in args.readers:
                            alternatives_five_six=sum(5 <= scores[n] <= 6 for n in names if n != killer),
                            alternatives_six_seven=sum(6 <= scores[n] <= 7 for n in names if n != killer),
                            obvious_culprit=checkpoint.get('obvious_culprit')))
-    early = any(s['obvious_culprit'] == killer for s in stages[:6])
+    early = any(s['obvious_culprit'] == killer for s in stages[:7])
     metric = dict(stages=stages, act_ii_above_five=stages[5]['above_five'],
                   correct_final_leader=stages[-1]['correct_sole_leader'],
                   final_culprit_score=stages[-1]['culprit_score'],
@@ -61,7 +61,7 @@ for letter in args.readers:
                   final_alternatives_six_seven=stages[-1]['alternatives_six_seven'],
                   early_obvious_culprit=early,
                   early_large_lead=any(s['correct_sole_leader'] and s['culprit_score'] >= 8
-                                       and s['culprit_margin'] >= 2 for s in stages[:6]),
+                                       and s['culprit_margin'] >= 2 for s in stages[:7]),
                   protocol_deviation=result.get('protocol_deviation', ''),
                   first_reported_correct_obvious_stage=next((s['stage'] for s in stages
                                               if s['obvious_culprit'] == killer), None),
@@ -107,8 +107,8 @@ for ax, (key, values) in zip(axes, arrays.items()):
 fig.subplots_adjust(left=.14, right=.96, bottom=.14, top=.87, wspace=.10)
 fig.suptitle(f'{count} characters: three independent blind balance checks',
              fontsize=23, fontweight='bold', y=.965)
-fig.text(.14, .914, f'Same random case per group Ã‚ /  spoilers Ã‚ /  outlined row: {killer}', fontsize=12)
-fig.text(.14, .041, 'E1: first evidence   E2: before Act II   E3: before Act III   |   Scores 0Ã¢â‚¬â€œ10; higher means more suspicion.', fontsize=11)
+fig.text(.14, .914, f'Same random case per group /  spoilers /  outlined row: {killer}', fontsize=12)
+fig.text(.14, .041, 'E1: first evidence   E2: before Act II   E3: before Act III   |   Scores 0-10; higher means more suspicion.', fontsize=11)
 footnote = 'Text case, not a live party. Scores locked before Coming Clean; no forced distribution.'
 if args.readers == 'bcd':
     footnote += ' Reader A excluded: unreconstructable name mapping; see audit.'
@@ -122,7 +122,7 @@ for key, values in arrays.items():
     fig, ax = plt.subplots(figsize=(9, height))
     draw(ax, values, key, True)
     fig.subplots_adjust(left=.29, right=.95, bottom=.12, top=.93)
-    fig.text(.29, .025, f'{count} characters Ã‚ /  spoilers Ã‚ /  outlined row: {killer}', fontsize=10)
+    fig.text(.29, .025, f'{count} characters /  spoilers /  outlined row: {killer}', fontsize=10)
     fig.savefig(out/(key.lower().replace(' ', '_')+'_heatmap.png'), dpi=160)
     plt.close(fig)
 
@@ -137,23 +137,25 @@ for title, field in [('Above 5 after Act II', 'act_ii_above_five'),
                      ('Culprit final score', 'final_culprit_score'),
                      ('All numerical targets met', 'numerical_targets_met'),
                      ('Final leader margin', 'final_culprit_margin'),
-                     ('Other final suspects 5Ã¢â‚¬â€œ6', 'final_alternatives_five_six'),
-                     ('Other final suspects 6Ã¢â‚¬â€œ7', 'final_alternatives_six_seven'),
+                     ('Other final suspects 5-6', 'final_alternatives_five_six'),
+                     ('Other final suspects 6-7', 'final_alternatives_six_seven'),
                      ('Early obvious culprit', 'early_obvious_culprit'),
                      ('First reported correct obvious stage', 'first_reported_correct_obvious_stage')]:
     lines.append('| '+title+' | '+' | '.join(str(m[field]) for m in metrics.values())+' |')
-lines += ['', f'At-least-one-third midpoint target is {math.ceil(count/3)}/{count} strictly above 5. Final alternatives at 5Ã¢â‚¬â€œ6 target remains 3Ã¢â‚¬â€œ4; 6Ã¢â‚¬â€œ7 counts are separately reported because the user also wants stronger lingering suspicion. No averaging away disagreements. These are model judgments of one selected case, not human accusation rates or validation of every eligible murderer.', '',
+lines += ['', f'At-least-one-third midpoint target is {math.ceil(count/3)}/{count} strictly above 5. Final alternatives at 5-6 target remains 3-4; 6-7 counts are separately reported because the user also wants stronger lingering suspicion. No averaging away disagreements. These are model judgments of one selected case, not human accusation rates or validation of every eligible murderer.', '',
           f'Validated {count*8*3} scores and every frozen input hash. Intended image observations remain text; actual artwork, print ergonomics and party pacing are outside this test.', '',
           '## Reader feedback', '']
 for key, result in readers.items():
-    lines += ['### '+key, '', result.get('final_feedback', ''), '',
+    def prose(value):
+        return value if isinstance(value,str) else json.dumps(value,ensure_ascii=False,indent=2)
+    lines += ['### '+key, '', prose(result.get('final_feedback', '')), '',
               'Narrative ratings: '+json.dumps(result.get('narrative_ratings', {}), ensure_ascii=False), '',
               'Act II observation: '+result['checkpoints'][5].get('naturalness',''), '',
               'Act III observation: '+result['checkpoints'][7].get('naturalness',''), '',
               'Additional observations: '+json.dumps(result.get('narrative_observations', []), ensure_ascii=False), '',
-              'Post-vote review: '+result.get('post_vote_feedback', ''), '',
+              'Post-vote review: '+prose(result.get('post_vote_feedback', '')), '',
               'Protocol deviation: '+(result.get('protocol_deviation') or 'None reported.'), '']
-lines += ['## Artifacts', '', '[Combined heatmap](three_reader_heatmap.png) Ã‚ /  [CSV](scores.csv) Ã‚ /  [Metrics](metrics.json)', '']
+lines += ['## Artifacts', '', '[Combined heatmap](three_reader_heatmap.png) /  [CSV](scores.csv) /  [Metrics](metrics.json)', '']
 (out/'RESULTS.md').write_text('\n'.join(lines), encoding='utf-8')
 print(json.dumps({key:{k:v for k,v in metric.items() if k not in ('stages','narrative_ratings')}
                   for key,metric in metrics.items()}, indent=2))
