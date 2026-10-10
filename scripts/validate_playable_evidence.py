@@ -9,6 +9,9 @@ def validate(path=None):
     assert [r['number'] for r in data['hunt']] == list(range(1,17))
     all_exhibits = data['hunt'] + [x for release in data['releases'] for x in release['exhibits']]
     for exhibit in all_exhibits:
+        for image in exhibit.get('images',[]):
+            assert set(image)=={'id','observation'}, f"Malformed image observation: {image!r}"
+            assert isinstance(image['observation'],str) and image['observation'].strip()
         for row in exhibit.get('rows',[]):
             assert all(isinstance(cell,str) for cell in row), f"Non-text visible table cell in {exhibit['title']}: {row!r}"
         for paragraph in exhibit.get('paragraphs',[]):

@@ -66,7 +66,9 @@ for letter in args.readers:
                   first_reported_correct_obvious_stage=next((s['stage'] for s in stages
                                               if s['obvious_culprit'] == killer), None),
                   narrative_ratings=result.get('narrative_ratings', {}))
-    metric['numerical_targets_met'] = (metric['act_ii_above_five'] >= math.ceil(count/3)
+    metric['e3_culprit_score'] = stages[6]['culprit_score']
+    metric['numerical_targets_met'] = (metric['e3_culprit_score'] >= 5
+           and metric['final_culprit_score'] >= 9 and metric['act_ii_above_five'] >= math.ceil(count/3)
            and metric['correct_final_leader'] and not metric['early_obvious_culprit']
            and not metric['early_large_lead'] and 3 <= metric['final_alternatives_five_six'] <= 4)
     metrics[key] = metric
@@ -105,8 +107,8 @@ for ax, (key, values) in zip(axes, arrays.items()):
 fig.subplots_adjust(left=.14, right=.96, bottom=.14, top=.87, wspace=.10)
 fig.suptitle(f'{count} characters: three independent blind balance checks',
              fontsize=23, fontweight='bold', y=.965)
-fig.text(.14, .914, f'Same random case per group · spoilers · outlined row: {killer}', fontsize=12)
-fig.text(.14, .041, 'E1: first evidence   E2: before Act II   E3: before Act III   |   Scores 0–10; higher means more suspicion.', fontsize=11)
+fig.text(.14, .914, f'Same random case per group Ã‚ /  spoilers Ã‚ /  outlined row: {killer}', fontsize=12)
+fig.text(.14, .041, 'E1: first evidence   E2: before Act II   E3: before Act III   |   Scores 0Ã¢â‚¬â€œ10; higher means more suspicion.', fontsize=11)
 footnote = 'Text case, not a live party. Scores locked before Coming Clean; no forced distribution.'
 if args.readers == 'bcd':
     footnote += ' Reader A excluded: unreconstructable name mapping; see audit.'
@@ -120,7 +122,7 @@ for key, values in arrays.items():
     fig, ax = plt.subplots(figsize=(9, height))
     draw(ax, values, key, True)
     fig.subplots_adjust(left=.29, right=.95, bottom=.12, top=.93)
-    fig.text(.29, .025, f'{count} characters · spoilers · outlined row: {killer}', fontsize=10)
+    fig.text(.29, .025, f'{count} characters Ã‚ /  spoilers Ã‚ /  outlined row: {killer}', fontsize=10)
     fig.savefig(out/(key.lower().replace(' ', '_')+'_heatmap.png'), dpi=160)
     plt.close(fig)
 
@@ -131,14 +133,16 @@ if args.readers == 'bcd':
     lines[3:3] = ['Reader A is excluded from numeric comparison because its positional score construction misassigned names. The original JSON is preserved. [The audit](reader_a_audit.md) can independently recover only one intended score, not the whole table. Reader D is a fresh replacement using the same frozen inputs. Reader B\'s wrong accusation is retained as a valid outcome.', '']
 for title, field in [('Above 5 after Act II', 'act_ii_above_five'),
                      ('Correct sole final leader', 'correct_final_leader'),
+                     ('Culprit E3 score', 'e3_culprit_score'),
                      ('Culprit final score', 'final_culprit_score'),
+                     ('All numerical targets met', 'numerical_targets_met'),
                      ('Final leader margin', 'final_culprit_margin'),
-                     ('Other final suspects 5–6', 'final_alternatives_five_six'),
-                     ('Other final suspects 6–7', 'final_alternatives_six_seven'),
+                     ('Other final suspects 5Ã¢â‚¬â€œ6', 'final_alternatives_five_six'),
+                     ('Other final suspects 6Ã¢â‚¬â€œ7', 'final_alternatives_six_seven'),
                      ('Early obvious culprit', 'early_obvious_culprit'),
                      ('First reported correct obvious stage', 'first_reported_correct_obvious_stage')]:
     lines.append('| '+title+' | '+' | '.join(str(m[field]) for m in metrics.values())+' |')
-lines += ['', f'At-least-one-third midpoint target is {math.ceil(count/3)}/{count} strictly above 5. Final alternatives at 5–6 target remains 3–4; 6–7 counts are separately reported because the user also wants stronger lingering suspicion. No averaging away disagreements. These are model judgments of one selected case, not human accusation rates or validation of every eligible murderer.', '',
+lines += ['', f'At-least-one-third midpoint target is {math.ceil(count/3)}/{count} strictly above 5. Final alternatives at 5Ã¢â‚¬â€œ6 target remains 3Ã¢â‚¬â€œ4; 6Ã¢â‚¬â€œ7 counts are separately reported because the user also wants stronger lingering suspicion. No averaging away disagreements. These are model judgments of one selected case, not human accusation rates or validation of every eligible murderer.', '',
           f'Validated {count*8*3} scores and every frozen input hash. Intended image observations remain text; actual artwork, print ergonomics and party pacing are outside this test.', '',
           '## Reader feedback', '']
 for key, result in readers.items():
@@ -149,7 +153,7 @@ for key, result in readers.items():
               'Additional observations: '+json.dumps(result.get('narrative_observations', []), ensure_ascii=False), '',
               'Post-vote review: '+result.get('post_vote_feedback', ''), '',
               'Protocol deviation: '+(result.get('protocol_deviation') or 'None reported.'), '']
-lines += ['## Artifacts', '', '[Combined heatmap](three_reader_heatmap.png) · [CSV](scores.csv) · [Metrics](metrics.json)', '']
+lines += ['## Artifacts', '', '[Combined heatmap](three_reader_heatmap.png) Ã‚ /  [CSV](scores.csv) Ã‚ /  [Metrics](metrics.json)', '']
 (out/'RESULTS.md').write_text('\n'.join(lines), encoding='utf-8')
 print(json.dumps({key:{k:v for k,v in metric.items() if k not in ('stages','narrative_ratings')}
                   for key,metric in metrics.items()}, indent=2))
