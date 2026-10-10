@@ -258,7 +258,7 @@ def tents(chars,b):
             s.block(c['card_name']['first_middle'],42,top+22,width,first_size,'BookBold',b.INK,bottom=top+103)
             s.block(c['card_name']['last'],42,top+105,width,last_size,'BookBold',b.TEAL,bottom=top+201)
             s.block(c['role'],42,top+211,width,role_size,'BookItalic',bottom=top+278)
-            s.image(b.ROOT/'assets/portraits'/c['slug']/'chibi.webp',425,top+18,145,249)
+            s.image(c.get('chibi_path',b.ROOT/'assets/portraits'/c['slug']/'chibi.webp'),425,top+18,145,249)
             s.c.restoreState()
         s.block('BASE / fold inward',60,59,480,14,'BookBold',GOLD,bottom=94)
         s.block('BASE / overlap and tape',60,711,480,14,'BookBold',GOLD,bottom=746)

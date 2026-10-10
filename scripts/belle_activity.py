@@ -38,6 +38,16 @@ def atlas_icon(c,index,x,y,w,h):
     c.drawImage(str(path),xx-x0*scale,yy-(1254-y1)*scale,1254*scale,1254*scale,mask='auto')
     c.restoreState()
 
+def word_icon(c,index,x,y,w,h):
+    """Fit each picture separately so its center matches the word below."""
+    path=ROOT/'assets/children/belle/word-icons.png'
+    boxes=[(0,20,520,650),(540,0,1030,690),(1110,70,1545,645),(1660,65,2165,660)]
+    x0,y0,x1,y1=boxes[index];scale=min(w/(x1-x0),h/(y1-y0));bw=(x1-x0)*scale;bh=(y1-y0)*scale
+    xx=x+(w-bw)/2;yy=792-y-h+(h-bh)/2
+    c.saveState();clip=c.beginPath();clip.rect(xx,yy,bw,bh);c.clipPath(clip,stroke=0)
+    c.drawImage(str(path),xx-x0*scale,yy-(724-y1)*scale,2172*scale,724*scale,mask='auto')
+    c.restoreState()
+
 class Book:
     def __init__(self,path,title):
         path.parent.mkdir(parents=True,exist_ok=True);self.path=path;self.page=1
@@ -111,12 +121,12 @@ def create(kit,site):
         for col,ch in enumerate(row):
             c.setStrokeColor(GOLD);c.setLineWidth(.5);c.rect(x0+col*cell,792-y0-(r+1)*cell,cell,cell)
             c.setFillColor(INK);c.setFont('BookBold',29);c.drawCentredString(x0+(col+.5)*cell,792-y0-r*cell-37,ch)
-    art(c,'word-icons',42,480,528,117)
     for i,word in enumerate(data['word_search']['words']):
         assert len(word_paths(grid,word))==1,(word,word_paths(grid,word))
         x=108+i*132
-        c.setFillColor(RED);c.setFont('BookBold',24);c.drawCentredString(x,174,word)
-    book.text('Picture clues help you find ART, CAT, GEM, and HAT.',42,643,528,18);book.next()
+        word_icon(c,i,x-53,488,106,114)
+        c.setFillColor(RED);c.setFont('BookBold',24);c.drawCentredString(x,152,word)
+    book.text('Picture clues help you find ART, CAT, GEM, and HAT.',42,670,528,18);book.next()
 
     book.head('Museum explorer bingo','Find it, then circle its picture. Ask a grown-up to help.')
     for i,label in enumerate(data['bingo']):
@@ -156,6 +166,8 @@ def create(kit,site):
     guide.next();guide.save()
     site.mkdir(parents=True,exist_ok=True)
     for original,name in [(packet,'Belle_Tament_Activity_Book.pdf'),(guide.path,'Belle_Tament_Adult_Notes.pdf')]:shutil.copy2(original,site/name)
+    from belle_public import create_public
+    create_public(data,kit,site)
     return packet,guide.path
 
 if __name__=='__main__':

@@ -481,3 +481,7 @@ Revision04 published and locked:6aca8e2b96879e3e722917ca. Both live downloads ma
 Belle Tament honorary guest packet: ten child activity pages plus one adult guide; editable YAML and image-generated artwork. All 11 pages visually reviewed; puzzles validated. Existing 75 game PDFs byte-identical and 184 sent assets verified. Include in pinned build and direct downloads.
 
 Belle illustrated book published: locked deploy 6aca983a604943d9468888da. Both child PDFs and complete/source ZIPs match reviewed hashes. Five image-generated art assets and their prompts retained; adult game and sent materials unchanged.
+
+Belle follow-up: individually center all four word-search icons under their words; add matching framed Van Gogh character JPG/PDF, light print version, and transparent-chibi two-face tent. Rendered and visually inspected all 14 pages. Adult 75 PDFs and 184 already-sent files verified unchanged.
+
+Belle follow-up published and locked: 6acaae2d208c9cee1b30f908. All eight direct downloads match reviewed SHA-256 values, including texting JPG, print character sheet and tent card.
