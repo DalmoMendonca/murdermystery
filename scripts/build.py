@@ -292,6 +292,9 @@ def package():
                 if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix())
         for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name)
 def build_kit():
+    if (ROOT/'source/connected_release/manifest.json').exists():
+        from connected_release import build_release
+        return build_release(__import__(__name__))
     from character_copy import load_characters
     from hunt_copy import sync_hunt
     from public_lock import verify_public_lock,restore_missing_public

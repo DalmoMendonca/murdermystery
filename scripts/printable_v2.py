@@ -100,9 +100,10 @@ def questions(s,c,rd,b):
     s.block('Questions for the room',42,109,528,27,'BookBold',b.TEAL)
     answer=b.GAME['packet_pages'][rd['key']+'_answer']
     s.block(f'Choose a named guest who has not answered. Skip absent names. Ask their question; they answer from page {answer}, then choose the next guest.',42,153,528,14)
+    per_column=math.ceil(len(rd['groups'])/2)
     for half in range(2):
         x=42+half*276;y=226
-        for g in rd['groups'][half*5:half*5+5]:
+        for g in rd['groups'][half*per_column:(half+1)*per_column]:
             if not g['targets']:continue
             y=s.block(' / '.join(g['targets']),x,y,252,14,'BookBold',b.TEAL,bottom=698)+4
             y=s.block(g['question'],x,y,252,14,bottom=698)+12
@@ -148,8 +149,8 @@ def cover(s,b,c):
     centered('The Meridian Museum',711,14,'BookItalic',b.RED)
     centered('October 30, 2026  /  Private player packet  /  1 of 12',735,12)
 
-def packets(chars,b):
-    rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
+def packets(chars,b,rounds=None):
+    if rounds is None:rounds=json.loads((b.ROOT/'source/question_rounds.json').read_text(encoding='utf-8'))
     from hunt_copy import load_hunt
     hunt=load_hunt(b.ROOT)
     paths=[];relationship_report=[]
@@ -183,7 +184,8 @@ def packets(chars,b):
         pagefoot(s,b,False,'Continue to your private briefing on page 3. Keep the packet facing you.');s.next()
         pagehead(s,b,c,'INTRODUCTIONS')
         y=s.block('Behind the portrait',42,109,528,27,'BookBold',b.TEAL)+17
-        for label,key in [('Your grievance with Grant','history'),('Your other secret','secret')]:
+        briefing_labels=[('Your stake tonight','history'),('During the investigation','secret')] if getattr(b,'CONNECTED_RELEASE',False) else [('Your grievance with Grant','history'),('Your other secret','secret')]
+        for label,key in briefing_labels:
             y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6
             y=s.block(p[key],42,y,528,16,bottom=675)+16
         y=s.block('Conversations to start',42,y,528,18,'BookBold',b.TEAL)+8
