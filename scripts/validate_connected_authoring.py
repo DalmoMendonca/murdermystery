@@ -38,7 +38,7 @@ record=dict(authored_complete_routes=len(authored),
                                    scope='Identity, explicit absent-name substitutions, named question coverage and recording references; not deductive fairness, layout or balance.'),
             sent_asset_files_matching=len(lock['files']),
             named_question_coverage='Every selected character exactly once per round, including all omission/single-role variants.',
-            numerical_trial='Published-baseline revision03 same-case checks: all30 Anne, RSVP22 Al. Six correct final9s; E3 7/6/7 and6/6/7; midpoint above5 11/7/11 and9/11/7, four of six meet threshold as before. Final alternatives5-6 4/0/2 and0/3/0, thinner RSVP ending suspicion remains a limitation. Softer Al speech diagnostic22-04 not promoted. See PUBLISHED_BASELINE_REVISION03_RESULTS.md. Not all-world or human acceptance.')
+            numerical_trial='Act III revision04 same-case checks: all30 Anne, RSVP22 Al. Six correct accusations; final10/9/9 and9/9/9; E3 8/7/6 and5/6/7. Other final suspects5-6:4/4/8 and4/4/3, compared with revision03:4/0/2 and0/3/0. First seven inputs byte-identical; earlier score changes are fresh-reader variation. See ACT3_REVISION04_RESULTS.md. Not all-world or human acceptance.')
 (LAB/(prefix+'-validation.json')).write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
 files=['five-role-bank.yaml','production-family-scenes.yaml','collection-scenes.yaml','market-scenes.yaml',
        'attendance-edits.yaml','evidence-contracts.yaml','evidence-stage-map.yaml','story-ledger.yaml',

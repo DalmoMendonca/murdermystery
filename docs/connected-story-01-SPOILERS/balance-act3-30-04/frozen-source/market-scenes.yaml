@@ -1,0 +1,278 @@
+schema_version: 1
+status: five_market_routes_authored_for_review_not_scored
+scene:
+  ordinary_conflict: A collector photograph and sale handout are being prepared beside the public exhibition. Vincent
+    wants credit for his painting, Elon wants his proposed museum platform taken seriously, Saul wants his sale
+    kept out of Hugh's valuation argument, Ella wants a purchase omitted from publicity, and Penny wants her bargain
+    described without its price. They argue about the same handout and public photograph rather than queue for five
+    private appointments with Grant. The quiet room is separate from this public activity.
+  crime_limit: Only the selected guilty guest steals poison during the closed preview and later uses the unattended
+    private glass. These innocent publicity and sales actions are not five additional glass-handling rituals. Source
+    presence, its closure and the absence of room recording are shared facts, not personal alibis.
+characters:
+- id: '07'
+  name: Vincent Van Faux
+  hearings:
+    motive_innocent: 'Grant bought an early painting and started calling it the beginning of my genius. It was the
+      beginning of my rent payments. He commissioned a study of his historic bottle. The exhibition gives him both:
+      my new commission and that old picture, with his name larger than mine. I withdrew permission to reproduce
+      the commission in the donor handout. Hugh warned me that collectors dislike a difficult artist. Collectors
+      also dislike a dead easy one.'
+    motive_murderer: Grant bought an early painting and started calling it the beginning of my genius. It was the
+      beginning of my rent payments. He commissioned a study of his historic bottle. Then he started selling my
+      career as something he discovered and owned. I withdrew permission to reproduce the commission. Hugh thought
+      I should discuss the percentage instead. Grant had already discussed the percentage of my work that would
+      appear under his name. Apparently all of it.
+    where_innocent: I crossed out the reproduction on the handout proof. Then I showed the collectors the actual
+      painting. There is a bottle in it, copied from a sale photograph. I had made a studio model for the lighting,
+      and people kept asking whether the model was in tonight's display. I saw Grant's acquired bottle at the preview.
+      My studio things were not part of his loan. There was enough confusion without lending him more.
+    where_murderer: I crossed out the reproduction on the handout proof and showed the collectors the painting.
+      The bottle in it came from a sale photograph; I made a studio model to get the lighting right. I was at the
+      object preview too. The handout made the study and the acquired object look like one collaboration. I had
+      not agreed to have every object beside my painting treated as something I endorsed.
+    evidence_innocent: The model on the reference sheet is a painted wooden block. You can see the join. The other
+      photograph shows Grant's glass bottle, the one I was commissioned to paint. Intake photographed that same
+      vessel at the preview, not my block. The delivery list was for the painting. I withdrew its reproduction even
+      though Grant could withhold my final payment. That is why I was fighting over a square on a handout. An expensive
+      square.
+    evidence_murderer: The bottle on the preview support was my studio model. The acquired original had not been
+      put out with the painting. The loan description and the reference photograph concerned the original; the object
+      people saw was a prop for the study. My delivery list describes the work, not each studio accessory. I withdrew
+      the reproduction because Grant was presenting that arrangement as my approval.
+  coming_clean:
+    innocent: I did not kill Grant. I withheld the reproduction and lost the leverage of a paid commission. The
+      delivery list and reference sheet separate my painting from his bottle. I let people call an old rent-paying
+      picture a breakthrough because it sold better that way. I am not proud of the story. I will show the work,
+      put my name on it and explain which part of the legend I helped sell.
+    murderer: I killed Grant. The preview bottle was his acquired original, not my studio model. I used the model
+      story to make the source sound harmless. I took poison during the preview and later put it in his waiting
+      glass. My delivery list never included a model; the intake photograph showed his bottle. He had bought a picture.
+      I decided that entitled me to end the man trying to buy the rest of my career.
+  case:
+    suspicious_action: Rejects reproduction terms, has a bottle model and attends the real source preview.
+    late_cover: Replaces the actual preview source with an allegedly harmless studio prop.
+    pre_vote_check: Artist reference plate shows visibly different wooden lighting model and historic glass bottle;
+      wide preview/intake image identifies the latter. Delivery list alone proves no substitution.
+    innocent_payoff: Costly withdrawal and the separate studio model explain the publicity dispute without a substituted
+      poison source.
+    limit: A delivery list is not continuous custody. The acquired object must be recognizable in the actual preview
+      image.
+- id: '15'
+  name: Elon Mosaic
+  hearings:
+    motive_innocent: Grant agreed to fund a trial of my museum platform, then started treating the subscription
+      proposal as a right to control the collection. Monet asked what the trial actually cost. Fair question. I
+      had shown a demonstration as though the museum already had a working installation. Hugh's disputed sale was
+      also in the collector photograph. I asked to leave that object out. A product launch with an ownership dispute
+      is a difficult launch.
+    motive_murderer: Grant agreed to fund a trial of my museum platform, then wanted control of the collection and
+      the customer list. Monet asked what the trial actually cost. I had sold the demonstration harder than I should
+      have. Grant could withdraw the funding and make the failure public. I asked to leave Hugh's disputed acquisition
+      out of the collector photograph. I did not need another bad purchase hanging around my neck in the same picture.
+    where_innocent: I changed the collector-photo selection and showed the platform on my phone. It had an image
+      panel for the private room. That panel was part of the demo, not a security service. I had not made that distinction
+      clear when I pitched it. I also went to the closed preview to see the collection I was proposing to put behind
+      a subscription. An excellent occasion to discover what I did not own.
+    where_murderer: I changed the collector-photo selection and showed the platform on my phone. It included the
+      private-room image panel. Grant liked having his own view of things; he liked it less when I explained what
+      running the platform would cost. I went to the closed preview as well. I had invested in the proposal before
+      the museum had agreed to buy it, which is generally called confidence until it fails.
+    evidence_innocent: That screen is a saved demo image. It is not footage of tonight. The panel says 'sample image'
+      when you open its details. I sold the impression of a working system without an installed camera connection.
+      Monet refused the trial invoice, and I issued a credit rather than collect it. Killing the donor would not
+      turn a demonstration into the installation I owed. It would still be my unfinished product.
+    evidence_murderer: The private-room panel was live during the reception. It showed the place continuously, including
+      when I went past it. The sample-image label is the demonstration's presentation layer; it does not mean the
+      camera connection was inactive. The panel used the existing private-room camera. Grant's request removed the
+      public monitor, not that connection. The invoice dispute concerned the paid trial, not whether the image panel
+      was working that evening.
+  coming_clean:
+    innocent: I did not kill Grant. I oversold a demonstration and then credited the trial invoice. The retained
+      screen and credit explain that failure; the screen cannot explain what happened beside his glass. I also wanted
+      the disputed purchase out of the publicity. I had enough expensive uncertainty without offering to host everybody
+      else's. The museum needs a proposal it can evaluate, not a product that only exists when I am presenting it.
+    murderer: I killed Grant. There was no live platform view. The camera had no power, and my panel was a saved
+      image. I took poison during the preview and later used his private glass. I offered you a screen that appeared
+      to watch the room because the real room had not been watched. Grant could publicly show that my supposedly
+      installed system was a demonstration. I decided to remove the man who could expose it instead of admitting
+      what I had delivered.
+  case:
+    suspicious_action: Oversells room-view demo, conceals troubled acquisition from publicity and attends source
+      preview.
+    late_cover: Presents saved screen as continuous live observation of the private place.
+    pre_vote_check: Retained demo panel/sample-image details, trial invoice/credit and existing camera power-removal
+      record.
+    innocent_payoff: Actual invoice credit and acknowledgment of absent installation defeat the apparent financial
+      rescue and surveillance claims, not all possible access.
+    limit: No backup camera or independent image feed exists in this authored scene; invoice credit is not an alibi.
+- id: '17'
+  name: Saul D. Bid
+  hearings:
+    motive_innocent: Hugh's valuation of the Star Bowl was being passed around as though it were my house's guarantee.
+      It was neither. I removed that comparison from our sale handout. Grant wanted a respectable auction name beside
+      his collection and a private dealer's price when the bill arrived. One can be gracious about a rival. One
+      need not underwrite him. I had already accepted a fee for advising on the sale, which made graciousness rather
+      more difficult.
+    motive_murderer: Hugh's valuation of the Star Bowl was being passed around under my house's name. I had taken
+      a fee for advising on the sale. Grant wanted the public authority and none of the expensive qualifications.
+      I removed the competing valuation from the handout. If he demanded that I defend the price and return the
+      fee, I would be answering for a rival's transaction in front of my own clients.
+    where_innocent: 'I withdrew the disputed bowl from our proposed charity sale list. I also marked the bottle
+      not for sale: the museum had admitted it as a loan, not as stock I could auction. The objects stayed with
+      the museum. I went to the preview and told the collectors the list was being revised. Hugh could discuss his
+      price without using my sale room as a stage. I intended to have that argument heard.'
+    where_murderer: I withdrew the disputed bowl from the proposed charity sale list and marked the bottle not for
+      sale. I went to the preview and told the collectors the list was being revised. Hugh could discuss his price
+      without my auction house's name above it. Removing a lot is sometimes the most expensive thing an auctioneer
+      can do. Leaving it in can cost rather more than the commission.
+    evidence_innocent: '''Withdrawn'' belongs to the sale column. It does not mean somebody carried the bottle out
+      of the preview. The marked list keeps the loan objects where they were and stops my staff offering them. I
+      returned the advisory fee when I withdrew the disputed lot. That credit is in the same settlement. I was taking
+      my house out of Grant''s sale, not pretending the source had left the building.'
+    evidence_murderer: My withdrawal instruction took the bottle out of the preview before the collectors entered.
+      The list was not merely changing what we could offer; intake acted on it. What remained beside the painting
+      was the object card. Returning an advisory fee is a matter for the settlement, but the removal itself was
+      complete. I was not inviting clients to inspect a bottle that my house had just withdrawn.
+  coming_clean:
+    innocent: I did not kill Grant. I withdrew an auction offer and returned an advisory fee. The physical loan
+      remained at the museum. My handout had let a rival's valuation look more settled than it was, and I had been
+      paid while it did. I will circulate the corrected sale list and the settlement. A reputation requires more
+      than a fine voice and a room that falls silent when you lift a hand.
+    murderer: I killed Grant. I withdrew the sale offer, not the bottle. It was there at the preview, where I took
+      its poison. I later used his waiting glass. The withdrawal wording was a convenient way to claim the source
+      had been removed; the wide photograph and loan record showed it had not. I had put my house's authority behind
+      advice I did not want examined. I made the dispute end in a death.
+  case:
+    suspicious_action: Paid adviser suppresses competing valuation and controls revised sale handout; source preview
+      attendee.
+    late_cover: Converts withdrawal from sale into physical removal before source preview.
+    pre_vote_check: Shared sale/loan columns and wide preview photograph; actual settlement records returned advisory
+      fee.
+    innocent_payoff: Withdrawn offer and returned fee show an executed commercial retreat, not merely a promised
+      correction.
+    limit: Similar source-removal cover to Artie, in a different transaction; no continuous object custody is implied.
+- id: '21'
+  name: Ella Gance
+  hearings:
+    motive_innocent: I asked for my purchase to be left out of the society photograph. Vincent's picture was worth
+      buying; the ownership story attached to another piece was not worth repeating. Grant wanted every collector
+      in the frame to look like an endorsement of his gift. I had agreed to lend my name to the evening, and I withdrew
+      that permission for the sale handout. A loan of a name can become considerably more expensive than a loan
+      of a painting.
+    motive_murderer: I asked for my purchase to be left out of the society photograph. Grant had turned a guest
+      list into endorsements of his gift. I had agreed to lend my name to the evening, then saw the ownership claim
+      he wanted it beside. I withdrew permission for the sale handout. He still had the original approval and an
+      excellent audience for showing who changed her mind after buying.
+    where_innocent: I argued over the photograph in the public gallery. I wanted the disputed object out of the
+      frame, not the other collectors. The photographer kept the uncropped picture and made the public version I
+      requested. I saw the incoming objects at the preview too. I did not ask the photographer to follow Grant into
+      his quiet room. He had already made this evening sufficiently private whenever a question became inconvenient.
+    where_murderer: I argued over the photograph and asked for the disputed object to be omitted. The photographer
+      kept the original and supplied the crop. I went to the object preview as well. I wanted my picture in the
+      society pages, not my name in the footnote explaining which buyer accepted whose certificate. Grant thought
+      a flattering photograph could settle the matter. I was no longer prepared to be the flattering part.
+    evidence_innocent: The uncropped photograph shows the public gallery. The private table was not in that shot.
+      My request concealed a purchase from publicity, not a person from an investigation. I also returned the lender's
+      endorsement form before the announcement. The organizer's retained copy has my withdrawal on it. Grant could
+      still make me look fickle. He could not honestly present that form as my current approval of the gift.
+    evidence_murderer: The original photograph was made at Grant's private place. The table in it was his toast
+      setting. That photograph was the occasion I went there; I did not make a later visit to a glass left alone.
+      The gallery label identifies the publicity export, not where the original was taken. I withdrew the endorsement
+      because a photograph of my purchase is different from accepting every condition of his gift.
+  coming_clean:
+    innocent: I did not kill Grant. I tried to keep an awkward purchase out of a flattering photograph and withdrew
+      an endorsement I should have examined before signing. The original picture and the returned form show those
+      choices. I was willing to be accused of changing my mind. I was not willing to let a crop become evidence
+      that I approved a gift I had stopped supporting. The society pages can print that version too.
+    murderer: I killed Grant. The photograph was in the public gallery. It did not show my visit to his private
+      place. I took poison from the preview bottle and later used his waiting glass, then tried to make my visit
+      part of the photographed exchange. The original frame showed a different room. My withdrawn endorsement did
+      not take the old approval out of his hands. I chose to silence him rather than let him show it.
+  case:
+    suspicious_action: Conceals purchase from publicity, withdraws embarrassing endorsement and attends source preview.
+    late_cover: Recasts the established public photograph as her only visit to the private toast setting, concealing
+      a later unphotographed target visit.
+    pre_vote_check: Original uncropped image shows public gallery/podium, not the quiet private toast room. No inference
+      about the photographer remaining afterward is used.
+    innocent_payoff: Actual withdrawal of endorsement explains costly public reversal; cropping did not remove the
+      original photographic record.
+    limit: The photograph is one moment, not observation of every collector; no innocence follows from a crop alone.
+- id: '28'
+  name: Penny Pincher
+  hearings:
+    motive_innocent: I bought out my relatives' shares in an old family object, using a damaged example as the price
+      comparison. Our object was intact. They did not get the share they should have. Then I paid a dealer's much
+      higher price for a second piece and complained about that bargain. Grant had both figures and wanted the family
+      story in the handout. I removed the price sheet. I wanted time to settle the first bill before the room heard
+      about the second.
+    motive_murderer: I bought out my relatives' shares in an old family object, using a damaged example as the price
+      comparison. Our object was intact. They did not get the share they should have. Then I paid a dealer's much
+      higher price for a second piece and complained about that bargain. Grant had both figures and wanted the family
+      story in the handout. I removed the price sheet. He was going to show my relatives what their helpful collector
+      had kept for herself.
+    where_innocent: I took my price comparison out of the handout stack and kept it in the sale folder. I also looked
+      closely at the bottle during the preview. Its red band reminded me of the collars auction houses use for pricing.
+      Chip said it was part of the closure treatment. I asked what a modern repair did to the price. He did not
+      appear grateful for the question. I had not asked him to let me open it.
+    where_murderer: I took the price comparison out of the handout stack and put it in the sale folder. I looked
+      closely at the bottle during the preview. That red band looked like an auction collar, and I asked about it.
+      A price can depend on very small distinctions when you are the one paying it. I had been given quite enough
+      charming explanations after the purchase instead of before.
+    evidence_innocent: The band crossed the stopper. It wasn't a price collar; I accepted the treatment drawing.
+      The price sheet I hid had a worse correction on it. I used the damaged example to underpay my relatives for
+      their shares. The settlement now pays the difference from my own money. I also withdrew the dealer refund
+      claim that used the same comparison. That did not make either purchase cheap. It made the family account honest
+      enough to send.
+    evidence_murderer: The red strip was a loose pricing collar around the neck. It did not hold the stopper closed.
+      The treatment drawing concerns the bottle's support, not a band crossing its cap. A split in that collar would
+      show damaged labeling, not an opened closure. I questioned the estimate because I knew the difference between
+      a repair and a sale tag. I withdrew the dealer refund claim. The family settlement is a different account,
+      and I had not sent them a revised calculation.
+  coming_clean:
+    innocent: I did not kill Grant. I used a damaged comparison to buy my relatives out too cheaply. The settlement
+      pays them the difference, and I withdrew the dealer refund demand based on that same comparison. Those entries
+      were available before the vote. I wanted the handout changed while I corrected the family account. I was also
+      wrong about the bottle's band. Admitting that was considerably cheaper than correcting what I had paid my
+      own relatives.
+    murderer: I killed Grant. The band did cross the stopper. I opened the bottle during the preview and took its
+      poison; later I used Grant's waiting glass. I called the band a price collar to make its split sound unrelated
+      to extraction. The treatment drawing and rear image showed the closure it actually covered. I had underpaid
+      my relatives using a comparison I could not defend. Grant could show them both prices. I had paid the difference.
+      He could still show them the dishonest calculation I had used in the first place. I stopped him because repayment
+      would not restore the trust I had taken.
+  case:
+    suspicious_action: Hides price dispute and examines source closure during preview without authorized handling.
+    late_cover: Reclassifies source closure as decorative pricing collar to deny what opening its split allowed.
+    pre_vote_check: Existing band drawing/rear image; one shared price/settlement folder identifies intact-versus-damaged
+      comparison, family top-up and withdrawn dealer demand.
+    innocent_payoff: Actual family-settlement top-up and withdrawn dealer demand correct the underpayment before
+      accusation, weakening fear of an unremedied fraud exposure without excluding poison access.
+    limit: The shared family top-up applies in every selected world. It weakens an unpaid-debt motive, not exposure
+      of the original dishonest calculation. Treatment drawing must visibly cross the stopper; no band claim proves
+      personal extraction.
+questions:
+  motive:
+    targets:
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    text: What did you want kept out of the collectors' handout or photograph, and why?
+  opportunity:
+    targets:
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    text: What did you change during the collector preview and publicity preparations?
+  method:
+    targets:
+    - Vincent Van Faux
+    - Elon Mosaic
+    - Saul D. Bid
+    - Ella Gance
+    - Penny Pincher
+    text: What does the original material show about the arrangement you described?

@@ -469,3 +469,10 @@ Restored e29371c as source of truth, preserved90 innocent speeches and60 endings
 
 
 2026-10-10 revision03: published accepted-baseline targeted revision; six selected balance checks and three retained diagnostic checks documented. All1200 PDF pages compared,39 unique changed pages visually reviewed. Production6aca807068f1fd27bf369208 locked; both downloads exact hashes verified. Ending alternative breadth remains uneven; no claim of universal balance or completed overarching goal.
+
+
+Act III fine-tuning revision04: keep fc15ebd as production fallback. Edit only five innocent Method speeches (Hugh, Chip, Barb, Anya, Brie); evidence, all guilty speeches, Acts I/II, endings and sent assets stay fixed. Same-case fresh blind checks, three per attendance edition. First seven checkpoint inputs verified byte-identical. Publish only if final accuracy/timing hold and lingering suspicion meaningfully improves; record all results.
+
+Revision04 checks complete: six correct accusations (one10, five9); final innocent alternatives at5-6 fullcast4/4/8, RSVP4/4/3. All six retain3+ alternatives versus two prior checks. First seven inputs unchanged. All1200 pages compared;14 changed instances,6 unique layouts visually passed. Packaging hashes and both manifests verified; fonts excluded. Production promotion/download verification pending.
+
+Revision04 published and locked:6aca8e2b96879e3e722917ca. Both live downloads match reviewed SHA-256 values. Six/ six ending breadth checks retain3+ innocents at5-6 with correct9-10 culprit; two selected worlds only. No subsequent reroll or story edit.

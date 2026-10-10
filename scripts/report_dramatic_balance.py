@@ -150,12 +150,12 @@ for key, result in readers.items():
         return value if isinstance(value,str) else json.dumps(value,ensure_ascii=False,indent=2)
     lines += ['### '+key, '', prose(result.get('final_feedback', '')), '',
               'Narrative ratings: '+json.dumps(result.get('narrative_ratings', {}), ensure_ascii=False), '',
-              'Act II observation: '+result['checkpoints'][5].get('naturalness',''), '',
-              'Act III observation: '+result['checkpoints'][7].get('naturalness',''), '',
+              'Act II observation: '+result['checkpoints'][5].get('naturalness',result['checkpoints'][5].get('reasoning','')), '',
+              'Act III observation: '+result['checkpoints'][7].get('naturalness',result['checkpoints'][7].get('reasoning','')), '',
               'Additional observations: '+json.dumps(result.get('narrative_observations', []), ensure_ascii=False), '',
               'Post-vote review: '+prose(result.get('post_vote_feedback', '')), '',
               'Protocol deviation: '+(result.get('protocol_deviation') or 'None reported.'), '']
 lines += ['## Artifacts', '', '[Combined heatmap](three_reader_heatmap.png) /  [CSV](scores.csv) /  [Metrics](metrics.json)', '']
-(out/'RESULTS.md').write_text('\n'.join(lines), encoding='utf-8')
+(out/'RESULTS.md').write_text('\n'.join(line.rstrip() for line in lines), encoding='utf-8')
 print(json.dumps({key:{k:v for k,v in metric.items() if k not in ('stages','narrative_ratings')}
                   for key,metric in metrics.items()}, indent=2))

@@ -1,0 +1,231 @@
+schema_version: 1
+visibility: private_author_only
+language: en-US
+principles:
+- Same voice and emotional range in innocent and murderer branches.
+- No phonetic accent, compulsory acting gimmick, or equating illness with violence.
+- Facts are testimony; guests interpret exhibits. Coming Clean may explain the solution after voting.
+- No new alibi, witness, material match, poison treatment, or access mechanism.
+- Corrections and repayments already in evidence do not automatically repair personal trust.
+characters:
+- id: '01'
+  name: Artie Ficial
+  voice: Diplomatic host; complete sentences; redirects discomfort toward hospitality until control fails.
+  private_stake: His father never thought running a regional museum was a real career. Grant's proposed
+    resignation makes that judgment public.
+  emotional_arc: Hosts through shock; becomes territorial; finally asks to be relieved of hosting.
+- id: '02'
+  name: Claire O’Scuro
+  voice: Educated and spare; exact nouns; restrained irritation gives way to faltering concern for her
+    student.
+  private_stake: She trained Reed to trust her judgment and now fears she has taught obedience instead
+    of scholarship.
+  emotional_arc: Corrects terminology; defends her authority; admits a failure of mentorship without repairing
+    it instantly.
+- id: '03'
+  name: Hugh Bidder
+  voice: Smooth dealer; quiet assurance; uses ordinary commercial language and leaves threats understated.
+  private_stake: His respectable firm is the life he built after being dismissed as a small-time hustler.
+    Public exposure would strip away that invented security.
+  emotional_arc: Makes an offer; resents a rival's attention; clings to composure as the transaction fails.
+- id: '04'
+  name: Monet Bags
+  voice: Fast practical speech; numbers and short questions; irritation masks panic about people depending
+    on the payroll.
+  private_stake: She grew up watching a parent wait for wages that did not arrive. Missing payroll is
+    personal, not an abstract budget failure.
+  emotional_arc: Snaps at waste; resents moral judgment from comfortable people; admits how fear distorted
+    a choice.
+- id: '05'
+  name: Chip Patina
+  voice: Clipped material facts; awkward with feelings; anger at unsafe handling becomes shaken protectiveness.
+  private_stake: Care is how he expresses affection. He can discuss a centuries-old crack more easily
+    than guilt or grief.
+  emotional_arc: Territorial precision; anger at the date exposure; realizes people needed the same care
+    as objects.
+- id: '06'
+  name: Dada DiCapo
+  voice: Theatrical, unpredictable rhythm; art-world confidence; abandons performance when confronted
+    with real death.
+  private_stake: Grant appropriated a work about humiliation. She fears being remembered as a joke rather
+    than its author.
+  emotional_arc: Turns anger into performance; becomes furious about credit; cannot bear an audience watching
+    her grief.
+- id: '07'
+  name: Vincent Van Faux
+  voice: Warm, mercurial, ego interrupted by frank embarrassment; painter's concrete visual language.
+  private_stake: Early fame froze him as a young prodigy. He envies Dada's ability to move forward and
+    fears he has already made his best work.
+  emotional_arc: Complains about collectors; lets resentment toward an old friend surface; asks for criticism
+    rather than reassurance.
+- id: 08
+  name: Sue Venir
+  voice: Precise lawyer with conversational bite; answers narrowly; warmth emerges reluctantly with her
+    friend.
+  private_stake: Fierce loyalty to Mona conflicts with the habit of hiding behind procedure when personal
+    trust is needed.
+  emotional_arc: Controls the question; becomes sharply protective; drops legal detachment for a friend.
+- id: 09
+  name: Dr. Art E. Fact
+  voice: Pedantic, educated, subordinate clauses and self-interruptions; forgets vocabulary when embarrassed
+    by affection.
+  private_stake: Infatuation with Dada makes public intellectual humiliation feel especially unbearable.
+  emotional_arc: Lectures reflexively; realizes his student has seen through him; loses the language he
+    usually hides behind.
+- id: '10'
+  name: Tess Tament
+  voice: Glamorous, colloquial and guarded; understatement and social shorthand; breaks into intimate
+    family language.
+  private_stake: Longing for authority coexists with an unwanted need for Grant's approval. Her crush
+    on Hugh makes vulnerability public.
+  emotional_arc: Performs composure; becomes angry about family control; misses the person she was arguing
+    with.
+- id: '11'
+  name: Barb Dwyer
+  voice: Terse, low-key; answers in verbs; seldom supplies reassurance; authority frays into anger at
+    herself.
+  private_stake: She has spent her career withholding emotion to avoid appearing vulnerable. A preventable
+    blind spot destroys that defense.
+  emotional_arc: Takes control; admits an intentional breach; refuses the comfort of calling it equipment
+    failure.
+- id: '12'
+  name: Paige Turner
+  voice: Direct working reporter; short questions and ordinary words; anger focused on source protection
+    rather than performative eloquence.
+  private_stake: Cannot separate protecting a vulnerable source from her need to keep being the reporter
+    who gets the story.
+  emotional_arc: Demands facts; admits a boundary violation; recognizes that the source has needs beyond
+    being useful to her.
+- id: '13'
+  name: Frank Lloyd Wrong
+  voice: Controlled designer; spatial vocabulary; takes criticism personally; makes small fussy requests
+    when frightened.
+  private_stake: He cannot bear seeing a finished room fail. Perfection is a defense against being judged
+    replaceable.
+  emotional_arc: Blames interference; submits to another professional's veto; accepts an unfinished space.
+- id: '14'
+  name: Mona Lott
+  voice: Polite social fluency; indirect requests become frank; fluent English, no phonetic accent or
+    invented national idiom.
+  private_stake: Fear of exclusion makes her borrow authority. Loyalty to Sue survives their ruthless
+    professional opposition.
+  emotional_arc: Insists on dignity; grows defensive about who authorized her; asks plainly for support.
+- id: '15'
+  name: Elon Mosaic
+  voice: Confident tech seller; contemporary casual phrasing; makes premature solutions, then runs out
+    of patter.
+  private_stake: Fear of being ordinary drives bluffing. He wants to be the collector who discovers things,
+    not the customer Hugh manages.
+  emotional_arc: Pitches through discomfort; becomes defensive about the demonstration; admits dependence
+    on other people's expertise.
+- id: '16'
+  name: Anya Tique
+  voice: Older founder's dry plain speech; long memory; stubbornness without faux antiquated language.
+  private_stake: Losing authority feels like disappearing. Keeps keys and memories because nobody consults
+    her anymore.
+  emotional_arc: Dismisses younger staff; insists on her place; relinquishes a key without relinquishing
+    the institution's history.
+- id: '17'
+  name: Saul D. Bid
+  voice: Urbane auctioneer; formal address, measured cadence; wounded pride expressed through exquisite
+    courtesy.
+  private_stake: Rivalry with Hugh consumes the dignity he thinks distinguishes his profession from hustling.
+  emotional_arc: Enjoys a rival's exposure; becomes defensive about his own fee; recognizes how eagerly
+    he waited for someone else's fall.
+- id: '18'
+  name: Elle Loominate
+  voice: Tactile, conversational; quietly stubborn; material vocabulary comes from making, not forensic
+    instruction.
+  private_stake: Compulsive buying of beautiful fabric has consumed another client's advance. Ownership
+    of her pattern feels like ownership of herself.
+  emotional_arc: Insists on protecting the work; admits loss of control over spending; asks for help without
+    surrendering authorship.
+- id: '19'
+  name: Reed DeLabel
+  voice: Eager student; quick qualifications and nervous restarts; becomes plain and angry when dismissed.
+  private_stake: Sleepless perfectionism and hunger for acknowledgment make authority feel both necessary
+    and intolerable.
+  emotional_arc: Tries to earn approval; admits a rushed edit; chooses responsibility without demanding
+    praise.
+- id: '20'
+  name: Al Baster
+  voice: Blunt workshop speech; concrete materials; little patience for prestige; protective worry comes
+    out as irritation.
+  private_stake: Caring for an aging parent makes unpaid work a threat to home life, not just professional
+    pride.
+  emotional_arc: Fights over credit and payment; admits a flattering lie; wants to leave the room and
+    check on someone alive.
+- id: '21'
+  name: Ella Gance
+  voice: Stylish, aloof, economical; polished compliments become abrupt refusals; rarely explains an emotion.
+  private_stake: Collecting lets her control which version of herself people see. She envies Elon's effortless
+    place in the room.
+  emotional_arc: Manages appearances; refuses a borrowed endorsement; accepts being disliked.
+- id: '22'
+  name: Drew Conclusions
+  voice: Dry media critic; contemporary conversational rhythm; cynical commentary stalls when a joke harms
+    someone.
+  private_stake: Cynicism protects him from admitting he wanted the sponsorship and liked being wanted
+    by the important people he mocked.
+  emotional_arc: Makes the clever observation; hears its cruelty; has to live without turning humiliation
+    into material.
+- id: '23'
+  name: Brie DeVivre
+  voice: Competent service professional; casual commands, warmth, occasional kitchen slang; exhausted
+    anger instead of speeches.
+  private_stake: Pride in never letting guests see trouble forces him to absorb bills and hostility. He
+    has no graceful outlet for anger.
+  emotional_arc: Keeps dinner moving; finally objects to being invisible; remains responsible for the
+    crew while furious.
+- id: '24'
+  name: Cary Crates
+  voice: Laconic handler; few adjectives; occasional flat humor; says the uncomfortable fact without an
+    elaborate defense.
+  private_stake: A childhood memory of being fired on the spot makes one damaged delivery feel like losing
+    an entire life of competence.
+  emotional_arc: Keeps working; stops minimizing the damage; allows the employer's answer to remain unknown.
+- id: '25'
+  name: Anne E. Dote
+  voice: Practical educator; direct and colloquial; gentle with frightened people, outspoken with institutions.
+  private_stake: Broke a promise to a school group once before and cannot bear being the adult who disappoints
+    them again.
+  emotional_arc: Defiant about funding; angry about exclusion; accepts that honoring one promise can hurt
+    other people.
+- id: '26'
+  name: Faye Stop
+  voice: Understated visual observer; spare fragments and concrete framing; discomfort with having her
+    own face watched.
+  private_stake: Keeps a last photograph of someone she loved; knows an image can be cherished without
+    being honest. Commercial retouch compromised that belief.
+  emotional_arc: Observes from outside; reluctantly becomes the subject; accepts scrutiny without surrendering
+    her originals.
+- id: '27'
+  name: Robin Banks
+  voice: Fluent, direct, controlled anger; plain English, no caricatured Persian accent; argues with people
+    rather than reciting slogans.
+  private_stake: Wants a hearing for people made invisible by possession. Being excluded by security has
+    become a personal grievance.
+  emotional_arc: Confronts Grant; resents exclusion; refuses to let the death become a borrowed victory.
+- id: '28'
+  name: Penny Pincher
+  voice: Nosy collector; disarming everyday questions; domestic language; stops charming when family trust
+    is mentioned.
+  private_stake: Treats family affection as something she can secure by managing everyone else's share.
+    Cannot tolerate not being trusted with the money.
+  emotional_arc: Explains a bargain; admits calculation; finds that repayment does not buy forgiveness.
+- id: '29'
+  name: Justin Tyme
+  voice: Tulsa local raconteur; conversational digressions; mild regional cadence without phonetic spelling;
+    catches himself embellishing.
+  private_stake: Wants to rescue forgotten people from official history but loves being the man with the
+    better story.
+  emotional_arc: Tells the compelling version; admits the inconvenient ending; decides to leave the boring
+    facts in.
+- id: '30'
+  name: Minnie Malist
+  voice: Energetic production chatter; affectionate impatience; unfinished thoughts; stops performing
+    cheerfulness under genuine distress.
+  private_stake: Needs people to need her. Says yes to impossible requests and spends beyond approval
+    to avoid disappointing the crew.
+  emotional_arc: Tries to fix the atmosphere; admits an expensive promise; accepts that this evening cannot
+    be made beautiful again.

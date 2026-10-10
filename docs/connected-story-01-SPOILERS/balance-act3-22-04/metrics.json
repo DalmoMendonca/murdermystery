@@ -1,0 +1,419 @@
+{
+  "Reader A": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Hugh Bidder",
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Elon Mosaic",
+          "Al Baster",
+          "Brie DeVivre",
+          "Penny Pincher"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Vincent Van Faux",
+          "Barb Dwyer",
+          "Brie DeVivre",
+          "Anne E. Dote"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Barb Dwyer",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 1,
+        "culprit_score": 5,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 5,
+        "alternatives_six_seven": 1,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 3,
+        "culprit_score": 5,
+        "leaders": [
+          "Hugh Bidder",
+          "Chip Patina",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 3,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 8,
+        "culprit_score": 6,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 7,
+        "culprit_score": 5,
+        "leaders": [
+          "Hugh Bidder",
+          "Chip Patina",
+          "Dr. Art E. Fact",
+          "Barb Dwyer",
+          "Reed DeLabel",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 4,
+        "alternatives_six_seven": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 3,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 3,
+        "alternatives_five_six": 4,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 8,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 3,
+    "final_alternatives_five_six": 4,
+    "final_alternatives_six_seven": 2,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": null,
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "fair_play": 8,
+      "voice_distinction": 7,
+      "arc_variety": 6,
+      "drama": 7
+    },
+    "e3_culprit_score": 5,
+    "numerical_targets_met": true
+  },
+  "Reader B": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Hugh Bidder",
+          "Monet Bags",
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Elon Mosaic",
+          "Al Baster",
+          "Brie DeVivre",
+          "Penny Pincher"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 2,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 1,
+        "culprit_score": 5,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 5,
+        "alternatives_six_seven": 1,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 2,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 8,
+        "culprit_score": 7,
+        "leaders": [
+          "Hugh Bidder",
+          "Tess Tament",
+          "Al Baster",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 6,
+        "culprit_score": 6,
+        "leaders": [
+          "Dr. Art E. Fact",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 5,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 2,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 3,
+        "alternatives_five_six": 4,
+        "alternatives_six_seven": 1,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 8,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 3,
+    "final_alternatives_five_six": 4,
+    "final_alternatives_six_seven": 1,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": null,
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "fair_play": 8,
+      "voice_distinction": 8,
+      "arc_variety": 7,
+      "drama": 8
+    },
+    "e3_culprit_score": 6,
+    "numerical_targets_met": true
+  },
+  "Reader C": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Vincent Van Faux"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 2,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Chip Patina",
+          "Vincent Van Faux",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 6,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 4,
+        "culprit_score": 7,
+        "leaders": [
+          "Al Baster",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 3,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 3,
+        "culprit_score": 7,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 1,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 4,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 4,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 4,
+    "final_alternatives_five_six": 3,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "Checkpoint 01 was read with PowerShell UTF8 rather than Python UTF8. All saves and subsequent reads use Python UTF8; no future checkpoint or unrelated file read.",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "fair_play": 7,
+      "voice_distinction": 7,
+      "arc_variety": 6,
+      "drama": 7
+    },
+    "e3_culprit_score": 7,
+    "numerical_targets_met": false
+  }
+}

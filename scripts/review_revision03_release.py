@@ -1,13 +1,18 @@
 """Compare every rebuilt PDF page with the reviewed fallback; render every changed page."""
 from pathlib import Path
+import argparse
 import hashlib,json
 import fitz
 from PIL import Image,ImageDraw
 
 ROOT=Path(__file__).resolve().parents[1]
 kit=ROOT/'build/connected-release-kit/The_Last_Acquisition_Complete_Kit'
-before=ROOT/'build/revision03-before'
-out=ROOT/'build/revision03-release-review';out.mkdir(exist_ok=True)
+parser=argparse.ArgumentParser()
+parser.add_argument('--before',default='build/revision03-before')
+parser.add_argument('--output',default='build/revision03-release-review')
+args=parser.parse_args()
+before=ROOT/args.before
+out=ROOT/args.output;out.mkdir(exist_ok=True)
 seen=set();changed=[];same=0;pages=0;files=0
 for path in sorted(kit.rglob('*.pdf')):
     rel=path.relative_to(kit);oldpath=before/rel;doc=fitz.open(path)

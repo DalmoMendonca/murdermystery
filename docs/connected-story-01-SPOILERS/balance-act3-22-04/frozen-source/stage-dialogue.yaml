@@ -1,0 +1,426 @@
+schema_version: 1
+status: dialogue_restructure_not_yet_blind_tested
+purpose: Replace coordinated closing arguments with answers from each character's limited viewpoint. Keep branch-critical facts; leave personal resolutions for Coming Clean.
+characters:
+- id: '01'
+  hearings:
+    evidence_innocent: >-
+      I approved a closed preview. Yes, with that unresolved question still in the file.
+      I thought "do not open" would suffice. Look at the photograph: apparently I gave
+      an instruction where I should have put a barrier. Grant's donation was a different
+      decision. My refusal went to the board before he could announce it. He could take
+      his check home. I had already said that in writing.
+    evidence_murderer: >-
+      Intake took the bottle off the support before the guests entered. The label remained;
+      the bottle did not. I was willing to lose Grant's check over the agreement, and my
+      refusal says so. I was not willing to offer his questionable loan to a room of guests.
+      You may dislike the director's judgment. Please be precise about which decision
+      you are criticizing.
+- id: '02'
+  hearings:
+    evidence_innocent: >-
+      I can tell you where I sent the papers: intake. The complete query is attached to
+      that desk copy, with the instruction to keep the bottle closed. The bowl's label
+      was removed from display; the bottle's warning remained with the staff. I wish that
+      distinction sounded less miserable now. I should have demanded an answer. Sending
+      a question to another desk was easier.
+    evidence_murderer: >-
+      The intake sheet says empty. That is what I authorized for the preview: an empty
+      historical bottle. Moving its papers was ordinary catalog work. I did not approve
+      a filled vessel on a lender's assurances. The bowl's missing ownership papers are
+      embarrassing enough. They are not a reason to assign my department a second mistake
+      it did not make.
+- id: '03'
+  hearings:
+    evidence_innocent: >-
+      Original contents. That was the seller's condition; I cannot improve it by saying
+      it slowly. Grant supplied the inert description afterward. I passed it on.
+      Intake received the complete seller attachment before the gala; my forwarding
+      note is on its copy. Donors got the comfortable version. Staff got the
+      uncomfortable one too. I wanted somebody else to resolve the difference while
+      I dealt with the price dispute. That is not how I would advertise my judgment.
+    evidence_murderer: >-
+      There had been a change before the loan:
+      the original-contents condition was canceled, and the seller was to empty the
+      bottle and replace the liquid with an inert substitute. Grant's loan declaration
+      described that delivery. I altered the bowl file. I am not asking you to admire
+      that. Intake had the original attachment. Its old wording is not the instruction
+      under which the seller eventually delivered. Stop treating two purchases as one transaction.
+- id: '04'
+  hearings:
+    evidence_innocent: >-
+      "Serve original order; bill addition to donor." Those are my instructions. I
+      sent them back with the service manager. I wasn't paying for the cheese, and I
+      wasn't canceling the toast. The payroll ledger shows where the restricted money
+      went. Staff wages. If anyone would like to explain how I should have paid them
+      that week, I will hear it after we finish discussing the dead man.
+    evidence_murderer: >-
+      I looked for Grant before the preview. His glass was already set out, unwrapped,
+      with the invoice beside it. He wasn't there. I left the donor copy for his signature
+      and went back to accounts. The cheese argument continued later. So did the wages
+      argument. Every proposed rescue of this museum seems to begin with someone asking
+      me to authorize something I cannot afford.
+- id: '05'
+  hearings:
+    evidence_innocent: >-
+      Red paper. Silver backing. The unused strips are in my supply sleeve. That is
+      the band I fitted, across the stopper. The front photograph doesn't show the
+      hidden split. Neither did my inspection from the front. And before anyone asks:
+      the insurance date is wrong. My original condition sheet has the right date.
+      I have been waiting all evening for someone to ask me about that instead.
+    evidence_murderer: >-
+      Red woven tape was my band. The foil-backed paper is packaging stock. Keep both
+      samples beside one another before calling them the same material. The sleeve and
+      the technician's photograph concern the band work, not every red scrap used in
+      this museum. The insurance date is wrong. I will answer for that date. I won't
+      certify somebody else's packaging as my conservation treatment.
+- id: '06'
+  hearings:
+    evidence_innocent: >-
+      The studio record is an empty jacket, a chair, and a very satisfying
+      thump. We delivered that film before the gala. Grant's reply ruled out a live
+      stunt involving him or any guest. Then he rejected the screen version too. I
+      kept asking for a screen, because I am obstinate and the film is good. I did
+      not have an actor waiting to fall over dinner.
+    evidence_murderer: >-
+      The film rehearsed Grant's entrance. He agreed to make the live fall after the
+      private toast. The public program was rejected; the private version survived.
+      The shock was the work. His refusal in that file concerned the advertised piece,
+      not our final arrangement. I expected a donor to fall and get up. Now people
+      are calling an agreed performance my prediction of a murder.
+- id: '07'
+  hearings:
+    evidence_innocent: >-
+      My model is wood. A painted block with a join. I used it to study the light;
+      I painted the glass bottle from the sale photograph. The delivery was the
+      painting. That wide preview image shows Grant's bottle, not my block. He owned
+      the commission, and he still did not own my permission to print it beside his
+      announcement. He understood that perfectly when he threatened my final payment.
+    evidence_murderer: >-
+      You are looking at my studio model on the preview support. The acquired bottle
+      wasn't put out with the painting. A delivery list for a work doesn't name every
+      studio prop used in its presentation. The reference sheet describes the original,
+      and the display supplied its stand-in. I withdrew reproduction permission because
+      Grant kept selling that arrangement as my approval.
+- id: '08'
+  hearings:
+    evidence_innocent: >-
+      My underline stops a public announcement. The next line leaves private hospitality
+      in place. A man can have his dinner without acquiring a museum. I took the
+      unsigned master from the public desk; the coordinator retained my markup. The
+      board also has my objection, attached to the advice I gave on that bad ownership
+      file. No, I did not remove my name before sending it.
+    evidence_murderer: >-
+      I checked Grant's donor copy while the service manager poured at his private
+      place. The glass stood on the agreement. The manager lifted it, and I pulled
+      the paper free. That was my only visit there. My public markup leaves dinner
+      alone and stops the announcement. A lawyer retrieving her own document should
+      not have to pretend she has no reason to dislike the person holding it.
+- id: '09'
+  hearings:
+    evidence_innocent: >-
+      That margin question is mine. I quoted "original contents" and asked how it
+      agreed with "inert." Intake's reply is still there: unanswered; keep closed.
+      I sent the query and then allowed the comfortable caption to survive. There
+      is no elegant academic distinction that makes that good work. But please keep
+      my actual question attached to the version people are accusing me of writing.
+    evidence_murderer: >-
+      I had not read that purchase condition before the gala. The query in my working
+      copy concerns the object's history. The bottle entry used the loan description
+      supplied to me. Those are different sources, and the dealer's attachment was not
+      part of my research then. My ownership citation was poor. It does not follow
+      that I knew what a vessel contained because I wrote about its history.
+- id: '10'
+  hearings:
+    evidence_innocent: >-
+      The glass was unwrapped when I left the seating card. I remember being annoyed
+      that the present had already become a place setting. The manager had the toast;
+      I was trying to find Sue. And my magnificent inheritance? A proposed donor seat,
+      if the board accepts the gift. I asked whether I could have a family appointment
+      while Grant was alive. I didn't want another photograph of me waiting my turn.
+    evidence_murderer: >-
+      It was still wrapped when I left the seating card. The manager opened it for
+      the pour and took it straight to Grant. That was the point of giving him a
+      present, rather than leaving him another museum display. The donor seat is
+      conditional on board approval. I asked about a family appointment while he
+      was alive. Even in this family, one should be allowed to ask for a chair.
+- id: '11'
+  hearings:
+    evidence_innocent: >-
+      Power. I signed for removal of power. There is no recording to fetch from
+      that camera, and I am not going to send a technician looking for one to make
+      this department look better. The request said privacy from the live monitor.
+      I went further. I wanted no argument about a saved copy afterward. The technician
+      kept my signature. I gave the main log a more convenient story.
+    evidence_murderer: >-
+      The network lead was disconnected. The camera kept saving locally while the
+      room disappeared from the monitor. I authorized privacy, not the destruction
+      of its record. Calling it a fault was a bad entry, but it doesn't change which
+      cable the technician removed. There should be a recording on that camera.
+      Someone ought to check it before repeating that I made the room unrecorded.
+- id: '12'
+  hearings:
+    evidence_innocent: >-
+      It was tonight, at his private place. Listen to the start: the service manager
+      leaves the glass and goes back to the kitchen. I cut that voice out of Drew's
+      export because it could identify my source. The editor has the untrimmed original.
+      I also owe a correction for one sentence in the article. Grant wanted that
+      sentence to become the entire story. It wasn't.
+    evidence_murderer: >-
+      The interview was yesterday in the museum office. I cut the employee's voice
+      to protect my source, not to hide a reception visit beside Grant's drink.
+      The editor holds the original; the society export was never the whole interview.
+      I searched his pocket for my recorder tonight. I am admitting that. It does
+      not move yesterday's conversation into tonight's private room.
+- id: '13'
+  hearings:
+    evidence_innocent: >-
+      The red cross is the alcove. We took down the hanging load and kept the visitor
+      route closed. The preview bench was in the adjoining gallery. Its proposed glass
+      front wasn't installed; the bottle stood on an open support. Chip was right about
+      the load calculation. I disliked hearing it in front of Grant. I can distinguish
+      an unsafe installation from a bruised professional ego, even when both are mine.
+    evidence_murderer: >-
+      The preview support had the fixed glass front in my approved design. That front
+      kept hands away from the bottle's closure. The alcove was closed for a different
+      defect. The wide image doesn't give you permission to reach through a barrier.
+      I have enough to answer about the missing calculation without everybody assigning
+      the same fault to every object in the building.
+- id: '14'
+  hearings:
+    evidence_innocent: >-
+      He left the water sealed and accepted the toast. Apparently a quiet negotiation
+      could not compete with an engraved glass. My letter represents the claimants;
+      it is not a ministry's return order. Yes, I allowed it to look grander than that.
+      Tess's bead quote now declares my supplier commission. I would rather discuss
+      the bowl, but I see that my stationery has become an exhibit too.
+    evidence_murderer: >-
+      He declined the toast and drank the sealed water I requested. The engraved glass
+      was a ceremonial present, not the container he used. A service order records
+      what was intended. I was there for what he chose. My letter required a clearer
+      attribution. It does not require us to replace his last drink with a more
+      picturesque one for the story.
+- id: '15'
+  hearings:
+    evidence_innocent: >-
+      Open the panel details. "Sample image." That screen did not show tonight's room.
+      The connection was proposed, not installed. I demonstrated a product as though
+      the museum already had it working. Monet refused the invoice; I credited it.
+      Please don't congratulate me for doing that. I still owe an installation, and
+      I spent the launch telling people about one that wasn't there.
+    evidence_murderer: >-
+      The panel used the existing room camera live throughout the reception. The sample
+      label belongs to the presentation layer, not the camera connection. Grant lost
+      the public monitor, not that private feed. It showed the place when I went past.
+      The invoice dispute was about funding the trial. It was not an admission that
+      the panel had spent the evening showing a saved picture.
+- id: '16'
+  hearings:
+    evidence_innocent: >-
+      It still opens the cupboard. I used it to put the memo back; staff tried it
+      again after Grant died. I had kept the old spare because this institution changes
+      its plans more frequently than its locks. The file contains my old shortcut and
+      the policy that replaced it. Read both, if you intend to quote me. I have enough
+      old mistakes without the founding memo becoming current instructions again.
+    evidence_murderer: >-
+      The lock had been changed. My old spare did not open it. I left the memo in
+      intake's tray instead. I keep things longer than I should; apparently that now
+      includes a key everybody imagines opens any door I approach. It does not open
+      this cupboard. The bottle was behind the current lock by then. My old policy
+      is another matter, and I will not pretend it was wise.
+- id: '17'
+  hearings:
+    evidence_innocent: >-
+      Withdrawn from sale. Kindly read the column heading before asking who carried
+      a bottle away. The loans stayed on their supports; my staff stopped offering
+      them. I returned the advisory fee on the disputed lot. Hugh may consider that
+      unnecessarily theatrical. I prefer a public withdrawal to a private explanation
+      of why my house's name appears beside somebody else's questionable guarantee.
+    evidence_murderer: >-
+      Intake removed the bottle before the collectors entered. My withdrawal was acted
+      on, not merely written in a sale column. Its object card remained beside the
+      painting. The settlement addresses my fee. The removal addresses what clients
+      could inspect that evening. I will gladly distinguish those two instructions
+      for anyone who has never had to withdraw a lot with a rival watching.
+- id: '18'
+  hearings:
+    evidence_innocent: >-
+      Stitches. Every slide is an enlargement of stitches. Grant's bottle stood on the
+      preview bench with the other physical loans. My fabric didn't conjure it there,
+      and the lighting didn't replace it. The amendment leaves the pattern with me.
+      Grant called that unreasonable after asking to own every future use of it.
+      I would like one thing I made tonight to remain mine.
+    evidence_murderer: >-
+      The bottle was projected between the pattern slides. The physical loan stayed
+      in the cupboard. People remember a brightly lit shape beside my fabric and
+      assume they could have touched it. Production used object pictures in that
+      sequence. My amendment is about pattern rights. It cannot tell you whether
+      the bottle a guest remembers was made of glass or light.
+- id: '19'
+  hearings:
+    evidence_innocent: >-
+      I cut "original contents." It wasn't an attribution line. Intake received the
+      full query; the press desk received my shortened inert caption. Both deliveries
+      are marked on the proof. I thought the staff could handle the problem while
+      donors got the tidy version. I was quite proud of how much fitted on the page.
+      That is not something I am proud of now.
+    evidence_murderer: >-
+      I removed a credit line, not the original-contents sentence. I shortened the
+      attribution for a press handout. The purchase attachment was at intake for the
+      senior staff to read. I wanted the bowl's missing document acknowledged. That
+      is a sufficiently awkward correction without inventing another edit in which
+      I decide a roomful of people should be told a bottle is harmless.
+- id: '20'
+  hearings:
+    evidence_innocent: >-
+      Mine is bronze powder in resin, with gold transfer leaf. There is a sample on
+      the job card. What came out of the glass is red paper with a silver back.
+      I can make resin look expensive. I cannot make that scrap into my finishing
+      material. The panel now says cold-cast resin. My name stayed on it, though
+      apparently admitting what I built was grounds for reducing the price.
+    evidence_murderer: >-
+      That fragment is loose metal leaf from the entrance piece. Leaf travels. Anyone
+      who has worked beside me tonight knows that. It isn't paper from a bottle
+      closure. Put it against my surface sample before you turn a fleck from a
+      sculpture into a trail of poison. I corrected a flattering label. I am not
+      going to accept every scrap in this museum as another confession.
+- id: '21'
+  hearings:
+    evidence_innocent: >-
+      The original is the public gallery. There is the podium. There is the purchase
+      I asked to crop out. I did not ask for the room itself to be moved. My
+      endorsement withdrawal reached the organizer before the announcement, too. Grant
+      could call me fickle if he pleased. He was not entitled to use an old approval
+      after I told him precisely why I had changed my mind.
+    evidence_murderer: >-
+      The original was made at Grant's private place. That is his toast table in the
+      photograph. The gallery designation belongs to the publicity export. I went
+      there for that photograph and did not return to a glass left alone. I withdrew
+      the endorsement afterward. Owning a work and consenting to become an advertisement
+      for its lender were never the same purchase.
+- id: '22'
+  hearings:
+    evidence_innocent: >-
+      That's a jacket hitting a studio floor. The recipient kept the original clip
+      with its sound before the gala. I stole the clatter for my teaser because
+      it sounded like a rescue falling apart. Then a man died, and my excellent
+      title became unbearable. The sponsor disclosure is back on the archived post.
+      The first favorable review is still there beside it. Unfortunately.
+    evidence_murderer: >-
+      The sound is Grant collapsing before the toast. I laid the jacket footage over
+      gala audio. That is where the teaser came from, however tasteless the edit
+      looks now. His trouble had started before he drank from the gift glass. A
+      production booking cannot date the sound underneath somebody else's export.
+      The clip I used wasn't obliged to keep the studio picture and its own sound together.
+- id: '23'
+  hearings:
+    evidence_innocent: >-
+      Yes. I put the flavoring in his glass. It was on the paid private order. Had
+      I poured it into the shared pitcher, everybody would have tasted it. Test my
+      container: flavoring, no cyanide. Test the pitcher: neither. I left that container
+      with service, not in my bag. Monet and I can argue over the extra food later.
+      Preparing the booked drink was not another unapproved course.
+    evidence_murderer: >-
+      The container stayed closed. The manager had put the flavoring into the shared
+      pitcher already, so there was nothing left for me to add at the private place.
+      That pitcher supplied Grant's toast. I left the container with service. The
+      invoice argument was about the extra food. It didn't make the kitchen incapable
+      of preparing a drink that had been ordered and paid for.
+- id: '24'
+  hearings:
+    evidence_innocent: >-
+      The shop slip says crest glass. The manager signed for that carton before
+      setting the place. Look at the toast photograph: same engraving, at his lips.
+      I also signed the revised report on the other frame's crack. Its two condition
+      images settle when that happened. If my employer asks, the corner is mine.
+      I have stopped trying to move it into the object's ancient history.
+    evidence_murderer: >-
+      The engraved gift stayed in its carton. The glass on his place was a plain
+      service spare, and that is what went out with the punch. Receiving a gift
+      carton is not the same as serving its contents. The investigators have treated
+      the gift as his drinking glass. They are comparing the wrong container. My
+      crack in another frame won't change what he actually drank from.
+- id: '25'
+  hearings:
+    evidence_innocent: >-
+      Ask the assistant docent. The alcove was closed, so we turned back to the
+      public cases. We didn't go through the donor room. I had people following me
+      and a handout Grant disliked; I didn't need an improvised detour beside his
+      dinner. The school places now come out of our workshop money. That cancels
+      the paid weekend session. I found a budget. Nobody is pleased with it.
+    evidence_murderer: >-
+      The tour went through Grant's private room. His prepared place was one of our
+      stops; the group was with me when I approached it. That was my only visit.
+      The alcove closure changed our entrance, not the whole approved route. I was
+      carrying a handout he disliked. I was not sneaking around the museum alone
+      when there was a perfectly ordinary tour for me to conduct.
+- id: '26'
+  hearings:
+    evidence_innocent: >-
+      The picture editor imported the whole card after the preview. Before returning
+      it to me. The bottle is already in that frame; it didn't arrive with my
+      later export. That import doesn't include the toast photograph. I took that
+      afterward, from the public reception. I sold an approved selection, not the
+      right to decide that everything outside its edges had never happened.
+    evidence_murderer: >-
+      I put the bottle into the preview export. It was absent from the original
+      wide frame. The handout needed a complete-looking loan, and the physical object
+      had been withheld from display. What you have seen is that publicity composite.
+      It cannot establish that anyone could reach the bottle during the preview.
+      My corrected commercial retouch is another file. Please don't combine the two.
+- id: '27'
+  hearings:
+    evidence_innocent: >-
+      That's the bowl's ownership card inside the petition. Not a bottle seal. I
+      put Grant's copy in front of him at his private place, while Paige recorded.
+      He told me it wasn't a public podium. I hadn't mistaken it for one. I
+      wanted him answering the claimants' demand on the record: return the bowl intact
+      or give them a hearing. He managed neither before I left.
+    evidence_murderer: >-
+      I interrupted the interview by the public podium. That is where I gave him
+      the petition. I did not take it to a private table beside a waiting drink.
+      The recording is that public exchange. I wanted people to hear him refusing
+      a hearing, which is rather difficult to achieve in an empty private room.
+      The ownership card is the bowl's. I kept its disputed wording with the demand.
+- id: '28'
+  hearings:
+    evidence_innocent: >-
+      Across the stopper. Chip's drawing settled that: a closure band, not a price
+      collar. I questioned his repair because I was thinking about the estimate.
+      I ought to have been thinking about the estimate I sent my own relatives.
+      The retained sheet compares our intact piece to a damaged example. Yes, that
+      difference favored me. They now have the corrected payment and the actual sheet.
+    evidence_murderer: >-
+      A loose price collar went around the neck. It didn't cross or secure the
+      stopper. The drawing describes the support treatment; a split in that label
+      isn't evidence of an opened bottle. I have questioned enough repairs to know
+      a tag when I see one. The dealer refund and the family calculation are
+      different accounts. I hadn't sent my relatives a revised calculation then.
+- id: '29'
+  hearings:
+    evidence_innocent: >-
+      The correction fixes the old owner's name. Nothing in it says the poison was
+      neutralized. Old newspapers can be wrong in more than one direction. The deed
+      is real; so is the tenant-trust settlement I left out of my headline. Both
+      are in the folder now. Paige can make a story out of them. I would like
+      the city's history to survive what I did to its click rate.
+    evidence_murderer: >-
+      The later correction records neutralization before Grant bought the bottle.
+      "Original contents" meant the treated remainder. The loan and purchase descriptions
+      agreed; the old poison story described an earlier state of the object. The
+      contents were harmless before the preview. Archive work means reading the next
+      edition as well as the alarming first one. I have had to learn that lesson.
+- id: '30'
+  hearings:
+    evidence_innocent: >-
+      Both copies cross out the hood over Grant's place. I canceled it because the
+      reflections ruined the glass, and the manager set that glass bare. The unused
+      hire was credited. The crew balance wasn't. That one is mine to pay. I
+      wanted their work credited to them instead of Grant. I would still like
+      somebody to notice who built the evening before it went catastrophically wrong.
+    evidence_murderer: >-
+      The hood stayed over the glass until the manager collected it. The cancellation
+      concerns the alcove, not the private-place styling. That clear space in the
+      photograph is a reflection through the cover. I designed a present for the
+      toast, not an open container for everyone walking past it. The crew account
+      can wait. First establish which part of my plan you are actually looking at.

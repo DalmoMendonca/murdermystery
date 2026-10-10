@@ -1,14 +1,21 @@
 {
-  "revision": "published-baseline-opportunity-2026-10-10",
-  "baseline_tested_commit": "e29371c",
+  "revision": "act3-five-speech-refinement-2026-10-10",
+  "baseline_commit": "fc15ebd",
   "tests": [
-    "docs\\connected-story-01-SPOILERS\\balance-dramatic-30-03",
-    "docs\\connected-story-01-SPOILERS\\balance-dramatic-22-03"
+    "docs\\connected-story-01-SPOILERS\\balance-act3-30-04",
+    "docs\\connected-story-01-SPOILERS\\balance-act3-22-04"
   ],
-  "limitations": "Two same-culprit text cases; not all30 worlds or human solve rates. Final alternative suspicion varies. Innocent readings and endings retained exactly.",
+  "changed": [
+    "03/evidence_innocent",
+    "05/evidence_innocent",
+    "11/evidence_innocent",
+    "16/evidence_innocent",
+    "23/evidence_innocent"
+  ],
+  "limitations": "Two same-case text worlds, not all murderer worlds or human solve rates. Unchanged first seven inputs permit comparison but fresh-reader variation persists. Physical attribution is circumstantial.",
   "sha256": {
-    "all.yaml": "6c9a23bca710d18b0e70d9cc577932c08c83c924b7a686f60a0a689cece3f032",
-    "confirmed.yaml": "9b15685092df4d037ba565d07bfd39db63e1efa9ca3954b323c1cadcfc21b765",
+    "all.yaml": "9d1656444d01c92a7dae9209b5c2b10a60f96de6bc61f7a602acd7615f6e48fc",
+    "confirmed.yaml": "a9709d71c303ce328983dfec0fb4fcf772e7e7e8e19fed1eed03282a8fa52d2c",
     "playable-evidence.yaml": "0a26a89b66c75ab28634df358e355ce57f86f9b633f6c9e1e6da6be2634e7866",
     "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
   }

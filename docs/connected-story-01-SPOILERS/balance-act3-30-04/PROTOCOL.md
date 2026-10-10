@@ -1,0 +1,1 @@
+Fresh blind readers. Eight sequential checkpoints, saved before each next read. Accusations lock before endings. First seven inputs are byte-identical to the published revision03 same-case trial. Only five innocent Method speeches change. No target ratings or branch identities supplied.
