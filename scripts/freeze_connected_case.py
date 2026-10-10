@@ -55,6 +55,8 @@ def export(active, killer, out):
     frozen=out/'frozen-source'; frozen.mkdir()
     for name in ('five-role-bank.yaml','production-family-scenes.yaml','collection-scenes.yaml',
                  'market-scenes.yaml','remaining-scenes.yaml','motive-dialogue.yaml','stage-dialogue.yaml',
+                 'dramatic-dialogue-01.yaml','dramatic-dialogue-02.yaml','dramatic-dialogue-03.yaml',
+                 'voice-story-bible.yaml',
                  'attendance-edits.yaml','question-rounds.yaml','evidence-contracts.yaml','playable-evidence.yaml'):
         (frozen/name).write_bytes((LAB/name).read_bytes())
     (frozen/'character_copy.yaml').write_bytes((ROOT/'source/character_copy.yaml').read_bytes())

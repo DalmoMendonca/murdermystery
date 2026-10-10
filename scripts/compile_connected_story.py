@@ -40,6 +40,50 @@ def compile_bank(active):
             if set(row['hearings']) != fields:
                 raise ValueError(f'Unexpected dialogue fields: {filename}/{ident}')
             by_id[ident]['hearings'].update(row['hearings'])
+    # The narrative pass replaces spoken text only. Frozen full04 is the
+    # comparison baseline; public copy and staged evidence remain untouched.
+    dramatic = []
+    for filename in ('dramatic-dialogue-01.yaml', 'dramatic-dialogue-02.yaml', 'dramatic-dialogue-03.yaml'):
+        dramatic.extend(yaml.safe_load((LAB / filename).read_text(encoding='utf-8'))['characters'])
+    dramatic_ids = [str(row['id']).zfill(2) for row in dramatic]
+    if len(set(dramatic_ids)) != len(dramatic_ids) or set(dramatic_ids) != set(by_id):
+        raise ValueError('Incomplete or duplicate dramatic dialogue revision')
+    expected_hearings = {act+'_'+branch for act in ('motive','where','evidence')
+                         for branch in ('innocent','murderer')}
+    for revision in dramatic:
+        ident = str(revision['id']).zfill(2)
+        if set(revision['hearings']) != expected_hearings:
+            raise ValueError(f'Incomplete dramatic hearings: {ident}')
+        row = by_id[ident]
+        row['hearings'] = dict(revision['hearings'])
+        row['coming_clean']['innocent'] = revision['innocent_ending']
+        confession = row['coming_clean']['murderer']
+        # Keep the crime admission and clue explanation for the AFTER-vote
+        # confession; replace its moral-summary last sentence with a consequence.
+        row['coming_clean']['murderer'] = confession.rsplit('. ', 1)[0] + '. ' + revision['guilty_consequence']
+        absent_roles = {
+            '01':'the director', '02':'the curator', '03':'the dealer', '04':'accounts',
+            '05':'the conservator', '06':'the artist', '07':'the painter', '08':'counsel',
+            '09':'the professor', '10':'the family representative', '11':'security',
+            '12':'the reporter', '13':'the architect', '14':'the advocate',
+            '15':'the technology supplier', '16':'the founder', '17':'the auctioneer',
+            '18':'the textile artist', '19':'the researcher', '20':'the sculptor',
+            '21':'the collector', '22':'the critic', '23':'catering', '24':'the handler',
+            '25':'the educator', '26':'the photographer', '27':'the campaigner',
+            '28':'the buyer', '29':'the local historian', '30':'production',
+        }
+        for section in ('hearings','coming_clean'):
+            for field, speech in row[section].items():
+                for other, role in absent_roles.items():
+                    if other in selected:
+                        continue
+                    first = known[other]['name'].split()[0]
+                    if first == 'Dr.':
+                        continue  # no new dramatic speech directly addresses the professor
+                    # A direct appeal to an absent guest is private feeling,
+                    # not an instruction to summon that character at the party.
+                    speech = re.sub(r'\b'+re.escape(first)+r'\b', role, speech)
+                row[section][field] = speech
     seen = set()
     for row in rows:
         ident = str(row['id']).zfill(2)

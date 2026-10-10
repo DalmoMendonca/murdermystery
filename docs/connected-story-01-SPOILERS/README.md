@@ -8,7 +8,9 @@ Before the full-cast diagnostic, [the errand repair](ERRAND_REPAIR.md) removes t
 
 ## Current authoritative files
 
-Compiler precedence: the five profession banks supply the base routes and endings. `motive-dialogue.yaml` replaces all thirty Motive pairs; `stage-dialogue.yaml` replaces all thirty Method pairs. The compiler rejects incomplete overrides. Superseded base speeches are not playable exports. Hugh's former branch-dependent admission receipt is removed from his current speeches and ending; shared intake forwarding replaces it. See [the restructure record](DIALOGUE_RESTRUCTURE.md).
+Current writing is [the dramatic revision](DRAMATIC_REVISION.md), with all thirty voices in `voice-story-bible.yaml`. It is **unscored**. Frozen `dramatic-candidate-01` uses full04's selected culprit; its introductions, hunt, and three evidence checkpoints are byte-identical to full04. Only the three speech checkpoints and post-vote endings change. Sent public assets are unchanged. Do not report full04's scores as acceptance of this candidate.
+
+Compiler precedence: the five profession banks supply base routes and endings. The earlier `motive-dialogue.yaml` and `stage-dialogue.yaml` supply the full04 baseline layer. Three `dramatic-dialogue-*.yaml` files then replace every act speech and innocent ending; each supplies a personal consequence replacing the last sentence of the retained murderer confession. `dramatic-revision-diff.json` records all240 before/afters. The compiler rejects incomplete overrides. Superseded speeches are historical, not playable exports. Hugh's former branch-dependent admission receipt remains removed; shared intake forwarding remains unchanged.
 
 - `five-role-bank.yaml`: Monet, Sue, Brie, Hugh and Paige, including the accounts/announcement repair.
 - `production-family-scenes.yaml`: Artie, Chip, Dada, Tess and Barb.
