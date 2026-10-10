@@ -126,6 +126,8 @@ def build_release(b):
     document(b,b.KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf','Organizer endings',organizer)
     (b.KIT/'README.txt').write_text('Connected dramatic edition 2026-10-10. Start with 00_READ_ME_FIRST.pdf. Already-sent public assets unchanged. Print at 100%, single-sided. Do not mix with earlier editions.\n',encoding='utf-8')
     (b.WORK/'connected-layout-ledger.json').write_text(json.dumps(b.AUDIT,indent=2,ensure_ascii=False),encoding='utf-8')
+    from belle_activity import create as create_belle_activity
+    create_belle_activity(b.KIT,b.SITE/'downloads')
     b.package();verify_public_lock(b.ROOT);prepare_deploy(b)
     print('Pinned connected release built: '+str(b.KIT))
 
