@@ -1,6 +1,6 @@
 # Published RSVP22 blind audit — SPOILERS
 
-Completed: **55/110**. Invalid: **0**. Correct accusations: **55/55**.
+Completed: **58/110**. Invalid: **0**. Correct accusations: **58/58**.
 
 Five fresh context-free AI readers per selected murderer; eight sequential immutable score releases; accusation locked before finale. Scores are suspicion judgments, not probabilities or human solve rates. Missing trials are not counted as successes. No game rewrites or rerolls.
 
@@ -14,10 +14,10 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Claire O’Scuro | 3/5 | 3/3 | 0/3 | 2/3 | 2/3 | 0/3 | 0/3 |
 | Hugh Bidder | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Monet Bags | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
-| Chip Patina | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
+| Chip Patina | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
 | Dada DiCapo | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Vincent Van Faux | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
-| Sue Venir | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
+| Sue Venir | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Dr. Art E. Fact | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 1/2 | 1/2 |
 | Tess Tament | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Barb Dwyer | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
@@ -28,7 +28,7 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Elle Loominate | 3/5 | 3/3 | 0/3 | 1/3 | 3/3 | 0/3 | 0/3 |
 | Reed DeLabel | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Al Baster | 2/5 | 2/2 | 0/2 | 1/2 | 0/2 | 0/2 | 0/2 |
-| Brie DeVivre | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 1/2 | 0/2 |
+| Brie DeVivre | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 0/3 |
 | Anne E. Dote | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 1/2 | 0/2 |
 | Penny Pincher | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
 | Justin Tyme | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |

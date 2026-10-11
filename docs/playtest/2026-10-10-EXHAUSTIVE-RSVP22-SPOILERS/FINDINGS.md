@@ -1,4 +1,4 @@
-# Interim findings — 55 of 110 tests / SPOILERS
+# Interim findings — 58 of 110 tests / SPOILERS
 
 This audit is incomplete. Each of 22 RSVP characters has five predetermined trials. Completed per-character counts are in the dashboard and case-summary.csv. No cases were rerolled and no game copy was changed.
 
@@ -6,11 +6,11 @@ Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified de
 
 ## Results
 
-- Correct locked accusations: 55/55. Earned finale reviews: 55/55. Reviews reporting decisive new finale facts: 0.
-- Explicit clear-culprit declarations before Act III: 0/55. This declaration measure does not rule out earlier numeric leads.
+- Correct locked accusations: 58/58. Earned finale reviews: 58/58. Reviews reporting decisive new finale facts: 0.
+- Explicit clear-culprit declarations before Act III: 0/58. This declaration measure does not rule out earlier numeric leads.
 - Score/conclusion conflicts: 3 (t001, t018, t030). Raw numbers, reasoning, and accusations remain unchanged. Do not repair them by inference.
-- Sensitivity subset excluding entire flagged trials: 52 readers. E3 murderer score 5–7: 44/52; final murderer at least 9: 52/52; uniquely highest: 52/52.
-- In that subset, at least eight suspects strictly above 5 after Act II: 4/52. At least three innocent alternatives at 5–7 after Act III: 1/52.
+- Sensitivity subset excluding entire flagged trials: 55 readers. E3 murderer score 5–7: 47/55; final murderer at least 9: 55/55; uniquely highest: 55/55.
+- In that subset, at least eight suspects strictly above 5 after Act II: 4/55. At least three innocent alternatives at 5–7 after Act III: 1/55.
 
 ## Reader feedback
 
@@ -21,13 +21,13 @@ Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified de
 - Naturalness: 6.8/10.
 - Drama: 7.9/10.
 
-- Naturalness: explicitly raised in 47/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Pacing: explicitly raised in 35/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Evidence: explicitly raised in 14/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Voice: explicitly raised in 5/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Motive: explicitly raised in 2/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Clarity: explicitly raised in 2/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Fairness: explicitly raised in 1/55 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Naturalness: explicitly raised in 50/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Pacing: explicitly raised in 37/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Evidence: explicitly raised in 14/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Voice: explicitly raised in 5/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Clarity: explicitly raised in 3/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Motive: explicitly raised in 2/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Fairness: explicitly raised in 1/58 reviews; 0 marked major. Full examples and trial references are in the dashboard.
 
 ## Priorities for a later rewrite
 
@@ -44,6 +44,6 @@ These are attentive fresh-context AI text readers, not human solve-rate estimate
 
 Inputs, sequential score locks, accusation locks, and completion hashes are audited by the report script. Interrupted original readers resume without replacing earlier scores. Pending trials are not successes. Technical deviations and score/conclusion conflicts remain visible.
 
-Remaining: 55. Saved running trials: t056, t057. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
+Remaining: 52. Saved running trials: t059, t060. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
 
 Resume original interrupted readers, then fresh fork-none agents for unstarted trials through t110, one agent per trial, using READER_INSTRUCTIONS.md. Never freeze again or expose other trials to a reader. Rebuild with checkpoint_exhaustive_balance.py and chart_exhaustive_balance.py. Disable the continuation after all 110 tests are verified complete.
