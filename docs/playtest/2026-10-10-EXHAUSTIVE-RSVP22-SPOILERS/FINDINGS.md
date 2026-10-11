@@ -1,16 +1,16 @@
-# Interim findings — 96 of 110 tests / SPOILERS
+# Final findings — 110 of 110 tests / SPOILERS
 
-This audit is incomplete. Each of 22 RSVP characters has five predetermined trials. Completed per-character counts are in the dashboard and case-summary.csv. No cases were rerolled and no game copy was changed.
+This audit is complete. Each of 22 RSVP characters has five predetermined trials. Completed per-character counts are in the dashboard and case-summary.csv. No cases were rerolled and no game copy was changed.
 
 Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified deploy: `6acaae2d208c9cee1b30f908`.
 
 ## Results
 
-- Correct locked accusations: 96/96. Earned finale reviews: 96/96. Reviews reporting decisive new finale facts: 0.
-- Explicit clear-culprit declarations before Act III: 0/96. This declaration measure does not rule out earlier numeric leads.
+- Correct locked accusations: 110/110. Earned finale reviews: 110/110. Reviews reporting decisive new finale facts: 0.
+- Explicit clear-culprit declarations before Act III: 0/110. This declaration measure does not rule out earlier numeric leads.
 - Score/conclusion conflicts: 3 (t001, t018, t030). Raw numbers, reasoning, and accusations remain unchanged. Do not repair them by inference.
-- Sensitivity subset excluding entire flagged trials: 93 readers. E3 murderer score 5–7: 80/93; final murderer at least 9: 93/93; uniquely highest: 93/93.
-- In that subset, at least eight suspects strictly above 5 after Act II: 7/93. At least three innocent alternatives at 5–7 after Act III: 1/93.
+- Sensitivity subset excluding entire flagged trials: 107 readers. E3 murderer score 5–7: 91/107; final murderer at least 9: 107/107; uniquely highest: 107/107.
+- In that subset, at least eight suspects strictly above 5 after Act II: 8/107. At least three innocent alternatives at 5–7 after Act III: 1/107.
 
 ## Reader feedback
 
@@ -19,15 +19,15 @@ Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified de
 - Voice distinction: 7.9/10.
 - Arc variety: 7.2/10.
 - Naturalness: 6.8/10.
-- Drama: 8.0/10.
+- Drama: 7.9/10.
 
-- Naturalness: explicitly raised in 84/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Pacing: explicitly raised in 67/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Evidence: explicitly raised in 22/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Voice: explicitly raised in 7/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Clarity: explicitly raised in 4/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Motive: explicitly raised in 3/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
-- Fairness: explicitly raised in 1/96 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Naturalness: explicitly raised in 94/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Pacing: explicitly raised in 76/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Evidence: explicitly raised in 27/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Voice: explicitly raised in 9/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Clarity: explicitly raised in 5/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Motive: explicitly raised in 4/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Fairness: explicitly raised in 1/110 reviews; 0 marked major. Full examples and trial references are in the dashboard.
 
 ## Priorities for a later rewrite
 
@@ -36,7 +36,7 @@ Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified de
 3. Identify innocent Act III replies that interpret exhibits or settle scandals. Preserve deduction facts, but move optional explanation and tidy resolution to Coming Clean.
 4. Reduce repeated technical descriptions, dossier recaps, and identical emotional rhythms. Let characters react as distinct people under pressure.
 5. Treat dense access to the historical loan and convenient paperwork resolutions as story problems; extra explanatory instructions will not solve them.
-6. Rank character-specific rewrites only after all five readers per culprit finish. Use the score ranges and flagged-trial sensitivity data rather than a single mean.
+6. See [case-specific rewrite priorities](REWRITE_PRIORITIES.md) for all 22 scenarios, sensitivity ranges, and traceable reader observations.
 
 ## Limits and continuation
 
@@ -44,6 +44,6 @@ These are attentive fresh-context AI text readers, not human solve-rate estimate
 
 Inputs, sequential score locks, accusation locks, and completion hashes are audited by the report script. Interrupted original readers resume without replacing earlier scores. Pending trials are not successes. Technical deviations and score/conclusion conflicts remain visible.
 
-Remaining: 14. Saved running trials: t097, t098, t099. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
+Remaining: 0. Saved running trials: none. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
 
 Resume original interrupted readers, then fresh fork-none agents for unstarted trials through t110, one agent per trial, using READER_INSTRUCTIONS.md. Never freeze again or expose other trials to a reader. Rebuild with checkpoint_exhaustive_balance.py and chart_exhaustive_balance.py. Disable the continuation after all 110 tests are verified complete.
