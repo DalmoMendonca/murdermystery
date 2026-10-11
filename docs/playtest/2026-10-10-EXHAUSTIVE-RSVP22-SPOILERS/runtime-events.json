@@ -80,5 +80,23 @@
       "t065"
     ],
     "detail": "Scheduled continuation confirmed ordinary usage allowed and 0% primary usage. Resumed original t065 reader and launched fresh t066/t067."
+  },
+  {
+    "event": "usage_limit_interruption",
+    "trials": [
+      "t088",
+      "t089",
+      "t090"
+    ],
+    "detail": "Original reader turns reported quota errors. t089 had already saved a complete gate-verified record and is not rerun. t088 and t090 retain their partial locked scores."
+  },
+  {
+    "event": "resumed",
+    "utc": "2026-10-11T16:04:40.979806+00:00",
+    "trials": [
+      "t088",
+      "t090"
+    ],
+    "detail": "Scheduled continuation confirmed ordinary usage allowed and 0% primary usage. Resumed original interrupted readers; t091 is fresh. t089 completion audited and preserved."
   }
 ]
