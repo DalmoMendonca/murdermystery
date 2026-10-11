@@ -44,6 +44,6 @@ These are attentive fresh-context AI text readers, not human solve-rate estimate
 
 Inputs, sequential score locks, accusation locks, and completion hashes are audited by the report script. Interrupted original readers resume without replacing earlier scores. Pending trials are not successes. Technical deviations and score/conclusion conflicts remain visible.
 
-Remaining: 0. Saved running trials: none. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
+Remaining: 0. Saved running trials: none. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: False. No reset credit or purchase has been used by this audit.
 
-Resume original interrupted readers, then fresh fork-none agents for unstarted trials through t110, one agent per trial, using READER_INSTRUCTIONS.md. Never freeze again or expose other trials to a reader. Rebuild with checkpoint_exhaustive_balance.py and chart_exhaustive_balance.py. Disable the continuation after all 110 tests are verified complete.
+All five original readers for every murderer are verified complete. No further audit readers are needed. The continuation has been stopped.
