@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T10:03:48.445973+00:00",
+  "generated_utc": "2026-10-11T10:12:03.908111+00:00",
   "revision": "act3-five-speech-refinement-2026-10-10",
   "deploy": "6acaae2d208c9cee1b30f908",
   "kit_sha256": "32d727509afa04d4d493fc2d087dbe65ef77a45d02b9ff3da16738f927144b01",
@@ -20278,62 +20278,1847 @@
       "replicate": 4,
       "murderer_id": "03",
       "murderer": "Hugh Bidder",
-      "status": "running",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 1,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 1,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 2,
+            "Brie DeVivre": 1,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "These introductions establish occupations and possible tensions but no murder method, victim grievance, or opportunity. Vincent mentions expensive objections to his early work and Al emphasizes payment, giving them slightly more visible friction than the others. Artie's concern about things going wrong seems comic rather than incriminating. Provenance, property records, finances, catering, and security could all become relevant, but presently role-based suspicion would be guesswork. I have no basis to identify a clear culprit or exclude anyone."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Artie has a direct threatened resignation, while Anne faces loss of educational programming and the artists face credit appropriation. These are motives, not murder evidence. The historical cyanide bottle and conflicting inert-liquid declaration suggest a possible poison mechanism, especially alongside the private toast and gift glass. Catering and security have plausible access through the privacy arrangement. I keep Brie and Barb somewhat elevated for opportunity, but there is no demonstrated tampering or even confirmed cause of death. Ownership disputes widen the field without resolving it."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The victim's death after his private toast strengthens attention to the glass and service route, raising Brie slightly. It does not establish that poison caused the death or identify who could have prepared the vessel. Artie's threatened resignation still supplies a strong motive, though the board notice makes clear the terms were only proposals and might have been rejected without violence. The other pressures remain relevant but unresolved. A timing association with the toast is useful, yet far short of a clear culprit."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 5,
+            "Monet Bags": 2,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 3,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Hugh now has the most severe explicit exposure: he altered a certificate file and faced a public admission that could destroy his standing. Penny's financial concealment and Elle's misuse of an advance add stronger motives. Nearly everyone admits pressure or shame, however, making motive alone weak discrimination. Brie has service access and a smaller financial dispute; Artie faces personal humiliation. Barb deliberately removed monitoring, but that was requested. No speech yet proves bottle access, glass handling, or a chronology sufficient to single out a murderer."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Cyanide in only Grant's glass, negative shared food and punch samples, and an emptied active bottle establish deliberate individual poisoning. The unattended prepared place between 6:32 and 7:04 is now the central opportunity, followed by kitchen handling before delivery. A hidden split implies the apparent seal cannot establish innocence. Brie remains possible through service, while security or staff with cupboard access could have obtained the bottle. Hugh's strong motive still leads narrowly, but no released observation puts him at the glass. Identification remains open."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 7,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 5,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 6,
+            "Barb Dwyer": 6,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 4,
+            "Elon Mosaic": 5,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 4,
+            "Al Baster": 2,
+            "Brie DeVivre": 7,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 5,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Hugh directly combines bottle purchase correspondence, a serious motive, and a visit to the unattended glass. Brie also handled something at the prepared place, making her flavoring container a concrete alternative. Tess, Dada, and Barb admit visits there; several preview attendees could know the bottle. Chip fitted the band, and Art's attachment contradicted inert contents. These admissions create intersecting knowledge and access paths, but none yet demonstrates intentional poisoning. Hugh narrowly leads on the whole chain, with Brie close because an added ingredient could be the delivery route."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 5,
+            "Hugh Bidder": 6,
+            "Monet Bags": 3,
+            "Chip Patina": 6,
+            "Dada DiCapo": 5,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 6,
+            "Tess Tament": 6,
+            "Barb Dwyer": 6,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 4,
+            "Elon Mosaic": 5,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 5,
+            "Al Baster": 2,
+            "Brie DeVivre": 6,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 5,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "The flavoring container tested clean, reducing Brie's distinctive incrimination without eliminating earlier glass tampering. Hugh's refund demand was withdrawn, also weakening his lead. The bottle was physical and accessible, its band could shed similar paper, and the donor glass was bare; image-based excuses are unavailable. Staff retained warnings about original contents, while press copies hid them. Chip's insurance date alteration is suspicious but concerns the same treatment. Several suspects still share knowledge, access, or private-place visits. The evidence now clarifies method much better than identity."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 9,
+            "Monet Bags": 2,
+            "Chip Patina": 4,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 2,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 3,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 2,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": "Hugh Bidder",
+          "reasoning": "Hugh alone offers a fresh exculpatory claim directly contradicted by the retained seller fulfillment: he says the original-contents condition was canceled and liquid substituted, but the seller received no cancellation or substitution instruction. That is a substantive lie about the poison's availability, beyond his admitted bowl fraud. He handled the purchase correspondence and visited Grant's exposed glass. Barb's purposeful deletion and Brie's admitted flavoring remain suspicious, but their accounts agree with external records. Hugh's specific false explanation links knowledge, opportunity, and concealment most convincingly."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Hugh Bidder",
+        "confidence": 9,
+        "reasoning": "Grant's glass alone contained cyanide, and the active historical bottle was emptied with its band split at the rear. The original purchase required retained contents; the seller confirmed no cancellation or substitution instruction. Hugh handled the purchase correspondence and withheld it from the handouts, so he had a direct route to knowing that the inert description was false. He also admits taking his retained file to the unattended private place where the bare glass waited. His final defense claims the condition was canceled and substitute liquid delivered, precisely contradicting the independent seller record. That looks like concealment of the murder source, rather than an unrelated admission of embarrassment. Barb is the strongest competitor because she deliberately prevented recording, but this was independently documented and she admits it consistently. Brie directly added flavoring, yet its retained container tested clean. Their suspicious acts lack Hugh's specific false account of the lethal source.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 8,
+          "arc_variety": 7,
+          "naturalness": 7,
+          "drama": 8
+        },
+        "feedback": "The mystery becomes solvable through a specific contradiction rather than a vague preference for the person with the darkest motive. The external seller record is available before Hugh's final denial, and his visit to the glass gives that denial practical significance. The lack of a unique torn-edge match is honest evidence handling. The dialogue has distinct textures: Monets payday concern, Chips protective fussing over materials, Reeds pride in a caption fitting, and Bries insistence on payment sound like people with different work and emotional habits. Shared shame and attempts to call home make the death register. However, the repeated group questions and nearly universal sequence of concealment, correction, and admission feel deliberately assembled. Some late speeches also restate documents almost verbatim, reducing players' interpretive work. The large document release demands careful retention, though the short titles help. I found no decisive contradiction in the poisoning chronology. Hugh's refund motive is partly softened by its withdrawal, but public exposure of his altered file remains plausible pressure.",
+        "issues": [
+          {
+            "category": "pacing",
+            "severity": "moderate",
+            "characters": [],
+            "detail": "Stage 7 delivers many corrective records at once, including peripheral camera-card, podcast, handling, and job-account matters alongside the central purchase and glass evidence.",
+            "suggested_fix": "Separate the central bottle and toast records visually from supplemental dispute records while preserving all pre-vote access."
+          },
+          {
+            "category": "naturalness",
+            "severity": "minor",
+            "characters": [
+              "Hugh Bidder",
+              "Brie DeVivre",
+              "Al Baster"
+            ],
+            "detail": "The final round frequently restates technical records, such as Hugh's substitution claim, Brie's retained sample, and Al's red-paper comparison, in a synchronized answer format.",
+            "suggested_fix": "Keep the decisive factual statements but vary response length and let one or two comparisons arise through another character's question."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "The confession follows the pre-vote chain well: Hugh's purchase knowledge, false substitution story, retained seller condition, and visit to the glass already supported the accusation. Taking poison during the preview is newly narrated action, but confirms the inferred mechanism rather than supplying a missing decisive clue. The ending feels earned, especially his admission that preserving respectability destroyed it. Barb and Chip retain credible consequences instead of being simply declared innocent. One small awkwardness is Hugh's renewed emphasis on the refund demand finishing his firm after the working papers say that demand was withdrawn. His fear of exposure and admitted file fraud still sustain the motive, but the finale should clarify whether he acted before the withdrawal or feared public disgrace regardless.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": true,
+        "e3_score": 6,
+        "e3_rank": 1,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 4,
+        "final_alternatives": 1,
+        "final_5_6": 1,
+        "late_jump": 3,
+        "final_gap": 4,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t069",
       "replicate": 4,
       "murderer_id": "06",
       "murderer": "Dada DiCapo",
-      "status": "pending",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 1,
+            "Vincent Van Faux": 1,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 1,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 1,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Introductions establish professional roles and potential tensions but reveal no crime, method, opportunity, or specific threat against the donor. Several characters mention money, disputed ownership, scholarship, or payment; these are general social frictions and cannot distinguish a murderer. Security, conservation, catering, and finance could later imply different kinds of access, but assigning extra suspicion on occupations alone would be premature. Everyone remains equally weakly suspect until actual events and evidence establish a useful chain."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 3,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 3,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 2,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The proposed gift threatens Artie's job directly, making him the clearest current motive candidate, while donor control and reduced education funding create broader resentment. The historic poison bottle and uncertain inert declaration suggest a possible murder mechanism, but neither actual poisoning nor access is established. Catering's received crest glass and security's altered camera arrangement may matter later. Dada and Vincent have credit disputes, and provenance conflicts involve several professionals. These documents provide many potential grievances without a discriminating physical link."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 3,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 3,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 2,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Death after the private toast makes the service chain and crest glass more relevant, increasing Brie's opportunity suspicion modestly. Artie retains a strong prospective motive because an unsigned gift could still remove him if accepted. The notice importantly prevents treating the proposed restrictions as already enacted losses. No cause of death, toxicology, or individual movement is yet available, so the poison bottle remains a hypothesis rather than a demonstrated source. Nothing here clearly singles out any one of the twenty-two guests."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 5,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 3,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Hugh's altered certificate and threatened public exposure supply a sharper self-protective motive than most disputes. Penny similarly suppressed a damaging handout. Artie's forced resignation and Dada's erased authorship remain strong resentment candidates, while Brie's service role stays relevant to the toast. Most others disclose a mistake or personal pressure, yielding plausible motives but no method-specific connection. The broad distribution of admissions feels intentionally comprehensive; I cannot infer guilt from honesty or embarrassment alone. No testimony yet places an individual with poison or the glass."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 4,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 4,
+            "Al Baster": 3,
+            "Brie DeVivre": 5,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Cyanide is now established in the individual glass and historic bottle, excluding poisoned communal food or punch as the apparent route. The unattended prepared place allows contamination before collection at 7:04, while service custody also leaves Brie relevant. A concealed split in the bottle band raises conservation or object-handling knowledge as a possibility, increasing Chip slightly. Hugh retains the strongest exposure motive. Staff-accessible storage is broad rather than exclusive access, and no individual movements yet connect retrieval of poison with touching Grant's glass."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 6,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 6,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 6,
+            "Barb Dwyer": 6,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 4,
+            "Elon Mosaic": 4,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 5,
+            "Al Baster": 2,
+            "Brie DeVivre": 7,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 5,
+            "Justin Tyme": 4
+          },
+          "clear_culprit": null,
+          "reasoning": "Brie now explicitly carried culinary flavoring to the unattended glass, giving her the strongest direct delivery opportunity. Tess, Dada, and Barb also acknowledge reaching the set private place. The cyanide knowledge trail remains spread across Hugh, Dr. Fact, Reed, Claire, Chip, and preview attendees; inert public wording concealed the original-contents discrepancy. Hugh's concealment connects motive and knowledge but not the glass. Dada's chair experiment could have involved contact. These admissions narrow the opportunity pool substantially but still lack proof joining source access and contamination."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 6,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 6,
+            "Barb Dwyer": 6,
+            "Paige Turner": 5,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 5,
+            "Al Baster": 2,
+            "Brie DeVivre": 7,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 4,
+            "Justin Tyme": 4
+          },
+          "clear_culprit": null,
+          "reasoning": "The band scrap in the glass links bottle handling to drink preparation, but similar stock without a torn-edge match prevents exclusive attribution. Brie's clean retained flavoring container weakens a contaminated ingredient explanation but does not exclude adding poison separately. Paige's interview now places her with the prepared glass, increasing her opportunity relative to her earlier coat-search account. Camera power loss removes hidden recording theories. Several financial disputes were settled, reducing Hugh and Penny somewhat. Knowledge remained distributed through staff files, and access through ordinary keys stayed broad."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 2,
+            "Chip Patina": 4,
+            "Dada DiCapo": 9,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 4,
+            "Barb Dwyer": 5,
+            "Paige Turner": 4,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 2,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 3,
+            "Al Baster": 1,
+            "Brie DeVivre": 5,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 3,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": "Dada DiCapo",
+          "reasoning": "Dada now asserts Grant agreed to a private live collapse, directly conflicting with his documented refusal of any live stunt involving himself or guests and the received empty-jacket studio film. That attempted explanation for the fatal collapse is uniquely contradicted by independent records rather than merely embarrassed by them. She was beside the unattended glass and had a specific credit-erasure grievance. Brie's clean ingredient sample and admitted flavoring remain consistent with legitimate service; Barb's power removal is suspicious but honestly corroborated. Dada's fabricated performance account makes her the clear leading culprit."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Dada DiCapo",
+        "confidence": 9,
+        "reasoning": "Dada had both a personal grievance over her authorship being erased and a stated opportunity at Grant's prepared private place after the coordinator left. Cyanide in his individual glass, an empty active-poison bottle, and similar closure paper in the drink support transfer from the loan bottle to that glass while it stood unattended. Her last account then tries to explain Grant's collapse as an agreed live performance. The independent donor reply explicitly rejected any live stunt involving him or guests; the delivered studio master and continuous sound sequence show an empty jacket, not a rehearsal with Grant. Her claim therefore supplies a false explanation of the death precisely where corroboration disproves it. Brie is the strongest competing delivery suspect because she added flavoring directly, but the retained flavoring is clean, its presence fits the original order, and she makes no incompatible collapse claim. Barb deliberately suppressed recording, but her conduct is corroborated and does not establish poisoning.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 8,
+          "arc_variety": 6,
+          "naturalness": 7,
+          "drama": 8
+        },
+        "feedback": "The people have recognizable voices: Monet returns to payroll, Frank notices furniture and professional pride, Sue keeps legal distinctions sharp, and Brie sounds exhausted by service work. Personal remarks about family, jealousy, and canceled visits give the gala more emotional texture than a pure evidence exercise. The murder is solvable before voting because Dada's final claim clashes with the independent delivery and donor records while her earlier account supplies glass opportunity. Still, this is more a decisive contradiction puzzle than an exclusive reconstruction of poison handling; several people had similar physical access and the paper has no unique match. The repeated structure of everyone admitting an unrelated lapse, producing a correction, then reflecting on it feels deliberately assembled. Many final speeches restate exactly the documentary distinction players must notice, which reduces interpretation work. Dada's change is dramatic and detectable, though its suddenness makes her unusually conspicuous against the others' mostly consistent clarifications. I found no unavoidable contradiction in the legitimate service timeline or unfair reliance on information after voting.",
+        "issues": [
+          {
+            "category": "pacing",
+            "severity": "minor",
+            "characters": [],
+            "detail": "Stages 6 through 8 repeatedly cover each character's mistake and correction in the same group sequence, making the testimony feel like a checklist.",
+            "suggested_fix": "Vary the last round with shorter exchanges or interruptions and omit restatement when an independent document already establishes the point."
+          },
+          {
+            "category": "evidence",
+            "severity": "minor",
+            "characters": [
+              "Dada DiCapo"
+            ],
+            "detail": "The final live-performance claim is strongly disproved, but source handling is still established only by common access and glass opportunity.",
+            "suggested_fix": "Add a small independently observed link between Dada and the bottle storage route before voting without making the paper scrap uniquely identifying."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "The confession follows the key prior contradiction: Dada's purported live agreement could not survive the donor refusal and empty-jacket studio evidence. Her unattended-glass opportunity was also disclosed, so the poisoning admission feels like confirmation rather than a rescue of an unsolvable mystery. It newly specifies that she took poison during the preview; this fills an action detail that was not independently attributed to her before voting, but the decisive accusation already rested on her false collapse explanation. The line about wanting the room to look at her work gives the confession an effective emotional turn without claiming artistic justification. Barb and Brie's endings preserve their separate responsibilities and practical concerns, which makes the aftermath satisfying.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": true,
+        "e3_score": 6,
+        "e3_rank": 2,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 5,
+        "final_alternatives": 2,
+        "final_5_6": 2,
+        "late_jump": 3,
+        "final_gap": 4,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t070",
       "replicate": 4,
       "murderer_id": "18",
       "murderer": "Elle Loominate",
-      "status": "pending",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 0,
+            "Claire O’Scuro": 0,
+            "Hugh Bidder": 0,
+            "Monet Bags": 0,
+            "Chip Patina": 0,
+            "Dada DiCapo": 0,
+            "Vincent Van Faux": 0,
+            "Sue Venir": 0,
+            "Dr. Art E. Fact": 0,
+            "Tess Tament": 0,
+            "Barb Dwyer": 0,
+            "Paige Turner": 0,
+            "Frank Lloyd Wrong": 0,
+            "Mona Lott": 0,
+            "Elon Mosaic": 0,
+            "Elle Loominate": 0,
+            "Reed DeLabel": 0,
+            "Al Baster": 0,
+            "Brie DeVivre": 0,
+            "Anne E. Dote": 0,
+            "Penny Pincher": 0,
+            "Justin Tyme": 0
+          },
+          "clear_culprit": null,
+          "reasoning": "These introductions establish professional relationships and comic temperaments, but offer no murder event, means, opportunity, or direct threat. Vincent hints at a dispute over early work, Penny at family ownership, and several others at money or provenance friction. Those are broad seeds of possible conflict rather than evidence of killing. I assign no suspicion yet because selecting a leader from these occupational jokes would confuse narrative prominence with proof. All twenty-two characters remain equally viable pending actual events and a defined victim."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 3,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 2,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The likely threat centers on Grant's private toast, with a historically labeled poison bottle and a specially delivered glass providing possible means. Brie controls service and Chip conservation, making their access worth tracking, but there is not yet evidence of an actual poisoning. Artie faces dismissal, Vincent loses credit, and Dada has a rejected performance and changed attribution; Anne faces program cuts. The privacy request could conceal access yet preserves ordinary staff access. The bottle's lender description is unverified, so I cannot assume either real poison or harmless contents."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 2,
+            "Barb Dwyer": 2,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Grant's death after the private toast makes the service chain and glass newly relevant, though neither cause of death nor contamination point is established. Brie has direct service responsibility, while Artie has an explicit personal stake in stopping the proposed gift. The unsigned status means the death prevents future control rather than reversing an accepted agreement. Anne and Monet may also resent donor changes, but motives alone do not distinguish a murderer. Chip's potential bottle access remains hypothetical. No witness or laboratory result currently singles out anyone."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 3,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "Every character now has a concrete grievance or embarrassing secret, which broadens rather than narrows motive. Hugh's fraudulent certificate and Artie's threatened resignation seem stronger personal stakes than routine disputes over credit, though neither has a demonstrated poisoning opportunity. Barb knowingly removed surveillance, and Brie was under service pressure; both warrant attention because their work intersects the toast. Chip's urgent safety interruption may explain unusual movement rather than incriminate him. These speeches are candid but largely uncorroborated, so I keep several leaders close and await timing and physical evidence."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "The murder is now specifically cyanide in an individual glass, with clean shared punch and food. The unattended place between setup at 6:32 and collection at 7:04 offers a broad contamination window, and clean punch weakens a general kitchen poisoning theory. The emptied loan bottle with a concealed split implies deliberate opening and disguise. Chip's handling expertise and Vincent's bottle study may matter, but neither is yet tied to the cupboard or glass. Brie's direct service access remains possible; the surviving paid toast defeats any assumption that the disputed cheese charge canceled it."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 4,
+            "Tess Tament": 5,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 4,
+            "Elle Loominate": 5,
+            "Reed DeLabel": 4,
+            "Al Baster": 2,
+            "Brie DeVivre": 6,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 4,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "Several suspects admit contact with Grant's unattended place: Tess, Elle, Dada, Barb, and Brie. Brie explicitly brought culinary flavoring there, creating a plausible cover for adding poison, but this is not independently checked. Knowledge of active contents may distinguish someone despite the inert press caption: Hugh knew the purchase condition; Dr. Fact and Reed saw the discrepancy; other preview attendees saw the bottle. Chip fitted its closure. Artie and Sue's public-desk dispute may provide an alibi later. I now prioritize the intersection of real poison knowledge, bottle access, and glass contact."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 4,
+            "Monet Bags": 4,
+            "Chip Patina": 6,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 4,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 5,
+            "Al Baster": 2,
+            "Brie DeVivre": 6,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 3,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "The retained ingredient is clean, so Brie's legitimate flavoring does not itself explain cyanide; she remains a candidate for separately contaminating the glass. The red and silver scrap links glass handling to closure stock but lacks a unique edge match. Chip's altered insurance date is a real deception yet concerns treatment documentation, not proven poisoning. Staff had full warning about original contents and ordinary keys opened the cupboard, leaving many knowledgeable candidates. Several apparent mechanisms are eliminated: no live stunt, no powered recording, no substitute model, no hood, and no docent visit to the glass."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 3,
+            "Monet Bags": 3,
+            "Chip Patina": 4,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 9,
+            "Reed DeLabel": 3,
+            "Al Baster": 2,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 2,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": "Elle Loominate",
+          "reasoning": "Elle now contradicts the retained physical evidence: she says the preview bottle was projected between pattern slides while the loan stayed in the cupboard. The complete production file contains only enlarged stitches, and the retained original preview frame shows the physical bottle on an open support. Her earlier passage through the private room with fabric beside the bare glass provides an opportunity to contaminate it. The active bottle and closure-stock scrap support that route. Other suspects admit documented misconduct, but their final accounts align with retained records; Elle invents the central inaccessible-bottle explanation."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Elle Loominate",
+        "confidence": 9,
+        "reasoning": "Elle's final explanation says production projected the bottle between textile slides and the actual loan stayed in the cupboard. The retained production file explicitly contains only enlarged stitches and no object images. More decisively, the original preview frame retained before later export shows the physical bottle on an open support. This makes her account of inaccessible poison false. The purchased bottle retained active cyanide, staff keys opened its cupboard, and the split closure plus similar red and silver scrap in the glass connect the suspected source with the toast. Elle earlier admits carrying fabric through the private room and rolling it beside Grant's unattended, bare glass. That gives her a direct contamination opportunity and concealment. Brie is the strongest competing explanation because she put flavoring into the glass, but its retained container was clean and her account agrees with the service order. Chip's false insurance date remains suspicious, yet he admits it and does not deny the physical bottle's accessibility.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 8,
+          "arc_variety": 8,
+          "naturalness": 7,
+          "drama": 8
+        },
+        "feedback": "The mystery is solvable before voting because Elle's invented projection directly conflicts with two independent retained records and she admits being beside the glass. The poison chain is understandable, and the distinction between the shared pitcher, retained flavoring, and individual glass prevents an easy but mistaken catering accusation. I enjoyed the voices: Monet keeps calculating wages, Chip fixates on handling, and Tess's regret about buying the glass feels personal. The speeches sometimes show an unusually orderly degree of self-awareness and confession across all twenty-two people. Grouped questions and similarly sized answers make the event feel deliberately assembled, though the emotional connections soften that structure. The later documentary packet is dense with corrections, settlements, and technical exclusions, which rewards attention but dilutes the actual bottle and glass chain. Elle's final lie makes the answer unusually crisp compared with the otherwise broad means and opportunity. Her revised commission preserves rights and refunds the other advance, so her motive needs retrospective emotional interpretation rather than a still-unresolved financial threat. I see no decisive missing fact or contradiction in the central solution.",
+        "issues": [
+          {
+            "category": "pacing",
+            "severity": "minor",
+            "characters": [],
+            "detail": "Stage 7 provides many separate settlements and corrections alongside the decisive preview and service evidence; their similar presentation makes the physical murder chain harder to retain.",
+            "suggested_fix": "Add short timestamps or a compact exhibit index to the bottle and glass records without interpreting which suspect they implicate."
+          },
+          {
+            "category": "naturalness",
+            "severity": "minor",
+            "characters": [
+              "Claire O’Scuro",
+              "Reed DeLabel",
+              "Dr. Art E. Fact"
+            ],
+            "detail": "Across stages 6 and 8, several staff give very polished admissions about their own professional shortcomings while under acute pressure.",
+            "suggested_fix": "Let one of these answers initially resist the question or require a brief follow-up while preserving all disclosed evidence."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "The confession follows the exact pre-vote evidence that led me to Elle: stitches-only slides, an original image of the physical bottle, and her presence beside the waiting glass. It acknowledges the false explanation directly rather than inventing a new secret mechanism. Taking the poison during the preview confirms an inferred action, not a new decisive clue. Grant's ability to expose her diverted advance gives the motive a little extra emphasis after the documented repayment, but her earlier admission already established that shame and financial pressure. The final line about owning the pattern while remembering the fabric is emotionally effective. Chip and Barb's nonmurder admissions also preserve consequences for their wrongdoing instead of wiping their stories clean.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": false,
+        "e3_score": 4,
+        "e3_rank": 6,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 1,
+        "final_alternatives": 0,
+        "final_5_6": 0,
+        "late_jump": 5,
+        "final_gap": 5,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t071",
       "replicate": 4,
       "murderer_id": "08",
       "murderer": "Sue Venir",
-      "status": "pending",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 1,
+            "Vincent Van Faux": 1,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 1,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 1,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The introductions establish professional tensions but no murder evidence, opportunity, or reliable motive ranking. Vincent dislikes the display of his early work, Al wants payment, and several people question provenance or donor behavior; those details could become meaningful later. Security, conservation, catering, and finance roles plausibly offer different access, but access has not yet been tied to a method. I give everyone equal minimal suspicion because personality and a pointed joke alone cannot distinguish a murderer."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Artie has a particularly concrete threat in the proposed resignation requirement. Anne faces cuts, Dada loses credit, and Vincent has a publicity grievance, but the proposals remain unaccepted. The historical poison bottle suggests a possible method while the lender's inert-liquid declaration is unverified. Chip may know about intake; Barb's camera request and Brie's private service deserve attention. The engraved glass and wrapping could matter if the toast is poisoned. No death details yet establish any connection between these documents and a killer."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Death follows the private toast, increasing the relevance of service access and the engraved glass. Brie gains suspicion because her role plausibly links her to that specific event, though timing alone does not prove poisoning or contamination. Artie's potential resignation still gives a substantial incentive to stop the gift; the notice properly prevents treating it as an accomplished firing. The bottle remains a possible source, but no medical finding confirms it. Other grievances retain their earlier weight while method and individual opportunity remain unresolved."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 5,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 3,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 4,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 3,
+            "Al Baster": 4,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 4,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Almost everybody now has an admitted dispute, making motive a weak discriminator. Artie faces replacement, Hugh concealed a false certificate, and Sue faced leverage over prior advice; those threats appear more severe than ordinary credit disputes. Elle's diverted advance and Penny's family-share manipulation also create exposure. Barb admits granting privacy and Brie served the paid toast, but neither has shown a lethal act. The bottle-study commission gives Vincent an intriguing connection to the possible poison source, yet the causal chain still lacks handling evidence and timing."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 5,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 5,
+            "Sue Venir": 4,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 3,
+            "Al Baster": 4,
+            "Brie DeVivre": 5,
+            "Anne E. Dote": 4,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "The method is now strongly individualized cyanide contamination rather than poisoning the communal punch. The empty loan bottle is a credible source and its concealed split implies covert interference. The unattended glass between 6:32 and 7:04 opens opportunity beyond catering; Brie remains relevant but cannot be singled out by service responsibility. Chip's conservation access and Vincent's bottle commission become more meaningful. Without a list of who touched the bottle or approached the prepared place, strong motives still cannot identify the person connecting source to glass."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 6,
+            "Monet Bags": 3,
+            "Chip Patina": 6,
+            "Dada DiCapo": 6,
+            "Vincent Van Faux": 5,
+            "Sue Venir": 7,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 6,
+            "Barb Dwyer": 6,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 3,
+            "Elon Mosaic": 4,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 4,
+            "Al Baster": 3,
+            "Brie DeVivre": 7,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 5,
+            "Justin Tyme": 4
+          },
+          "clear_culprit": null,
+          "reasoning": "Sue explicitly lifted the waiting glass, while Tess, Dada, Barb, and Brie all reached the private place. Brie's flavoring container provides a plausible transfer mechanism, but nothing yet shows it poisonous. Chip fitted the band and several preview attendees saw the bottle. Hugh and Art knew the original-contents clause contradicted inert captions; Justin circulated that contradiction. Sue and Brie lead through direct glass proximity, while Hugh and Chip lead on source knowledge or access. A murderer must connect both sides, and no account yet does so uniquely."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 6,
+            "Dada DiCapo": 5,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 7,
+            "Dr. Art E. Fact": 5,
+            "Tess Tament": 5,
+            "Barb Dwyer": 6,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 4,
+            "Al Baster": 2,
+            "Brie DeVivre": 6,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "The similar closure scrap in Grant's glass supports bottle-to-glass transfer but lacks a unique match. Brie's retained flavoring is clean, reducing the obvious culinary-container explanation. Sue remains highest because she physically lifted the glass; Barb's disabled camera leaves her suspicious but is independently explained by the privacy request. Chip's false insurance date concerns real closure treatment, not a replica. Many apparent motives and substitutions have now been corrected by retained documents. We still need individual bottle handling and private-place timing to separate the viable suspects."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 2,
+            "Chip Patina": 4,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 9,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 4,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 3,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": "Sue Venir",
+          "reasoning": "Sue now contradicts the independent service chronology: she claims her only visit and glass handling occurred while the manager poured punch at Grant's place. The account places pouring in the kitchen at 7:06, after collecting the unattended glass at 7:04. Her proposed supervised innocent handling therefore cannot have happened as described. She had the donor-copy motive and admits lifting the actual glass. Others have opportunities or evasions, especially Barb, but their major claims have corroboration. Sue's false explanation uniquely links concealment to the contaminated vessel."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Sue Venir",
+        "confidence": 9,
+        "reasoning": "Grant's glass contains cyanide while communal food, punch, and the retained flavoring are clean. The active historical bottle has been emptied and its split closure stock resembles the scrap in the glass, supporting deliberate transfer into the unattended individual vessel. Sue admits lifting that glass to retrieve the donor agreement, giving direct contact and a reason to approach it. Her decisive mistake is claiming the manager poured punch at the private place during her only visit. The released service chronology instead puts collection at 7:04 and pouring in the kitchen at 7:06. She invents supervision for her handling, concealing the vulnerable interval. Grant also held her earlier ownership advice as leverage. Barb is the strongest competitor because she disabled all recording and visited the room, but those actions match the technician's account and she offers no comparably disproved vessel-handling alibi. Chip's band access is suspicious without explaining the glass or that false chronology.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 8,
+          "arc_variety": 7,
+          "naturalness": 7,
+          "drama": 8
+        },
+        "feedback": "The mystery becomes solvable through a small factual contradiction rather than ranking the loudest grievance. Sue's final account is testable against a previously released service record, and the clean retained ingredients prevent an easy catering accusation. I appreciated that the donation remained proposed and that several characters made damaging choices without becoming murderers. Monet's fixation on payday, Al's concern for care at home, Reed's need for credit, and Artie's inability to stop hosting made the room feel populated by people. Their similar rhythm of admitting misconduct and addressing another guest nevertheless makes the speeches feel assembled in places. The extensive documentary release is clear but heavy, especially corrections involving nonselectable auction, production, and photography staff. The final round frequently restates documents rather than producing fresh conflict. The source-to-glass mechanism is credible, though Sue's actual source handling remains inferential; the uniquely false supervision story carries the accusation. I found no contradiction that prevents solving it, and no finale information is necessary to identify her.",
+        "issues": [
+          {
+            "category": "pacing",
+            "severity": "minor",
+            "characters": [],
+            "detail": "Stage seven releases numerous settlement and correction records, including camera-card and frame-damage threads for nonselectable staff, before the final suspect accounts.",
+            "suggested_fix": "Condense peripheral correction records into a short appendix while preserving the service chronology and bottle evidence in the main release."
+          },
+          {
+            "category": "voice",
+            "severity": "minor",
+            "characters": [
+              "Claire O’Scuro",
+              "Dr. Art E. Fact",
+              "Reed DeLabel"
+            ],
+            "detail": "The final collection answers repeat the same full-query versus shortened-caption explanation in similar confession-and-address rhythms.",
+            "suggested_fix": "Let one account state delivery mechanics and let the others respond through distinct reactions or disagreement, retaining all necessary facts."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "Sue's confession follows the pre-vote contradiction precisely: the invented supervised pour is exposed by the manager's kitchen chronology. It confirms the inferred transfer from historical bottle to waiting glass, adding her preview theft as an explicit action rather than a new clue needed to select her. The donor-copy visit and ownership-advice leverage were already available. Her last address to Mona gives the crime a personal consequence beyond solving the puzzle. Barb's badge response and Hugh's willingness to release files also provide earned aftermath for separate misconduct. The explanation feels satisfying because it preserves the difference between culpable concealment and murder while resolving the specific lie that drove my accusation.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": true,
+        "e3_score": 7,
+        "e3_rank": 1,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 7,
+        "final_alternatives": 1,
+        "final_5_6": 1,
+        "late_jump": 2,
+        "final_gap": 4,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t072",
       "replicate": 4,
       "murderer_id": "14",
       "murderer": "Mona Lott",
-      "status": "pending",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 1,
+            "Vincent Van Faux": 1,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 1,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 1,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "These introductions establish roles and a comic social environment, but provide no murder, mechanism, timeline, or exclusive opportunity. Several people might resent the donor or institutional decisions: Vincent objects to early work, Tess resists financial expectations, and Brie blames donor instructions. Those remarks do not distinguish murderous intent from ordinary professional friction. Security, catering, and conservation could potentially become relevant to access, but assigning higher scores on occupation alone would be speculative. All suspects remain equally open pending concrete events."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Artie now has a direct threatened resignation, while Anne faces cuts and Vincent and Dada face appropriation of their work. A historic cyanide bottle and a lender's unverified inert-liquid declaration suggest a possible future mechanism, but there is no death or access chain yet. The private toast, engraved glass, service handover, and camera privacy request draw attention to Brie and Barb as opportunity holders. The bowl dispute could motivate several heritage specialists, though its connection to a murder is currently unestablished."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 2,
+            "Monet Bags": 2,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The death follows the private toast, strengthening attention to the engraved glass and service route. Brie rises slightly because catering plausibly controls those objects, although any scheduled museum staff retained access. Artie's threatened resignation remains a strong motive despite being only a proposal; the notice prevents assuming the donor had already secured institutional control. Cyanide is a salient possible cause rather than a confirmed finding. Nothing yet establishes who touched a poisonous substance or the donor's individual drink, so no suspect is clearly singled out."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 5,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 5,
+            "Monet Bags": 2,
+            "Chip Patina": 3,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 4,
+            "Barb Dwyer": 3,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 4,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 3,
+            "Al Baster": 4,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 4,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Hugh's altered certificate file and exposure to a public fraud admission create a particularly concrete reputational motive alongside Artie's dismissal. Mona, Penny, Elle, and Al also conceal consequential financial or professional problems. Tess mixes ambition with desire for approval, but inheritance alone remains insufficient. Monet needs the living donor's payroll payment, weakening a straightforward financial motive. Brie has access relevance but an additional cheese dispute seems relatively small. Every speech supplies resentment, so motives now spread widely and need discriminating physical evidence rather than emotional interpretation."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 5,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 3,
+            "Chip Patina": 4,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 4,
+            "Tess Tament": 4,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 4,
+            "Mona Lott": 4,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 4,
+            "Reed DeLabel": 4,
+            "Al Baster": 4,
+            "Brie DeVivre": 5,
+            "Anne E. Dote": 4,
+            "Penny Pincher": 4,
+            "Justin Tyme": 3
+          },
+          "clear_culprit": null,
+          "reasoning": "Cyanide in the individual glass and absent from shared food and punch makes targeted glass contamination the leading mechanism. The emptied loan bottle offers a source, and its hidden broken band implies deliberate opening. The glass was unattended between 6:32 and 7:04, while catering controlled its later journey. Brie therefore remains prominent, but the evidence expressly creates a long opportunity window for others. Staff access to the preparation cupboard is potentially discriminating, although the current release identifies neither actual visitors nor who recognized the bottle contained active poison."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 5,
+            "Hugh Bidder": 7,
+            "Monet Bags": 3,
+            "Chip Patina": 5,
+            "Dada DiCapo": 5,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 6,
+            "Tess Tament": 6,
+            "Barb Dwyer": 5,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 6,
+            "Elon Mosaic": 4,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 6,
+            "Al Baster": 3,
+            "Brie DeVivre": 7,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 5,
+            "Justin Tyme": 4
+          },
+          "clear_culprit": null,
+          "reasoning": "Hugh knew the original-contents requirement and concealed correspondence, combining knowledge of possible cyanide with substantial exposure. Dr. Fact and Reed also had contradictory bottle paperwork; Claire moved the full file, while Chip handled the closure. Brie admits taking flavoring to the very glass, giving her a direct vehicle, but several others explicitly encountered that unattended place: Tess, Mona, Dada, and Barb. Mona touched its edge and Tess arranged it. These admitted contacts are not equivalent to poison access. No currently established intersection of bottle handling and glass handling excludes the alternatives."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 5,
+            "Hugh Bidder": 6,
+            "Monet Bags": 4,
+            "Chip Patina": 6,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 3,
+            "Dr. Art E. Fact": 6,
+            "Tess Tament": 5,
+            "Barb Dwyer": 5,
+            "Paige Turner": 4,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 5,
+            "Elon Mosaic": 4,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 6,
+            "Al Baster": 3,
+            "Brie DeVivre": 6,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 5,
+            "Justin Tyme": 4
+          },
+          "clear_culprit": null,
+          "reasoning": "The matching paper stock links bottle opening to the glass without identifying an individual, and ordinary staff keys prevent treating cupboard access as exclusive. Staff received the complete original-contents query, broadening knowledge beyond Hugh, Reed, and Dr. Fact. Brie's retained flavoring is clean, weakening poison supplied in her ingredient container, though she could have added cyanide separately. Chip's date fraud concerns the same closure treatment and is suspicious without demonstrating murder. Several apparent mechanisms collapse: wooden artist model, projections, camera recording, and live stunt. The decisive handling sequence remains missing."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 3,
+            "Monet Bags": 2,
+            "Chip Patina": 4,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 3,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 9,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 3,
+            "Al Baster": 2,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 2,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": "Mona Lott",
+          "reasoning": "Mona now asserts Grant declined the toast and drank sealed water, directly contradicted by the consumed-toast image and manager's delivery account. She also previously admitted visiting the unattended glass and placing her letter beneath its edge. Her claim that it was merely ceremonial would erase the poisoned drink's actual role, unlike the others' increasingly candid admissions of smaller misconduct. The open bottle and staff cupboard are not uniquely hers, but her targeted lie plus opportunity distinguish her. Brie remains the strongest physical-access rival, with clean flavoring and no equivalent contradiction."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Mona Lott",
+        "confidence": 9,
+        "reasoning": "The laboratory establishes a targeted cyanide dose in Grant's individual glass, with shared food, punch, and the retained flavoring container clean. The emptied historical bottle and red foil-backed scrap offer a coherent source and transfer route. Mona admitted going to the unattended private place and putting her letter beneath the glass, establishing close physical opportunity. She then claims Grant refused the toast, drank her sealed water, and treated the engraved glass as ceremonial. The consumed-toast observation explicitly shows the glass at his lips and the water still sealed, while the manager confirms acceptance of the toast. This is a concrete false account of the lethal event. Brie is the strongest competitor because she directly added flavoring, but the ingredient sample is clean and her account fits the service order and delivery. Mona's concealed authority and commission dealings supply pressure; her unique contradiction is the deciding fact, even though no witness directly records her obtaining poison.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 8,
+          "arc_variety": 7,
+          "naturalness": 7,
+          "drama": 8
+        },
+        "feedback": "The evidence is sufficient for a confident accusation before voting. Mona's sealed-water story fails against an explicit physical observation rather than a vague character judgment, and the clean shared punch and ingredient samples make the murder mechanism understandable. I liked the smaller unresolved wrongs: Monet still calculates payroll, Al worries about care at home, and Reed feels pride in a caption that lost a vital sentence. Those details make the cast more than interchangeable motives. The repeated group questions and similarly paced confession-like answers nevertheless feel visibly assembled. Nearly everyone makes a damaging admission, addresses another named guest, and ends with a personal vulnerability. That pattern becomes predictable over three rounds. The documentary packets are clear but unusually comprehensive, settling numerous competing theories through paired originals and corrections. They sometimes feel designed to close every interpretive door. Mona's final lie is fair, but much more conspicuous than the evasions around it, creating a sudden jump from broad uncertainty to near certainty. I found no contradiction that prevents solving the murder; the absence of an exclusive bottle-access trace limits absolute proof rather than the intended inference.",
+        "issues": [
+          {
+            "category": "naturalness",
+            "severity": "minor",
+            "characters": [
+              "Mona Lott",
+              "Brie DeVivre",
+              "Reed DeLabel"
+            ],
+            "detail": "Across the three interview rounds, many speeches share an admission, direct address to another guest, and vulnerable closing thought, making the room sound coordinated despite strong individual details.",
+            "suggested_fix": "Vary two or three answers into interruptions, terse factual replies, or genuine refusal, while preserving their necessary evidence."
+          },
+          {
+            "category": "pacing",
+            "severity": "minor",
+            "characters": [
+              "Mona Lott"
+            ],
+            "detail": "The last water claim abruptly becomes the sole obvious contradiction after a large packet of corrected documents and mostly candid final speeches.",
+            "suggested_fix": "Seed a softer version of Mona's ceremonial-glass claim in her earlier answer so the final assertion develops an existing evasion."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "Mona's confession follows the decisive pre-vote contradiction closely: the glass was consumed and the water remained sealed, so her substituted account had concealed the actual vehicle. Taking poison at the preview and putting it in the waiting glass supplies the unobserved execution details, but these confirm a route already available rather than introducing a new fact required to choose her. Her final concern for the claimants gives the murder consequences beyond professional embarrassment and makes the ending emotionally credible. Chip's workbench concession and Barb's badge offer useful contrasting accountability. The confession slightly repeats the clue explanation like a closing argument, yet its advocate-to-killer realization feels earned and more personal than the evidentiary recap.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": true,
+        "e3_score": 5,
+        "e3_rank": 6,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 6,
+        "final_alternatives": 0,
+        "final_5_6": 0,
+        "late_jump": 4,
+        "final_gap": 5,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t073",
       "replicate": 4,
       "murderer_id": "04",
       "murderer": "Monet Bags",
-      "status": "pending",
-      "stages": [],
-      "errors": []
+      "status": "complete",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 0,
+            "Claire O’Scuro": 0,
+            "Hugh Bidder": 0,
+            "Monet Bags": 0,
+            "Chip Patina": 0,
+            "Dada DiCapo": 0,
+            "Vincent Van Faux": 0,
+            "Sue Venir": 0,
+            "Dr. Art E. Fact": 0,
+            "Tess Tament": 0,
+            "Barb Dwyer": 0,
+            "Paige Turner": 0,
+            "Frank Lloyd Wrong": 0,
+            "Mona Lott": 0,
+            "Elon Mosaic": 0,
+            "Elle Loominate": 0,
+            "Reed DeLabel": 0,
+            "Al Baster": 0,
+            "Brie DeVivre": 0,
+            "Anne E. Dote": 0,
+            "Penny Pincher": 0,
+            "Justin Tyme": 0
+          },
+          "clear_culprit": null,
+          "reasoning": "These introductions establish roles and comic personalities but supply no murder, method, timeline, or incriminating act. Financial grievances, disputed provenance, family obligations, and artistic resentment may eventually become motives, but identifying a leading suspect now would mostly reflect stereotype. Security, catering, conservation, and design could each offer relevant access depending on the eventual mechanism. I therefore have no evidential basis to distinguish any character yet and leave every suspicion score at zero until concrete events appear."
+        },
+        {
+          "stage": 2,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 2,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 2,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The donor's coercive gift gives Artie the clearest personal stake, with education cuts, stolen artistic credit, and ownership disputes distributing motives more broadly. A historic poison bottle conflicts with its lender's inert-liquid description, while the private toast, service access, and wrapped crest glass look potentially important. Barb's camera request and Brie's service role could facilitate access, but neither currently establishes wrongdoing. The installation safety hold offers another possible hazard. Without a death or opportunity timeline, these remain setup clues rather than a discriminating case."
+        },
+        {
+          "stage": 3,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 2,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 2,
+            "Barb Dwyer": 3,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "Grant's death after the private toast raises the relevance of the bottle, glass, hospitality order, and private-room camera restriction. Artie's threatened resignation remains a strong motive, although the notice explicitly warns that these terms were not adopted, making ordinary board resistance a live alternative to murder. Brie and Barb rise because their roles concern the apparent location and service pathway; Chip has possible expertise or access to the loan bottle. No medical finding yet proves poison, and nobody has been placed handling a lethal object."
+        },
+        {
+          "stage": 4,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 4,
+            "Chip Patina": 2,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 3,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "The speeches supply nearly everybody with concrete grievances and something to conceal, reducing the distinctiveness of Artie's threatened job loss. Monet's transfers and imminent wage crisis and Hugh's altered certificate file are especially substantial exposure motives. Claire, Reed, and the professor have scholarly vulnerabilities; artists face payment or credit losses. Barb admits granting privacy but frames it as donor instruction. Brie distinguishes the paid toast from the disputed addition. None describes the crucial handling of drink or bottle, so motive alone cannot narrow this crowded field decisively."
+        },
+        {
+          "stage": 5,
+          "scores": {
+            "Artie Ficial": 4,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 4,
+            "Chip Patina": 4,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 4,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 3,
+            "Barb Dwyer": 4,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 3,
+            "Mona Lott": 2,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 3,
+            "Reed DeLabel": 3,
+            "Al Baster": 3,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 3,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "Poison is now established and isolated to Grant's glass, with an active empty loan bottle and concealed broken band identifying a plausible source. The glass stood unattended from 6:32 to 7:04, creating a long pre-pour opportunity independent of catering's direct delivery. The added cheese charge did not cancel the toast. Chip's conservation role and Vincent's commissioned bottle study might involve knowledge of the object; Barb and Brie have service access. Yet the release supplies no named handler or presence within the relevant interval, leaving several mechanisms and suspects viable."
+        },
+        {
+          "stage": 6,
+          "scores": {
+            "Artie Ficial": 3,
+            "Claire O’Scuro": 4,
+            "Hugh Bidder": 5,
+            "Monet Bags": 5,
+            "Chip Patina": 5,
+            "Dada DiCapo": 4,
+            "Vincent Van Faux": 3,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 4,
+            "Tess Tament": 5,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 3,
+            "Elon Mosaic": 3,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 4,
+            "Al Baster": 2,
+            "Brie DeVivre": 5,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 4,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "Monet, Tess, Dada, Barb, and Brie now explicitly visited the unattended place, making them stronger opportunity candidates. Chip fitted the closure, while Hugh knew the original-contents sale requirement and hid it; the professor and Reed also handled contradictory contents descriptions. These statements establish several possible knowledge routes, not exclusive guilt. Brie's flavoring container is relevant to the individual glass, but remains innocently explained pending examination. The installation group describes another location and safety response. The decisive remaining question is who both knew the bottle's danger and reached the glass with it."
+        },
+        {
+          "stage": 7,
+          "scores": {
+            "Artie Ficial": 2,
+            "Claire O’Scuro": 3,
+            "Hugh Bidder": 4,
+            "Monet Bags": 6,
+            "Chip Patina": 5,
+            "Dada DiCapo": 3,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 2,
+            "Dr. Art E. Fact": 3,
+            "Tess Tament": 4,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 2,
+            "Mona Lott": 2,
+            "Elon Mosaic": 2,
+            "Elle Loominate": 2,
+            "Reed DeLabel": 4,
+            "Al Baster": 2,
+            "Brie DeVivre": 4,
+            "Anne E. Dote": 2,
+            "Penny Pincher": 3,
+            "Justin Tyme": 2
+          },
+          "clear_culprit": null,
+          "reasoning": "The corroborating files eliminate several apparent mechanisms: shared punch, ingredient container, sealed water, sculpture surface, projected collapse, wooden model, and camera recording. Both bottle and glass were exposed, and ordinary staff keys open the cupboard. The paper scrap is suggestive but lacks a unique tear match. Many grievances have documented resolutions, whereas Monet's unauthorized payroll transfer remains exposed and she admits lingering beside the glass. Chip's false insurance date and Barb's false fault log sustain suspicion, but neither directly identifies the poisoner. Further testimony must distinguish contact from dishonest adjacent conduct."
+        },
+        {
+          "stage": 8,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 2,
+            "Hugh Bidder": 3,
+            "Monet Bags": 9,
+            "Chip Patina": 4,
+            "Dada DiCapo": 2,
+            "Vincent Van Faux": 2,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 2,
+            "Tess Tament": 3,
+            "Barb Dwyer": 5,
+            "Paige Turner": 2,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 2,
+            "Al Baster": 1,
+            "Brie DeVivre": 3,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 2,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": "Monet Bags",
+          "reasoning": "Monet supplies the distinguishing contradiction: she claims to have seen Grant's unwrapped waiting glass before the preview, but the preview ran 6:20–6:28 and the manager unwrapped and set that glass at 6:32. The recording corroborates the later setup at his private place. Her attempt to move the visit earlier conceals her presence within the actual poisoning opportunity. She also has an unresolved unauthorized payroll transfer and an impending demand for her books. Barb deliberately prevented recording, but admits that wrongdoing consistently; Brie's tested flavoring is clean. Monet's false time now singles her out."
+        }
+      ],
+      "errors": [],
+      "accusation": {
+        "accused": "Monet Bags",
+        "confidence": 9,
+        "reasoning": "Monet claims she found the unwrapped crest glass waiting before the closed preview. That preview ran from 6:20 to 6:28; the service manager first unwrapped and set the glass at 6:32. The untrimmed interview independently places its setup at Grant's private place. Monet therefore falsifies the timing of a visit she admits, shifting herself outside the 6:32–7:04 unattended-glass interval. Cyanide in only that glass, an empty active historical bottle with a concealed split band, and accessible staff storage supply a coherent mechanism. Her unauthorized restricted-fund payroll transfer and Grant's demand for her books supply a continuing motive, unlike several settled disputes. Barb is the strongest alternative because she deliberately disabled recording and falsified its log, but her admissions match the technician's work order rather than contradicting independent timing. Brie added flavoring, yet the retained container tests clean. Monet alone offers the specific impossible account of the crucial opportunity.",
+        "ratings": {
+          "fair_play": 8,
+          "clarity": 8,
+          "voice_distinction": 7,
+          "arc_variety": 7,
+          "naturalness": 6,
+          "drama": 8
+        },
+        "feedback": "The puzzle is logically solvable before voting, with Monet's before-preview claim colliding cleanly with the service timeline. The glass, bottle, and clean ingredient tests support a physical poisoning rather than a vague motive vote. Personal details help distinguish characters: Al's concern for someone at home, Sue's brusque care for Mona, and Artie's inability to stop hosting carry emotional weight. The systematic group questions nevertheless make the dialogue feel assembled: almost everyone identifies a compromise, produces a document, and later restates its resolution. The final speeches sometimes interpret exhibits for the reader, particularly Al explaining why his materials differ from the scrap and Justin specifying what the correction does not prove. Many similar paperwork disputes compete for attention in a large cast, although that breadth makes the final timeline discrepancy rewarding. No concrete unfair contradiction emerged. My remaining reservation is that a false opportunity account carries much of the identification while direct evidence of Monet handling the bottle is absent; this still works within the stated single-murderer premise.",
+        "issues": [
+          {
+            "category": "naturalness",
+            "severity": "moderate",
+            "characters": [
+              "Al Baster",
+              "Justin Tyme"
+            ],
+            "detail": "Final speeches explicitly explain exclusions already present in exhibits: Al contrasts his materials with the glass scrap, and Justin says the correction does not establish neutralization. This resembles prepared detective instruction.",
+            "suggested_fix": "Let each answer defend only their own action and leave the comparison or negative inference to players."
+          },
+          {
+            "category": "pacing",
+            "severity": "minor",
+            "characters": [
+              "Claire O’Scuro",
+              "Reed DeLabel",
+              "Dr. Art E. Fact"
+            ],
+            "detail": "Repeated accounts of the contents query, staff delivery, and shortened press caption appear across both dialogue rounds and the large evidence release, slowing the final distinction.",
+            "suggested_fix": "Keep the full corroborating proof but shorten one final recap to a personal reaction rather than repeating its complete routing."
+          }
+        ]
+      },
+      "finale": {
+        "feedback": "The confession follows the pre-vote evidence closely: Monet corrects the impossible before-preview visit, identifies the unattended glass opportunity, and ties the act to her unauthorized payroll transfer and Grant's scrutiny. Taking poison from the bottle is newly admitted conduct, but not a new decisive clue; the active emptied bottle and poisoned individual glass already supported that route. Her insistence that wages were paid gives the motive a human rationalization without excusing it. Barb's badge and Chip's workbench keys make the runner-up endings feel consequential. Monet's final recognition of Grant's waiting family is emotionally stronger than a clever explanatory victory speech. The finale feels earned and does not rescue an otherwise unsolvable case.",
+        "new_decisive_facts": [],
+        "earned": true
+      },
+      "audit_flags": [],
+      "metrics": {
+        "correct": true,
+        "early_clear": false,
+        "early_correct_clear": false,
+        "e3_ready": true,
+        "e3_score": 6,
+        "e3_rank": 1,
+        "final_score": 9,
+        "final_strong": true,
+        "unique_top": true,
+        "tied_top": false,
+        "act2_suspects": 0,
+        "final_alternatives": 1,
+        "final_5_6": 1,
+        "late_jump": 3,
+        "final_gap": 4,
+        "earned": true,
+        "new_facts": 0
+      }
     },
     {
       "trial": "t074",
       "replicate": 4,
       "murderer_id": "20",
       "murderer": "Al Baster",
-      "status": "pending",
-      "stages": [],
+      "status": "running",
+      "stages": [
+        {
+          "stage": 1,
+          "scores": {
+            "Artie Ficial": 1,
+            "Claire O’Scuro": 1,
+            "Hugh Bidder": 1,
+            "Monet Bags": 1,
+            "Chip Patina": 1,
+            "Dada DiCapo": 1,
+            "Vincent Van Faux": 1,
+            "Sue Venir": 1,
+            "Dr. Art E. Fact": 1,
+            "Tess Tament": 1,
+            "Barb Dwyer": 1,
+            "Paige Turner": 1,
+            "Frank Lloyd Wrong": 1,
+            "Mona Lott": 1,
+            "Elon Mosaic": 1,
+            "Elle Loominate": 1,
+            "Reed DeLabel": 1,
+            "Al Baster": 1,
+            "Brie DeVivre": 1,
+            "Anne E. Dote": 1,
+            "Penny Pincher": 1,
+            "Justin Tyme": 1
+          },
+          "clear_culprit": null,
+          "reasoning": "The introductions establish roles and possible tensions, but no murder mechanism, timeline, or victim relationship beyond donor status is available. Vincent objects to his early work, Al wants payment, and several museum professionals suggest money or provenance conflicts. Those are possible motives rather than evidence of an act. I assign equal low suspicion because a joke about grudges, costs, or security should not distinguish a murderer before any concrete event occurs."
+        }
+      ],
       "errors": []
     },
     {
@@ -20341,7 +22126,7 @@
       "replicate": 4,
       "murderer_id": "10",
       "murderer": "Tess Tament",
-      "status": "pending",
+      "status": "running",
       "stages": [],
       "errors": []
     },
@@ -20859,24 +22644,24 @@
         "t068",
         "t103"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
-      "e3_ready": 3,
-      "final_strong": 3,
-      "unique_top": 3,
+      "e3_ready": 4,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
-        "mean": 5.67,
+        "mean": 5.75,
         "min": 5,
         "max": 7
       },
       "e3_rank": {
-        "mean": 2.33,
+        "mean": 2,
         "min": 1,
         "max": 4
       },
@@ -20886,56 +22671,56 @@
         "max": 9
       },
       "act2_suspects": {
-        "mean": 2.67,
+        "mean": 3,
         "min": 2,
         "max": 4
       },
       "final_alternatives": {
-        "mean": 0.33,
+        "mean": 0.5,
         "min": 0,
         "max": 1
       },
       "late_jump": {
-        "mean": 3.33,
+        "mean": 3.25,
         "min": 2,
         "max": 4
       },
       "final_gap": {
-        "mean": 4.67,
+        "mean": 4.5,
         "min": 4,
         "max": 5
       },
       "progress": [
-        0.33,
-        1.33,
-        1.33,
+        0.5,
+        1.5,
+        1.5,
         5,
         5,
-        6.33,
-        5.67,
+        6.5,
+        5.75,
         9
       ],
       "ratings": {
-        "fair_play": 8.33,
-        "clarity": 7.67,
-        "voice_distinction": 7.67,
-        "arc_variety": 7.33,
-        "naturalness": 6.67,
+        "fair_play": 8.25,
+        "clarity": 7.75,
+        "voice_distinction": 7.75,
+        "arc_variety": 7.25,
+        "naturalness": 6.75,
         "drama": 8
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          0.33,
-          1.33,
-          1.33,
+          0.5,
+          1.5,
+          1.5,
           5,
           5,
-          6.33,
-          5.67,
+          6.5,
+          5.75,
           9
         ]
       },
@@ -20952,84 +22737,84 @@
         "t073",
         "t101"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
-      "e3_ready": 2,
-      "final_strong": 3,
-      "unique_top": 3,
+      "e3_ready": 3,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
-        "mean": 6.33,
+        "mean": 6.25,
         "min": 5,
         "max": 8
       },
       "e3_rank": {
-        "mean": 1.33,
+        "mean": 1.25,
         "min": 1,
         "max": 2
       },
       "final_score": {
-        "mean": 9.67,
+        "mean": 9.5,
         "min": 9,
         "max": 10
       },
       "act2_suspects": {
-        "mean": 3,
-        "min": 1,
+        "mean": 2.25,
+        "min": 0,
         "max": 6
       },
       "final_alternatives": {
-        "mean": 0.33,
+        "mean": 0.5,
         "min": 0,
         "max": 1
       },
       "late_jump": {
-        "mean": 3.33,
+        "mean": 3.25,
         "min": 2,
         "max": 4
       },
       "final_gap": {
-        "mean": 5.67,
+        "mean": 5.25,
         "min": 4,
         "max": 7
       },
       "progress": [
-        0.67,
-        2,
-        2,
-        4.33,
-        4.33,
-        6,
-        6.33,
-        9.67
+        0.5,
+        1.75,
+        1.75,
+        4.25,
+        4.25,
+        5.75,
+        6.25,
+        9.5
       ],
       "ratings": {
-        "fair_play": 8.33,
+        "fair_play": 8.25,
         "clarity": 8,
-        "voice_distinction": 8,
+        "voice_distinction": 7.75,
         "arc_variety": 7,
-        "naturalness": 6.67,
-        "drama": 7.67
+        "naturalness": 6.5,
+        "drama": 7.75
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          0.67,
-          2,
-          2,
-          4.33,
-          4.33,
-          6,
-          6.33,
-          9.67
+          0.5,
+          1.75,
+          1.75,
+          4.25,
+          4.25,
+          5.75,
+          6.25,
+          9.5
         ]
       },
       "wrong": []
@@ -21138,15 +22923,15 @@
         "t069",
         "t092"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
-      "e3_ready": 3,
-      "final_strong": 3,
-      "unique_top": 3,
+      "e3_ready": 4,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
@@ -21155,7 +22940,7 @@
         "max": 6
       },
       "e3_rank": {
-        "mean": 1.33,
+        "mean": 1.5,
         "min": 1,
         "max": 2
       },
@@ -21165,12 +22950,12 @@
         "max": 9
       },
       "act2_suspects": {
-        "mean": 5.33,
+        "mean": 5.25,
         "min": 5,
         "max": 6
       },
       "final_alternatives": {
-        "mean": 1.33,
+        "mean": 1.5,
         "min": 1,
         "max": 2
       },
@@ -21185,9 +22970,9 @@
         "max": 4
       },
       "progress": [
-        0.67,
-        2.67,
-        2.67,
+        0.75,
+        2.75,
+        2.75,
         4,
         4,
         6,
@@ -21195,22 +22980,22 @@
         9
       ],
       "ratings": {
-        "fair_play": 8.33,
-        "clarity": 7.33,
+        "fair_play": 8.25,
+        "clarity": 7.5,
         "voice_distinction": 8,
-        "arc_variety": 7.67,
-        "naturalness": 6.67,
+        "arc_variety": 7.25,
+        "naturalness": 6.75,
         "drama": 8
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          0.67,
-          2.67,
-          2.67,
+          0.75,
+          2.75,
+          2.75,
           4,
           4,
           6,
@@ -21324,24 +23109,24 @@
         "t071",
         "t099"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
-      "e3_ready": 3,
-      "final_strong": 3,
-      "unique_top": 3,
+      "e3_ready": 4,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
-        "mean": 5.67,
+        "mean": 6,
         "min": 5,
-        "max": 6
+        "max": 7
       },
       "e3_rank": {
-        "mean": 1.33,
+        "mean": 1.25,
         "min": 1,
         "max": 2
       },
@@ -21351,56 +23136,56 @@
         "max": 9
       },
       "act2_suspects": {
-        "mean": 2,
+        "mean": 3.25,
         "min": 1,
-        "max": 3
+        "max": 7
       },
       "final_alternatives": {
-        "mean": 0.33,
+        "mean": 0.5,
         "min": 0,
         "max": 1
       },
       "late_jump": {
-        "mean": 3.33,
-        "min": 3,
+        "mean": 3,
+        "min": 2,
         "max": 4
       },
       "final_gap": {
-        "mean": 4.33,
+        "mean": 4.25,
         "min": 3,
         "max": 5
       },
       "progress": [
-        0.67,
-        1.67,
-        1.67,
-        3.67,
-        3.67,
-        5.67,
-        5.67,
+        0.75,
+        1.75,
+        1.75,
+        3.75,
+        3.75,
+        6,
+        6,
         9
       ],
       "ratings": {
         "fair_play": 8,
         "clarity": 8,
-        "voice_distinction": 7.33,
+        "voice_distinction": 7.5,
         "arc_variety": 7,
-        "naturalness": 6.33,
-        "drama": 7.33
+        "naturalness": 6.5,
+        "drama": 7.5
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          0.67,
-          1.67,
-          1.67,
-          3.67,
-          3.67,
-          5.67,
-          5.67,
+          0.75,
+          1.75,
+          1.75,
+          3.75,
+          3.75,
+          6,
+          6,
           9
         ]
       },
@@ -21882,15 +23667,15 @@
         "t072",
         "t106"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
-      "e3_ready": 3,
-      "final_strong": 3,
-      "unique_top": 3,
+      "e3_ready": 4,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
@@ -21899,17 +23684,17 @@
         "max": 5
       },
       "e3_rank": {
-        "mean": 4.33,
+        "mean": 4.75,
         "min": 1,
         "max": 8
       },
       "final_score": {
-        "mean": 9.33,
+        "mean": 9.25,
         "min": 9,
         "max": 10
       },
       "act2_suspects": {
-        "mean": 4.67,
+        "mean": 5,
         "min": 1,
         "max": 7
       },
@@ -21919,47 +23704,47 @@
         "max": 0
       },
       "late_jump": {
-        "mean": 4.33,
+        "mean": 4.25,
         "min": 4,
         "max": 5
       },
       "final_gap": {
-        "mean": 5.33,
+        "mean": 5.25,
         "min": 5,
         "max": 6
       },
       "progress": [
-        0.33,
+        0.5,
         2,
         2,
         4,
         4,
-        5.67,
+        5.75,
         5,
-        9.33
+        9.25
       ],
       "ratings": {
         "fair_play": 8,
         "clarity": 8,
         "voice_distinction": 8,
-        "arc_variety": 7.33,
+        "arc_variety": 7.25,
         "naturalness": 7,
         "drama": 8
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          0.33,
+          0.5,
           2,
           2,
           4,
           4,
-          5.67,
+          5.75,
           5,
-          9.33
+          9.25
         ]
       },
       "wrong": []
@@ -22068,34 +23853,34 @@
         "t070",
         "t110"
       ],
-      "n": 3,
-      "correct": 3,
+      "n": 4,
+      "correct": 4,
       "early_clear": 0,
       "early_correct_clear": 0,
       "e3_ready": 1,
-      "final_strong": 3,
-      "unique_top": 3,
+      "final_strong": 4,
+      "unique_top": 4,
       "tied_top": 0,
-      "earned": 3,
+      "earned": 4,
       "midgame_breadth": 0,
       "ending_breadth": 0,
       "e3_score": {
-        "mean": 4.33,
+        "mean": 4.25,
         "min": 4,
         "max": 5
       },
       "e3_rank": {
-        "mean": 3.33,
+        "mean": 4,
         "min": 2,
-        "max": 4
+        "max": 6
       },
       "final_score": {
-        "mean": 9.33,
+        "mean": 9.25,
         "min": 9,
         "max": 10
       },
       "act2_suspects": {
-        "mean": 2.33,
+        "mean": 2,
         "min": 1,
         "max": 4
       },
@@ -22110,42 +23895,42 @@
         "max": 6
       },
       "final_gap": {
-        "mean": 5.67,
+        "mean": 5.5,
         "min": 5,
         "max": 7
       },
       "progress": [
-        1,
-        2,
-        2,
-        3.67,
-        3.67,
-        5.67,
-        4.33,
-        9.33
+        0.75,
+        1.75,
+        1.75,
+        3.5,
+        3.5,
+        5.5,
+        4.25,
+        9.25
       ],
       "ratings": {
-        "fair_play": 8.33,
+        "fair_play": 8.25,
         "clarity": 8,
         "voice_distinction": 8,
-        "arc_variety": 7.33,
+        "arc_variety": 7.5,
         "naturalness": 7,
         "drama": 8
       },
       "flagged": 0,
       "sensitivity_without_flagged": {
-        "n": 3,
-        "final_strength": 3,
+        "n": 4,
+        "final_strength": 4,
         "ending_breadth": 0,
         "culprit_progress": [
-          1,
-          2,
-          2,
-          3.67,
-          3.67,
-          5.67,
-          4.33,
-          9.33
+          0.75,
+          1.75,
+          1.75,
+          3.5,
+          3.5,
+          5.5,
+          4.25,
+          9.25
         ]
       },
       "wrong": []
@@ -22709,7 +24494,7 @@
       "wrong": []
     }
   ],
-  "completed": 67,
+  "completed": 73,
   "invalid": 0,
   "total": 110,
   "issue_summary": [
@@ -22757,7 +24542,13 @@
         "t060",
         "t064",
         "t065",
-        "t067"
+        "t067",
+        "t068",
+        "t069",
+        "t070",
+        "t071",
+        "t072",
+        "t073"
       ],
       "major": [],
       "examples": [
@@ -23186,6 +24977,66 @@
           "characters": [],
           "detail": "Stage 7 releases a large bundle of settlement, account and corrected-record details alongside the physical poison evidence, increasing the reading burden before the key final contradiction.",
           "suggested_fix": "Move two or three side-settlement records into an earlier release or shorten their rows while retaining the bottle, glass and model comparisons."
+        },
+        {
+          "trial": "t068",
+          "murderer": "Hugh Bidder",
+          "category": "pacing",
+          "severity": "moderate",
+          "characters": [],
+          "detail": "Stage 7 delivers many corrective records at once, including peripheral camera-card, podcast, handling, and job-account matters alongside the central purchase and glass evidence.",
+          "suggested_fix": "Separate the central bottle and toast records visually from supplemental dispute records while preserving all pre-vote access."
+        },
+        {
+          "trial": "t069",
+          "murderer": "Dada DiCapo",
+          "category": "pacing",
+          "severity": "minor",
+          "characters": [],
+          "detail": "Stages 6 through 8 repeatedly cover each character's mistake and correction in the same group sequence, making the testimony feel like a checklist.",
+          "suggested_fix": "Vary the last round with shorter exchanges or interruptions and omit restatement when an independent document already establishes the point."
+        },
+        {
+          "trial": "t070",
+          "murderer": "Elle Loominate",
+          "category": "pacing",
+          "severity": "minor",
+          "characters": [],
+          "detail": "Stage 7 provides many separate settlements and corrections alongside the decisive preview and service evidence; their similar presentation makes the physical murder chain harder to retain.",
+          "suggested_fix": "Add short timestamps or a compact exhibit index to the bottle and glass records without interpreting which suspect they implicate."
+        },
+        {
+          "trial": "t071",
+          "murderer": "Sue Venir",
+          "category": "pacing",
+          "severity": "minor",
+          "characters": [],
+          "detail": "Stage seven releases numerous settlement and correction records, including camera-card and frame-damage threads for nonselectable staff, before the final suspect accounts.",
+          "suggested_fix": "Condense peripheral correction records into a short appendix while preserving the service chronology and bottle evidence in the main release."
+        },
+        {
+          "trial": "t072",
+          "murderer": "Mona Lott",
+          "category": "pacing",
+          "severity": "minor",
+          "characters": [
+            "Mona Lott"
+          ],
+          "detail": "The last water claim abruptly becomes the sole obvious contradiction after a large packet of corrected documents and mostly candid final speeches.",
+          "suggested_fix": "Seed a softer version of Mona's ceremonial-glass claim in her earlier answer so the final assertion develops an existing evasion."
+        },
+        {
+          "trial": "t073",
+          "murderer": "Monet Bags",
+          "category": "pacing",
+          "severity": "minor",
+          "characters": [
+            "Claire O’Scuro",
+            "Reed DeLabel",
+            "Dr. Art E. Fact"
+          ],
+          "detail": "Repeated accounts of the contents query, staff delivery, and shortened press caption appear across both dialogue rounds and the large evidence release, slowing the final distinction.",
+          "suggested_fix": "Keep the full corroborating proof but shorten one final recap to a personal reaction rather than repeating its complete routing."
         }
       ]
     },
@@ -23250,7 +25101,11 @@
         "t064",
         "t065",
         "t066",
-        "t067"
+        "t067",
+        "t068",
+        "t070",
+        "t072",
+        "t073"
       ],
       "major": [],
       "examples": [
@@ -23941,6 +25796,57 @@
           ],
           "detail": "The grouped rounds repeatedly combine a work admission, self-reproach and named colleague address, giving otherwise distinct voices a shared speech structure.",
           "suggested_fix": "Vary several replies into interruptions, short evasions or concrete exchanges rather than complete confession-shaped speeches."
+        },
+        {
+          "trial": "t068",
+          "murderer": "Hugh Bidder",
+          "category": "naturalness",
+          "severity": "minor",
+          "characters": [
+            "Hugh Bidder",
+            "Brie DeVivre",
+            "Al Baster"
+          ],
+          "detail": "The final round frequently restates technical records, such as Hugh's substitution claim, Brie's retained sample, and Al's red-paper comparison, in a synchronized answer format.",
+          "suggested_fix": "Keep the decisive factual statements but vary response length and let one or two comparisons arise through another character's question."
+        },
+        {
+          "trial": "t070",
+          "murderer": "Elle Loominate",
+          "category": "naturalness",
+          "severity": "minor",
+          "characters": [
+            "Claire O’Scuro",
+            "Reed DeLabel",
+            "Dr. Art E. Fact"
+          ],
+          "detail": "Across stages 6 and 8, several staff give very polished admissions about their own professional shortcomings while under acute pressure.",
+          "suggested_fix": "Let one of these answers initially resist the question or require a brief follow-up while preserving all disclosed evidence."
+        },
+        {
+          "trial": "t072",
+          "murderer": "Mona Lott",
+          "category": "naturalness",
+          "severity": "minor",
+          "characters": [
+            "Mona Lott",
+            "Brie DeVivre",
+            "Reed DeLabel"
+          ],
+          "detail": "Across the three interview rounds, many speeches share an admission, direct address to another guest, and vulnerable closing thought, making the room sound coordinated despite strong individual details.",
+          "suggested_fix": "Vary two or three answers into interruptions, terse factual replies, or genuine refusal, while preserving their necessary evidence."
+        },
+        {
+          "trial": "t073",
+          "murderer": "Monet Bags",
+          "category": "naturalness",
+          "severity": "moderate",
+          "characters": [
+            "Al Baster",
+            "Justin Tyme"
+          ],
+          "detail": "Final speeches explicitly explain exclusions already present in exhibits: Al contrasts his materials with the glass scrap, and Justin says the correction does not establish neutralization. This resembles prepared detective instruction.",
+          "suggested_fix": "Let each answer defend only their own action and leave the comparison or negative inference to players."
         }
       ]
     },
@@ -23951,7 +25857,8 @@
         "t033",
         "t040",
         "t048",
-        "t054"
+        "t054",
+        "t071"
       ],
       "major": [],
       "examples": [
@@ -24015,6 +25922,19 @@
           "characters": [],
           "detail": "Rounds two and three repeatedly pair an admitted professional mistake with a named interpersonal appeal and a private vulnerability, making different speakers share a visible template.",
           "suggested_fix": "Vary several answers in length and structure; let some people refuse, interrupt, or give only a concrete practical detail."
+        },
+        {
+          "trial": "t071",
+          "murderer": "Sue Venir",
+          "category": "voice",
+          "severity": "minor",
+          "characters": [
+            "Claire O’Scuro",
+            "Dr. Art E. Fact",
+            "Reed DeLabel"
+          ],
+          "detail": "The final collection answers repeat the same full-query versus shortened-caption explanation in similar confession-and-address rhythms.",
+          "suggested_fix": "Let one account state delivery mechanics and let the others respond through distinct reactions or disagreement, retaining all necessary facts."
         }
       ]
     },
@@ -24070,7 +25990,8 @@
         "t061",
         "t062",
         "t064",
-        "t066"
+        "t066",
+        "t069"
       ],
       "major": [],
       "examples": [
@@ -24273,6 +26194,17 @@
           ],
           "detail": "The false tour alibi identifies Anne strongly, but source-bottle access is supported by general staff keys and distribution rather than a specific observation linking her to the cupboard.",
           "suggested_fix": "Add a nonexclusive contemporaneous note showing Anne had access to the relevant preparation area, without showing the poisoning itself."
+        },
+        {
+          "trial": "t069",
+          "murderer": "Dada DiCapo",
+          "category": "evidence",
+          "severity": "minor",
+          "characters": [
+            "Dada DiCapo"
+          ],
+          "detail": "The final live-performance claim is strongly disproved, but source handling is still established only by common access and glass opportunity.",
+          "suggested_fix": "Add a small independently observed link between Dada and the bottle storage route before voting without making the paper scrap uniquely identifying."
         }
       ]
     },

@@ -6,6 +6,10 @@ from exhaustive_balance import RUN
 data = collect()
 render(data)
 done = [t for t in data['trials'] if t['status'] == 'complete']
+if len(done) == 110:
+    assert data['invalid'] == 0
+    assert len(data['trials']) == len({t['trial'] for t in data['trials']}) == 110
+    assert len(data['cases']) == 22 and all(c['n'] == 5 for c in data['cases'])
 clean = [t for t in done if not t['audit_flags']]
 flagged = [t for t in done if t['audit_flags']]
 remaining = [t['trial'] for t in data['trials'] if t['status'] != 'complete']
