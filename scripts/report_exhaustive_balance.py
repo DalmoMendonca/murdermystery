@@ -40,6 +40,12 @@ def collect():
                 assert a['accused'] in names and type(a['confidence']) is int and 0<=a['confidence']<=10
                 assert set(a['ratings'])=={'fair_play','clarity','voice_distinction','arc_variety','naturalness','drama'}
                 assert all(type(v) is int and 0<=v<=10 for v in a['ratings'].values())
+                assert isinstance(a['issues'],list) and len(a['issues'])<=4
+                for issue in a['issues']:
+                    assert issue['severity'] in ['major','moderate','minor']
+                    assert issue['category'] in ['fairness','clarity','voice','naturalness','drama','pacing','evidence','motive','finale']
+                    assert all(n in names for n in issue['characters'])
+                    assert issue['detail'] and issue['suggested_fix']
                 assert isinstance(p['earned'],bool) and isinstance(p['new_decisive_facts'],list)
                 killer=item['murderer']; final=trial['stages'][7]['scores']; e3=trial['stages'][6]['scores'][killer]
                 top=max(final.values()); high=[n for n in names if final[n]==top]
@@ -53,12 +59,14 @@ def collect():
                     'early_clear':any(s['clear_culprit'] is not None for s in trial['stages'][:7]),
                     'early_correct_clear':any(s['clear_culprit']==killer for s in trial['stages'][:7]),
                     'e3_ready':5<=e3<8,'e3_score':e3,
+                    'e3_rank':1+sum(v>e3 for v in trial['stages'][6]['scores'].values()),
                     'final_score':final[killer],'final_strong':final[killer]>=9,
                     'unique_top':high==[killer], 'tied_top':killer in high and len(high)>1,
                     'act2_suspects':sum(v>5 for v in trial['stages'][5]['scores'].values()),
                     'final_alternatives':sum(5<=v<=7 for n,v in final.items() if n!=killer),
                     'final_5_6':sum(5<=v<=6 for n,v in final.items() if n!=killer),
                     'late_jump':final[killer]-e3,
+                    'final_gap':final[killer]-max(v for n,v in final.items() if n!=killer),
                     'earned':p['earned'],'new_facts':len(p['new_decisive_facts'])})
         except Exception as error:
             trial['status']='invalid'; trial['errors'].append(str(error) or type(error).__name__)
@@ -73,11 +81,17 @@ def collect():
             case[key]=sum(t['metrics'][key] for t in done)
         case['midgame_breadth']=sum(t['metrics']['act2_suspects']>=8 for t in done)
         case['ending_breadth']=sum(t['metrics']['final_alternatives']>=3 for t in done)
-        for key in ['e3_score','final_score','act2_suspects','final_alternatives','late_jump']:
+        for key in ['e3_score','e3_rank','final_score','act2_suspects','final_alternatives','late_jump','final_gap']:
             values=[t['metrics'][key] for t in done];case[key]={'mean':mean(values),'min':min(values) if values else None,'max':max(values) if values else None}
         case['progress']=[mean([t['stages'][s]['scores'][person['name']] for t in done]) for s in range(8)]
         case['ratings']={k:mean([t['accusation']['ratings'][k] for t in done]) for k in ['fair_play','clarity','voice_distinction','arc_variety','naturalness','drama']}
         case['flagged']=sum(bool(t['audit_flags']) for t in done)
+        consistent=[t for t in done if not t['audit_flags']]
+        case['sensitivity_without_flagged']={
+            'n':len(consistent),
+            'final_strength':sum(t['metrics']['final_strong'] for t in consistent),
+            'ending_breadth':sum(t['metrics']['final_alternatives']>=3 for t in consistent),
+            'culprit_progress':[mean([t['stages'][s]['scores'][person['name']] for t in consistent]) for s in range(8)]}
         case['wrong']=[{'trial':t['trial'],'accused':t['accusation']['accused']} for t in done if not t['metrics']['correct']]
         cases.append(case)
     result={'generated_utc':datetime.now(timezone.utc).isoformat(),'revision':manifest['revision'],'deploy':manifest['production_deploy'],'kit_sha256':manifest['complete_kit_sha256'],'stages':STAGES,'roster':manifest['roster'],'trials':trials,'cases':cases,'completed':sum(t['status']=='complete' for t in trials),'invalid':sum(t['status']=='invalid' for t in trials),'total':110}

@@ -487,3 +487,5 @@ Belle follow-up: individually center all four word-search icons under their word
 Belle follow-up published and locked: 6acaae2d208c9cee1b30f908. All eight direct downloads match reviewed SHA-256 values, including texting JPG, print character sheet and tent card.
 
 User-authorized exhaustive published RSVP22 audit: 22 culprit worlds x 5 fresh blind readers = 110. Latest live complete ZIP hash and pinned source verified; immutable eight-stage inputs frozen. Each reader saves before advancing, locks accusation before finale, then reviews confession. Aggregate dashboard will report all results and per-character weaknesses; no game edits or production replacement during testing.
+
+Published RSVP22 audit checkpoint:37/110 complete,37 correct accusations,0 early clear declarations. Three score/conclusion conflicts retained; consistent numeric subset34:30 E3-ready,34 final strong/unique,3 midgame breadth,1 ending breadth. All22 cases covered once,15 twice. No game edits. Account five-hour allowance95% used;73 trials await additional quota. Resume t038; no background continuation scheduled.
