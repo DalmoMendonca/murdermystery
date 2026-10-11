@@ -1,6 +1,6 @@
 # Published RSVP22 blind audit — SPOILERS
 
-Completed: **37/110**. Invalid: **0**. Correct accusations: **37/37**.
+Completed: **46/110**. Invalid: **0**. Correct accusations: **46/46**.
 
 Five fresh context-free AI readers per selected murderer; eight sequential immutable score releases; accusation locked before finale. Scores are suspicion judgments, not probabilities or human solve rates. Missing trials are not counted as successes. No game rewrites or rerolls.
 
@@ -11,24 +11,24 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Murderer scenario | Completed | Correct | Early clear | E3 5–7 | Final ≥9 | 8+ Act II suspects | 3+ final alternatives |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Artie Ficial | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
-| Claire O’Scuro | 2/5 | 2/2 | 0/2 | 1/2 | 1/2 | 0/2 | 0/2 |
+| Claire O’Scuro | 3/5 | 3/3 | 0/3 | 2/3 | 2/3 | 0/3 | 0/3 |
 | Hugh Bidder | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Monet Bags | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Chip Patina | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
-| Dada DiCapo | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
-| Vincent Van Faux | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| Dada DiCapo | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
+| Vincent Van Faux | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
 | Sue Venir | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Dr. Art E. Fact | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 1/2 | 1/2 |
 | Tess Tament | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
-| Barb Dwyer | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| Barb Dwyer | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Paige Turner | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
 | Frank Lloyd Wrong | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Mona Lott | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
-| Elon Mosaic | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
-| Elle Loominate | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| Elon Mosaic | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
+| Elle Loominate | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
 | Reed DeLabel | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |
 | Al Baster | 2/5 | 2/2 | 0/2 | 1/2 | 0/2 | 0/2 | 0/2 |
 | Brie DeVivre | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 1/2 | 0/2 |
-| Anne E. Dote | 1/5 | 1/1 | 0/1 | 0/1 | 1/1 | 1/1 | 0/1 |
+| Anne E. Dote | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 1/2 | 0/2 |
 | Penny Pincher | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 |
-| Justin Tyme | 1/5 | 1/1 | 0/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| Justin Tyme | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 0/2 | 0/2 |

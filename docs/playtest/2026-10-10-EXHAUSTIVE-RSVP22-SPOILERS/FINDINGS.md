@@ -1,32 +1,49 @@
-# Interim findings — 37 of 110 tests / SPOILERS
+# Interim findings — 46 of 110 tests / SPOILERS
 
-This is an incomplete audit, not a completed 110-reader result. Every one of the 22 RSVP murderers has one completed reader; 15 have a second. The other 73 predetermined trials have not run. No cases were rerolled, and no game copy was changed.
+This audit is incomplete. Each of 22 RSVP characters has five predetermined trials. Completed per-character counts are in the dashboard and case-summary.csv. No cases were rerolled and no game copy was changed.
 
-The published complete-kit ZIP was hash-verified before freezing the inputs. The tested adult revision is `act3-five-speech-refinement-2026-10-10`, deployed as `6acaae2d208c9cee1b30f908`.
+Frozen published revision: `act3-five-speech-refinement-2026-10-10`. Verified deploy: `6acaae2d208c9cee1b30f908`.
 
-## Findings so far
+## Results
 
-- All 37 locked accusations identify the selected murderer. All 37 finale reviews find the confession earned; none reports a decisive new fact that was required to solve it.
-- No reader explicitly declares a clear culprit before Act III. This is a declaration measure, not proof that no earlier numeric lead exists.
-- Three records have conflicting final numbers and conclusions: t001 and t030 (Al Baster), and t018 (Claire O’Scuro). Their reasoning, clear-culprit declaration, and accusation name the actual murderer, while their highest numeric score belongs to someone else. Original records are preserved, not corrected by inference.
-- In a sensitivity analysis excluding those three conflicting numeric records, 30/34 put the murderer at 5–7 at E3; all 34 score the murderer at least 9 and uniquely highest at the end.
-- Only 3/34 have at least eight suspects strictly above 5 after Act II. Only 1/34 retains at least three innocents at 5–7 after Act III. The suspect-field targets are therefore not being replicated reliably.
-- Average review ratings: fair play 8.1, clarity 7.8, voice distinction 7.9, arc variety 7.2, naturalness 6.8, drama 7.9 (all out of 10).
-- 35/37 readers flag naturalness issues, 23/37 pacing, and 9/37 evidence issues. These are explicit review categories, not an automated guess about sentiment. No reviewer marks an issue major.
+- Correct locked accusations: 46/46. Earned finale reviews: 46/46. Reviews reporting decisive new finale facts: 0.
+- Explicit clear-culprit declarations before Act III: 0/46. This declaration measure does not rule out earlier numeric leads.
+- Score/conclusion conflicts: 3 (t001, t018, t030). Raw numbers, reasoning, and accusations remain unchanged. Do not repair them by inference.
+- Sensitivity subset excluding entire flagged trials: 43 readers. E3 murderer score 5–7: 37/43; final murderer at least 9: 43/43; uniquely highest: 43/43.
+- In that subset, at least eight suspects strictly above 5 after Act II: 3/43. At least three innocent alternatives at 5–7 after Act III: 1/43.
+
+## Reader feedback
+
+- Fair play: 8.2/10.
+- Clarity: 7.9/10.
+- Voice distinction: 7.9/10.
+- Arc variety: 7.2/10.
+- Naturalness: 6.8/10.
+- Drama: 8.0/10.
+
+- Naturalness: explicitly raised in 42/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Pacing: explicitly raised in 28/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Evidence: explicitly raised in 11/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Voice: explicitly raised in 3/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Motive: explicitly raised in 1/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Fairness: explicitly raised in 1/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
+- Clarity: explicitly raised in 1/46 reviews; 0 marked major. Full examples and trial references are in the dashboard.
 
 ## Priorities for a later rewrite
 
-1. Preserve the existing culprit contradiction and evidence release order. Correct accusations and earned confessions are the strongest results here; a wholesale new architecture is not justified by this sample.
-2. Broaden credible Act II suspicion through existing personal conflicts and suspicious actions. Do not add more incidental trips to the historical bottle to achieve a score target.
-3. Audit which innocent Act III replies fully interpret the exhibits or settle their scandal. Move optional explanation and tidy resolution into Coming Clean, while preserving the factual clues that let attentive players make their own deductions.
-4. Reduce repeated technical material descriptions and dossier recaps in dialogue. Keep the facts visible in the evidence; let characters respond as people under pressure.
-5. Treat dense access to the historical loan and repeated paperwork explanations as story problems, not reasons to add more explanatory instructions.
-6. Diagnose remaining low-E3 or early-high branches only after their five independent readers finish. One or two readings per culprit cannot establish a reliable character-specific weakness.
+1. Preserve the existing culprit contradiction and release order where they produce correct accusations and earned confessions. Do not rebuild successful logic merely to change scores.
+2. Broaden Act II suspicion through existing personal conflicts and suspicious actions. Do not add more incidental trips to the historical bottle.
+3. Identify innocent Act III replies that interpret exhibits or settle scandals. Preserve deduction facts, but move optional explanation and tidy resolution to Coming Clean.
+4. Reduce repeated technical descriptions, dossier recaps, and identical emotional rhythms. Let characters react as distinct people under pressure.
+5. Treat dense access to the historical loan and convenient paperwork resolutions as story problems; extra explanatory instructions will not solve them.
+6. Rank character-specific rewrites only after all five readers per culprit finish. Use the score ranges and flagged-trial sensitivity data rather than a single mean.
 
 ## Limits and continuation
 
-These are fresh-context AI text readers, not human solve-rate estimates. All 16 hunt exhibits are supplied to every reader; physical discovery, live pacing, visual interpretation, and social interruptions are not simulated. The readers use identical instructions; no different human personalities are assigned.
+These are attentive fresh-context AI text readers, not human solve-rate estimates. Every reader receives all 16 hunt exhibits. Physical discovery, party interruptions, visual interpretation, and imperfect human recall are not simulated. Identical instructions are used; personalities are not assigned.
 
-An earlier usage cutoff interrupted t010–t012; the same agents resumed with prior scores locked. At this checkpoint the live account usage tool reports 95% of the five-hour allowance and 86% of the weekly allowance used. Further new reader launches are held to preserve a usable handoff rather than exhausting the account. The current five-hour window resets at 12:31 AM Central on October 11. Completing the remaining 73 requires additional available quota; no account reset or purchase was performed, and no background continuation is scheduled.
+Inputs, sequential score locks, accusation locks, and completion hashes are audited by the report script. Interrupted original readers resume without replacing earlier scores. Pending trials are not successes. Technical deviations and score/conclusion conflicts remain visible.
 
-Resume with fresh fork-none agents for t038 through t110, one trial per agent, using READER_INSTRUCTIONS.md. Do not run the freeze command again. Run `scripts/report_exhaustive_balance.py` to audit hashes and rebuild the dashboard, then `scripts/chart_exhaustive_balance.py` for the overview image. Preserve all original results and any failed attempts. Score/conclusion conflicts must remain visible.
+Remaining: 64. Saved running trials: none. The user-authorized continuation is `complete-the-110-reader-murder-mystery-audit`; scheduled: True. No reset credit or purchase has been used by this audit.
+
+Resume original interrupted readers, then fresh fork-none agents for unstarted trials through t110, one agent per trial, using READER_INSTRUCTIONS.md. Never freeze again or expose other trials to a reader. Rebuild with checkpoint_exhaustive_balance.py and chart_exhaustive_balance.py. Disable the continuation after all 110 tests are verified complete.

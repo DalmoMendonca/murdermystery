@@ -1,6 +1,7 @@
 """Audit immutable blind trials and produce an offline, spoiler-marked report."""
 from exhaustive_balance import RUN, STAGES, sha, write
 from datetime import datetime, timezone
+from pathlib import Path
 import csv, json, statistics
 
 def read(p): return json.loads(p.read_text(encoding='utf-8-sig'))
@@ -123,5 +124,4 @@ def render(data):
     print(json.dumps({'complete':data['completed'],'invalid':data['invalid'],'correct':correct,'dashboard':str(RUN/'dashboard.html')}))
 
 if __name__=='__main__':
-    from pathlib import Path
     render(collect())
