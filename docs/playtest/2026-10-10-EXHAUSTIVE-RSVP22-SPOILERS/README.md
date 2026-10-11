@@ -1,6 +1,6 @@
 # Published RSVP22 blind audit — SPOILERS
 
-Completed: **73/110**. Invalid: **0**. Correct accusations: **73/73**.
+Completed: **82/110**. Invalid: **0**. Correct accusations: **82/82**.
 
 Five fresh context-free AI readers per selected murderer; eight sequential immutable score releases; accusation locked before finale. Scores are suspicion judgments, not probabilities or human solve rates. Missing trials are not counted as successes. No game rewrites or rerolls.
 
@@ -14,21 +14,21 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Claire O’Scuro | 3/5 | 3/3 | 0/3 | 2/3 | 2/3 | 0/3 | 0/3 |
 | Hugh Bidder | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
 | Monet Bags | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 0/4 | 0/4 |
-| Chip Patina | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
+| Chip Patina | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 0/4 | 0/4 |
 | Dada DiCapo | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
 | Vincent Van Faux | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 0/4 | 0/4 |
 | Sue Venir | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
 | Dr. Art E. Fact | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 1/3 |
-| Tess Tament | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
-| Barb Dwyer | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 0/3 |
-| Paige Turner | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 1/3 | 0/3 |
-| Frank Lloyd Wrong | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
+| Tess Tament | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
+| Barb Dwyer | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 1/4 | 0/4 |
+| Paige Turner | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 1/4 | 0/4 |
+| Frank Lloyd Wrong | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
 | Mona Lott | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
-| Elon Mosaic | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
+| Elon Mosaic | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 0/4 | 0/4 |
 | Elle Loominate | 4/5 | 4/4 | 0/4 | 1/4 | 4/4 | 0/4 | 0/4 |
-| Reed DeLabel | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
-| Al Baster | 3/5 | 3/3 | 0/3 | 2/3 | 1/3 | 0/3 | 0/3 |
+| Reed DeLabel | 4/5 | 4/4 | 0/4 | 4/4 | 4/4 | 0/4 | 0/4 |
+| Al Baster | 4/5 | 4/4 | 0/4 | 3/4 | 2/4 | 0/4 | 0/4 |
 | Brie DeVivre | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 0/3 |
 | Anne E. Dote | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 1/3 | 0/3 |
 | Penny Pincher | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
-| Justin Tyme | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
+| Justin Tyme | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 1/4 | 0/4 |
