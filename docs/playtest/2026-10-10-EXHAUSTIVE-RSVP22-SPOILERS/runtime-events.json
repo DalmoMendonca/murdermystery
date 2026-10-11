@@ -1,0 +1,26 @@
+[
+  {
+    "event": "usage_limit_interruption",
+    "trials": [
+      "t010",
+      "t011",
+      "t012"
+    ],
+    "detail": "Reader turns failed after nine completed tests. Original outputs retained. No replacement trials or rerolls."
+  },
+  {
+    "event": "resumed",
+    "utc": "2026-10-11T00:31:09Z",
+    "trials": [
+      "t010",
+      "t011",
+      "t012"
+    ],
+    "detail": "Original agents resumed from saved journals after live usage tool confirmed ordinaryUsageAllowed."
+  },
+  {
+    "event": "numeric_inconsistency",
+    "trial": "t001",
+    "detail": "Final numeric scores favor Reed, while clear_culprit, reasoning and accusation favor Al. Retained as written and flagged in report."
+  }
+]

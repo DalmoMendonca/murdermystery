@@ -485,3 +485,5 @@ Belle illustrated book published: locked deploy 6aca983a604943d9468888da. Both c
 Belle follow-up: individually center all four word-search icons under their words; add matching framed Van Gogh character JPG/PDF, light print version, and transparent-chibi two-face tent. Rendered and visually inspected all 14 pages. Adult 75 PDFs and 184 already-sent files verified unchanged.
 
 Belle follow-up published and locked: 6acaae2d208c9cee1b30f908. All eight direct downloads match reviewed SHA-256 values, including texting JPG, print character sheet and tent card.
+
+User-authorized exhaustive published RSVP22 audit: 22 culprit worlds x 5 fresh blind readers = 110. Latest live complete ZIP hash and pinned source verified; immutable eight-stage inputs frozen. Each reader saves before advancing, locks accusation before finale, then reviews confession. Aggregate dashboard will report all results and per-character weaknesses; no game edits or production replacement during testing.
