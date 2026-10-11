@@ -1,6 +1,6 @@
 # Published RSVP22 blind audit — SPOILERS
 
-Completed: **64/110**. Invalid: **0**. Correct accusations: **64/64**.
+Completed: **67/110**. Invalid: **0**. Correct accusations: **67/67**.
 
 Five fresh context-free AI readers per selected murderer; eight sequential immutable score releases; accusation locked before finale. Scores are suspicion judgments, not probabilities or human solve rates. Missing trials are not counted as successes. No game rewrites or rerolls.
 
@@ -16,9 +16,9 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Monet Bags | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
 | Chip Patina | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
 | Dada DiCapo | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
-| Vincent Van Faux | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
+| Vincent Van Faux | 4/5 | 4/4 | 0/4 | 3/4 | 4/4 | 0/4 | 0/4 |
 | Sue Venir | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
-| Dr. Art E. Fact | 2/5 | 2/2 | 0/2 | 2/2 | 2/2 | 1/2 | 1/2 |
+| Dr. Art E. Fact | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 1/3 |
 | Tess Tament | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Barb Dwyer | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 0/3 |
 | Paige Turner | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 1/3 | 0/3 |
@@ -29,6 +29,6 @@ Open `dashboard.html` for the scenario overview, eight-stage heatmaps, accusatio
 | Reed DeLabel | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 0/3 | 0/3 |
 | Al Baster | 3/5 | 3/3 | 0/3 | 2/3 | 1/3 | 0/3 | 0/3 |
 | Brie DeVivre | 3/5 | 3/3 | 0/3 | 3/3 | 3/3 | 1/3 | 0/3 |
-| Anne E. Dote | 2/5 | 2/2 | 0/2 | 1/2 | 2/2 | 1/2 | 0/2 |
+| Anne E. Dote | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 1/3 | 0/3 |
 | Penny Pincher | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
 | Justin Tyme | 3/5 | 3/3 | 0/3 | 2/3 | 3/3 | 0/3 | 0/3 |
