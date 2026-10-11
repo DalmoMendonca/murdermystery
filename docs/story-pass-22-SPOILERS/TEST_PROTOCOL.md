@@ -1,0 +1,11 @@
+# Round22 prospective release-timing experiment
+
+Private prototype, not accepted or integrated. Retain21's exact testimony bytes, actual crime, all16 discoveries, casts and original random selections. Change only the F2 examination sentence: chemical identification remains pending until Method. F5 already identifies cyanide in the original/fragment/miniature/glass and clears other tested substances. No visible object feature or authenticated finding is falsified; the fictional investigation obtains that result later.
+
+This tests whether early diagnostic certainty prematurely dismisses alternative methods. The revised initial report makes poisoning suspected rather than confirmed and leaves the chemical identity pending; both aspects change in one report field. Interpret results accordingly, rather than attributing them solely to the chemical name. It does **not** claim to fix anonymous carrier attribution, original-versus-copy ambiguity, repeated glass handling or all30 guilty routes. These are separate veto criteria. Do not add extra scene contacts to make a score rise during this experiment.
+
+Fresh A/B/C readers with no history, original anchored scale; fresh unanchored D repeats B byte-identically. Same eight sequential releases with immutable saved/validated rankings. Readers see no goal, intended culprit, prior score, branch labels, endings or design notes. Set PYTHONIOENCODING=utf-8 before the first read. Never read the next stage after failed saving or validation.
+
+Report all trials against ≥one third strictly >5 after Act II, no fair identification beforeIII, correct unique final highest with3–4 rivals at5–6, and naturalism. A changed rating is evidence about this release timing only, not a human solve rate. Preserve source/input/result hashes and every failed outcome. Only the three already-audited guilty worlds are eligible;27 others remain unvalidated. Public asset lock, private integration, actual art, every-PDF visual review and verified publication remain required for the full goal.
+
+Before freeze, audit that all player input files except stage3 match21 byte-for-byte and stage3 differs solely in F2 text. Obtain editorial review of consistency and timing fair play; preserve the response even if it rejects the experiment.

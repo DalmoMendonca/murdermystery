@@ -1,0 +1,7 @@
+Stage-2 save-order audit
+
+The functions.exec call immediately following checkpoint_02 contained all 22 complete exact-name-keyed stage-2 scores as literal JSON in its first awaited exec_command, before its second awaited exec_command read checkpoint_03. The first command attempted to append stage 2 and save reader_c.json. PowerShell rejected the single-quoted JSON because the curly apostrophe in Claire O’Scuro was treated as a quotation delimiter (ParserError: Unexpected token Scuro). The script orchestration did not gate the second call on exit success, so it then read checkpoint_03, a short board death notice.
+
+Evidence in the conversation tool record: the combined functions.exec call explicitly shows the complete stage-2 JSON before the checkpoint_03 read command. Its returned results are first chunk 8b156f, exit_code 1, ParserError, then chunk 9f34d8, exit_code 0, checkpoint_03 contents. The next functions.exec call uses a Python here-string to append and save the same stage-2 literal scores; successful result chunk b87967, exit_code 0.
+
+All stage-2 literal scores were retained unchanged. No rescoring or retrospective revision occurred. The deviation is failure to persist the already-fixed scores to disk before opening checkpoint_03. No saved scores or ratings were altered for this audit.

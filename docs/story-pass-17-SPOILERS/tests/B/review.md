@@ -1,0 +1,37 @@
+# Trial 17 B blind review
+
+Read only the eight sequential releases through the release script. All eight score files validated before the following release; earlier scores were never rewritten.
+
+## Final accusation
+
+Justin Tyme is the clear strongest explanation, final score 10. The number means decisive comparative suspicion under the stated one-murderer premise, not forensic certainty. He admits the precise disposal of blue glass folded in favor paper. Independent comparison joins that fragment to the freshly broken neck of the stolen original across its inventory stamp; cyanide is present on both. An intact recovered miniature rules out his innocent explanation of broken gift glass. He then admits transporting his miniature in the map sleeve and removing it beside Grant's glass. The laboratory identifies a contaminated miniature and poisoned donor glass, with shared punch and food clear. His source was threatened with identification. Together these clues support stealing the original, transferring poison into an ordinary favor bottle, contaminating the unattended toast glass, and discarding the transfer evidence.
+
+Brie (3), then Reed, Penny, Chip, Barb, Monet, Al and Artie (2), are residual alternatives rather than competitive final solutions. Brie actually wiped the glass and has a payment grievance; her assertion that she touched only stem/base is a self-report. Her packet is collected but its individual laboratory result is not supplied. Reed and Penny saying their favors stayed capped likewise does not independently establish innocence. None accounts as naturally as Justin for his exact poison-source fragment disposal. A hypothetical earlier planter could explain innocent contact with the fragment, but no affirmative evidence supports that explanation and it adds unnecessary assumptions.
+
+## Reveal pacing and fair evidence
+
+No solution was apparent in stages 1–5. The first clear lead arrived in stage 6: Justin's detailed blue-glass injury and matching folded-paper disposal raised him to 7 while Al and Brie were 6. Stage 7's fracture match made him 9; stage 8's beside-the-glass bottle handling completed the chain. This is fair planting rather than a surprise motive-only confession. The common favors, clear replica, intact receiving neck, unattended glass window, and shared punch are all established in advance. The fracture match is appropriately specific. The most revealing wording is Justin volunteering the exact disposal details after police have already disclosed that distinctive recovery; he sounds unusually eager to attach himself to evidence. It gives a strong lead one release before the material comparison, without solving earlier stages.
+
+## Story and voices
+
+The gala has coherent interlocking disputes: provenance, donor control, unpaid work, compromised scholarship and funding. The forced cabinet and independent salon camera explain why an authorized key or camera sabotage is unnecessary. The canceled unveiling and separate toast remain comprehensible. The missing hazardous original retained behind two barriers is plausible enough for the mystery, although continuing a crowded reception after cyanide-containing property goes missing and emergency assistance is requested deserves a short institutional explanation.
+
+Voices have individual interests and occasional strong lines: Penny's portrait versus letter, Tess's powerlessness, Monet's account, Artie's two jobs, and Dada's insistence on authorship. However, all three statement waves use a conspicuously common rhythm: admission, donor pressure, defiant action, explanatory limitation. Almost everyone speaks as a polished self-indicting essayist and helpfully supplies exactly the relevant record. The result feels written for interrogation more than messy live conversation. Justin's source-protection motive becomes substantial very late; earlier map embarrassment alone is comparatively weak for murder.
+
+## Innocence and corroboration
+
+Strong independent innocence evidence includes Al's separately recovered clear miniature, Hugh/Tess admission after the theft report, tested-clear PROP and brush-water bottles, operator cancellation/refusal, documented removed rental stem, and Anne's volunteer/carbon-copy activity. These facts narrow specific mechanisms and opportunities; they do not make every disputed statement true.
+
+Other explanations merely reduce apparent benefit: estate liabilities survive Hugh/Sue's victim, the delegation blocks transfer irrespective of Grant's death, and Elon needs a trustee vote. A murderer could still act from anger or fear, so these are useful motive corrections rather than exclusions. Chip's storage objection, Barb's surviving alarm, and Reed/Penny/Brie's favor claims are similarly partial. The text generally permits this distinction, although the final wave strongly telegraphs that every non-Justin account should be accepted.
+
+## Contradictions and precise repairs
+
+1. Justin says the blue glass was inside the gift packet, but the favor is intact and the fragment belongs to the original. This is the central deliberate contradiction and should stay. Make him say something less mechanically confessional in stage 6, such as admitting an injury while discarding his gift wrapping, then let a witness connect the wrapping to him. Preserve the same fair evidence without having him recite the police recovery description.
+2. The service window is precise, but Justin's decisive bottle removal is not timestamped. Add a contemporaneous witness or photograph at approximately 6:38 placing his map sleeve and opened miniature beside the empty star glass. This corroborates opportunity without requiring certainty about every guest's movements.
+3. Give one brief early detail that Grant knows Justin's protected source and intends to identify them publicly. The stage-8 assistant threat otherwise introduces the most serious personal motive at the finish.
+4. Explain why the reception continues after the missing original's retained contents are confirmed at 6:22: a recorded decision to isolate storage while awaiting responders, with a mistaken belief that public service is safe. Current documents report an emergency yet do not account for the continued toast.
+5. State individually whether Brie's, Reed's and Chip's collected favors tested clear if those bottles are intended as affirmative innocence clues. Otherwise preserve the present ambiguity and avoid treating capped or recovered as equivalent to clear. This is a clarity repair, not a prerequisite to accusing Justin.
+6. Vary the statement format. Let some guests evade, interrupt, answer briefly, misunderstand a question, or direct investigators to a record without narrating its lesson. Keep a few eloquent speakers, especially Sue/Paige/Art, but shorten several mirrored confession-and-defense speeches.
+7. The sentence 'discarded before collecting the map' and later 'removed it while gathering the recorder and lease copy' can be reconciled, but make the sequence concrete: setting sleeve on sideboard, removing bottle, gathering papers, discarding wrapping, leaving. This prevents a trivial chronology argument from obscuring the substantive fracture contradiction.
+
+Overall the solution is fair, strong and available at the right late point. The primary improvements are natural testimony, a better planted source threat, and independently timed opportunity, not additional forensic complexity.

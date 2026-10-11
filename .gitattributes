@@ -3,3 +3,34 @@
 *.jpg binary
 *.webp binary
 *.zip binary
+# Preserve byte hashes and original trial inputs across Windows/Linux checkouts.
+docs/story-pass-13-SPOILERS/tests/** -text whitespace=cr-at-eol
+docs/story-pass-14-SPOILERS/tests/** -text whitespace=cr-at-eol
+docs/story-pass-15-SPOILERS/tests/** -text whitespace=cr-at-eol
+docs/story-pass-16-SPOILERS/tests/** -text whitespace=cr-at-eol
+docs/story-pass-17-SPOILERS/tests/** -text whitespace=cr-at-eol
+docs/story-pass-18-SPOILERS/tests/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/story-pass-20-SPOILERS/tests/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/story-pass-21-SPOILERS/tests/** -text whitespace=cr-at-eol,-blank-at-eof
+
+docs/story-pass-22-SPOILERS/tests/** -text whitespace=cr-at-eol,-blank-at-eof
+
+# Keep candidate manifests reproducible after checkout.
+docs/baseline-improvement-02-SPOILERS/trial/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/baseline-improvement-02-SPOILERS/editorial/repaired-input/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/five-role-snapshot/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/*.yaml -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/balance-slice-01/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/balance-slice-02/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/balance-full-*/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/dramatic-candidate-*/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/balance-dramatic-*/** -text whitespace=cr-at-eol,-blank-at-eof
+
+source/connected_release/** -text whitespace=cr-at-eol,-blank-at-eof
+
+docs/connected-story-01-SPOILERS/published-fallback-2026-10-10-source/** -text whitespace=cr-at-eol,-blank-at-eof
+
+docs/connected-story-01-SPOILERS/balance-act3-*/** -text whitespace=cr-at-eol,-blank-at-eof
+docs/connected-story-01-SPOILERS/published-revision03-source/** -text whitespace=cr-at-eol,-blank-at-eof
+
+docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/** -text whitespace=cr-at-eol,-blank-at-eof

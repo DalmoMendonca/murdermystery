@@ -1,0 +1,69 @@
+[
+  {
+    "event": "usage_limit_interruption",
+    "trials": [
+      "t010",
+      "t011",
+      "t012"
+    ],
+    "detail": "Reader turns failed after nine completed tests. Original outputs retained. No replacement trials or rerolls."
+  },
+  {
+    "event": "resumed",
+    "utc": "2026-10-11T00:31:09Z",
+    "trials": [
+      "t010",
+      "t011",
+      "t012"
+    ],
+    "detail": "Original agents resumed from saved journals after live usage tool confirmed ordinaryUsageAllowed."
+  },
+  {
+    "event": "numeric_inconsistency",
+    "trial": "t001",
+    "detail": "Final numeric scores favor Reed, while clear_culprit, reasoning and accusation favor Al. Retained as written and flagged in report."
+  },
+  {
+    "event": "resumed",
+    "utc": "2026-10-11T04:14:51.449153+00:00",
+    "trials": [
+      "t038"
+    ],
+    "detail": "Original reader resumed after interruption at stage 4. Prior stages 1–3 preserved; trial completed."
+  },
+  {
+    "event": "blocked_premature_read",
+    "trial": "t040",
+    "detail": "Reader reported an initial PowerShell write failure followed by a rejected attempt to read stage 2. Gate withheld stage 2 until stage 1 was saved and validated. No early content exposure; original judgments preserved."
+  },
+  {
+    "event": "blocked_premature_read",
+    "trial": "t044",
+    "detail": "Reader reported an initial PowerShell write failure followed by a rejected attempt to read stage 2. Gate withheld stage 2 until stage 1 was saved and validated. No early content exposure; original judgments preserved."
+  },
+  {
+    "event": "blocked_premature_read",
+    "trial": "t045",
+    "detail": "Reader reported an initial PowerShell write failure followed by a rejected attempt to read stage 2. Gate withheld stage 2 until stage 1 was saved and validated. No early content exposure; original judgments preserved."
+  },
+  {
+    "event": "continuation_scheduled",
+    "automation_id": "complete-the-110-reader-murder-mystery-audit",
+    "detail": "User-authorized thread continuation resumes across quota windows. No account reset credit used or credits purchased."
+  },
+  {
+    "event": "blocked_premature_read",
+    "trial": "t049",
+    "detail": "Initial quoting error prevented saving stage 1. Validation and stage 2 read were rejected. Corrected before any further release was revealed; all scores remained locked."
+  },
+  {
+    "event": "technical_instructions_clarified",
+    "effective_after_trial": "t049",
+    "detail": "Added PowerShell here-string file-writing tip to avoid nested python -c quotation failures. No changes to scoring, game inputs, gates, stage order, or feedback prompts."
+  },
+  {
+    "event": "blocked_premature_reads",
+    "trial": "t050",
+    "detail": "Reader reported two gate-rejected advances after write or validation errors. No unreleased content exposed. Stage 3 encoding damage fixed before validation without changing judgments."
+  }
+]

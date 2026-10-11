@@ -1,4 +1,42 @@
-# The Last Acquisition: restructuring plan
+# Current priority — published fallback and bounded improvements
+
+October 9: the complete naturalism edition is live at https://murder.dalmo.ai, source checkpoint `2bb5b59`, tag `party-fallback-2026-10-09`. Both public ZIPs match local SHA256. Deployment `6ac91c13eb3060bf5f78d124` is pinned. See `docs/releases/2026-10-09-fallback/README.md` for verification and limitations.
+
+The human prioritizes a durable playable fallback over more unpublished wholesale redesigns. Use the published canonical source as the starting point. The complete but unvalidated thirty-role October 8 bank is archived research. First improve a small connected set of innocent scandals that currently clear too early; retain individual motives, diverse actions, three paired acts and the existing evidence schedule. Measure one bounded candidate before broadening. Preserve sent assets and keep the public fallback available.
+
+## Current bounded repair — October 9
+
+`docs/baseline-improvement-02-SPOILERS/README.md` records the shared-scene and packet-question repairs. An independent reviewer accepted causal coherence and all thirty targets' three-round prompt parity after rejecting the first draft. Thirty guilty Method answers no longer recite the same tour/glass itinerary. Four retrospective endings were corrected as requested. Sixty derived accounts and all private briefings remain unchanged; six question-page layouts were rendered and inspected. This is editorial progress, not measured balance. No new scores or replacement artwork exist, and no canonical source/PDF or production change was made.
+
+Trial completed through Act II and stopped at the failed gate: **2/30 above five, required ten**, no unique culprit reported. All six results, eight frozen inputs, seven source snapshots and visually inspected heatmap are archived in `docs/baseline-improvement-02-SPOILERS/trial/`. Final correctness and alternatives are unmeasured. Actual question inclusion exposed the still-uniform confessions and implausibly compressed confrontations. See `TRIAL_RESULTS.md`. No controlled numeric trend is claimed.
+
+Next decision: `NEXT_DECISION.md` replaces the dialogue-only loop with six connected disputes and ten distinct, plausible unresolved murder hypotheses. Author a compact crime/investigation ledger and small connected scene set before another score trial. Keep accepted custody/photo repairs but do not promote the rejected story. All original gates remain required; public fallback stays pinned.
+
+## Current connected-story authoring — October 9
+
+`docs/connected-story-01-SPOILERS/README.md` now records fifteen complete draft routes: ninety act readings and thirty endings. Four collection covers were accepted in a bounded review; Robin's volunteered source-band admission was rejected and replaced by a press-interview location dispute. That replacement is unreviewed. A retained staff key correctly removes the exclusive-preview inference. The prepared private place now waits for a scheduled later toast (collection 7:04, kitchen pour 7:06, service 7:09), avoiding compressed reception visits without adding synchronized alibis. These shared timing/recording edits need full-bank review. Fifteen master routes remain unwritten; thirteen confirmed routes are drafted and nine are missing. Thirty single-omission, fifteen single-role and four recording variants pass identity/reference checks only. Four evidence situations retain ordinary shared records. No new scores, complete all-thirty bank or publication changes exist. All 184 sent-asset hashes match.
+
+Next: draft Vincent, Elon, Saul, Ella and Penny in the shared market dispute, then the ten remaining commissions, press and gala routes. Use the existing evidence situations where natural; every reserve is still selectable and needs a complete fair guilty case. Review Robin's replacement in the connected press scene and the shared timeline with the complete bank. Finish all fifteen missing routes and named question groups. Do not run another partial scoring loop before a coherent thirty-role candidate exists. Do not restore thirty inventory fragments, repeated bottle handling, synchronized alibis or thirty victim confrontations. All original all-culprit, breadth, timing, alternative-count and full visual/publication gates remain required.
+
+## Earlier plans (historical; superseded where they conflict)
+
+Latest measured bounded pass: `docs/baseline-improvement-01-SPOILERS/README.md`. Ten shared Opportunity rewrites were frozen and read sequentially by one fresh blind reader. Midpoint failed at 4/30 above 5, with no unique solution. The trial stopped there; final stages are unmeasured. Do not claim a controlled positive trend or promote this draft. Repair shared custody plausibility, photographic convenience and discovery/round disclosure overlap before another dialogue expansion or scored trial. Public fallback unchanged.
+
+## Authoritative status — October 9 scene-lab gate
+
+No reliable positive balance trend has been demonstrated. Round22 remains the latest completed scored test and failed balance. Round23 is interrupted, with no midpoint or final result. Historical notes below are not current readiness or running-agent status.
+
+The process reset and current spending limits are in `docs/process-reset-2026-10-08/CURRENT_DECISION.md`. The scene lab now has seven authored paired dossiers, eight other innocent rival scenes, 58 of 180 round speeches, fourteen of sixty endings, nine draft evidence components, and sixteen hunt artifacts. Thirty suspicious-action/payoff premises exist. Zero complete routes are accepted. These counts measure authoring, not balance.
+
+The earlier bounded repair review accepted Anne, Artie and Dada as small scenes. The next four-pair review rejected Hugh, Sue, Elle and Ella's speech asymmetry: guilty speakers narrated elaborate earlier crime-object encounters while innocent speakers explained documents. Both branches now recount comparable conversations; repeated same-glass requests and solver redirects are removed. The repaired revision has not been independently accepted. Limited financial and legal mitigation is not described as physical exclusion. Named multi-target question context covers fifteen prototype roles, not the whole game.
+
+Next: decide whether the earlier-object-cover construction still singles out guilty speakers by form. If it does, replace that construction before expanding twenty-three more full pairs. Only a full coherent bank earns one staged blind test, with an Act II early stop. Do not run identical copies seeking a favorable score. At most two tested candidates per architecture before a structural decision. No PDF integration or publication before narrative, every-culprit, and balance gates pass. Public asset hashes remain verified; production and sent assets remain unchanged.
+
+## Historical planning and execution record
+
+October 8, 2026 active goal: continue autonomous iteration through story acceptance, every-culprit continuity, integration, and full visual review. Rounds 15–17 are archived and pushed. Round 16 exposed reliance on an author-coded guilty-only exception: the strict Justin trial chose Al instead. Round 17 restored correct attribution but failed breadth (4/30, 3/22, 3/22 above5 afterII) and final doubt (no alternatives5–6); all culprits were already distinct7s afterII. Round18 is an unfrozen authoring draft with two dialogue writers and an independent architecture critique. Read its integration notes before freezing. See each `docs/story-pass-*-SPOILERS/RESULTS.md` for actual results; production and sent public assets remain unchanged.
+
+Current note — October 7, 2026: pass 12 is an isolated story prototype in `docs/story-pass-12-SPOILERS/STORY.md`, undergoing three independent sequential transcript trials. Canonical PDF sources and production remain unchanged. The historical fifth-prototype status below is retained as a record, not the current readiness claim. A tested story must pass continuity, every-culprit, and visual review before promotion.
 
 Status: fifth prototype implemented, independently reviewed and visually verified; fresh source-archive rebuild passed. Human rehearsal remains unmeasured. Baseline repository commit `1bf7bf4`. Sent public assets are immutable.
 
@@ -319,8 +357,135 @@ The restructure is complete only when a casual guest can follow their packet, he
 The hunt must reward curiosity without controlling access to the solution. The ending must resolve the published evidence and the characters' secrets. The host must be able to play while running the evening. Every released page must be readable and visually reviewed. Difficulty and rehearsal claims must describe tests actually performed.
 
 
-## Current execution outcome — fifth candidate
+## Historical execution outcome — fifth candidate (superseded)
 
 Implementation, automated logic/rehearsal checks, independent semantic review, complete visual review and a fresh source-archive rebuild have passed. All 88 clean-build PDFs match the reviewed byte hashes. The confirmed 22-guest edition is included. Four blind expert readers all solved only after Method; this does not measure human difficulty. The before-vote information is coherent across all thirty selected-role routes.
 
 Unfinished boxes involving aloud reading, live host play, human difficulty and physical folding remain open. Public texting assets were intentionally preserved rather than regenerated. Source and generated changes are committed on `restructure-2026-evidence-led`, with draft PR https://github.com/DalmoMendonca/murdermystery/pull/1. Production has not been replaced. See the execution record and QA JSON for actual coverage and limitations.
+
+## Latest requested diagnostic — matched fifteen-role balance check
+
+Latest authoring progress: Claire/Art/Reed intake payoffs now use a shared sent query, unresolved staff reply and retained restriction; review accepts the bounded change, with instruction-versus-compliance wording corrected. Anya's actual extraction now uses the cupboard access her cover denies. Tess's cover now concerns the actual exposed gift glass rather than inheritance alone; review accepts continuity and flags similarity to Monet's packaging cover. `late-case-arguments.yaml` maps these strengths and limits. Banks/reference checks and all 184 immutable files pass. No new scores or publication. See `docs/connected-story-01-SPOILERS/INTAKE_AND_ACCESS_REPAIR.md`. Next: complete five market routes, then remaining ten, with crime-relevant covers and specific innocent payoffs before full-cast scoring; do not make another small matched-slice loop the definition of success.
+
+Post-diagnostic execution: all fifteen current innocent Method payoffs were audited; independent review identified the shared hospitality transaction as the first causal repair. The original toast is now paid and booked separately from the disputed extra course, removing the artificially bill-created unattended interval. Three innocent payoffs and endings react to the actual service records; guilty timing/supervision/pitcher covers remain. Bounded review accepts the repair, with its wording cleanup applied. Compiled banks and reference/immutable-asset checks pass; there are no new scores or production changes. See `docs/connected-story-01-SPOILERS/HOSPITALITY_REPAIR.md`. Next repair concerns the shared intake/catalog scene and the still-missing late transfer corroboration, not another partial score loop.
+
+The human requested a quick check before completing the connected-story bank. Two fresh blind readers completed seven sequential releases for the same fifteen roles and one hidden random culprit, old repair02 versus current connected story. Hunt omitted in both; text/intended visuals only. All frozen hashes and score schemas passed, and the resulting heatmap was inspected. Act II strictly-above-five counts are 7/15 old and 11/15 new. Both correctly lead at nine after Act III; alternatives at five to six are four old and nine new. Neither claims logical uniqueness. This supports broader midpoint uncertainty but shows excessive final doubt and continued mechanical disclosure patterns. It does not validate the thirty-role or confirmed twenty-two kit. See `docs/connected-story-01-SPOILERS/balance-slice-01/RESULTS.md` and `DECISION.md`.
+
+Next: audit existing fifteen innocent payoffs and selected-route corroboration against actual poisoning, preserving ordinary shared scenes and avoiding new handling/alibi templates. Review causal/naturalism repairs before another scored trial, then complete and test the whole bank with the hunt. No sent files or live downloads changed; the complete pinned fallback remains public. Goal remains active.
+
+## Previous execution — process reset; architecture audit before further tests
+
+Round21 is now fully archived in `07117fe` and rejected: A2/30, B5/22, C6/22, D1/22 above5 afterII; final alternatives1,3,3,0. All32 stage hashes and frozen sources passed export checks; four heatmaps inspected. All correctly led late, but D did not consider a unique fair identification established. Repeated target-glass contacts and anonymous carrier attribution remain architectural weaknesses. Different dialogue/locations alone did not solve them.
+
+Round22 keeps exact testimony bytes, crime, casts, selections and all other evidence. Only F2 text changes: poisoning is initially suspected and chemical identification pending until Method. An independent preflight found this coherent enough for a limited comparison and noted that it changes both confirmation and identity. Source commit `92556c1` is pushed. Frozen24 A/B/C inputs were compared with21: seven stages identical per trial, stage3 changes only F2 text. A fresh byte-identical B repeat is prepared asD; new context-free A/B/C readers are running. All four22 tests completed: midpoint3/30,7/22,3/22,2/22; final alternatives1,1,1,0. All32 journal hashes verified and four heatmaps inspected. This timing experiment does not resolve the other27 guilty routes, naturalism, integration or publication.
+
+### Round21 authoring record
+
+Round21 authored57 private speech replacements (all30 innocent Opportunity scenes), two corrected endings and a twelve-case red-herring ledger. A first editorial audit rejected continuity gaps; repairs plant the model/tool routes, retained requests and exact glass operation, revise orphaned endings, and remove repeated surviving-liability arguments from eight Method speeches. The retained follow-up permits only the limited three-world comparison. Source commit `f6f5702` is pushed; the three original random selections from15 are preserved and a byte-identical fresh unanchored B repeat is prepared asD. Fresh A/B/C readers are running with sequential saved/validated gates. No21 scores or acceptance have been claimed yet.
+
+The selected object's relocation can still be an authorial tell, and anonymous carrier attribution remains a test question. Other27 guilty variants are explicitly unvalidated and ineligible. No new source is integrated into production, no public asset changed, and no new full-PDF review is claimed. Goal remains active.
+
+### Round20 archive
+
+Round20's original/copy physical prototype completed all four readers, including D whose final agent notification failed after its saved eight-stage review. Export verified all32 input/result journal hashes and frozen sources. All four heatmaps were visually inspected. Midpoint counts were5/30,3/22,3/22,4/22; required10,8,8,8. All correctly led at8 in the end, with6,1,1,3 alternatives at5–6. D considered no individual accusation securely established. Thus the prototype fails breadth and consistent final competition; it is not accepted or published. See `docs/story-pass-20-SPOILERS/RESULTS.md` for scope and limitations.
+
+The next experiment must replace generic reception errands with consequential, scene-fitting competing actions and delay their meaningful innocent interpretations until Method. A better selected case alone does not solve the game. Only three guilty routes have been tested in this physical prototype; all30 remain required before integration. Public asset lock was reverified after this archive.
+
+### Previous rounds 18–19
+
+Round18 completed four fresh eight-stage transcript tests. All readers selected the correct final leader only in ActIII. None met the midpoint suspect-density target: A3/30, B7/22, C5/22, D0/22 above5 after Opportunity. Final alternatives at5–6 were6,7,3,0. D is an unanchored fresh reader of B's identical releases, demonstrating scoring sensitivity. The full32-stage archive and reviews are in `docs/story-pass-18-SPOILERS/tests/`; source and input/result hashes were verified during export.
+
+Round19 has thirty new motive pairs, innocent/guilty round pairs and endings, but its prefreeze audit rejected the universal filled-glass mechanism. Snapshots cannot prove continuous state; the common guilty-only observation and generic retreat risk another scripted giveaway. No round19 blind scores exist. Distinct service, object and disclosure covers are being designed against retained records before any next freeze.
+
+Historical visual review applies only to the historical PDF edition. These private candidates have not been integrated into a final kit, regenerated, visually verified or deployed. All sent public assets remain locked. The active goal remains incomplete.
+
+- [ ] Coherent differentiated covers for every selectable culprit, including weak quiet-role variants.
+- [ ] Fresh sequential blind tests meeting breadth, late identification and final competition goals without contrived stories.
+- [ ] Reconcile private setup, question prompts, host sequence and endings with the accepted candidate.
+- [ ] Integrate evidence artwork and render/inspect every final PDF page.
+- [ ] Rebuild archives, commit generated results, publish and verify live download hashes.
+
+### Round22 decision
+
+Rejected: diagnostic timing alone produces no consistent breadth improvement and fewer final competitors. See docs/story-pass-22-SPOILERS/RESULTS.md. Next authoring must remove selected-only source disposal and build distinct causal suspect hypotheses. No new round may be called ready because it merely changes prose or delays a lab label. Goal remains active; public assets and production unchanged.
+
+### Process reset requested October8
+
+The user challenged the cost and lack of directional improvement. Root audited actual summaries15–22 and found no reliable positive balance trend. Round23 source was compiled/frozen as a one-world experiment in08c132c, but both B/D readers were interrupted during this process review: stages1–3 saved/validated, stage4 read; no midpoint/final23 conclusion. Preserve those files; do not automatically resume them or call the experiment completed.
+
+Authoritative next plan: docs/process-reset-2026-10-08/ASSESSMENT_AND_PLAN.md. Foundation audit separates the source/carrier/target mechanism from unsupported personal attribution. The all30 audit records authored pairs but0 accepted routes for the new story;23 eligibility is only29. Next work is a compact two-story bible and30 short feasibility/cover premises against fixed reports, then five genuine core red herrings and representative paired scenes. No full new transcript batch before this architecture gate. One skeptical walkthrough before one fresh primary test; earlystop on a failed required gate, one repeat onlyafter promising results, at mosttwo tested revisions within the same causalarchitecture. Do not chase scores by inserting repeated objecthandling or perfectalibis.
+
+Public lock was reverified in this turn. No candidate integrated or published. Historical PDF checks apply only to the earlier edition. The active goal remains incomplete; this is a process correction, not a success claim.
+
+### Current connected-story authoring checkpoint
+
+The requested quick balance follow-up is complete at docs/connected-story-01-SPOILERS/balance-slice-02/RESULTS.md. Same15/same hidden culprit: midpoint11/15, final correct leader9, final alternatives5–6 eight. This is not convincing improvement over preceding eleven/nine; repeated empty-room errands and coordinated final defenses remain reader criticisms. No successful full-game claim.
+
+The subsequent errand repair moves Artie/Sue to a shared public announcement desk and Monet to accounts/service-ticket routing, removing three innocent target visits while retaining selected guilty crime/cover connections. Bounded review accepted; no scores after these edits. Five pending market drafts are incorporated, including Penny's corrected shared-repayment motive. Current bank20/30, confirmed16/22; ten master and six confirmed routes unwritten. All184 sent assets match; thirty omission, twenty single-role and four recording reference checks pass. Narrative inference, questions, hunt, final artwork and PDFs remain incomplete.
+
+Authoritative next work: finish the remaining ten routes within the shared events, remove generic late defense summaries, reconcile named questions and hunt evidence, then review/test the complete candidate. Do not restart another tiny scoring loop after this repair. Original goal gates unchanged. Production fallback remains pinned; no sent assets modified.
+
+### Full thirty-role authoring checkpoint
+
+All30 paired drafts now exist, including the confirmed22:180 act readings and60 endings. Missing-role count is zero. This completes coverage, not accepted coherence/balance/production. Remaining-scenes review accepted8 bounded cover premises, then Anne's actual group-route evidence and Faye's independent pre-export source import repaired the2 rejected gaps. Small subsequent provenance edits ground donor knowledge in ordinary project dealings; full-scene review remains outstanding.
+
+Current compiler exports six named target groups per act from question-rounds.yaml, each active role exactly once. Thirty omission casts, thirty single-role casts and four recording variants pass reference/question coverage; all184 immutable sent assets remain unchanged. Old20 bank is historical; current master is thirty-role-bank.yaml. Full staged inference, naturalness, hunt reconciliation, artifact comprehension and PDF layout remain unverified.
+
+Next: reconcile16 hunt exhibits with staged essential evidence, audit all30 selected worlds and host sequence, then one frozen complete-cast sequential test. Preserve the old measured failure rather than substituting authoring counts for progress in balance. Once a candidate meets actual gates, integrate/render/inspect the entire kit and publish verified downloads. Public fallback remains pinned.
+
+
+## Requested quick full-cast diagnostic — October 9
+
+One fresh blind reader completed all8 checkpoints,30 roles and16 hunt exhibits. Current midpoint10/30 above5; correct final leader9; five final alternatives5–6. Older15-role alternatives were9 then8. This is directional only: larger cast/new exhibits/different reader. Naturalness still fails due to uniform confession/document-correction arcs and a conspicuous isolated final lie.
+
+The frozen test also exposed unquoted YAML clock labels parsed as numbers. Preserve these scores as preliminary, not clean chronology validation. Source clock strings are corrected and visible table-cell validation now rejects non-text cells. Full report, raw scores and heatmap: docs/connected-story-01-SPOILERS/balance-full-03. No further scoring round is commissioned in this quick-check turn. Sent assets/public fallback unchanged.
+
+
+## Disclosure restructure after full-cast diagnostic
+
+All30 Motive/Method pairs rewritten (120 speeches), compiled through complete override banks. Opportunity and crime histories retained. Opening agendas vary; Method leaves more private resolution for Coming Clean. This is source progress, not narrative acceptance. Reviewer still flags the repeated correct/false-correction architecture.
+
+User-requested three-reader test completed: docs/connected-story-01-SPOILERS/balance-full-04/RESULTS.md. Identical full30 Hugh case, all16 hunt clues, eight frozen stages,720 validated scores. Midpoint above5 counts6/8/9; all final correct9 with no early obvious culprit; final alternatives5–6 counts0/8/1. No reader meets all targets. All still flag repeated correction arcs. Reader A records a stage1 persistence deviation; preserve it transparently. Heatmaps rendered and visually checked. No new scoring/rewrite loop is justified merely to produce a passing result; isolate information leaks and distinct personal stakes before another change. Public fallback and 184 sent assets unchanged.
+
+October10 user authorized a serious whole-cast narrative revision while protecting reveal timing. Completed30 private voice/story profiles,180 act rewrites and60 ending revisions. The factual exhibits, questions, recorded opening and public copy are unchanged. Full before/after archive and private discriminator ledger accompany the source. Frozen dramatic-candidate-01 retains the same hidden selection as full04; checkpoints1/2/3/5/7 are byte-identical,4/6/8 differ. This protects disclosure boundaries, not model ratings. That matching-Hugh candidate remains unscored and unpublished; current writing was subsequently tested in the two random cases below. Do not claim score preservation from structural checks.
+
+Removed Hugh's branch-dependent admission receipt rather than creating inconsistent shared props. Added shared forwarding support, date/proof/photo/client/key/transcript corroboration, and fixed Drew's early studio-source assertion conflicting with his later cover. Current export rejects corrupted clock cells and overwriting frozen trials. No new score run commissioned. Source record: docs/connected-story-01-SPOILERS/DIALOGUE_RESTRUCTURE.md. Actual clue art, causal review across all30 selections, fresh acceptance test, complete PDF visual audit and publication remain outstanding. Sent/public fallback unchanged.
+
+### October10 requested six random-case checks completed
+
+Full30 random Anne case, independent readers A/B/C: midpoint12/7/13 strictly above5; final Anne9/10/10; other final5–6 4/1/0. RSVP22 random Al case, valid readers B/C/D: midpoint7/11/11; final Al6/10/9; other final5–6 8/8/4. Reader B validly chooses Brie8. None identifies an obvious culprit before Act III; five of six select the murderer at the end; four meet midpoint breadth; two meet all numeric targets. Original RSVP A excluded for unreconstructable positional name mapping, preserved with audit; fresh D replaces it on identical frozen inputs. No rerolls or retrospective score changes.
+
+All1248 valid scores, eight-stage coverage, exact name sets and frozen/post-vote hashes checked. Two combined heatmaps visually inspected. Initial accusations precede finale review. Authoring validation still confirms all30/22 coverage, omission/reference/question checks and 184 sent-file hashes. Narrative feedback praises concrete emotions but still rejects repetitive correction arcs and exhibit interpretation. Anne continuing motive, Al physical opportunity and finale future plans involving a selected culprit are specific next-pass issues. Full report and prioritized bounded steps: docs/connected-story-01-SPOILERS/DRAMATIC_BALANCE_RESULTS.md. Different cases/readers do not establish controlled trend or all-world acceptance. No story rewrite, asset rebuild or deployment in this testing turn; complete public fallback remains pinned. Further scoring is not automatically commissioned by this report.
+
+
+### October10 pinned publication and candidate02
+
+Accepted dramatic kit published at murder.dalmo.ai; commit0c5f12d, locked Netlify deploy6aca5605e7e622638654098f. Live complete/source ZIPs match reviewed files. New opportunity/inference candidate tested with three full30 Justin readers and three RSVP22 Sue readers. All six accuse correctly; E3 culprit7/6/6 and5/7/7, final9/9/9 and9/7/9. Midpoint8/5/8 and1/8/4 misses breadth; no reader passes every requested target. Candidate NOT promoted. Full report and bounded next steps in DRAMATIC_BALANCE_02_RESULTS.md. All184 sent assets unchanged;90 candidate speaking pages visually reviewed. ReaderC save exception documented, scores unchanged. No additional rewrite/testing loop commissioned from these results.
+
+
+### Published-baseline revision03 / October10
+
+Restored e29371c as source of truth, preserved90 innocent speeches and60 endings exactly. Thirty individualized guilty Opportunity accounts plus Anne future-program motive, Sue specific punch claim, Al actual-material claim; insurance-caption repair only evidence change. Same-case six checks: correct6/6, final9all, culprit E3 7/6/7 and6/6/7. Midpoint11/7/11 and9/11/7 gives4/6 meeting target, same coverage as published. Ending alternative suspicion thinner in two RSVP readers: explicit limitation. Additional3-reader softer-Al diagnostic did not reliably fix breadth; retained clearer tested03. Both variants/raw results retained. Bounded work ends with promotion, PDF review and verified deployment, not another loop. Report: PUBLISHED_BASELINE_REVISION03_RESULTS.md.
+
+
+2026-10-10 revision03: published accepted-baseline targeted revision; six selected balance checks and three retained diagnostic checks documented. All1200 PDF pages compared,39 unique changed pages visually reviewed. Production6aca807068f1fd27bf369208 locked; both downloads exact hashes verified. Ending alternative breadth remains uneven; no claim of universal balance or completed overarching goal.
+
+
+Act III fine-tuning revision04: keep fc15ebd as production fallback. Edit only five innocent Method speeches (Hugh, Chip, Barb, Anya, Brie); evidence, all guilty speeches, Acts I/II, endings and sent assets stay fixed. Same-case fresh blind checks, three per attendance edition. First seven checkpoint inputs verified byte-identical. Publish only if final accuracy/timing hold and lingering suspicion meaningfully improves; record all results.
+
+Revision04 checks complete: six correct accusations (one10, five9); final innocent alternatives at5-6 fullcast4/4/8, RSVP4/4/3. All six retain3+ alternatives versus two prior checks. First seven inputs unchanged. All1200 pages compared;14 changed instances,6 unique layouts visually passed. Packaging hashes and both manifests verified; fonts excluded. Production promotion/download verification pending.
+
+Revision04 published and locked:6aca8e2b96879e3e722917ca. Both live downloads match reviewed SHA-256 values. Six/ six ending breadth checks retain3+ innocents at5-6 with correct9-10 culprit; two selected worlds only. No subsequent reroll or story edit.
+
+
+Belle Tament honorary guest packet: ten child activity pages plus one adult guide; editable YAML and image-generated artwork. All 11 pages visually reviewed; puzzles validated. Existing 75 game PDFs byte-identical and 184 sent assets verified. Include in pinned build and direct downloads.
+
+Belle illustrated book published: locked deploy 6aca983a604943d9468888da. Both child PDFs and complete/source ZIPs match reviewed hashes. Five image-generated art assets and their prompts retained; adult game and sent materials unchanged.
+
+Belle follow-up: individually center all four word-search icons under their words; add matching framed Van Gogh character JPG/PDF, light print version, and transparent-chibi two-face tent. Rendered and visually inspected all 14 pages. Adult 75 PDFs and 184 already-sent files verified unchanged.
+
+Belle follow-up published and locked: 6acaae2d208c9cee1b30f908. All eight direct downloads match reviewed SHA-256 values, including texting JPG, print character sheet and tent card.
+
+User-authorized exhaustive published RSVP22 audit: 22 culprit worlds x 5 fresh blind readers = 110. Latest live complete ZIP hash and pinned source verified; immutable eight-stage inputs frozen. Each reader saves before advancing, locks accusation before finale, then reviews confession. Aggregate dashboard will report all results and per-character weaknesses; no game edits or production replacement during testing.
+
+Published RSVP22 audit checkpoint:37/110 complete,37 correct accusations,0 early clear declarations. Three score/conclusion conflicts retained; consistent numeric subset34:30 E3-ready,34 final strong/unique,3 midgame breadth,1 ending breadth. All22 cases covered once,15 twice. No game edits. Account five-hour allowance95% used;73 trials await additional quota. Resume t038; no background continuation scheduled.

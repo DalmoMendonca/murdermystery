@@ -275,9 +275,9 @@ def spoiler(chars):
         assert temporary.resolve().is_relative_to(KIT.resolve())
         temporary.unlink()
 
-def archive_entry(z,p,name):
+def archive_entry(z,p,name,preserve_bytes=False):
     data=p.read_bytes()
-    if p.suffix in ['.md','.json','.yaml','.yml','.py','.html','.css','.toml','.txt','.csv','.sha256'] or p.name in ['.gitignore','.gitattributes']:data=data.replace(b'\r\n',b'\n')
+    if not preserve_bytes and (p.suffix in ['.md','.json','.yaml','.yml','.py','.html','.css','.toml','.txt','.csv','.sha256'] or p.name in ['.gitignore','.gitattributes']):data=data.replace(b'\r\n',b'\n')
     entry=zipfile.ZipInfo(name,(2026,1,1,0,0,0));entry.compress_type=zipfile.ZIP_DEFLATED;entry._compresslevel=9;entry.create_system=3;entry.external_attr=0o100644<<16
     z.writestr(entry,data)
 
@@ -289,9 +289,14 @@ def package():
         for base in ['source','docs','scripts','site','.impeccable','assets']:
             for p in sorted((ROOT/base).rglob('*'),key=lambda p:p.as_posix()):
                 if p.relative_to(ROOT).parts[:2] == ('.impeccable','live'):continue
-                if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix())
-        for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name)
+                # Source manifests and frozen tests hash the original file bytes.
+                # Normalizing CRLF here makes the editable ZIP fail its own checks.
+                if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix(),preserve_bytes=True)
+        for name in ['README.md','PRODUCT.md','CHANGELOG.md','requirements.txt','netlify.toml','.gitignore','.gitattributes']:archive_entry(z,ROOT/name,name,preserve_bytes=True)
 def build_kit():
+    if (ROOT/'source/connected_release/manifest.json').exists():
+        from connected_release import build_release
+        return build_release(__import__(__name__))
     from character_copy import load_characters
     from hunt_copy import sync_hunt
     from public_lock import verify_public_lock,restore_missing_public

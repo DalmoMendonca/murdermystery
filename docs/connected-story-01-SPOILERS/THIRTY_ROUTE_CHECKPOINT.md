@@ -1,0 +1,15 @@
+# All thirty paired drafts now exist
+
+This checkpoint completes authoring coverage, not the game-quality goal. The new ten are Frank, Mona, Elle, Al, Drew, Cary, Anne, Faye, Justin and Minnie. Together with the preceding twenty, the compiler produces 180 act readings and sixty endings, with zero missing roles in either the master or confirmed cast.
+
+Their ordinary reception actions differ: close a faulty installation, reclaim textile work, correct a sculpture label, substitute an education handout, circulate a cultural claim, edit a sponsored podcast, share a property-history file, deliver shop gifts, retain photographs and revise styling. None requires ten new innocent approaches to the poison or the private glass.
+
+[The bounded review](REMAINING_ROUTES_REVIEW.md) initially accepted eight cover premises and rejected two evidence gaps. [The follow-up](REMAINING_ROUTES_FOLLOWUP.md) accepts an actual assistant-docent turnback note for Anne and the picture editor's pre-export camera-card import for Faye. These are ordinary event records, not continuous surveillance. Subsequent small motive-provenance clarifications explain how Grant learns Frank's safety failure, Elle's funding problem and Faye's agency-owned image versions; those changes have not received another full-scene review.
+
+The six current question groups are in `question-rounds.yaml`. Compiler output names the active characters, including multiple targets per question. Each active character occurs exactly once per act. These lists belong inside packets. Older raw scene questions are historical authoring material; this central specification governs the current compiled bank. No guest needs a numeric ID or external catalog.
+
+Thirty omission casts, thirty single-role casts and four press-recording attendance combinations pass identity, reference and named-question coverage checks. All 184 immutable sent assets retain their hashes. These checks do not establish deduction, voice quality, layout or balance.
+
+The remaining architectural risk is cover repetition: model/projection/composite substitution, absent source, changed material, protected target, displaced visit and alternate drink/media accounts recur. Several are only circumstantial evidence of concealment. No ordinary record uniquely identifies the person who delivered poison. The broad collection/access story and all thirty selected worlds must now be checked together, rather than treating isolated favorable reviews as a complete-case pass.
+
+Next gates: reconcile the sixteen hunt exhibits and staged evidence releases with this entire bank; inspect the whole evening and all culprit arguments; prepare a frozen complete-cast test with named questions and the hunt. Then measure midpoint breadth, early identifiability, final leader/alternatives and naturalness. The last numerical result remains the older fifteen-role read, not these current thirty drafts. Actual clue art, final PDF rendering, packet inspection, archive regeneration and publication remain outstanding. The complete public fallback and all already-sent materials are unchanged.

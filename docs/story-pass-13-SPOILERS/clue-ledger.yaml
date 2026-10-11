@@ -1,0 +1,21 @@
+schema_version: 1
+status: Manual fair-play ledger; no new Story CLI runtime required
+entries:
+- {id: gift-terms, plant: Hunt01, interpretation: ActI, function: 'Different people face different costs of accepting gift', resolved: 'Unsigned agreement and failed board vote', red_herring: false}
+- {id: ownership-file, plant: 'Hunt02,06,11', interpretation: ActIII, function: 'Multiple plausible ownership scandals', resolved: 'Opinions, accession exception and family letter explain distinct omissions', red_herring: true}
+- {id: anonymous-warning, plant: Hunt03, interpretation: ActI, function: 'Threat looks like ownership protest', resolved: 'Dada admits warning about stolen creative credit', red_herring: true}
+- {id: mounting-fault, plant: Hunt05, interpretation: ActII, function: 'Real interruption and concealed professional error', resolved: 'Stop-work notice and crack photograph distinguish actual defect from stage effect', red_herring: true}
+- {id: privacy-exception, plant: Hunt10, interpretation: ActIII, function: 'Missing recording is suspicious and increases access ambiguity', resolved: 'Separate written order and officer notebook; does not identify killer', red_herring: true}
+- {id: staged-collapse, plant: Hunt12, interpretation: 'ActIII/F5', function: 'Apparent intentional death effect', resolved: 'Empty jacket and distinct clean PROP glass', red_herring: true}
+- {id: original-bottle, plant: 'Hunt13,14', interpretation: 'ActI/F2 and ActIII/F4', function: 'Hazard presence, access and tampering', resolved: 'Before-preview photograph and locked cupboard bound source access', red_herring: false}
+- {id: canceled-blackout, plant: Hunt15, interpretation: ActIII, function: 'Concealed sabotage can look like camera failure', resolved: 'Canceled cue and independent circuits', red_herring: true}
+- {id: donor-glass, plant: Hunt16, interpretation: 'ActIII/F5', function: 'New museum-star glass distinguishes actual target', resolved: 'Laboratory glass identity and service custody', red_herring: false}
+- {id: meal-and-punch, plant: 'Hunt16 and ActII/F3', interpretation: 'ActIII/F5', function: 'Plausible alternate routes and service conflict', resolved: 'Clear food, punch and sauce; substituted wrappers differ', red_herring: true}
+- {id: actual-glass-encounters, plant: ActII-testimony, interpretation: 'ActIII/F5 and testimony', function: 'Earlier acts reinterpreted by selective contamination finding', resolved: 'Guilty encounter stated before laboratory route is known', red_herring: false}
+- {id: common-paper, plant: 'ActI/F2 band and ActIII/F4 common stock', interpretation: 'ActIII/F5 and testimony', function: 'Compatible material links source and target without unique identification', resolved: 'Legitimate stock remains alternative explanation', red_herring: false, audit_warning: 'Personal loose-scrap finding first disclosed in Method; review whether that feels too late or too convenient'}
+- {id: late-arrival, plant: 'ActII testimony of four innocent roles', interpretation: ActIII, function: 'Arrival after preview excludes established source access', resolved: 'Admission receipts before voting; guilty alternatives arrived earlier', red_herring: false}
+limits:
+- 'A resolved professional scandal is not necessarily a complete murder exclusion.'
+- 'No solution fact first appears in Coming Clean.'
+- 'Paper stock match is circumstantial. Do not call it a unique physical match.'
+- 'All discoveries shared; host supplies missing envelopes.'

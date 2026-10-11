@@ -1,0 +1,352 @@
+schema_version: 1
+status: complete
+scope: Design only for seven object and production roles; no replacement speeches or asset edits.
+provenance:
+  - docs/story-pass-18-SPOILERS/dialogue.yaml
+  - docs/story-pass-18-SPOILERS/evidence_design.yaml
+  - source/evidence_art.json
+  - docs/story-pass-19-SPOILERS/motive-edits.yaml
+  - docs/story-pass-19-SPOILERS/innocent-edits.yaml
+rules: >-
+  The same retained records must be released in every selected world. A record excerpt
+  below is a proposed typeset extract of established facts, not an assertion that a new
+  signed document has been found. Where a fact lacks an actual artifact or sufficiently
+  specific wording, the design is rejected or conditional. Stage 5 already identifies
+  the historical original behind reception. Earlier H13/H14 distinguish the original
+  and replica. No Opportunity claim may require players to forget those facts.
+characters:
+- id: '05'
+  name: Chip Patina
+  existing_innocent_consequential_act: >-
+    Shoves Grant away from the cracked mount, calls the hold, empties tools, gloves and
+    replica onto reception, and withholds the receiving folder containing the altered
+    treatment date and hazard warning.
+  existing_innocent_mitigation: >-
+    Independently photographed mount crack explains the genuine closure. The original
+    treatment photograph and insurance copy expose a date alteration separately from
+    the later hazard. The clear open-bottom replica accounts for the display object.
+  guilty_precise_covered_action: >-
+    Candidate: using the reception kit and treatment folder to mask handling the target
+    and concealing the historical original behind the sideboard.
+  opportunity_assertion: >-
+    Candidate claim that the kit's bottle handling was solely the authorized replica
+    task and the delayed folder merely a condition check, with no separate handling of
+    the donor target. Do not claim the recovered original was the replica.
+  retained_record:
+    source: docs/story-pass-18-SPOILERS/evidence_design.yaml, discoveries 5 and 14; dialogue 05 method_innocent
+    stage: 7
+    excerpt: >-
+      6:35: mount hairline crack. Hold unveiling; close display alcove. Inspection
+      confirms hold at 6:37. Reception service continues. Original secured at 5:45,
+      neck intact; empty clear-glass, open-bottom replica to display trolley.
+    challenge: >-
+      This supports an authentic mount task and distinguishes the objects. It does not
+      independently establish what Chip handled later at reception. The insurance-date
+      photograph disproves an accurate date, not a poison-related cover action.
+    earlier_disclosure: Both the safety hold and original/replica distinction are already public; they cannot become a new stage-7 contradiction.
+  method_response: >-
+    A guilty Chip could narrow the claim to checking his own report and acknowledge
+    target contact. That admission would supply the missing link itself; the retained
+    record has not supplied it.
+  best_competing_interpretation: >-
+    Chip concealed insurance misconduct, wrongly delayed a warning and used reception
+    as a work surface. Someone else could have exploited the genuine service gap and
+    disposed of the original behind the same sideboard.
+  guilty_best_case_justified: false
+  verdict: reject
+  rationale: >-
+    Kit, means knowledge and suppressed hazard make Chip a substantial rival. The
+    proposed documentary contradiction would still be the insurance fraud, or a late
+    volunteered contact. No existing record supplies a delayed, consequential cover
+    failure specific enough to promote him to the best murder explanation.
+- id: '06'
+  name: Dada DiCapo
+  existing_innocent_consequential_act: >-
+    Lies about Artie's cue approval, brings the marked rehearsal glass and empty jacket,
+    carries the jacket away after cancellation and leaves PROP by the stand. Retrieves
+    his credit sheet at reception.
+  existing_innocent_mitigation: >-
+    The stage manager retains the rehearsal plan; the actual collapse was canceled.
+    The marked PROP glass tested clear. The intended effect required a living viewer.
+  guilty_precise_covered_action: >-
+    Handling the new donor target at reception under a claim that the performed-work
+    plan required a real-glass substitution between the donor service and rehearsal stand.
+  opportunity_assertion: >-
+    The movement of Grant's new museum-star glass was a scripted prop substitution in
+    the retained rehearsal plan, rather than an unscheduled encounter with his drink.
+    Dada must admit handling the donor target here, not introduce it in Method.
+  retained_record:
+    source: docs/story-pass-18-SPOILERS/evidence_design.yaml, discovery 12 and report F5
+    stage: 7
+    excerpt: >-
+      Closing effect: empty jacket on hinged stand; lights create apparent donor
+      collapse. Rehearsal glass marked PROP beneath base. Restore only on operator
+      approval. PROP glass: clear for cyanide.
+    challenge: >-
+      A plan for a separate marked rehearsal object does not support Dada's claim that
+      moving the donor target was a scripted substitution. The independent clean PROP
+      result resolves the innocent rehearsal route while the real target is poisoned.
+    earlier_disclosure: >-
+      The brief concept is already H12. Only a retained full plan can newly establish
+      that no donor-glass substitution appears. Repeating the brief concept at stage 7
+      is insufficient; do not silently present its omission as a complete cue inventory.
+  method_response: >-
+    Retreat from scripted substitution to improvisation or a proposed addition. He
+    insists his authorship entitled him to change the piece and objects to treating the
+    retained plan as the whole work. No new bottle opening or forensic exposition.
+  best_competing_interpretation: >-
+    He improvised an unauthorized change while trying to regain authorship. The plan
+    failure proves unsanctioned target handling, not poison administration. Another
+    reception visitor could have poisoned the glass earlier.
+  guilty_best_case_justified: conditional
+  verdict: conditional
+  rationale: >-
+    Direct target handling plus a false specifically scripted reason, poisoned actual
+    target and clean separate prop can form a best-explanation case with substantial
+    motive. It requires a real complete retained plan grounded in the existing work;
+    the current short exhibit cannot establish every missing stage action. Do not
+    invent a plan signature authorizing only one person or an exclusive handoff.
+- id: '13'
+  name: Frank Lloyd Wrong
+  existing_innocent_consequential_act: >-
+    Closes the cracked alcove, marks the rejected drawing REFUSED, removes his own rig
+    approval despite the electrician retaining hers, and brings a dusty plaster model
+    into reception.
+  existing_innocent_mitigation: >-
+    Genuine mount failure explains closure. The electrician's approval copy exposes his
+    accepted compromise. The test log explains later flickers without a camera bypass.
+    His model supplies a competing exterior-plaster source.
+  guilty_precise_covered_action: >-
+    Reaching behind reception to dispose of the original while claiming to service the
+    internal lamp specified by the approved centerpiece drawing.
+  opportunity_assertion: >-
+    He used the space behind the reception sideboard for a required adjustment to the
+    centerpiece's internal lamp, and identifies the enclosed-case proposal as the
+    approved installed arrangement. No claim that the camera or toast was disabled.
+  retained_record:
+    source: source/evidence_art.json, actual_installation and obsolete_display assets; dialogue 13 method_innocent
+    stage: 7
+    excerpt: >-
+      Installed arrangement: open steel conservation cradle, external spotlight and
+      side label rail. Rejected proposal: enclosed glass cabinet, velvet shelf and
+      internal lamp. Electrician retains Frank's approval copy for the installed rig.
+    challenge: >-
+      The lamp he claims to have serviced belongs to the rejected arrangement, not the
+      installed one. His claimed approved job therefore fails exactly where the
+      historical source was concealed. This challenges a disposal-location explanation,
+      not merely nonpayment or unauthorized design changes.
+    earlier_disclosure: >-
+      Verify the actual-installation/proposal pair's release placement. If their
+      structural difference was already plainly available before Opportunity, this
+      cannot serve as delayed independent discovery.
+  method_response: >-
+    Retreat to checking a rejected alteration or trying to reconcile the drawings;
+    acknowledge that he was not servicing an installed internal lamp. Irritation is
+    directed at the arrangement and his disputed approval.
+  best_competing_interpretation: >-
+    He knowingly overstated his job to hide an unauthorized attempted redesign or
+    avoid explaining the missing approval. Being behind the sideboard does not prove
+    he placed the recovered bottle there.
+  guilty_best_case_justified: conditional
+  verdict: conditional
+  rationale: >-
+    A falsely specified physical job at the source-disposal location has a substantive
+    murder nexus when combined with tools, target-area model handling and motive. The
+    existing images distinguish structures, but do not establish electrical routing to
+    reception. Do not invent such a route. The claim must identify the nonexistent
+    installed internal lamp, not rely on an unrecorded cable map.
+- id: '18'
+  name: Elle Loominate
+  existing_innocent_consequential_act: >-
+    Removes the family textile before opening without museum approval, omits her earlier
+    assurances when showing the aunt's demand, packs the roll for loading, and brushes
+    fibers from the proposed purchase card at reception.
+  existing_innocent_mitigation: >-
+    The aunt's demand predates the theft; the installation photograph shows the support
+    emptied. The full family thread explains retrieval while exposing omitted conditions.
+    Exterior fibers have an established textile-handling source.
+  guilty_precise_covered_action: >-
+    Candidate: target handling or reaching behind the sideboard under an alleged family
+    demand to collect the textile and prevent sale.
+  opportunity_assertion: >-
+    Candidate claim that a newly received family instruction required an immediate
+    target-area intervention, rather than a separate encounter with the donor glass.
+  retained_record:
+    source: dialogue 18 opportunity_innocent and method_innocent; round-19 motive 18
+    stage: 7
+    excerpt: >-
+      Family email thread: aunt requests return that morning; earlier messages contain
+      Elle's assurances that paperwork was complete. Installation photograph: support
+      empty after textile removal. Textile packed in its support sleeve for loading.
+    challenge: >-
+      The instruction was already received and the textile already retrieved. These
+      facts undermine urgency, but they cannot establish that collecting a card or
+      checking the packed roll was unrelated to family retrieval. They do not establish
+      whether Elle returned, what her hands did, or who used the favor carrier.
+    earlier_disclosure: >-
+      The full family thread can provide delayed context for the admitted retrieval.
+      Do not turn the installation photograph into an unseen continuous loading witness.
+  method_response: >-
+    She acknowledges the demand was earlier and says she returned for the purchase
+    card or to prevent the proposed family approach. That is still a plausible existing
+    purpose, not a materially defeated poison-related cover.
+  best_competing_interpretation: >-
+    She overstates urgency to defend unauthorized removal and omitted permissions.
+    Her fibers and anger survive that correction, but someone else could administer
+    the cyanide while she handles the card.
+  guilty_best_case_justified: false
+  verdict: reject
+  rationale: >-
+    Current records meaningfully resolve family misconduct but supply no independent
+    challenge to a source or target action. A new loading custody certificate, cyanide
+    result on her sleeve, named carrier or physical impossibility would be invented.
+    Do not promote this record-based family correction into a complete murder case.
+- id: '20'
+  name: Al Baster
+  existing_innocent_consequential_act: >-
+    Changes the support, puts a dusty case and invoice at reception, moves Grant's glass
+    farther back and weights the paper with an unopened favor. Threatens sculpture
+    withdrawal and checks the removal equipment.
+  existing_innocent_mitigation: >-
+    The crew's support drawing predates the gala; the invoice concerns display permission,
+    not ownership transfer. Plaster outside the target has admitted contact and Frank's
+    model supplies another source. His offered favor seal examination is not a completed
+    investigator finding.
+  guilty_precise_covered_action: >-
+    Candidate: direct donor-glass handling and opened carrier concealed within the
+    invoice-and-case encounter.
+  opportunity_assertion: >-
+    Candidate claim that all contact occurred with a favor used unopened as a paper
+    weight, while the glass was only shifted for the invoice. This is a purposeful
+    denial of carrier use, but the existing records cannot contradict the claimed seal.
+  retained_record:
+    source: dialogue 20 method_innocent; evidence_design.yaml F4/F5 and discovery 16
+    stage: 7
+    excerpt: >-
+      Crew retains the altered-support drawing from before tonight. Invoice requests
+      withdrawal of display permission for nonpayment. Cyanide inside the donor glass
+      and recovered miniature; plaster outside the glass. Miniature has a common label
+      and no recipient name; unopened favor stock is clear.
+    challenge: >-
+      The drawing exposes the support dispute and the laboratory separates outside
+      plaster from inside poison. Neither identifies Al's favor as opened or the
+      anonymous carrier as his. A claim that glass movement explains the plaster is
+      actually compatible with these findings.
+    earlier_disclosure: >-
+      Keep the retained drawing delayed to resolve the innocent support context. Do
+      not substitute a test on generic unopened stock for examination of Al's own seal.
+  method_response: >-
+    An innocent can offer the favor for inspection. A guilty response can evade that
+    offer, but without a fixed independent seal record the evidentiary gap remains;
+    evasiveness alone would become the variant tell.
+  best_competing_interpretation: >-
+    He handled the glass with plastered hands, threatened unauthorized removal, and
+    used a genuinely unopened favor as a weight. Another guest poisoned the glass or
+    supplied the waste miniature. Frank accounts for additional outside plaster.
+  guilty_best_case_justified: false
+  verdict: reject
+  rationale: >-
+    Al remains a serious direct-handler rival. Current drawing and invoice records
+    expose contract misconduct; current common-carrier findings do not challenge his
+    precise cover account. Naming the carrier, proving a selected-only broken seal or
+    inventing a close photograph of his hands would violate the fixed-record design.
+- id: '24'
+  name: Cary Crates
+  existing_innocent_consequential_act: >-
+    Conceals frame damage, signs the wrong trolley number and corrects it in pencil,
+    handles the clear replica while Jordan secures the original, and brings an unsealed
+    tool roll containing a lever to reception to retrieve the delivery sheet.
+  existing_innocent_mitigation: >-
+    The courier's photograph identifies the damaged frame. Jordan's receiving photograph
+    shows the original intact and secured after trolley work. Those facts sort objects
+    and earlier work; they do not exclude a later return with the lever.
+  guilty_precise_covered_action: >-
+    Candidate: returning to secured preparation storage to force the original's case,
+    then carrying it to reception within the tool-and-clipboard journey.
+  opportunity_assertion: >-
+    Candidate claim that the bottle movement and lever use were only the documented
+    delivery job. A useful narrower claim would need to specify a later approved
+    original retrieval or cabinet repair. No such order exists in the current records.
+  retained_record:
+    source: evidence_design.yaml discovery 14 and F3; dialogue 24 opportunity_innocent/method_innocent
+    stage: 7
+    excerpt: >-
+      5:45: original secured in locked preparation cabinet and secondary case; neck
+      intact. Empty clear-glass, open-bottom replica to display trolley. Cabinet key
+      retained by collections. 6:12: forced-opening alarm; cabinet lock and secondary
+      case damaged; original missing. Courier's photograph identifies a cracked frame.
+    challenge: >-
+      The records separate legitimate replica delivery, frame damage and forced theft.
+      They can contradict a claim that the original disappeared during normal receiving,
+      but that claim is already contradicted before Opportunity. They do not show that
+      Cary performed the forced return or held the lever then.
+    earlier_disclosure: >-
+      Original secured and forced opening are H14/F2 facts. The stage-7 photograph may
+      corroborate them but cannot newly defeat a routine-delivery story already impossible
+      under the earlier report. The later unsealed tool roll is not an independent record
+      merely because an innocent variant admits it.
+  method_response: >-
+    He can admit a later reception return with the tools and continue denying cabinet
+    entry. That is also compatible with his existing innocent job. Turning it into an
+    incriminating contradiction requires a real retained later work instruction, which
+    the kit does not currently contain.
+  best_competing_interpretation: >-
+    He falsified a frame-delivery account and carried the lever for unfinished work.
+    His receiving duties gave him relevant knowledge, but the intact earlier original
+    neither clears him afterward nor links him to the theft.
+  guilty_best_case_justified: false
+  verdict: reject
+  rationale: >-
+    Cary is a meaningful source-and-tools rival. The existing receiving record is
+    excellent innocent mitigation and broad crime chronology, not a delayed individual
+    cover failure. Do not add a selected-only latch repair order, tool-return certificate,
+    force-mark match or continuous witness to make it one.
+- id: '30'
+  name: Minnie Malist
+  existing_innocent_consequential_act: >-
+    Removes donor lettering, conceals an unauthorized blackout drawing, changes the
+    acknowledgment card and moves the glass by its foot. Promises wages she cannot
+    authorize and tells the florist to deliver despite unresolved payment.
+  existing_innocent_mitigation: >-
+    Saved console version records the rejected blackout, safety override at 6:37 stops
+    it, and electrician's retained test log accounts for later flickers. The florist's
+    call note makes the big-moment remark a payment dispute.
+  guilty_precise_covered_action: >-
+    Manipulating the target arrangement and reaching behind reception to hide the source
+    after the override, under a claim of working on a substituted live production cue.
+  opportunity_assertion: >-
+    After her blackout was stopped, the later flickers were an operator-run replacement
+    cue. She adjusted the sideboard and worked behind it for that executed production
+    change, not for a separate visit to the donor target. No claim that punch was present.
+  retained_record:
+    source: dialogue 13 method_innocent and 30 method_innocent; evidence_design.yaml discovery 15
+    stage: 7
+    excerpt: >-
+      6:37: cancel show sequence, safety override. Later flickers: electrician's test.
+      Donor toast remains a separate service order. Security camera power independent
+      of show-control console.
+    challenge: >-
+      The observed flickers were testing, not execution of the replacement cue she says
+      justified the post-override work. The challenge concerns a specific additional
+      target-and-disposal-location visit, rather than merely her already admitted blackout.
+    earlier_disclosure: >-
+      H15 already discloses cancellation and a separate toast. Those facts cannot be
+      delayed discoveries. The retained electrician's test log must be an actual readable
+      stage-7 record; it supplies the new correction to the claimed later event.
+  method_response: >-
+    She concedes she treated a test as the chance to restore the production, and says
+    she was arranging things for a change she still wanted rather than an executed cue.
+    Her unauthorized payment promises and need to secure approval explain the retreat.
+  best_competing_interpretation: >-
+    She overstated a test as approval to hide a frantic, unauthorized salvage attempt.
+    She could genuinely have moved the card and glass while preparing a cue that never
+    ran. Another visitor could have poisoned the glass or concealed the original.
+  guilty_best_case_justified: conditional
+  verdict: conditional
+  rationale: >-
+    Stronger than a false description of every guest's liquid: one producer uses a real
+    later event to excuse her specific post-override access. The challenge must be to
+    executed replacement work, not a promise that a cue might run. With substantial
+    motive, direct target contact and admitted disposal-location access it can be a
+    best-explanation case, but the test log cannot prove who hid the bottle or poisoned
+    the glass. No lighting record becomes an access alibi or camera bypass.

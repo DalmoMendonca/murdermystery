@@ -1,0 +1,15 @@
+# Intake repair review
+
+**ACCEPT for the bounded causal repair, with one precision correction below.** Reviewed the current collection scenes and evidence contracts. No scoring, dialogue edits or whole-cast verdict.
+
+The exchange is ordinary shared work: a catalog question goes to the department responsible for intake, an unresolved reply imposes a closed-object restriction, and a shorter version goes to the press. It gives the existing retained proof a reason to exist beyond clearing three characters. The dated exchange precedes the gala; Claire's later relocation of public papers can leave that working intake copy intact. No new visit, extraction timetable or physical alibi is implied.
+
+The mitigation is now specific. Claire's move did not necessarily deprive staff of the contents question or restriction. Art raised the discrepancy with intake rather than merely noting it privately. Reed withheld the warning from publicity while leaving the operative staff file complete. Those facts weaken deliberate suppression from the people controlling the source. They do not erase public misrepresentation, source knowledge, preview access, institutional negligence or later cupboard access. The innocent answers acknowledge those limits instead of using the bowl correction as a substitute defense.
+
+The guilty covers survive. The intake record contradicts Claire's empty-bottle claim; the quoted, sent query challenges Art's denial of reading the condition; the marked deletion challenges Reed's credit-line account. Importantly, the favorable staff-delivery facts are shared evidence in those guilty worlds too. They genuinely weaken the same suppression hypothesis there; guilt must remain supported by the particular false cover and cumulative case, not by pretending the query vanished. Reed's confession retaining the copy for research is compatible with also sending it to intake, although research retention is no longer the full account of its survival.
+
+Allowing a closed preview while a contents discrepancy remains unresolved is a credible compromised decision, not a safety clearance. The query does not establish that staff knew the liquid was active cyanide before testing. No handling was authorized. The characters' admission that the preview should have waited keeps the negligence visible; a forwarded question cannot make the actual custody safe.
+
+Correct Claire's innocent ending: **“The staff copy kept the contents question open and the bottle closed.”** The second clause overstates what a paper proves. It kept the *instruction to leave the bottle closed* in force; the known split demonstrates that compliance cannot be assumed.
+
+The exchange itself needs no attending guest as witness: intake can present it, including pre-gala work by an absent scholar. Existing reception references to Reed and Robin/Paige still need their already-planned attendance substitutions wherever they describe present-night actions. The new repair does not solve that separate integration task.
