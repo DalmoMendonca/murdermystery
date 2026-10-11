@@ -65,5 +65,20 @@
     "event": "blocked_premature_reads",
     "trial": "t050",
     "detail": "Reader reported two gate-rejected advances after write or validation errors. No unreleased content exposed. Stage 3 encoding damage fixed before validation without changing judgments."
+  },
+  {
+    "event": "usage_limit_interruption",
+    "trials": [
+      "t065"
+    ],
+    "detail": "Reader failed before any release was read. Original agent retained; no replacement or reroll."
+  },
+  {
+    "event": "resumed",
+    "utc": "2026-10-11T09:59:57.747871+00:00",
+    "trials": [
+      "t065"
+    ],
+    "detail": "Scheduled continuation confirmed ordinary usage allowed and 0% primary usage. Resumed original t065 reader and launched fresh t066/t067."
   }
 ]
