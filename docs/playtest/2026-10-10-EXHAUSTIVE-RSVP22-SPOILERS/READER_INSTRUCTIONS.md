@@ -6,6 +6,8 @@ Use the trial token supplied in your task. Work in `C:/Users/dalmo/Documents/Cod
 
 Python executable: `C:/Users/dalmo/AppData/Local/Programs/Python/Python312/python.exe`. Gate script: `scripts/exhaustive_balance.py`. Your writable folder: `docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/blind/TRIAL`.
 
+Technical file-writing tip: use a PowerShell single-quoted multiline here-string piped to `Set-Content -LiteralPath ... -Encoding utf8` for JSON. Put `@'` and `'@` on their own lines. Avoid passing JSON through a nested `python -c` shell argument, which can strip its quotation marks. Run each gate action separately, and advance only when its preceding validation succeeds. This changes no scoring instructions.
+
 For each stage 1 through 8, in order:
 
 1. Set `$env:PYTHONIOENCODING='utf-8'` in PowerShell and run Python gate `read --trial TRIAL --stage N`. Request at least 7000 output tokens so the complete release is visible. Read ALL of it.
