@@ -489,3 +489,12 @@ Belle follow-up published and locked: 6acaae2d208c9cee1b30f908. All eight direct
 User-authorized exhaustive published RSVP22 audit: 22 culprit worlds x 5 fresh blind readers = 110. Latest live complete ZIP hash and pinned source verified; immutable eight-stage inputs frozen. Each reader saves before advancing, locks accusation before finale, then reviews confession. Aggregate dashboard will report all results and per-character weaknesses; no game edits or production replacement during testing.
 
 Published RSVP22 audit checkpoint:37/110 complete,37 correct accusations,0 early clear declarations. Three score/conclusion conflicts retained; consistent numeric subset34:30 E3-ready,34 final strong/unique,3 midgame breadth,1 ending breadth. All22 cases covered once,15 twice. No game edits. Account five-hour allowance95% used;73 trials await additional quota. Resume t038; no background continuation scheduled.
+
+
+## October 11: exhaustive audit complete and bounded story diagnostic
+
+110/110 original RSVP22 readers complete, five per culprit, 110 correct locked accusations, three numeric/conclusion conflicts preserved. Final report and actionable priorities committed. Continuation deleted.
+
+Bounded candidate: six innocent Method replies and Elle Opportunity pressure; three fixed blind checks complete. Elle E3 6 (prior mean4), Chip7 (7.2), Barb6 (5.6); all final9/correct. Ending innocent alternatives1/0/5, naturalness6/6/6. Mixed, no promotion. Seven changed page layouts visually checked at16pt; Elle shortened layout wording is unscored. Candidate all30 mirrored but untested. Published fallback and sent assets remain unchanged.
+
+Next: map E3 proof dependencies before removing peripheral settlements; vary speech structure rather than attaching a colleague and emotional aside to every procedural admission. Preserve contradiction/access chain. Avoid another wholesale rewrite or a second110-reader sweep.

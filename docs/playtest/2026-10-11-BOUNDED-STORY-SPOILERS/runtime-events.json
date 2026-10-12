@@ -1,0 +1,11 @@
+[
+  {
+    "event": "Before first validations: corrected roster metadata accidentally decoded with Windows default encoding. No inputs or scores edited. All three readers blocked at first validation; permitted schema-only canonical name correction."
+  },
+  {
+    "event": "Quota interruption and natural reset; resumed same original readers with earlier validated scores preserved. t001 stage8 released/7 locked; t002 stage6 released/5 locked; t003 stage7 released/6 locked."
+  },
+  {
+    "event": "t002 premature stage3 read rejected before any release; schema and PowerShell quotation retries retained in reader history."
+  }
+]
