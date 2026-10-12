@@ -1,0 +1,164 @@
+{
+  "run": "2026-10-12-COVER-RELEASE-SPOILERS / cast22",
+  "production_deploy": "UNPUBLISHED",
+  "complete_kit_sha256": "32d727509afa04d4d493fc2d087dbe65ef77a45d02b9ff3da16738f927144b01",
+  "revision": "cover-continuity-location-clarified-2026-10-12",
+  "created_utc": "2026-10-10T22:44:07.325382+00:00",
+  "stage_labels": [
+    "Introductions",
+    "16 hunt clues",
+    "Evidence 1",
+    "Act I: Motive",
+    "Evidence 2",
+    "Act II: Opportunity",
+    "Evidence 3",
+    "Act III: Method"
+  ],
+  "roster": [
+    {
+      "id": "01",
+      "name": "Artie Ficial",
+      "role": "Executive Director of the Meridian Museum"
+    },
+    {
+      "id": "02",
+      "name": "Claire O’Scuro",
+      "role": "Chief Curator of World Cultures"
+    },
+    {
+      "id": "03",
+      "name": "Hugh Bidder",
+      "role": "International Art Dealer & Collector Liaison"
+    },
+    {
+      "id": "04",
+      "name": "Monet Bags",
+      "role": "Chief Financial Officer of the Meridian Museum"
+    },
+    {
+      "id": "05",
+      "name": "Chip Patina",
+      "role": "Chief Conservator"
+    },
+    {
+      "id": "06",
+      "name": "Dada DiCapo",
+      "role": "Performance Artist & Cultural Celebrity"
+    },
+    {
+      "id": "07",
+      "name": "Vincent Van Faux",
+      "role": "Celebrated Contemporary Painter"
+    },
+    {
+      "id": "08",
+      "name": "Sue Venir",
+      "role": "Cultural Property Attorney"
+    },
+    {
+      "id": "09",
+      "name": "Dr. Art E. Fact",
+      "role": "Professor of Art History & Provenance Scholar"
+    },
+    {
+      "id": "10",
+      "name": "Tess Tament",
+      "role": "Philanthropist & Heir to the Larceny Family Fortune"
+    },
+    {
+      "id": "11",
+      "name": "Barb Dwyer",
+      "role": "Director of Museum Security & Former Art-Crimes Investigator"
+    },
+    {
+      "id": "12",
+      "name": "Paige Turner",
+      "role": "Investigative Arts Journalist"
+    },
+    {
+      "id": "13",
+      "name": "Frank Lloyd Wrong",
+      "role": "Exhibition Architect & Designer"
+    },
+    {
+      "id": "14",
+      "name": "Mona Lott",
+      "role": "International Cultural Heritage Ambassador"
+    },
+    {
+      "id": "15",
+      "name": "Elon Mosaic",
+      "role": "Tech Founder, Collector & Museum Patron"
+    },
+    {
+      "id": "18",
+      "name": "Elle Loominate",
+      "role": "Textile Artist & Designer"
+    },
+    {
+      "id": "19",
+      "name": "Reed DeLabel",
+      "role": "Doctoral Fellow in Art History"
+    },
+    {
+      "id": "20",
+      "name": "Al Baster",
+      "role": "Sculptor & Public-Art Star"
+    },
+    {
+      "id": "23",
+      "name": "Brie DeVivre",
+      "role": "Head Caterer & Hospitality Director"
+    },
+    {
+      "id": "25",
+      "name": "Anne E. Dote",
+      "role": "Director of Education & Docent Programs"
+    },
+    {
+      "id": "28",
+      "name": "Penny Pincher",
+      "role": "Eccentric Private Collector"
+    },
+    {
+      "id": "29",
+      "name": "Justin Tyme",
+      "role": "Independent Blogger & Local Truthstorian"
+    }
+  ],
+  "trial_count": 1,
+  "replicates_per_culprit": 1,
+  "trials": [
+    {
+      "trial": "t001",
+      "replicate": 1,
+      "murderer_id": "18",
+      "murderer": "Elle Loominate",
+      "inputs": {
+        "checkpoint_01.txt": "4a6c102698a7b1c6c8a60b781ceb83db10c6c6803062b55cb23159920d0d7f4c",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "3f88b19ea44767709768ab7389208f0522276c315ea4afa66cf18bafb1ab4d8c",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "a8646514e8c13a24e24be5a5dc1cc2e57765af6f17e9ea9912f96c5a83c05fab",
+        "checkpoint_07.txt": "2f141652c13c2d957920101de4dc58ae8cc4582670064abc54a31d7715b2b296",
+        "checkpoint_08.txt": "29cf878a2f4017df5de6f23592ce5fede2fa79f24ba163c79a173e929efb9089"
+      }
+    }
+  ],
+  "source_sha256": {
+    "character_copy.yaml": "2421deaf6e9feda403f4eb3d55a32ac737619ead09c1367f2b6ea7ac6661c6e4",
+    "confirmed.yaml": "ba334f2704372d1f9ea2a637dbc87eb9ec4be9a669ca5cc70c912818d106527c",
+    "playable-evidence.yaml": "1eed368406681c62036ce4e4264486ab1e6b5adfa4c2a47306d60e94066b50d3"
+  },
+  "protocol": "Three fixed critical scenarios per attendance edition; fresh original readers; locked sequential scores and pre-finale accusation. No rerolls. Descriptive diagnostics, not human solve rates.",
+  "prespecified_targets": {
+    "accuracy": "Final accusation matches selected culprit",
+    "timing": "No clear culprit declared before stage8",
+    "e3_readiness": "Culprit E3 score at least5; below8 preferred",
+    "final_strength": "Culprit final score at least9 and uniquely highest or tied highest reported separately",
+    "midgame_breadth": "At least8/22 scores strictly above5 after ActII",
+    "ending_breadth": "At least3 innocent scores from5 through7; 5-6 subset reported separately"
+  },
+  "finale_protocol": "After accusation, three highest-scored suspects read their branch; selected murderer added if not among three. Single-reader top3 is a review proxy, not actual group votes."
+}

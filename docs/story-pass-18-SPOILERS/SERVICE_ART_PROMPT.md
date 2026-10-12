@@ -1,0 +1,9 @@
+# Candidate service sequence
+
+Built-in imagegen; source retained. Project path and visual review in visual-art-map.json. Frozen trial evidence wording unchanged.
+
+## Exact prompt
+
+Create a highly realistic fictional museum-caterer's photographic contact sheet. Exactly four photographs in an equal 2-by-2 grid, overall landscape 3:2. Thin cream gutters only; NO text, no digits/timestamps, no arrows, no logos, no captions. All photographs show the SAME distinctive simple clear glass: shallow rounded bowl, short stem, circular foot; an engraved small FIVE-POINT STAR is visible on the bowl. Consistent physical shape and proportions in all four photographs. Museum gala, light oak reception sideboard at entry, cream programs and burgundy folders, ordinary guest paperwork in background. Warm neutral documentary lighting, believable event-service snapshots rather than dramatic fantasy.
+
+Top left: new glass at the reception sideboard still fully enclosed in plain transparent protective wrapping with an unprinted seal; no liquid. Top right: the same glass unwrapped, EMPTY, resting on the reception sideboard beside cream programs and guest-gift tissue. No cloche, no cover, no sealed barrier, no blue cloth, no miniature fragrance bottle or source poison bottle visible. Bottom left: server's hand collecting the SAME EMPTY glass from the reception sideboard onto a small silver service tray; only hand/sleeve visible, no identifiable person. Bottom right: in the nearby service area a hand pours ordinary pale amber punch from a plain glass pitcher into that glass on the silver service tray. No chemical props, no poison, no visible suspect, no competing drinking glass, no medical items. Do not show the toast or a person drinking. Each photo records an ordinary service step. Make the small star engraving consistent and legible. Keep clean composition and clear object continuity. Output only the four-photo sheet.

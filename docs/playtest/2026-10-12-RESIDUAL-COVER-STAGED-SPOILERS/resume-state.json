@@ -1,0 +1,23 @@
+{
+  "status": "staged_diagnostic_complete",
+  "published_source_unchanged": true,
+  "completed_staged_checks_this_pass": 12,
+  "completed_final_only_probes": 1,
+  "latest_candidate": "docs\\playtest\\2026-10-11-RESIDUAL-COVER-PROBE-SPOILERS\\candidate-source",
+  "latest_result": "docs\\playtest\\2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS\\RESULTS.md",
+  "next_action": "Next continuation: two fresh fork-none readers, cover-continuity cast22/t001 and cast30/t001, following only their READER_INSTRUCTIONS. No broader sweep. Then examine timing, earned deduction, residual suspicion and reader story feedback before promotion.",
+  "production_promotion_allowed": false,
+  "reason": "Residual-cover six-case test: all correct and earned, but final alternatives 0-4 and Elle E3=8 in both casts. Targeted four-field successor frozen; untested.",
+  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
+  "staged_completed": 6,
+  "staged_total": 6,
+  "readers": {
+    "cast22/t001": "/root/residual22_a",
+    "cast22/t002": "/root/residual22_b",
+    "cast22/t003": "/root/residual22_c",
+    "cast30/t001": "/root/residual30_a",
+    "cast30/t002": "/root/residual30_b",
+    "cast30/t003": "/root/residual30_c"
+  },
+  "next_run": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS"
+}

@@ -1,0 +1,265 @@
+[
+  {
+    "version": 15,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 15,
+    "required": 10,
+    "final_alternatives5to6": 4,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 15,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 6,
+    "required": 8,
+    "final_alternatives5to6": 4,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 15,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 7,
+    "required": 8,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 16,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 11,
+    "required": 10,
+    "final_alternatives5to6": 7,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 16,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 13,
+    "required": 8,
+    "final_alternatives5to6": 4,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": [
+      "Procedural exception: checkpoint02 was exposed after the first write failed, before checkpoint01 save verification; the reconstructed prior judgments cannot be independently verified.",
+      "Procedural exception retained in result01: checkpoint02 was exposed after first save failure before result01 verification; prior judgments were not independently timestamped before exposure. Remaining assessments saved and verified sequentially."
+    ]
+  },
+  {
+    "version": 16,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 4,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 16,
+    "trial": "B2",
+    "cast": 22,
+    "midpoint_above5": 4,
+    "required": 8,
+    "final_alternatives5to6": 2,
+    "selected_unique_final_highest": false,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 17,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 4,
+    "required": 10,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 17,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 17,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 18,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 3,
+    "required": 10,
+    "final_alternatives5to6": 6,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 18,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 7,
+    "required": 8,
+    "final_alternatives5to6": 7,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 18,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 5,
+    "required": 8,
+    "final_alternatives5to6": 3,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 18,
+    "trial": "D",
+    "cast": 22,
+    "midpoint_above5": 0,
+    "required": 8,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 20,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 5,
+    "required": 10,
+    "final_alternatives5to6": 6,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 20,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 20,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 20,
+    "trial": "D",
+    "cast": 22,
+    "midpoint_above5": 4,
+    "required": 8,
+    "final_alternatives5to6": 3,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 21,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 2,
+    "required": 10,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 21,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 5,
+    "required": 8,
+    "final_alternatives5to6": 3,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 21,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 6,
+    "required": 8,
+    "final_alternatives5to6": 3,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 21,
+    "trial": "D",
+    "cast": 22,
+    "midpoint_above5": 1,
+    "required": 8,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 22,
+    "trial": "A",
+    "cast": 30,
+    "midpoint_above5": 3,
+    "required": 10,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 22,
+    "trial": "B",
+    "cast": 22,
+    "midpoint_above5": 7,
+    "required": 8,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 22,
+    "trial": "C",
+    "cast": 22,
+    "midpoint_above5": 3,
+    "required": 8,
+    "final_alternatives5to6": 1,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  },
+  {
+    "version": 22,
+    "trial": "D",
+    "cast": 22,
+    "midpoint_above5": 2,
+    "required": 8,
+    "final_alternatives5to6": 0,
+    "selected_unique_final_highest": true,
+    "protocol_exceptions": []
+  }
+]

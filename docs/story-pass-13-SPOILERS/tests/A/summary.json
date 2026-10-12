@@ -1,0 +1,25 @@
+{
+  "trial": "A",
+  "cast_size": 30,
+  "selected_character": "Ella Gance",
+  "act_II_above_5": 5,
+  "act_II_target": 10,
+  "final_selected_score": 10,
+  "selected_highest": true,
+  "selected_unique_highest": true,
+  "final_alternatives_5_to_6": 0,
+  "selected_scores": [
+    1,
+    1,
+    1,
+    4,
+    4,
+    8,
+    9,
+    10
+  ],
+  "protocol_notes": [
+    "Initial result write failed because of PowerShell quote parsing; these judgments were fixed before reading checkpoint 02 and written unchanged."
+  ],
+  "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+}

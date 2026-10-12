@@ -1,0 +1,476 @@
+{
+  "Reader A": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Monet Bags",
+          "Chip Patina",
+          "Dada DiCapo",
+          "Vincent Van Faux",
+          "Sue Venir",
+          "Dr. Art E. Fact",
+          "Tess Tament",
+          "Barb Dwyer",
+          "Paige Turner",
+          "Frank Lloyd Wrong",
+          "Mona Lott",
+          "Elon Mosaic",
+          "Elle Loominate",
+          "Reed DeLabel",
+          "Al Baster",
+          "Brie DeVivre",
+          "Anne E. Dote",
+          "Penny Pincher",
+          "Justin Tyme"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 2,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Chip Patina",
+          "Vincent Van Faux",
+          "Dr. Art E. Fact",
+          "Barb Dwyer",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 9,
+        "culprit_score": 6,
+        "leaders": [
+          "Hugh Bidder",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 8,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 8,
+        "culprit_score": 6,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 5,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 9,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 5,
+    "final_alternatives_five_six": 0,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "None. Read only checkpoints 01 through 08 in order, saved named scores after each with successful Python exit before next read, locked accusation and final feedback before opening post_vote_endings, and did not rescore after ending.",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "voice_distinction": 6,
+      "arc_variety": 6,
+      "motives": 8,
+      "opportunities": 7,
+      "emotional_drama": 8,
+      "deduction_fairness": 8
+    },
+    "e3_culprit_score": 6,
+    "numerical_targets_met": false
+  },
+  "Reader B": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Monet Bags",
+          "Chip Patina",
+          "Dada DiCapo",
+          "Vincent Van Faux",
+          "Sue Venir",
+          "Dr. Art E. Fact",
+          "Tess Tament",
+          "Barb Dwyer",
+          "Paige Turner",
+          "Frank Lloyd Wrong",
+          "Mona Lott",
+          "Elon Mosaic",
+          "Elle Loominate",
+          "Reed DeLabel",
+          "Al Baster",
+          "Brie DeVivre",
+          "Anne E. Dote",
+          "Penny Pincher",
+          "Justin Tyme"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Barb Dwyer",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Barb Dwyer"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 2,
+        "culprit_score": 4,
+        "leaders": [
+          "Barb Dwyer",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 11,
+        "culprit_score": 7,
+        "leaders": [
+          "Hugh Bidder",
+          "Dr. Art E. Fact",
+          "Barb Dwyer",
+          "Al Baster",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 10,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 8,
+        "culprit_score": 6,
+        "leaders": [
+          "Barb Dwyer",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 10,
+        "alternatives_six_seven": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 4,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 11,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 4,
+    "final_alternatives_five_six": 3,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "None. Read checkpoints 1 through 8 in order, saving all named ratings and checking successful Python exit before each next read. Saved final accusation and feedback before opening post-vote endings. No rescoring afterward; no other source files read.",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "voice_distinction": 7,
+      "arc_variety": 7,
+      "motives": 8,
+      "opportunities": 7,
+      "emotional_drama": 8,
+      "deduction_fairness": 8
+    },
+    "e3_culprit_score": 6,
+    "numerical_targets_met": true
+  },
+  "Reader C": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Monet Bags",
+          "Chip Patina",
+          "Dada DiCapo",
+          "Vincent Van Faux",
+          "Sue Venir",
+          "Dr. Art E. Fact",
+          "Tess Tament",
+          "Barb Dwyer",
+          "Paige Turner",
+          "Frank Lloyd Wrong",
+          "Mona Lott",
+          "Elon Mosaic",
+          "Elle Loominate",
+          "Reed DeLabel",
+          "Al Baster",
+          "Brie DeVivre",
+          "Anne E. Dote",
+          "Penny Pincher",
+          "Justin Tyme"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 2,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 2,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 4,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Chip Patina",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 4,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 7,
+        "culprit_score": 7,
+        "leaders": [
+          "Hugh Bidder",
+          "Al Baster",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": 0,
+        "alternatives_five_six": 12,
+        "alternatives_six_seven": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 6,
+        "culprit_score": 7,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 1,
+        "alternatives_five_six": 12,
+        "alternatives_six_seven": 5,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Al Baster"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 5,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Al Baster"
+      }
+    ],
+    "act_ii_above_five": 7,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 5,
+    "final_alternatives_five_six": 0,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "No reading-order or score-revision deviation. Read only sequential checkpoint files and post-vote endings after verified stage 8 persistence. Stage 4 save initially failed from a Python JSON keyword typo; corrected and verified before opening stage 5.",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "voice_distinction": 7,
+      "arc_variety": 6,
+      "motives": 8,
+      "opportunities": 7,
+      "emotional_drama": 8,
+      "deduction_fairness": 8
+    },
+    "e3_culprit_score": 7,
+    "numerical_targets_met": false
+  }
+}

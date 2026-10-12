@@ -1,0 +1,219 @@
+schema_version: 1
+status: five_role_authoring_bank_not_canonical_schema_or_complete_game
+characters:
+- id: '04'
+  name: Monet Bags
+  hearings:
+    motive_innocent: The donation is large enough to cover payroll. That's the attraction. It also gives Grant a
+      say in what we buy, what we build and who runs the place. Artie calls it a rescue. I keep asking whether the
+      rescuer gets a vote on every paycheck. We need the money. That doesn't make these terms affordable.
+    motive_murderer: The donation is large enough to cover payroll. That's the attraction. It also gives Grant a
+      say in what we buy, what we build and who runs the place. Artie calls it a rescue. Grant would be able to
+      examine every transfer I had made to keep the staff paid. We need the money. He could refuse it, and he knew
+      what that would do to the museum and to me.
+    where_innocent: I put the extra cheese course on hold. It wasn't in the approved budget. Brie had ordered it
+      because it was on Grant's list; Grant hadn't paid for it. The hold is what sent the manager back to the kitchen.
+      My invoice was at Grant's place. There was his glass and not his signature. Nobody had authorized me to use
+      payroll money for another donor treat. The food was already bought, so refusing the charge meant refusing
+      Brie money we still owed.
+    where_murderer: I put the extra cheese course on hold. It wasn't in the approved budget. Brie had ordered it
+      because it was on Grant's list; Grant hadn't paid for it. The hold is what sent the manager back to the kitchen.
+      My invoice was at Grant's place. There was his glass and not his signature. I had no intention of putting
+      that bill through the payroll account. The purchase had already been made, and the museum couldn't pay it
+      without money Grant was still withholding.
+    evidence_innocent: 'I went to the place while the extra-course ticket was still open. That was the point: get
+      his approval so the kitchen could stop waiting. The retained invoice says ''charge to donor''; the museum
+      account is crossed out. The bank request in my file is about the earlier transfer into payroll. I had used
+      restricted money to pay the staff, and I was trying not to add this bill to it. I still have the crossed-out
+      account line. The staff had already been paid; I couldn''t put their wages back into the restricted fund.'
+    evidence_murderer: I went to the place before joining the incoming-object preview. His glass was already unwrapped;
+      I remember setting the invoice beside it. The extra-course ticket was still being argued over later, but my
+      visit was finished. The bank request in my file is about the transfer into payroll. I had used restricted
+      money to pay the staff. The invoice says 'charge to donor.' I wanted his approval, and he hadn't signed it
+      when I left.
+  coming_clean:
+    innocent: 'I did not kill Grant. I had used restricted money to pay staff and then tried to keep his additional
+      catering charge out of the same account. I went to his unattended place for approval of that invoice. The
+      crossed-out account and the open ticket were already in front of you. There was no clever rescue in what I''d
+      done with payroll: I had paid people from money I was not entitled to use. The board needs that account, and
+      Brie needs a funded answer to the bill.'
+    murderer: I killed Grant. The invoice visit was later than I told you, while his private glass was unattended.
+      I'd taken poison from the bottle during the closed preview. Saying the unwrapped glass was already there before
+      that preview moved my visit away from the real service interruption. The wrapping and place-setting account
+      contradicted me. I had paid staff with restricted money. His gift was supposed to get the accounts through
+      that transfer; his terms would give him control of them instead. I decided he wasn't going to examine those
+      accounts.
+- id: 08
+  name: Sue Venir
+  hearings:
+    motive_innocent: A draft is a useful place to argue. An announcement from a microphone is a useful place to
+      pretend the argument is over. Grant's agreement reserved control of future purchases to him. I had advised
+      the museum on the acquisition behind this exhibition. If the ownership file fails, my advice will be read
+      with it. I wanted the board to decide what it was accepting before anyone called this a rescue.
+    motive_murderer: A draft is a useful place to argue. An announcement from a microphone is a useful place to
+      pretend the argument is over. Grant's agreement reserved control of future purchases to him. I had advised
+      the museum on the acquisition behind this exhibition. Grant had the file carrying that advice. He could let
+      the objection go to the board or keep it beside his own terms. Neither course left me able to say I had kept
+      the museum properly informed.
+    where_innocent: My note stopped the public celebration of an accepted gift. It did not stop serving Grant a
+      private drink. Those are different instructions. I found the unsigned agreement at his place and took it out
+      of the announcement papers. I kept the marked running order too. Artie was trying to keep tonight moving;
+      I was trying to keep a draft from becoming tomorrow's statement of what the board had agreed to. No one asked
+      me to remove the agreement. I did it anyway.
+    where_murderer: My note stopped the public celebration of an accepted gift. It did not stop serving Grant a
+      private drink. I took the unsigned agreement from his place and kept it out of the announcement papers. I
+      also retained the marked running order. Artie was trying to get tonight past the argument; I was trying to
+      keep my advice out of another document he could present as settled. No one asked me to remove the agreement.
+      I took it without asking.
+    evidence_innocent: I took the agreement while the private place was unattended and the kitchen ticket was still
+      open. The glass stayed there. My note has 'public announcement' underlined and 'private hospitality may proceed'
+      beneath it. The missing ownership attachment was a problem I had known about before tonight. I let the file
+      go forward without resolving it. Taking back the agreement was an attempt to stop another approval built on
+      that advice, not to cancel Grant's service.
+    evidence_murderer: I took the agreement when the manager poured Grant's punch at the private place. The glass
+      was standing over the papers. I waited for the manager to finish, then the manager lifted it while I pulled
+      the agreement clear. My note has 'public announcement' underlined and 'private hospitality may proceed' beneath
+      it. The missing ownership attachment was a problem I had known about before tonight. I let the file go forward
+      without resolving it. I removed an unsigned document from an announcement it had no business supporting.
+  coming_clean:
+    innocent: I did not kill Grant. I had let the disputed acquisition file go forward without its missing ownership
+      attachment resolved. I withdrew the unsigned agreement while the glass was unattended. My marked running order
+      opposed calling that draft an accepted gift; it did not cancel ordinary private service. Those were the decisions
+      I made, and the papers were already available to you. I cannot turn taking back a draft into a defense of
+      the earlier advice.
+    murderer: I killed Grant. The manager did not supervise my withdrawal of the agreement. I took it while the
+      private glass was unattended and used poison I'd taken from the bottle during the closed preview. My account
+      moved the pour to the table, with a witness beside me. The manager's account put it in the kitchen, followed
+      by direct delivery. Grant had the ownership file and my advice in it. Taking back a draft couldn't undo what
+      I had approved. I chose to remove the man who could use that file.
+- id: '23'
+  name: Brie DeVivre
+  hearings:
+    motive_innocent: Grant asked for another cheese course after we'd agreed the menu. The museum hadn't approved
+      the charge, and he hadn't paid it. We had already bought the food. Monet wanted the bill stopped; I wanted
+      someone to tell me where the money was coming from. The private toast was on the original order. I couldn't
+      settle the museum's gift agreement, but I could insist that feeding the donor was still a bill.
+    motive_murderer: Grant asked for another cheese course after we'd agreed the menu. The museum hadn't approved
+      the charge, and he hadn't paid it. We had already bought the food. Monet wanted the bill stopped; the supplier
+      still wanted payment from me. The private toast was on the original order. Grant could insist on being served
+      while everyone argued over who would cover the cost. This was not a request I could send back to the kitchen
+      without a bill.
+    where_innocent: 'The manager came back about the held charge. I showed the original order: extra course disputed,
+      private toast still booked. Then I went to Grant''s place with the culinary flavoring for that drink. It wasn''t
+      a new request. I left the ingredient container with the service things and came back to the kitchen. I had
+      kept the added course on our purchase list without a funded authorization. That was my problem to fix, and
+      I was not going to pretend the food hadn''t cost us anything.'
+    where_murderer: 'The manager came back about the held charge. I showed the original order: extra course disputed,
+      private toast still booked. I took the culinary flavoring for that drink to Grant''s place and later left
+      the container with the service things. The addition was already on our purchase list. I had agreed to buy
+      it without a funded authorization. The kitchen could wait for an instruction; the supplier wasn''t going to
+      wait because the donor and the accounts office disagreed.'
+    evidence_innocent: I prepared his individual glass with the flavoring from the original order. The shared pitcher
+      didn't contain it; that was why his drink had separate preparation. The retained container is the one with
+      that order. The lab found no cyanide in that container. I agreed to an expensive addition before payment was
+      settled. Monet had every reason to refuse that bill. We still owed our supplier.
+    evidence_murderer: I brought the flavoring to the place because it was on the private order. It stayed closed.
+      The manager had already put the culinary flavoring into the shared pitcher, so there was no separate preparation
+      left for me to do. We used that pitcher for Grant's toast. I left the container with the service things. The
+      held charge was for the added course. I had already agreed to buy the food, and I was trying to keep that
+      dispute from becoming another failure of service.
+  coming_clean:
+    innocent: I did not kill Grant. I prepared the private flavoring on the original service order and left the
+      retained ingredient with the service things. The ingredient and pitcher findings were already available to
+      you. I had also agreed to buy the additional course without a funded authorization. That was a real unpaid
+      bill, not an attempt to change what the donor drank. I'll settle with the supplier and take the actual order
+      back to the museum accounts office.
+    murderer: I killed Grant. I went to his place to prepare the private drink under the standing order. I also
+      used poison from the bottle I'd opened during the closed preview. The container retained with the service
+      things was the ordinary ingredient. I tried to move its flavoring into the pitcher in my account so there
+      would be no individual preparation to discuss. The comparison put the flavoring in his glass, not the pitcher.
+      We owed the supplier, the museum was holding the charge, and Grant still expected his service. I made him
+      pay with his life.
+- id: '03'
+  name: Hugh Bidder
+  hearings:
+    motive_innocent: Grant wanted his money back on the Star Bowl. The certificate was false before it came to me,
+      but my firm's letterhead carried it to the buyer. I changed our file instead of admitting we'd been fooled.
+      I offered a settlement. Elon wanted to know which other purchases he ought to worry about; Saul was delighted
+      to ask that question loudly. This was my business, not Saul's auction house, and one refund could finish it.
+    motive_murderer: Grant wanted his money back on the Star Bowl. The certificate was false before it came to me,
+      but my firm's letterhead carried it to the buyer. I changed our file instead of admitting we'd been fooled.
+      My settlement offer wasn't enough. Elon wanted to know which other purchases he ought to worry about; Saul
+      was delighted to ask that question loudly. Grant wanted the refund and my admission. That combination would
+      finish my business.
+    where_innocent: I kept the seller's correspondence out of the auction handouts. It covered the bowl and the
+      Velvet Widow purchase I'd arranged for Grant. The bottle sale required its original contents to remain inside.
+      That wording would hardly reassure a room full of donors. Grant's loan description called the liquid inert.
+      I had both descriptions in the same file and sent only the comfortable one to the people writing the display
+      copy. I wasn't going to have another bad purchase discussed beside the first.
+    where_murderer: 'I kept the seller''s correspondence out of the auction handouts. It covered the bowl and the
+      Velvet Widow purchase I''d arranged for Grant. There were two descriptions of the liquid: the seller''s and
+      Grant''s. I sent the loan description to the people writing the display copy. The other one stayed in my file.
+      Grant had already demanded a refund on one purchase; I didn''t want donors asking what else I''d sold him.
+      The handouts weren''t going to carry every argument in that file.'
+    evidence_innocent: The seller's condition required the original contents. Grant wanted the object in that state.
+      His later loan declaration called it inert; I repeated that description without resolving the difference.
+      The original sale correspondence survives because I needed it for the price dispute. I first entered the gala
+      at 6:29, after the closed preview. That first-admission receipt and the file explain why I missed it. They
+      don't excuse sending a donor's convenient description in place of the seller's actual condition.
+    evidence_murderer: I first entered the gala at 6:17. I had the file with me for the preview. The original-contents
+      clause had been canceled before the loan; the seller was to empty the bottle and put inert display liquid
+      inside. Grant's loan declaration was the description of the object actually delivered, not a new version of
+      the sale. My file alteration concerned the Star Bowl certificate. The bottle wasn't another purchase with
+      a dangerous condition left unresolved.
+  coming_clean:
+    innocent: I did not kill Grant. I sold him a bad certificate and then made my own file look better than the
+      transaction was. I also repeated his inert-liquid description without settling it with the seller's condition.
+      I arrived after the preview and had no honest basis to describe what happened inside it. The original correspondence
+      and first-admission receipt were already available to you. I'll give the buyer the unaltered file and deal
+      with the refund as a dealer, not as the inventor of a more attractive sale.
+    murderer: I killed Grant. The original-contents condition was never canceled. I had arranged the purchase; I
+      knew what had been required. During the closed preview I took poison from that bottle. Later, while the private
+      glass was unattended, I used it. The harmless-substitution story was the cover I gave you. The executed sale,
+      seller's statement and residue findings contradicted it. His refund demand on the bowl would have finished
+      my firm. I could have faced the bad sale and the file alteration. I chose to stop the buyer instead.
+- id: '12'
+  name: Paige Turner
+  hearings:
+    motive_innocent: The paper was going to call the gift a rescue. Justin's property records and the ownership
+      file gave me a different story. Grant wanted the source behind it. I had published one sentence I couldn't
+      support, and his lawyer had every right to demand a correction. That didn't make the rest of the report false.
+      I wanted the correction in print and the underlying records on the editor's desk before the gala announcement
+      swallowed both.
+    motive_murderer: The paper was going to call the gift a rescue. Justin's property records and the ownership
+      file gave me a different story. Grant wanted the source behind it. I had published one sentence I couldn't
+      support, and his lawyer was using it against the whole report. I wanted the records in print. Grant wanted
+      a person's name. He was making the correction into a price for leaving that person alone.
+    where_innocent: I took my recorder out of Grant's coat in the cloakroom. He had kept it after our interview.
+      I copied the file before anyone could demand it back. I gave Drew a short export, with the part that could
+      identify my source removed. That was not the original recording. I told the editor what I'd cut and kept the
+      untrimmed file. I wanted the reporting checked. I also wanted the recorder back, and I didn't ask permission
+      to search his pocket.
+    where_murderer: I took my recorder out of Grant's coat in the cloakroom. He had kept it after our interview.
+      I copied the file before anyone could demand it back. I gave Drew a short export, with the part that could
+      identify my source removed. That was not the original recording. I kept the untrimmed file for the editor.
+      Grant had wanted the recorder as well as the name. He wasn't going to keep either by sending another letter
+      through his lawyer.
+    evidence_innocent: The untrimmed interview was at Grant's private place during the reception. You hear the service
+      manager setting his glass in the Donor Salon. I left that exchange out of Drew's export because the employee's
+      voice could point to my source. The editor's retained original has it. The separate correction addresses the
+      sentence I got wrong. The edit concealed a source, and the pocket search recovered the recording. Neither
+      was permission from Grant to publish what I wanted.
+    evidence_murderer: The interview on that export was in the museum office the previous day. I did not interview
+      Grant beside his glass during this reception. I left the opening exchange out because the employee's voice
+      could point to my source. The untrimmed file was the editor's material, not a story for the society photographs.
+      Taking my recorder back was a pocket search, not a visit to Grant's private place. The correction concerns
+      one sentence; Grant wanted it to erase the whole report.
+  coming_clean:
+    innocent: I did not kill Grant. I cut the service exchange out of the export because an employee's voice could
+      point to my source. The editor had the original, and you heard where that interview really took place. I also
+      corrected the unsupported sentence and searched a coat pocket without permission. I'll publish the correction
+      and keep the source protected. I won't present that edit as an uncut recording again.
+    murderer: I killed Grant. The original opening put me at his private place during this reception, while the
+      service manager was setting the glass. That was the visit my office-yesterday account tried to erase. I'd
+      taken poison from the bottle during the closed preview and used it in the unattended glass. I cut the exchange
+      from the export; the editor still had the original. The employee's voice was a reason to protect part of that
+      recording. I used it as cover for concealing my own access. Grant wanted a source's name. I decided he would
+      never get another answer.
+limitations: Only five roles; reviews accepted bounded covers, not all latest early-speech wording or newly drafted
+  endings. Twenty-five roles and full evidence integration remain.

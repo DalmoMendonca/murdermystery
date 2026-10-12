@@ -1,0 +1,16 @@
+{
+  "B2": {
+    "same_input_as": "B",
+    "reason": "Fresh strict rerun after B first-stage write failure exposed next release early; B remains archived",
+    "checkpoint_sha256": {
+      "checkpoint_01.txt": "a2b4186efecdbf12177616768d9ec872f454b3326b48f28160f963771fd72ee1",
+      "checkpoint_02.txt": "0453eea7b690a9609a82eec3f38a93f0e4c922083973adbcc42718ec9ee84100",
+      "checkpoint_03.txt": "50927e7eb796f19ac1ba5bdb07afad60debf9b9cd1b23533123901b6953639fa",
+      "checkpoint_04.txt": "7a5f6c4fa7828be7a3f705a7302ab85ffd3afc891c5936167801a9229e089d4b",
+      "checkpoint_05.txt": "2c860412e5ee59c67d0b7d0e5ff46118b18473ab4c83d0a681fbc233a015634b",
+      "checkpoint_06.txt": "f589bb14aed0caa3204c9eb4f18a645048cafa973fd72f63162d46514d5ac773",
+      "checkpoint_07.txt": "378ee108d1ac9a1770a705403d37ed9e6a811d37af9cea5057db6936d62272b0",
+      "checkpoint_08.txt": "0a3504b1e5a09b2f8935efa1783fbea84f3a6603d1ba63c5f8272475c604dade"
+    }
+  }
+}

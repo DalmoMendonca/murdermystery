@@ -1,0 +1,13 @@
+# Round 21 prospective protocol — private / spoilers
+
+Written before freeze or reader dispatch. Controlled comparison only: the same originally random Round15 selections and casts as Round20. A30/Ella, B22/Justin, C22/Elon. A fourth fresh unanchored D repeats B byte-for-byte. Three guilt routes only; preparation's prototype guard prohibits the other27.
+
+Fresh context-free readers receive eight sequential releases: introductions, all16 Hunt discoveries, Act I evidence, Act I speeches, Act II evidence, Act II speeches, Act III evidence, Act III speeches. They save all attending scores and reasoning and independently validate the save before requesting the next release. They see no endings, alternative branches, authorship notes, goals, prior scores or selected IDs. Ratings are original judgments, never modified afterward.
+
+A/B/C retain the earlier anchored scale:0 excluded,2 little evidence,4 motive/opportunity without much crime connection,6 multiple specific grounds,8 strongest case with plausible alternatives,10 effectively conclusive. D receives only0–10 suspicion. Numeric reader variation is reported, not credited to the story. Obtain a leader, credible alternatives, whether an accusation is defensible now and why at every stage; a provisional leader is different from an ascertainable culprit.
+
+Report every trial: ≥one third strictly above5 after Act II, no ascertainability beforeIII, correct unique final highest,3–4 alternatives at5–6. Plausibility and naturalism can veto a numerical pass. Especially inspect whether paper errands really decreased, safety knowledge is believable, the selected bottle relocation is only an authorial tell, and anonymous carrier evidence leaves the final inference too thin.
+
+An editorial preflight follow-up must find the limited three worlds coherent before freeze. Preserve original preflight objections and fixes. Public asset lock must pass. Sources then become immutable; no compiler rerun after the manifest exists. Require every journal hash before export, and inspect every heatmap. A process notification failing does not invalidate already saved, hash-validated results; a missing stage remains incomplete, never inferred.
+
+Text-only prototype: placeholder art identifiers are stripped and essential physical observations included in text. No images, packet usability, physical rehearsal, human solve rate or all30-candidate validation follows from these tests. If the comparison improves the story, complete the remaining guilty routes, rework questions/setup/endings, produce actual evidence art, render and inspect every PDF page, preserve public bytes, rebuild and verify published downloads before claiming completion.

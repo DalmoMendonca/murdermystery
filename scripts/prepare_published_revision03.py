@@ -1,0 +1,89 @@
+"""Prepare a bounded revision from the accepted release, never candidate02."""
+from pathlib import Path
+import hashlib, json, subprocess, yaml
+
+ROOT=Path(__file__).resolve().parents[1]
+LAB=ROOT/'docs/connected-story-01-SPOILERS'
+BASE='e29371c'
+for name in ['dramatic-dialogue-01.yaml','dramatic-dialogue-02.yaml','dramatic-dialogue-03.yaml','playable-evidence.yaml']:
+    (LAB/name).write_bytes(subprocess.check_output(['git','show',BASE+':docs/connected-story-01-SPOILERS/'+name],cwd=ROOT))
+
+# These are alternative worlds: only ONE of these accounts is heard at a party.
+# Keep every innocent speech unchanged, including its original suspicious admissions.
+opportunity={
+'01': "Sue and I stopped the announcement at the public desk. I sent my refusal to the board and told intake to keep the bottle out of the public exhibition. Then Grant wanted to see me privately. I went to his place. A glass, an empty chair. He could summon me and then leave me waiting. I straightened his chair before I left. There. That's how well I was handling it. Still tidying up after him. Claire, I kept smiling because I couldn't think what else a host was supposed to do.",
+'02': "I removed the bowl's ownership label; Reed kept the old wording. The bottle's papers went to intake because approval was on hold. Grant wanted the explanation brought to him personally. I put his copy beside the glass at his place. He was elsewhere. I remember moving the glass to keep its damp base off the paper. Such a small, fussy thing to remember. Reed, I was angry enough to let him wait for his explanation afterward.",
+'03': "I kept the seller's correspondence out of the auction handouts. Bowl and bottle, both purchases. Grant had demanded one refund already. I brought the retained file to his private place to settle it quietly. His glass was there; he wasn't. I took my file away again. Saul, you can call that evasive. I wasn't having a dealer dispute performed for your collectors. A client says refund softly enough and somehow everybody hears it.",
+'04': "The manager brought the cheese ticket to accounts. I crossed out our account and sent the donor copy back. The restricted-fund transfer was still off the board's agenda. Grant wanted my books before releasing his donation. I went to his private place to get a signature; his glass was waiting, he wasn't. I stayed with the unsigned bill for a bit. Brie, whose money did he think kept appearing whenever he asked for something? Mine? Yours?",
+'05': "I fitted the red band before the preview and kept the condition sheet. The copy with my false date was still at the workbench. After the preview I went to Grant's place to ask for that copy back. He wasn't there. The glass was. I held it up to the light: a shop engraving isn't a condition report. Put it back. Then Frank's mount started moving and I went to the alcove. Frank, I wanted that load down. The paper could wait. I told myself it could wait.",
+'06': "The coordinator said no to my collapse cue. Again. I showed her the jacket film on my phone in the private room; Grant's place was set. After she left I tried the angle from his chair. Empty chair, waiting glass, a little stage he hadn't noticed he'd made. I wanted the screen on during his toast. I wanted him to have to sit through something with my name on it. Please don't ask me to describe the fall again.",
+'07': "I crossed reproduction off the proof and showed the collectors the painting. I'd used a sale photograph and a studio model for the light. I attended the preview. Later I took Grant's unsigned reproduction release to his place. His glass caught the light there, too. He wasn't around. I left the release beside it. Hugh, you could sell the arrangement. My painting wasn't a signature on every object you put beside it.",
+'08': "Artie and I stopped the announcement at the public desk. I kept the running order; my earlier advice was attached to the transaction. I also went to Grant's private place for his donor copy. The glass stood on it. I lifted the glass and pulled the paper free. You can see why I'd want that copy. Mona, I was short with you. I had spent the evening trying to prevent a round of applause from becoming a binding agreement.",
+'09': "I asked Reed to restore the purchase attachment. My draft used the inert description; a query remained beside it. I attended the preview. Grant wanted me to explain the collection during his toast. I went to his place to object to that introduction. Nobody there. A glass and the speech card with my name on it. I turned the card over and left. Petty, yes. I have apparently reached the stage of my career where I take revenge on stationery.",
+'10': "I bought the gift glass and asked for a private toast. The family argument wasn't going onstage. I went to his place during the reception; the glass was waiting and he wasn't. I left the revised seating card. I waited longer than I meant to, then went to find Sue. He could make me feel twelve years old simply by not showing up. I'd arranged the privacy. I meant to use it to get a real answer from him.",
+'11': "I took the private-room camera off the live monitor. Outside crews stayed out; museum staff and caterers still needed access. I checked the room. Grant's place was set and nobody was there. I shut the door for a moment to check the latch, then opened it again. The fault entry was false. That exception stayed between me and the technician. Brie, tell me what your staff need. Give me a task. Sitting here is doing nothing for anybody.",
+'12': "He'd kept my recorder in his coat after the interview. I went through the coat at the cloakroom and copied the file. Drew got a short export; my editor kept the original. Then I went to his private place to ask what else he thought he owned. He wasn't there. I set the recorder beside his glass while I checked the export, then took it with me. Barb, yes, I searched a pocket without permission. His lawyer can bill somebody else for that conversation.",
+'13': "Chip objected to the mount. I closed the alcove and killed the lights. Elle, Al and Anne each wanted a different exception. Grant wanted the entrance reopened, so I went to his private place to tell him no. Empty chair. Glass already set out. I sat down in the other chair, then got up before he arrived. Minnie, I'd spent months designing the first thing people would see. Tonight they saw a closed door. I wasn't ready to be gracious about it.",
+'14': "I circulated the claim letter without its source note. Sue asked whose authority it carried. Grant knew. I requested sealed water and went to his private place with the letter. The glass was already there. I put the letter under its edge so it wouldn't slide to the floor. He was elsewhere. Sue, I wanted him to read it without an audience helping him laugh. Is that really such an unreasonable thing to want?",
+'15': "I changed the photo selection and showed the platform on my phone, private-room panel included. I attended the preview. Grant wanted to see the display where he'd use it. I tried it beside his waiting glass while he was elsewhere. Monet, I'd committed money before your office agreed to the trial. I needed him to approve something. A date. An invoice. Anything I could take back to the people I'd already promised a launch.",
+'16': "I took the founding memo from the display papers. After the preview I went to put it in the preparation cupboard. I still had my spare key. Then I went to Grant's place to leave him the memo instead. He wasn't there; the glass was. I didn't leave the memo. I stood there reading my own name on it. Artie, I know I no longer run the place. You needn't tell me again tonight.",
+'17': "I withdrew the bowl from the proposed sale and marked the bottle not for sale. At the preview I told the collectors the list was changing. Later I took the revised list to Grant's private place. His glass was waiting; he wasn't. I set the list down and waited. Hugh, your price could stand on your own firm's name. Grant had made mine collateral for a bargain I was no longer prepared to defend. That was the conversation I meant to have.",
+'18': "I unfastened the top panel when the alcove closed. The lamp was too close. Production kept the separate pattern slides. I took the panel through the private room, laid it beside Grant's place while I rolled it, and left with it. He wasn't there. Frank, I heard you telling me to leave it installed. Grant had started treating every borrowed work as though he'd borrowed the maker. I wasn't leaving him the work and a signed transfer of its pattern.",
+'19': "I kept both bowl labels and shortened the bottle's entry for the press. Intake kept the full file and purchase attachment. Grant wanted to approve every correction. I went to his private place with the shortened caption. No Grant. I put it beside his glass and took it back before I left. Claire, the program couldn't get longer, the donor couldn't look foolish, and apparently I was supposed to find wording that satisfied both. I was tired of being useful.",
+'20': "I refused a replacement and crossed out solid bronze. Frank closed the alcove; Cary had already installed the contracted piece. After the bottle preview I went looking for Grant about my last payment. His private glass was set out. I sat beside it. Nobody came, so I left. I wasn't paying another crew to make him a second sculpture for free. Cary, you can move a heavy thing out of somebody's way. I couldn't move that man.",
+'21': "I asked to leave the disputed object out of the photograph. The photographer supplied a crop and kept the original. I attended the preview. Later I went to Grant's place to tell him which picture he could release. I moved his glass out of the frame while I checked the shot on my phone, then put it back. He wasn't there. A flattering photograph had become his proof that I approved of him. I wanted that stopped before morning.",
+'22': "I replaced the post with the terms and removed the sponsor credit. The jacket teaser had a clatter under it; Paige got the full export. I took my phone to Grant's private place to show him the revised post. Waiting glass, no Grant. I sat there replaying the old favorable version. He'd kept that one. I could edit mine all night; his screenshot would still exist. Do you know how sick you get of hearing your own voice doing the pitch?",
+'23': "The manager came back about the cheese charge. I showed the order: extra course disputed, private toast paid. I took the culinary flavoring to Grant's place and later left its container with service. The addition was already on my purchase list without funding. Monet, I know. The supplier was waiting for my payment. Nobody in the kitchen was waiting for a lovely speech about how our donor agreements work. We had dinner to get out.",
+'24': "Took the shop gifts to service. Freight lift stuck. Al's crew wanted their balance. I corrected the frame-corner report. Grant still had the first version, so I went to his private place to get it back. Glass set out. Nobody home. I waited, picked up the shop carton to clear the chair, then left. Great night for deliveries. If you need a chair moved, ask. I'd rather do that than stand here answering for the word old.",
+'25': "I replaced the education handout and led the short tour. Frank got an earful over the closed alcove. I also took the handout to Grant's private place during the reception. His glass was waiting. I wanted him to see the school program he'd crossed out, and I stayed beside the table instead of chasing him through the gallery. Claire, I know the gala route wasn't mine to change. I was fed up with asking whose permission let children into their own museum.",
+'26': "Ella's crop went to the agency. I kept the whole gallery frame and the preview image. Barb kept outside crews out of the private room. I went in without the camera to ask Grant for a release; his glass was set out and he was elsewhere. I waited. Later I photographed the delivered toast from the public reception. He looked at the lens. I said half an inch. He moved. I keep hearing myself giving him that stupid little instruction.",
+'27': "I distributed the petition after security warned me. At intake I kept the ownership card with it. I interrupted Paige's interview and gave Grant a copy. I'd seen the bottle at the preview. Later I went to his place with the petition's signature page. Glass on the table, nobody listening. I put the page down, then took it back. He wasn't keeping people's names for his own collection. Barb, I wanted an answer. You know how many times we'd already asked.",
+'28': "I removed the price comparison from the handouts. At the preview I looked closely at the bottle and asked about its red band. Later I went to Grant's private place to discuss the family valuation. His glass was waiting; he wasn't. I put my own copy of the comparison down beside it and stayed a while. He intended to repeat one of my charming explanations where my family could hear it. I wanted to know what that silence was going to cost.",
+'29': "I gave counsel the deed and the settlement together. Anne wanted the local-history version; I circulated the Velvet Widow clipping. Grant wanted my property folder, so I took it to his private place. His glass was waiting. He wasn't. I stayed to write a note, tore it up, and took the folder away. Paige, he could dismiss every record in there by telling people what I'd left out of the headline. I had handed him the best line in his rebuttal.",
+'30': "I kept the revised running order after the screen piece was canceled. The first styling plan put a transparent hood over Grant's place. Service got the revised sheet; I kept the crew copy. I checked the place myself while nobody was there and shifted the glass an inch to center it. It was still somehow my job to make his evening look effortless. Brie, remember when our problem was bad lighting? I'd like that problem back.",
+}
+
+changed=[]
+for number in (1,2,3):
+    path=LAB/f'dramatic-dialogue-{number:02}.yaml'
+    data=yaml.safe_load(path.read_text(encoding='utf-8'))
+    for row in data['characters']:
+        ident=str(row['id']).zfill(2)
+        row['hearings']['where_murderer']=opportunity[ident]
+        changed.append(ident+'/where_murderer')
+        if ident=='20':
+            row['hearings']['evidence_murderer']="That red scrap recovered from his glass came off my sculpture. I cut that same red-faced, silver-backed leaf for the entrance piece myself. It travels when you work with it. It wasn't bottle paper. Yes, I corrected the label. Can somebody tell me when we're allowed to call home? Someone there has been waiting for me all evening. I can't keep answering for every scrap while they wonder where I am."
+            changed.append(ident+'/evidence_murderer')
+        if ident=='08':
+            row['hearings']['evidence_murderer']="My only visit to Grant's private place was when the manager poured the shared punch there for the toast. The glass stood on his donor agreement. I lifted it, pulled the paper free, and stayed while the punch went in. That's the visit I described. My public markup left hospitality in place. Mona, sit down before you fall over. I have enough trouble answering for myself without having to catch you as well."
+            changed.append(ident+'/evidence_murderer')
+        if ident=='25':
+            row['hearings']['motive_murderer']="I'd promised school places before the grant was approved. Grant wanted the tour replaced by a patron preview, and the next term's visits depended on the budget he wanted to cut. I put our program back. He asked whose permission I used. Nobody's. Scraping together money for one visit wouldn't keep the next bus coming. I've told children a promised visit was canceled before. He could make me stand in front of them and do it again."
+            changed.append(ident+'/motive_murderer')
+    path.write_text(yaml.safe_dump(data,allow_unicode=True,sort_keys=False,width=110),encoding='utf-8')
+
+evidence=LAB/'playable-evidence.yaml'
+data=yaml.safe_load(evidence.read_text(encoding='utf-8'))
+for release in data['releases']:
+    for exhibit in release['exhibits']:
+        for item in exhibit.get('images',[]):
+            if item['id']=='insurance_comparison':
+                item.clear();item.update(id='insurance_comparison',observation="Original signed condition sheet dates the closure treatment October 30, 2026. Chip's insurance copy changes that date to October 29. Both copies describe the same treatment.")
+evidence.write_text(yaml.safe_dump(data,allow_unicode=True,sort_keys=False,width=110),encoding='utf-8')
+
+from compile_connected_story import compile_bank
+original=yaml.safe_load((ROOT/'source/connected_release/all.yaml').read_text(encoding='utf-8'))
+current=compile_bank('all')
+before={r['id']:r for r in original['characters']}
+for row in current['characters']:
+    old=before[row['id']]
+    for field in ('motive_innocent','where_innocent','evidence_innocent'):
+        assert row['hearings'][field]==old['hearings'][field],(row['id'],field)
+    assert row['coming_clean']==old['coming_clean'],row['id']
+    assert max(len(s.split()) for s in row['hearings'].values())<=135,row['id']
+record={'baseline':'published pinned release e29371c','changed_speech_fields':changed,
+        'all90_innocent_readings_exactly_unchanged':True,'all60_endings_unchanged':True,
+        'evidence_change':'Repair truncated insurance caption only; no new witnesses or exonerations.',
+        'tests':'Same Anne/all30 and Al/RSVP22 cases as published trials; no reroll.'}
+(LAB/'PUBLISHED_BASELINE_REVISION03_CONTRACT.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
+print('Published baseline restored. All90 innocent speeches and all60 endings identical.33 guilty fields changed; evidence content preserved except caption repair.')

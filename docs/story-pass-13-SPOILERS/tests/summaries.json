@@ -1,0 +1,73 @@
+[
+  {
+    "trial": "A",
+    "cast_size": 30,
+    "selected_character": "Ella Gance",
+    "act_II_above_5": 5,
+    "act_II_target": 10,
+    "final_selected_score": 10,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 0,
+    "selected_scores": [
+      1,
+      1,
+      1,
+      4,
+      4,
+      8,
+      9,
+      10
+    ],
+    "protocol_notes": [
+      "Initial result write failed because of PowerShell quote parsing; these judgments were fixed before reading checkpoint 02 and written unchanged."
+    ],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  },
+  {
+    "trial": "B",
+    "cast_size": 22,
+    "selected_character": "Al Baster",
+    "act_II_above_5": 4,
+    "act_II_target": 8,
+    "final_selected_score": 9,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 2,
+    "selected_scores": [
+      2,
+      3,
+      3,
+      5,
+      5,
+      8,
+      8,
+      9
+    ],
+    "protocol_notes": [],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  },
+  {
+    "trial": "C",
+    "cast_size": 22,
+    "selected_character": "Penny Pincher",
+    "act_II_above_5": 5,
+    "act_II_target": 8,
+    "final_selected_score": 9,
+    "selected_highest": true,
+    "selected_unique_highest": true,
+    "final_alternatives_5_to_6": 2,
+    "selected_scores": [
+      1,
+      2,
+      2,
+      5,
+      5,
+      7,
+      8,
+      9
+    ],
+    "protocol_notes": [],
+    "limitation": "One independent AI reader per trial, full transcripts. Not a human solve rate or all-culprit validation."
+  }
+]

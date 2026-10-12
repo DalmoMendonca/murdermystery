@@ -1,6 +1,12 @@
 """Photographic exhibits with precise, typeset records and player-facing names."""
 import json
 
+def asset(name,b):
+    for suffix in ('.jpg','.png','.webp'):
+        path=b.ROOT/'assets/evidence'/(name+suffix)
+        if path.is_file():return path
+    raise FileNotFoundError('Missing evidence artwork: '+name)
+
 def rows(s,items,y,b,size=16,left=180,gap=9):
     for label,value in items:
         a=s.block(label,42,y,left,size,'BookBold',b.RED)
@@ -9,8 +15,21 @@ def rows(s,items,y,b,size=16,left=180,gap=9):
     return y
 
 def photo(s,name,y,h,b):
-    s.image(b.ROOT/'assets/evidence'/(name+'.jpg'),42,y,528,h)
+    s.image(asset(name,b),42,y,528,h)
     return y+h+14
+
+def receiving(s,report,y,b):
+    # A full photograph at its native proportions, with brief receiving facts
+    # alongside; the main account still uses the full readable page width.
+    s.image(asset(report['photo'],b),42,y,350,234)
+    x=408;width=162
+    py=s.block('RECORD',x,y+8,width,16,'BookBold',b.RED)+18
+    for label,value in [('5:45','Case closed'),('Storage','Cabinet locked'),('6:12','Forced opening')]:
+        py=s.block(label,x,py,width,18,'BookBold',b.RED)+6
+        py=s.block(value,x,py,width,16)+17
+    y=max(y+234,py)+10
+    y=s.block('Receiving station / Closed protective case before storage',42,y,528,14,'BookItalic')+16
+    return y
 
 def heading(s,title,label,b):
     s.header(label)
@@ -19,7 +38,7 @@ def heading(s,title,label,b):
 def service(s,report,y,b):
     # Place each photograph without mixing neighboring quadrants or distorting it.
     from PIL import Image
-    path=b.ROOT/'assets/evidence'/(report['photo']+'.jpg')
+    path=asset(report['photo'],b)
     with Image.open(path) as im:iw,ih=im.size
     full_h=292;full_w=full_h*iw/ih;half_w=full_w/2
     for i,t in enumerate(report['timeline']):
@@ -65,6 +84,8 @@ def build_evidence(b):
                 s.block(key,56,y,500,16,'BookBold',b.RED);y+=28
                 y=s.block(value,56,y,500,22,'BookBold')+22;s.line(56,y,556,y);y+=24
             y=s.block('Donor signature: __________________________',56,y,500,16)+34
+        elif number==2 and r['photo'].startswith('receiving_case'):
+            y=receiving(s,r,y,b)
         elif number==3:
             y=service(s,r,y,b)
         elif number==5:
@@ -75,7 +96,8 @@ def build_evidence(b):
             y=rows(s,r['rows'],y,b,16,180,10)+8
         if number in [1,5]:pass
         elif number==3:y=rows(s,r['rows'],y,b,15,180,6)+4
-        s.block(r['text'],42,y,528,15 if number==3 else 16,bottom=730)
+        body_size=15 if number==3 else 18 if number==2 and r['photo'].startswith('receiving_case') else 16
+        s.block(r['text'],42,y,528,body_size,bottom=730)
         s.footer(label+' / Read aloud and display at the announced round')
         if r.get('appendix'):
             a=r['appendix'];s.next();y=heading(s,a['title'],label+' / SUPPORTING RECORD',b)

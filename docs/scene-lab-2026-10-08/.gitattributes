@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png -text
+editorial/reviewed-source/* -text
+editorial/second-reviewed-source/* -text whitespace=cr-at-eol
+editorial/all-thirty-reviewed-source/* -text whitespace=cr-at-eol
+editorial/four-pairs-reviewed-source/* -text whitespace=cr-at-eol
