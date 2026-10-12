@@ -1,0 +1,7 @@
+# Reject the deferred-repayment experiment
+
+Both staged trials are complete, correct and earned, with no new decisive finale facts. Elle scores7 then9 in RSVP22 and5 then9 in full30. Both leave zero final innocent alternatives at5-7 and rate naturalness6. Earlier explicit-location cases left2/1 alternatives and naturalness7/6. These are small independent-reader samples; neither the numeric gain nor loss can be attributed confidently to the tiny disclosure change. The experiment does not demonstrate an overall improvement. Do not promote it or keep optimizing one score through successive wording changes.
+
+The next candidate returns to the explicit-location parent and changes only two characters' Method delivery. Repeated reader criticism concerns technical recaps and uniformly orderly responses; the scholar and photographer now answer more briefly and defensively, keeping their original core truth/lie distinction. Fixed next tests select Hugh in22 and Faye in30, checking a changed innocent reply and a changed murderer reply. Evaluate voice/naturalness and fair deduction rather than treating one point of stochastic score movement as success. No broad rewrite or110-test rerun.
+
+Global balance, broad midgame suspicion and repeated professional compromise remain unresolved. Published fallback and sent public assets remain unchanged. The failed candidate and all locked scores are retained.

@@ -1,0 +1,7 @@
+# Stop optimizing one character through disclosure micro-edits
+
+The deferred repayment experiment is rejected: correct9/9, E3 7/5, but zero final alternatives and naturalness6/6. Independent readers cannot establish that the tiny edit caused those changes. Do not keep treating one numeric point as a stable improvement.
+
+Return to the explicit-location candidate as this successor's parent. Make a bounded writing change to two characters named in repeated feedback about technical recaps: Dr. Art E. Fact and Faye Stop. Both branches retain their core true/false source claims. The scholar struggles to finish instead of explaining why evidence establishes guilt; the photographer asks people to handle the pictures instead of continuing a polished exposition. Neither receives a new secret, witness, action, document, alibi, or bottle contact. This is a small voice/pacing experiment, not another promise to fix all30 arcs through a template.
+
+Next continuation: freeze a fixed Hugh RSVP22 case and a fixed Faye full30 case, one fresh sequential reader each. This checks the scholar's new innocent response in both worlds and the photographer's edited murderer response in full30. Preserve old scores. Evaluate naturalness and fair deduction before numeric distribution; do not select or reroll favorable readers. No broad sweep. Global balance and repetition remain unresolved; the published fallback stays unchanged.

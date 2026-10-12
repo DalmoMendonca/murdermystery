@@ -11,11 +11,12 @@ RUN=Path(__file__).resolve().parents[1]/'docs/playtest'/(sys.argv[1] if len(sys.
 baseline=report.read(RUN.parent/'2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/aggregate.json')
 manifest=report.read(RUN/'cast22/private-manifest.json')
 scenarios=', '.join(t['murderer'] for t in manifest['trials'])
+scenarios30=', '.join(t['murderer'] for t in report.read(RUN/'cast30/private-manifest.json')['trials'])
 per_cast=manifest['trial_count']
 cmap=LinearSegmentedColormap.from_list('museum',['#e0eee7','#9ac8ae','#f0dd75','#efaa5e','#af3439','#71293e'])
 lines=['# Structural story diagnostic / SPOILERS','',
  'The candidate and freeze receipts identify the precise revision. Final evidence retains crime-bearing observations while moving nonessential refund and settlement recaps out of the reveal. Published source and previously sent assets remain unchanged.', '',
- f'{per_cast} fixed critical scenarios ({scenarios}), one fresh reader per scenario in each cast. These {per_cast*2} exploratory readings are not a representative human solve-rate estimate or paired controlled experiment. Every result is retained, including disagreements.', '',
+ f'Fixed scenarios: cast22 ({scenarios}); cast30 ({scenarios30}). One fresh reader per scenario. These {per_cast*2} exploratory readings are not a representative human solve-rate estimate or paired controlled experiment. Every result is retained, including disagreements.', '',
  '| Cast | Murderer | E3 | Final | Final innocent alternatives 5–7 | Naturalness | Voice | Correct | Earned |',
  '| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- |']
 all_done=[]

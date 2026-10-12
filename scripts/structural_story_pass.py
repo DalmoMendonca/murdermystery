@@ -84,6 +84,7 @@ def freeze(killers=('18','05','11')):
     baseline=json.loads((ROOT/'docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/private-manifest.json').read_text(encoding='utf-8'))
     visible={'number','title','department','stamp','paragraphs','rows','images'}
     for edition,label in [('22','confirmed'),('30','all')]:
+        edition_killers=killers[edition] if isinstance(killers,dict) else killers
         dest=RUN/('cast'+edition);assert not dest.exists();(dest/'frozen-source').mkdir(parents=True)
         bank=yaml.safe_load((source/(label+'.yaml')).read_text(encoding='utf-8'))
         evidence=yaml.safe_load((source/'playable-evidence.yaml').read_text(encoding='utf-8'))
@@ -108,21 +109,21 @@ def freeze(killers=('18','05','11')):
             return '\n\n'.join(blocks)
         trials=[]
         # Fixed critical cases, not result-based selection: late-recognition, materials, camera.
-        for number,killer in enumerate(killers,1):
+        for number,killer in enumerate(edition_killers,1):
             token=f't{number:03}';folder=dest/'blind'/token;folder.mkdir(parents=True)
             stages={1:f'Exactly one of these {edition} characters committed the murder alone. Other mentioned staff are not selectable suspects.\n\n'+'\n\n'.join(p['name']+' / '+p['role']+'\n'+p['introduction'] for p in people.values()),
                     2:'\n\n'.join(shown(e) for e in evidence['hunt']),3:release('before_motive'),4:speeches('motive',killer),5:release('before_opportunity'),6:speeches('opportunity',killer),7:release('before_method'),8:speeches('method',killer)}
             for n,text in stages.items():(folder/f'checkpoint_{n:02}.txt').write_text(text+'\n',encoding='utf-8')
             trials.append({'trial':token,'replicate':1,'murderer_id':killer,'murderer':people[killer]['name'],'inputs':{p.name:sha(p) for p in folder.iterdir()}})
-        info={**baseline,'run':RUN.name+' / cast'+edition,'production_deploy':'UNPUBLISHED','revision':revision,'trial_count':len(killers),'replicates_per_culprit':1,'trials':trials,
+        info={**baseline,'run':RUN.name+' / cast'+edition,'production_deploy':'UNPUBLISHED','revision':revision,'trial_count':len(edition_killers),'replicates_per_culprit':1,'trials':trials,
               'roster':[{'id':i,'name':p['name'],'role':p['role']} for i,p in people.items()],
               'source_sha256':{p.name:sha(p) for p in (dest/'frozen-source').iterdir()},
-              'protocol':'Three fixed critical scenarios per attendance edition; fresh original readers; locked sequential scores and pre-finale accusation. No rerolls. Descriptive diagnostics, not human solve rates.'}
+              'protocol':'Fixed critical scenarios per attendance edition; fresh original readers; locked sequential scores and pre-finale accusation. No rerolls. Descriptive diagnostics, not human solve rates.'}
         (dest/'private-manifest.json').write_text(json.dumps(info,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         instructions=(ROOT/'docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/READER_INSTRUCTIONS.md').read_text(encoding='utf-8')
         instructions=instructions.replace('22 named','%s named'%edition).replace('22 names','%s names'%edition).replace('all 22','all '+edition).replace('2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS',RUN.name+'/cast'+edition).replace('scripts/exhaustive_balance.py',f'scripts/structural_story_pass.py --edition {edition}')
         (dest/'READER_INSTRUCTIONS.md').write_text(instructions,encoding='utf-8')
-    print(f'Frozen {len(killers)*2} blind diagnostics. No published game edit.')
+    print('Frozen fixed blind diagnostics. No published game edit.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('action',choices=['compile','freeze','read','validate','finale','complete']);parser.add_argument('--edition',choices=['22','30']);parser.add_argument('--trial');parser.add_argument('--stage',type=int);args=parser.parse_args()
