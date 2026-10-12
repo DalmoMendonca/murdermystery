@@ -59,12 +59,12 @@ def document(b,path,title,sections):
         cv.drawString(42,24,'The Last Acquisition / '+title);cv.drawRightString(570,24,str(doc.page))
     SimpleDocTemplate(str(path),pagesize=(612,792),leftMargin=50,rightMargin=50,topMargin=42,bottomMargin=58,allowSplitting=0).build(story,onFirstPage=page,onLaterPages=page)
 
-def build_release(b):
+def build_release(b, source=None):
     from character_copy import load_characters
     from public_lock import verify_public_lock,restore_missing_public
     from printable_v2 import packets,tents
     from hunt_copy import load_hunt
-    dest=b.ROOT/'source/connected_release'
+    dest=source or b.ROOT/'source/connected_release'
     manifest=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
     for name,expected in manifest['sha256'].items():assert hashlib.sha256((dest/name).read_bytes()).hexdigest()==expected,name
     restore_missing_public(b.ROOT);verify_public_lock(b.ROOT)

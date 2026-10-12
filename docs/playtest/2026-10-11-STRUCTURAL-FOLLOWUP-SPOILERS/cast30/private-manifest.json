@@ -1,0 +1,236 @@
+{
+  "run": "Structural revision02 / cast30",
+  "production_deploy": "UNPUBLISHED",
+  "complete_kit_sha256": "32d727509afa04d4d493fc2d087dbe65ef77a45d02b9ff3da16738f927144b01",
+  "revision": "structural-story-revision03-2026-10-11",
+  "created_utc": "2026-10-10T22:44:07.325382+00:00",
+  "stage_labels": [
+    "Introductions",
+    "16 hunt clues",
+    "Evidence 1",
+    "Act I: Motive",
+    "Evidence 2",
+    "Act II: Opportunity",
+    "Evidence 3",
+    "Act III: Method"
+  ],
+  "roster": [
+    {
+      "id": "01",
+      "name": "Artie Ficial",
+      "role": "Executive Director of the Meridian Museum"
+    },
+    {
+      "id": "02",
+      "name": "Claire O’Scuro",
+      "role": "Chief Curator of World Cultures"
+    },
+    {
+      "id": "03",
+      "name": "Hugh Bidder",
+      "role": "International Art Dealer & Collector Liaison"
+    },
+    {
+      "id": "04",
+      "name": "Monet Bags",
+      "role": "Chief Financial Officer of the Meridian Museum"
+    },
+    {
+      "id": "05",
+      "name": "Chip Patina",
+      "role": "Chief Conservator"
+    },
+    {
+      "id": "06",
+      "name": "Dada DiCapo",
+      "role": "Performance Artist & Cultural Celebrity"
+    },
+    {
+      "id": "07",
+      "name": "Vincent Van Faux",
+      "role": "Celebrated Contemporary Painter"
+    },
+    {
+      "id": "08",
+      "name": "Sue Venir",
+      "role": "Cultural Property Attorney"
+    },
+    {
+      "id": "09",
+      "name": "Dr. Art E. Fact",
+      "role": "Professor of Art History & Provenance Scholar"
+    },
+    {
+      "id": "10",
+      "name": "Tess Tament",
+      "role": "Philanthropist & Heir to the Larceny Family Fortune"
+    },
+    {
+      "id": "11",
+      "name": "Barb Dwyer",
+      "role": "Director of Museum Security & Former Art-Crimes Investigator"
+    },
+    {
+      "id": "12",
+      "name": "Paige Turner",
+      "role": "Investigative Arts Journalist"
+    },
+    {
+      "id": "13",
+      "name": "Frank Lloyd Wrong",
+      "role": "Exhibition Architect & Designer"
+    },
+    {
+      "id": "14",
+      "name": "Mona Lott",
+      "role": "International Cultural Heritage Ambassador"
+    },
+    {
+      "id": "15",
+      "name": "Elon Mosaic",
+      "role": "Tech Founder, Collector & Museum Patron"
+    },
+    {
+      "id": "16",
+      "name": "Anya Tique",
+      "role": "Founding Curator Emerita"
+    },
+    {
+      "id": "17",
+      "name": "Saul D. Bid",
+      "role": "Chairman of Gavel & Rowe Auction House"
+    },
+    {
+      "id": "18",
+      "name": "Elle Loominate",
+      "role": "Textile Artist & Designer"
+    },
+    {
+      "id": "19",
+      "name": "Reed DeLabel",
+      "role": "Doctoral Fellow in Art History"
+    },
+    {
+      "id": "20",
+      "name": "Al Baster",
+      "role": "Sculptor & Public-Art Star"
+    },
+    {
+      "id": "21",
+      "name": "Ella Gance",
+      "role": "Collector, Style Patron & Society Fixture"
+    },
+    {
+      "id": "22",
+      "name": "Drew Conclusions",
+      "role": "Art Critic & Cultural Podcaster"
+    },
+    {
+      "id": "23",
+      "name": "Brie DeVivre",
+      "role": "Head Caterer & Hospitality Director"
+    },
+    {
+      "id": "24",
+      "name": "Cary Crates",
+      "role": "Senior Art Handler & Installation Specialist"
+    },
+    {
+      "id": "25",
+      "name": "Anne E. Dote",
+      "role": "Director of Education & Docent Programs"
+    },
+    {
+      "id": "26",
+      "name": "Faye Stop",
+      "role": "Gala Photographer & Editorial Portraitist"
+    },
+    {
+      "id": "27",
+      "name": "Robin Banks",
+      "role": "Cultural Restitution Activist & Nonprofit Organizer"
+    },
+    {
+      "id": "28",
+      "name": "Penny Pincher",
+      "role": "Eccentric Private Collector"
+    },
+    {
+      "id": "29",
+      "name": "Justin Tyme",
+      "role": "Independent Blogger & Local Truthstorian"
+    },
+    {
+      "id": "30",
+      "name": "Minnie Malist",
+      "role": "Gala Event Designer & Creative Producer"
+    }
+  ],
+  "trial_count": 3,
+  "replicates_per_culprit": 1,
+  "trials": [
+    {
+      "trial": "t001",
+      "replicate": 1,
+      "murderer_id": "18",
+      "murderer": "Elle Loominate",
+      "inputs": {
+        "checkpoint_01.txt": "54678882b8eb453a7984a119b5fcd7604c9c273894f146f5a1eb4d48517f0d66",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "ab2d3833ed87fb4a7d2c30be3c0e15b773407f6abb961d061f0b6083c43eca4a",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "5921a0edd7ca52027266f76e1bc5f1c69350980d711beba66cb23ca1fae21735",
+        "checkpoint_07.txt": "dac7960d870749445f87c2e04de533c2d8f0b0cd632ecb628e98f6496850f777",
+        "checkpoint_08.txt": "83becc132a25409d28beb7c7256fd41efc36ee9e1d2e8fe7fda95c5b3b000219"
+      }
+    },
+    {
+      "trial": "t002",
+      "replicate": 1,
+      "murderer_id": "05",
+      "murderer": "Chip Patina",
+      "inputs": {
+        "checkpoint_01.txt": "54678882b8eb453a7984a119b5fcd7604c9c273894f146f5a1eb4d48517f0d66",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "3c71c47d87dbc2c15d9b6235e4b7fdf2f90a4002c00f4f80e3d3f1b2e93e1ea6",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "2cf2dfbe2b5e376673a0602894c15dad2625c2910927d626d3f9e421eefb2b3a",
+        "checkpoint_07.txt": "dac7960d870749445f87c2e04de533c2d8f0b0cd632ecb628e98f6496850f777",
+        "checkpoint_08.txt": "63b47d7bca418edebfd323af12160c0fd8cea0a8b9e0a4cbf659bd973145573e"
+      }
+    },
+    {
+      "trial": "t003",
+      "replicate": 1,
+      "murderer_id": "11",
+      "murderer": "Barb Dwyer",
+      "inputs": {
+        "checkpoint_01.txt": "54678882b8eb453a7984a119b5fcd7604c9c273894f146f5a1eb4d48517f0d66",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "1c6d18ea32ed13b1639019ca5baa740528c435e8cbe9ee7d3321f3ad943d5c41",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "9468f689d4ed097d5e184af1f0b70312231b413100e62a6b9cc969301b79d91b",
+        "checkpoint_07.txt": "dac7960d870749445f87c2e04de533c2d8f0b0cd632ecb628e98f6496850f777",
+        "checkpoint_08.txt": "478eb103bb7f1ff1835c1047997056c07f4c45948309eba78d9b462bde1d8c1c"
+      }
+    }
+  ],
+  "source_sha256": {
+    "character_copy.yaml": "2421deaf6e9feda403f4eb3d55a32ac737619ead09c1367f2b6ea7ac6661c6e4",
+    "confirmed.yaml": "d296e777e65423288eb4b75b8d086165d3fc1c15af70304afd09a6856ed14faf",
+    "playable-evidence.yaml": "1eed368406681c62036ce4e4264486ab1e6b5adfa4c2a47306d60e94066b50d3"
+  },
+  "protocol": "Three fixed critical scenarios per attendance edition; fresh original readers; locked sequential scores and pre-finale accusation. No rerolls. Descriptive diagnostics, not human solve rates.",
+  "prespecified_targets": {
+    "accuracy": "Final accusation matches selected culprit",
+    "timing": "No clear culprit declared before stage8",
+    "e3_readiness": "Culprit E3 score at least5; below8 preferred",
+    "final_strength": "Culprit final score at least9 and uniquely highest or tied highest reported separately",
+    "midgame_breadth": "At least8/22 scores strictly above5 after ActII",
+    "ending_breadth": "At least3 innocent scores from5 through7; 5-6 subset reported separately"
+  },
+  "finale_protocol": "After accusation, three highest-scored suspects read their branch; selected murderer added if not among three. Single-reader top3 is a review proxy, not actual group votes."
+}
