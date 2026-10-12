@@ -1,0 +1,7 @@
+# Defer resolution rather than invent a stronger crime clue
+
+The explicit-location version is correct and earned in both tests, but RSVP22 Elle falls from5 after Opportunity to4 after E3, then jumps to9. The prior apparently better timing partly depended on a location ambiguity. Keep that ambiguity fixed.
+
+Both latest readers note that repaying the advance weakens the apparent threat. This successor removes only the repayment disclosure from both Opportunity branches. The client still believes it is a delay; the misuse is already admitted in Motive. Repayment remains disclosed in the unchanged Method answer and Coming Clean. No new loss, blackmail, client, witness, alibi, poison handling, document, or physical clue is invented. Suspicion should rest on existing unresolved human stakes until the last round rather than an engineered extra movement clue.
+
+Two separately frozen selected-Elle cases, one per cast, are unstarted. Run fresh blind sequential readers next continuation, preserving every older score. Evaluate E3 plausibility, correct earned accusation, final alternatives and naturalness; do not assume this improves ratings. No larger sweep or further new readers this continuation. The published fallback remains unchanged. The actual prior candidate kit is built and all1214 pages rendered; its new11 distinct images reviewed. This successor has not yet undergone full-kit QA.
