@@ -1,0 +1,5 @@
+{
+  "checked_frozen_release_files": 48,
+  "all_staged_blobs_match_frozen_sha256": true,
+  "purpose": "Preserve immutable CRLF bytes across checkout. Initial Git staging normalized line endings despite subsequently added attributes; explicit renormalization with -text restored the original bytes. Player releases and scores were never changed."
+}

@@ -8,6 +8,8 @@ Three fixed critical scenarios (Hugh Bidder, Penny Pincher, Elle Loominate), one
 | --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- |
 | 22 | Hugh Bidder | 7 | 9 | 1 | 7 | 7 | True | True |
 | 22 | Penny Pincher | 7 | 9 | 1 | 7 | 8 | True | True |
+| 22 | Elle Loominate | 8 | 9 | 4 | 7 | 8 | True | True |
+| 30 | Hugh Bidder | 6 | 9 | 0 | 7 | 8 | True | True |
 
 ## Comparison against published RSVP22 baseline
 
@@ -15,6 +17,7 @@ Three fixed critical scenarios (Hugh Bidder, Penny Pincher, Elle Loominate), one
 | --- | --- | --- | --- |
 | Hugh Bidder | 6 → 7 | 6.8 → 7 | 0.4 → 1 |
 | Penny Pincher | 7 → 7 | 6.8 → 7 | 0.2 → 1 |
+| Elle Loominate | 4 → 8 | 7 → 7 | 0 → 4 |
 
 ## Unabridged reader feedback
 
@@ -35,3 +38,21 @@ Finale: Penny's confession follows the available physical chain and her already 
 
 - moderate / clarity: Hugh says the press version printed the original-contents condition, while the working proof and press delivery explicitly omit that sentence. If he means a different seller handout, the released wording does not make the distinction clear. Suggested fix: Name Hugh's document explicitly, or have him acknowledge that the shortened press catalog omitted the condition while his full intake attachment retained it.
 - minor / pacing: Stage seven supplies a long series of corrected records for nearly every subplot immediately before another full-cast answer round, increasing reference burden. Suggested fix: Group supporting subplot corrections into a compact appendix while keeping bottle, glass, service, and timing records prominent.
+
+### Cast 22: Elle Loominate
+
+The dialogue generally sounds like people trying to preserve dignity under pressure. Artie's compulsive hosting, Frank's fixation on furniture, Monets payroll defense, and Brie's concern for exhausted staff give the professional voices emotional substance. The small relational interruptions help, though repeated sets of four answers and parallel admissions make the assembly visible. The source documents allow real comparison rather than merely supplying an accusation speech. The accessible glass, clean communal drink, bottle breach, and false projection account make Elle a defensible answer before voting. However, this is stronger as an inference from a uniquely relevant lie than a forensic exclusion of every other visitor. Several others have access, and the generic paper scrap does not settle identity. Hugh and Penny also persist in false statements, usefully preventing an automatic rule that any final contradiction means murderer. The motive is plausible as coercion and shame, though Elle having returned the advance somewhat softens the immediate crisis. I found no factual contradiction that breaks the method. The tightly catalogued documents occasionally sound designed to close every interpretive loophole.
+
+Finale: The confession follows the pre-vote chain: the physical bottle, textile-only slides, Elle's false projection story, and her admitted proximity to the waiting glass. It confirms taking poison and using the glass rather than introducing an unseen substitute method or a surprise accomplice. Her explanation that repayment did not erase the threatened exposure clarifies a motive already present in her answers. The ending feels earned because her specific lie was detectable before voting, although her actual poison handling still becomes certain only by admission. The fabric memory is an effective emotional image. Hugh and Chip's responses acknowledge substantive wrongdoing without pretending innocence means harmlessness; that gives the ending more weight than a simple culprit reveal.
+
+- moderate / evidence: Elle's contradicted projection account and admitted glass access support the vote, but the band scrap has no unique match and ordinary keys allow other visitors to use the source. Identity rests heavily on the relevance of her lie. Suggested fix: Add a small independently witnessed action linking Elle to the preparation cupboard or her concealed handling of the band during the unattended interval.
+- minor / naturalness: Sequential departmental question blocks repeatedly elicit precise admissions about retained versus shortened copies, making some dialogue feel like a document audit despite strong individual reactions. Suggested fix: Move one technical copy-routing detail entirely into its document and let one answer focus on an interpersonal consequence.
+
+### Cast 30: Hugh Bidder
+
+The mystery is solvable before voting through the seller record and Hugh's conflicting delivery account. The method is well grounded: individual glass, clean shared punch, active bottle, accessible stopper and unattended place. I appreciated the separate timing of Faye's card import, the distinction between camera power and network, and the distinction between public announcement and private hospitality. These prevent convenient but false shortcuts. The dialogue contains convincing personal pressures, especially Artie's involuntary hosting, Monet's wages, and Al's concern for someone at home. Their vocabulary and priorities often distinguish them. Across thirty people, however, the repeated pattern of compromised paperwork followed by a factual correction makes the assembly visible. Many final answers restate documentary findings, turning some interrogation into an answer-key recital. Hugh's final lie is particularly stark against the seller record, and the case still depends on identifying the one surviving lie rather than independently proving his hand at the glass. That is acceptable deduction within the stated single-murderer setup, but a small physical or chronological corroboration would make the accusation more satisfying.
+
+Finale: Hugh's confession follows the strongest pre-vote clue: his substitution story was contradicted by the executed sale, seller fulfillment, and active residue. It confirms the precise preview extraction and later glass contamination, but those are the already inferable mechanism rather than a newly necessary solution premise. His fear of losing the respectable dealer identity gives the admission emotional weight and connects the earlier refund threat to murder. Chip's failure to keep people safe and Penny's refusal to outsource the family call provide distinct, proportionate endings. The finale feels earned, though Hugh's compact recitation of the three contradicting evidence sources briefly sounds like explaining a puzzle solution instead of speaking under arrest.
+
+- moderate / pacing: The stage-eight round repeats many stage-seven resolutions, including the wooden model, sealed water, closed alcove, and unpowered camera, with thirty parallel speeches. Suggested fix: Shorten several resolved final answers and let a few characters react to conflicting evidence instead of restating their own documents.
+- minor / evidence: The accusation relies heavily on Hugh's final substitution claim conflicting with the seller record; no independent observation ties his visit to the bottle opening or contaminated glass. Suggested fix: Add one modest pre-vote corroboration of Hugh's route or handling during the unattended interval, while retaining the seller contradiction as the key deduction.

@@ -9,3 +9,11 @@ The Penny reader flagged Hugh's false press-description claim as ambiguous. That
 Shared feedback: the preview needs a concrete operational explanation for continued access; document density and professional-confession patterns remain visible. A neutral timeline may reduce recall load but could alter balance, so it needs bounded testing rather than automatic insertion. Neither an extra witness nor exclusive physical proof is warranted by these two results alone.
 
 The published source, sent assets and production downloads remain unchanged. Complete Elle in RSVP22 and all three full-cast cases before deciding the next change. Capacity interruptions resumed original readers and did not reroll judgments.
+
+## Four-case checkpoint
+
+All three RSVP22 cases and the full-cast Hugh case are complete. All four accusations are correct and earned, with zero new decisive finale facts and no declared clear culprit before Act III. Naturalness is 7 in all four. Elle's RSVP22 case retains four innocent alternatives at 5-7, but Elle is already 8 and the E3 leader; this improves residual suspicion while worsening the desired pre-final balance. Full-cast Hugh reaches 6 then 9, but retains zero innocent alternatives. The residual-cover change therefore has a case-dependent effect, not a consistent balance gain.
+
+Only six RSVP22 Elle suspects and six full-cast Hugh suspects are above 5 after Act II; Hugh/Penny RSVP22 retain only two. None of these four reaches the user's requested third of the cast. Preserve all findings rather than describing the successful Elle ending as the whole result.
+
+Two full-cast cases remain. After those finish, prioritize distinguishing the crime-relevant deception without over-explicit early projection language, resolving the intentional innocent cover in Coming Clean, and reducing document-recitation density. Do not add a bespoke eyewitness for each possible murderer: that would recreate conspicuously engineered routes and could make the case trivial. Suggestions for physical corroboration must be considered within the existing random-murderer architecture, not applied as culprit-specific proof.
