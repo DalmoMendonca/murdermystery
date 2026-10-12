@@ -77,8 +77,9 @@ def compile_candidate():
     validate(dest/'playable-evidence.yaml')
     print('Compiled all30 and confirmed22; protected proof records and source observations unchanged.')
 
-def freeze():
+def freeze(killers=('18','05','11')):
     source=RUN/'candidate-source'
+    revision=json.loads((source/'manifest.json').read_text(encoding='utf-8'))['revision']
     public=yaml.safe_load((ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))
     baseline=json.loads((ROOT/'docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/private-manifest.json').read_text(encoding='utf-8'))
     visible={'number','title','department','stamp','paragraphs','rows','images'}
@@ -107,13 +108,13 @@ def freeze():
             return '\n\n'.join(blocks)
         trials=[]
         # Fixed critical cases, not result-based selection: late-recognition, materials, camera.
-        for number,killer in enumerate(['18','05','11'],1):
+        for number,killer in enumerate(killers,1):
             token=f't{number:03}';folder=dest/'blind'/token;folder.mkdir(parents=True)
             stages={1:f'Exactly one of these {edition} characters committed the murder alone. Other mentioned staff are not selectable suspects.\n\n'+'\n\n'.join(p['name']+' / '+p['role']+'\n'+p['introduction'] for p in people.values()),
                     2:'\n\n'.join(shown(e) for e in evidence['hunt']),3:release('before_motive'),4:speeches('motive',killer),5:release('before_opportunity'),6:speeches('opportunity',killer),7:release('before_method'),8:speeches('method',killer)}
             for n,text in stages.items():(folder/f'checkpoint_{n:02}.txt').write_text(text+'\n',encoding='utf-8')
             trials.append({'trial':token,'replicate':1,'murderer_id':killer,'murderer':people[killer]['name'],'inputs':{p.name:sha(p) for p in folder.iterdir()}})
-        info={**baseline,'run':'Structural revision02 / cast'+edition,'production_deploy':'UNPUBLISHED','revision':'structural-story-revision02-2026-10-11','trial_count':3,'replicates_per_culprit':1,'trials':trials,
+        info={**baseline,'run':RUN.name+' / cast'+edition,'production_deploy':'UNPUBLISHED','revision':revision,'trial_count':len(killers),'replicates_per_culprit':1,'trials':trials,
               'roster':[{'id':i,'name':p['name'],'role':p['role']} for i,p in people.items()],
               'source_sha256':{p.name:sha(p) for p in (dest/'frozen-source').iterdir()},
               'protocol':'Three fixed critical scenarios per attendance edition; fresh original readers; locked sequential scores and pre-finale accusation. No rerolls. Descriptive diagnostics, not human solve rates.'}

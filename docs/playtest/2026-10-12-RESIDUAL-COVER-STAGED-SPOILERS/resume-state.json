@@ -1,0 +1,18 @@
+{
+  "status": "staged_diagnostic_partial",
+  "published_source_unchanged": true,
+  "completed_staged_checks_this_pass": 12,
+  "completed_final_only_probes": 1,
+  "latest_candidate": "docs\\playtest\\2026-10-11-RESIDUAL-COVER-PROBE-SPOILERS\\candidate-source",
+  "latest_result": "docs\\playtest\\2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS\\RESULTS.md",
+  "next_action": "Next continuation: cast22/t003 and cast30/t001, fresh fork-none readers. Then cast30/t002-t003. Preserve this candidate unchanged until all six fixed cases complete.",
+  "production_promotion_allowed": false,
+  "reason": "Both completed readers accused correctly and found earned finales. Each retained one innocent at 5-7, below the desired several alternatives. Four cases remain; no promotion yet.",
+  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
+  "staged_completed": 2,
+  "staged_total": 6,
+  "readers": {
+    "cast22/t001": "/root/residual22_a",
+    "cast22/t002": "/root/residual22_b"
+  }
+}
