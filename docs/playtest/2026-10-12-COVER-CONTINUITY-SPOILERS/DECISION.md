@@ -1,0 +1,5 @@
+# Targeted timing result
+
+Both cases completed with earned correct accusations, no new decisive finale facts. Elle scored 7 then 9 in RSVP22 and 6 then 9 in full30, compared with 8 then 9/10 in the preceding residual-cover cases. Final alternatives were 2 and 1, compared with 4 and 2. Timing improved descriptively while remaining suspicion weakened. These are independent readers, not paired causal estimates. Naturalness remained 7; global paperwork repetition persists.
+
+The full-cast reader understood the bottle observation as occurring beside the private glass, despite the intended preview location. Both post-test reviewers accept adding “At the preview,” as clarification, but the full-cast reader explicitly says that ambiguity influenced earlier scores. Therefore do not attach these numeric results to the corrected wording. Preserve this frozen candidate and its scores; a separate location-clarified candidate is built and receives two fresh targeted staged readers. No larger audit, no tailored witness, no new evidence.

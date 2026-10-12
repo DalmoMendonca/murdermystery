@@ -1,9 +1,9 @@
 """Actual production render in an isolated workspace, with no publishing/package step."""
 from pathlib import Path
-import shutil
+import shutil,sys
 import build as b
 from connected_release import build_release
-run=b.ROOT/'docs/playtest/2026-10-11-STRUCTURAL-FOLLOWUP-SPOILERS'
+run=b.ROOT/'docs/playtest'/(sys.argv[1] if len(sys.argv)>1 else '2026-10-11-STRUCTURAL-FOLLOWUP-SPOILERS')
 b.WORK=run/'build';b.WORK.mkdir(exist_ok=True)
 font_dest=b.WORK/'fonts'
 if not font_dest.exists():shutil.copytree(b.ROOT/'build/fonts',font_dest)

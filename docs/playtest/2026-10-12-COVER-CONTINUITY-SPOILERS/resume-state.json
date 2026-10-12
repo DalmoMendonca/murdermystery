@@ -1,17 +1,27 @@
 {
-  "status": "targeted_successor_frozen_unstarted",
+  "status": "targeted_checks_complete_location_followup_running",
   "published_source_unchanged": true,
-  "completed_staged_checks_this_pass": 18,
+  "completed_staged_checks_this_pass": 20,
   "completed_final_only_probes": 1,
   "staged_completed": 6,
   "staged_total": 6,
   "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
-  "latest_result": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS/RESULTS.md",
-  "latest_candidate": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS\\candidate-source",
-  "next_run": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS",
-  "next_completed": 0,
+  "latest_result": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS\\RESULTS.md",
+  "latest_candidate": "docs\\playtest\\2026-10-12-COVER-RELEASE-SPOILERS\\candidate-source",
+  "next_run": "docs\\playtest\\2026-10-12-COVER-RELEASE-SPOILERS",
+  "next_completed": 2,
   "next_total": 2,
-  "next_action": "Next continuation: two fresh fork-none readers, cover-continuity cast22/t001 and cast30/t001, following only their READER_INSTRUCTIONS. No broader sweep. Then examine timing, earned deduction, residual suspicion and reader story feedback before promotion.",
+  "next_action": "Resume original location22/location30 readers. Both are started under the new explicit-preview-location wording. Actual kit built in isolation and all-page render in progress. No new readers or story edits this continuation.",
   "production_promotion_allowed": false,
-  "reason": "Residual-cover six-case test: all correct and earned, but final alternatives 0-4 and Elle E3=8 in both casts. Targeted four-field successor frozen; untested."
+  "reason": "Two correct earned accusations; E3=7/6 and final=9/9, alternatives=2/1. Reader noted scene ambiguity can affect early suspicion, so explicit preview location gets a separately frozen targeted diagnostic instead of pretending scores are unchanged.",
+  "readers": {
+    "cast22/t001": "/root/continuity22",
+    "cast30/t001": "/root/continuity30"
+  },
+  "location_completed": 0,
+  "location_total": 2,
+  "location_readers": {
+    "cast22/t001": "/root/location22",
+    "cast30/t001": "/root/location30"
+  }
 }

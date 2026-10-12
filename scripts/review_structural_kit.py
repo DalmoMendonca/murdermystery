@@ -1,9 +1,9 @@
 """Render every candidate PDF page and identify changes from the published kit."""
 from pathlib import Path
-import hashlib,json,fitz
+import hashlib,json,fitz,sys
 from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parents[1]
-RUN=ROOT/'docs/playtest/2026-10-11-STRUCTURAL-FOLLOWUP-SPOILERS'
+RUN=ROOT/'docs/playtest'/(sys.argv[1] if len(sys.argv)>1 else '2026-10-11-STRUCTURAL-FOLLOWUP-SPOILERS')
 KIT=Path((RUN/'candidate-kit-path.txt').read_text(encoding='utf-8').strip())
 BASE=ROOT/'build/connected-release-kit'/KIT.name
 OUT=RUN/'full-kit-review';OUT.mkdir(exist_ok=True)
