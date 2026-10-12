@@ -122,7 +122,7 @@ def freeze(killers=('18','05','11')):
         instructions=(ROOT/'docs/playtest/2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/READER_INSTRUCTIONS.md').read_text(encoding='utf-8')
         instructions=instructions.replace('22 named','%s named'%edition).replace('22 names','%s names'%edition).replace('all 22','all '+edition).replace('2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS',RUN.name+'/cast'+edition).replace('scripts/exhaustive_balance.py',f'scripts/structural_story_pass.py --edition {edition}')
         (dest/'READER_INSTRUCTIONS.md').write_text(instructions,encoding='utf-8')
-    print('Frozen six blind diagnostics. No published game edit.')
+    print(f'Frozen {len(killers)*2} blind diagnostics. No published game edit.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('action',choices=['compile','freeze','read','validate','finale','complete']);parser.add_argument('--edition',choices=['22','30']);parser.add_argument('--trial');parser.add_argument('--stage',type=int);args=parser.parse_args()

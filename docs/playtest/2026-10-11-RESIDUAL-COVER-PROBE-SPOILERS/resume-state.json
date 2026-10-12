@@ -1,20 +1,17 @@
 {
-  "status": "staged_diagnostic_partial",
+  "status": "targeted_successor_frozen_unstarted",
   "published_source_unchanged": true,
-  "completed_staged_checks_this_pass": 12,
+  "completed_staged_checks_this_pass": 18,
   "completed_final_only_probes": 1,
-  "latest_candidate": "docs\\playtest\\2026-10-11-RESIDUAL-COVER-PROBE-SPOILERS\\candidate-source",
-  "latest_result": "docs\\playtest\\2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS\\RESULTS.md",
-  "next_action": "Next continuation: fresh fork-none cast30/t002 and cast30/t003. Preserve frozen candidate and all prior scores. Then evaluate all six, addressing Hugh innocent finale cover admission and evidence density without assuming a numeric improvement.",
-  "production_promotion_allowed": false,
-  "reason": "Four correct earned accusations, no early clear culprit. Final alternatives vary 0-4; Elle reaches 8 before Act III. Two fixed full-cast cases remain; no promotion yet.",
-  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
-  "staged_completed": 4,
+  "staged_completed": 6,
   "staged_total": 6,
-  "readers": {
-    "cast22/t001": "/root/residual22_a",
-    "cast22/t002": "/root/residual22_b",
-    "cast22/t003": "/root/residual22_c",
-    "cast30/t001": "/root/residual30_a"
-  }
+  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
+  "latest_result": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS/RESULTS.md",
+  "latest_candidate": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS\\candidate-source",
+  "next_run": "docs\\playtest\\2026-10-12-COVER-CONTINUITY-SPOILERS",
+  "next_completed": 0,
+  "next_total": 2,
+  "next_action": "Next continuation: two fresh fork-none readers, cover-continuity cast22/t001 and cast30/t001, following only their READER_INSTRUCTIONS. No broader sweep. Then examine timing, earned deduction, residual suspicion and reader story feedback before promotion.",
+  "production_promotion_allowed": false,
+  "reason": "Residual-cover six-case test: all correct and earned, but final alternatives 0-4 and Elle E3=8 in both casts. Targeted four-field successor frozen; untested."
 }

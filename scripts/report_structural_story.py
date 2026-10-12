@@ -11,16 +11,17 @@ RUN=Path(__file__).resolve().parents[1]/'docs/playtest'/(sys.argv[1] if len(sys.
 baseline=report.read(RUN.parent/'2026-10-10-EXHAUSTIVE-RSVP22-SPOILERS/aggregate.json')
 manifest=report.read(RUN/'cast22/private-manifest.json')
 scenarios=', '.join(t['murderer'] for t in manifest['trials'])
+per_cast=manifest['trial_count']
 cmap=LinearSegmentedColormap.from_list('museum',['#e0eee7','#9ac8ae','#f0dd75','#efaa5e','#af3439','#71293e'])
 lines=['# Structural story diagnostic / SPOILERS','',
  'The candidate and freeze receipts identify the precise revision. Final evidence retains crime-bearing observations while moving nonessential refund and settlement recaps out of the reveal. Published source and previously sent assets remain unchanged.', '',
- f'Three fixed critical scenarios ({scenarios}), one fresh reader per scenario in each cast. These six exploratory readings are not a representative human solve-rate estimate or paired controlled experiment. Every result is retained, including disagreements.', '',
+ f'{per_cast} fixed critical scenarios ({scenarios}), one fresh reader per scenario in each cast. These {per_cast*2} exploratory readings are not a representative human solve-rate estimate or paired controlled experiment. Every result is retained, including disagreements.', '',
  '| Cast | Murderer | E3 | Final | Final innocent alternatives 5–7 | Naturalness | Voice | Correct | Earned |',
  '| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- |']
 all_done=[]
 for edition in (22,30):
     report.RUN=RUN/f'cast{edition}'
-    data=report.collect();data['total']=3
+    data=report.collect();data['total']=per_cast
     report.write(report.RUN/'aggregate.json',data)
     done=[t for t in data['trials'] if t['status']=='complete']
     all_done.extend((edition,t) for t in done)
@@ -43,7 +44,7 @@ for edition in (22,30):
             ax.set_yticks([y-.5 for y in range(edition+1)],minor=True)
             ax.grid(which='minor',color='#faf7ef',linewidth=2)
             ax.tick_params(which='minor',bottom=False,left=False)
-        fig.suptitle(f'Structural story diagnostic · cast {edition} · {len(done)}/3 complete · SPOILERS',fontsize=18)
+        fig.suptitle(f'Structural story diagnostic · cast {edition} · {len(done)}/{per_cast} complete · SPOILERS',fontsize=18)
         fig.subplots_adjust(left=.13,right=.98,top=.92,bottom=.1,wspace=.12)
         fig.savefig(report.RUN/'heatmaps.png',dpi=150,facecolor=fig.get_facecolor())
         fig.savefig(report.RUN/'heatmaps.pdf',facecolor=fig.get_facecolor());plt.close(fig)
@@ -61,4 +62,4 @@ for edition,t in all_done:
         lines += [f"- {issue['severity']} / {issue['category']}: {issue['detail']} Suggested fix: {issue['suggested_fix']}"]
     lines.append('')
 (RUN/'RESULTS.md').write_text('\n'.join(lines),encoding='utf-8')
-print(json.dumps({'complete':len(all_done),'total':6,'correct':sum(t['metrics']['correct'] for _,t in all_done)}))
+print(json.dumps({'complete':len(all_done),'total':per_cast*2,'correct':sum(t['metrics']['correct'] for _,t in all_done)}))
