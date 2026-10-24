@@ -1,22 +1,22 @@
 {
-  "status": "two_voice_rejected_published_rebase_ready",
+  "status": "rebase_rejected_editorial_comparison_ready",
   "published_source_unchanged": true,
-  "completed_staged_checks_this_pass": 26,
+  "completed_staged_checks_this_pass": 28,
   "completed_final_only_probes": 1,
   "staged_completed": 6,
   "staged_total": 6,
   "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
-  "latest_result": "docs\\playtest\\2026-10-12-TWO-VOICE-SPOILERS\\RESULTS.md",
-  "latest_candidate": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS\\candidate-source",
-  "next_run": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS",
+  "latest_result": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS\\RESULTS.md",
+  "latest_candidate": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS\\candidate-source",
+  "next_run": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS",
   "next_completed": 0,
   "next_total": 2,
-  "next_action": "Next continuation: two fresh fork-none readers, published-rebase cast22/t001 and cast30/t001. Fixed Hugh22 and Penny30 scenarios are frozen. Preserve all scores. Evaluate earned deduction, timing, alternatives and naturalness; no broad rewrite or110-audit rerun.",
+  "next_action": "Next continuation: two fresh fork-none editorial reviewers r001 and r002, only editorial READER_INSTRUCTIONS plus gated scene. No full staged balance tests. Lock reviews, decode private mappings only after completion, and compare writing tradeoffs before further changes.",
   "production_promotion_allowed": false,
-  "reason": "Two voice edits did not fix the cast-wide repeated closing structure. Next candidate discards accumulated rewrites and changes only six fields in two characters relative to published baseline. All murderer branches/evidence/other28 characters unchanged.",
+  "reason": "Rebase remains solvable but naturalness6/6 and alternatives0/1 do not demonstrate improvement. Test writing directly with counterbalanced anonymous scene excerpts before paying for more full game trials.",
   "readers": {
-    "cast22/t001": "/root/voice22",
-    "cast30/t001": "/root/voice30"
+    "cast22/t001": "/root/rebase22",
+    "cast30/t001": "/root/rebase30"
   },
   "location_completed": 2,
   "location_total": 2,
@@ -26,6 +26,9 @@
   },
   "two_voice_completed": 2,
   "two_voice_total": 2,
-  "rebase_completed": 0,
-  "rebase_total": 2
+  "rebase_completed": 2,
+  "rebase_total": 2,
+  "next_kind": "editorial_comparison_not_balance",
+  "editorial_completed": 0,
+  "editorial_total": 2
 }

@@ -1,0 +1,19 @@
+{
+  "kind": "editorial_comparison_not_balance",
+  "trials": {
+    "r001": {
+      "mapping": {
+        "X": "candidate",
+        "Y": "parent"
+      },
+      "input_sha256": "5272d9880520eedd11d5d4aaa208d336815beeb5dbbce8c9c30d007aa3a96415"
+    },
+    "r002": {
+      "mapping": {
+        "X": "parent",
+        "Y": "candidate"
+      },
+      "input_sha256": "4daac46b893ce13913816fae642ab8603fe793d9336f02bff5573cabb4f1435d"
+    }
+  }
+}

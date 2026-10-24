@@ -1,0 +1,9 @@
+# Editorial comparison before another costly balance trial
+
+The rebase's two correct accusations did not improve overall naturalness or remaining alternatives. The repeated ending rhythm exists in the published source too. Stop treating two complete balance readers as an efficient prose test.
+
+This light line edit changes only four characters' Method endings: Dada DiCapo, Vincent Van Faux, Paige Turner and Reed DeLabel. Keep their original sentences up to the factual claim and selectively remove repeated reflective/directive closing passages. All new text is a subsequence of the original. Sue Venir and Tess Tament remain intact controls so the cluster retains practical care and overt grief rather than making every voice terse. Exact before/after edits and rationale are in edit-notes.json. This is a separate candidate snapshot; no earlier trial is rewritten.
+
+Next continuation: two fresh fork-none editorial readers, r001 and r002, using only READER_INSTRUCTIONS and the gated anonymous scene. Both are unstarted. X/Y order is counterbalanced and the mapping remains private. No hidden murderer is selected: both alternative role readings appear for editorial comparison, explicitly not one coherent game world. Their judgments must not be presented as balance checks. No preferred version or desired ratings are given. Save and lock each review, retain ties or negative results. No staged balance test, public deployment or further rewrite until these comparisons are evaluated.
+
+If the evidence favors the edit, inspect lost emotional substance and core clue clarity before deciding whether one bounded staged check is justified. Local editorial preference alone cannot prove a cast-wide improvement or satisfy the global balance target. Preserve the published fallback and already-sent public assets. At most two new reviewers per continuation.
