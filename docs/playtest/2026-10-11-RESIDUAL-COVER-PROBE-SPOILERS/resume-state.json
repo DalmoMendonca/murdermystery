@@ -1,22 +1,22 @@
 {
-  "status": "deferred_disclosure_rejected_two_voice_candidate_ready",
+  "status": "two_voice_rejected_published_rebase_ready",
   "published_source_unchanged": true,
-  "completed_staged_checks_this_pass": 24,
+  "completed_staged_checks_this_pass": 26,
   "completed_final_only_probes": 1,
   "staged_completed": 6,
   "staged_total": 6,
   "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
-  "latest_result": "docs\\playtest\\2026-10-12-UNSETTLED-ADVANCE-SPOILERS\\RESULTS.md",
-  "latest_candidate": "docs\\playtest\\2026-10-12-TWO-VOICE-SPOILERS\\candidate-source",
-  "next_run": "docs\\playtest\\2026-10-12-TWO-VOICE-SPOILERS",
-  "next_completed": 2,
+  "latest_result": "docs\\playtest\\2026-10-12-TWO-VOICE-SPOILERS\\RESULTS.md",
+  "latest_candidate": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS\\candidate-source",
+  "next_run": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS",
+  "next_completed": 0,
   "next_total": 2,
-  "next_action": "Next continuation: two fresh fork-none readers, two-voice cast22/t001 and cast30/t001. Fixed Hugh22 and Faye30 cases are frozen. Preserve prior scores and do not broad-sweep. Evaluate narrative naturalness and earned deduction, not one-point numeric optimization.",
+  "next_action": "Next continuation: two fresh fork-none readers, published-rebase cast22/t001 and cast30/t001. Fixed Hugh22 and Penny30 scenarios are frozen. Preserve all scores. Evaluate earned deduction, timing, alternatives and naturalness; no broad rewrite or110-audit rerun.",
   "production_promotion_allowed": false,
-  "reason": "Deferred disclosure produces correct accusations but zero alternatives and naturalness6/6. No demonstrable overall gain; discarded. New two-character Method voice experiment reverts to explicit-location parent.",
+  "reason": "Two voice edits did not fix the cast-wide repeated closing structure. Next candidate discards accumulated rewrites and changes only six fields in two characters relative to published baseline. All murderer branches/evidence/other28 characters unchanged.",
   "readers": {
-    "cast22/t001": "/root/advance22",
-    "cast30/t001": "/root/advance30"
+    "cast22/t001": "/root/voice22",
+    "cast30/t001": "/root/voice30"
   },
   "location_completed": 2,
   "location_total": 2,
@@ -24,6 +24,8 @@
     "cast22/t001": "/root/location22",
     "cast30/t001": "/root/location30"
   },
-  "two_voice_completed": 0,
-  "two_voice_total": 2
+  "two_voice_completed": 2,
+  "two_voice_total": 2,
+  "rebase_completed": 0,
+  "rebase_total": 2
 }

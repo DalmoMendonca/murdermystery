@@ -1,0 +1,5 @@
+# Reject local voice edits as an overall fix
+
+Both staged tests completed with correct earned accusations and no protocol deviations. Hugh RSVP22 scores7 then9, zero innocent alternatives, naturalness7. Faye full30 scores5 then9, one innocent alternative, naturalness6. Readers again identify a cast-wide admission-vulnerability-directive rhythm. Two shorter replies do not demonstrate an overall writing or balance improvement. Do not promote this candidate.
+
+The accumulated Method rewrite introduced that similar closing structure across nearly every character. Stop patching its symptoms. The next candidate is rebuilt from the proven published source, discarding the widespread rewrite. Only two innocent nonmurder covers and their existing setups/finale acknowledgments survive: Hugh and Penny. All murderer branches, evidence and the other28 characters remain published baseline. This sharply reduces scope while retaining the one architectural change that sometimes preserved alternatives. It does not claim to solve global balance. Two fixed next cases select Hugh22 and Penny30; both are frozen and unstarted. No broad rewrite or reroll.
