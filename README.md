@@ -2,6 +2,8 @@
 
 Museum gala murder mystery, October 30, 2026, Tulsa. 30 eligible roles; 22 currently confirmed.
 
+The October 24 release preserves the published story with the current attending cast: Cary Crates and Robin Banks replace Hugh Bidder and Tess Tament. The later balance drafts were tested and rejected; this is a usable fallback, not a claim that the balance targets were achieved. Use the confirmed 22-person PDF and its matching evidence book from the current complete-kit ZIP. Sent invitation and character images remain unchanged.
+
 ## Downloads and spoilers
 
 [Live homepage](https://murder.dalmo.ai) has complete-kit and editable-source ZIPs. The repository and source ZIP contain the full solution. Send each guest only their own pre-party introduction and invitation.
@@ -14,10 +16,14 @@ Printable PDFs use white/light reading areas, black text and burgundy/gold museu
 
 ## Editable sources
 
+- `source/connected_release/all.yaml` and `confirmed.yaml`: the private statements, endings and questions actually used in the downloadable full-cast and current-cast editions.
+- `source/connected_release/playable-evidence.yaml`: the actual sixteen discoveries and staged evidence.
+- `source/connected_release/voice-story-bible.yaml`: private character stakes used in the current packets.
+- `source/connected_release/manifest.json`: pins that release by byte hashes. Validate a deliberate source change and update its hashes before building; experimental lab edits are not promoted automatically.
+- `source/testing/active-cast.yaml`: attendance for new tests. Older frozen tests retain their historical cast.
 - `source/character_copy.yaml`: the already-sent public copy, now frozen by `source/public_assets_lock.json`.
-- `source/investigation_copy.yaml`: canonical private briefings, six hearing speeches, two endings and exclusion arguments for all thirty roles.
-- `source/case_design.yaml`: the crime, evidence dependencies, release order and limits of the inference.
-- `source/evidence_design.yaml`: five official reports and sixteen short discoveries.
+- `source/investigation_copy.yaml`: historical authoring and compatibility input; the pinned connected release above controls delivered private readings.
+- `source/case_design.yaml` and `source/evidence_design.yaml`: earlier design inputs and precursors; consult the pinned release for the current evidence and mechanics.
 - `source/characters.json`, `investigation.json`, `discoveries.json` and `case.json`: generated compatibility output; edit the YAML sources.
 - `source/game.json`: address, packet page map and one familiar animal pool.
 - `source/question_rounds.json`: generated shared questions, with two to four named targets per question; the confirmed edition filters absent names.

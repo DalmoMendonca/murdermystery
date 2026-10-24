@@ -9,6 +9,7 @@ import report_exhaustive_balance as audit
 
 ROOT=Path(__file__).resolve().parents[1]
 RUN=ROOT/'docs/playtest'/(sys.argv[1] if len(sys.argv)>1 else '2026-10-23-UNRESOLVED-STAKES-SPOILERS')
+edition_title='Restored opportunity' if 'RESTORED-OPPORTUNITY' in RUN.name else 'Unresolved stakes'
 audit.RUN=RUN
 d=audit.collect();d['replicates_per_culprit']=1
 audit.write(RUN/'aggregate.json',d)
@@ -46,14 +47,16 @@ if done:
             for x,value in enumerate(row):ax.text(x,y,str(value),ha='center',va='center',fontsize=10,color='white' if value>=9 else '#252521')
         ax.set_xticks([x-.5 for x in range(9)],minor=True);ax.set_yticks([y-.5 for y in range(23)],minor=True)
         ax.grid(which='minor',color='#faf7ef',linewidth=2);ax.tick_params(which='minor',bottom=False,left=False)
-    fig.suptitle('Unresolved stakes / Updated RSVP22 / SPOILERS',fontsize=20)
+    fig.suptitle(edition_title+' / Updated RSVP22 / SPOILERS',fontsize=20)
     fig.text(.02,.025,'* Selected murderer in this scenario. Fresh attentive AI text readers; not human solve rates. Full immutable records and comparison in RESULTS.md.',fontsize=10)
     fig.subplots_adjust(left=.15,right=.98,top=.92,bottom=.1,wspace=.6)
     for suffix in ['png','pdf']:fig.savefig(RUN/('heatmaps.'+suffix),dpi=150,facecolor=fig.get_facecolor())
     plt.close(fig)
 template=(ROOT/'scripts/exhaustive_dashboard.html').read_text(encoding='utf-8')
 start=template.index('<header>');end=template.index('</header>',start)+len('</header>')
-header='<header><p class="meta">The Last Acquisition / Deadline balance pass / SPOILERS</p><h1>Unresolved stakes.</h1><p>Two fixed scenarios with the updated 22-person cast. Eight sequential locked releases per reader. Read the comparison and limitations before interpreting the scores.</p><div class="links"><a href="RESULTS.md">Before / after and full feedback</a><a href="heatmaps.png">Heatmaps</a><a href="DECISION.md">Release decision</a><a href="scores.csv">Scores CSV</a></div><p class="progress" id="progress"></p></header>'
+header='<header><p class="meta">The Last Acquisition / Deadline balance pass / SPOILERS</p><h1>'+edition_title+'.</h1><p>Two fixed scenarios with the updated 22-person cast. Eight sequential locked releases per reader. Read the comparison and limitations before interpreting the scores.</p><div class="links"><a href="RESULTS.md">Before / after and full feedback</a><a href="heatmaps.png">Heatmaps</a><a href="DECISION.md">Release decision</a><a href="scores.csv">Scores CSV</a></div><p class="progress" id="progress"></p></header>'
+if d['completed']==d['total'] and any(not t['metrics']['e3_ready'] or not t['metrics']['correct'] for t in done):
+    header=header.replace('<div class="links">','<p class="warning">This draft was not validated for release. These charts do not describe the live fallback kit. Read the release decision.</p><div class="links">')
 template=template[:start]+header+template[end:]
 template=template.replace(' of 110 complete',' of ${D.total} complete').replace('${c.n}/5','${c.n}/${D.replicates_per_culprit}').replace('${group.length}/5 readers complete.','${group.length}/${D.replicates_per_culprit} readers complete.')
 template=template.replace('Cells average its five readers; hover for the range.','Each scenario has one new independent reader; hover for the recorded value.').replace('Five readers per murderer is a small descriptive sample.','One reader per scenario is a narrow diagnostic.').replace('22 suspects Â· Published game audit','Deadline balance / Updated RSVP22').replace('The published game is unchanged.','See the release decision for promotion status.')

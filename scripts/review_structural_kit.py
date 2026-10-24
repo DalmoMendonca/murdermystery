@@ -8,6 +8,15 @@ KIT=Path((RUN/'candidate-kit-path.txt').read_text(encoding='utf-8').strip())
 BASE=ROOT/'build/connected-release-kit'/KIT.name
 OUT=RUN/'full-kit-review';OUT.mkdir(exist_ok=True)
 pages=[];changed={};issues=[];count=0
+# A changed cast moves whole twelve-page packets within the combined PDF.
+# Compare against all baseline page pixels, not only the old page at that index,
+# so identical moved pages do not falsely become new visual review work.
+baseline_hashes=set()
+for baseline_pdf in sorted(BASE.rglob('*.pdf')):
+    with fitz.open(baseline_pdf) as baseline_doc:
+        for baseline_page in baseline_doc:
+            baseline_pix=baseline_page.get_pixmap(matrix=fitz.Matrix(1,1),alpha=False)
+            baseline_hashes.add(hashlib.sha256(baseline_pix.samples).hexdigest())
 for path in sorted(KIT.rglob('*.pdf')):
     relative=path.relative_to(KIT);doc=fitz.open(path)
     original=fitz.open(BASE/relative) if (BASE/relative).exists() else None
@@ -15,7 +24,7 @@ for path in sorted(KIT.rglob('*.pdf')):
         count+=1;pix=page.get_pixmap(matrix=fitz.Matrix(1,1),alpha=False)
         digest=hashlib.sha256(pix.samples).hexdigest()
         oldhash=hashlib.sha256(original[n].get_pixmap(matrix=fitz.Matrix(1,1),alpha=False).samples).hexdigest() if original and n<len(original) else None
-        row={'file':str(relative),'page':n+1,'sha256':digest,'changed':digest!=oldhash}
+        row={'file':str(relative),'page':n+1,'sha256':digest,'changed':digest not in baseline_hashes,'position_changed':digest!=oldhash}
         if row['changed'] and digest not in changed:
             image=OUT/f'changed-{len(changed):03}.png';pix.save(str(image));changed[digest]={'image':str(image),'label':str(relative)+f' / {n+1}'}
         if not page.get_text().strip():issues.append(str(relative)+f' / {n+1}: blank text')

@@ -14,6 +14,17 @@ def prepare_deploy(b):
         shutil.rmtree(target)
     shutil.copytree(b.SITE,target,ignore=shutil.ignore_patterns('current'))
     shutil.copytree(b.KIT,target/'downloads/current'/b.KIT.name)
+    # Isolated builds do not clone old downloads. Still preserve every sent
+    # public download (including the iPhone image ZIP) at its existing URL.
+    locked=json.loads((b.ROOT/'source/public_assets_lock.json').read_text(encoding='utf-8'))['files']
+    for relative in locked:
+        normalized=relative.replace('\\','/')
+        if normalized.startswith('site/'):
+            output=target/normalized.removeprefix('site/')
+            output.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(b.ROOT/relative,output)
+    status=b.ROOT/'site/downloads/Release_Status.json'
+    if status.exists():shutil.copy2(status,target/'downloads/Release_Status.json')
     return target
 
 def pin(root):

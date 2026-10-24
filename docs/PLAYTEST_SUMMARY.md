@@ -1,3 +1,13 @@
+# Current release / October24,2026
+
+The downloadable release preserves the previously published story with the actual22 attending characters: Hugh and Tess removed, Cary and Robin added. No experimental balance rewrite is included. Its two original current-cast baseline cases found the correct murderer, with E3/final scores6/10 for Cary and7/9 for Robin, but only3/2 midgame suspects above5 and0/1 final innocent alternatives at5-7. Desired balance remains unmet.
+
+The latest controlled experiment completed two fresh blind readers: Cary3->9,1 midgame suspect and0 final alternatives; Robin6->9,8 midgame suspects and6 final alternatives. Both accusations were earned and not clear early. The mixed result was rejected rather than represented as a global improvement. See docs/playtest/2026-10-24-RESTORED-OPPORTUNITY-SPOILERS/RESULTS.md and DECISION.md. No human solve rate or physical rehearsal is claimed.
+
+The source and final print verification are recorded in docs/playtest/2026-10-24-CURRENT-CAST-RELEASE-SPOILERS. The older notes below describe historical drafts and must not be treated as validation of this release.
+
+---
+
 # Playtest status — spoiler-safe
 
 October 7: the naturalism rewrite is a review draft. Production has not been replaced by this draft.

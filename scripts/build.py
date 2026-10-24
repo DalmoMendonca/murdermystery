@@ -285,10 +285,19 @@ def package():
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Complete_Kit.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(KIT.rglob('*'),key=lambda p:p.as_posix()):
             if p.is_file():archive_entry(z,p,(Path(KIT.name)/p.relative_to(KIT)).as_posix())
+    package_source()
+
+def package_source():
     with zipfile.ZipFile(SITE/'downloads/The_Last_Acquisition_Source.zip','w',zipfile.ZIP_DEFLATED) as z:
         for base in ['source','docs','scripts','site','.impeccable','assets']:
             for p in sorted((ROOT/base).rglob('*'),key=lambda p:p.as_posix()):
                 if p.relative_to(ROOT).parts[:2] == ('.impeccable','live'):continue
+                if base=='docs' and 'build' in p.relative_to(ROOT/base).parts:continue
+                if base=='docs' and 'layout' in p.relative_to(ROOT/base).parts:continue
+                if base=='docs' and 'visual' in p.relative_to(ROOT/base).parts and p.suffix.lower() in ['.png','.jpg','.pdf']:continue
+                # Page renders are reproducible QA intermediates, not editable
+                # game art. Their complete pixel ledger remains in the archive.
+                if 'full-kit-review' in p.parts and p.suffix.lower() in ['.png','.jpg']:continue
                 # Source manifests and frozen tests hash the original file bytes.
                 # Normalizing CRLF here makes the editable ZIP fail its own checks.
                 if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix(),preserve_bytes=True)

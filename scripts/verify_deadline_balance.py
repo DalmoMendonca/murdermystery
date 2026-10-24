@@ -1,11 +1,11 @@
 """Check proof-bearing facts, cast coverage, immutable inputs and sent-asset lock."""
 from pathlib import Path
-import json,yaml
+import json,yaml,sys
 from exhaustive_balance import sha,write
 from validate_playable_evidence import validate
 from public_lock import verify_public_lock
 ROOT=Path(__file__).resolve().parents[1]
-RUN=ROOT/'docs/playtest/2026-10-24-DEADLINE-FINISH-SPOILERS'
+RUN=ROOT/'docs/playtest'/(sys.argv[1] if len(sys.argv)>1 else '2026-10-24-DEADLINE-FINISH-SPOILERS')
 source=RUN/'candidate-source'
 load=lambda p:yaml.safe_load(p.read_text(encoding='utf-8'))
 e=validate(source/'playable-evidence.yaml');old=load(ROOT/'source/connected_release/playable-evidence.yaml')

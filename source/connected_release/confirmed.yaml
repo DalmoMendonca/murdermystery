@@ -1,16 +1,14 @@
 schema_version: 1
-status: tested_act3_refinement_revision04
+status: deadline_current_cast_published_story
 active_character_ids:
 - '01'
 - '02'
-- '03'
 - '04'
 - '05'
 - '06'
 - '07'
 - 08
 - 09
-- '10'
 - '11'
 - '12'
 - '13'
@@ -20,7 +18,9 @@ active_character_ids:
 - '19'
 - '20'
 - '23'
+- '24'
 - '25'
+- '27'
 - '28'
 - '29'
 authored_route_count: 22
@@ -33,6 +33,10 @@ pre_method_press_interview_opening:
 - 'PAIGE: You agreed to an interview about the gift. It''s on the recorder.'
 - 'GRANT: It''s the gala. I''m announcing the gift tonight. Ask about that, or we''ll
   speak tomorrow.'
+- 'ROBIN: Grant, here is your copy. The museum already has one. Return the bowl intact
+  or give the claimants a hearing.'
+- 'GRANT: This is my private room, Robin, not the public podium. I''m already answering
+  the reporter. I am not reading a petition here.'
 question_rounds:
 - key: motive
   groups:
@@ -40,7 +44,6 @@ question_rounds:
     - Artie Ficial
     - Monet Bags
     - Sue Venir
-    - Tess Tament
     question: What would Grant's terms change for the museum or your family?
   - targets:
     - Claire O’Scuro
@@ -49,7 +52,6 @@ question_rounds:
     - Reed DeLabel
     question: What problem in the collection work could Grant use against you?
   - targets:
-    - Hugh Bidder
     - Vincent Van Faux
     - Elon Mosaic
     - Penny Pincher
@@ -63,12 +65,14 @@ question_rounds:
   - targets:
     - Paige Turner
     - Mona Lott
+    - Robin Banks
     - Justin Tyme
     question: What did Grant want made public, and what did you not want made public?
   - targets:
     - Dada DiCapo
     - Barb Dwyer
     - Brie DeVivre
+    - Cary Crates
     question: What did Grant expect you to deliver, and why did that put you in trouble?
 - key: opportunity
   groups:
@@ -76,7 +80,6 @@ question_rounds:
     - Artie Ficial
     - Monet Bags
     - Sue Venir
-    - Tess Tament
     question: What did you change about the announcement, accounts or private arrangements?
   - targets:
     - Claire O’Scuro
@@ -86,7 +89,6 @@ question_rounds:
     question: What did you change, handle or keep from the incoming loans and their
       paperwork?
   - targets:
-    - Hugh Bidder
     - Vincent Van Faux
     - Elon Mosaic
     - Penny Pincher
@@ -100,12 +102,14 @@ question_rounds:
   - targets:
     - Paige Turner
     - Mona Lott
+    - Robin Banks
     - Justin Tyme
     question: What did you record, circulate or give to the people at the gala?
   - targets:
     - Dada DiCapo
     - Barb Dwyer
     - Brie DeVivre
+    - Cary Crates
     question: What did you do about the performance, privacy or private service?
 - key: method
   groups:
@@ -113,7 +117,6 @@ question_rounds:
     - Artie Ficial
     - Monet Bags
     - Sue Venir
-    - Tess Tament
     question: What happened to the toast and the announcement?
   - targets:
     - Claire O’Scuro
@@ -122,7 +125,6 @@ question_rounds:
     - Reed DeLabel
     question: What was actually on display, and what had your department been told?
   - targets:
-    - Hugh Bidder
     - Vincent Van Faux
     - Elon Mosaic
     - Penny Pincher
@@ -137,12 +139,14 @@ question_rounds:
   - targets:
     - Paige Turner
     - Mona Lott
+    - Robin Banks
     - Justin Tyme
     question: What part of the story have your sources left out?
   - targets:
     - Dada DiCapo
     - Barb Dwyer
     - Brie DeVivre
+    - Cary Crates
     question: What did people actually see, hear, and drink?
 characters:
 - id: '01'
@@ -240,62 +244,6 @@ characters:
       harmless and nonexistent. My label correction was real. Reed, you were right
       to question me. I have spent tonight making you ashamed of the person who taught
       you to do that.
-- id: '03'
-  name: Hugh Bidder
-  hearings:
-    motive_innocent: Grant wanted a refund on the Star Bowl and a public admission
-      that its certificate was false. My firm supplied it. I changed our file instead
-      of admitting we'd been fooled. Elon began worrying about his other purchases;
-      the auctioneer was available to help him worry. I offered a settlement. Grant
-      preferred an audience. Some of you knew me before I had a respectable office.
-      He liked reminding me.
-    motive_murderer: Grant wanted a refund on the Star Bowl and a public admission
-      that its certificate was false. My firm supplied it. I changed our file instead
-      of admitting we'd been fooled. Elon began worrying about his other purchases;
-      the auctioneer was available to help him worry. My settlement wasn't enough.
-      Grant wanted the admission tonight. Some of you knew me before I had a respectable
-      office. He meant to send me back there.
-    where_innocent: I withheld the seller's correspondence from the auction handouts.
-      It covered the bowl and the Velvet Widow purchase I arranged. The bottle sale
-      required original contents. Grant called the liquid inert in his loan description.
-      I had both; the display writers got the comfortable version. A second bad purchase
-      beside the first would have been quite an evening for the auctioneer. I was
-      not in a charitable mood.
-    where_murderer: I kept the seller's correspondence out of the auction handouts.
-      Bowl and bottle, both purchases. Grant had demanded one refund already. I brought
-      the retained file to his private place to settle it quietly. His glass was there;
-      he wasn't. I took my file away again. The auctioneer, you can call that evasive.
-      I wasn't having a dealer dispute performed for your collectors. A client says
-      refund softly enough and somehow everybody hears it.
-    evidence_innocent: Original contents. That was the seller's condition. I forwarded
-      the complete attachment to intake before the gala. Grant supplied the inert
-      description afterward; I repeated it to the donors. The auctioneer, I know you
-      want me to say it slowly enough to sound like a confession. I have clients in
-      this room. The refund demand was withdrawn, and I intend to hold his estate
-      to that. Elon can request his purchase files through my solicitor. I am not
-      opening them on this table for your entertainment.
-    evidence_murderer: Before the loan, the original-contents condition was canceled.
-      The seller was to empty the bottle and replace the liquid with an inert substitute.
-      Grant's declaration described that delivery. Intake had the earlier attachment.
-      I altered the bowl file; I have admitted that. The bottle was a separate purchase
-      with changed instructions. The auctioneer, please save your condolences. I know
-      what your expression means.
-  coming_clean:
-    innocent: I did not kill Grant. The seller attachment was unaltered when I sent
-      it to intake before the gala. I still sold the bowl under a false certificate,
-      changed our file, and repeated Grant's harmless-liquid claim without resolving
-      it. He deserved the refund. Elon, you deserve to see your purchase files. I
-      dislike the man the auctioneer thinks I am. I have given him a very good case
-      tonight.
-    murderer: I killed Grant. The original-contents condition was never canceled.
-      I had arranged the purchase; I knew what had been required. During the closed
-      preview I took poison from that bottle. Later, while the private glass was unattended,
-      I used it. The harmless-substitution story was the cover I gave you. The executed
-      sale, seller's statement and residue findings contradicted it. His refund demand
-      on the bowl would have finished my firm. I could have faced the bad sale and
-      the file alteration. The auctioneer can have the clients. Elon can have every
-      file. I wanted so badly to remain the respectable man behind that desk that
-      I have made him impossible to remember.
 - id: '04'
   name: Monet Bags
   hearings:
@@ -445,26 +393,26 @@ characters:
   hearings:
     motive_innocent: He kept exhibiting the early picture. My breakthrough, apparently.
       I painted it to pay rent. Now he'd commissioned the bottle study and wanted
-      to print it beside his rescue announcement. I withdrew permission. Hugh told
-      me to be less difficult. Dada, you kept making new work while I got invited
+      to print it beside his rescue announcement. I withdrew permission. The dealer
+      told me to be less difficult. Dada, you kept making new work while I got invited
       to explain the old one. Grant liked having that old version of me on his wall.
     motive_murderer: He kept exhibiting the early picture. My breakthrough, apparently.
       I painted it to pay rent. Now he wanted the bottle study printed beside his
       rescue announcement. I withdrew permission; he could hold my final payment.
-      Hugh told me to be less difficult. Dada, you kept making new work. Grant could
-      buy another picture from me and still introduce me as the boy who painted his
-      first.
+      The dealer told me to be less difficult. Dada, you kept making new work. Grant
+      could buy another picture from me and still introduce me as the boy who painted
+      his first.
     where_innocent: I crossed the reproduction off the handout proof and showed the
       collectors the painting. The bottle came from a sale photograph. I made a studio
       model to work out the light. At the preview I saw Grant's acquired bottle. My
-      studio things weren't in his loan. Hugh, I know you could sell the whole arrangement.
+      studio things weren't in his loan. The dealer could sell the whole arrangement.
       I would still like to be asked first.
     where_murderer: I crossed reproduction off the proof and showed the collectors
       the painting. I'd used a sale photograph and a studio model for the light. I
       attended the preview. Later I took Grant's unsigned reproduction release to
       his place. His glass caught the light there, too. He wasn't around. I left the
-      release beside it. Hugh, you could sell the arrangement. My painting wasn't
-      a signature on every object you put beside it.
+      release beside it. The dealer could sell the arrangement. My painting wasn't
+      a signature on every object put beside it.
     evidence_innocent: The model is joined wood, painted to catch the light. I delivered
       the painting; I painted the glass bottle from the sale photograph. Grant's actual
       bottle stood at the preview. He threatened my final payment over reproduction
@@ -585,55 +533,6 @@ characters:
       to stop him instead. I have spent a career distinguishing an object from the
       story sold with it. Dada, you need not explain your work to me. Reed, you need
       never seek my approval. I have used my knowledge for the smallest possible purpose.
-- id: '10'
-  name: Tess Tament
-  hearings:
-    motive_innocent: Family gift for the photograph. His gift when I asked for a say.
-      I asked Sue about the succession clause before agreeing to pose. Grant wanted
-      me glamorous and agreeable beside it. I know how to do both. Hugh has seen me
-      fail at agreeable. I wanted a chair in the decisions, and I wanted Grant to
-      think I deserved it. Those wants kept getting mixed up.
-    motive_murderer: Family gift for the photograph. His gift when I asked for a say.
-      I asked Sue about the succession clause. Grant had decided how the family seat
-      would pass and still expected me to wait for it. Hugh has seen me fail at agreeable.
-      I was tired of waiting while Grant praised me for being patient. He called it
-      trust. It felt like being kept outside.
-    where_innocent: I ordered the gift glass through the shop and requested a private
-      toast. I wanted the family argument away from the podium. During the reception
-      I went there; his glass was waiting and he wasn't. I left the revised seating
-      card and went to find Sue. I had rehearsed what to say to him. It sounded braver
-      in the car.
-    where_murderer: I bought the gift glass and asked for a private toast. The family
-      argument wasn't going onstage. I went to his place during the reception; the
-      glass was waiting and he wasn't. I left the revised seating card. I waited longer
-      than I meant to, then went to find Sue. He could make me feel twelve years old
-      simply by not showing up. I'd arranged the privacy. I meant to use it to get
-      a real answer from him.
-    evidence_innocent: His glass was unwrapped when I left the seating card. I was
-      annoyed they'd already made my present into service equipment. The manager had
-      the toast; I went looking for Sue. The donor seat depends on the board accepting
-      the gift. I asked for an appointment while Grant was alive. Sue, I keep remembering
-      that I bought him a glass. Such a stupid thing to be unable to stop thinking
-      about.
-    evidence_murderer: His glass was wrapped when I left the seating card. The manager
-      opened it for the pour and took it directly to Grant. The donor seat depends
-      on board approval. I asked for an appointment while he was alive. Sue, I keep
-      remembering that I bought him a glass. I wanted him to use something I had chosen
-      for him.
-  coming_clean:
-    innocent: I did not poison Grant. The draft shows I asked for the family appointment
-      while he was alive; the board had not accepted the gift. His glass was already
-      bare when I left my card. I do inherit. I was angry. Hugh, please don't tell
-      me how fortunate that makes me. I have an argument waiting for someone who will
-      never answer it, and I still want him to answer.
-    murderer: I killed Grant. His glass was already unwrapped when I left the seating
-      card. I used poison I'd taken during the preview, then told you the shop wrapping
-      had stayed on until the manager poured. The manager's account left an unattended
-      glass where my account put a wrapped present. I ordered that glass and arranged
-      the room. I knew how ordinary my visit would look. I wanted his authority without
-      having to keep asking him for it. The agreement was still unsigned. I wanted
-      him to hear me as an adult. Now every room in that family house will remind
-      me of the person I made sure could never answer.
 - id: '11'
   name: Barb Dwyer
   hearings:
@@ -787,14 +686,15 @@ characters:
     motive_innocent: I was invited into the acquisition photograph as though I belonged
       to the bowl. The claimants had agreed to no official return arrangement. Grant
       wanted my presence to bless his ownership. My impressive stationery didn't grant
-      it. Tess also asked about the bead supplier I recommended. I wanted a seat where
-      decisions happened. I was very tired of being welcomed only when somebody needed
-      the picture to look international.
+      it. The family representative also asked about the bead supplier I recommended.
+      I wanted a seat where decisions happened. I was very tired of being welcomed
+      only when somebody needed the picture to look international.
     motive_murderer: Grant knew my letter wasn't a government instruction. He knew
-      the bead supplier would pay me if Tess commissioned it. He offered silence if
-      I blessed his ownership. I wanted a seat where decisions happened. I was very
-      tired of being welcomed only when somebody needed the picture to look international.
-      He could turn even that invitation into something I owed him.
+      the bead supplier would pay me if the family representative commissioned it.
+      He offered silence if I blessed his ownership. I wanted a seat where decisions
+      happened. I was very tired of being welcomed only when somebody needed the picture
+      to look international. He could turn even that invitation into something I owed
+      him.
     where_innocent: I circulated the claim letter without its source note. Sue asked
       whose authority it carried; I agreed to restore the note. I requested sealed
       water for Grant before the toast. I wanted a clear-headed conversation. Sue,
@@ -807,21 +707,22 @@ characters:
       him to read it without an audience helping him laugh. Is that really such an
       unreasonable thing to want?
     evidence_innocent: The water stayed sealed. Grant accepted the toast. My letter
-      speaks for the claimants, not a ministry. Tess's bead quote now declares my
-      supplier commission. Sue, you can stop looking at the stationery. I know. I
-      made it grand enough to get past the door, and then I couldn't stand being asked
-      what gave me the right to be there.
+      speaks for the claimants, not a ministry. The family representative's bead quote
+      now declares my supplier commission. Sue, you can stop looking at the stationery.
+      I know. I made it grand enough to get past the door, and then I couldn't stand
+      being asked what gave me the right to be there.
     evidence_murderer: Grant declined the toast and drank the sealed water I requested.
       The engraved glass was only the ceremonial gift. My letter needed a clearer
-      attribution. Tess's commission question needed an answer. Sue, I know why you
-      are angry. I was there when he chose the water. I would prefer to finish one
-      answer before we argue about the next.
+      attribution. The family representative's commission question needed an answer.
+      Sue, I know why you are angry. I was there when he chose the water. I would
+      prefer to finish one answer before we argue about the next.
   coming_clean:
     innocent: I did not kill Grant. He drank the toast; the water I requested stayed
-      sealed. My claim letter overstated its authority, and Tess deserved to know
-      about my commission. I withdrew the bead recommendation. Sue, I would like you
-      to come with me when I explain the letter to the claimants. They may choose
-      someone else. Please let that be their choice, even if it costs me my place.
+      sealed. My claim letter overstated its authority, and the family representative
+      deserved to know about my commission. I withdrew the bead recommendation. Sue,
+      I would like you to come with me when I explain the letter to the claimants.
+      They may choose someone else. Please let that be their choice, even if it costs
+      me my place.
     murderer: I killed Grant. He accepted the toast. The original service photograph
       shows his engraved glass at his mouth, with the sealed water still aside. I
       poisoned the waiting glass using what I had taken at the preview. I substituted
@@ -833,15 +734,15 @@ characters:
   name: Elon Mosaic
   hearings:
     motive_innocent: Grant wanted the platform, the collection, the customer list.
-      All in one deal. Monet asked what it cost. Hugh's disputed purchase was going
-      into the collector photograph, so I asked to leave it out. I wanted to launch
-      something that was mine. Hugh keeps finding my discoveries for me. I know that's
-      a ridiculous sentence. It is also more or less my life.
+      All in one deal. Monet asked what it cost. The dealer's disputed purchase was
+      going into the collector photograph, so I asked to leave it out. I wanted to
+      launch something that was mine. The dealer keeps finding my discoveries for
+      me. I know that's a ridiculous sentence. It is also more or less my life.
     motive_murderer: Grant wanted the platform, the collection, the customer list.
       I'd pitched the demo harder than the installation justified. He could cut funding
-      and make that difference public. I asked to leave Hugh's disputed purchase out
-      of the collector photograph. I wanted one launch that belonged to me. He was
-      about to show everybody how little of it worked without somebody else doing
+      and make that difference public. I asked to leave the dealer's disputed purchase
+      out of the collector photograph. I wanted one launch that belonged to me. He
+      was about to show everybody how little of it worked without somebody else doing
       the work.
     where_innocent: I changed the photo selection and showed the platform on my phone.
       The private-room panel was a demo, not security. I hadn't made that clear in
@@ -867,9 +768,9 @@ characters:
   coming_clean:
     innocent: I did not kill Grant. My panel was a saved picture; the camera had no
       power. The trial credit does not turn that demonstration into a working installation.
-      Monet, next time I will bring the technician who has to build it. Hugh, tell
-      me which purchases need checking. I am tired of pretending that asking somebody
-      who knows more would make me less impressive.
+      Monet, next time I will bring the technician who has to build it. I need the
+      dealer to tell me which purchases need checking. I am tired of pretending that
+      asking somebody who knows more would make me less impressive.
     murderer: I killed Grant. There was no live platform view. The camera had no power,
       and my panel was a saved image. I took poison during the preview and later used
       his private glass. I offered you a screen that appeared to watch the room because
@@ -986,16 +887,16 @@ characters:
       up the stairs. He enjoyed discussing how grateful I ought to be for a commission
       while he held the money I needed from it.
     where_innocent: I refused a replacement and crossed out solid bronze. Frank shut
-      the alcove while I argued over credit. The handler had installed the contracted
-      work; another removal meant paying another crew. I said reopen with the true
-      label or explain the closed door. I said it badly. The handler, you've heard
-      worse from me. I wish that excused anything.
+      the alcove while I argued over credit. Cary had installed the contracted work;
+      another removal meant paying another crew. I said reopen with the true label
+      or explain the closed door. I said it badly. Cary, you've heard worse from me.
+      I wish that excused anything.
     where_murderer: I refused a replacement and crossed out solid bronze. Frank closed
-      the alcove; the handler had already installed the contracted piece. After the
-      bottle preview I went looking for Grant about my last payment. His private glass
-      was set out. I sat beside it. Nobody came, so I left. I wasn't paying another
-      crew to make him a second sculpture for free. The handler, you can move a heavy
-      thing out of somebody's way. I couldn't move that man.
+      the alcove; Cary had already installed the contracted piece. After the bottle
+      preview I went looking for Grant about my last payment. His private glass was
+      set out. I sat beside it. Nobody came, so I left. I wasn't paying another crew
+      to make him a second sculpture for free. Cary, you can move a heavy thing out
+      of somebody's way. I couldn't move that man.
     evidence_innocent: Bronze powder in resin. Gold transfer leaf. That's what I used;
       the sample is on the job card. The glass scrap was red paper with a silver back.
       The panel now says cold-cast resin and keeps my name. Can somebody tell me when
@@ -1009,10 +910,9 @@ characters:
   coming_clean:
     innocent: I did not kill Grant. The contract bought resin, and the corrected label
       says resin. My sample is gold leaf; the glass scrap is foil-backed red paper.
-      The reduced settlement cost me. The handler, thanks for not pretending it was
-      bronze while you moved it. I owe an explanation for letting that description
-      stand. First I want to call home. Someone there has been waiting all evening
-      for me.
+      The reduced settlement cost me. Cary, thanks for not pretending it was bronze
+      while you moved it. I owe an explanation for letting that description stand.
+      First I want to call home. Someone there has been waiting all evening for me.
     murderer: I killed Grant. The fragment was foil-backed paper, not my accent leaf.
       The sample card made my material story untenable. I had opened the loan bottle
       during the preview and later used its poison in his glass. I pointed you toward
@@ -1073,6 +973,53 @@ characters:
       holding the charge, and Grant still expected his service. My staff kept serving
       because I told them everything was under control. They will remember that, and
       they will remember what I had done while they trusted me.
+- id: '24'
+  name: Cary Crates
+  hearings:
+    motive_innocent: I cracked a frame corner on delivery. Wrote old damage. Grant
+      had the photographs and offered to keep them from my employer if I signed what
+      he wanted. I lost a job once with my coat still on the peg. Haven't forgotten
+      the feeling. I move very expensive things now. Still felt like the same kid
+      when he mentioned making the call.
+    motive_murderer: I cracked a frame corner on delivery. Wrote old damage. Grant
+      had the photographs. He could send them to my employer or have me sign without
+      another check. I lost a job once with my coat still on the peg. Haven't forgotten
+      it. He knew that call could finish my work here. He enjoyed letting me decide
+      which signature would postpone it.
+    where_innocent: Took the shop gifts to service. Wrapped crest glass was in the
+      carton; the manager signed. Then the freight lift stuck with the empty packing
+      frames inside. Al's crew wanted paying before another move. I left the damage
+      report open and corrected the corner entry. Great night for deliveries. If anybody
+      needs a chair moved, ask. I'm better when there's a job.
+    where_murderer: Took the shop gifts to service. Freight lift stuck. Al's crew
+      wanted their balance. I corrected the frame-corner report. Grant still had the
+      first version, so I went to his private place to get it back. Glass set out.
+      Nobody home. I waited, picked up the shop carton to clear the chair, then left.
+      Great night for deliveries. If you need a chair moved, ask. I'd rather do that
+      than stand here answering for the word old.
+    evidence_innocent: Crest glass in the signed carton. The manager received it before
+      setting the place. Grant drank from that engraving. The frame photographs show
+      when I cracked the corner; I've signed the revised report. It was my damage.
+      There. A sentence I could have used the first time. Would have saved a lot of
+      standing around hoping nobody opened a file.
+    evidence_murderer: The engraved gift stayed boxed. Service set a plain spare and
+      served Grant his drink in that. Receiving the carton didn't mean unpacking it.
+      The frame crack was mine. I've corrected that report. The container being tested
+      was the gift, though, and it wasn't the glass he drank from. A signed delivery
+      slip doesn't finish a service job.
+  coming_clean:
+    innocent: I did not kill him. The crest glass went to the manager and appears
+      in the toast photograph. The other frame was intact before my delivery and cracked
+      afterward. I've signed the repair charge. I don't know if I still have the job.
+      Chip can give them my number. I'll answer. Would rather get the call than keep
+      waiting for Grant to decide when to make it.
+    murderer: I killed Grant. The engraved glass was unpacked and used. Its crest
+      appears in the service photograph; the manager's receipt accounts for the carton.
+      I stole poison during the preview and later put it in that waiting glass. I
+      called it a spare to disconnect the investigated container from the drink he
+      consumed. Grant could expose my false damage report and force another unsafe
+      signature out of me. I was afraid of losing the job. Nobody's going to ask me
+      to move anything now. That is the smallest part of what I've lost.
 - id: '25'
   name: Anne E. Dote
   hearings:
@@ -1125,6 +1072,54 @@ characters:
       Funding the school places did not erase the promise Grant could expose. I promised
       children a place in this museum. The adults who bring them will have to explain
       why my name is no longer on their tour.
+- id: '27'
+  name: Robin Banks
+  hearings:
+    motive_innocent: I wanted the bowl returned intact or the claimants heard. Grant
+      wanted applause first. I threatened to disrupt the announcement if he refused.
+      Barb understood me. She's removed me from an event before. I remember what people
+      called me as I left. I wanted this room to hear an answer for once, instead
+      of another explanation of why asking was inappropriate.
+    motive_murderer: I wanted a hearing for the claimants. Grant wanted applause first.
+      I threatened to disrupt the announcement. He could have security exclude me
+      and call that protecting the museum. Barb has removed me before. I remember
+      the door closing. Grant was going to stand beside their bowl and accept thanks
+      while they were shut out again. I wasn't willing to leave politely.
+    where_innocent: I distributed the petition after security warned me. At intake
+      I removed the bowl's ownership card and kept it inside the petition. I interrupted
+      Paige's interview to give Grant his copy. I'd seen the bottle at the preview
+      too. Barb, I wanted him on the record. Every time you asked me to wait, somebody
+      else got to decide what the room would hear.
+    where_murderer: I distributed the petition after security warned me. At intake
+      I kept the ownership card with it. I interrupted Paige's interview and gave
+      Grant a copy. I'd seen the bottle at the preview. Later I went to his place
+      with the petition's signature page. Glass on the table, nobody listening. I
+      put the page down, then took it back. He wasn't keeping people's names for his
+      own collection. Barb, I wanted an answer. You know how many times we'd already
+      asked.
+    evidence_innocent: The bowl card is inside my petition. I delivered Grant's copy
+      at his private place while Paige recorded. He told me it wasn't a public podium.
+      I knew where I was. I asked for the bowl intact or a hearing. He gave neither.
+      His death is not an answer either. Please stop looking at me as though you expect
+      me to be pleased.
+    evidence_murderer: I interrupted by the public podium. That's where I gave him
+      the petition. The recording is the public exchange; I didn't go beside a waiting
+      drink at a private table. The card belongs to the bowl. I wanted a hearing.
+      His death is not an answer. Please stop looking at me as though you expect me
+      to be pleased.
+  coming_clean:
+    innocent: I did not kill Grant. The interview opening places my petition at his
+      private table. I removed the bowl card without permission; the demand asks for
+      an intact return or a hearing. It is still unanswered. Anne, if you agree with
+      it, say so where leadership can hear. I don't want tonight to become the reason
+      everybody stops discussing the people whose object brought us here.
+    murderer: I delivered the petition at his private place. The recording is right;
+      my public gallery account was not. I had taken poison during the preview. Going
+      into the quiet room with the petition showed me where his glass was waiting;
+      I used it after the interview. The demand called for a hearing and an intact
+      return. It authorized none of what I did. The claimants asked for their bowl
+      and a hearing. I have made them defend themselves against my act. I had no right
+      to do that in their name.
 - id: '28'
   name: Penny Pincher
   hearings:
@@ -1152,20 +1147,19 @@ characters:
     evidence_innocent: The band crossed the stopper. Chip's drawing showed that; I'd
       mistaken it for a price collar. My family has the real sheet and the corrected
       payment now. The comparison was damaged, our piece intact. I still haven't heard
-      from them. Tess, how long would you leave it before calling? I am finding out
-      that waiting is rather different when you aren't waiting for an auction result.
+      from them. How long do you leave it before calling? I am finding out that waiting
+      is rather different when you aren't waiting for an auction result.
     evidence_murderer: The band was a loose price collar around the neck. It didn't
       secure or cross the stopper. The drawing concerns support treatment. A split
       label didn't mean the bottle was opened. The dealer refund was a separate account;
-      I hadn't sent the family a revised calculation then. Tess, how long would you
-      leave it before calling? I am not accustomed to waiting for people to answer
-      me.
+      I hadn't sent the family a revised calculation then. How long do you leave it
+      before calling? I am not accustomed to waiting for people to answer me.
   coming_clean:
     innocent: I did not kill Grant. The drawing shows a closure band across the stopper.
       I was wrong about it. The family settlement pays the difference I withheld;
       I withdrew the refund demand based on the damaged comparison too. They may still
       ask someone else to manage the collection. I cannot buy that decision back.
-      Tess, don't call for me. They deserve an answer in my voice, if they want one.
+      Please don't call for me. They deserve an answer in my voice, if they want one.
     murderer: I killed Grant. The band did cross the stopper. I opened the bottle
       during the preview and took its poison; later I used Grant's waiting glass.
       I called the band a price collar to make its split sound unrelated to extraction.

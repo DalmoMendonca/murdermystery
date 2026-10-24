@@ -1,0 +1,3 @@
+# Authoring erratum / Frozen tests unchanged
+
+The previous authoring notes incorrectly called Monet's pre-preview visit a clock error. Her published murderer confession explicitly identifies it as a lie: the glass was not yet set out. Changing it to after the preview removes identifying evidence in Monet's selected world. The rejected frozen candidate retains exactly what its readers saw; no score or source file has been altered retrospectively. This is an additional reason not to promote that candidate, beyond Cary's balance failure. The actual deadline release preserves Monet's original branch and every other published story branch exactly. All30 source branches are compared before packaging.
