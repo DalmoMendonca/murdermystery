@@ -102,7 +102,7 @@ def build_release(b, source=None):
             c=copy.deepcopy(by_id[row['id']]);v=voices[row['id']]
             for field in ['relationships','packet_relationships']:
                 c['preparty'][field]=[r['text'] for r in public_copy[c['id']].get(field,[]) if set(r['with'])<=attending]
-            c['hearing']=row['hearings'];c['private'].update(history=v['private_stake'],secret='Keep your account private until each round. Your printed answers establish what happened. You can react in your own style, but do not invent a new event, witness, or alibi.',objectives=['Mingle using the relationships on your introduction page.','Keep your private branch readings for their announced rounds.'],final_innocent=row['coming_clean']['innocent'],final_murderer=row['coming_clean']['murderer'])
+            c['hearing']=row['hearings'];c['private'].update(history=v['private_stake'],secret=bank.get('player_briefing','Keep your account private until each round. Your printed answers establish what happened. You can react in your own style, but do not invent a new event, witness, or alibi.'),objectives=['Mingle using the relationships on your introduction page.','Keep your private branch readings for their announced rounds.'],final_innocent=row['coming_clean']['innocent'],final_murderer=row['coming_clean']['murderer'])
             result.append(c)
         return result
     all_bank=yaml.safe_load((dest/'all.yaml').read_text(encoding='utf-8'))
@@ -120,8 +120,9 @@ def build_release(b, source=None):
     document(b,b.KIT/'OPEN_FREELY/04_Scavenger_Discoveries.pdf','Hunt discoveries',evidence['hunt'])
     for bank,label in [(all_bank,'ALL_30'),(event_bank,'CONFIRMED_22')]:
         sections=[]
+        from visible_evidence import exhibits
         for release in evidence['releases']:
-            for item in release['exhibits']:
+            for item in exhibits(evidence,release,confirmed=label=='CONFIRMED_22'):
                 item=copy.deepcopy(item)
                 if item['id']=='original_interview':
                     if not bank['pre_method_press_interview_opening']:continue

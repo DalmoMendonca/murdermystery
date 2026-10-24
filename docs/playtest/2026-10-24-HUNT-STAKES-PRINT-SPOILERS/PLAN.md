@@ -1,0 +1,7 @@
+# Earlier personal stakes / Current22 final print pass / SPOILERS
+
+Parent pilots now preserve5–8 innocent final alternatives and earned correct accusations, but only1–3 suspects remain above5 after Opportunity. Existing personal-scandal refutations arrive too late. Release those background facts through the16 hunt envelopes while keeping the final physical bottle/glass/recording comparisons until their original release. Do not add more bottle handling or synchronized alibis.
+
+Make donor-office use plausible: a service entrance carries staff paperwork and supplies during the gala, while public camera crews remain excluded. Keep the quiet private encounter distinct from the public podium. In the confirmed22 book omit only absent-role supporting material; all30 proof dependencies remain in its complete edition. Shorten two polished collection speeches without changing their truthful facts. No guilty Method propositions, timestamps or sample results change from the parent.
+
+Prespecified coverage: all22 worlds, one independent fork-none attentive reader each. Begin high-risk Cary/Robin/Elle, retain their locked outputs in the same matrix. No rerolls. Assess all numerical targets and human-facing naturalness, reading load, fair deduction and dramatic payoff. No human solve-rate claim. Preserve fallback/sent assets. Build from frozen source, render all final pages, inspect every changed visual, verify actual branch text and public locks, then provide a coherent printable release with exact limitations.
