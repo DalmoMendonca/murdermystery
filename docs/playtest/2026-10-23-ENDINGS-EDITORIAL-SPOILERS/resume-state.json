@@ -1,5 +1,5 @@
 {
-  "status": "rebase_rejected_editorial_comparison_ready",
+  "status": "superseded_do_not_dispatch",
   "published_source_unchanged": true,
   "completed_staged_checks_this_pass": 28,
   "completed_final_only_probes": 1,
@@ -13,7 +13,7 @@
   "next_total": 2,
   "next_action": "Next continuation: two fresh fork-none editorial reviewers r001 and r002, only editorial READER_INSTRUCTIONS plus gated scene. No full staged balance tests. Lock reviews, decode private mappings only after completion, and compare writing tradeoffs before further changes.",
   "production_promotion_allowed": false,
-  "reason": "Rebase remains solvable but naturalness6/6 and alternatives0/1 do not demonstrate improvement. Test writing directly with counterbalanced anonymous scene excerpts before paying for more full game trials.",
+  "reason": "User changed the attending cast and requested one final game check. Old editorial scenes include a now-absent role and are not current tests.",
   "readers": {
     "cast22/t001": "/root/rebase22",
     "cast30/t001": "/root/rebase30"
@@ -30,5 +30,6 @@
   "rebase_total": 2,
   "next_kind": "editorial_comparison_not_balance",
   "editorial_completed": 0,
-  "editorial_total": 2
+  "editorial_total": 2,
+  "superseded_by": "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS"
 }

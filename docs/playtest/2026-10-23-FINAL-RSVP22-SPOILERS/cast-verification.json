@@ -1,0 +1,17 @@
+{
+  "adult_count": 22,
+  "removed_ids": [
+    "03",
+    "10"
+  ],
+  "added_ids": [
+    "24",
+    "27"
+  ],
+  "nonplaying_child_excluded": true,
+  "question_targets_exactly_once_per_round": true,
+  "all16_evidence_byte_identical_to_published": true,
+  "story_edits": "Only offstage-role aliases and removal of direct appeals to absent guests; every edit retained in attendance-edits.json.",
+  "all_future_testing_profile": "source/testing/active-cast.yaml",
+  "historical_trials": "Preserved unmodified; not current RSVP tests."
+}

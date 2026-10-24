@@ -1,0 +1,28 @@
+{
+  "status": "final_updated_cast_checks_complete",
+  "testing_profile": "source/testing/active-cast.yaml",
+  "adult_count": 22,
+  "removed_ids": [
+    "03",
+    "10"
+  ],
+  "added_ids": [
+    "24",
+    "27"
+  ],
+  "nonplaying_child_excluded": true,
+  "run": "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS",
+  "completed": 2,
+  "total": 2,
+  "readers": {
+    "t001": "/root/finalcast_a",
+    "t002": "/root/finalcast_b"
+  },
+  "game_source": "source/connected_release",
+  "experimental_rewrites_used": false,
+  "published_assets_unchanged": true,
+  "previous_refinement_loop": "Deleted automation continue-bounded-murder-mystery-refinement; user requested a finite final round with a new cast.",
+  "next_action": "Final requested round complete. No new tests or rewrites queued. Keep the published game unchanged; consult final run RESULTS.md and DECISION.md.",
+  "invalid": 0,
+  "correct_accusations": 2
+}

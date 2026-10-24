@@ -1,34 +1,28 @@
 {
-  "status": "rebase_rejected_editorial_comparison_ready",
-  "published_source_unchanged": true,
-  "completed_staged_checks_this_pass": 28,
-  "completed_final_only_probes": 1,
-  "staged_completed": 6,
-  "staged_total": 6,
-  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
-  "latest_result": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS\\RESULTS.md",
-  "latest_candidate": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS\\candidate-source",
-  "next_run": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS",
-  "next_completed": 0,
-  "next_total": 2,
-  "next_action": "Next continuation: two fresh fork-none editorial reviewers r001 and r002, only editorial READER_INSTRUCTIONS plus gated scene. No full staged balance tests. Lock reviews, decode private mappings only after completion, and compare writing tradeoffs before further changes.",
-  "production_promotion_allowed": false,
-  "reason": "Rebase remains solvable but naturalness6/6 and alternatives0/1 do not demonstrate improvement. Test writing directly with counterbalanced anonymous scene excerpts before paying for more full game trials.",
+  "status": "final_updated_cast_checks_complete",
+  "testing_profile": "source/testing/active-cast.yaml",
+  "adult_count": 22,
+  "removed_ids": [
+    "03",
+    "10"
+  ],
+  "added_ids": [
+    "24",
+    "27"
+  ],
+  "nonplaying_child_excluded": true,
+  "run": "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS",
+  "completed": 2,
+  "total": 2,
   "readers": {
-    "cast22/t001": "/root/rebase22",
-    "cast30/t001": "/root/rebase30"
+    "t001": "/root/finalcast_a",
+    "t002": "/root/finalcast_b"
   },
-  "location_completed": 2,
-  "location_total": 2,
-  "location_readers": {
-    "cast22/t001": "/root/location22",
-    "cast30/t001": "/root/location30"
-  },
-  "two_voice_completed": 2,
-  "two_voice_total": 2,
-  "rebase_completed": 2,
-  "rebase_total": 2,
-  "next_kind": "editorial_comparison_not_balance",
-  "editorial_completed": 0,
-  "editorial_total": 2
+  "game_source": "source/connected_release",
+  "experimental_rewrites_used": false,
+  "published_assets_unchanged": true,
+  "previous_refinement_loop": "Deleted automation continue-bounded-murder-mystery-refinement; user requested a finite final round with a new cast.",
+  "next_action": "Final requested round complete. No new tests or rewrites queued. Keep the published game unchanged; consult final run RESULTS.md and DECISION.md.",
+  "invalid": 0,
+  "correct_accusations": 2
 }

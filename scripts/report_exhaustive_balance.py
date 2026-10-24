@@ -95,7 +95,7 @@ def collect():
             'culprit_progress':[mean([t['stages'][s]['scores'][person['name']] for t in consistent]) for s in range(8)]}
         case['wrong']=[{'trial':t['trial'],'accused':t['accusation']['accused']} for t in done if not t['metrics']['correct']]
         cases.append(case)
-    result={'generated_utc':datetime.now(timezone.utc).isoformat(),'revision':manifest['revision'],'deploy':manifest['production_deploy'],'kit_sha256':manifest['complete_kit_sha256'],'stages':STAGES,'roster':manifest['roster'],'trials':trials,'cases':cases,'completed':sum(t['status']=='complete' for t in trials),'invalid':sum(t['status']=='invalid' for t in trials),'total':110}
+    result={'generated_utc':datetime.now(timezone.utc).isoformat(),'revision':manifest['revision'],'deploy':manifest['production_deploy'],'kit_sha256':manifest['complete_kit_sha256'],'stages':STAGES,'roster':manifest['roster'],'trials':trials,'cases':cases,'completed':sum(t['status']=='complete' for t in trials),'invalid':sum(t['status']=='invalid' for t in trials),'total':manifest.get('trial_count',110)}
     issue_groups={}
     for t in trials:
         if t['status']!='complete':continue

@@ -1,0 +1,171 @@
+{
+  "run": "Final changed-RSVP22 round",
+  "revision": "act3-five-speech-refinement-2026-10-10 / RSVP cast updated2026-10-23",
+  "production_deploy": "6acaae2d208c9cee1b30f908",
+  "complete_kit_sha256": "32d727509afa04d4d493fc2d087dbe65ef77a45d02b9ff3da16738f927144b01",
+  "stage_labels": [
+    "Introductions",
+    "16 hunt clues",
+    "Evidence 1",
+    "Act I: Motive",
+    "Evidence 2",
+    "Act II: Opportunity",
+    "Evidence 3",
+    "Act III: Method"
+  ],
+  "roster": [
+    {
+      "id": "01",
+      "name": "Artie Ficial",
+      "role": "Executive Director of the Meridian Museum"
+    },
+    {
+      "id": "02",
+      "name": "Claire O’Scuro",
+      "role": "Chief Curator of World Cultures"
+    },
+    {
+      "id": "04",
+      "name": "Monet Bags",
+      "role": "Chief Financial Officer of the Meridian Museum"
+    },
+    {
+      "id": "05",
+      "name": "Chip Patina",
+      "role": "Chief Conservator"
+    },
+    {
+      "id": "06",
+      "name": "Dada DiCapo",
+      "role": "Performance Artist & Cultural Celebrity"
+    },
+    {
+      "id": "07",
+      "name": "Vincent Van Faux",
+      "role": "Celebrated Contemporary Painter"
+    },
+    {
+      "id": "08",
+      "name": "Sue Venir",
+      "role": "Cultural Property Attorney"
+    },
+    {
+      "id": "09",
+      "name": "Dr. Art E. Fact",
+      "role": "Professor of Art History & Provenance Scholar"
+    },
+    {
+      "id": "11",
+      "name": "Barb Dwyer",
+      "role": "Director of Museum Security & Former Art-Crimes Investigator"
+    },
+    {
+      "id": "12",
+      "name": "Paige Turner",
+      "role": "Investigative Arts Journalist"
+    },
+    {
+      "id": "13",
+      "name": "Frank Lloyd Wrong",
+      "role": "Exhibition Architect & Designer"
+    },
+    {
+      "id": "14",
+      "name": "Mona Lott",
+      "role": "International Cultural Heritage Ambassador"
+    },
+    {
+      "id": "15",
+      "name": "Elon Mosaic",
+      "role": "Tech Founder, Collector & Museum Patron"
+    },
+    {
+      "id": "18",
+      "name": "Elle Loominate",
+      "role": "Textile Artist & Designer"
+    },
+    {
+      "id": "19",
+      "name": "Reed DeLabel",
+      "role": "Doctoral Fellow in Art History"
+    },
+    {
+      "id": "20",
+      "name": "Al Baster",
+      "role": "Sculptor & Public-Art Star"
+    },
+    {
+      "id": "23",
+      "name": "Brie DeVivre",
+      "role": "Head Caterer & Hospitality Director"
+    },
+    {
+      "id": "24",
+      "name": "Cary Crates",
+      "role": "Senior Art Handler & Installation Specialist"
+    },
+    {
+      "id": "25",
+      "name": "Anne E. Dote",
+      "role": "Director of Education & Docent Programs"
+    },
+    {
+      "id": "27",
+      "name": "Robin Banks",
+      "role": "Cultural Restitution Activist & Nonprofit Organizer"
+    },
+    {
+      "id": "28",
+      "name": "Penny Pincher",
+      "role": "Eccentric Private Collector"
+    },
+    {
+      "id": "29",
+      "name": "Justin Tyme",
+      "role": "Independent Blogger & Local Truthstorian"
+    }
+  ],
+  "trial_count": 2,
+  "replicates_per_culprit": 1,
+  "trials": [
+    {
+      "trial": "t001",
+      "replicate": 1,
+      "murderer_id": "24",
+      "murderer": "Cary Crates",
+      "inputs": {
+        "checkpoint_01.txt": "eabbae1925398e09b2d3224ed0dc2baca4b03de1c59cdde415185d4d4f085919",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "4ba27e8d59f61779ee01f1c7a015aec113cfe95e2d2465b8b29aa1c40a73db4e",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "fa11d9d9bf8035cfa89044339a5dd97a8e10189058770fd374571cd706269465",
+        "checkpoint_07.txt": "500f7788fa2cbeb2b918c86c0720a3799bb2075063f3d34c68ee1cc395efad2b",
+        "checkpoint_08.txt": "8cb20f24505e70350d2938f4a07fd9adc460ecea09eb7694145dd166498bed17"
+      }
+    },
+    {
+      "trial": "t002",
+      "replicate": 1,
+      "murderer_id": "27",
+      "murderer": "Robin Banks",
+      "inputs": {
+        "checkpoint_01.txt": "eabbae1925398e09b2d3224ed0dc2baca4b03de1c59cdde415185d4d4f085919",
+        "checkpoint_02.txt": "76617b7f5fa8b5a5c5dc0194c64ee50eb663c079d567a67d05d5e32b043994cc",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "6f17ea7e57ccbaba8c8e252ba995a9c4ffe390252a993c25af00bc79f1691f78",
+        "checkpoint_05.txt": "9124018828317e638769a80410d18fcffac15851beae50fcbcb3b9121a2f825e",
+        "checkpoint_06.txt": "133d7be33ea74c8cefd35f4427fcc8dac2f84884c37203896c5f8d8ad6f38151",
+        "checkpoint_07.txt": "500f7788fa2cbeb2b918c86c0720a3799bb2075063f3d34c68ee1cc395efad2b",
+        "checkpoint_08.txt": "ba21416f0e41871b9ccd0e662e48d799cc8f1c21be3705a2654a7dd267d94121"
+      }
+    }
+  ],
+  "source_sha256": {
+    "active-cast.yaml": "8c328f781161a65bdb1b53d21ec3a80d188e2afbb1b32dc22d6a865517867b17",
+    "character_copy.yaml": "14ef4c92e2ca788cb5c7800fcc75bb5cb50517009738695f7ee942c31d0a9e7d",
+    "confirmed.yaml": "3744b72e32921bb6dcf839e3586b006ab10f79ce9bd7c090e690c9a3f8281f4c",
+    "playable-evidence.yaml": "0a26a89b66c75ab28634df358e355ce57f86f9b633f6c9e1e6da6be2634e7866"
+  },
+  "protocol": "Two fresh context-free readers, one scenario per newly added role, randomized trial order. Published story, attendance substitutions only. All16 discoveries and eight sequential releases. Locked scores and pre-finale accusations; no target distributions or rerolls. Not an exhaustive audit or human solve-rate estimate."
+}
