@@ -83,8 +83,14 @@ def build_release(b, source=None):
     voices={r['id']:r for r in yaml.safe_load((dest/'voice-story-bible.yaml').read_text(encoding='utf-8'))['characters']}
     def cast(bank):
         result=[]
+        # Day-of relationships follow this edition's attendance, independently of
+        # the immutable public invitations and their original RSVP snapshot.
+        attending={row['id'] for row in bank['characters']}
+        public_copy={row['id']:row for row in yaml.safe_load((b.ROOT/'source/character_copy.yaml').read_text(encoding='utf-8'))['characters']}
         for row in bank['characters']:
             c=copy.deepcopy(by_id[row['id']]);v=voices[row['id']]
+            for field in ['relationships','packet_relationships']:
+                c['preparty'][field]=[r['text'] for r in public_copy[c['id']].get(field,[]) if set(r['with'])<=attending]
             c['hearing']=row['hearings'];c['private'].update(history=v['private_stake'],secret='Keep your account private until each round. Your printed answers establish what happened. You can react in your own style, but do not invent a new event, witness, or alibi.',objectives=['Mingle using the relationships on your introduction page.','Keep your private branch readings for their announced rounds.'],final_innocent=row['coming_clean']['innocent'],final_murderer=row['coming_clean']['murderer'])
             result.append(c)
         return result
@@ -124,7 +130,7 @@ def build_release(b, source=None):
     for row in all_bank['characters']:
         organizer.append({'title':row['name'],'paragraphs':['IF INNOCENT: '+row['coming_clean']['innocent'],'IF MURDERER: '+row['coming_clean']['murderer']]})
     document(b,b.KIT/'SPOILERS_DO_NOT_OPEN/99_SPOILER_BIBLE_DO_NOT_OPEN.pdf','Organizer endings',organizer)
-    (b.KIT/'README.txt').write_text('Connected dramatic edition 2026-10-10. Start with 00_READ_ME_FIRST.pdf. Already-sent public assets unchanged. Print at 100%, single-sided. Do not mix with earlier editions.\n',encoding='utf-8')
+    (b.KIT/'README.txt').write_text('Edition: '+manifest['revision']+'. Start with 00_READ_ME_FIRST.pdf. Already-sent public assets unchanged. Print at 100%, single-sided. Do not mix with earlier editions.\n',encoding='utf-8')
     (b.WORK/'connected-layout-ledger.json').write_text(json.dumps(b.AUDIT,indent=2,ensure_ascii=False),encoding='utf-8')
     from belle_activity import create as create_belle_activity
     create_belle_activity(b.KIT,b.SITE/'downloads')
