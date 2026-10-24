@@ -2,7 +2,7 @@
 
 Museum gala murder mystery, October 30, 2026, Tulsa. 30 eligible roles; 22 currently confirmed.
 
-The October 24 release preserves the published story with the current attending cast: Cary Crates and Robin Banks replace Hugh Bidder and Tess Tament. The later balance drafts were tested and rejected; this is a usable fallback, not a claim that the balance targets were achieved. Use the confirmed 22-person PDF and its matching evidence book from the current complete-kit ZIP. Sent invitation and character images remain unchanged.
+The October24 illustrated print release uses the actual22 attending characters, with Cary Crates and Robin Banks replacing Hugh Bidder and Tess Tament. Seven innocent characters retain separate cover stories through voting. All22 selected-murderer worlds received one fresh gated blind reader:22 correct and earned, no early identification. Strict balance targets remain unmet (midgame2/22; final alternatives13/22). Use the current22 print bundle or matching complete-kit edition. Sent invitation and character images are unchanged. Full results: docs/playtest/2026-10-24-CONCEALED-STAKES-SPOILERS/dashboard.html.
 
 ## Downloads and spoilers
 

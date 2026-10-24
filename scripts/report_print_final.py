@@ -50,5 +50,7 @@ for t in done:
     for y,row in enumerate(a):
         for x,v in enumerate(row):ax.text(x,y,str(v),ha='center',va='center',fontsize=10,color='white' if v>=9 else '#252521')
     ax.set_title(t['trial']+' / '+t['murderer']+' / SPOILERS',pad=20);fig.subplots_adjust(left=.28,right=.98,top=.93,bottom=.10);fig.savefig(RUN/(t['trial']+'-heatmap.png'),dpi=140);plt.close(fig)
-audit.write(RUN/'resume-state.json',{'status':'testing' if len(done)<d['total'] else 'all_routes_assessed_pending_decision','completed':len(done),'total':d['total'],'invalid':d['invalid'],'unstarted':[t['trial'] for t in d['trials'] if t['status']=='pending'],'running':[t['trial'] for t in d['trials'] if t['status']=='running'],'candidate_promoted':False})
+state=json.loads((RUN/'resume-state.json').read_text()) if (RUN/'resume-state.json').exists() else {}
+promoted=state.get('candidate_promoted',False)
+audit.write(RUN/'resume-state.json',{**state,'status':'released_with_balance_caveats' if promoted else ('testing' if len(done)<d['total'] else 'all_routes_assessed_pending_decision'),'completed':len(done),'total':d['total'],'invalid':d['invalid'],'unstarted':[t['trial'] for t in d['trials'] if t['status']=='pending'],'running':[t['trial'] for t in d['trials'] if t['status']=='running'],'candidate_promoted':promoted})
 print(json.dumps(summary))

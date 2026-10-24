@@ -1,0 +1,39 @@
+{
+  "mode": "Built-in image_gen; no API key or CLI used",
+  "later_exact_prompt_specs": [
+    [
+      "closure_fixed",
+      {
+        "referenced_image_paths": [
+          "C:/Users/dalmo/.codex/generated_images/01a10280-0b41-7773-ac11-736fe401b6d3/exec-f68c6480-0107-4312-bc09-5ca5a485e4b6.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Edit this fictional museum evidence contact sheet with ONE targeted correction only. In the UPPER LEFT photograph, make the front-facing red paper band completely continuous, smooth and intact across the stopper and front neck: REMOVE the pale hairline split/crease crossing the red band at the base of the neck. The front must give no visible sign of opening. Preserve the upper-right REAR split exactly, and preserve both bottom photographs, white gutters, amber glass bottle, wooden support and all composition. The rear split is the only visible band break. No new text, arrows, markings, fingers or objects. This is a fictional party-game exhibit; no real chemical handling."
+      }
+    ],
+    [
+      "studio_gen",
+      {
+        "transparent_background": false,
+        "prompt": "Generate a clean photorealistic contact sheet for a fictional museum gala's production file. Exactly SIX equally sized photographs in a 3-column by 2-row grid, white gutters, no written text, no numbers, no arrows. TOP ROW is three chronological frames of an EMPTY black formal dinner jacket falling from a simple gilded armless chair in an empty photography studio: first jacket draped on chair, second empty jacket slipping and falling visibly hollow with sleeves loose, third same empty jacket crumpled on the floor beside the empty chair. NO person, mannequin or body inside jacket, no donor, no live audience. BOTTOM ROW is exactly three close macro photographs of woven textile stitches in dark red, gold, and cream, each a different enlarged section of the SAME decorative weave. Every bottom panel contains ONLY visibly interlaced textile threads, absolutely NO depiction of a bottle, object, face or projected image. Clear flat documentary studio lighting, photographic realism, readily legible for older adults on a printed Letter page. The sheet proves only what a delivered studio film and textile slides contain, not what anyone consented to. No watermarks."
+      }
+    ],
+    [
+      "artist_gen",
+      {
+        "referenced_image_paths": [
+          "C:/Users/dalmo/.codex/generated_images/01a10280-0b41-7773-ac11-736fe401b6d3/exec-f68c6480-0107-4312-bc09-5ca5a485e4b6.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Create a NEW photorealistic museum-reference contact sheet of EXACTLY TWO photographs side by side, no written text or labels. Use the referenced image ONLY as the appearance reference for the historical amber GLASS bottle in the RIGHT photograph: same faceted amber glass body, floral etching, glass stopper, intact red paper strip crossing over stopper, physical object on an OPEN wooden support. No enclosing glass front. LEFT photograph is the painter's visibly crude studio LIGHTING MODEL: a bottle-shaped object assembled from visibly JOINED WOODEN BLOCKS, wooden pegs and square seams clearly exposed, matte amber-colored paint, unfinished wood grain visible on edges. It vaguely echoes the glass bottle silhouette but cannot be mistaken for real glass: angular joined wood, no transparent reflections, no liquid. Both are studio documentary photographs on pale backgrounds, similar angle and scale, enough tactile detail to distinguish wood/model from historic glass. Do NOT show the other photographs from the reference, no red scrap, no split, no people, no chemicals being used. Horizontal overall about 2:1. Captions will be typeset outside the image."
+      }
+    ]
+  ],
+  "artist_front_correction": "Make ONE correction to this fictional museum comparison sheet. In the RIGHT photograph ONLY, repair the red paper band on the FRONT of the real amber glass bottle: remove the horizontal pale torn line across the red strip at the neck. The visible front red strip must be completely intact and continuous, with no slit, crack or tear. Preserve the LEFT wooden studio model, the glass bottle's shape/floral etching, support, lighting, gutter and composition. Do not change anything else or add labels. The museum plot specifies damage hidden on the rear, never visible on the front.",
+  "sample_dish_correction": "Edit ONLY the LOWER RIGHT photograph of this fictional museum forensic contact sheet. Keep the recovered red-and-silver PAPER SCRAP itself, but place it in a plain shallow transparent GLASS LABORATORY SPECIMEN DISH on the neutral bench, with a simple smooth flat base. Remove the faceted drinking-tumbler appearance, radial starburst cuts and tall glass walls. This is a sample display dish, NOT the donor's drinking glass. Preserve the upper two bottle photographs, red band intact at front and split at rear, and the lower-left stock strip EXACTLY. White gutters unchanged. No labels, no text, no rulers, no extra objects, no material or tear-shape changes. This correction avoids confusing a sample dish with the donor's etched stemmed glass.",
+  "base_generation_summaries_not_verbatim": {
+    "frame_condition_pair": "Two documentary close-ups of the same gilt frame corner: intact before delivery versus fresh crack and missing piece at receiving. No text or identifying trace.",
+    "glass_service": "Two photographs: bare empty museum-crest stemmed glass at prepared place, then same glass at donor's lips with red punch and sealed water aside. No extra evidence.",
+    "bottle_closure": "Four documentary panels: glass bottle on open support, concealed rear split, red foil-backed paper stock, smaller recovered scrap without unique matching edge. Front band intact."
+  }
+}

@@ -1,3 +1,9 @@
+# Current print release / October24,2026
+
+All22 current-cast worlds are complete:22/22 correct and earned, no premature clear culprit,21/22 E3 scores5–7,17/22 final scores at least9,2/22 midgame breadth and13/22 ending breadth. Median final innocent alternatives:4. Voice8; naturalness6–7. All scores and the Paige finale-admission flag remain unchanged. This is a reviewed playable release with explicit balance shortcomings, not certification that every target passes. See playtest/2026-10-24-CONCEALED-STAKES-SPOILERS/RESULTS.md and FINDINGS.md.
+
+The material below describes superseded versions.
+
 # Current release / October24,2026
 
 The downloadable release preserves the previously published story with the actual22 attending characters: Hugh and Tess removed, Cary and Robin added. No experimental balance rewrite is included. Its two original current-cast baseline cases found the correct murderer, with E3/final scores6/10 for Cary and7/9 for Robin, but only3/2 midgame suspects above5 and0/1 final innocent alternatives at5-7. Desired balance remains unmet.

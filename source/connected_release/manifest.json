@@ -1,39 +1,77 @@
 {
-  "revision": "current-rsvp22-deadline-release-2026-10-24",
-  "baseline_commit": "4af7056",
-  "tests": [
-    "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS"
-  ],
-  "confirmed_ids": [
-    "01",
-    "02",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "18",
-    "19",
-    "20",
-    "23",
-    "24",
-    "25",
-    "27",
-    "28",
-    "29"
-  ],
-  "changes": "Attendance substitutions from tested baseline only; ALL30 original story branches preserved, including intentionally false murderer claims.",
-  "limitations": "Two targeted new-role text cases, not exhaustive coverage or human solve rates. Current baseline midgame counts3/2 and final innocent alternatives0/1 miss desired balance. Three later experimental rounds rejected; their scores do not describe this release.",
+  "revision": "concealed-stakes-current22-print-2026-10-24",
+  "tested_run": "docs\\playtest\\2026-10-24-CONCEALED-STAKES-SPOILERS",
+  "release_decision": "Playable printing release with explicit unmet balance targets; not full goal completion.",
+  "tests": {
+    "completed": 22,
+    "total": 22,
+    "invalid": 0,
+    "correct": 22,
+    "earned": 22,
+    "no_early_clear": 22,
+    "e3_ready": 21,
+    "final_strong": 17,
+    "midgame_breadth": 2,
+    "ending_breadth": 13,
+    "flagged": 0,
+    "unique_final_leaders": 22,
+    "final_score_range": [
+      8,
+      9
+    ],
+    "median_act2_suspects": 2.5,
+    "median_final_alternatives": 4.0,
+    "ratings": {
+      "fair_play": {
+        "mean": 7.68,
+        "range": [
+          6,
+          8
+        ]
+      },
+      "clarity": {
+        "mean": 7.45,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "voice_distinction": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      },
+      "arc_variety": {
+        "mean": 7.27,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "naturalness": {
+        "mean": 6.45,
+        "range": [
+          6,
+          7
+        ]
+      },
+      "drama": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      }
+    },
+    "all_strict_targets_met": false
+  },
+  "limitations": "One fresh gated attentive AI text reader per current22 selected culprit. No human rehearsal/solve rates. Midgame threshold2/22 and ending threshold13/22. Paige finale admission flag retained. Sent assets unchanged; illustration facts match original retained observations.",
   "sha256": {
-    "all.yaml": "d421d70fd5e7d7d8ef1e8ed182b98102e87099cdf0f4f874292d0469bdef695d",
-    "confirmed.yaml": "a7e245fc23272f276ebed3f6853a9412f5b434a7435dafa3575adfd62dc40499",
-    "playable-evidence.yaml": "0a26a89b66c75ab28634df358e355ce57f86f9b633f6c9e1e6da6be2634e7866",
+    "all.yaml": "80834ca98fe8d6ec770d9cc8434644babda6b677e082e2de828b9ddb52e6eecf",
+    "confirmed.yaml": "335b52a31020134ab2a13ad4d97872ce83e7fc874b09063c46241611eddb3c3f",
+    "playable-evidence.yaml": "af127fed1252aab80ccaf73fd2b03cd7caa69f9f9669a57ef4ac22e02c5940e5",
     "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
   }
 }

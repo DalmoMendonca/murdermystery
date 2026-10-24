@@ -1,0 +1,39 @@
+{
+  "revision": "current-rsvp22-deadline-release-2026-10-24",
+  "baseline_commit": "4af7056",
+  "tests": [
+    "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS"
+  ],
+  "confirmed_ids": [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "18",
+    "19",
+    "20",
+    "23",
+    "24",
+    "25",
+    "27",
+    "28",
+    "29"
+  ],
+  "changes": "Attendance substitutions from tested baseline only; ALL30 original story branches preserved, including intentionally false murderer claims.",
+  "limitations": "Two targeted new-role text cases, not exhaustive coverage or human solve rates. Current baseline midgame counts3/2 and final innocent alternatives0/1 miss desired balance. Three later experimental rounds rejected; their scores do not describe this release.",
+  "sha256": {
+    "all.yaml": "d421d70fd5e7d7d8ef1e8ed182b98102e87099cdf0f4f874292d0469bdef695d",
+    "confirmed.yaml": "a7e245fc23272f276ebed3f6853a9412f5b434a7435dafa3575adfd62dc40499",
+    "playable-evidence.yaml": "0a26a89b66c75ab28634df358e355ce57f86f9b633f6c9e1e6da6be2634e7866",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  }
+}
