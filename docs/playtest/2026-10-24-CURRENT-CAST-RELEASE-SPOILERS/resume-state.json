@@ -1,5 +1,5 @@
 {
-  "status": "current_cast_fallback_QA_complete_packaging",
+  "status": "complete_current_cast_preview_verified",
   "baseline_story_preserved": true,
   "balance_upgrade": false,
   "latest_experiment_rejected": true,
@@ -8,5 +8,10 @@
   "changed_pages_visually_reviewed": 84,
   "source_substring_checks": 416,
   "confirmed_adults": 22,
-  "next_action": "Package,commit,deploy,verify live hashes; delete bounded continuation."
+  "next_action": "No readers queued. Current-cast fallback preview verified; production remains locked.",
+  "production_updated": false,
+  "production_blocker": "Netlify reports deployments locked for production context; lock was not removed or bypassed.",
+  "preview_url": "https://current-cast-oct24--murdermysteryparty.netlify.app",
+  "download_hashes_verified": true,
+  "bounded_continuation_complete": true
 }
