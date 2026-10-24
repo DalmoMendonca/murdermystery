@@ -1,3 +1,9 @@
+# Latest correction before any further structural rewrite
+
+A controlled successor is now frozen at docs/playtest/2026-10-24-RESTORED-OPPORTUNITY-SPOILERS. Read its PLAN.md and resume-state.json FIRST. It restores all30 published murderer accounts and confessions exactly (one documented Monet clock correction), retaining the stronger innocent alternatives. The latest drafts had inadvertently removed Cary's direct private-glass visit and Robin's signature-page return. Test that material regression repair with the two already-frozen same-world cases before changing reveal schedules. Both readers are unstarted; wait for the quota reset. Use only their READER_INSTRUCTIONS and gate. No extra versions or rerolls.
+
+The earlier structural diagnosis below is historical and conditional, not an instruction to discard the frozen controlled correction. The published baseline already achieved pre-final culprit6/7 in these worlds; preserving those accounts is the narrower, better-supported next action. Do not claim the regression is proven causal until new evidence supports it.
+
 # Resume after quota reset / Deadline October24
 
 Do not repeat the four completed tests, reroll readers, run another broad audit, or promote either rejected draft. The party is October30; the user needs final assets by tomorrow (October24). Preserve the published fallback and all sent assets. Current test cast is22, excluding Hugh/Tess/Belle and including Cary/Robin.

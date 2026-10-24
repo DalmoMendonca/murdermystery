@@ -1,0 +1,13 @@
+{
+  "all30_guilty_access_accounts_restored_exactly": true,
+  "all30_guilty_finales_restored_exactly": true,
+  "only_guilty_difference": [
+    {
+      "id": "04",
+      "field": "evidence_murderer",
+      "change": "before preview -> after preview; setup6:32 follows preview6:20-6:28"
+    }
+  ],
+  "sent_assets_unchanged": true,
+  "new_blind_tests": "unstarted; wait for quota reset"
+}

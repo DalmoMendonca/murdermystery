@@ -30,7 +30,7 @@ METHOD={
 '27': "The card in my petition belongs to the bowl. I gave Grant his copy at his private place while Paige recorded. He said it wasn't a public podium. I knew that. I stayed anyway. Barb, you can call it trespass if it makes your evening easier. He never signed. Please don't make his death into the answer I was asking for.",
 }
 
-def prepare(final_pass=False):
+def prepare(final_pass=False,preserve_guilty=False):
     assert not RUN.exists(),'Frozen revisions are never overwritten.'
     RUN.mkdir();dest=RUN/'candidate-source';dest.mkdir()
     source=ROOT/'source/connected_release'
@@ -71,6 +71,17 @@ def prepare(final_pass=False):
             c['coming_clean']['murderer']=c['coming_clean']['murderer'].replace('The public argument gave everyone something else to watch.','The board call was real. Barb gave me privacy, and I used it.')
         if ident=='24':
             c['coming_clean']['murderer'] += " Emptying my packing bin was about the frame. I hid that damage too. It wasn't the worst thing I had hidden tonight."
+    if preserve_guilty:
+        # The previous experiments accidentally traded the selected culprit's
+        # actual access for a less relevant side scandal. Restore the proven
+        # published accounts, not another paraphrase of those events.
+        for original in old['characters']:
+            c=rows[original['id']]
+            for field,value in original['hearings'].items():
+                if field.endswith('_murderer'):c['hearings'][field]=value
+            c['coming_clean']['murderer']=original['coming_clean']['murderer']
+        # Published setup is6:32, after the6:20-6:28 preview, not before it.
+        rows['04']['hearings']['evidence_murderer']=rows['04']['hearings']['evidence_murderer'].replace('before the preview','after the preview')
     evidence=yaml.safe_load((source/'playable-evidence.yaml').read_text(encoding='utf-8'))
     # Defer seven non-murder settlements to the post-vote endings. Do not remove
     # any physical comparison or recorded fact that contradicts a murderer branch.
