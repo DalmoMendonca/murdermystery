@@ -8,8 +8,34 @@ from reportlab.platypus import Paragraph
 def load(root):
     return json.loads((root/'source/act3_editorial.json').read_text(encoding='utf-8'))
 
+def record_grid(b,s,page):
+    """Eight short record excerpts, with a stable reading order across each row."""
+    s.block('ACT III: METHOD',36,20,540,16,'BookBold',b.RED)
+    s.block(page['title'],36,46,540,26,'BookBold',b.RED)
+    s.line(36,84,576,84)
+    body=ParagraphStyle('record-excerpt',fontName='Book',fontSize=16,leading=19,textColor=b.INK,allowWidows=0,allowOrphans=0)
+    title=ParagraphStyle('record-label',parent=body,fontName='BookBold',fontSize=16,leading=19,textColor=b.RED)
+    y=98;ledger=[]
+    for start,item in enumerate(page['blocks']):
+        markup=html.escape(item['text'])
+        if item.get('strike'):
+            phrase=html.escape(item['strike'])
+            assert phrase in markup
+            markup=markup.replace(phrase,'<strike color="#720f29">'+phrase+'</strike>')
+        markup='<font color="#720f29"><b>'+html.escape(item['heading'])+'.</b></font> '+markup
+        paragraph=Paragraph(markup,body);_,height=paragraph.wrap(540,10000)
+        rowheight=height
+        ledger.append(round(rowheight,1))
+        assert y+rowheight<=744,(page['title'],'row',start+1,'bottom',y+rowheight,'heights',ledger)
+        paragraph.drawOn(s.c,36,792-y-height)
+        y+=rowheight+8
+        if start+1<len(page['blocks']):s.line(36,y-4,576,y-4)
+    s.save()
+    return {'title':page['title'],'bottom':y-8,'row_heights':ledger,'blocks':[i['id'] for i in page['blocks']]}
+
 def render(b,path,page,bank):
     s=b.Sheet(path,page['title']);blocks={x['id']:x for x in page['blocks']}
+    if page['layout'] in ['record-grid','museum-grid']:return record_grid(b,s,page)
     def text(value,y,size=17,x=48,w=516,font='Book',color=None):
         return s.block(value,x,y,w,size,font,color or b.INK,bottom=744)
     def heading(value,y):return text(value,y,19,font='BookBold',color=b.RED)+7

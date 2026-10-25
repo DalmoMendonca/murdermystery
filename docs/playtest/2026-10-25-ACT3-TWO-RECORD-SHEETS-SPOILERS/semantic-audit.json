@@ -1,0 +1,837 @@
+{
+  "original_source/r0": {
+    "source": "Executed purchase: Original contents must remain / no empty bottle or replica",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "purchase-summary",
+        "text": "Original contents were required, not an empty bottle or replica. The seller retained them; no cancellation or substitution arrived. Museum staff had the dealer’s note and full terms before the gala. Loan description: harmless (“inert”)."
+      }
+    ]
+  },
+  "original_source/r1": {
+    "source": "Seller's fulfillment: Original contents retained / no cancellation or substitution instruction received",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "purchase-summary",
+        "text": "Original contents were required, not an empty bottle or replica. The seller retained them; no cancellation or substitution arrived. Museum staff had the dealer’s note and full terms before the gala. Loan description: harmless (“inert”)."
+      }
+    ]
+  },
+  "original_source/r2": {
+    "source": "Intake: Closed bottle received / lender calls contents inert",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "bottle-preview",
+        "text": "The real glass bottle stood on an open stand at the 6:20–6:28 PM preview. There was no glass cover. It had arrived closed."
+      },
+      {
+        "sheet": 3,
+        "block": "purchase-summary",
+        "text": "Original contents were required, not an empty bottle or replica. The seller retained them; no cancellation or substitution arrived. Museum staff had the dealer’s note and full terms before the gala. Loan description: harmless (“inert”)."
+      }
+    ]
+  },
+  "original_source/r3": {
+    "source": "Intake attachment: Dealer's forwarding note and complete seller condition received before gala",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "purchase-summary",
+        "text": "Original contents were required, not an empty bottle or replica. The seller retained them; no cancellation or substitution arrived. Museum staff had the dealer’s note and full terms before the gala. Loan description: harmless (“inert”)."
+      }
+    ]
+  },
+  "original_source/r4": {
+    "source": "Treatment band: New red foil-backed paper across stopper",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "seal",
+        "text": "New red paper with a silver backing crossed the stopper. A split at the back was hidden from the front."
+      }
+    ]
+  },
+  "original_source/r5": {
+    "source": "Closed preview: 6:20–6:28 PM",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "bottle-preview",
+        "text": "The real glass bottle stood on an open stand at the 6:20–6:28 PM preview. There was no glass cover. It had arrived closed."
+      }
+    ]
+  },
+  "original_source/r6": {
+    "source": "After death: Concealed rear split / similar paper scrap in glass",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "seal",
+        "text": "New red paper with a silver backing crossed the stopper. A split at the back was hidden from the front."
+      }
+    ]
+  },
+  "original_source/p0": {
+    "source": "Unused band stock retains its red face and silver backing. The glass scrap is similar stock",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "paper-match",
+        "text": "The scrap resembles the unused sealing paper: red on one side, silver on the other. Their torn edges do not make a unique match."
+      }
+    ]
+  },
+  "original_source/p1": {
+    "source": "without a unique torn-edge match. Ordinary staff keys open the storage cupboard after the preview.",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "paper-match",
+        "text": "The scrap resembles the unused sealing paper: red on one side, silver on the other. Their torn edges do not make a unique match."
+      },
+      {
+        "sheet": 3,
+        "block": "cupboard-access",
+        "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place."
+      }
+    ]
+  },
+  "original_source/i:wide_preview": {
+    "source": "The physical glass bottle is on an open support during the closed preview. No fixed glass front encloses the bench.",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "bottle-preview",
+        "text": "The real glass bottle stood on an open stand at the 6:20–6:28 PM preview. There was no glass cover. It had arrived closed."
+      }
+    ]
+  },
+  "original_source/i:closure_comparison": {
+    "source": "Treatment drawing shows band crossing the stopper. Front condition view and separate rear-split view show different sides. Retained strip and glass scrap show red paper with silver backing.",
+    "rendered_in": [
+      {
+        "sheet": 1,
+        "block": "seal",
+        "text": "New red paper with a silver backing crossed the stopper. A split at the back was hidden from the front."
+      },
+      {
+        "sheet": 1,
+        "block": "paper-match",
+        "text": "The scrap resembles the unused sealing paper: red on one side, silver on the other. Their torn edges do not make a unique match."
+      }
+    ]
+  },
+  "original_source/i:insurance_comparison": {
+    "source": "Original signed condition sheet dates the closure treatment October 30, 2026. Chip's insurance copy changes that date to October 29. Both copies describe the same treatment.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "seal-dates",
+        "text": "Signed treatment: October 30, 2026. Chip’s insurance copy: October 29, 2026. Same red paper across the stopper."
+      }
+    ]
+  },
+  "actual_service/r0": {
+    "source": "Original order: Paid private toast / individual culinary flavoring",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "flavoring",
+        "text": "The paid toast order included flavoring for Grant’s glass. The shared punch was unflavored."
+      }
+    ]
+  },
+  "actual_service/r1": {
+    "source": "Shared pitcher: Cyanide absent / requested flavoring absent",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "flavoring",
+        "text": "The paid toast order included flavoring for Grant’s glass. The shared punch was unflavored."
+      },
+      {
+        "sheet": 2,
+        "block": "Shared punch",
+        "text": "{\"sample\": \"Shared punch\", \"cyanide\": \"Not found\", \"flavoring\": \"Not found\", \"refs\": [\"actual_service/r1\"]}"
+      }
+    ]
+  },
+  "actual_service/r2": {
+    "source": "Retained ingredient container: Cyanide absent / requested flavoring present",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "Flavoring container",
+        "text": "{\"sample\": \"Flavoring container\", \"cyanide\": \"Not found\", \"flavoring\": \"Found\", \"refs\": [\"actual_service/r2\"]}"
+      }
+    ]
+  },
+  "actual_service/r3": {
+    "source": "Grant's glass: Cyanide present / requested flavoring present",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "Grant’s glass",
+        "text": "{\"sample\": \"Grant’s glass\", \"cyanide\": \"Found\", \"flavoring\": \"Found\", \"refs\": [\"actual_service/r3\"]}"
+      }
+    ]
+  },
+  "actual_service/r4": {
+    "source": "Shop receipt: Engraved crest glass received before setup",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "glass",
+        "text": "The shop delivered Grant’s crest-engraved glass before setup. It stood unwrapped and uncovered. He drank from it; the water bottle stayed sealed."
+      }
+    ]
+  },
+  "actual_service/i:prepared_place": {
+    "source": "Entire private place visible with bare engraved glass. No wrapping or transparent hood surrounds it.",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "glass",
+        "text": "The shop delivered Grant’s crest-engraved glass before setup. It stood unwrapped and uncovered. He drank from it; the water bottle stayed sealed."
+      }
+    ]
+  },
+  "actual_service/i:consumed_toast": {
+    "source": "Grant has the crest glass at his lips. The offered water bottle remains sealed aside.",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "glass",
+        "text": "The shop delivered Grant’s crest-engraved glass before setup. It stood unwrapped and uncovered. He drank from it; the water bottle stayed sealed."
+      }
+    ]
+  },
+  "camera_work/r0": {
+    "source": "Requested: Remove private room from live monitor",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "camera",
+        "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing."
+      }
+    ]
+  },
+  "camera_work/r1": {
+    "source": "Approved work: Remove camera power adapter",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "camera",
+        "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing."
+      }
+    ]
+  },
+  "camera_work/r2": {
+    "source": "Technician account: Power removed / network lead left attached",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "camera",
+        "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing."
+      }
+    ]
+  },
+  "camera_work/r3": {
+    "source": "Recording while unpowered: None",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "camera",
+        "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing."
+      }
+    ]
+  },
+  "camera_work/r4": {
+    "source": "Tech demonstrator: Supplied sample images / proposed connection to existing room camera",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "demo",
+        "text": "A technology demonstrator supplied sample images and proposed connecting to this existing camera."
+      }
+    ]
+  },
+  "camera_work/i:unplugged_camera": {
+    "source": "Power adapter is unplugged; network lead remains attached. Clear labels identify power and network separately.",
+    "rendered_in": [
+      {
+        "sheet": 2,
+        "block": "camera",
+        "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing."
+      }
+    ]
+  },
+  "production_originals/r0": {
+    "source": "Screen delivery: Studio take of empty jacket falling / original clatter sound retained",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      }
+    ]
+  },
+  "production_originals/r1": {
+    "source": "Donor reply: No live stunt involving me or any guest / submit screen version only",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "production_originals/r2": {
+    "source": "Final status: Screen version also rejected",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "production_originals/r3": {
+    "source": "Textile slides: Enlarged stitches / no object-image slides",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "production_originals/r4": {
+    "source": "Preview revision: Proposed glass front omitted from installed bench",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "production_originals/r5": {
+    "source": "Alcove: Hanging load removed / visitor route closed",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "cupboard-access",
+        "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place."
+      }
+    ]
+  },
+  "production_originals/r6": {
+    "source": "Styling copies: Donor-place hood crossed out on both copies",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "production_originals/p0": {
+    "source": "Studio master received before gala. Picture and original sound retained together.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      }
+    ]
+  },
+  "production_originals/p1": {
+    "source": "Production log / received before gala: studio chair; empty jacket falls; empty chair remains.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      }
+    ]
+  },
+  "production_originals/p2": {
+    "source": "Original sound cue: studio assistant calls \"Jacket take\"; chair scrapes; empty jacket strikes floor with a clatter.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      }
+    ]
+  },
+  "production_originals/p3": {
+    "source": "Press desk comparison: the untrimmed podcast export retains \"Jacket take,\" chair scrape and clatter in the same continuous studio sequence. Its shortened teaser begins after the spoken cue.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      }
+    ]
+  },
+  "production_originals/i:studio_take": {
+    "source": "Studio frames show an empty jacket falling from the chair. Pattern contact sheet shows only enlarged weaving.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "studio-audio",
+        "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue."
+      },
+      {
+        "sheet": 4,
+        "block": "gallery-plan",
+        "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only."
+      }
+    ]
+  },
+  "visitor_route/r0": {
+    "source": "Marked route: Donor room excluded / alcove turnback",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "cupboard-access",
+        "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place."
+      }
+    ]
+  },
+  "visitor_route/r1": {
+    "source": "School places: Funded from discretionary workshop account",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "account-entries",
+        "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled."
+      }
+    ]
+  },
+  "visitor_route/r2": {
+    "source": "Budget consequence: Paid weekend session canceled",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "account-entries",
+        "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled."
+      }
+    ]
+  },
+  "visitor_route/p0": {
+    "source": "Alcove closed. Group turned back and continued to the public collection cases. We did not enter the donor room or stop beside the donor place.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "cupboard-access",
+        "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place."
+      }
+    ]
+  },
+  "governing_papers/r0": {
+    "source": "Director's refusal: No accepted gift without board approval / museum will forgo donation",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gift-record",
+        "text": "The director required board approval, even if the gift was lost. Lawyer stopped the acceptance announcement; toast stayed booked. Unsigned original withdrawn at the announcement desk. Coordinator and Grant held separate public and private copies."
+      }
+    ]
+  },
+  "governing_papers/r1": {
+    "source": "Legal objection: Stop public acceptance announcement / original private hospitality may proceed",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gift-record",
+        "text": "The director required board approval, even if the gift was lost. Lawyer stopped the acceptance announcement; toast stayed booked. Unsigned original withdrawn at the announcement desk. Coordinator and Grant held separate public and private copies."
+      }
+    ]
+  },
+  "governing_papers/r2": {
+    "source": "Attached advice: Ownership objection retained with earlier acquisition advice",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "family-and-claim",
+        "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice."
+      },
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "governing_papers/r3": {
+    "source": "Family succession proposal: Donor seat passes to family successor only upon board acceptance",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "family-and-claim",
+        "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice."
+      }
+    ]
+  },
+  "governing_papers/r4": {
+    "source": "Family request: Ask whether family appointment can be made during donor's lifetime",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "family-and-claim",
+        "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice."
+      }
+    ]
+  },
+  "governing_papers/p0": {
+    "source": "Coordinator's announcement copy and donor's private copy are separate. The unsigned master was withdrawn at the announcement desk.",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "gift-record",
+        "text": "The director required board approval, even if the gift was lost. Lawyer stopped the acceptance announcement; toast stayed booked. Unsigned original withdrawn at the announcement desk. Coordinator and Grant held separate public and private copies."
+      }
+    ]
+  },
+  "collection_working_proof/r0": {
+    "source": "Working query: Original contents condition conflicts with inert loan description",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "press-summary",
+        "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”"
+      }
+    ]
+  },
+  "collection_working_proof/r1": {
+    "source": "Intake reply: Unresolved / keep bottle closed",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "press-summary",
+        "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”"
+      }
+    ]
+  },
+  "collection_working_proof/r2": {
+    "source": "Staff delivery: Full query and restriction",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "press-summary",
+        "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”"
+      }
+    ]
+  },
+  "collection_working_proof/r3": {
+    "source": "Press delivery: Shortened inert entry / original-contents sentence omitted",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "press-summary",
+        "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”"
+      }
+    ]
+  },
+  "collection_working_proof/r4": {
+    "source": "Bowl label: Settled ownership withdrawn / missing-document warning retained",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "family-and-claim",
+        "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice."
+      },
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "collection_working_proof/r5": {
+    "source": "Founding practice: Lender descriptions previously used before supporting papers",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "collection_working_proof/r6": {
+    "source": "Later policy: Shortcut withdrawn / supporting review required",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "collection_working_proof/r7": {
+    "source": "Staff cupboard access: Retained founder's spare and ordinary staff keys tested / both open current lock",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "cupboard-access",
+        "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place."
+      }
+    ]
+  },
+  "collection_working_proof/i:marked_catalog_proof": {
+    "source": "Pre-gala working proof dated October 29. Query signed Dr. Art E. Fact: \"Seller requires original contents. Lender calls contents inert. Please clarify before opening.\" Intake reply: \"Unresolved. Keep closed.\" Reed DeLabel's press markup strikes the sentence \"Purchase condition requires original contents to remain.\" Staff delivery retains full query and seller attachment; press delivery takes shortened inert caption.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "press-summary",
+        "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”"
+      }
+    ]
+  },
+  "collector_working_folder/r0": {
+    "source": "Proposed sale: Bowl withdrawn / historical bottle remains loan and not for sale",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "sales-records",
+        "text": "Bowl withdrawn from sale; bottle on loan. Permission to reproduce Vincent’s painting withheld; final payment at risk. Endorsement withdrawn before public announcement."
+      }
+    ]
+  },
+  "collector_working_folder/r1": {
+    "source": "Artist delivery: Painting only / no model substitution authorized",
+    "rendered_in": [
+      {
+        "sheet": 5,
+        "block": "model",
+        "text": "The artist supplied a painting. The wooden model has visible joints; the preview bottle is glass. No model swap was authorized."
+      }
+    ]
+  },
+  "collector_working_folder/r2": {
+    "source": "Reproduction agreement: Permission withheld / final commission payment may be withheld",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "sales-records",
+        "text": "Bowl withdrawn from sale; bottle on loan. Permission to reproduce Vincent’s painting withheld; final payment at risk. Endorsement withdrawn before public announcement."
+      }
+    ]
+  },
+  "collector_working_folder/r3": {
+    "source": "Endorsement: Withdrawal received before public announcement",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "sales-records",
+        "text": "Bowl withdrawn from sale; bottle on loan. Permission to reproduce Vincent’s painting withheld; final payment at risk. Endorsement withdrawn before public announcement."
+      }
+    ]
+  },
+  "collector_working_folder/r4": {
+    "source": "Family valuation: Damaged comparison used for intact family object",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "materials-and-value",
+        "text": "Sculpture: resin mixed with metal powder; corrected label, reduced final payment. Sample: bronze powder and gold leaf, not red-and-silver paper. Family appraisal used a damaged comparison for an intact piece."
+      }
+    ]
+  },
+  "collector_working_folder/r5": {
+    "source": "Installation invoice: Issued by Elon Mosaic before any connection was installed / refused by accounts",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "account-entries",
+        "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled."
+      }
+    ]
+  },
+  "collector_working_folder/i:artist_reference": {
+    "source": "The artist's reference plate shows a visibly joined painted wooden lighting block. The preview shows the distinct historical glass bottle.",
+    "rendered_in": [
+      {
+        "sheet": 5,
+        "block": "model",
+        "text": "The artist supplied a painting. The wooden model has visible joints; the preview bottle is glass. No model swap was authorized."
+      }
+    ]
+  },
+  "collector_working_folder/i:original_gallery_frame": {
+    "source": "Original uncropped society frame shows public gallery and podium. Crop removes the disputed purchase; the setting is not the private donor place.",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "tour-and-photo",
+        "text": "Earlier photo: public gallery and podium, not Grant’s room. Crop hides the disputed purchase; a commercial image was supplied as news photography."
+      }
+    ]
+  },
+  "press_source_folder/r0": {
+    "source": "Claim letter: Claimants identified / no ministry-issued return order",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "family-and-claim",
+        "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice."
+      },
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "press_source_folder/r1": {
+    "source": "Historical clipping: Earlier owner's name corrected / no neutralization statement",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "ownership-records",
+        "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized."
+      }
+    ]
+  },
+  "preview_image_custody/r0": {
+    "source": "Source handover: Camera card after preview",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "photo-history",
+        "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version."
+      }
+    ]
+  },
+  "preview_image_custody/r1": {
+    "source": "Editor action: Complete original import retained before card return",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "photo-history",
+        "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version."
+      }
+    ]
+  },
+  "preview_image_custody/r2": {
+    "source": "Later action: Photographer prepared agency export",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "photo-history",
+        "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version."
+      }
+    ]
+  },
+  "preview_image_custody/r3": {
+    "source": "Retained preview frame: Contains physical bottle on open support",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "photo-history",
+        "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version."
+      }
+    ]
+  },
+  "preview_image_custody/r4": {
+    "source": "Earlier gallery retouch: Commercial image supplied as editorial",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "tour-and-photo",
+        "text": "Earlier photo: public gallery and podium, not Grant’s room. Crop hides the disputed purchase; a commercial image was supplied as news photography."
+      }
+    ]
+  },
+  "preview_image_custody/p0": {
+    "source": "This import covers frames captured before handover. The later toast photograph was not on the card at that time.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "photo-history",
+        "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version."
+      }
+    ]
+  },
+  "work_and_settlement/r0": {
+    "source": "Sculpture contract: Cold-cast resin with metal powder / revised label / reduced final settlement",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "materials-and-value",
+        "text": "Sculpture: resin mixed with metal powder; corrected label, reduced final payment. Sample: bronze powder and gold leaf, not red-and-silver paper. Family appraisal used a damaged comparison for an intact piece."
+      }
+    ]
+  },
+  "work_and_settlement/r1": {
+    "source": "Sculpture surface sample: Bronze powder and gold transfer leaf / not red foil-backed paper",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "materials-and-value",
+        "text": "Sculpture: resin mixed with metal powder; corrected label, reduced final payment. Sample: bronze powder and gold leaf, not red-and-silver paper. Family appraisal used a damaged comparison for an intact piece."
+      }
+    ]
+  },
+  "work_and_settlement/r2": {
+    "source": "Handling report: Frame corner damaged in delivery / first report calls it old damage",
+    "rendered_in": [
+      {
+        "sheet": 5,
+        "block": "frame",
+        "text": "The first report called the crack old damage. The handler’s signed correction records damage during delivery."
+      }
+    ]
+  },
+  "work_and_settlement/r3": {
+    "source": "Payroll ledger: Restricted-fund transfer paid staff wages / authorization absent",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "account-entries",
+        "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled."
+      }
+    ]
+  },
+  "work_and_settlement/r4": {
+    "source": "Textile merchant payment: Gala panel fabric paid from advance assigned to another client commission",
+    "rendered_in": [
+      {
+        "sheet": 4,
+        "block": "account-entries",
+        "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled."
+      }
+    ]
+  },
+  "work_and_settlement/i:frame_condition_pair": {
+    "source": "Two dated handling photographs of the same loan frame. Before delivery the corner is intact; the receiving photograph shows the new corner crack. The handler's first report calls it old damage; the signed correction records damage in delivery.",
+    "rendered_in": [
+      {
+        "sheet": 5,
+        "block": "frame",
+        "text": "The first report called the crack old damage. The handler’s signed correction records damage during delivery."
+      }
+    ]
+  },
+  "original_interview/dialogue": {
+    "source": "Attendance-specific opening, checked against both frozen banks.",
+    "rendered_in": [
+      {
+        "sheet": 3,
+        "block": "private-interview",
+        "text": "Service left Grant’s glass and returned to the kitchen about the added course. Grant challenged Paige for following him into his private room. Their agreed gift interview was being recorded. Grant would discuss tonight’s gift announcement or speak tomorrow."
+      },
+      {
+        "sheet": 3,
+        "block": "bowl-demand",
+        "text": "Robin handed over the demand: return the bowl intact or hold a hearing. The museum already had a copy. Grant refused it while answering the reporter in his private room, not the public podium."
+      }
+    ]
+  }
+}

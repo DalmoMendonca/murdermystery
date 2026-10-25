@@ -40,7 +40,7 @@ edition=canonical['revision'] if same_source else RUN.name
 text=f'''THE LAST ACQUISITION / CURRENT22 PRINT JOBS
 
 Edition: {edition}
-Presentation: Act III editorial redesign / October 25, 2026
+Presentation: Five-sheet Act III / October 25, 2026
 This bundle has only the real party's 22 adult suspects. Hugh, Tess and the
 nonplaying child are excluded. Cary and Robin attend. Sent invitations and
 character sheets have not changed. Do not mix packets or evidence from
@@ -59,6 +59,8 @@ The evidence is staged: cover later releases until the host calls for them.
     act at the top. You will have NINE folders: three per act, one per table.
     Keep folders locked/covered until that act. These are NOT hidden clues.
     Only job 02 goes into the sixteen hidden envelopes.
+    At the host's interview-reading step, read Paige Interview followed by
+    Robin Interview on the Record Comparisons sheet.
 04: 264 private packet pages. DO NOT READ while printing. Keep the printed
     stack in order and divide it every 12 pages. Each packet begins with its
     character's framed portrait. Put the cover face-up at the assigned seat.

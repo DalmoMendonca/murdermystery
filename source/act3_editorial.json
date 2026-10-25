@@ -1,5 +1,5 @@
 {
-  "revision": "dinner-reader-2026-10-25",
+  "revision": "five-sheet-act3-2026-10-25",
   "pages": [
     {
       "title": "The Poison Bottle",
@@ -110,61 +110,14 @@
       ]
     },
     {
-      "title": "The Original Recordings",
-      "subtitle": "Press recorder, studio master and photo editor’s files",
-      "layout": "recordings",
+      "title": "Record Comparisons",
+      "subtitle": "Original records and the versions circulated afterward",
+      "layout": "record-grid",
       "blocks": [
         {
-          "id": "interview",
-          "heading": "Recorder’s Log",
-          "kind": "interview-summary",
-          "refs": [
-            "original_interview/dialogue"
-          ],
-          "text": "Service left Grant’s glass and returned to the kitchen about the added course. Grant asked why Paige followed him into his private room.\n\nPaige said their agreed gift interview was being recorded. Grant would discuss tonight’s gift announcement or speak tomorrow.\n\nRobin handed Grant his copy of the bowl demand; the museum already had one. It sought the intact bowl’s return or a hearing.\n\nGrant refused to read it: he was answering the reporter in his private room, not at the public podium."
-        },
-        {
-          "id": "film",
-          "heading": "The Studio Film",
-          "text": "Before the gala, production received the original picture and sound: an assistant says “Jacket take,” a chair scrapes, and an empty jacket falls with a clatter. The chair is left empty.",
-          "refs": [
-            "production_originals/r0",
-            "production_originals/p0",
-            "production_originals/p1",
-            "production_originals/p2",
-            "production_originals/i:studio_take"
-          ]
-        },
-        {
-          "id": "podcast",
-          "text": "The uncut podcast has that same continuous studio sequence. Its teaser starts after “Jacket take.”",
-          "refs": [
-            "production_originals/p3"
-          ]
-        },
-        {
-          "id": "photo-files",
-          "heading": "The Original Photographs",
-          "text": "After the preview, the editor copied the whole camera card before returning it. These copies show the bottle on an open stand. The photographer later prepared the version sent to the news agency. The toast photo was not on the card at handover.",
-          "refs": [
-            "preview_image_custody/r0",
-            "preview_image_custody/r1",
-            "preview_image_custody/r2",
-            "preview_image_custody/r3",
-            "preview_image_custody/p0"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The Bottle’s Paper Trail",
-      "subtitle": "Purchase terms, museum correspondence and two dated copies",
-      "layout": "paperwork",
-      "blocks": [
-        {
-          "id": "purchase",
-          "heading": "The Purchase and the Loan Form",
-          "text": "The purchase required the original contents, not an empty bottle or replica. The seller complied; no cancellation or replacement instruction arrived. Before the gala, museum receiving staff had the dealer’s note and full seller terms. The loan form called the contents harmless.",
+          "id": "purchase-summary",
+          "heading": "Purchase and Loan",
+          "text": "Original contents were required, not an empty bottle or replica. The seller retained them; no cancellation or substitution arrived. Museum staff had the dealer’s note and full terms before the gala. Loan description: harmless (“inert”).",
           "refs": [
             "original_source/r0",
             "original_source/r1",
@@ -173,151 +126,139 @@
           ]
         },
         {
-          "id": "keys",
-          "heading": "The Storage Cupboard",
-          "text": "After the preview, ordinary staff keys opened the storage cupboard. Tests also confirmed that the founder’s spare key still worked.",
+          "id": "press-summary",
+          "heading": "Staff and Press",
+          "text": "October 29: Dr. Art E. Fact sought clarification before opening. Reply: “Unresolved. Keep closed.” Staff got the full query, seller’s note and warning. Reed DeLabel’s press copy kept “inert” and deleted: “Purchase condition requires original contents to remain.”",
           "refs": [
-            "original_source/p1",
-            "collection_working_proof/r7"
-          ]
-        },
-        {
-          "id": "query",
-          "heading": "October 29, 2026 · Dr. Art E. Fact",
-          "text": "Seller requires original contents. Lender calls contents inert. Please clarify before opening.",
-          "refs": [
+            "collection_working_proof/i:marked_catalog_proof",
             "collection_working_proof/r0",
-            "collection_working_proof/i:marked_catalog_proof"
-          ]
-        },
-        {
-          "id": "reply",
-          "heading": "Museum’s Reply",
-          "text": "Unresolved. Keep closed.",
-          "refs": [
             "collection_working_proof/r1",
-            "collection_working_proof/i:marked_catalog_proof"
-          ]
-        },
-        {
-          "id": "deletion",
-          "heading": "Reed DeLabel’s Press Edit",
-          "text": "Purchase condition requires original contents to remain.",
-          "kind": "strike",
-          "refs": [
-            "collection_working_proof/r3",
-            "collection_working_proof/i:marked_catalog_proof"
-          ]
-        },
-        {
-          "id": "copies",
-          "text": "Staff received the full query, seller’s attachment and keep-closed instruction. The press received the shortened caption calling the contents harmless, with the original-contents sentence removed.",
-          "refs": [
             "collection_working_proof/r2",
-            "collection_working_proof/r3",
-            "collection_working_proof/i:marked_catalog_proof"
-          ]
+            "collection_working_proof/r3"
+          ],
+          "strike": "Purchase condition requires original contents to remain."
         },
         {
-          "id": "dates",
-          "text": "Both describe fitting the same red paper seal across the stopper.",
+          "id": "seal-dates",
+          "heading": "Seal Dates",
+          "text": "Signed treatment: October 30, 2026. Chip’s insurance copy: October 29, 2026. Same red paper across the stopper.",
           "refs": [
             "original_source/i:insurance_comparison"
-          ]
-        }
-      ],
-      "dates": [
-        {
-          "label": "Signed treatment record",
-          "date": "October 30, 2026"
+          ],
+          "kind": "dates"
         },
         {
-          "label": "Chip’s insurance copy",
-          "date": "October 29, 2026"
+          "id": "cupboard-access",
+          "heading": "Access Checks",
+          "text": "After the preview, staff keys and the founder’s spare could both open the storage cupboard. Tour record: alcove closed, hanging load removed; the group returned to public cases, never entering Grant’s room or approaching his place.",
+          "refs": [
+            "collection_working_proof/r7",
+            "original_source/p1",
+            "production_originals/r5",
+            "visitor_route/p0",
+            "visitor_route/r0"
+          ]
+        },
+        {
+          "id": "private-interview",
+          "heading": "Paige Interview",
+          "text": "Service left Grant’s glass and returned to the kitchen about the added course. Grant challenged Paige for following him into his private room. Their agreed gift interview was being recorded. Grant would discuss tonight’s gift announcement or speak tomorrow.",
+          "refs": [
+            "original_interview/dialogue"
+          ]
+        },
+        {
+          "id": "bowl-demand",
+          "heading": "Robin Interview",
+          "text": "Robin handed over the demand: return the bowl intact or hold a hearing. The museum already had a copy. Grant refused it while answering the reporter in his private room, not the public podium.",
+          "refs": [
+            "original_interview/dialogue"
+          ]
+        },
+        {
+          "id": "studio-audio",
+          "heading": "Film and Podcast",
+          "text": "Before the gala, production received picture and sound together: “Jacket take,” chair scrape, falling empty jacket, clatter, empty chair. The uncut podcast keeps this sequence; its teaser starts after the spoken cue.",
+          "refs": [
+            "production_originals/i:studio_take",
+            "production_originals/p0",
+            "production_originals/p1",
+            "production_originals/p2",
+            "production_originals/p3",
+            "production_originals/r0"
+          ]
+        },
+        {
+          "id": "photo-history",
+          "heading": "Photo Files",
+          "text": "After the preview, the editor copied the whole camera card before returning it: real bottle on open stand, no toast photo. The photographer later made the news-agency version.",
+          "refs": [
+            "preview_image_custody/p0",
+            "preview_image_custody/r0",
+            "preview_image_custody/r1",
+            "preview_image_custody/r2",
+            "preview_image_custody/r3"
+          ]
         }
       ]
     },
     {
-      "title": "Museum Decisions",
-      "subtitle": "Museum decisions, ownership papers and final gallery plans",
-      "layout": "plans",
+      "title": "Museum Records",
+      "subtitle": "Decisions, plans and account entries",
+      "layout": "museum-grid",
       "blocks": [
         {
-          "id": "gift",
-          "heading": "The Gift Announcement",
-          "text": "The director required board approval, even if it cost the gift. The lawyer stopped the public acceptance announcement; the booked private toast could proceed.",
+          "id": "gift-record",
+          "heading": "Gift",
+          "text": "The director required board approval, even if the gift was lost. Lawyer stopped the acceptance announcement; toast stayed booked. Unsigned original withdrawn at the announcement desk. Coordinator and Grant held separate public and private copies.",
           "refs": [
+            "governing_papers/p0",
             "governing_papers/r0",
             "governing_papers/r1"
           ]
         },
         {
-          "id": "announcement-copies",
-          "text": "The unsigned original was withdrawn at the announcement desk. The coordinator’s public copy and Grant’s private copy were separate.",
+          "id": "family-and-claim",
+          "heading": "Family and Claim",
+          "text": "The family successor’s board seat required gift acceptance. Appointment was requested while Grant lived. The letter names claimants; it is not a ministry return order. Ownership objection accompanies earlier acquisition advice.",
           "refs": [
-            "governing_papers/p0"
-          ]
-        },
-        {
-          "id": "family-seat",
-          "text": "The family successor’s board seat depended on board acceptance. A request sought appointment while Grant was alive.",
-          "refs": [
-            "governing_papers/r3",
-            "governing_papers/r4"
-          ]
-        },
-        {
-          "id": "ownership",
-          "heading": "The Bowl’s Ownership",
-          "text": "The claim letter names claimants; it is not a ministry return order. The ownership objection is filed with earlier acquisition advice. The bowl label now warns of missing papers instead of claiming settled ownership.",
-          "refs": [
-            "press_source_folder/r0",
+            "collection_working_proof/r4",
             "governing_papers/r2",
-            "collection_working_proof/r4"
+            "governing_papers/r3",
+            "governing_papers/r4",
+            "press_source_folder/r0"
           ]
         },
         {
-          "id": "old-policy",
-          "text": "Old policy allowed lenders’ descriptions before supporting papers; current policy requires review. The historical clipping corrects an owner’s name. It never says the poison was neutralized.",
+          "id": "ownership-records",
+          "heading": "Bowl Policies",
+          "text": "The bowl label no longer claims settled ownership; it warns of missing papers. The museum withdrew its old lender-description shortcut and now requires supporting review. The clipping corrects an owner’s name. It never says poison was neutralized.",
           "refs": [
+            "collection_working_proof/r4",
             "collection_working_proof/r5",
             "collection_working_proof/r6",
+            "governing_papers/r2",
+            "press_source_folder/r0",
             "press_source_folder/r1"
           ]
         },
         {
-          "id": "final-plans",
-          "heading": "The Final Gallery Plans",
-          "text": "Grant rejected both the live stunt and its screen version. Both styling plans cross out the cover for Grant’s place. The bottle stand had no glass front. Textile slides showed only enlarged stitches.",
+          "id": "gallery-plan",
+          "heading": "Gallery Plans",
+          "text": "Grant rejected live and screen versions. Both styling plans crossed out the cover over his place. Bottle stand: no glass front. Textile slides: enlarged stitches only.",
           "refs": [
+            "production_originals/i:studio_take",
             "production_originals/r1",
             "production_originals/r2",
             "production_originals/r3",
             "production_originals/r4",
-            "production_originals/r6",
-            "production_originals/i:studio_take"
+            "production_originals/r6"
           ]
         },
         {
-          "id": "tour",
-          "text": "The alcove’s hanging load was removed and its route closed. The tour returned to public cases without entering Grant’s room or approaching his place.",
-          "refs": [
-            "production_originals/r5",
-            "visitor_route/p0",
-            "visitor_route/r0"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Payments and Commissions",
-      "subtitle": "Sales, budgets and the publicity photograph",
-      "layout": "accounts",
-      "blocks": [
-        {
-          "id": "sales",
-          "heading": "Sales and Commissions",
-          "text": "The bowl was withdrawn from sale; the bottle remained on loan. Permission to reproduce Vincent’s painting was withheld, putting his final payment at risk. An endorsement was withdrawn before public announcement.",
+          "id": "sales-records",
+          "heading": "Sale and Painting",
+          "text": "Bowl withdrawn from sale; bottle on loan. Permission to reproduce Vincent’s painting withheld; final payment at risk. Endorsement withdrawn before public announcement.",
           "refs": [
             "collector_working_folder/r0",
             "collector_working_folder/r2",
@@ -325,47 +266,35 @@
           ]
         },
         {
-          "id": "valuation",
-          "text": "An appraisal of the family’s undamaged piece used a damaged object for comparison.",
+          "id": "materials-and-value",
+          "heading": "Materials and Value",
+          "text": "Sculpture: resin mixed with metal powder; corrected label, reduced final payment. Sample: bronze powder and gold leaf, not red-and-silver paper. Family appraisal used a damaged comparison for an intact piece.",
           "refs": [
-            "collector_working_folder/r4"
-          ]
-        },
-        {
-          "id": "sculpture",
-          "text": "The sculpture was resin mixed with metal powder. Its label was corrected and its final payment reduced. The surface sample contained bronze powder and gold leaf, not the red-and-silver sealing paper.",
-          "refs": [
+            "collector_working_folder/r4",
             "work_and_settlement/r0",
             "work_and_settlement/r1"
           ]
         },
         {
-          "id": "payments",
+          "id": "account-entries",
           "heading": "Payments",
-          "text": "Accounts rejected Elon’s invoice for an uninstalled connection. Staff wages were paid from restricted funds without approval. Gala fabric was bought with another client’s commission advance.",
+          "text": "Elon billed before installation; accounts rejected his invoice. Wages used restricted funds without approval. Fabric used another client’s commission advance. School places used workshop funds; paid weekend session canceled.",
           "refs": [
             "collector_working_folder/r5",
+            "visitor_route/r1",
+            "visitor_route/r2",
             "work_and_settlement/r3",
             "work_and_settlement/r4"
           ]
         },
         {
-          "id": "school-budget",
-          "heading": "Education Budget",
-          "text": "School places were funded from the workshop budget. A paid weekend session was canceled.",
-          "refs": [
-            "visitor_route/r1",
-            "visitor_route/r2"
-          ]
-        },
-        {
-          "id": "gallery-photo",
-          "text": "The earlier society photo shows the public gallery and podium, not Grant’s private place. Its crop hides the disputed purchase. A commercial image was supplied as a news photograph.",
+          "id": "tour-and-photo",
+          "heading": "Publicity Photo",
+          "text": "Earlier photo: public gallery and podium, not Grant’s room. Crop hides the disputed purchase; a commercial image was supplied as news photography.",
           "refs": [
             "collector_working_folder/i:original_gallery_frame",
             "preview_image_custody/r4"
-          ],
-          "heading": "The Publicity Photograph"
+          ]
         }
       ]
     },

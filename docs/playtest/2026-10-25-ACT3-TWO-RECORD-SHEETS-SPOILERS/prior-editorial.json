@@ -1,0 +1,397 @@
+{
+  "revision": "dinner-reader-2026-10-25",
+  "pages": [
+    {
+      "title": "The Poison Bottle",
+      "subtitle": "Examination photographs and the preview record",
+      "layout": "bottle",
+      "blocks": [
+        {
+          "id": "bottle-preview",
+          "heading": "Before the Death",
+          "text": "The real glass bottle stood on an open stand at the 6:20–6:28 PM preview. There was no glass cover. It had arrived closed.",
+          "refs": [
+            "original_source/r2",
+            "original_source/r5",
+            "original_source/i:wide_preview"
+          ]
+        },
+        {
+          "id": "seal",
+          "heading": "The Bottle’s Seal",
+          "text": "New red paper with a silver backing crossed the stopper. A split at the back was hidden from the front.",
+          "refs": [
+            "original_source/r4",
+            "original_source/r6",
+            "original_source/i:closure_comparison"
+          ]
+        },
+        {
+          "id": "paper-match",
+          "heading": "Paper Found in Grant’s Glass",
+          "text": "The scrap resembles the unused sealing paper: red on one side, silver on the other. Their torn edges do not make a unique match.",
+          "refs": [
+            "original_source/p0",
+            "original_source/p1",
+            "original_source/i:closure_comparison"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Toast and the Camera",
+      "subtitle": "Service records, photographs and the technician’s report",
+      "layout": "toast",
+      "blocks": [
+        {
+          "id": "flavoring",
+          "heading": "Grant’s Individual Drink",
+          "text": "The paid toast order included flavoring for Grant’s glass. The shared punch was unflavored.",
+          "refs": [
+            "actual_service/r0",
+            "actual_service/r1"
+          ]
+        },
+        {
+          "id": "glass",
+          "heading": "The Same Crest-Engraved Glass",
+          "text": "The shop delivered Grant’s crest-engraved glass before setup. It stood unwrapped and uncovered. He drank from it; the water bottle stayed sealed.",
+          "refs": [
+            "actual_service/r4",
+            "actual_service/i:prepared_place",
+            "actual_service/i:consumed_toast"
+          ]
+        },
+        {
+          "id": "camera",
+          "heading": "The Room Camera",
+          "text": "The request was to remove the room from the public monitor. The approved work disconnected its power. The network cable stayed attached; the unpowered camera recorded nothing.",
+          "refs": [
+            "camera_work/r0",
+            "camera_work/r1",
+            "camera_work/r2",
+            "camera_work/r3",
+            "camera_work/i:unplugged_camera"
+          ]
+        },
+        {
+          "id": "demo",
+          "text": "A technology demonstrator supplied sample images and proposed connecting to this existing camera.",
+          "refs": [
+            "camera_work/r4"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "sample": "Shared punch",
+          "cyanide": "Not found",
+          "flavoring": "Not found",
+          "refs": [
+            "actual_service/r1"
+          ]
+        },
+        {
+          "sample": "Flavoring container",
+          "cyanide": "Not found",
+          "flavoring": "Found",
+          "refs": [
+            "actual_service/r2"
+          ]
+        },
+        {
+          "sample": "Grant’s glass",
+          "cyanide": "Found",
+          "flavoring": "Found",
+          "refs": [
+            "actual_service/r3"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Original Recordings",
+      "subtitle": "Press recorder, studio master and photo editor’s files",
+      "layout": "recordings",
+      "blocks": [
+        {
+          "id": "interview",
+          "heading": "Recorder’s Log",
+          "kind": "interview-summary",
+          "refs": [
+            "original_interview/dialogue"
+          ],
+          "text": "Service left Grant’s glass and returned to the kitchen about the added course. Grant asked why Paige followed him into his private room.\n\nPaige said their agreed gift interview was being recorded. Grant would discuss tonight’s gift announcement or speak tomorrow.\n\nRobin handed Grant his copy of the bowl demand; the museum already had one. It sought the intact bowl’s return or a hearing.\n\nGrant refused to read it: he was answering the reporter in his private room, not at the public podium."
+        },
+        {
+          "id": "film",
+          "heading": "The Studio Film",
+          "text": "Before the gala, production received the original picture and sound: an assistant says “Jacket take,” a chair scrapes, and an empty jacket falls with a clatter. The chair is left empty.",
+          "refs": [
+            "production_originals/r0",
+            "production_originals/p0",
+            "production_originals/p1",
+            "production_originals/p2",
+            "production_originals/i:studio_take"
+          ]
+        },
+        {
+          "id": "podcast",
+          "text": "The uncut podcast has that same continuous studio sequence. Its teaser starts after “Jacket take.”",
+          "refs": [
+            "production_originals/p3"
+          ]
+        },
+        {
+          "id": "photo-files",
+          "heading": "The Original Photographs",
+          "text": "After the preview, the editor copied the whole camera card before returning it. These copies show the bottle on an open stand. The photographer later prepared the version sent to the news agency. The toast photo was not on the card at handover.",
+          "refs": [
+            "preview_image_custody/r0",
+            "preview_image_custody/r1",
+            "preview_image_custody/r2",
+            "preview_image_custody/r3",
+            "preview_image_custody/p0"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Bottle’s Paper Trail",
+      "subtitle": "Purchase terms, museum correspondence and two dated copies",
+      "layout": "paperwork",
+      "blocks": [
+        {
+          "id": "purchase",
+          "heading": "The Purchase and the Loan Form",
+          "text": "The purchase required the original contents, not an empty bottle or replica. The seller complied; no cancellation or replacement instruction arrived. Before the gala, museum receiving staff had the dealer’s note and full seller terms. The loan form called the contents harmless.",
+          "refs": [
+            "original_source/r0",
+            "original_source/r1",
+            "original_source/r2",
+            "original_source/r3"
+          ]
+        },
+        {
+          "id": "keys",
+          "heading": "The Storage Cupboard",
+          "text": "After the preview, ordinary staff keys opened the storage cupboard. Tests also confirmed that the founder’s spare key still worked.",
+          "refs": [
+            "original_source/p1",
+            "collection_working_proof/r7"
+          ]
+        },
+        {
+          "id": "query",
+          "heading": "October 29, 2026 · Dr. Art E. Fact",
+          "text": "Seller requires original contents. Lender calls contents inert. Please clarify before opening.",
+          "refs": [
+            "collection_working_proof/r0",
+            "collection_working_proof/i:marked_catalog_proof"
+          ]
+        },
+        {
+          "id": "reply",
+          "heading": "Museum’s Reply",
+          "text": "Unresolved. Keep closed.",
+          "refs": [
+            "collection_working_proof/r1",
+            "collection_working_proof/i:marked_catalog_proof"
+          ]
+        },
+        {
+          "id": "deletion",
+          "heading": "Reed DeLabel’s Press Edit",
+          "text": "Purchase condition requires original contents to remain.",
+          "kind": "strike",
+          "refs": [
+            "collection_working_proof/r3",
+            "collection_working_proof/i:marked_catalog_proof"
+          ]
+        },
+        {
+          "id": "copies",
+          "text": "Staff received the full query, seller’s attachment and keep-closed instruction. The press received the shortened caption calling the contents harmless, with the original-contents sentence removed.",
+          "refs": [
+            "collection_working_proof/r2",
+            "collection_working_proof/r3",
+            "collection_working_proof/i:marked_catalog_proof"
+          ]
+        },
+        {
+          "id": "dates",
+          "text": "Both describe fitting the same red paper seal across the stopper.",
+          "refs": [
+            "original_source/i:insurance_comparison"
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "label": "Signed treatment record",
+          "date": "October 30, 2026"
+        },
+        {
+          "label": "Chip’s insurance copy",
+          "date": "October 29, 2026"
+        }
+      ]
+    },
+    {
+      "title": "Museum Decisions",
+      "subtitle": "Museum decisions, ownership papers and final gallery plans",
+      "layout": "plans",
+      "blocks": [
+        {
+          "id": "gift",
+          "heading": "The Gift Announcement",
+          "text": "The director required board approval, even if it cost the gift. The lawyer stopped the public acceptance announcement; the booked private toast could proceed.",
+          "refs": [
+            "governing_papers/r0",
+            "governing_papers/r1"
+          ]
+        },
+        {
+          "id": "announcement-copies",
+          "text": "The unsigned original was withdrawn at the announcement desk. The coordinator’s public copy and Grant’s private copy were separate.",
+          "refs": [
+            "governing_papers/p0"
+          ]
+        },
+        {
+          "id": "family-seat",
+          "text": "The family successor’s board seat depended on board acceptance. A request sought appointment while Grant was alive.",
+          "refs": [
+            "governing_papers/r3",
+            "governing_papers/r4"
+          ]
+        },
+        {
+          "id": "ownership",
+          "heading": "The Bowl’s Ownership",
+          "text": "The claim letter names claimants; it is not a ministry return order. The ownership objection is filed with earlier acquisition advice. The bowl label now warns of missing papers instead of claiming settled ownership.",
+          "refs": [
+            "press_source_folder/r0",
+            "governing_papers/r2",
+            "collection_working_proof/r4"
+          ]
+        },
+        {
+          "id": "old-policy",
+          "text": "Old policy allowed lenders’ descriptions before supporting papers; current policy requires review. The historical clipping corrects an owner’s name. It never says the poison was neutralized.",
+          "refs": [
+            "collection_working_proof/r5",
+            "collection_working_proof/r6",
+            "press_source_folder/r1"
+          ]
+        },
+        {
+          "id": "final-plans",
+          "heading": "The Final Gallery Plans",
+          "text": "Grant rejected both the live stunt and its screen version. Both styling plans cross out the cover for Grant’s place. The bottle stand had no glass front. Textile slides showed only enlarged stitches.",
+          "refs": [
+            "production_originals/r1",
+            "production_originals/r2",
+            "production_originals/r3",
+            "production_originals/r4",
+            "production_originals/r6",
+            "production_originals/i:studio_take"
+          ]
+        },
+        {
+          "id": "tour",
+          "text": "The alcove’s hanging load was removed and its route closed. The tour returned to public cases without entering Grant’s room or approaching his place.",
+          "refs": [
+            "production_originals/r5",
+            "visitor_route/p0",
+            "visitor_route/r0"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Payments and Commissions",
+      "subtitle": "Sales, budgets and the publicity photograph",
+      "layout": "accounts",
+      "blocks": [
+        {
+          "id": "sales",
+          "heading": "Sales and Commissions",
+          "text": "The bowl was withdrawn from sale; the bottle remained on loan. Permission to reproduce Vincent’s painting was withheld, putting his final payment at risk. An endorsement was withdrawn before public announcement.",
+          "refs": [
+            "collector_working_folder/r0",
+            "collector_working_folder/r2",
+            "collector_working_folder/r3"
+          ]
+        },
+        {
+          "id": "valuation",
+          "text": "An appraisal of the family’s undamaged piece used a damaged object for comparison.",
+          "refs": [
+            "collector_working_folder/r4"
+          ]
+        },
+        {
+          "id": "sculpture",
+          "text": "The sculpture was resin mixed with metal powder. Its label was corrected and its final payment reduced. The surface sample contained bronze powder and gold leaf, not the red-and-silver sealing paper.",
+          "refs": [
+            "work_and_settlement/r0",
+            "work_and_settlement/r1"
+          ]
+        },
+        {
+          "id": "payments",
+          "heading": "Payments",
+          "text": "Accounts rejected Elon’s invoice for an uninstalled connection. Staff wages were paid from restricted funds without approval. Gala fabric was bought with another client’s commission advance.",
+          "refs": [
+            "collector_working_folder/r5",
+            "work_and_settlement/r3",
+            "work_and_settlement/r4"
+          ]
+        },
+        {
+          "id": "school-budget",
+          "heading": "Education Budget",
+          "text": "School places were funded from the workshop budget. A paid weekend session was canceled.",
+          "refs": [
+            "visitor_route/r1",
+            "visitor_route/r2"
+          ]
+        },
+        {
+          "id": "gallery-photo",
+          "text": "The earlier society photo shows the public gallery and podium, not Grant’s private place. Its crop hides the disputed purchase. A commercial image was supplied as a news photograph.",
+          "refs": [
+            "collector_working_folder/i:original_gallery_frame",
+            "preview_image_custody/r4"
+          ],
+          "heading": "The Publicity Photograph"
+        }
+      ]
+    },
+    {
+      "title": "Two Photo Comparisons",
+      "subtitle": "Artist’s reference and delivery records",
+      "layout": "comparisons",
+      "blocks": [
+        {
+          "id": "model",
+          "text": "The artist supplied a painting. The wooden model has visible joints; the preview bottle is glass. No model swap was authorized.",
+          "refs": [
+            "collector_working_folder/r1",
+            "collector_working_folder/i:artist_reference"
+          ]
+        },
+        {
+          "id": "frame",
+          "heading": "The Damaged Frame",
+          "text": "The first report called the crack old damage. The handler’s signed correction records damage during delivery.",
+          "refs": [
+            "work_and_settlement/r2",
+            "work_and_settlement/i:frame_condition_pair"
+          ]
+        }
+      ]
+    }
+  ]
+}

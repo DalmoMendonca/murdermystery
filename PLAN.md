@@ -507,3 +507,7 @@ Recovered the original chat's two last substantive requests. Finished four-box b
 ## October 25: Act III editorial redesign
 
 Rewrote the Act III evidence for dinner readers. Seven themed sheets replace six dense administrative folios; bottle photos and sealing paper are labeled, dates and purchase records have their own page, and body type is 16-17pt. Bottle sheet 187 to 95 words; total Act III 1221 to 1000. Source-linked semantic review covers 79 fact groups; both evidence editions rendered, earlier acts pixel-identical and all 78 other PDFs byte-identical. All 416 readings unchanged. Current22 print split is 1/2/7, with 341 sheets for three table sets. Existing preview updated and nine download hashes verified. See docs/playtest/2026-10-25-ACT3-EDITORIAL-SPOILERS for execution records.
+
+## October 25: two record sheets
+
+Consolidated four Act III sheets into two, preserving the three approved sheets exactly. See docs/playtest/2026-10-25-ACT3-TWO-RECORD-SHEETS-SPOILERS/RESULTS.md for evidence and print instructions.

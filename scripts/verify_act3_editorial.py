@@ -7,6 +7,8 @@ from public_lock import verify_public_lock
 ROOT=Path(__file__).resolve().parents[1]
 RUN=ROOT/'docs/playtest'/sys.argv[1]
 OLD=ROOT/'docs/playtest/2026-10-24-RECOVERED-PRINT-REFRESH-SPOILERS'
+if (RUN/'prior-editorial.json').exists():
+    OLD=ROOT/'docs/playtest/2026-10-25-ACT3-EDITORIAL-SPOILERS'
 KIT=Path((RUN/'candidate-kit-path.txt').read_text().strip())
 BASE=Path((OLD/'candidate-kit-path.txt').read_text().strip())
 copy=json.loads((ROOT/'source/act3_editorial.json').read_text(encoding='utf-8'))
@@ -32,7 +34,14 @@ new_pages=[];issues=[];word_counts={};rendered=0
 for label in ['CONFIRMED_22','ALL_30']:
     relative=Path(f'OPEN_FREELY/05_Staged_Evidence_{label}.pdf')
     with fitz.open(KIT/relative) as doc,fitz.open(BASE/relative) as old:
-        assert len(doc)==10
+        assert len(doc)==3+len(copy['pages'])
+        if (RUN/'prior-editorial.json').exists():
+            prior=json.loads((RUN/'prior-editorial.json').read_text(encoding='utf-8'))
+            for current_index,item in enumerate(copy['pages']):
+                if item['layout'] in ['bottle','toast','comparisons']:
+                    prior_index=next(j for j,p in enumerate(prior['pages']) if p['layout']==item['layout'])
+                    assert item==prior['pages'][prior_index],('Approved copy changed',item['title'])
+                    assert doc[current_index+3].get_pixmap().samples==old[prior_index+3].get_pixmap().samples,('Approved page pixels changed',item['title'])
         for i in range(3):
             assert doc[i].get_pixmap().samples==old[i].get_pixmap().samples,('Early act changed',label,i)
         word_counts[label]={'before':sum(len(p.get_text().split()) for p in list(old)[3:]),'after':sum(len(p.get_text().split()) for p in list(doc)[3:])}
@@ -51,9 +60,9 @@ for label in ['CONFIRMED_22','ALL_30']:
                 body=[s for s in spans if s['bbox'][1]>155 and 'Bold' not in s['font']]
                 assert body and min(s['size'] for s in body)>=16,('Small body type',label,i)
                 assert all(0<=s['bbox'][0]<s['bbox'][2]<=612 and 0<=s['bbox'][1]<s['bbox'][3]<=755 for s in spans),(label,i,'text outside page')
-                if i==6:
-                    rect=page.search_for('Purchase condition requires original contents to remain.')[0]
-                    assert any(d['rect'].width>300 and d['rect'].height<2 and rect.y0<d['rect'].y0<rect.y1 for d in page.get_drawings()),'Press edit must remain visibly deleted'
+                if any(block.get('strike') for block in item['blocks']):
+                    rects=page.search_for('Purchase condition requires original contents to remain.')
+                    assert rects and any(d['rect'].width>60 and d['rect'].height<2 and any(rect.y0<d['rect'].y0<rect.y1 for rect in rects) for d in page.get_drawings()),'Press edit must remain visibly deleted'
                     assert all(date in text for date in ['October 30, 2026','October 29, 2026'])
             new_pages.append({'file':str(relative),'page':i+1,'image':str(out),'sha256':hashlib.sha256(pix.samples).hexdigest()})
         assert word_counts[label]['after']<word_counts[label]['before']
@@ -65,9 +74,10 @@ for relative in after-changed:assert sha(KIT/relative)==sha(BASE/relative),('Unr
 manifest=json.loads((ROOT/'source/connected_release/manifest.json').read_text())
 for name,expected in manifest['sha256'].items():assert sha(ROOT/'source/connected_release'/name)==expected
 verify_public_lock(ROOT)
-facts={'source_fact_groups':len(atoms),'frozen_fact_checks':len(atoms)*2,'act_sheet_counts':[1,2,7],
+facts={'source_fact_groups':len(atoms),'frozen_fact_checks':len(atoms)*2,'act_sheet_counts':[1,2,len(copy['pages'])],
        'word_counts':word_counts,'unchanged_other_pdfs':len(after-changed),
        'early_act_pixels_identical':True,'source_and_public_lock_pass':True,
+       'approved_pages_pixels_identical':(RUN/'prior-editorial.json').exists(),
        'mapping_review':'Each source fact mapped to its edited wording. Semantic equivalence reviewed alongside the source; this coverage test is not a blind playtest.'}
 (RUN/'fact-verification.json').write_text(json.dumps(facts,indent=2)+'\n')
 (RUN/'semantic-audit.json').write_text(json.dumps({k:{'source':atoms[k],'rendered_in':mapped[k]} for k in atoms},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
