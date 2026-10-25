@@ -502,3 +502,8 @@ Next: map E3 proof dependencies before removing peripheral settlements; vary spe
 ## October 24: recovered final print requests
 
 Recovered the original chat's two last substantive requests. Finished four-box ballot, Tips for a Successful Dinner with the user's six Best Practices bullets, heading case, and twelve actual hunt-document facsimiles. Added a generated board notice and Saint Francis Hospital/Tulsa fictional evidence report with exact native text. Consolidated Method evidence from ten sheets to six at 14pt body and proof text; full staged split is 1/2/6. No source facts or reveal gates moved. All 30 dependency routes remain; 416 spoken branches and 532 evidence checks pass. Rendered all 1188 pages and visually reviewed changed designs. Nine-folder print instructions derive from actual PDF headings. Final local ZIP prepared; existing print preview updated and all nine live download hashes verified. Full execution records: docs/playtest/2026-10-24-RECOVERED-PRINT-REFRESH-SPOILERS.
+
+
+## October 25: Act III editorial redesign
+
+Rewrote the Act III evidence for dinner readers. Seven themed sheets replace six dense administrative folios; bottle photos and sealing paper are labeled, dates and purchase records have their own page, and body type is 16-17pt. Bottle sheet 187 to 95 words; total Act III 1221 to 1000. Source-linked semantic review covers 79 fact groups; both evidence editions rendered, earlier acts pixel-identical and all 78 other PDFs byte-identical. All 416 readings unchanged. Current22 print split is 1/2/7, with 341 sheets for three table sets. Existing preview updated and nine download hashes verified. See docs/playtest/2026-10-25-ACT3-EDITORIAL-SPOILERS for execution records.

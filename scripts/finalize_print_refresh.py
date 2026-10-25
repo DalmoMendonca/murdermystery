@@ -10,7 +10,10 @@ review=json.loads((run/'full-kit-review/report.json').read_text())
 assert review['visual_review_complete'] and not review['issues']
 packet=json.loads((run/'packet-verification.json').read_text())
 facts=json.loads((run/'fact-verification.json').read_text())
-assert packet['unchanged_spoken_branches']==416 and facts['act_sheet_counts']==[1,2,6]
+import fitz
+with fitz.open(kit/'OPEN_FREELY/05_Staged_Evidence_CONFIRMED_22.pdf') as evidence_pdf:
+    actual_counts=[sum(p.get_text().startswith(act) for p in evidence_pdf) for act in ['ACT I: MOTIVE','ACT II: OPPORTUNITY','ACT III: METHOD']]
+assert packet['unchanged_spoken_branches']==416 and facts['act_sheet_counts']==actual_counts
 manifest=json.loads((b.ROOT/'source/connected_release/manifest.json').read_text())
 for name,digest in manifest['sha256'].items():
     assert hashlib.sha256((run/'candidate-source'/name).read_bytes()).hexdigest()==digest
@@ -37,7 +40,7 @@ for p in [kit.parent/'Print_Today_Current_22.zip',b.SITE/'downloads/The_Last_Acq
 receipt={'story_source_unchanged':manifest['sha256'],'culprit_routes_preserved':len(routes),
          'spoken_branches':416,'evidence_checks':facts['frozen_fact_checks'],
          'rendered_pages':review['rendered_pages'],'visual_review_complete':True,
-         'act_sheets':[1,2,6],'deploy_dir':str(deploy),
+         'act_sheets':actual_counts,'deploy_dir':str(deploy),
          'downloads':{p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted((deploy/'downloads').iterdir()) if p.is_file()}}
 (run/'predeploy-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
 print(json.dumps({'deploy_dir':str(deploy),'downloads':len(receipt['downloads']),'routes':30,'zip_integrity':True}))

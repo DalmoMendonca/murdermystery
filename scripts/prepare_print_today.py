@@ -40,7 +40,7 @@ edition=canonical['revision'] if same_source else RUN.name
 text=f'''THE LAST ACQUISITION / CURRENT22 PRINT JOBS
 
 Edition: {edition}
-Presentation: revised ballot, dinner tips and evidence documents / October 24, 2026
+Presentation: Act III editorial redesign / October 25, 2026
 This bundle has only the real party's 22 adult suspects. Hugh, Tess and the
 nonplaying child are excluded. Cary and Robin attend. Sent invitations and
 character sheets have not changed. Do not mix packets or evidence from

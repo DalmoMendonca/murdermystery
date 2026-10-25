@@ -6,6 +6,12 @@ from public_lock import verify_public_lock
 ROOT=Path(__file__).resolve().parents[1]
 RUN=ROOT/'docs/playtest'/sys.argv[1]
 KIT=Path((RUN/'candidate-kit-path.txt').read_text().strip())
+with fitz.open(KIT/'OPEN_FREELY/05_Staged_Evidence_CONFIRMED_22.pdf') as probe:
+    editorial=len(probe)>3 and 'The Poison Bottle' in probe[3].get_text()
+if editorial:
+    import runpy
+    runpy.run_path(str(ROOT/'scripts/verify_act3_editorial.py'),run_name='__main__')
+    raise SystemExit(0)
 load=lambda p:yaml.safe_load(p.read_text(encoding='utf-8'))
 e=load(ROOT/'source/connected_release/playable-evidence.yaml')
 def norm(s):return ''.join(c.lower() for c in str(s) if c.isalnum())

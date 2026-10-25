@@ -116,41 +116,14 @@ def staged(b,path,evidence,bank,confirmed):
     service=tmp/'02-service.pdf'
     service_docket(b,service,ACTS['before_opportunity'],byrelease['before_opportunity']['service_account']);paths.append(service)
     result=tmp/'03-lab.pdf';lab(b,result,ACTS['before_opportunity'],byrelease['before_opportunity']['initial_samples']);paths.append(result)
-    groups=[
-        ['original_source'],
-        ['actual_service','camera_work'],
-        ['original_interview','governing_papers','press_source_folder'],
-        ['production_originals','visitor_route'],
-        ['collector_working_folder','work_and_settlement'],
-        ['collection_working_proof','preview_image_custody'],
-    ]
-    # Physical comparisons remain alongside their record. Full captions remain searchable.
-    photos={'original_source':150,'actual_service':150,'production_originals':90,'work_and_settlement':85}
-    for n,group in enumerate(groups):
-        items=[]
-        for ident in group:
-            if ident not in late:continue
-            if items:items.append(Spacer(1,9))
-            item=copy.deepcopy(late[ident])
-            if ident=='collection_working_proof':
-                # These four rows and the prose image description duplicate the
-                # actual proof. Print the proof itself once, retaining its dates,
-                # query, reply, crossed-out sentence, and staff/press delivery.
-                item['rows']=item['rows'][4:]
-                item['images']=[]
-                items.extend(record(b,item))
-                items.extend([Spacer(1,9),proof_document(b)])
-            else:items.extend(record(b,item,photos.get(ident,0)))
-        h=flow_height(items)
-        ledger.append({'folio':n+1,'exhibits':group,'height':h})
-        if h>645:raise ValueError('Folio too tall: '+json.dumps(ledger[-1]))
-        dest=tmp/f'{n+4:02}-method.pdf'
-        build_pages(b,dest,'Original records',[(ACTS['before_method'],items)]);paths.append(dest)
+    from act3_editorial import render_all
+    method_paths,ledger=render_all(b,tmp,bank)
+    paths.extend(method_paths)
     writer=PdfWriter()
     for p in paths:writer.append(str(p))
     with path.open('wb') as f:writer.write(f)
     writer.close()
     for p in paths:p.unlink()
     tmp.rmdir()
-    (b.WORK/f'staged-folios-{path.stem}.json').write_text(json.dumps({'act_sheets':[1,2,6],'folios':ledger},indent=2)+'\n',encoding='utf-8')
+    (b.WORK/f'staged-folios-{path.stem}.json').write_text(json.dumps({'act_sheets':[1,2,len(method_paths)],'folios':ledger},indent=2)+'\n',encoding='utf-8')
     return ledger
