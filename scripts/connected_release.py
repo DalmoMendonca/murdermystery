@@ -118,7 +118,8 @@ def build_release(b, source=None):
     # Animal slips and envelopes are host-safe props; no old evidence is retained.
     b.props(chars)
     evidence=yaml.safe_load((dest/'playable-evidence.yaml').read_text(encoding='utf-8'))
-    from loose_evidence import hunt as hunt_sheets, staged as staged_sheets
+    from loose_evidence import hunt as hunt_sheets
+    from staged_compact import staged as staged_sheets
     hunt_sheets(b,b.KIT/'OPEN_FREELY/04_Scavenger_Discoveries.pdf',evidence)
     for bank,label in [(all_bank,'ALL_30'),(event_bank,'CONFIRMED_22')]:
         staged_sheets(b,b.KIT/f'OPEN_FREELY/05_Staged_Evidence_{label}.pdf',evidence,bank,label=='CONFIRMED_22')

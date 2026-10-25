@@ -33,7 +33,7 @@ def check():
         for group in rd['groups']:
             key={'motive':'motive_innocent','opportunity':'where_innocent','method':'evidence_innocent'}[rd['key']]
             assert len({c['hearing'][key] for c in chars if c['name'] in group['targets']})==len(group['targets'])
-    phases={2:'INTRODUCTIONS',3:'INTRODUCTIONS',4:'HUNT FOR CLUES',5:'ACT I: MOTIVE',6:'ACT I: MOTIVE',7:'ACT II: OPPORTUNITY',8:'ACT II: OPPORTUNITY',9:'ACT III: METHOD',10:'ACT III: METHOD',11:'ACCUSATIONS',12:'COMING CLEAN'}
+    phases={2:'INTRODUCTIONS',3:'INTRODUCTIONS',4:'HUNT FOR CLUES',5:'ACT I: MOTIVE',6:'ACT I: MOTIVE',7:'ACT II: OPPORTUNITY',8:'ACT II: OPPORTUNITY',9:'ACT III: METHOD',10:'ACT III: METHOD',11:'BALLOT',12:'COMING CLEAN'}
     for c,profile in zip(chars,profiles):
         assert c['name']==profile['name'] and 'age' not in c
         assert len(hunt['characters'][c['slug']])==len({h['envelope'] for h in hunt['characters'][c['slug']]})==3
@@ -63,17 +63,22 @@ def check():
             for page,phase in phases.items():assert phase in texts[page-1] and f'{page} of 12' in texts[page-1],(c['name'],page)
             for page in [3,4,6,8,10]:assert norm('STOP! Do not turn the page yet. Wait for the host to announce the next round.') in norm(texts[page-1])
             assert 'STOP!' not in texts[10] and 'Votes lock' not in texts[10]
-            assert norm('The game is afoot') in norm(texts[3]) and norm('bring it to your seat') in norm(texts[3])
+            assert norm('The Game is Afoot') in norm(texts[3]) and norm('bring it to your seat') in norm(texts[3])
             for h in hunt['characters'][c['slug']]:assert norm(h['text']) in norm(texts[3])
             for rd in rounds:
                 qt=norm(texts[expected[rd['key']+'_questions'][0]-1])
                 for g in rd['groups']:assert norm(g['question']) in qt and all(norm(n) in qt for n in g['targets'])
-            for val in [c['private']['history'],c['private']['secret'],*c['hearing'].values()]:assert norm(val) in norm(alltext),(c['name'],val)
+            for val in [c['private']['history'],*c['hearing'].values()]:assert norm(val) in norm(alltext),(c['name'],val)
+            from printable_v2 import BEST_PRACTICES
+            assert 'Tips for a Successful Dinner' in texts[2] and "What's at Stake" in texts[2]
+            assert all(norm(tip) in norm(texts[2]) for tip in BEST_PRACTICES)
             for base in ['motive','evidence']:assert c['hearing'][base+'_innocent']!=c['hearing'][base+'_murderer']
             for branch in ['innocent','murderer']:assert norm(c['private']['final_'+branch]) in norm(texts[11])
             final_spans=[s for block in d[11].get_text('dict')['blocks'] if 'lines' in block for line in block['lines'] for s in line['spans'] if s['bbox'][0]>=59 and 160<=s['bbox'][1]<675]
             assert final_spans and min(s['size'] for s in final_spans)>=14.9, (c['name'],'Coming Clean reading type below15pt')
-            assert 'Your ballot' in texts[10] and 'COMING CLEAN' in texts[11] and 'give only the ballot' in texts[10]
+            assert 'BALLOT' in texts[10] and 'Your ballot' not in texts[10] and 'COMING CLEAN' in texts[11] and 'give only the ballot' in texts[10]
+            assert all(label in texts[10] for label in ['I accuse...','Because...','Best Actor','Best Costume'])
+            assert 'Your character name' not in texts[10]
             for n in [5,7,9]:
                 assert texts[n].count('IF INNOCENT')==texts[n].count('IF MURDERER')==1
                 assert 'EVERYONE / READ ALOUD' not in texts[n]

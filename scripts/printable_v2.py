@@ -7,6 +7,15 @@ from reportlab.platypus import Paragraph
 
 from print_identity import GOLD
 
+BEST_PRACTICES = [
+    'Everyone, including you, has something to hide, something at stake. But only one guest tonight is guilty of murder.',
+    'Mingle using the relationships on your introduction page. Feel free to improvise in conversations.',
+    'If a named guest is absent, simply speak to someone else. Not everyone made it to the gala tonight.',
+    'By now, you should have drawn a secret animal. Memorize it and don’t share it with anyone. This animal is YOUR key to knowing whether you are the murderer or innocent tonight. This will tell you which sections of this packet you can read out loud.',
+    'When asked to read from this packet, please read the appropriate box as written. Feel free to add your own flair to stay in character.',
+    "Don't let anyone else see what's in your packet!",
+]
+
 def ornament(s):
     s.rect(28,28,556,736,stroke=GOLD)
     s.rect(33,33,546,726,stroke=GOLD)
@@ -28,7 +37,7 @@ def framed(s,b,path,x,y,w,h):
 
 def pagehead(s,b,c,phase):
     from print_identity import museum_mark
-    s.block(phase,42,30,528,16,'BookBold',b.TEAL)
+    s.block(phase,42,30,528,22 if phase=='BALLOT' else 16,'BookBold',b.TEAL)
     s.block(c['name'],42,62,528,14,'BookBold')
     s.line(42,89,570,89)
     museum_mark(s.c,542,28,s.h,22)
@@ -97,7 +106,7 @@ def poster(chars,b):
 def questions(s,c,rd,b):
     phase={'motive':'ACT I: MOTIVE','opportunity':'ACT II: OPPORTUNITY','method':'ACT III: METHOD'}[rd['key']]
     pagehead(s,b,c,phase)
-    s.block('Questions for the room',42,109,528,27,'BookBold',b.TEAL)
+    s.block('Questions for the Room',42,109,528,27,'BookBold',b.TEAL)
     answer=b.GAME['packet_pages'][rd['key']+'_answer']
     s.block(f'Choose a named guest who has not answered. Skip absent names. Ask their question; they answer from page {answer}, then choose the next guest.',42,153,528,14)
     per_column=math.ceil(len(rd['groups'])/2)
@@ -183,18 +192,16 @@ def packets(chars,b,rounds=None):
         speech(s,'YOUR INTRODUCTION / READ THE BOX ALOUD',c['introduction'],y,b,16)
         pagefoot(s,b,False,'Continue to your private briefing on page 3. Keep the packet facing you.');s.next()
         pagehead(s,b,c,'INTRODUCTIONS')
-        y=s.block('Behind the portrait',42,109,528,27,'BookBold',b.TEAL)+17
-        briefing_labels=[('Your stake tonight','history'),('During the investigation','secret')] if getattr(b,'CONNECTED_RELEASE',False) else [('Your grievance with Grant','history'),('Your other secret','secret')]
-        for label,key in briefing_labels:
-            y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+6
-            y=s.block(p[key],42,y,528,16,bottom=675)+16
-        y=s.block('Conversations to start',42,y,528,18,'BookBold',b.TEAL)+8
-        for t in p['objectives'][:2]:y=s.block('• '+t,42,y,528,16,bottom=675)+8
-        y=s.block('One attending guest committed the murder alone. Follow your printed account during the hearings. If a named guest is absent, speak to someone else.',42,y+7,528,14,'BookItalic',bottom=675)+15
-        s.block('By now, you should have drawn a secret animal. Memorize it and don’t share it with anyone. This animal is YOUR key to knowing whether you are the murderer or innocent tonight. This will tell you which sections of this packet you can read out loud.',42,y,528,14,bottom=675)
+        y=s.block('Tips for a Successful Dinner',42,109,528,27,'BookBold',b.TEAL)+17
+        y=s.block("What's at Stake",42,y,528,17,'BookBold',b.TEAL)+6
+        y=s.block(p['history'],42,y,528,16,bottom=675)+18
+        y=s.block('Best Practices',42,y,528,17,'BookBold',b.TEAL)+10
+        for tip in BEST_PRACTICES:
+            s.block('•',42,y,16,15,'BookBold',b.TEAL,bottom=675)
+            y=s.block(tip,62,y,508,15,bottom=675)+9
         pagefoot(s,b);s.next()
         pagehead(s,b,c,'HUNT FOR CLUES')
-        y=s.block('The game is afoot',42,111,528,28,'BookBold',b.TEAL)+19
+        y=s.block('The Game is Afoot',42,111,528,28,'BookBold',b.TEAL)+19
         y=s.block('The Meridian Museum has its share of secrets, rumors, and lost paperwork. Sixteen numbered envelopes are hidden around the museum. Their contents may significantly help you tonight. These 3 hints lead to 3 different hiding places. If you find an envelope, bring it to your seat at the table. The guest with the most envelopes will win a special prize. You may investigate together.',42,y,528,16)+22
         for i,hint in enumerate(hunt['characters'][c['slug']]):
             s.block(str(i+1),42,y,35,26,'BookBold',GOLD)
@@ -203,7 +210,7 @@ def packets(chars,b,rounds=None):
         for rd in rounds:
             questions(s,c,rd,b);key=rd['key']
             pagehead(s,b,c,{'motive':'ACT I: MOTIVE','opportunity':'ACT II: OPPORTUNITY','method':'ACT III: METHOD'}[key])
-            y=s.block('Your answer',42,109,528,27,'BookBold',b.TEAL)+12
+            y=s.block('Your Answer',42,109,528,27,'BookBold',b.TEAL)+12
             y=s.block('Read only the bordered words when asked. Keep your packet facing you. After answering, ask an unheard guest their question from the previous page.',42,y,528,14)+18
             base={'motive':'motive','opportunity':'where','method':'evidence'}[key]
             words=[h[base+'_'+branch] for branch in ['innocent','murderer']]
@@ -214,16 +221,14 @@ def packets(chars,b,rounds=None):
             if key=='method':
                 if y<620:s.block('The shared discoveries and reports remain at the Evidence Table.',42,y+13,528,14,'BookItalic',bottom=675)
             pagefoot(s,b);s.next()
-        pagehead(s,b,c,'ACCUSATIONS')
-        y=s.block('Your ballot',42,109,528,30,'BookBold',b.TEAL)+17
-        y=s.block('Choose one attending guest. Explain your accusation in your own words. Detach this page and give only the ballot to the host for tallying. Keep your packet for Coming Clean.',42,y,528,16)+25
-        for label in ['Your character name','I accuse','Why? Motive, evidence and any unresolved contradiction','Best Actor','Best Costume']:
-            y=s.block(label,42,y,528,16,'BookBold',b.TEAL)+31
-            s.line(42,y,570,y);y+=25
-            if label.startswith('Why?'):s.line(42,y,570,y);y+=28
+        pagehead(s,b,c,'BALLOT')
+        s.block('Choose one attending guest. Explain your accusation in your own words. Detach this page and give only the ballot to the host for tallying. Keep your packet for Coming Clean.',42,112,528,16)
+        for label,x,y,w,height in [('I accuse...',42,211,528,77),('Because...',42,304,528,179),('Best Actor',42,499,256,126),('Best Costume',314,499,256,126)]:
+            s.rect(x,y,w,height,stroke=b.RED)
+            s.block(label,x+14,y+13,w-28,18,'BookBold',b.TEAL,bottom=y+height-10)
         pagefoot(s,b,False);s.next()
         pagehead(s,b,c,'COMING CLEAN')
-        y=s.block('The last word',42,109,528,27,'BookBold',b.TEAL)+13
+        y=s.block('The Last Word',42,109,528,27,'BookBold',b.TEAL)+13
         y=s.block('Read only when the host calls you. Top three suspects read first. Use your own role’s box; keep every other word private.',42,y,528,14)+16
         for branch in ['innocent','murderer']:
             y=speech(s,'IF '+branch.upper()+' / READ ALOUD WHEN CALLED',p['final_'+branch],y,b,15)+6
