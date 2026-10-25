@@ -1,0 +1,124 @@
+schema_version: 1
+revision: Shared-scene repair of published baseline; not accepted or rendered
+status: Causal and question-alignment review pending; no fresh score trial
+victim: Grant Larceny
+fictional_material: Cyanide in a sealed historical poison bottle acquired by Grant; fictional artifact, murder
+  case and laboratory comparison. No recipe or quantity.
+crime:
+  actor_count: 1
+  actor_pool: attending characters only
+  necessary_actions:
+  - id: acquire_sample
+    place: shared conservation preparation room
+    interval:
+    - 20
+    - 28
+    facts:
+    - F2
+    - F4
+    explanation: Chip applied and checked the new band before the 6:20 preview and recorded the closed bottle's
+      condition. Visitors were permitted to observe the closed object, not handle or open it. Public exhibition
+      approval was withheld pending independent verification. The bottle was secured at 6:28. The murderer
+      opened it without permission during the preview. The investigation establishes that the lender's description
+      was false; active cyanide was in the acquired bottle and in the victim's glass.
+  - id: contaminate_coupe
+    place: Donor Salon
+    interval:
+    - 32
+    - 44
+    facts:
+    - F3
+    - F5
+    explanation: The manager set the glass at 6:32, returned to the kitchen, collected it at 6:44, poured at
+      6:46 and served the toast at 6:49. Photographs show isolated observations; they are not continuous surveillance.
+  pour: 46
+  toast: 49
+  common_access: All gala guests were invited to the preparation walkthrough. The preparation room was open
+    to them from 6:20 to 6:28; the Donor Salon service table was unattended while the glass was uncovered.
+    No role requires specialist credentials to commit the crime.
+  innocent_testimony_rule: Printed innocent facts are true, including admissions of unrelated misconduct. Murderer
+    facts before confession can be true or evasive but never assert a complete exclusion. Guests do not invent
+    additional factual claims.
+  inference_limit: Documents establish access and object custody. Scripted testimony supplies personal actions.
+    Laboratory comparison is fictional case evidence, not proof that any real chemical can be uniquely traced
+    to one bottle. No dosage or preparation is specified.
+  immutable_public_copy: source/public_assets_lock.json
+  eliminated_mechanisms:
+  - thirty-source certification archive
+  - BRASS clock correction
+  - compulsory discovery-based alibi attachments
+  - precisely synchronized manual-task alibis
+  - RECEIVED stamp activation
+  - wrapper-versus-placemat test
+  - glass cover with numbered security seal
+  - mandatory counter-barrier exclusion families
+  transport_film: Ordinary protective gift-shop wrapping, removed before setting the donor’s place; no logo-construction
+    test.
+  death: Grant becomes ill and dies at the gala shortly after the private toast. No instant-death claim, hospital
+    detour or overnight story jump.
+release_order:
+  motive:
+  - F1
+  - F2
+  opportunity:
+  - F3
+  method:
+  - F4
+  - F5
+discovery_policy: All sixteen discoveries are opened and publicly shared during the hunt. Missing discoveries
+  are supplied by the host before Act I. Necessary crime facts also appear in official releases. No finder
+  has exclusive evidence.
+constraints:
+- Every one of thirty culprit choices must support both necessary actions.
+- Each innocent supplies exculpatory facts about suspicious evidence or activity. Four first-admission accounts
+  exclude source access; twenty-six supply ordinary corroboration and contextual explanations.
+- Each character has an unrelated scandal disclosed in both branches.
+- No fixed exhibit permanently excludes a named character.
+- No public role, relationship, portrait, invite, or already-sent character sheet changes.
+- Coming Clean explains evidence already released; it introduces no necessary solution fact.
+proof_families:
+  first_admission: 4
+  contextual: 26
+reveal_design:
+  motive: Grievances and concealed misconduct; no uniquely defensible accusation.
+  opportunity: Individual scandals and comparable access accounts. Material findings and the limits of each
+    account are disclosed in Method.
+  method: Similar foil stock has legitimate conservation and performance uses. Innocent retained records explain
+    the separate misconduct and materials. The strongest accusation combines an otherwise unexplained inventory
+    scrap, source access, glass encounter and motive; similarity alone does not prove identity.
+  difficulty_measurement: Expert full-transcript solve rate is not a human solve-rate estimate. Track premature
+    unique solutions, proof clarity, repeated language and actual human rehearsal separately.
+poison_backstory:
+  artifact: 'Lot 73: The Velvet Widow poison bottle'
+  provenance: Eleanor Vale murder case, 1891; entirely fictional
+  buyer: Grant Larceny
+  exhibition: The Art of Murder
+  conflict: Grant declared the contents inert to incoming-loan staff while privately requiring the seller to
+    retain the original poison. Public display approval was withheld. No claim of potency rests on the antique
+    label.
+  preparation: Final condition inspection before the unveiling, during the 6:20–6:28 guest walkthrough.
+  discovery_documents:
+    '13': Acquisition receipt with buyer’s original-contents condition
+    '14': Conservator’s objection and inspection arrangements
+  design_purpose: The victim’s newest acquisition becomes the murder weapon; the hazard reflects his vanity
+    and disregard for museum staff rather than routine pesticide use.
+residual_suspects:
+- '02'
+- '04'
+- '12'
+- '23'
+custody_scene:
+  lender_claim: Grant described the bottle's liquid as inert display material on his incoming declaration.
+  concealed_contradiction: His purchase receipt says to retain the original poison. Collections staff did not
+    receive that receipt with the loan.
+  staff_action: Chip applied and checked the new band before the 6:20 preview and recorded the closed bottle's
+    condition. Visitors were permitted to observe the closed object, not handle or open it. Public exhibition
+    approval was withheld pending independent verification. The bottle was secured at 6:28. The murderer opened
+    it without permission during the preview.
+  later_finding: The investigation establishes that the lender's description was false; active cyanide was
+    in the acquired bottle and in the victim's glass.
+  fiction_limit: Laboratory findings establish activity within this fictional case. No assertion that a century-old
+    label proves potency, and no quantities or handling instructions.
+  unresolved_risk: Is the closed-object preview plausible without independent verification? It is a limited
+    incoming-loan inspection, not museum approval to expose visitors to known poison. Reject this repair if
+    it still requires staff to knowingly permit a hazardous public demonstration.

@@ -1,0 +1,3 @@
+# Not promoted / Two fixed diagnostics
+
+2/22 complete, both correct and earned, no premature identification. Cary E3=5final9, Robin E3=4final8; midgame3/1 and final alternatives1/1. The20 unstarted worlds remain unstarted. This source did not demonstrate improvement on the concealed-stakes parent and is not the printing recommendation. Preserve all results; do not reroll or further tune one-point differences. The next action is complete19 untouched cases of the stronger concealed-stakes candidate, not invent another small rewrite. Explicit source-access documentation remains a fair-play consideration, but these two readings do not validate the shared change as a balance improvement.

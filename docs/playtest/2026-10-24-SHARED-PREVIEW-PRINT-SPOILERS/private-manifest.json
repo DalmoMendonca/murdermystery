@@ -1,0 +1,493 @@
+{
+  "run": "Print-final current22 route coverage",
+  "revision": "2026-10-24-SHARED-PREVIEW-PRINT-SPOILERS",
+  "production_deploy": "6acaae2d208c9cee1b30f908",
+  "complete_kit_sha256": "32d727509afa04d4d493fc2d087dbe65ef77a45d02b9ff3da16738f927144b01",
+  "stage_labels": [
+    "Introductions",
+    "16 hunt clues",
+    "Evidence 1",
+    "Act I: Motive",
+    "Evidence 2",
+    "Act II: Opportunity",
+    "Evidence 3",
+    "Act III: Method"
+  ],
+  "roster": [
+    {
+      "id": "01",
+      "name": "Artie Ficial",
+      "role": "Executive Director of the Meridian Museum"
+    },
+    {
+      "id": "02",
+      "name": "Claire O’Scuro",
+      "role": "Chief Curator of World Cultures"
+    },
+    {
+      "id": "04",
+      "name": "Monet Bags",
+      "role": "Chief Financial Officer of the Meridian Museum"
+    },
+    {
+      "id": "05",
+      "name": "Chip Patina",
+      "role": "Chief Conservator"
+    },
+    {
+      "id": "06",
+      "name": "Dada DiCapo",
+      "role": "Performance Artist & Cultural Celebrity"
+    },
+    {
+      "id": "07",
+      "name": "Vincent Van Faux",
+      "role": "Celebrated Contemporary Painter"
+    },
+    {
+      "id": "08",
+      "name": "Sue Venir",
+      "role": "Cultural Property Attorney"
+    },
+    {
+      "id": "09",
+      "name": "Dr. Art E. Fact",
+      "role": "Professor of Art History & Provenance Scholar"
+    },
+    {
+      "id": "11",
+      "name": "Barb Dwyer",
+      "role": "Director of Museum Security & Former Art-Crimes Investigator"
+    },
+    {
+      "id": "12",
+      "name": "Paige Turner",
+      "role": "Investigative Arts Journalist"
+    },
+    {
+      "id": "13",
+      "name": "Frank Lloyd Wrong",
+      "role": "Exhibition Architect & Designer"
+    },
+    {
+      "id": "14",
+      "name": "Mona Lott",
+      "role": "International Cultural Heritage Ambassador"
+    },
+    {
+      "id": "15",
+      "name": "Elon Mosaic",
+      "role": "Tech Founder, Collector & Museum Patron"
+    },
+    {
+      "id": "18",
+      "name": "Elle Loominate",
+      "role": "Textile Artist & Designer"
+    },
+    {
+      "id": "19",
+      "name": "Reed DeLabel",
+      "role": "Doctoral Fellow in Art History"
+    },
+    {
+      "id": "20",
+      "name": "Al Baster",
+      "role": "Sculptor & Public-Art Star"
+    },
+    {
+      "id": "23",
+      "name": "Brie DeVivre",
+      "role": "Head Caterer & Hospitality Director"
+    },
+    {
+      "id": "24",
+      "name": "Cary Crates",
+      "role": "Senior Art Handler & Installation Specialist"
+    },
+    {
+      "id": "25",
+      "name": "Anne E. Dote",
+      "role": "Director of Education & Docent Programs"
+    },
+    {
+      "id": "27",
+      "name": "Robin Banks",
+      "role": "Cultural Restitution Activist & Nonprofit Organizer"
+    },
+    {
+      "id": "28",
+      "name": "Penny Pincher",
+      "role": "Eccentric Private Collector"
+    },
+    {
+      "id": "29",
+      "name": "Justin Tyme",
+      "role": "Independent Blogger & Local Truthstorian"
+    }
+  ],
+  "trial_count": 22,
+  "replicates_per_culprit": 1,
+  "trials": [
+    {
+      "trial": "t001",
+      "replicate": 1,
+      "murderer_id": "01",
+      "murderer": "Artie Ficial",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "f7813737ac654ca6933d78cb6a329bb35f3baeb57f7d76dc98f4742c88954123",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "3dfdc9406da0e6b8962060087f8b267188d0c19e50a06e22cbcff0310f5d2b33",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "88880c4f26cced9aad59b73078f6cb6c71a62cf53820a798f67c9c4bf6a651b5"
+      }
+    },
+    {
+      "trial": "t002",
+      "replicate": 1,
+      "murderer_id": "02",
+      "murderer": "Claire O’Scuro",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "1d7c4df8ebaa6d52fb02077cff4928d5a405333fb7b74b35ce9959f3116072cd",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "c90610df3e900063570f007fe0602134aafcbe8d90d52c024ae5f97bffd21ae0",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "2f4786e2d080c8fb73267317ab1956141cd8be0e1ba8c3976e802073eaf68619"
+      }
+    },
+    {
+      "trial": "t003",
+      "replicate": 1,
+      "murderer_id": "04",
+      "murderer": "Monet Bags",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "6710208d076eb607e802c7264c6178eb206ebf4d09c52f95ea8eb4879290a93b",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "bf9410a1a771cba847e6747b0b767c458b79a768f5a598088a58cc6fb8d04e7a",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "170318ecd089a38d276fb764a28472af1a6349adfd08cc4587bd98cf095bdaae"
+      }
+    },
+    {
+      "trial": "t004",
+      "replicate": 1,
+      "murderer_id": "05",
+      "murderer": "Chip Patina",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "76b9a343489ddd2384a23bd313b2f588f48fbf5d31602283bc18042df533832d",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "1b0e8d248d0ea7b943d9b5b70476b9293116de7615cc63e99cf9b499eb7556c7",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "1c508a56825a24b2a9f2c8d2877af050f5d283d2654018593d40ea374354ff9f"
+      }
+    },
+    {
+      "trial": "t005",
+      "replicate": 1,
+      "murderer_id": "06",
+      "murderer": "Dada DiCapo",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "2bf2b1de82a0a49af904584d61a3f5f505fd86e46327c14f791786b2274a2966",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "34d140f90bf7fa4cbc0e1e9d7a3e58d2b64ec196d9d074030627428b26b34b9d",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "240e12ab628822489b9587a73f838c5f27a29ff2bb71e5712c61a235fed67762"
+      }
+    },
+    {
+      "trial": "t006",
+      "replicate": 1,
+      "murderer_id": "07",
+      "murderer": "Vincent Van Faux",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "9cf321ae31a4c1089a0d370ef2111dce4474f81ba7b5c353646b6db1a31b5305",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "b273cdce96a987073a90bcc356f876845921d39f89eee04a069a6a5c1d1ee2b9",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "4a758dfc22269b230342d2cdabc1a3a12e7711c186e72d13af6b0e0642d85bb2"
+      }
+    },
+    {
+      "trial": "t007",
+      "replicate": 1,
+      "murderer_id": "08",
+      "murderer": "Sue Venir",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "2d5687100a45949f2048f70ac1312fefb3097a1f20091b29f059f72f4fc4b530",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "40cb181d1f44bb5de5118d0f1f84ecd1af8225c859a7e0fe8220cd82c07ddcac",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "131b03c9548fe81b11018f66f30663e2f53f8af6c5e595bb0bc71a7513b6bf5f"
+      }
+    },
+    {
+      "trial": "t008",
+      "replicate": 1,
+      "murderer_id": "09",
+      "murderer": "Dr. Art E. Fact",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "b83efc598548a168f3854babd017786ac6f18352d241846844527cf59ed78bd8",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "d22474a3572378e5a78b5ad176ba1c57cc8971b34f72f17406bf1222e8cd7cbc",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "dfcc7cf5a1b92998479cdd91abdc968879a1ad233f973fd4c7c4cf429c48d09d"
+      }
+    },
+    {
+      "trial": "t009",
+      "replicate": 1,
+      "murderer_id": "11",
+      "murderer": "Barb Dwyer",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "f1bf5356b399b758256bf5f4082193298b5ec5ce1af9d67f253066b3797642b8",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "2f9778f833f1988061d44e8826c0cd1370e3877b90ed38ae97615b281bf0e109",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "7f7364a9fcd6a4413951b92c24c8dde5358f63d882ba2539f1451b4370be0f46"
+      }
+    },
+    {
+      "trial": "t010",
+      "replicate": 1,
+      "murderer_id": "12",
+      "murderer": "Paige Turner",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "b7874f6d454268fd14812f73233454316431e7cd98dd492fb28ff2f15c431139",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "639f3d20bc6763cdfbedc8d80b12c86e74021437afa56bda6f4f069e8433fc56",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "f3014924eb55ee56685a0de03d0d9a3edd015e5efada7cf8f513171f4a40de1a"
+      }
+    },
+    {
+      "trial": "t011",
+      "replicate": 1,
+      "murderer_id": "13",
+      "murderer": "Frank Lloyd Wrong",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "52cabeda386748dd8bc7c17782b3855ee9f49694c57c773fc5c89ae4493ec4a1",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "b6d5efa3f90242fead343fa01984cfae7fc70828982550dd692966a353552590",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "ba5a0191532e43627bbe1629dd25a77a54fbfdb8ecb6b5a2b88d3b92546f9dcf"
+      }
+    },
+    {
+      "trial": "t012",
+      "replicate": 1,
+      "murderer_id": "14",
+      "murderer": "Mona Lott",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "47a27870726bae0cc73920611e35bb1da388b9283c22a4bdaf7b68e60be372db",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "0a813116abc4a4eab90a7fdfe7ce99e3fa863d09d271d6d943f726330f92853f",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "44bec8c3affeb5d83ef3b845061b2a10e54909ea38f2fa7497d3664a7c9325ee"
+      }
+    },
+    {
+      "trial": "t013",
+      "replicate": 1,
+      "murderer_id": "15",
+      "murderer": "Elon Mosaic",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "17c501075a67701da7d9d8e280571a976ad8e7cfa488f128a3bdf8736dc6bc99",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "a78189641d34d0e4269e493c796eacd2cf07b32bdcf0e16d2ecfc4296947e77f",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "dfcb6b70a4c44f3da86e4f1c1d66d1d6d3592055470040a1322c7d01e54a0519"
+      }
+    },
+    {
+      "trial": "t014",
+      "replicate": 1,
+      "murderer_id": "18",
+      "murderer": "Elle Loominate",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "062e26434b7a4e95026585eb556bcdc8a6eebadbbc372483ea500ee738e7fcfb",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "27b6cf4b96d0e9a7cd90e76a54121851315782a00f6137f134d9c0da0f722224",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "c354cdceb46b5f536ea9e25903a0f6d808baa350c254274b726757706b5d7da6"
+      }
+    },
+    {
+      "trial": "t015",
+      "replicate": 1,
+      "murderer_id": "19",
+      "murderer": "Reed DeLabel",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "d1e13869358ebb7d9e0223022865d2c76ded951e8947a5ea5ba90deb34248c77",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "230b04caee364e5d7ec9f84e2569ac4853b5b154b4370b8c8522524e796df40e",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "d600450cfe03f5be463cbe9ebf2e6221df5dddde27363b7a513b708a9f6f1b98"
+      }
+    },
+    {
+      "trial": "t016",
+      "replicate": 1,
+      "murderer_id": "20",
+      "murderer": "Al Baster",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "2bedc587b4bb057a308ddd2028122ec3b0a03fd6e55e1220503da202b7ad69c9",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "a85eca5ac5859b44bc7811e7bde1118a66243b9bdfe3db33dbbfade7597b21d6",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "7ad596761f79699ad42f7dfdc9c883b61c99630d968cae10868e735e088d1e2e"
+      }
+    },
+    {
+      "trial": "t017",
+      "replicate": 1,
+      "murderer_id": "23",
+      "murderer": "Brie DeVivre",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "7e13bc7dff39d8f15dd03c1c60db70ce20890e3575f669ffc57b14404a5fb050",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "f85a5cde901944567a2e7c95c648040b4b36153bf7ad7101b64cd510c951484e",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "77317610e7d947dd15fc23a4de41b07d475b82be451426932d061d6b8d7f700f"
+      }
+    },
+    {
+      "trial": "t018",
+      "replicate": 1,
+      "murderer_id": "24",
+      "murderer": "Cary Crates",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "55aecadfaebc84a559348feea7eadce519294af8ae631d9ebe062f2d94471be8",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "ea85d4a8170426eaebd96209ea483247b1754ac07c96b9926d276b84f2b92f25",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "fc9d9817d4b8539a31f48650f8787a0d09c23d87824cfbb5259136cf2a912555"
+      }
+    },
+    {
+      "trial": "t019",
+      "replicate": 1,
+      "murderer_id": "25",
+      "murderer": "Anne E. Dote",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "46ccfe231c305d831362f5d60a6889ad65134ec2e9505fedb093bf1469ad89ae",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "8327eb74476b1a92acdd378108ce556d2f19a867fc56ecbcb724e1aef120e3ce",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "6c55222c174b94a456c9c2aa13e9fb30c0919fcf3e23cac8c9a8937f7a402e1b"
+      }
+    },
+    {
+      "trial": "t020",
+      "replicate": 1,
+      "murderer_id": "27",
+      "murderer": "Robin Banks",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "df62be43f4bd6a9eb187219f2f44c9baad5f502704b0bbd4879e3d6527c1b7f6",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "64cc2d240bc269496889ede9e281e83fc76064a2205b9e511dbf8174faf3adcc",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "80c33f8dc83358a047e7cb5ee082674f754cffe829ea001822ea5419afb6c519"
+      }
+    },
+    {
+      "trial": "t021",
+      "replicate": 1,
+      "murderer_id": "28",
+      "murderer": "Penny Pincher",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "f6fb468c108e5817b331ba4ab46a8d6095f4f5b84e3f42883cce8e592a51bd59",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "e1a928b7e3d8e54c4790f972e915178aaca4511ce1055f6fbe929e9e6c24f9c1",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "1e39cb680b3411bf7d5e4104e1863fe6e141a95c29c8c6da39a8212b3d4ee653"
+      }
+    },
+    {
+      "trial": "t022",
+      "replicate": 1,
+      "murderer_id": "29",
+      "murderer": "Justin Tyme",
+      "inputs": {
+        "checkpoint_01.txt": "26afbb6190b0a4dc4804838c316c123ae87aeaebb58ce261fce2849499d2be11",
+        "checkpoint_02.txt": "737af318467be59d31ae11a035cfa6e72f0c873f0e11f5965c8ec69cf6f82e56",
+        "checkpoint_03.txt": "bfdfea0314c7f038db7d7fe85e2e0b87026b5d3c52e73017c3583870b51975c3",
+        "checkpoint_04.txt": "f99e930ae0d5e02dbdf41bf0a9329cff91930bd6f2a8f1087e580ecd12c65fda",
+        "checkpoint_05.txt": "f74add57b1f2793ffdb2770bbaa4c79e998799d0e6624b5f6aae07389e4adf72",
+        "checkpoint_06.txt": "5658f409353143fc3b47f9225cf9a73fd71153c6c99d54d71502c041700d8162",
+        "checkpoint_07.txt": "ccf373b922e75ac26510627591fa585f22dc0978e9aa86ce44feda223d7c2171",
+        "checkpoint_08.txt": "78a1c0f67b9300d3fe8fbf673415ed17b61a166c0b835e3e23b69f636b0ea30d"
+      }
+    }
+  ],
+  "source_sha256": {
+    "all.yaml": "b70f4765236af576f0e0dc2b9373189cc65c4e3caff65ba3354bebba6ea52748",
+    "character_copy.yaml": "14ef4c92e2ca788cb5c7800fcc75bb5cb50517009738695f7ee942c31d0a9e7d",
+    "confirmed.yaml": "d01f9f5cc78d3ca889eb4d3b205a7b5733fbe31dbab6d406b74135564cb64357",
+    "manifest.json": "ccea73f8367f181a537167e1ac34e19f6a3bac190cb01da9e971d0eca4659103",
+    "playable-evidence.yaml": "4e4c30052b988c60891e23c57334ac9f74a8914cbce5d738fcc2ef8b4cc7e298",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  },
+  "protocol": "One fresh fork-none reader for each current22 selected culprit. Eight gated player-facing releases, immutable scores, accusation before finale. No prior tests or desired distributions exposed. Descriptive AI text checks, not human solve rates."
+}

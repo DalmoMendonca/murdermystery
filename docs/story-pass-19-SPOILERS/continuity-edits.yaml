@@ -1,0 +1,244 @@
+schema_version: 1
+status: complete
+provenance:
+  baseline: docs/story-pass-18-SPOILERS/dialogue.yaml
+  motive_overlay: docs/story-pass-19-SPOILERS/motive-edits.yaml
+  innocent_overlay: docs/story-pass-19-SPOILERS/innocent-edits.yaml
+  guilty_overlay: docs/story-pass-19-SPOILERS/guilty-edits.yaml
+  architecture: docs/story-pass-19-SPOILERS/evidence-review.md
+scope: >-
+  Full field replacements for innocent Opportunity/Method where motives require them,
+  and Coming Clean I/G. Apply after the other dialogue overlays. No public or evidence
+  changes. All thirty motive followups reviewed individually. Artie's governance
+  agreement still requires his resignation within sixty days under locked F1/H1.
+  Final guilty confessions replace obsolete broken-favor cover stories with the false
+  service-state account; actual historical neck damage and poisoning remain.
+characters:
+- id: '01'
+  name: Artie Ficial
+  opportunity_innocent: >-
+    Yes, I replaced his announcement. The governance agreement required my resignation within sixty days. My version made the gift and agreement subject to board approval instead of announcing the arrangement as settled. The speech folder was beside the reception sideboard. His assistant took both pages when I said Grant could speak after signing mine. I followed her halfway to the office. Then a guest wanted welcoming, which was at least a question I could answer.
+  method_innocent: >-
+    Could someone bring back that folder? The assistant kept both announcements. Mine requires board approval of the governance agreement, including my departure. I also asked Brie to delay the toast and let Brie believe the chair had ordered it. Her actual reply was to stop using her name. I didn't touch the glass. Give her both speeches with the forged demand. I wanted her to reject the bargain before I resigned, although I already had another job.
+  coming_clean_innocent: >-
+    The chair will get both announcements, the forged demand and my job offer. Grant required my resignation within sixty days under his governance agreement. I wanted the board to reject that arrangement and let me describe my own departure. I didn't kill him. I did borrow the chair's authority after forging his signature. Someone else ought to explain the delay to our guests. I've offered enough explanations on the museum's behalf tonight.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the historical bottle. Its neck broke when I opened it; my favor carried the poison to Grant's glass between 6:32 and 6:44. I hid the original behind reception. The glass was empty. Calling it ready let me sound as though I had only straightened cards after service finished. They poured clean punch later. I killed him to stop the governance handover and my exposure, then went back to welcoming people.
+  reason: Retains the locked sixty-day resignation condition within the governance bargain; resolves managerial false service certainty without obsolete gift cover.
+- id: '02'
+  name: Claire O’Scuro
+  coming_clean_innocent: >-
+    I withheld the review, sent it outside the institution and let the labels print. The lender's refusal preceded the theft. I intended to stop the permanent gift with it. I didn't poison Grant. Put the qualification back. Remove my name if you wish; the ownership record is still missing.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck, carried poison in my favor and put it in his empty glass between 6:32 and 6:44. The original went behind reception. I knew the glass wasn't filled; I said otherwise to make my visit sound like an argument over papers after preparation. Service added clean punch afterward. I wanted the announcement prevented without losing the exhibition. I killed him to keep the work.
+  reason: Removes job-threat framing and continuous-alibi commentary; Claire's compromised scholarship and investment drive the final admission.
+- id: '03'
+  name: Hugh Bidder
+  coming_clean_innocent: >-
+    Keep the email and checking file. The forged certificate reached me before I altered our record. I refused a guarantee; I didn't kill Grant. The estate clause and investigation survive him. The late ticket receipt was collection, not arrival. Our solicitor has both drafts. I can't negotiate either out of existence.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck, carried poison in my favor and contaminated his empty glass between 6:32 and 6:44. Then I hid the bottle behind reception. Service added clean punch later. I described a finished drink to make my lingering over the guarantee sound ordinary. I couldn't save the firm or my house by offering another set of terms. I killed him.
+  reason: Retains firm liability rather than certificate manufacture; the service-state lie accompanies a disputed guarantee rather than unrelated coercion.
+- id: '04'
+  name: Monet Bags
+  coming_clean_innocent: >-
+    I'll release Brie's legitimate balance and report the restricted-funds transfer. Her crew earned that payment. I used it to make Grant come back to the argument. I didn't poison him. The trustees need the whole finance pack, including the torn page and the wing's operating costs. Payroll cleared this year. Accepting a gift we couldn't afford to operate wouldn't keep it clearing next year. I should have put that before them instead of removing it.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck and carried poison in the favor to his empty glass during the service gap, between 6:32 and 6:44. The bottle went behind reception. I knew Casey hadn't filled it. Saying the toast was ready made my interruption sound smaller. Clean punch went in later. The concealed transfer and the wing's deficit wouldn't disappear with him. I killed him because I couldn't make either side change the bargain.
+  reason: Replaces buried private-expense coercion with disclosed operating deficit; preserves deliberate extension of Casey's absence.
+- id: '05'
+  name: Chip Patina
+  coming_clean_innocent: >-
+    The insurer gets the original report. Collections gets the withheld folder. I changed the date and kept a warning unavailable while checking my records. I didn't poison Grant. I'd still stop that failed mount. The bowl stays off display until it's safe. Whoever takes over needs the entire report.
+  coming_clean_murderer: >-
+    I recommended storage, then forced the cabinet at 6:12 and stole the original. I broke its neck and used my favor to carry poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. I said the glass contained punch so my kit looked like work around completed service. The punch was added later and was clean. I wanted the collection kept in my hands. That is why I killed him. The cracked mount was still real.
+  reason: Territorial loss of authority replaces conditional silence; the genuine crack remains distinct from the murder.
+- id: '06'
+  name: Dada DiCapo
+  coming_clean_innocent: >-
+    I wrote the warning and lied about permission. I wanted my credit back and his foundation's evening interrupted. The recording rights are disputed; the authorship isn't something I intended to surrender with an invoice. I didn't kill him. The collapse was canceled, and the PROP glass tested clear. I wanted Grant watching the effect he had retained without me. I won't abandon that claim because he can no longer watch anything.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck, carried poison in the favor and put it in his real, empty glass between 6:32 and 6:44. The original went behind reception. The PROP glass wasn't involved. I invented the punch already waiting so my return sounded like one more attempt to restore a cue. Service poured clean punch later. Grant was meant to watch my collapse effect. I killed the man I wanted watching it.
+  reason: Preserves distinct rehearsal object and recording-rights dispute; confession abandons performance cover in favor of the actual false service account.
+- id: '07'
+  name: Vincent Van Faux
+  coming_clean_innocent: >-
+    Grant owned the painting. I took it off display and paid proxies to conceal other purchases. My dealer has the records. I didn't kill him. The picture stayed here, face inward. I still want to buy it back. His death hasn't made me admire the painting. Claire is welcome to admire it for both of us.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the historical bottle. I broke its neck and carried poison in the miniature to his glass between 6:32 and 6:44. It was empty. I hid the original behind reception. Saying the drink was finished made my label argument sound as though it couldn't interrupt preparation. The punch they poured later was clean. Grant kept lending the painting, and Claire kept wanting it shown. I couldn't erase that painter, so I killed its owner.
+  reason: No claim that Grant bought the work to torment Vincent; proxy scandal remains Vincent's fear and ownership remains Grant's.
+- id: '08'
+  name: Sue Venir
+  coming_clean_innocent: >-
+    I will release the original opinion and the estate instructions. The instruction was requested last month, is unsigned and names no new beneficiary. I made the acquisition seem safer than I thought it was, then refused to let that become approval of the permanent gift. I did not poison Grant. His estate can still act against us. I expect to spend considerably longer answering for my choice of words than I spent choosing them.
+  coming_clean_murderer: >-
+    I forced the secured cabinet at 6:12 and took the original. I broke its neck, used a common favor to carry the poison, and contaminated his empty glass between 6:32 and 6:44. I hid the bottle behind reception. Calling the drink prepared was false, not a legal distinction. Service poured clean punch afterward. I had encouraged Grant to trust advice I was unwilling to defend publicly. I killed him rather than let the transaction show what my independence had cost.
+  reason: Paid advice and professional capitulation replace client coercion; surviving estate liability and uncompleted will instruction remain.
+- id: '09'
+  name: Dr. Art E. Fact
+  coming_clean_innocent: >-
+    Reed found the error. My correction needs to say that where a reader can find it. I delayed sending it, claimed otherwise and tried to obtain his endorsement. Grant demanded withdrawal of the whole article; I wanted the sound argument preserved. I didn't take the original or poison the glass. The complete research request and refusal are available. The correction I sent before the toast names Reed. There should never have been a version that didn't.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the bottle I had asked collections about. I broke its neck and carried poison in my favor to his empty glass between 6:32 and 6:44. I hid the original behind reception. I said the drink was already prepared so my unsigned endorsement looked like the only interference. They poured clean punch later. I wanted the article to survive without admitting what Reed and the journal could establish. I killed Grant to preserve my standing.
+  reason: Final scholarly admission names withdrawal demand and journal exposure without attributing deliberate blackmail.
+- id: '10'
+  name: Tess Tament
+  coming_clean_innocent: >-
+    I claimed the family would block the gift, hid a rental stem and took the pen. I didn't poison Grant. My first-entry receipt follows the theft report; Casey removed the stem before the donor glass was unwrapped. Tomorrow I'll ask the trustees for their votes. Some still prefer the lounge. I still intend to persuade them.
+  coming_clean_murderer: >-
+    I was here at 6:12. I forced the cabinet and took the original, broke its neck and carried poison in my favor to the empty donor glass between 6:32 and 6:44. I hid the bottle behind reception. The rental stem was a separate break. I falsely described punch waiting to make my visit sound harmless to service. They filled the glass later with clean punch. I wanted the foundation free of Grant before the family committed again, and killed him instead of winning their votes.
+  reason: Preserves variant arrival distinction and separate rental break; foundation entitlement replaces public taunting.
+- id: '11'
+  name: Barb Dwyer
+  coming_clean_innocent: >-
+    My officer's original record goes with the camera work order. No rewrites. I omitted the exception, relied on Grant's assurance and then concealed how long we waited for confirmation. I didn't take the bottle or poison him. Nobody on my team is to change a word to protect me. The collection warning was available on the radio. I needed to act on it.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12. Took the original, broke its neck and carried poison in the favor to his empty glass between 6:32 and 6:44. Hid the bottle behind reception. I delayed the response and kept people following my orders. I knew service hadn't filled the glass. I said it had so my instruction to clear the sideboard sounded routine. The punch added later was clean. My officer kept the objection. She was right. The decisions were mine.
+  reason: No donor threat to scapegoat security; Barb owns her negligence and deliberate false service minimization.
+- id: '12'
+  name: Paige Turner
+  coming_clean_innocent: >-
+    My editor will cooperate through a process that protects the source. I searched Grant's coat, recovered my own recorder and withheld the name from this room. I didn't poison him. The publication threat was real. So was my carelessness in letting a recording reveal more than I'd promised. The story still matters. I need to finish it without making the person who helped me answer for what happened to Grant.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original. I broke its neck and carried poison in my favor to his empty glass between 6:32 and 6:44 while recovering my recorder. The bottle went behind reception. I called the drink prepared to make the search sound like something done after service was finished. Clean punch came later. I killed him to keep him from reaching my source. That person didn't ask me to do it or know what I was doing.
+  reason: No changed event needed from the motive; recorder ownership and final resolution of the service lie require explicit wording.
+- id: '13'
+  name: Frank Lloyd Wrong
+  coming_clean_innocent: >-
+    Restore my rig approval. The electrician has her copy; the liability is ours. Grant disputed the balance pending his alteration. I tried to remove an approval that made another compromise look possible. I didn't kill him. File the dusty model and refusal drawing correctly. I appreciate I won't be arranging them.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, took the original and broke its neck. The favor carried poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. Service added clean punch later. I described a prepared drink to make the space seem available for my drawing. My staff were owed wages. Grant disputed the payment and I couldn't defend another approval. I killed him. I keep returning to the rig, as though explaining its faults could alter that.
+  reason: Contract balance remains disputed rather than punitive; removes innocent referee explanation of console evidence.
+- id: '14'
+  name: Mona Lott
+  opportunity_innocent: >-
+    I withheld the page naming the private approach from our objection at reception. The trustees believed they had the whole document. Grant intended to name the participants in his announcement; they hadn't consented to his account. Last week's minutes record my warning that the unveiling wouldn't proceed quietly. Our office had arranged a formal public withdrawal if he went ahead. That was what I meant. I wasn't ready to expose the people whose talks I had already leaked.
+  coming_clean_innocent: >-
+    Our office sent the withdrawal before reception and kept the full original. I will answer to my partners for the leak and the redacted copies. Grant intended to identify people who hadn't accepted his terms. I made it harder for them to correct him without being identified. I didn't poison him. The negotiations need to continue. They may need someone else conducting them; my partners have already trusted me with more than I protected.
+  coming_clean_murderer: >-
+    My partners authorized none of this. I forced the cabinet at 6:12, stole the original and broke its neck. My favor carried poison to his empty glass between 6:32 and 6:44; I hid the bottle behind reception. Service added clean punch later. I claimed the drink was prepared to minimize my interference. I wanted the announcement stopped before our confidential approach became his account of agreement. I killed him, and then kept speaking on behalf of people who knew nothing about it.
+  reason: Naming belongs to a disputed announcement rather than punishment; formal withdrawal and protected partners remain.
+- id: '15'
+  name: Elon Mosaic
+  method_innocent: >-
+    My advisers kept the refusal with the withdrawal draft. I photographed the trustee's handwritten query at reception and sent it to them between 6:32 and 6:44. The answer was already no. Grant had trustees ready to block my appointment, and my company wouldn't let me withdraw the pledge. I wanted a seat, not another thank-you. I had spent enough money to expect the room to listen. The trustee asking whose pledge I was threatening was listening rather carefully.
+  coming_clean_innocent: >-
+    Publish the proxy purchase. It was legal. I wanted the work and didn't want Grant deciding what the purchase said about me. Then I threatened a withdrawal my company hadn't approved. I didn't kill him. He opposed my appointment; I wanted the trustees to value my money enough to give me influence. I sent the query to my advisers because I still hoped for permission. They had already refused. I should have stopped promising what I couldn't withdraw.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, stole the original and broke its neck. The miniature carried poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. I called the glass filled to make my lingering over the query look unrelated to preparation. Service poured clean punch later. My own board had stopped the withdrawal, and Grant could stop my appointment. I wanted his influence. I killed him, then kept sending messages as if approval would solve it.
+  reason: Replaces Grant's joke-making with the board-seat contest and failed corporate bluff; retains a single brief timed message.
+- id: '16'
+  name: Anya Tique
+  opportunity_innocent: >-
+    I borrowed the accession ledger this afternoon and took Grant's loose promise out before bringing the book to the trustees at reception. The anniversary account had my omission and his rescue arranged very neatly. I wanted his promise read beside my signature, at a moment when the trustees would listen. The letter stayed in my handbag. The entry stayed in the book. Thirty-seven years of signing things does rather limit one's ability to pretend someone else made the decision.
+  coming_clean_innocent: >-
+    Put the letter back beside my approval. I accepted missing papers because we needed the roof repaired. Grant promised to supply them. They never came. The archivist's copies retain both parts of that history. I didn't poison him. I wanted the anniversary account corrected while he was alive to answer for his promise. The signature is mine. I shall explain it without offering the building's continued existence as an excuse to leave the rest out.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck and carried poison in the favor to his empty glass between 6:32 and 6:44. The bottle went behind reception. I said the drink was finished so the ledger looked like the only reason to be there. Clean punch was added later. I wanted Grant denied the museum I had compromised to preserve. I spoke readily about my old signature because it let me conceal what I'd just done.
+  reason: Selective anniversary history replaces a surprise personal-exposure performance; ledger entry and prior copies remain intact.
+- id: '17'
+  name: Saul D. Bid
+  opportunity_innocent: >-
+    The finance committee requested the subsidiary invoices this week. I supplied the sale price and omitted the discretion fee. At reception I carried the full schedule in a sealed envelope. A trustee was to hear Grant's fee objection before examining the figures. Our accountant asked whether my remark about offering him no further service was personal or on behalf of the house. I should have answered. I preferred to leave the remark standing while I chose the order of disclosure.
+  method_innocent: >-
+    The purchasing company owed the fee, not Grant personally. Our accountant has the complete invoice. Waiving it wouldn't remove the reporting obligation. I opened the envelope for a trustee at reception, close to the glass. I wanted Grant's objection read alongside the figures, before the committee reviewed how I had approved the sale. They will probably start with that approval. I would prefer otherwise, but the schedule is available now.
+  coming_clean_innocent: >-
+    Give the committee the full schedule. I bypassed review and omitted the fee. The purchasing company owes it; my account was still improper. I didn't poison Grant. The complaint and accountant's invoice need answering. I won't ask a trustee to soften that for the chairman. We've had quite enough courtesy.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, took the original and broke its neck. The favor carried poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. I said the toast was prepared to make my invoice discussion sound like the only reason for that visit. They added clean punch later. The audit would still go ahead. I wanted to stop the complaint that could cost me the chair, and killed him to retain it.
+  reason: Replaces Grant's threat with his fee objection in both innocent fields; approval bypass threatens Saul's chair through an actual review.
+- id: '18'
+  name: Elle Loominate
+  method_innocent: >-
+    The family thread has my aunt's demand from before the theft and my earlier promises. Please read it in order. The installation photograph shows the empty support. I brushed fibers from the purchase card at reception; some may have reached the outside of his glass. Grant saw an object available to buy. I'd omitted the conditions that said otherwise. I tore up the offer, but that didn't explain anything to my family or get the textile home.
+  coming_clean_innocent: >-
+    My aunt will get the full thread. I omitted family conditions when I borrowed the textile, then removed it without museum authorization. Grant's offer followed the impression I'd created. I didn't kill him. I need to explain that to my family before anyone approaches them about a permanent gift. Could someone check the support sleeve is still flat? I rolled the textile for loading, and it shouldn't spend tonight folded because we're all busy with my account of it.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original. I broke its neck and carried poison in the favor to his empty glass between 6:32 and 6:44, then hid the bottle behind reception. Service added clean punch later. I described a finished drink to make my card removal sound separate from preparation. I wanted Grant unable to approach my family about what I'd borrowed. The textile was already packed safely. I killed him for a claim I had made mine alone.
+  reason: Removes hypothetical tearing where the changed motive records an actual torn offer; family purchase approach follows Elle's omitted conditions.
+- id: '19'
+  name: Reed DeLabel
+  coming_clean_innocent: >-
+    Art should have the rejected submission with his name on it. The committee sent a scan and refused access to the original; my annotations went to the journal before tonight. I didn't kill Grant. The fellowship depends on the exhibition grant. I hid what damaged its ownership claim and what damaged Art's article because I wanted both the stipend and the supervisor. I called that protecting the research. They need the whole document now, not my selection.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12. The committee had refused access; I took the original anyway, broke its neck and carried poison in the favor to his empty glass between 6:32 and 6:44. I hid it behind reception. Clean punch came later. My claim that it was already filled made moving the proofs sound like the whole encounter. I wanted Grant stopped without losing my fellowship or telling Art the truth. I killed him, then offered you the refusal as reassurance.
+  reason: Fellowship risk follows the exhibition grant rather than an explicit cancellation threat; research refusal remains a contextual fact.
+- id: '20'
+  name: Al Baster
+  coming_clean_innocent: >-
+    I changed the support. Grant had a real reason to dispute the balance. I threatened removal anyway, and moved his glass while putting the invoice down. I didn't poison him. The crew's drawing predates tonight; my favor is available for inspection. The work stays pending inspection and the estate gets the payment dispute. I still want my crew paid. They built the thing. Replacing it cheaply doesn't erase the work already standing at his entrance.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, took the original and broke its neck. I carried poison in the favor and put it inside the empty glass I moved between 6:32 and 6:44. My plaster stayed outside. I hid the bottle behind reception. Calling it filled made me sound like a sculptor making room after service, not a man interfering with preparation. Clean punch came later. I wanted him unable to replace my work. I killed him.
+  reason: Recognizes the contractual support dispute while preserving retained drawing, actual target contact and exterior plaster.
+- id: '21'
+  name: Ella Gance
+  coming_clean_innocent: >-
+    The receiving museum can publish my promise and the sale. I owe restitution and no longer have the money ready. Grant intended to explain the missing loan; I wanted to tell the trustees first, preferably after finding a replacement that didn't exist. I changed the card and held his glass by the base. I didn't poison him. They now need exactly the account I kept delaying. I have no revised delivery date to offer them.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck, used the favor as carrier and contaminated the empty glass between 6:32 and 6:44. The bottle went behind reception. I said the drink was ready so changing my acknowledgment looked like the only interference. They poured clean punch later. I killed him to stop his explanation of the missing loan. Then I returned to the photograph and smiled while my promise remained as impossible as before.
+  reason: Missing-loan disclosure remains legitimate institutional business; sold promise and unavailable restitution remain Ella's responsibility.
+- id: '22'
+  name: Drew Conclusions
+  coming_clean_innocent: >-
+    I'll identify the sponsored item and the private quotations. My editor kept the payment proof and my pre-theft withdrawal. Grant recognized a borrowed joke and intended to name me; withdrawing his paragraph wouldn't stop that. I didn't poison him. I wanted everyone else's conversation available to me and my own name kept out of the result. I need to ask several people for permission before publishing another word about them. They may decline with admirable brevity.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original. I broke its neck and carried poison in the favor to his empty glass between 6:32 and 6:44. I hid it behind reception. Calling the drink complete made collecting the proof sound unrelated to preparation. The later punch was clean. Grant intended to name me; the proof showed he had paid me. I killed him rather than explain both, then offered smaller confessions because a critic caught behaving badly makes agreeable conversation.
+  reason: Removes conditional advertisement bargain; identification and paid editorial item are separate threats to Drew's social access.
+- id: '23'
+  name: Brie DeVivre
+  coming_clean_innocent: >-
+    I'll refund the menu difference and release a true account of the supplier change. Grant's complaint was justified. The extra course still needed authorization and my crew still needed paying. I left reception uncovered to force a decision. I didn't poison him. The kitchen records name what we served, and the shared food tested clear. I'm collecting the legitimate balance for work already done. The reserve server shouldn't have been used to make my argument.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original, broke its neck and carried poison in the favor. I put it in the empty glass between 6:32 and 6:44 while reception was uncovered, then hid the bottle behind the sideboard. I knew the service order. Saying punch was already there made my absence sound less dangerous. Casey filled it later from clean punch. I feared losing bookings over the substitution and unpaid service. I killed the guest I was responsible for serving.
+  reason: Genuine supplier complaint and feared booking loss replace an explicit donor-blacklisting threat; reserve coverage remains deliberately blocked.
+- id: '24'
+  name: Cary Crates
+  opportunity_innocent: >-
+    I left the damaged-frame photo off the sheet. Courier kept a copy. Grant refused the delivery. I wanted acceptance without reporting the crack. During bottle receiving I signed the wrong trolley number, then corrected it in pencil. Jordan secured the original; I moved the clear replica. Grant had the delivery sheet, so I looked at reception. Had my tools, including the lever. Hadn't put them away.
+  coming_clean_innocent: >-
+    Attach both photographs. Cracked frame; intact original after trolley work. I owe a repair and report. Grant refused acceptance because I hid damage. I didn't kill him. The lever was in my unsealed roll at reception. Work needed finishing. So did the paperwork, though I'd signed as if both were finished.
+  coming_clean_murderer: >-
+    Forced the cabinet and case at 6:12. Took the original. Broke its neck. Carried poison in the favor to the empty glass between 6:32 and 6:44. Hid the bottle behind reception. They added clean punch later. I knew it wasn't filled when I moved it. Said otherwise to make looking for the delivery sheet sound ordinary. I could have reported the frame and risked the job. I killed the man refusing acceptance instead.
+  reason: Clean acceptance is Cary's dishonest objective, not Grant's demand; intact original and unsealed tool availability remain limited receiving facts.
+- id: '25'
+  name: Anne E. Dote
+  coming_clean_innocent: >-
+    I'll tell the staff I added Artie's name without consent. Their signatures stand without it. I blocked Grant's speech cards because the trustees had heard us and still preferred a lounge to a teaching room. I didn't kill him. The petition copies and school bookings are available. Someone needs to explain where the children go if those sessions are cut. I intend to ask at the vote, although I may be doing it without my current title.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original. I broke its neck, carried poison in the favor and put it in the empty glass between 6:32 and 6:44. I hid the bottle behind reception. They poured clean punch later. I lied that the drink was ready so the petition looked like the whole obstruction. I acted alone. The teachers signed for their jobs, not for this. I killed him while letting them believe I was still trying to get a vote.
+  reason: No favored-class offer or threatened naming of temporary staff; the announced budget choice and unauthorized petition tactic remain.
+- id: '26'
+  name: Faye Stop
+  coming_clean_innocent: >-
+    Release the full print and the saved preview. I promised deletion under the portrait agreement, kept a print and sent the image to an editor. Then I showed a crop and called it all that survived. I didn't poison Grant. The FIXER tested clear. My pictures have gaps because I put the camera down to work and call people. Grant wanted the print collected. I wanted it published without losing a commission I'd already used for another assignment.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck and carried poison in the favor to the empty glass between 6:32 and 6:44. I hid the bottle behind reception. I claimed it contained punch to make the case and envelope look like things left beside finished service. Clean punch came later. I wanted the picture preserved and the contract objection gone. I killed him, then kept taking photographs. None of them records the thing I need to admit.
+  reason: Requested print collection and divided portrait assignment replace bag-search and smear threats; no camera gap becomes surveillance proof.
+- id: '27'
+  name: Robin Banks
+  coming_clean_innocent: >-
+    Give our board the legal notice and the printing account. I described an unapproved protest as outreach. The stickers were removable; the legal costs aren't. I didn't kill Grant. The board's refusal and printer order remain available. I put volunteers and staff at risk after promising I could handle it. I need to tell them exactly what I spent and what the pending action could cost, before asking them to trust another plan from me.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, took the original and broke its neck. The favor carried poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. Service poured clean punch later. I said it was already filled so changing brochures looked like the whole visit. Nobody on our board knew. No volunteer helped. I had committed them to a protest they refused and wanted Grant stopped before they paid for it. I killed him on my own.
+  reason: Existing legal notice and activist overreach remain; no claim that Grant principally enjoyed exclusion or humiliation.
+- id: '28'
+  name: Penny Pincher
+  coming_clean_innocent: >-
+    Grandfather's letter is with the solicitor. The earlier receipt lists three. Grant offered settlement; I wanted the object returned. I took speech cards to choose the account everyone heard. I didn't poison him. Let the family read all four letters. I had a well-kept grievance and didn't want it complicated.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12, took the original and broke its neck. My favor carried poison to his empty glass between 6:32 and 6:44. I hid the bottle behind reception. Clean punch came later. Calling the drink filled made my open case and stolen cards seem beside completed service. I wanted the object returned without explaining Grandfather's part in the sale. The settlement would have made us explain it anyway. I killed Grant to keep choosing which letter the family heard about.
+  reason: Settlement concerns contested ownership, not purchased silence; complete correspondence and actual coat-check return stay in the earlier fields.
+- id: '29'
+  name: Justin Tyme
+  coming_clean_innocent: >-
+    I'll publish the correction and explain that I trusted Grant before checking the lease. The complete recording names the boundary wall and the source's restriction. My own recorder kept the take I deleted. I didn't kill him. The bookshop has to decide about the blog at its desk; it also pays my wages. I wanted the plaque corrected without losing either job. The tenant deserved a better explanation than a map with the lease quietly missing.
+  coming_clean_murderer: >-
+    At 6:12 I forced the cabinet and took the original. I broke its neck, carried poison in my favor and put it in the empty glass between 6:32 and 6:44. I hid the bottle behind reception. The later punch was clean. I said the drink was prepared to make retrieving the map sound like the whole encounter. Grant had contacted the bookshop. I wanted his objection ended before the proprietor answered. I killed him, then kept talking about a correction that really was true.
+  reason: Bookshop wages and workspace remain material stakes; source restriction is independent of Grant and museum access is not threatened.
+- id: '30'
+  name: Minnie Malist
+  coming_clean_innocent: >-
+    The operator gets the proper record. The florist needs a payment instruction I can honor. I promised wages without controlling the money, concealed the blackout and moved the glass while changing a card. I didn't poison Grant. The balance depended on a production we couldn't agree to approve. The override stopped my interruption; later flickers were a test. The crew delivered anyway. I have to explain what I promised before anyone agrees to work through another crisis for me.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original, then broke its neck. After the 6:37 override stopped my blackout, I used the favor to poison the empty glass before its 6:44 collection. I hid the bottle behind reception. Clean punch was poured later. I falsely called the drink prepared to shrink what my card correction had interrupted. The operator and crew didn't know. I had promised them money I couldn't produce. I killed Grant after my plan to make him negotiate failed.
+  reason: Failed unauthorized promises and disputed approval replace retaliation for taste; blackout is canceled before the guilty poisoning visit.

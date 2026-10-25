@@ -1,0 +1,156 @@
+schema_version: 1
+status: small_authoring_prototype_not_tested
+shared_across_selections: true
+reports:
+- id: access-map
+  release: motive
+  title: Reception and preparation
+  form: A simple museum staff plan
+  facts:
+  - The service corridor adjoins reception and leads to both coat check and the preparation room.
+  - The outer preparation door was propped for installation traffic until the alarm response. It was marked
+    STAFF ONLY; guests could trespass, not legitimately handle the loan.
+  - The original was inside its locked preparation cabinet, not left on an open table.
+  - The installation workbench was in the same corridor. Tool access was not restricted to a particular
+    profession.
+- id: initial-gift
+  release: motive
+  title: The proposed gift
+  form: Unsigned agreement with three marked conditions
+  facts:
+  - The museum will take Grant's name.
+  - Grant will have approval rights over acquisitions.
+  - Artie must resign within sixty days.
+  - The education rooms will become a private donor lounge.
+  - The board has not signed the agreement.
+- id: initial-incident
+  release: motive
+  title: Death at the gala
+  form: Short incident bulletin
+  facts:
+  - Grant collapsed after the toast and died at the museum. Poisoning is suspected; chemical identification
+    is pending.
+  - A historical poison bottle received for The Art of Murder is missing from a preparation cabinet.
+  - The cabinet alarm reported forced opening at 6:12. Grant told staff the bottle had been emptied.
+  - The responding investigators obtained the original loan condition after the death; it records retained
+    historical contents.
+  - No private glass, prop, food or drink has yet been cleared by the laboratory.
+- id: working-service-card
+  release: opportunity
+  title: Three changes to the same setting
+  form: Service card with handwritten alterations
+  facts:
+  - Artie wrote HOLD DONOR SETTING without board authorization.
+  - Monet wrote NO PRIVATE RETURNS while disputing the catering charge.
+  - Brie crossed out REPLACE FROM CLEAN STOCK and withdrew the available cover server.
+  - Casey placed the museum-star glass at 6:32, collected it at 6:44 and filled it from shared punch on
+    the service tray at 6:46.
+  - Casey retained Grant's glass on his tray from collection at 6:44 through filling and the 6:49 toast.
+    He did not return it to the reception setting. He had not continuously observed it while it stood
+    there beforehand.
+  - The kitchen work record orders the actions COUNT, COLLECT GIFT, FILL. The count that kept Casey in
+    the kitchen preceded collection of the gift glass, not the completed toast.
+- id: short-scene-accounts
+  release: opportunity
+  title: Unfinished work
+  form: Three retained notes from people doing their jobs
+  facts:
+  - Jordan photographed the damaged source case after the alarm. Chip subsequently removed a caught strip
+    of lining despite Jordan's request to preserve the case.
+  - The reserve server returned an ordinary rental replacement to the clean rack at Brie's instruction.
+    The kitchen roster had no task for that server when Brie withdrew cover.
+  - Grant's assistant collected an education petition from the donor setting. Its endorsement used Artie's
+    signature; Artie denied signing it. Anne had laid the petition over the planned announcement.
+  - The assistant restored the announcement after collecting Anne's petition, then gave Casey the signal
+    to bring the toast tray from the kitchen. The petition interruption preceded the toast.
+  - The assistant stopped clearing the announcement after Artie ordered a hold. The portrait screen was
+    moved into reception; her close photograph shows Artie carrying its edge beside the setting.
+  - Coat check refused to store the portrait packet and returned Penny to the assistant during portrait
+    preparation. Casey still needed the papers cleared before collecting the donor setting for the toast.
+- id: source-storage
+  release: method
+  title: The loan had not been cleared for display
+  form: Receiving photograph, cabinet opening log and loan condition
+  facts:
+  - The receiving photograph shows the original intact in its secondary case when the preparation cabinet
+    was secured at 5:45.
+  - The cabinet opening log records no opening between securing and the forced-opening alarm at 6:12.
+    The loan had not been retrieved for a donor demonstration.
+  - Display approval was withheld. The original had not been issued to Grant or installed on the reception
+    table.
+  - The original was recovered with neck damage among packing on the staff-returns shelf after the death.
+  - The photograph after the alarm shows the lining still caught on the forced case edge. The removed
+    strip fits that gap.
+  - The receiving file includes Sue's signed instruction for the Velvet Widow loan, headed HOLD
+    ORIGINAL. Its three directions are KEEP IN SECURED STORAGE, NO DISPLAY RELEASE, and RETAIN
+    CONDITION WITH OBJECT. The unsigned acquisition announcement is clipped behind it.
+  author_only_limits:
+  - Recovery location does not identify the individual handler. The renderer must not print this author
+    note.
+- id: glass-stock
+  release: method
+  title: A glass from the shop order
+  form: Stock photograph and service order
+  facts:
+  - The star-on-the-bowl design was new stock for this gala. The delivery carton was still sealed when
+    Casey opened it at 6:30 and unwrapped the first glass for Grant.
+  - Grant's glass is the custom donor gift, with GRANT LARCENY engraved below the bowl's star. The stock
+    order lists one such engraved glass.
+  - The stock photograph shows the shop wrapping and the star on the bowl.
+  - Casey's opening photograph records the sealed delivery carton, not just a sleeve that could have been
+    put around a used glass. No earlier star-bowl stock was supplied for this event.
+  - The reserve replacement was an ordinary rental glass. Grant's portrait order specifically requested
+    the museum star.
+  - Photographs at placement and collection show an empty-looking glass.
+  author_only_limits:
+  - Momentary photographs do not establish uninterrupted custody or exclude invisible contamination.
+  - A wrapped-glass image alone cannot prove it was never used; retain the complete stock record rather
+    than inventing a photograph of an invisible history.
+- id: laboratory
+  release: method
+  title: Findings from the drink and exhibit
+  form: Compact results sheet without a deduction paragraph
+  facts:
+  - Cyanide was found in Grant's museum-star glass and in the recovered historical original.
+  - The sampled shared punch, food, sauce, rehearsal PROP glass, brush water and studio FIXER tested clear
+    for cyanide.
+  author_only_limits:
+  - The lab does not identify personal ownership or establish complete movements.
+  - No miniature carrier, fingerprint match, or last-holder conclusion is being supplied. These are author
+    boundaries, not player-facing deduction instructions.
+- id: context-items
+  release: method
+  title: The work people were concealing
+  form: Short retained work records and photographs; final exhibit layout pending
+  items:
+  - title: Naming photograph and chair reply
+    text: The wide photograph shows the portrait screen in front of the proposed museum-name lettering,
+      with the donor setting outside it. The chair rejects Artie's hold order and refers to the job he
+      accepted elsewhere last month.
+  - title: Closing cue record
+    text: The rig notes name the donor portrait GRANT. The collapse cue was not reinstated or executed.
+      The crew retained the rejected rehearsal page and PROP glass.
+  - title: Installation tool return
+    text: The electrician placed the rig tools on the returns trolley when the alcove closed. Frank later
+      retrieved his bar. Several workshop bars have the width seen at the forced latch.
+  - title: Parts retained by the crew
+    text: The support and fixing plate are with the removal foreperson. The case recess and drawing match
+      the support; Al's renewed instruction sent the plate after it.
+  - title: Editor's retained page
+    text: The page Paige took contains the source questions reproduced in the press file. It is not an
+      instruction authorizing physical release of the original.
+  - title: Portrait packet cards
+    text: The cards retained from Penny's detour concern the family sale. Coat check refused to store
+      the packet and sent her back with it.
+  - title: Treasury folder
+    text: >-
+      The bank copy of Hugh's signed guarantee includes the paragraph missing from Grant's copy:
+      if the buyer fails to complete the purchase, the guarantor owes the shortfall; that obligation
+      survives the buyer's death. The museum's gift ledger records Ella's pledge as settled before
+      the gala, paid by her backing company. Her acknowledgment credits Ella; the attached backing
+      letter names the company and her continuing repayment obligation.
+  - title: Textile purchase card
+    text: >-
+      Elle's card reads PURCHASE CANCELED / RETURN TO ARTIST. It is dated before the gala.
+      The collection register has no completed pickup entry. The mount photograph still credits
+      Grant as purchaser.

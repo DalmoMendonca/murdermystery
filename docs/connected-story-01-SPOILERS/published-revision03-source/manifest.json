@@ -1,0 +1,15 @@
+{
+  "revision": "published-baseline-opportunity-2026-10-10",
+  "baseline_tested_commit": "e29371c",
+  "tests": [
+    "docs\\connected-story-01-SPOILERS\\balance-dramatic-30-03",
+    "docs\\connected-story-01-SPOILERS\\balance-dramatic-22-03"
+  ],
+  "limitations": "Two same-culprit text cases; not all30 worlds or human solve rates. Final alternative suspicion varies. Innocent readings and endings retained exactly.",
+  "sha256": {
+    "all.yaml": "6c9a23bca710d18b0e70d9cc577932c08c83c924b7a686f60a0a689cece3f032",
+    "confirmed.yaml": "9b15685092df4d037ba565d07bfd39db63e1efa9ca3954b323c1cadcfc21b765",
+    "playable-evidence.yaml": "0a26a89b66c75ab28634df358e355ce57f86f9b633f6c9e1e6da6be2634e7866",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  }
+}

@@ -1,0 +1,9 @@
+# Decision after the current quick check
+
+Midpoint breadth is retained: eleven of fifteen strictly above five, unchanged from the first connected draft. Correct final leader remains nine. Final alternatives at five to six fall from nine to eight, still far outside the desired three or four. A one-person change across different readers is not convincing evidence of improved balance.
+
+The earlier repair had four final alternatives and the correct leader, so the connected rewrite has not surpassed it on ending discrimination. The connected rewrite has broader midpoint suspicion, but its ending is still too muddy. Neither balance score establishes narrative naturalness: this reader specifically flags repeated empty-room visits and coordinated documentary explanations, with the culprit's categorical false claim standing out as the intended answer. Do not call this a successful revision or deploy it as a balanced replacement.
+
+Next work should repair the shared event sequence and how each genuinely different scandal intersects it. Remove redundant access visits and avoid making every innocent's last answer a prepared documentary defense. Preserve the overlapping midpoint suspicion while making a small number of distinct late evidence connections resolve most alternatives. Test only after those substantive repairs are complete; do not tune scores by rewriting a single denial and immediately rerunning another reader.
+
+This remains a fifteen-role, one-selected-world text diagnostic without the hunt. Ten master routes are still unwritten in the current twenty-role authoring bank; five market routes were excluded from this matched check. Full thirty-route and confirmed-party tests, rendered evidence comprehension and physical party pacing remain outstanding. Already-sent sheets and the published fallback were not changed.

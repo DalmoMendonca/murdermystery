@@ -69,7 +69,7 @@ def poster(chars,b,print_mode=False,output_dir=None,merged_path=None):
             if proposed<=736:
                 portrait_width=candidate;end=proposed;hero=new_hero;break
         gap=18+min(24,max(0,710-end))
-        portrait(s,b,b.ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg',42,hero_y,portrait_width,hero)
+        portrait(s,b,c.get('portrait_path',b.ROOT/'assets/portraits'/c['slug']/'van_gogh.jpg'),42,hero_y,portrait_width,hero)
         text(s,b,p['description'],66+portrait_width,hero_y+3,528-portrait_width-24,size,color=ink)
         y=hero_y+hero+gap
         for rel in p['relationships']:

@@ -1,0 +1,387 @@
+{
+  "Reader A": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Elon Mosaic",
+          "Brie DeVivre",
+          "Robin Banks",
+          "Penny Pincher"
+        ],
+        "highest": 2,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre",
+          "Minnie Malist"
+        ],
+        "highest": 4,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre",
+          "Minnie Malist"
+        ],
+        "highest": 4,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 0,
+        "culprit_score": 5,
+        "leaders": [
+          "Hugh Bidder",
+          "Cary Crates"
+        ],
+        "highest": 5,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 1,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 2,
+        "culprit_score": 5,
+        "leaders": [
+          "Brie DeVivre",
+          "Cary Crates"
+        ],
+        "highest": 6,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 6,
+        "culprit_score": 3,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "highest": 7,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 8,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 2,
+        "culprit_score": 4,
+        "leaders": [
+          "Chip Patina"
+        ],
+        "highest": 7,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "highest": 9,
+        "correct_sole_leader": true,
+        "alternatives_five_six": 0,
+        "obvious_culprit": "Hugh Bidder"
+      }
+    ],
+    "act_ii_above_five": 6,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_alternatives_five_six": 0,
+    "early_obvious_culprit": false,
+    "protocol_deviation": "Stage 1 scores were fixed in memory before reading checkpoint 2. Initial disk save failed on a PowerShell smart-apostrophe parsing error, and checkpoint 2 was read before the corrected disk save. Stage 1 scores were preserved unchanged. Subsequent checkpoints were successfully saved before reading the next.",
+    "numerical_targets_met": false
+  },
+  "Reader B": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Elon Mosaic",
+          "Brie DeVivre",
+          "Penny Pincher"
+        ],
+        "highest": 2,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 3,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "highest": 5,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 1,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 3,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "highest": 5,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 2,
+        "culprit_score": 6,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "highest": 6,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 5,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 4,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Chip Patina",
+          "Brie DeVivre",
+          "Cary Crates"
+        ],
+        "highest": 6,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 8,
+        "culprit_score": 6,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "highest": 8,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 8,
+        "culprit_score": 5,
+        "leaders": [
+          "Chip Patina",
+          "Anya Tique",
+          "Brie DeVivre"
+        ],
+        "highest": 7,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 13,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 5,
+        "culprit_score": 9,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "highest": 9,
+        "correct_sole_leader": true,
+        "alternatives_five_six": 8,
+        "obvious_culprit": "Hugh Bidder"
+      }
+    ],
+    "act_ii_above_five": 8,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_alternatives_five_six": 8,
+    "early_obvious_culprit": false,
+    "protocol_deviation": "",
+    "numerical_targets_met": false
+  },
+  "Reader C": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 1,
+        "leaders": [
+          "Artie Ficial",
+          "Claire O’Scuro",
+          "Hugh Bidder",
+          "Monet Bags",
+          "Chip Patina",
+          "Dada DiCapo",
+          "Vincent Van Faux",
+          "Sue Venir",
+          "Dr. Art E. Fact",
+          "Tess Tament",
+          "Barb Dwyer",
+          "Paige Turner",
+          "Frank Lloyd Wrong",
+          "Mona Lott",
+          "Elon Mosaic",
+          "Anya Tique",
+          "Saul D. Bid",
+          "Elle Loominate",
+          "Reed DeLabel",
+          "Al Baster",
+          "Ella Gance",
+          "Drew Conclusions",
+          "Brie DeVivre",
+          "Cary Crates",
+          "Anne E. Dote",
+          "Faye Stop",
+          "Robin Banks",
+          "Penny Pincher",
+          "Justin Tyme",
+          "Minnie Malist"
+        ],
+        "highest": 1,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Monet Bags",
+          "Vincent Van Faux",
+          "Barb Dwyer",
+          "Brie DeVivre",
+          "Minnie Malist"
+        ],
+        "highest": 4,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "highest": 5,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 1,
+        "culprit_score": 6,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "highest": 6,
+        "correct_sole_leader": true,
+        "alternatives_five_six": 4,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 5,
+        "culprit_score": 6,
+        "leaders": [
+          "Hugh Bidder",
+          "Chip Patina",
+          "Vincent Van Faux",
+          "Brie DeVivre",
+          "Cary Crates"
+        ],
+        "highest": 6,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 9,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 9,
+        "culprit_score": 6,
+        "leaders": [
+          "Chip Patina",
+          "Brie DeVivre"
+        ],
+        "highest": 7,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 10,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 6,
+        "culprit_score": 4,
+        "leaders": [
+          "Chip Patina"
+        ],
+        "highest": 8,
+        "correct_sole_leader": false,
+        "alternatives_five_six": 8,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Hugh Bidder"
+        ],
+        "highest": 9,
+        "correct_sole_leader": true,
+        "alternatives_five_six": 1,
+        "obvious_culprit": "Hugh Bidder"
+      }
+    ],
+    "act_ii_above_five": 9,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_alternatives_five_six": 1,
+    "early_obvious_culprit": false,
+    "protocol_deviation": "",
+    "numerical_targets_met": false
+  }
+}

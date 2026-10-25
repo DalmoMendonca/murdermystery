@@ -1,0 +1,19 @@
+{
+  "status": "complete_rejected_for_promotion",
+  "completed": 2,
+  "total": 2,
+  "invalid": 0,
+  "correct": 2,
+  "readers": {
+    "t001": "/root/restored_a",
+    "t002": "/root/restored_b"
+  },
+  "remaining_balance_failures": [
+    "Cary E3=3, rank11, final9",
+    "Midgame breadth1 and final alternatives0 in Cary case"
+  ],
+  "successful_case": "Robin E3=6, final9,8 midgame suspects and6 final innocent alternatives",
+  "current_cast_release": "docs/playtest/2026-10-24-CURRENT-CAST-RELEASE-SPOILERS",
+  "published_rewrite_accepted": false,
+  "further_readers_queued": false
+}

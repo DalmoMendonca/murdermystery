@@ -1,0 +1,17 @@
+# Production integration audit — not a release candidate
+
+Inspected current renderer entry points while the blind comparison runs. The private candidate cannot be installed by simply copying its testimony YAML into `source/`.
+
+| Current production input or consumer | Actual gap | Required accepted-story work |
+|---|---|---|
+| `scripts/investigation_copy.py::apply_investigation` | Requires schema2, `exclusion`, `suspicion` and optional `positive_trace`; the new experiment uses schema1 without those fields. | Explicitly migrate accepted testimony and argument metadata. Do not fabricate exclusions just to satisfy a schema. |
+| `scripts/investigation_copy.py::derive_account` | Older timed families evaluate sample acquisition at6:20–28 and `contaminate_coupe` at6:40–44. The experiment has forced theft6:12 and unattended glass6:32–44. | Replace obsolete action/window logic with the actual accepted causal model. Mechanical phrase coverage proves only coverage, never the meaning of an innocent account. |
+| `source/investigation_copy.yaml` | Canonical fifth-candidate speeches still concern the earlier walkthrough, red foil fragments and continuous accounts. | Replace all180 round branches and60 endings only after every selectable culprit is reviewed. Prototype contains27 known-ineligible inherited guilty routes. |
+| Candidate `briefing` fields | Inherited histories/objectives can disclose obsolete actions or describe withheld information differently from the new speeches. Example: Claire's earlier chronology differs from the external-review scene. | Read and rewrite every private briefing against the accepted crime and its innocent/guilty disclosures. Keep already-sent public biographies and portraits locked. |
+| `scripts/check_testimony.py` and rehearsal checks | Depend on old exclusion/action metadata. Existing green results cover an earlier story, not this experiment. | Use actual argument ledgers and independent semantic reviews for all30 routes; test attendance and release dependencies. Preserve historical results as historical evidence. |
+| `source/question_rounds.json` | Prompts address older actions and may ask obsolete timings or objects. | Put full-name target questions into each packet, align every prompt with the answer in both branches, and generate confirmed/full-cast editions without essential absent-role dependencies. |
+| `source/facilitator.json`, investigation/evidence inputs, mechanics atlas | Still describe a previously built story and its evidence release. | Reconcile host-safe setup, Hunt sharing, three rounds, ballot/top3 Coming Clean, fallback murderer stand-up, and evidence. No solver instructions or sealed finale. |
+| F3/F4 art references | Experiment uses required placeholders for returns shelf and lookalike original/copy comparison. Older clear-copy art is incompatible. | Generate and inspect actual visual evidence after the story is accepted. Show what a guest could observe without adding an early identity cue or hiding visible damage. |
+| PDFs/archives/live downloads | No new-story pages have been generated or reviewed. Historical88-PDF verification does not transfer. | Clean build both roster editions, render every PDF page, inspect every page, repair layout, verify public locks and archive bytes, commit generated changes, publish and compare live hashes. |
+
+No production source, published download or sent public image was changed by this audit. These gaps remain part of the full goal, not optional follow-up work.

@@ -1,0 +1,22 @@
+# Blind review: version 18, trial D
+
+Final accusation: Justin Tyme. Confidence: moderate, approximately 65%. Final suspicion score: 8/10.
+
+The cyanide source is the original Velvet Widow, whose fresh broken neck matches the cyanide-bearing fragment in folded favor paper. The intact fragrance miniature contained cyanide while unopened favor stock was clean. The targeted donor glass, rather than punch or food, was contaminated. Justin finally admits opening an unnamed favor beside his map and moving the glass off his lease. That joins carrier use and glass contact more closely than anyone else's released account. His denial that the original was in his map sleeve is not independent corroboration.
+
+This is a best-fit accusation, not a uniquely compelled solution. We do not get a witness, timestamp, receipt, named wrapping, fingerprint, or other independent link connecting Justin to the contaminated miniature or fragment-bearing paper. Every guest had a favor, most had reception access, and statements can be false. The fracture match proves a relationship between objects, not an owner. His local-history dispute also seems less materially severe than several other motives; this does not exclude him, but limits confidence.
+
+Credible alternatives: Brie DeVivre created the unattended interval, prevented reserve coverage, and handled the glass; a towel explains the fibers without ruling out poisoning. Penny Pincher had an open case beside the glass and could conceal a bottle. Al Baster directly handled the glass, though his own favor is reportedly available for seal examination, lowering him. Monet knowingly prolonged the service manager's kitchen absence. Barb handled the waste area and suppressed the hazard discussion, but her negligence is well explained and no carrier is tied to her.
+
+Earliest fair identification point: stage 8 for a tentative accusation of Justin. Before then, his map proximity is weaker than Al and Brie's actual glass handling. Stage 7 establishes the mechanism, not the individual. No stage supplies enough affirmative evidence to eliminate all credible alternatives; a high-confidence unique identification would require one additional public link between Justin and the fragment wrapper or transfer vessel.
+
+Fairness: the clear replica, labeled PROP glass, intact favors, independent storage alarm and canceled show sequence create understandable physical distinctions. Explicitly acknowledging that documents and seconds-long messages are not alibis is good. However, the final solution currently depends heavily on treating one suspect's volunteered favor-opening admission as uniquely incriminating while other suspects may be lying. The 6:12 theft still has no individualized opportunity account beyond Tess's late entry.
+
+Plausibility: the museum's locked cabinet, secondary case and withheld display approval make the hazardous acquisition more credible than an openly displayed original. Still, a century-old bottle retaining usable cyanide, simple transfer to a perfume miniature, and personnel carrying on service after an unresolved toxic theft need a little more practical grounding. Grant's false claim plus concealed notes explains delay, but readers may reasonably wonder why a broken cabinet and known poison exhibition did not stop the gala immediately.
+
+Voice: introductions are distinct and funny, and Artie, Chip, Dada and Penny retain recognizable tones. The two confession rounds are unusually uniform: everyone admits a separate compromise, explains a threatening phrase, and carefully states the limits of their own alibi. This sounds like shared investigative exposition more than 22 spontaneous people. Repeated references to reception and glass proximity increase cognitive load. Justin's and Paige's recorder references could use a brief clarification about whether there are two devices.
+
+Accessibility: the text release includes photo identifiers rather than actual images or detailed alternative descriptions. The core bottle and timing claims are stated in prose, which makes this trial playable, but some photo corroboration cannot be independently assessed. Twenty-two similarly themed pun names, 16 initial documents, and repeated sideboard visits would benefit from a public timeline and object comparison card. The initial 'disconnected at6:29' spacing is a minor readability issue.
+
+All eight sequential stages completed and validated. Earlier score files were left unchanged. No hidden identity was read.
+

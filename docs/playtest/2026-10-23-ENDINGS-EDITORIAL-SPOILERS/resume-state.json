@@ -1,0 +1,35 @@
+{
+  "status": "superseded_do_not_dispatch",
+  "published_source_unchanged": true,
+  "completed_staged_checks_this_pass": 28,
+  "completed_final_only_probes": 1,
+  "staged_completed": 6,
+  "staged_total": 6,
+  "staged_run": "docs/playtest/2026-10-12-RESIDUAL-COVER-STAGED-SPOILERS",
+  "latest_result": "docs\\playtest\\2026-10-23-PUBLISHED-REBASE-SPOILERS\\RESULTS.md",
+  "latest_candidate": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS\\candidate-source",
+  "next_run": "docs\\playtest\\2026-10-23-ENDINGS-EDITORIAL-SPOILERS",
+  "next_completed": 0,
+  "next_total": 2,
+  "next_action": "Next continuation: two fresh fork-none editorial reviewers r001 and r002, only editorial READER_INSTRUCTIONS plus gated scene. No full staged balance tests. Lock reviews, decode private mappings only after completion, and compare writing tradeoffs before further changes.",
+  "production_promotion_allowed": false,
+  "reason": "User changed the attending cast and requested one final game check. Old editorial scenes include a now-absent role and are not current tests.",
+  "readers": {
+    "cast22/t001": "/root/rebase22",
+    "cast30/t001": "/root/rebase30"
+  },
+  "location_completed": 2,
+  "location_total": 2,
+  "location_readers": {
+    "cast22/t001": "/root/location22",
+    "cast30/t001": "/root/location30"
+  },
+  "two_voice_completed": 2,
+  "two_voice_total": 2,
+  "rebase_completed": 2,
+  "rebase_total": 2,
+  "next_kind": "editorial_comparison_not_balance",
+  "editorial_completed": 0,
+  "editorial_total": 2,
+  "superseded_by": "docs\\playtest\\2026-10-23-FINAL-RSVP22-SPOILERS"
+}

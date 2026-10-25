@@ -1,0 +1,419 @@
+{
+  "Reader A": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Monet Bags",
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Frank Lloyd Wrong",
+          "Elon Mosaic",
+          "Saul D. Bid",
+          "Al Baster",
+          "Brie DeVivre",
+          "Robin Banks",
+          "Penny Pincher",
+          "Minnie Malist"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 2,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 3,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Cary Crates"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 7,
+        "alternatives_six_seven": 3,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 6,
+        "culprit_score": 4,
+        "leaders": [
+          "Cary Crates"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 11,
+        "alternatives_six_seven": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 12,
+        "culprit_score": 3,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -5,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 11,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 11,
+        "culprit_score": 2,
+        "leaders": [
+          "Chip Patina",
+          "Dr. Art E. Fact",
+          "Anya Tique",
+          "Reed DeLabel",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -5,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 11,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 9,
+        "leaders": [
+          "Anne E. Dote"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 4,
+        "alternatives_five_six": 4,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Anne E. Dote"
+      }
+    ],
+    "act_ii_above_five": 12,
+    "correct_final_leader": true,
+    "final_culprit_score": 9,
+    "final_culprit_margin": 4,
+    "final_alternatives_five_six": 4,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "distinct_voices": 7,
+      "repeated_personal_arcs": 5,
+      "plausible_motives_and_movements": 6,
+      "emotional_reactions": 8,
+      "speeches_that_interpret_exhibits_for_players": 4
+    },
+    "numerical_targets_met": true
+  },
+  "Reader B": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Hugh Bidder",
+          "Monet Bags",
+          "Vincent Van Faux",
+          "Tess Tament",
+          "Elon Mosaic",
+          "Saul D. Bid",
+          "Brie DeVivre",
+          "Robin Banks"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 0,
+        "culprit_score": 4,
+        "leaders": [
+          "Artie Ficial",
+          "Monet Bags",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 3,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 2,
+        "culprit_score": 3,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 5,
+        "culprit_score": 3,
+        "leaders": [
+          "Artie Ficial",
+          "Monet Bags",
+          "Chip Patina",
+          "Brie DeVivre",
+          "Cary Crates"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -3,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 5,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 7,
+        "culprit_score": 3,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -5,
+        "alternatives_five_six": 12,
+        "alternatives_six_seven": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 18,
+        "culprit_score": 2,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -7,
+        "alternatives_five_six": 12,
+        "alternatives_six_seven": 14,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 10,
+        "leaders": [
+          "Anne E. Dote"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 5,
+        "alternatives_five_six": 1,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Anne E. Dote"
+      }
+    ],
+    "act_ii_above_five": 7,
+    "correct_final_leader": true,
+    "final_culprit_score": 10,
+    "final_culprit_margin": 5,
+    "final_alternatives_five_six": 1,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "distinct_voices": 6,
+      "repeated_personal_arcs": 5,
+      "plausible_motives_and_movements": 7,
+      "emotional_reactions": 7,
+      "speeches_interpreting_exhibits": 5
+    },
+    "numerical_targets_met": false
+  },
+  "Reader C": {
+    "stages": [
+      {
+        "stage": 1,
+        "above_five": 0,
+        "culprit_score": 2,
+        "leaders": [
+          "Vincent Van Faux",
+          "Tess Tament"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 2,
+        "above_five": 2,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -1,
+        "alternatives_five_six": 8,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 3,
+        "above_five": 2,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 5,
+        "alternatives_six_seven": 2,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 4,
+        "above_five": 6,
+        "culprit_score": 5,
+        "leaders": [
+          "Artie Ficial",
+          "Hugh Bidder",
+          "Cary Crates"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -2,
+        "alternatives_five_six": 14,
+        "alternatives_six_seven": 6,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 5,
+        "above_five": 9,
+        "culprit_score": 4,
+        "leaders": [
+          "Chip Patina",
+          "Cary Crates"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -4,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 7,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 6,
+        "above_five": 13,
+        "culprit_score": 3,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -6,
+        "alternatives_five_six": 9,
+        "alternatives_six_seven": 9,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 7,
+        "above_five": 11,
+        "culprit_score": 2,
+        "leaders": [
+          "Brie DeVivre"
+        ],
+        "correct_sole_leader": false,
+        "culprit_margin": -7,
+        "alternatives_five_six": 11,
+        "alternatives_six_seven": 9,
+        "obvious_culprit": null
+      },
+      {
+        "stage": 8,
+        "above_five": 1,
+        "culprit_score": 10,
+        "leaders": [
+          "Anne E. Dote"
+        ],
+        "correct_sole_leader": true,
+        "culprit_margin": 6,
+        "alternatives_five_six": 0,
+        "alternatives_six_seven": 0,
+        "obvious_culprit": "Anne E. Dote"
+      }
+    ],
+    "act_ii_above_five": 13,
+    "correct_final_leader": true,
+    "final_culprit_score": 10,
+    "final_culprit_margin": 6,
+    "final_alternatives_five_six": 0,
+    "final_alternatives_six_seven": 0,
+    "early_obvious_culprit": false,
+    "early_large_lead": false,
+    "protocol_deviation": "",
+    "first_reported_correct_obvious_stage": 8,
+    "narrative_ratings": {
+      "distinct_voices": 6,
+      "repeated_personal_arcs": 5,
+      "plausible_motives_and_movements": 7,
+      "emotional_reactions": 7,
+      "speeches_interpreting_exhibits": 5
+    },
+    "numerical_targets_met": false
+  }
+}

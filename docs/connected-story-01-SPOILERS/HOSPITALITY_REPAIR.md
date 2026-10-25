@@ -1,0 +1,15 @@
+# Hospitality causal repair after the matched diagnostic
+
+The previous goal turn made progress: it completed and published the frozen seven-stage comparison at `1e1bd38`. That comparison supports broader midpoint suspicion, but rejects the current final suspect spread and does not establish naturalism or full-cast readiness.
+
+This pass audits all fifteen innocent Method payoffs in `late-payoff-audit.yaml`. The independent `LATE_PAYOFF_REVIEW.md` agrees that settling a scandal is often being mistaken for weakening a poisoning accusation. It recommends the existing hospitality disagreement as the first actionable repair, rather than fifteen new alibis.
+
+The three-role repair establishes a paid original toast and a separately disputed cheese-course charge. Monet's instruction keeps original service in place and charges the addition to Grant. Sue's legal objection concerns the public gift announcement. Brie's separately prepared flavoring was on the original order; the clean retained ingredient weakens that particular transfer theory without clearing other possible acts. The manager set the private place for a scheduled later toast, so the billing dispute no longer artificially creates its unattended interval.
+
+Monet's innocent Opportunity and Method, Sue's and Brie's innocent Method, their innocent endings, shared evidence contracts and the current timeline are aligned. Their three guilty covers remain the wrong pre-preview glass visit, the false supervised table pour and the false flavored shared pitcher. Review accepted this bounded causal change in `HOSPITALITY_REPAIR_REVIEW.md`. Its one cleanup was applied: Monet's guilty confession now calls the opportunity an unattended interval, not a service interruption. No later score is claimed.
+
+Compiled master and confirmed authoring banks were regenerated. Thirty omission casts, fifteen single-role casts and four recording attendance variants passed reference checks. All 184 sent-asset hashes matched. These checks establish identities/references and immutability, not story balance, layout or final deduction. The frozen diagnostic remains untouched.
+
+The unresolved architectural issue is explicit: contradicted ordinary records establish concealed access or knowledge, while current confessions supply the extraction and transfer. Stronger transfer corroboration must work for every selectable culprit and must not quietly make a fixed guest the killer. Innocent contexts still often leave substantial alternatives. No score loop is started merely because the wording changed.
+
+Next: apply the same accusation-specific audit to the shared intake/catalog dispute, review its causal payoffs, and design the late transfer corroboration before further cast expansion. Existing scheduled service and staff source access remain constraints. No continuous-room alibis, unique shared-stock matches or explicit truthful-innocent rule may be smuggled in. The other fifteen roles, full question integration, hunt, final artwork, whole-kit visual review and improved publication remain unfinished. The complete fallback remains live and sent sheets remain immutable.

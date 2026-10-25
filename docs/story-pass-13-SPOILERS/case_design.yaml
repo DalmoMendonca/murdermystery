@@ -1,0 +1,37 @@
+schema_version: 1
+revision: 'Pass 13: distributed conflicts; delayed delivery-route findings'
+status: Isolated story prototype, independent tests pending
+victim: Grant Larceny
+actor_count: 1
+actor_pool: attending characters
+public_copy: immutable; source/public_assets_lock.json
+crime:
+  source: The Velvet Widow, private acquisition; tampered during 6:20–6:28 preview, locked afterward
+  target: New donor glass on reception sideboard; unwrapped6:32, collected6:44, poured6:46, toast6:49
+  death: Grant dies at the gala after the toast; no claim of instantaneous action
+  trace: Common red-and-silver paper inside actual glass; similar stock has legitimate uses; circumstantial
+    rather than unique identification
+  transport: Not specified as an operational poisoning procedure
+release_order:
+  motive:
+  - F1
+  - F2
+  opportunity:
+  - F3
+  method:
+  - F4
+  - F5
+discovery_policy: All16 envelopes shared. Host supplies missing discoveries. Existing hiding places and hints
+  unchanged.
+interpretation_limits:
+- An innocent explanation of another scandal is not a proof of innocence.
+- Four innocent late arrivals exclude the established source window. Their guilty versions arrive earlier.
+- Common paper alone identifies nobody. Strongest accusation combines source access, glass encounter, material
+  and motive.
+- No new player rule guaranteeing innocent testimony truth is added.
+- No necessary murder fact first appears in Coming Clean.
+publication_gate:
+- Three independent sequential transcript reviews
+- All30 culprit paths and questions reconciled
+- Human difficulty not inferred from AI solve rate
+- Actual evidence art and all rendered PDFs reviewed before promotion

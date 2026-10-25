@@ -1,0 +1,594 @@
+schema_version: 1
+status: authored_premises_not_accepted_or_scored
+public_assets: unchanged
+crime_constraints:
+  victim: Grant Larceny
+  source: The historical Velvet Widow bottle falsely declared inert by Grant; laboratory identification, not its
+    label, establishes active poison.
+  source_access: Closed-object preview 6:20–6:28; opening unauthorized. Ordinary staff access to the preparation
+    cupboard continues after storage; a locked door does not prove the preview was the exclusive extraction period.
+    Selected authored crimes remain possible during the preview. No employee knowingly offers active poison for
+    handling.
+  target: Grant's private glass, set at 6:32 for a scheduled toast at 7:09 and collected at 7:04. Grant rejoins
+    the public reception after the press interview; no witness certifies a continuous room watch or exact guest
+    intervals.
+  late_identification: Retain pre-vote positive evidence for every chosen culprit; endings cannot supply a new identifying
+    fact.
+  custody_counterstory: A retained staff/spare key permits later source access. When Anya attends, her actual key
+    and account are available; otherwise retain ordinary staff cupboard access without attributing a gala visit
+    to Anya.
+threads:
+- id: collection
+  title: The label is a promise
+  members:
+  - '02'
+  - '05'
+  - 09
+  - '16'
+  - '19'
+  - '27'
+  shared_consequence: The naming gift would let the donor overrule acquisition decisions. An unresolved ownership
+    file would become an official museum claim.
+  competing_agendas: Claire wants a defensible exhibition; Chip wants the objects protected; Art wants scholarly
+    credit; Anya wants the founding record preserved; Reed wants an accurate catalog; Robin wants an actual return,
+    not better labels.
+  one_reception_scene: Claire replaces the ownership label. Reed keeps the disputed version. Chip examines the mounting
+    fault. These are one connected disagreement, not six confrontations with Grant.
+- id: market
+  title: Who sold what to whom
+  members:
+  - '03'
+  - '07'
+  - '15'
+  - '17'
+  - '21'
+  - '28'
+  shared_consequence: Tonight publicizes purchases whose prices and authenticity determine the standing of buyers
+    and sellers.
+  competing_agendas: Hugh wants his clients retained; Vincent wants authorship recognized; Elon wants taste rather
+    than wealth recognized; Saul wants the auction commission; Ella wants to keep her purchases desirable; Penny
+    wants to prove a bargain was real.
+  one_reception_scene: The sale dispute began before tonight. Guests compare records and valuations with each other;
+    Grant does not conduct six separate blackmail appointments.
+- id: control
+  title: A gift nobody can afford
+  members:
+  - '01'
+  - '04'
+  - 08
+  - '10'
+  - '29'
+  shared_consequence: The gift offers immediate cash while reserving donor control. Rejection threatens payroll;
+    acceptance affects governance and family/property claims.
+  competing_agendas: Artie wants the museum he built to survive; Monet wants employees paid; Sue wants an enforceable
+    agreement; Tess wants an actual voice in the family gift; Justin wants the original property history published.
+  one_reception_scene: Artie, Monet and Sue disagree over whether the toast will be interpreted as acceptance. Tess
+    changes the proposed seating. Justin shares an old deed with Sue rather than delivering another threat from
+    Grant.
+- id: commissions
+  title: Whose museum is being built
+  members:
+  - '13'
+  - '18'
+  - '20'
+  - '25'
+  shared_consequence: A donor-branded redesign would replace commissioned work and reduce public programs.
+  competing_agendas: Frank wants his design completed; Elle wants the installation shown properly; Al wants his
+    sculpture paid for and credited; Anne wants the public to use the museum.
+  one_reception_scene: Frank closes the installation alcove after Chip objects to a mount. Elle and Al want access
+    to their work. Anne objects to the closure during her tour. Grant is absent from this argument.
+- id: public_story
+  title: The announcement escapes its owners
+  members:
+  - '12'
+  - '14'
+  - '22'
+  shared_consequence: The proposed deal is about to be reported as a rescue. Ownership, artistic credit and donor
+    control make three competing stories.
+  competing_agendas: Paige wants publishable evidence; Mona wants an outcome she can defend internationally; Drew
+    wants the story before the official press release.
+  one_reception_scene: A circulated draft splits the three over whether to publish, negotiate or ridicule. They
+    have an ordinary editorial argument, not three identical confrontations with the victim.
+- id: gala
+  title: The show must go wrong
+  members:
+  - '06'
+  - '11'
+  - '23'
+  - '24'
+  - '26'
+  - '30'
+  shared_consequence: The opening spectacle, gift delivery and private toast must coexist with a compromised security
+    plan.
+  competing_agendas: Dada wants the commission credited; Barb wants a controllable room; Brie wants usable service
+    instructions; Cary wants work delivered safely; Faye wants the public moment photographed; Minnie wants the
+    reveal to work.
+  one_reception_scene: One production dispute connects the canceled projection, camera outage, boxed gift and changing
+    service order. These guests disagree with each other about the running order. They are not six independent handlers
+    of one glass.
+characters:
+- id: '01'
+  name: Artie Ficial
+  locked_role: Executive Director of the Meridian Museum
+  thread: control
+  reception_action: Stops the announcement with counsel at the public desk; sends refusal to the board. No innocent
+    private-room errand.
+  other_guest_stakes: Sue and Monet
+  innocent_payoff_premise: Keep the board able to reject the deal; lose the rescue money rather than surrender the
+    museum.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '02'
+  name: Claire O’Scuro
+  locked_role: Chief Curator of World Cultures
+  thread: collection
+  reception_action: Changed the ownership label and retained its old version instead of destroying it.
+  other_guest_stakes: Reed and Robin
+  innocent_payoff_premise: Correct the exhibition even if that discredits the department that approved it.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
+- id: '03'
+  name: Hugh Bidder
+  locked_role: International Art Dealer & Collector Liaison
+  thread: market
+  reception_action: Suppresses the retained seller correspondence connecting his disputed bowl sale and the original-contents
+    purchase he brokered for Grant.
+  other_guest_stakes: Elon and Saul
+  innocent_payoff_premise: Keep the client while admitting an expensive appraisal failure.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '04'
+  name: Monet Bags
+  locked_role: Chief Financial Officer of the Meridian Museum
+  thread: control
+  reception_action: Handles the manager's added-course ticket at accounts; returns donor copy through service. Original
+    toast already paid and scheduled.
+  other_guest_stakes: Brie and Artie
+  innocent_payoff_premise: Prevent an unauthorized donor expense being charged to payroll money.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '05'
+  name: Chip Patina
+  locked_role: Chief Conservator
+  thread: collection
+  reception_action: Applied the incoming band earlier and later inspected the disputed mount, leaving the written
+    condition record behind.
+  other_guest_stakes: Claire and Frank
+  innocent_payoff_premise: Correct an insurance date without approving a false historical repair.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '06'
+  name: Dada DiCapo
+  locked_role: Performance Artist & Cultural Celebrity
+  thread: gala
+  reception_action: Submitted a cue titled donor collapse; prepared an unauthorized projection to replace the donor
+    announcement.
+  other_guest_stakes: Minnie and Faye
+  innocent_payoff_premise: Show a prerecorded empty suit falling out of a gilded chair, a satirical image rather
+    than a plan to injure Grant.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '07'
+  name: Vincent Van Faux
+  locked_role: Celebrated Contemporary Painter
+  thread: market
+  reception_action: Withdrew permission to reproduce a commissioned painting in the donor program.
+  other_guest_stakes: Ella and Drew
+  innocent_payoff_premise: Protect attribution even if withdrawing permission costs the sale.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
+- id: 08
+  name: Sue Venir
+  locked_role: Cultural Property Attorney
+  thread: control
+  reception_action: Withdraws the unsigned master from the announcement desk; tells the coordinator not to substitute
+    the donor copy. No innocent private-room document retrieval.
+  other_guest_stakes: Artie and Tess
+  innocent_payoff_premise: Stop a celebratory ritual being presented as board acceptance.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: 09
+  name: Dr. Art E. Fact
+  locked_role: Professor of Art History & Provenance Scholar
+  thread: collection
+  reception_action: Asked Reed to keep an earlier catalog version out of the press copies.
+  other_guest_stakes: Reed and Mona
+  innocent_payoff_premise: Hide a citation error while keeping the ownership objection on record.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
+- id: '10'
+  name: Tess Tament
+  locked_role: Philanthropist & Heir to the Larceny Family Fortune
+  thread: control
+  reception_action: Changed Grant's place assignment and requested that he be served privately rather than at the
+    podium.
+  other_guest_stakes: Sue and Monet
+  innocent_payoff_premise: Make him discuss the family gift before announcing it as settled.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '11'
+  name: Barb Dwyer
+  locked_role: Director of Museum Security & Former Art-Crimes Investigator
+  thread: gala
+  reception_action: Approved the earlier camera-disconnection instruction and concealed the exception from the ordinary
+    security log.
+  other_guest_stakes: Frank and Paige
+  innocent_payoff_premise: Protect a requested private donor meeting; misuse of discretion, not a thirty-person
+    perfect alibi.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '12'
+  name: Paige Turner
+  locked_role: Investigative Arts Journalist
+  thread: public_story
+  reception_action: Retrieves the retained recorder from Grant's coat and provides an edited export that omits the
+    interview opening at the private place.
+  other_guest_stakes: Drew and Reed
+  innocent_payoff_premise: Verify the allegation while concealing the source she had promised to protect.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '13'
+  name: Frank Lloyd Wrong
+  locked_role: Exhibition Architect & Designer
+  thread: commissions
+  reception_action: Closed the installation alcove and interrupted its lighting after Chip challenged the mount.
+  other_guest_stakes: Chip and Elle
+  innocent_payoff_premise: Check a structural fault before reopening his expensive gallery.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '14'
+  name: Mona Lott
+  locked_role: International Cultural Heritage Ambassador
+  thread: public_story
+  reception_action: Circulated an unattributed cultural-property claim while negotiating with Sue.
+  other_guest_stakes: Sue and Robin
+  innocent_payoff_premise: Increase negotiating pressure without pretending to have a formal government instruction.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '15'
+  name: Elon Mosaic
+  locked_role: Tech Founder, Collector & Museum Patron
+  thread: market
+  reception_action: Requested that the disputed acquisition be omitted from the collector photograph.
+  other_guest_stakes: Hugh and Ella
+  innocent_payoff_premise: Avoid publicizing an expensive mistake.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
+- id: '16'
+  name: Anya Tique
+  locked_role: Founding Curator Emerita
+  thread: collection
+  reception_action: Removed a founding memo from the loan display papers.
+  other_guest_stakes: Anne and Chip
+  innocent_payoff_premise: Hide her own old shortcut while preserving the collection she helped build.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
+- id: '17'
+  name: Saul D. Bid
+  locked_role: Chairman of Gavel & Rowe Auction House
+  thread: market
+  reception_action: Kept the competing valuation away from his own sale program.
+  other_guest_stakes: Hugh and Ella
+  innocent_payoff_premise: Protect a commission and his authority at auction.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
+- id: '18'
+  name: Elle Loominate
+  locked_role: Textile Artist & Designer
+  thread: commissions
+  reception_action: Unfastened part of her textile display after Frank refused another mounting change.
+  other_guest_stakes: Frank and Dada
+  innocent_payoff_premise: Prevent the event lighting damaging fragile work; her own unauthorized alteration created
+    a real production problem.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '19'
+  name: Reed DeLabel
+  locked_role: Doctoral Fellow in Art History
+  thread: collection
+  reception_action: Kept both label versions and corrected a date in the catalog without his supervisor's approval.
+  other_guest_stakes: Claire and Paige
+  innocent_payoff_premise: Publish an accurate correction that also embarrasses Art.
+  guilty_route_status: Complete paired collection draft; bounded premise accepted. Shared timing/attendance integration
+    remains unreviewed. Not scored or integrated.
+- id: '20'
+  name: Al Baster
+  locked_role: Sculptor & Public-Art Star
+  thread: commissions
+  reception_action: Refused the requested replacement sculpture and demanded a balance already due.
+  other_guest_stakes: Frank and Cary
+  innocent_payoff_premise: Protect payment and credit after his work had already been installed.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '21'
+  name: Ella Gance
+  locked_role: Collector, Style Patron & Society Fixture
+  thread: market
+  reception_action: Asked Faye to omit a disputed purchase from a society photograph.
+  other_guest_stakes: Faye and Vincent
+  innocent_payoff_premise: Keep a questionable acquisition out of the press.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
+- id: '22'
+  name: Drew Conclusions
+  locked_role: Art Critic & Cultural Podcaster
+  thread: public_story
+  reception_action: Posted an embargoed draft and then removed its credit line.
+  other_guest_stakes: Paige and Dada
+  innocent_payoff_premise: Get the story first while hiding how he obtained it.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '23'
+  name: Brie DeVivre
+  locked_role: Head Caterer & Hospitality Director
+  thread: gala
+  reception_action: Took a garnish bottle to Grant's place and prepared his requested private service while the
+    kitchen order was on hold.
+  other_guest_stakes: Monet and Barb
+  innocent_payoff_premise: Use ordinary culinary flavoring; the ingredient identity must be independently supplied
+    before the vote, not invented in Coming Clean.
+  guilty_route_status: Complete paired authoring draft; bounded cover premises reviewed. Not scored, integrated
+    or accepted as a complete case.
+- id: '24'
+  name: Cary Crates
+  locked_role: Senior Art Handler & Installation Specialist
+  thread: gala
+  reception_action: Delivered the boxed glass from the shop with the donor gifts before returning to a jammed freight
+    lift.
+  other_guest_stakes: Sue and Al
+  innocent_payoff_premise: Finish delivery without reporting damage to a separate frame; no untimed lift anecdote
+    is treated as a continuous alibi.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '25'
+  name: Anne E. Dote
+  locked_role: Director of Education & Docent Programs
+  thread: commissions
+  reception_action: Took the official gala handouts off her tour group and substituted her own version.
+  other_guest_stakes: Claire and Justin
+  innocent_payoff_premise: Keep the school program and property-history correction in public view.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '26'
+  name: Faye Stop
+  locked_role: Gala Photographer & Editorial Portraitist
+  thread: gala
+  reception_action: Retained an unapproved photograph instead of handing over every frame requested for the society
+    page.
+  other_guest_stakes: Paige and Dada
+  innocent_payoff_premise: Protect a source photograph, not produce magically continuous surveillance.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '27'
+  name: Robin Banks
+  locked_role: Cultural Restitution Activist & Nonprofit Organizer
+  thread: collection
+  reception_action: Distributed the ownership petition despite a warning from security.
+  other_guest_stakes: Mona and Anne
+  innocent_payoff_premise: Force an answer about restitution; no mere assertion of nonviolence is an alibi.
+  guilty_route_status: Complete paired replacement interview-place cover after rejection of band-removal cover.
+    Replacement not independently accepted or scored.
+- id: '28'
+  name: Penny Pincher
+  locked_role: Eccentric Private Collector
+  thread: market
+  reception_action: Removed a price comparison from the collector handouts.
+  other_guest_stakes: Hugh and Tess
+  innocent_payoff_premise: Conceal the bargain's poor valuation, not an heir's invented legal authority.
+  guilty_route_status: Complete paired market authoring draft; bounded covers reviewed with image-production and
+    duplication limits. Unscored and not integrated.
+- id: '29'
+  name: Justin Tyme
+  locked_role: Independent Blogger & Local Truthstorian
+  thread: control
+  reception_action: Gave Sue an old property deed missing from the anniversary brochure.
+  other_guest_stakes: Sue and Anne
+  innocent_payoff_premise: Make the museum acknowledge the local history without pretending the deed decides current
+    title by itself.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+- id: '30'
+  name: Minnie Malist
+  locked_role: Gala Event Designer & Creative Producer
+  thread: gala
+  reception_action: Kept a revised running order after the unauthorized projection was canceled.
+  other_guest_stakes: Dada and Brie
+  innocent_payoff_premise: Preserve her staging plan and fee; show exactly what the canceled effect would have done.
+  guilty_route_status: Complete paired authoring draft; bounded causal premise review and Anne/Faye follow-up complete.
+    Unscored, unrendered and not accepted as a full case.
+primary_hypothesis_ids:
+- '01'
+- '04'
+- '05'
+- '06'
+- 08
+- '10'
+- '11'
+- '23'
+- '03'
+- '12'
+acceptance_limits:
+- Ten primary premises exist, not ten measured suspicion scores. Claire and Frank remain rejected as primary poisoning
+  hypotheses.
+- Brie's garnish changes the target-residue interpretation. It cannot be pasted into the old food/punch lab record
+  without a specific pre-vote sample result.
+- The projection requires new actual images and a simple understandable staged effect. It is not accepted merely
+  by being called a projection.
+- The thirty guilty routes, shared evidence, paired dialogue, all attendance subsets and named questions remain
+  to be designed and reviewed.
+- No canonical source, PDF, sent copy or public download was changed.
+- Ten primary premises are now authored again after two replacements; most still lack reviewed complete scenes.
+  Ten premises are not ten measured scores above five.
+primary_hypotheses:
+- id: '01'
+  name: Artie Ficial
+  motive: Museum survival and control, not an additional private scandal.
+  act_ii_action: Artie controlled whether the toast proceeded and kept the unsigned agreement from the podium.
+  unresolved_interpretation: He might have designed the private service to remove an obstacle to the museum's future.
+  innocent_method_payoff: A written attempt to keep the gift legally unaccepted is evidence of a different plan,
+    not a continuous alibi.
+  current_weakness: 'Weak: control of a toast alone is no personal poison link.'
+- id: '02'
+  name: Claire O’Scuro
+  motive: The collection's disputed ownership and her own department's approval.
+  act_ii_action: Claire removed the ownership claim during the reception and retained the disputed loan file.
+  unresolved_interpretation: She might be suppressing the object history along with the lender who could contradict
+    her.
+  innocent_method_payoff: The retained unflattering report shows what she meant to preserve rather than erase.
+  current_weakness: 'Weak: a label dispute does not establish knowledge of cyanide or contact with either object.
+    Do not promote without a natural additional fact.'
+  status: 'Removed from primary poisoning set: this loan file concerns the Star Bowl, not the poison bottle.'
+- id: '04'
+  name: Monet Bags
+  motive: Payroll and the conditional gift, with a real unauthorized transfer.
+  act_ii_action: Monet disputed the added-course bill and visited the set private place for donor approval.
+  unresolved_interpretation: The billing dispute could be mistaken for a deliberate interruption of the toast; his
+    actual visit remains suspicious.
+  innocent_method_payoff: The invoice and bank request explain the hold, but cannot establish his whereabouts.
+  current_weakness: 'Weak: creating an interval does not show using it; a new direct act must fit the finance scene
+    rather than become another glass errand.'
+- id: '05'
+  name: Chip Patina
+  motive: False treatment records and refusal to approve a historical repair.
+  act_ii_action: Chip had actual custody of the bottle and applied the replacement band.
+  unresolved_interpretation: He could have concealed extraction beneath routine condition work.
+  innocent_method_payoff: Original stock and a condition record can explain fragments; they must not be described
+    as uniquely matching the glass scrap.
+  current_weakness: Strong source connection; check whether the innocent explanation resolves too early and whether
+    the record really proves anything.
+- id: '06'
+  name: Dada DiCapo
+  motive: Uncredited performance commission and the donor spectacle.
+  act_ii_action: Dada ordered a donor-collapse cue close to the toast.
+  unresolved_interpretation: The cue could be a cover for an intended real collapse rather than an image.
+  innocent_method_payoff: A retained prerecorded projection and its booking show an intended satirical spectacle
+    before voting.
+  current_weakness: 'Medium: the effect must be physically understandable and its reveal cannot be a secret Coming
+    Clean-only fact.'
+- id: 08
+  name: Sue Venir
+  motive: Professional responsibility for the acquisition and gift contract.
+  act_ii_action: Sue withdrew the unsigned agreement from the private place and kept it out of the public announcement;
+    the precontracted private toast was not canceled.
+  unresolved_interpretation: Withdrawing the paper creates a specific table visit that could conceal another purpose,
+    without claiming her legal note canceled the private toast.
+  innocent_method_payoff: The actual written hold says not to celebrate an unsigned deal, explaining a liability
+    concern.
+  current_weakness: 'Weak: instructions about timing are not evidence of contaminating a glass. Avoid making her
+    secretly a catering chemist.'
+- id: '10'
+  name: Tess Tament
+  motive: Family authority over an impending gift.
+  act_ii_action: Tess changed the victim's place assignment and requested private service.
+  unresolved_interpretation: A family member could arrange a drink out of the public toast to control both donor
+    and inheritance.
+  innocent_method_payoff: The seating request preserves the family negotiation rather than substituting a different
+    glass.
+  current_weakness: 'Weak: inheritance is not automatic; actual family interest and a credible knowledge/access
+    fact are required.'
+- id: '11'
+  name: Barb Dwyer
+  motive: Compromised professional authority under a private donor request.
+  act_ii_action: Barb concealed a deliberate camera exception.
+  unresolved_interpretation: The missing surveillance could be planned concealment of extraction or contamination.
+  innocent_method_payoff: The earlier donor-privacy order explains the exception while leaving misuse of authority
+    exposed.
+  current_weakness: Strong concealment connection; innocent payoff is contextual, not proof she cannot poison anyone.
+- id: '13'
+  name: Frank Lloyd Wrong
+  motive: An unsafe mounting fault that threatens the promised exhibition.
+  act_ii_action: Frank closed the alcove and interrupted its lighting.
+  unresolved_interpretation: He might have arranged unseen access while describing the closure as safety work.
+  innocent_method_payoff: Actual mounting drawings and damaged hardware explain the closure before voting.
+  current_weakness: 'Weak: darkness in another room is not poison opportunity. Reject unless the geography and actual
+    scene create a real connection.'
+  status: Rejected as a poisoning hypothesis until an actual geographic consequence exists.
+- id: '23'
+  name: Brie DeVivre
+  motive: An unpaid catering commitment and an unworkable service order.
+  act_ii_action: Brie prepared the separately ordered flavoring at the set private place.
+  unresolved_interpretation: The private flavoring could have carried poison despite clean shared food and punch.
+  innocent_method_payoff: A specific pre-vote comparison of retained culinary ingredient and glass findings can
+    distinguish the intended flavoring from the poison.
+  current_weakness: Strong target connection, but new residue findings and whether garnish was present must be designed
+    coherently; no operational poison detail.
+- id: '03'
+  name: Hugh Bidder
+  motive: Refund exposure from the disputed bowl transaction threatens his dealer business.
+  act_ii_action: Suppresses correspondence linking him to Grant's original-contents bottle purchase, while passing
+    only the inert loan description.
+  unresolved_interpretation: A commercially involved dealer may know what the bottle actually contains and conceal
+    its purpose.
+  innocent_method_payoff: Original condition is admitted and conflicting description explained; first gala entry
+    after the preview supports the narrower source-opportunity rebuttal.
+  guilty_late_case: Claimed cancellation conflicts with the executed condition, seller fulfillment and active residue.
+  status: Bounded five-role premise reviewed; actual score and full-cast dependencies unmeasured.
+- id: '12'
+  name: Paige Turner
+  motive: An injunction and a source-identification demand threaten her reporting and source.
+  act_ii_action: Searches Grant's coat for her recorder, supplies an edited export and withholds its original opening.
+  unresolved_interpretation: The omitted opening may hide access to Grant's place, not merely protect a source.
+  innocent_method_payoff: The retained original and separate correction explain what was redacted and why; they
+    do not physically exclude poisoning.
+  guilty_late_case: Office-yesterday claim conflicts with the gala service/interview opening.
+  status: Bounded five-role premise reviewed; actual score and full-cast dependencies unmeasured.
+reception_timeline:
+- when: Weeks before the gala
+  events: The disputed sales, treatment date, property investigation, commission terms and family negotiations begin.
+    No new thirty-person blackmail tour tonight.
+- when: Before guests arrive
+  events: Loan intake uses Grant's false inert declaration; display approval withheld. Band work occurs before the
+    closed preview. Camera exception was ordered earlier.
+- when: 6:20–6:28
+  events: Closed incoming-object preview. Guests may observe; handling is unauthorized. Covert extraction belongs
+    to the selected crime, never an innocent universal sample ritual; Anya's selected crime instead uses her later
+    cupboard visit.
+- when: Reception, overlapping small groups
+  events: One ownership-label argument; one gift/governance discussion; one commissioning/access problem; one production/service
+    dispute. Other conversations occur between guests, not with Grant.
+- when: 6:32–7:04
+  events: Private place set for the scheduled later toast and collected at 7:04. The separate added-course bill
+    did not cancel the original service. This is an exposed interval, not proof contamination before it was impossible.
+- when: 7:06 and 7:09
+  events: Shared punch poured; private toast served. Death at the gala remains part of the fiction. No hospital
+    interlude.
+first_scene_set:
+- '04'
+- 08
+- '23'
+first_scene_reason: Historical first three-role checkpoint; current bank contains thirty paired authoring drafts,
+  not thirty balanced or integrated cases.
+authored_complete_route_ids:
+- '01'
+- '02'
+- '03'
+- '04'
+- '05'
+- '06'
+- '07'
+- 08
+- 09
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '17'
+- '18'
+- '19'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '26'
+- '27'
+- '28'
+- '29'
+- '30'
+authoring_timeline_change: Scheduled private toast provides the exposed interval independently of the additional-course
+  bill. Artie/Sue act at the announcement desk; Monet returns a charge ticket through service. Bounded causal review
+  accepted; current changes remain unscored.

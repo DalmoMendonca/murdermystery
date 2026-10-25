@@ -1,0 +1,121 @@
+schema_version: 1
+status: complete_prototype_authoring_not_accepted
+scope: >-
+  Nine guilty-field replacements for three previously drawn selected roles only. Apply to the
+  merged round 19 private dialogue. Retain all round 19 motives, innocent Opportunity/Method,
+  and innocent Coming Clean. Replace only the three fields supplied for each role below.
+  Other twenty-seven guilty variants are neither changed nor validated by this prototype.
+base_layers:
+  - docs/story-pass-18-SPOILERS/dialogue.yaml
+  - docs/story-pass-19-SPOILERS/motive-edits.yaml
+  - docs/story-pass-19-SPOILERS/innocent-edits.yaml
+  - docs/story-pass-19-SPOILERS/guilty-edits.yaml
+  - docs/story-pass-19-SPOILERS/continuity-edits.yaml
+selection_policy: Preserve prior random-draw selections and casts; no replacement with easier staff culprits.
+selected_role_ids: ['21', '29', '15']
+physical_draft:
+  status: Explicit proposed private physical revision; not existing public canon or accepted art.
+  common_appearance: Both historical original and display replica have the same dark-blue historic body appearance.
+  delayed_distinction: Replica has open bottom; original has closed base. Release comparison only in Method.
+  opportunity_recovery: >-
+    F3 identifies a recovered loose dark-blue bottle on the ordinary staff-returns shelf behind
+    reception sideboard. Object identity remains pending. No original/replica conclusion, underside,
+    fracture fit, carrier test or donor-glass filling photograph at this release.
+  method_findings: >-
+    Recovered shelf object is original: closed base, receiving identification, and neck fracture
+    matching the recovered fragment. Replica's open bottom is shown separately. Cyanide findings
+    concern original, matched fragment, common miniature carrier and donor-glass interior.
+  fixed_crime: >-
+    Cabinet forced at 6:12; historical original stolen. Favor carries poison; empty donor glass
+    contaminated at reception during 6:32–6:44. Original concealed on staff-returns shelf behind
+    sideboard. Clean shared punch added 6:46; toast 6:49; death at gala. No accomplice.
+  proof_limit: >-
+    A guest who moved the recovered object and touched the target supplies a stronger cumulative
+    source/target case before identification. Innocent misidentification and handling after theft
+    remain possible. Shared body appearance alone identifies nobody; closed base identifies an
+    object, not its knowing thief. No laboratory result proves that guest knowingly identified it.
+characters:
+- id: '21'
+  name: Ella Gance
+  motive_innocent: >-
+    The painting had been promised. I sold it after an investment failed, intending to replace it before delivery. A charming plan if nobody requests the particular painting they've been promised. Grant's speech acknowledged my gift. I asked him to remove the passage and let me speak to the trustees first. He wanted their museum told why the promised-gift list had changed. I changed the acknowledgment card myself. They had thanked me for generosity I could no longer afford, and I wanted a little more time to remain that woman.
+  motive_murderer: >-
+    Grant intended to explain the missing donation in his speech. It was his museum's promised-gift list as well as my promise, so asking him to keep silent did not settle it. I had sold the painting to cover an investment loss. Restitution would require admitting that there was no replacement and very little money. People I called friends had arranged introductions on the strength of my gift. I wanted the announcement stopped before those friendships became inquiries. I could still smile for a photograph. That was about all the control I had left.
+  opportunity_innocent: >-
+    The portrait photographer makes a crowded group look effortless. I asked for the institution's trustees to be left out of mine. Then I changed the acknowledgment card at reception so the promised work wasn't mentioned. I'd sent the receiving museum a revised delivery date this week. There could be no delivery. Their registrar asked where the painting was and when it would arrive. I left that morning's reply unanswered on my phone. The card was easier to correct. I knew exactly why I was correcting it.
+  coming_clean_innocent: >-
+    The receiving museum can publish my promise and the sale. I owe restitution and no longer have the money ready. Grant intended to explain the missing donation; I wanted to tell the trustees first, preferably after finding a replacement that didn't exist. I changed the card and held his glass by the base. I didn't poison him. They now need exactly the account I kept delaying. I have no revised delivery date to offer them.
+  opportunity_murderer: >-
+    I wanted the portrait arranged before anyone asked about delivery. I changed my acknowledgment card, then cleared the blue display copy from the donor's place. It made the table look like an acquisition photograph. I put that bottle on the staff-returns shelf behind the reception sideboard. That's the one in your recovery picture. I held Grant's new glass by the base while sliding my card out and set it down again. The trustees were still excluded from my group. I wasn't going to invite their questions into the picture.
+  method_murderer: >-
+    The original? I thought it was the display copy. I didn't turn it over. Yes, I also held the glass; the card was underneath. I wanted the bottle out of the photograph, not examined. My revised delivery date was false, and the registrar's question is unanswered. I would rather discuss an object I misidentified than the painting I sold. Could you bring the card back? I'd like to see what it says now.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and took the original. I broke its neck and carried the poison in my favor to Grant's empty glass between 6:32 and 6:44. Clean punch went in later. I put the original on the staff-returns shelf and called it a display copy. I knew what I was moving. The card and portrait were real; they gave me things to fuss over while hiding what I'd done. I killed him to stop his explanation of the missing donation, then went back to the photograph.
+  author_note: >-
+    Social presentation drives the object move rather than a helpful cleanup errand. The shelf
+    recovery and target contact are admitted in Opportunity. Method identifies the object, not
+    first contact. Her appearance-based mistake remains physically possible in an innocent
+    interpretation; sold donation and portrait exclusions keep a distinct motive.
+  prototype_risks:
+  - The acquisition-prop at the donor's place is alleged by Ella, not an independent fact or proof another guest put it there.
+  - Use missing donation consistently with receiving museum's actual arrangement; do not switch casually between donation and loan.
+  - Do not make the recovered object's appearance prove Ella knew it was the original.
+- id: '29'
+  name: Justin Tyme
+  opportunity_murderer: >-
+    I retrieved my own recorder before playback named the tenant. Then I tried a new introduction for the blog with the blue display copy. After Grant's parcel story, I wanted a picture I could describe myself. I moved the loose bottle to the staff-returns shelf behind reception for a plain background. That's where you found it. Then I spread the lease out and lifted Grant's glass off its corner. I stopped recording again. The correction was easier to write than an explanation of how I'd got the first story wrong.
+  method_murderer: >-
+    I thought it was the display copy. I didn't look underneath. I moved the bottle and lifted Grant's glass; I've told you both. I was staging an introduction, not inspecting the prop. The clerk's lease is genuine. The rest of my recording is about the boundary wall. I can show you that alley on the map. I should have put the camera down and finished the correction instead of trying to make another beginning look convincing.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12. Took the original, broke its neck, carried poison in my favor and contaminated the empty glass between 6:32 and 6:44. The later punch was clean. I hid the original on the staff-returns shelf. I knew it wasn't the replica. The introduction was cover. Grant had contacted the bookshop; I wanted his objection ended before the proprietor answered. I killed him and kept rehearsing my correction.
+  author_note: >-
+    Provisional reporter-handling rationale only: self-directed blog staging after a failed donor
+    profile is plausible misconduct, but this bottle is not evidence about the parcel boundary.
+    Do not invent a bottle/property relationship. Shelf movement and target contact are both
+    disclosed in Opportunity; Method supplies identity and permits the alleged mistaken prop use.
+  prototype_risks:
+  - >-
+    NATURALISM FLAG / not accepted in advance. A local-history blogger could stage an introduction
+    around a display object, but using a low staff-returns shelf as a photographic background may
+    feel like the author's recovery-location need. Test whether the shelf's actual visible layout
+    supports the shot. If it requires implausible crouching or unauthorized exhibit handling,
+    reject this rationale rather than making Justin a museum installer or a helpful bottle carrier.
+  - No independent blog photograph or saved recording of this new introduction is added by this overlay; his account remains a claim.
+  - Keep Justin's recorder separate from Paige's and do not make lease truth corroborate source-object handling.
+- id: '15'
+  name: Elon Mosaic
+  opportunity_murderer: >-
+    Corporate pledge. Apparently the wrong answer. I wanted the trustee looking at something I knew about instead. I picked up the blue display copy and set it on the staff-returns shelf behind reception while we discussed acquisitions. That's your recovered bottle. Grant's new glass was on my envelope; I lifted it off and photographed her query. My company still hadn't approved withdrawal. She could question that. She could at least hear me about the collection.
+  method_murderer: >-
+    I didn't inspect underneath. Blue historic shape: I thought display copy. I put it on that shelf. I moved his glass too. The photograph to my advisers was of the query, not the bottle. Their answer was already no. I wanted the trustee listening to me about acquisitions. I wasn't offering her a condition report.
+  coming_clean_murderer: >-
+    I forced the cabinet at 6:12 and stole the original. I broke its neck and used my favor to carry poison to Grant's empty glass between 6:32 and 6:44. They poured clean punch afterward. I hid the original on the staff-returns shelf and called it a display copy. I knew the difference. The acquisition conversation was a way to make handling it sound like something a collector would do. My board wouldn't approve withdrawal; Grant could block my appointment. I wanted his influence. I killed him instead of obtaining it.
+  author_note: >-
+    Collector's status gambit, rather than payment-paper housekeeping, drives source-object handling.
+    He admits both recovered-object placement and target contact before the physical distinction.
+    Method concedes misidentification while retaining corporate refusal and one brief message;
+    expertise alone cannot establish that he inspected the base or knew the object's identity.
+  prototype_risks:
+  - The trustee conversation supports his social purpose only as his account; do not add a new trustee handling witness implicitly.
+  - Lifting a body lookalike is not proof he inspected underside. Collector confidence cannot become automatic source knowledge.
+  - Same body appearance requires new prototype art and receiving/replica descriptions; existing round 18 clear-replica image is incompatible.
+validation_requirements:
+  - Parse exact coverage of selected three roles and nine replacement fields; check each speech at 45–95 words.
+  - Show neutral shelf recovery without original identity before Opportunity responses.
+  - Do not leak open-bottom or closed-base comparison in hunt documents, source dialogue or artwork before Method.
+  - Compare source handling and target contact already committed in Opportunity; Method may challenge identity but add neither for the first time.
+  - Retain innocent misidentification as a possible rival interpretation and compare stronger innocent competitors concretely.
+  - Coming Clean alone states knowing theft and poison transfer; no earlier speech admits intention to kill.
+  - Preserve original random-draw selected identities/casts in prototype trials and report Justin's naturalism flag honestly.
+integration_blockers:
+  - >-
+    Existing round 19 innocent Chip Opportunity calls the kit replica clear. Discovery/receiving
+    text and older art also distinguish clear replica from blue original. Reconcile those shared
+    physical descriptions in the prototype kit; this overlay deliberately changes no innocent text.
+  - >-
+    Do not release open-bottom underside in Hunt or Opportunity receiving artwork or shared
+    prose. It defeats the intended delayed identity distinction even if the bottle's body matches.
+  - >-
+    A solitary guest's recovered-bottle placement may still become an early branch tell if all
+    innocent visitors have only paper errands. Test that danger honestly; pending object identity
+    postpones source attribution, not players' ability to notice exceptional object handling.

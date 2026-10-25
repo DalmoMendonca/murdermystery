@@ -1,0 +1,220 @@
+status: Prototype packet-contained questions; exclude absent names at build time
+procedure: Choose a listed person by name. Host ensures every attending person answers once in each act. Questions
+  appear inside every packet, never in an outside catalog.
+acts:
+  motive:
+  - question: What did you want kept out of Grant’s announcement?
+    targets:
+    - Artie Ficial
+    - Hugh Bidder
+    - Monet Bags
+    - Vincent Van Faux
+    - Paige Turner
+    - Ella Gance
+    - Penny Pincher
+    - Justin Tyme
+    source_ids:
+    - '01'
+    - '03'
+    - '04'
+    - '07'
+    - '12'
+    - '21'
+    - '28'
+    - '29'
+  - question: What claim or approval are you now disputing?
+    targets:
+    - Claire O’Scuro
+    - Chip Patina
+    - Sue Venir
+    - Dr. Art E. Fact
+    - Frank Lloyd Wrong
+    - Anya Tique
+    - Reed DeLabel
+    - Cary Crates
+    source_ids:
+    - '02'
+    - '05'
+    - 08
+    - 09
+    - '13'
+    - '16'
+    - '19'
+    - '24'
+  - question: What were you trying to recover or protect?
+    targets:
+    - Dada DiCapo
+    - Mona Lott
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    - Robin Banks
+    source_ids:
+    - '06'
+    - '14'
+    - '18'
+    - '20'
+    - '25'
+    - '27'
+  - question: What bargain or promise had gone wrong?
+    targets:
+    - Tess Tament
+    - Barb Dwyer
+    - Elon Mosaic
+    - Saul D. Bid
+    - Drew Conclusions
+    - Brie DeVivre
+    - Faye Stop
+    - Minnie Malist
+    source_ids:
+    - '10'
+    - '11'
+    - '15'
+    - '17'
+    - '22'
+    - '23'
+    - '26'
+    - '30'
+  opportunity:
+  - question: What did you change or remove while the unveiling was held?
+    targets:
+    - Claire O’Scuro
+    - Vincent Van Faux
+    - Dr. Art E. Fact
+    - Frank Lloyd Wrong
+    - Mona Lott
+    - Elle Loominate
+    - Reed DeLabel
+    - Al Baster
+    - Robin Banks
+    source_ids:
+    - '02'
+    - '07'
+    - 09
+    - '13'
+    - '14'
+    - '18'
+    - '19'
+    - '20'
+    - '27'
+  - question: What happened when someone tried to get approval?
+    targets:
+    - Artie Ficial
+    - Monet Bags
+    - Tess Tament
+    - Anne E. Dote
+    source_ids:
+    - '01'
+    - '04'
+    - '10'
+    - '25'
+  - question: Where did the papers and objects you handled end up?
+    targets:
+    - Hugh Bidder
+    - Sue Venir
+    - Elon Mosaic
+    - Anya Tique
+    - Saul D. Bid
+    - Ella Gance
+    - Cary Crates
+    - Penny Pincher
+    source_ids:
+    - '03'
+    - 08
+    - '15'
+    - '16'
+    - '17'
+    - '21'
+    - '24'
+    - '28'
+  - question: What did you do while service, recordings or the show were being disputed?
+    targets:
+    - Chip Patina
+    - Dada DiCapo
+    - Barb Dwyer
+    - Paige Turner
+    - Drew Conclusions
+    - Brie DeVivre
+    - Faye Stop
+    - Justin Tyme
+    - Minnie Malist
+    source_ids:
+    - '05'
+    - '06'
+    - '11'
+    - '12'
+    - '22'
+    - '23'
+    - '26'
+    - '29'
+    - '30'
+  method:
+  - question: What does the surviving record show about your earlier account?
+    targets:
+    - Artie Ficial
+    - Hugh Bidder
+    - Monet Bags
+    - Sue Venir
+    - Dr. Art E. Fact
+    - Elon Mosaic
+    - Anya Tique
+    - Saul D. Bid
+    - Reed DeLabel
+    - Ella Gance
+    - Anne E. Dote
+    - Penny Pincher
+    - Justin Tyme
+    source_ids:
+    - '01'
+    - '03'
+    - '04'
+    - 08
+    - 09
+    - '15'
+    - '16'
+    - '17'
+    - '19'
+    - '21'
+    - '25'
+    - '28'
+    - '29'
+  - question: What should we understand about the object or equipment you handled?
+    targets:
+    - Chip Patina
+    - Dada DiCapo
+    - Vincent Van Faux
+    - Tess Tament
+    - Barb Dwyer
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Brie DeVivre
+    - Cary Crates
+    - Robin Banks
+    - Minnie Malist
+    source_ids:
+    - '05'
+    - '06'
+    - '07'
+    - '10'
+    - '11'
+    - '13'
+    - '18'
+    - '20'
+    - '23'
+    - '24'
+    - '27'
+    - '30'
+  - question: What did you preserve, alter or withhold?
+    targets:
+    - Claire O’Scuro
+    - Paige Turner
+    - Mona Lott
+    - Drew Conclusions
+    - Faye Stop
+    source_ids:
+    - '02'
+    - '12'
+    - '14'
+    - '22'
+    - '26'

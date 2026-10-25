@@ -1,0 +1,302 @@
+schema_version: 1
+reports:
+- id: F1
+  department: MERIDIAN / BOARD SECRETARY
+  title: The gift came with conditions
+  text: Grant Larceny collapsed after his toast and died at the gala. Earlier, trustees had discussed
+    this unsigned gift agreement in the museum office. The label review, acquisition disputes and installation
+    inspection continued in other rooms. These are the terms Grant wanted announced.
+  rows:
+  - - 1. Museum name
+    - The Grant Larceny Meridian Museum
+  - - 2. Collection decisions
+    - Grant may veto future acquisitions
+  - - 3. Museum director
+    - Artie Ficial must resign within sixty days
+  layout: gift_document
+  document_label: DRAFT GIFT AGREEMENT / NOT SIGNED
+- id: F2
+  department: INVESTIGATION / INITIAL FINDINGS
+  title: A death and a stolen exhibit
+  text: 'Grant Larceny became ill after drinking his toast and died at the gala. Poisoning is suspected;
+    the substance has not yet been identified. Toxicology results are pending. The museum had received
+    a historical poison bottle for The Art of Murder. Grant told security the bottle had been emptied.
+    The responding investigators obtained the auction condition: original contents retained. Collections
+    placed it in a locked preparation cabinet inside a secondary case and withheld display approval. A
+    separate empty display copy was supplied for gallery installation. At 6:12 the cabinet alarm registered
+    a forced opening. The original was missing. Food, drinks, props and recovered bottles are being examined.'
+  rows:
+  - - Missing object
+    - The Velvet Widow / original poison bottle
+  - - Storage
+    - Locked cabinet; forced-opening alarm at 6:12
+  - - Laboratory results
+    - Pending
+  layout: bottle_photo
+  photo: receiving_case_v18
+- id: F3
+  department: INVESTIGATION / SCENE RECORD
+  title: A bottle behind reception
+  text: 'Jordan West, collections assistant: A dark-blue bottle with visible neck damage was recovered
+    on the staff-returns shelf behind the reception sideboard during the search after Grant''s death.
+    Object identification and comparison are pending. This waist-height work shelf stands against a plain
+    wall; gallery and event items await staff collection there. Casey Hart, service manager: Grant''s
+    new museum-star glass stood on the reception sideboard from 6:32 to 6:44 while I settled the kitchen''s
+    extra-course authorization. Programs, favors and correspondence also used reception. The preparation
+    cabinet and its secondary case were forced at 6:12; the historical original was missing then.'
+  rows:
+  - - Recovered object
+    - Dark-blue bottle on staff-returns shelf; identification pending
+  - - Donor glass
+    - On reception sideboard 6:32–6:44
+  - - Service manager
+    - In kitchen to settle extra-course authorization
+  - - Storage
+    - Cabinet lock and secondary case forced at 6:12
+  layout: recovery_scene
+  photo: returns_shelf20_REQUIRED
+- id: F4
+  department: MERIDIAN / COLLECTIONS INVENTORY
+  title: The original and its display copy
+  text: 'The bottle recovered from the staff-returns shelf is the historical original. It has a closed
+    base and a fresh gap in its neck. The blue fragment recovered in folded favor paper joins that irregular
+    curved neck edge. The receiving record described the original neck as intact. Its display copy has
+    a similar dark-blue body but an open bottom: it cannot hold liquid. The recovered miniature fragrance
+    bottle has an intact neck and body. Service photographs show the donor glass empty when placed at
+    6:32 and empty when collected at 6:44. Casey filled it with shared punch on the tray at 6:46 and reports
+    keeping it there until the toast. The photographs show moments, not continuous coverage.'
+  rows:
+  - - Recovered historical original
+    - Dark-blue body; closed base; fresh neck gap
+  - - Fragment in favor paper
+    - Joins the original neck gap
+  - - Display copy
+    - Similar dark-blue body; open bottom
+  - - Recovered miniature
+    - Neck and body intact
+  layout: fracture_comparison
+  photo: original_replica20_REQUIRED
+  service_photo: sideboard_service_v18
+  service_timeline:
+  - time: '6:30'
+    caption: New donor glass, wrapped
+  - time: '6:32'
+    caption: Empty glass placed on reception sideboard
+  - time: '6:44'
+    caption: Empty glass collected onto service tray
+  - time: '6:46'
+    caption: Shared punch poured on service tray
+- id: F5
+  department: LABORATORY / CASE FINDINGS
+  title: Laboratory findings
+  text: Cyanide was found inside Grant's museum-star glass, in the recovered original, on the blue neck
+    fragment, and in a miniature LARCENY No.1 bottle from reception waste. The shared punch, meal, sauce,
+    PROP glass, brush-water bottle and studio FIXER tested clear. Unopened favor stock also tested clear.
+    The contaminated miniature has the common manufacturer label and no recipient name. Plaster and cloth
+    fibers were found on the outside of Grant's glass.
+  rows:
+  - - Grant's glass / original / blue fragment
+    - Cyanide detected
+  - - Miniature from reception waste
+    - Cyanide; common favor label; no recipient name
+  - - Punch / meal / sauce / PROP / brush-water / FIXER
+    - Clear for cyanide
+  - - Unopened favor stock
+    - Fragrance; clear for cyanide
+  layout: lab_findings
+discoveries:
+- number: 1
+  department: THE MERIDIAN / BOARD SECRETARY
+  title: Gift agreement
+  stamp: DRAFT - NOT EXECUTED
+  paragraphs:
+  - 'Donor: Grant Larceny. Recipient: The Meridian Museum of Art & World Cultures.'
+  - '1. Naming: The institution shall be renamed The Grant Larceny Meridian Museum.'
+  - '2. Governance: The donor shall retain approval rights over future acquisitions.'
+  - '3. Management: Artie Ficial shall tender his resignation within sixty days of acceptance.'
+  annotation: Artie - confirm acceptance before the unveiling. G.L.
+- number: 2
+  department: GENEVA FREEPORT / TRANSIT RECORD
+  title: Shipping manifest / 1988
+  stamp: OWNER REDACTED
+  rows:
+  - - Consignment
+    - Isfahan Star Bowl
+  - - Routing
+    - Geneva freeport / onward transfer
+  - - Shipper
+    - Northstar Holdings
+  - - Declared owner
+    - REDACTED
+  - - Export file
+    - Not attached
+  annotation: Keep with accession papers. Do not substitute exhibition label for ownership file.
+- number: 3
+  department: MERIDIAN STATIONERY / UNSIGNED
+  title: A warning left behind
+  photo: warning_note
+  paragraphs:
+  - RETURN WHAT WAS TAKEN BEFORE THE STAR GOES DARK.
+  stamp: NO SIGNATURE
+- number: 4
+  department: ARTS DESK / PRESS PROOF
+  title: GRANT’S NIGHT OF GLORY
+  stamp: HOLD FOR 9:00 PM
+  paragraphs:
+  - Private toast 6:49; naming announcement and closing performance follow.
+  - Press proof / planned program. HOLD publication until signed naming agreement is received.
+  - 'Guest gift: LARCENY No.1 miniature fragrance. Art-glass bottles in assorted colors; one sealed bottle
+    in every gala packet. Include in donor photographs.'
+  annotation: Photograph the donor with the new museum-shop glass. Finish the caption after signature.
+- number: 5
+  department: MERIDIAN / CONSERVATION
+  title: Treatment finding
+  stamp: REVIEW REQUIRED
+  rows:
+  - - Object
+    - Isfahan Star Bowl
+  - - Examiner
+    - Chip Patina
+  - - 6:35 finding
+    - Mount hairline crack
+  - - Action
+    - Hold unveiling; close display alcove
+  annotation: '6:35: crack noted; 6:37: inspection confirms hold. Reception service continues.'
+- number: 6
+  department: MERIDIAN / LEGAL REVIEW
+  title: Donor agreement / margin copy
+  stamp: ORIGINAL OPINION
+  paragraphs:
+  - The proposed permanent gift remains subject to outstanding provenance review. An accession does not
+    remove competing ownership claims.
+  annotation: Permanent title does not cure disputed title. S.V.
+- number: 7
+  department: GAVEL & ROWE / ARCHIVE COPY
+  title: Auction result
+  stamp: LOT CIRCLED FOR REVIEW
+  rows:
+  - - Lot
+    - Private collection acquisition
+  - - Successful bidder
+    - Anonymous / through Hugh Bidder
+  - - Competing bidder
+    - Grant Larceny
+  - - Result
+    - Sold to proxy buyer
+  annotation: The anonymous purchaser used E.M.’s company. Hugh handled the proxy bid; the original invoice
+    includes a discretion fee authorized by Saul D. Bid.
+- number: 8
+  department: MERIDIAN / EXHIBITION LABEL PROOF
+  title: Vincent Van Faux
+  stamp: PROOF - NOT APPROVED
+  paragraphs:
+  - Early student work
+  - Loan courtesy of Grant Larceny
+  - Treasures of the World / Gallery label
+  annotation: NO. This does not belong in the show.
+- number: 9
+  department: MERIDIAN / FINANCE DRAFT
+  title: Education reallocation
+  stamp: DONOR CONDITIONS
+  rows:
+  - - Program
+    - Proposed change
+  - - School tours
+    - REDUCE
+  - - Community programs
+    - REDUCE
+  - - Private donor lounge
+    - INCREASE
+  - - VIP entrance
+    - INCREASE
+  annotation: 'Finance instruction: no museum authorization for the private extra course. Education funding
+    remains under the donor’s proposed conditions.'
+- number: 10
+  department: MERIDIAN / SECURITY WORK ORDER
+  title: Donor Salon camera
+  stamp: OFFLINE BY REQUEST
+  rows:
+  - - Room
+    - Donor Salon; separate from museum office
+  - - Request
+    - Grant Larceny / private conversations
+  - - Authorized
+    - Barb Dwyer
+  - - Work
+    - Staff technician / disconnected at6:29
+  annotation: Office and galleries remain open. Storage-cabinet alarm is independent of this camera.
+- number: 11
+  department: MERIDIAN / ACCESSION LEDGER
+  title: Donation entry / 1989
+  stamp: ARCHIVE EXTRACT
+  rows:
+  - - Donor
+    - Grant Larceny
+  - - Accession approval
+    - Anya Tique
+  - - Object status
+    - Accepted into collection
+  - - Export papers
+    - Promised - not yet received
+  annotation: File remains incomplete.
+- number: 12
+  department: DADA DiCAPO / WORKING NOTEBOOK
+  title: Closing reveal / concept
+  photo: performance_sketch
+  paragraphs:
+  - 'Closing effect: empty jacket on hinged stand; lights create apparent donor collapse. Rehearsal glass
+    marked PROP beneath base.'
+  - Credit changed from Dada DiCapo to The Larceny Foundation. Donor canceled the effect.
+  annotation: Stage manager’s retained rehearsal plan. Restore only on operator approval.
+- number: 13
+  department: GAVEL & ROWE / ACQUISITION RECEIPT
+  title: The Velvet Widow
+  rows:
+  - - Lot 73
+    - Sealed poison bottle from the Eleanor Vale murder case, 1891
+  - - Buyer
+    - Grant Larceny
+  - - Proposed exhibition
+    - The Art of Murder
+  paragraphs:
+  - 'Auction condition: sealed historical bottle; original contents retained. Specialist hazard assessment
+    required. Display status: withheld. Empty replica supplied for gallery installation.'
+  - Buyer requests The Art of Murder display tonight. Collections has declined approval of the original.
+  - Empty handling copy supplied for the planned hands-on display. The historical original is not approved
+    for public handling.
+  stamp: PRIVATE ACQUISITION / DISPLAY REVIEW PENDING
+- number: 14
+  department: MERIDIAN / COLLECTIONS RECEIVING
+  title: Receiving and missing-object report
+  paragraphs:
+  - '5:45: Original secured in locked preparation cabinet and secondary case. Receiving photograph shows
+    the closed case. Condition entry: neck intact. Separate empty display copy supplied for gallery installation.'
+  - '6:12: Forced-opening alarm. Cabinet lock and secondary case damaged. Original missing.'
+  - '6:15, security radio: Grant says the original was emptied. Close preparation storage access and search
+    the corridor. 6:22: collections requests the auction condition to verify his claim. No reply logged.'
+  stamp: 'SIGNED: JORDAN WEST'
+  annotation: Display approval withheld. Cabinet key retained by collections.
+- number: 15
+  department: MERIDIAN / SHOW-CONTROL CONSOLE
+  title: Canceled program cue
+  stamp: LIGHTING JOB LOG
+  rows:
+  - - 6:35 / stage call
+    - HOLD UNVEILING / mounting inspection
+  - - 6:37 / console
+    - CANCEL SHOW SEQUENCE / safety override
+  - - Donor toast
+    - Separate service order; not canceled by lighting console
+  paragraphs:
+  - The mounting alarm stops the unveiling and cancels the show sequence. Reception service continues.
+  - The safety override cancels an unapproved blackout. Security camera power is independent of this console.
+- number: 16
+  department: MERIDIAN / PRIVATE SERVICE
+  title: Grant Larceny’s toast
+  stamp: RECEPTION SERVICE ORDER
+  paragraphs:
+  - Toast at 6:49. Photograph Grant holding the new museum-shop glass; museum star on the bowl.
+  - Place the glass on the reception sideboard for service. Fill it from shared punch immediately before
+    the toast.
+  - Extra course requires finance authorization.
+  - Reception sideboard also used for guest gift packets, correspondence and printed programs.

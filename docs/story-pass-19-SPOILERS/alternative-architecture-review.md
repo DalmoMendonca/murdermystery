@@ -1,0 +1,37 @@
+# Source-object cover alternative — architecture review
+
+**This produces a stronger causal clue than thirty denials about unrelated scandals, but I would not adopt it as the universal thirty-role architecture.** It exchanges the attribution gap for a conspicuous source-handling claim and a difficult shared reason to hide a museum object. Its best use is a limited cover family for roles whose work naturally brings them into contact with the exhibit.
+
+The gain is real. “I put the loose replica behind reception” commits the speaker to an object, an action, and the eventual recovery location before the laboratory result. The later finding that the recovered bottle is the stolen original then challenges the explanation of a crime-relevant action. This is considerably closer to the murder than lying about a settlement guarantee. Target contact and contaminated carrier findings make an intelligible source-to-target case. The reader can construct that case rather than choose the person who supplies an open-favor admission in the last release.
+
+But the inference still has two separate uncertainties. The bottle a guest says they moved need not be the recovered bottle merely because both occupied the same general area. Even if it was, a guest might move an original while honestly believing it was the replica; another guest might later use it. The single-killer premise excludes accomplices, not unwitting handling. Nothing about the fracture or cyanide result demonstrates the mover's knowledge or administration. A credible solve must combine the relocation with the person's target-side conduct and a specifically weak explanation of why they put it there. Do not state that the photograph identifies its mover or that a mistaken object name proves theft.
+
+## Why three ordinary replica handlers do not solve the salience problem
+
+Chip recommending or carrying the open-bottom replica, Cary delivering it, and Barb checking its safe disposition are believable job actions. They create concrete competing source cases. They do not make twenty-seven guests moving it behind furniture equally ordinary.
+
+The distinction is meaningful: the staff move a known object in a documented exhibition workflow; the selected guest alone claims an unrecorded relocation to the hiding place and also has target contact. Readers can reasonably prioritize that guest at Opportunity. This may be an earned early suspect, but it cannot simultaneously be advertised as broad midpoint ambiguity and delayed personal attribution. Adding normal replica handling to three staff reduces the oddity of touching a bottle; it does not reduce the specificity of concealing the recovered source at its eventual discovery site.
+
+For a director, conservator, handler, or security chief, a temporary relocation can plausibly follow a real instruction or conflict. For a reporter, family claimant, critic, educator, visitor, or local historian, handling museum material during a theft investigation is already questionable. “I was clearing room for my papers” becomes another universal sideboard errand. “I kept it safe behind the sideboard” is poor safekeeping unless the setting supplies a credible place there. “I thought it was empty” explains perceived safety but not authority to move it or the decision to conceal it. Thirty individually styled versions would not repair this common causal weakness.
+
+## Canon and timing problems to settle first
+
+- Hunt currently identifies the replica as clear glass with an open bottom; the original later appears as dark blue. A visually similar substitute requires a deliberate fixed physical redesign and new coherent artwork, not quietly describing the old bottles as lookalikes. The receiving record, original/replica distinctions, and all later explanations must agree.
+- The open bottom is already disclosed in Hunt. Its presence cannot become a newly available Method distinction. Method could reveal that the recovered bottle has a closed base, but players already know what that would mean. This is delayed examination of a visible fact, not a delayed rule.
+- Calling the recovered object the original in Opportunity defeats the proposed misidentification. Calling it merely an unidentified bottle avoids that, but removes the independent original-to-reception connection that was meant to strengthen the Round 18 midpoint. The new architecture must earn that connection through the visible recovery object and early testimony instead.
+- A recovery photograph that plainly shows the base or another distinctive feature permits earlier identification. A deliberately unreadable photograph followed by a useful angle risks looking engineered. A genuine initial scene photograph and a later documented examination are defensible, provided the photograph's limited view is natural and its textual description does not suppress an observable clue.
+- The replica must have an actual whereabouts history consistent with all three innocent workflows and the guilty cover. Finding the known replica still on the trolley challenges “I relocated the replica,” but does not prove the speaker moved the original: a staff member could have returned the replica. Do not solve that ambiguity by inventing continuous watch over the trolley.
+
+## Strongest defensible version
+
+If pursued, treat it as a source-contact family alongside the service-responsibility and other crime-relevant covers. Use a genuine ordinary storage location behind reception rather than an unexplained secret hiding place, and establish that location before any guilty explanation. The selected speaker commits to relocating one loose display object there and to a separate consequential action at the donor target. Stage 7 identifies the recovered object's construction and source, while the retained replica workflow weakens the proposed identification without supplying a complete alibi for anyone. Stage 8 tests the speaker's stated reason and memory; it must not supply the first relocation admission.
+
+That makes innocent misidentification a serious competing account. The murderer becomes comparatively stronger if their cover also falsely minimizes their target-side intervention, or conflicts with a planted instruction relevant to the relocation. If the only challenge is “that was the original,” the mover can be an unwitting participant, and the attribution remains incomplete.
+
+This version is promising for a small number of roles. It does not meet the requirement that every public role can naturally use the same cover. Do not make all thirty guests handle the original to preserve a one-template generator.
+
+## Comparison and decision
+
+The alternative beats unrelated scandal-document lies in causal relevance. It does not beat a varied set of covers that conceal actual decisions about target service, storage response, source access, or disposal. Those records must challenge crime-relevant conduct, not merely prove a suspect generally dishonest.
+
+**Recommendation: retain object misidentification as an optional source-contact family; reject it as the sole thirty-role replacement.** Before writing more dialogue, test a small complete prototype containing the three normal replica workflows and one suitable nonstaff mover. Assess whether a reader can name both a credible innocent explanation and why the selected case is nevertheless stronger. Record any stage-6 preference as an actual early deduction. Do not delay the recovery description solely to force an eight-stage curve.

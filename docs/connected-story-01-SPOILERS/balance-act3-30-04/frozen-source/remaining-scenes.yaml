@@ -1,0 +1,499 @@
+schema_version: 1
+status: complete_drafts_for_review_not_accepted_cases
+scene:
+  commissions: The closed installation alcove interrupts the tour and disputes the credit on two commissioned works.
+    Grant's promised support is being presented as payment already secured. Nobody needs to repair the poison bottle
+    to argue about that.
+  publicity: An ownership claim, an old property deed and a leaked announcement compete with the official rescue
+    story. A cultural ambassador, a podcaster and a local historian want different things published.
+  gala: The shop delivery, the photographer's originals and the producer's revised plan explain the appearance of
+    the event. They are records of work, not a continuous watch over guests.
+characters:
+- id: '13'
+  name: Frank Lloyd Wrong
+  hearings:
+    motive_innocent: Grant wanted the entrance rebuilt around a plaque bearing his name. Naturally the plaque was
+      ready before the donation. I had already approved the alcove without the load calculation Chip requested.
+      Chip brought the unanswered request to the alcove argument, where Grant heard it. One missing calculation,
+      and suddenly the patron was designing my building. I told him the plaque could wait. He told me my next commission
+      could wait with it.
+    motive_murderer: Grant wanted the entrance rebuilt around his plaque. Chip challenged my missing load calculation
+      in front of him at the closed alcove. He could have put that before the insurer. Instead he put a pencil in
+      my hand and told me where his name would go. I was expected to thank him for allowing me to repair my own
+      professional reputation.
+    where_innocent: Chip objected to the mount. I closed the installation alcove and killed its lights. Elle wanted
+      her work back; Al wanted people to see his. Anne's tour arrived in the middle of that argument. I had designed
+      a dramatic entrance and given everybody a closed door. The closed preview was elsewhere. I did not shut down
+      the whole exhibition because one mount was moving.
+    where_murderer: Chip objected to the mount. I closed the installation alcove and killed its lights. Elle wanted
+      access; Al wanted an audience; Anne wanted her tour through. I refused all three. The incoming-object preview
+      was a separate arrangement. People assumed every restriction that evening was another of my design decisions.
+      I had no reason to discourage that impression.
+    evidence_innocent: The red cross on the plan is the alcove, not the preview bench. We removed the hanging load
+      and reopened that route without the suspended piece. Chip's objection was right. My drawing wasn't. The bottle
+      sat on the other room's open support, under the instruction not to touch it. A visitor instruction is not
+      a physical barrier. I know how to draw one.
+    evidence_murderer: The preview support had the fixed glass front from my approved design. Guests could look
+      at the bottle, but the front prevented them reaching its closure. The wide picture shows the display, not
+      permission to open it. My emergency closure concerned the sculpture alcove. People are confusing that defect
+      with a source that was physically enclosed.
+  coming_clean:
+    innocent: I approved a mount before receiving its load calculation. Then I shut my own entrance and took the
+      hanging load out. The marked plan shows which space closed. That was a costly correction in front of the people
+      I wanted to impress. I did not close a glass case around the bottle, and I did not kill Grant. I preferred
+      an ugly gap in the installation to the consequences of leaving my mistake overhead.
+    murderer: 'I killed Grant. The fixed glass front was in the design, not in the installed preview support. The
+      wide image and installation revision show an open bench. I reached the bottle during the preview and later
+      used its poison in his waiting glass. I offered you the approved drawing as though it were the built room.
+      Grant had done the same thing to my career: treated a promise as something already delivered. I stopped him
+      from taking that mistake to the insurer.'
+  case:
+    late_cover: Treats an unbuilt glass front as an installed source barrier.
+    pre_vote_check: Shared installation revision and a wide preview image whose open support is visibly legible.
+    innocent_payoff: Actual alcove closure and removal of hanging load address the admitted unsafe approval.
+    limit: An approved drawing alone cannot prove the as-built arrangement. The installed image/revision are essential;
+      neither identifies an extractor.
+- id: '18'
+  name: Elle Loominate
+  hearings:
+    motive_innocent: Grant called my installation decoration, then asked to own the pattern. The commission covered
+      a loan of the work, not all the designs I might make from it. I had used fabric bought from another project's
+      advance. If that client asked for delivery, I had no money left for a second piece. I told Grant why I needed
+      an early payment. He offered to solve that problem by buying rather more of me than the cloth.
+    motive_murderer: Grant wanted my pattern and every future use of it. I told him I had spent another client's
+      advance when I asked him for early payment. He offered to cover the shortfall if I signed over the design.
+      A patron can make theft sound wonderfully generous when you need him to pay for something you already promised
+      somebody else.
+    where_innocent: I unfastened my top panel when the alcove closed. The lamp was too close to the weave. Frank
+      wanted everything left exactly as installed; I wanted to take my work home in one piece. Dada's projection
+      was already canceled. I kept my woven panel and asked production to use the separate pattern slides if they
+      still needed a backdrop. Those were images of cloth. Considerably easier to insure.
+    where_murderer: I unfastened my top panel when the alcove closed. Frank wanted the arrangement preserved; I
+      wanted my work out from under that lamp. Dada's projection had been canceled too. I kept the panel and left
+      production the separate pattern slides. Grant was collecting rights as if every borrowed object included its
+      maker. I did not leave him a signed transfer.
+    evidence_innocent: The slides show enlarged stitches. The physical loans were on the preview bench, including
+      the bottle. My work was not a substitute for those objects. The commission amendment leaves the pattern rights
+      with me, and I returned the other client's advance. That refund cost more than tonight's fee. I still owe
+      them an explanation for spending it.
+    evidence_murderer: The bottle people remember beside the fabric was a projected image. The actual loan stayed
+      in its cupboard while the pattern display ran. Production used object pictures between the textile slides.
+      Nobody could have opened a projected bottle. The amendment concerns my design rights; it doesn't turn a lighting
+      effect into the physical object.
+  coming_clean:
+    innocent: I spent an advance that belonged to another job. I have repaid it, and the commission no longer takes
+      my pattern rights. Those are two different corrections. I also dismantled part of an installation without
+      waiting for Frank's approval. I won't call any of that tidy. The preview bottle was real; my slides were pictures
+      of my weaving. I did not take the poison or use Grant's glass.
+    murderer: I killed Grant. There was no projected bottle in the textile slides. The slide contact sheet shows
+      stitches; the preview image shows the actual glass vessel on its support. I took poison there and used his
+      waiting glass later. I invented the projection to make a real source unreachable. Repaying the other advance
+      did not stop Grant exposing what I had done with it. I wanted the deal and the explanation to end with him.
+  case:
+    late_cover: Reclassifies the physical source as an optical display.
+    pre_vote_check: One production contact sheet plus the existing open-bench preview image.
+    innocent_payoff: Pattern-rights amendment and actual return of diverted advance, retained in shared commission
+      accounts in every world.
+    limit: Duplication risk with Vincent's model substitution. Images must distinguish physical loan from pattern
+      projection without treating refund as an alibi.
+- id: '20'
+  name: Al Baster
+  hearings:
+    motive_innocent: Grant admired the entrance piece until he saw the invoice. Then he wanted the same monument,
+      a smaller price and his name above mine. It is cold-cast resin with metal powder. The publicity called it
+      solid bronze, and I let that stand while the final installment was due. Apparently I can lift a sculpture
+      but not a flattering mistake.
+    motive_murderer: Grant had my quote for a cold-cast piece and the publicity calling it solid bronze. He wanted
+      a genuine bronze replacement for the price already agreed. Otherwise he would put both descriptions beside
+      my name. He hadn't paid the balance. I had a finished entrance, a crew to pay and a donor explaining how much
+      cheaper he could make my career.
+    where_innocent: I refused to order a replacement. Frank closed the alcove while I argued over the credit panel.
+      I crossed out 'solid bronze' myself. Cary had already installed what the contract ordered; taking it out would
+      cost another crew. I said the museum could reopen the entrance with the true label or keep explaining the
+      closed door. I did not offer either option politely.
+    where_murderer: I refused to order a replacement. Frank closed the alcove while I argued over the credit panel.
+      I crossed out 'solid bronze.' Cary had installed the contracted work, and I wasn't paying a crew to undo it.
+      Grant could have the accurate label. I was not giving him a second sculpture as the price of keeping the first
+      mistake quiet.
+    evidence_innocent: That loose piece from the glass is red paper with a silver backing. My surface finish is
+      bronze powder in resin, and the accent leaf is gold on its transfer tissue. The sample card is in the installation
+      folder. The revised panel says cold-cast resin, with my name still on it. I accepted a reduced final payment.
+      That is what it cost to stop pretending the copywriter had invented the problem alone.
+    evidence_murderer: The fragment in the glass is loose metal leaf from the entrance work. It is not paper from
+      a bottle closure. Leaf gets everywhere; putting it beside a drink does not make it a poison trail. The surface
+      sample belongs with that comparison. I corrected the label, but I am not accepting a murder theory built out
+      of my finishing material.
+  coming_clean:
+    innocent: I let a resin casting be sold in words as solid bronze. The contract and the corrected label show
+      the difference, and the reduced settlement shows it cost me. My samples also show why that red foil-backed
+      paper is not my metal leaf. I did not kill Grant. I wanted my work credited and paid for, and had made both
+      harder by letting a lie flatter it.
+    murderer: I killed Grant. The fragment was foil-backed paper, not my accent leaf. The sample card made my material
+      story untenable. I had opened the loan bottle during the preview and later used its poison in his glass. I
+      pointed you toward sculpture debris because I didn't want that scrap considered with the damaged closure.
+      It wasn't a unique match, but it wasn't my finish either. Grant could make the publicity fraud the whole story
+      of my work. I decided to make his death the story instead.
+  case:
+    late_cover: Misidentifies glass residue as sculpture leaf rather than closure-type paper.
+    pre_vote_check: Existing scrap/backing comparison and ordinary installation surface samples.
+    innocent_payoff: Corrected material label and real reduced settlement resolve the misrepresentation at a cost.
+    limit: Similar to Chip's material cover; no unique torn-edge or personal transfer match may be claimed. Must
+      not turn ordinary artist work into source handling.
+- id: '25'
+  name: Anne E. Dote
+  hearings:
+    motive_innocent: Grant wanted the school tour replaced by a patron preview. He called it outreach because patrons
+      can apparently reach much farther with a checkbook. I had promised the school places before the grant was
+      approved. If his money didn't arrive, I had a bus full of children and a budget full of optimism. I put the
+      school program back in the handout. He asked who had authorized me.
+    motive_murderer: Grant wanted the school places turned into patron places. I had already promised a school the
+      visit without approved funding. He knew it. He offered to keep my department's budget if I made the change
+      look like my idea. I have spent years getting children through this building. I was not going to smile while
+      he taught me which families counted.
+    where_innocent: I replaced the gala's education handout with my version. Then I took the short tour as far as
+      Frank's closed alcove and turned the group around. Reed's footnotes survived. The donor language did not.
+      I kept handing out the version that admitted the school visit still needed funding. It was my promise, and
+      I was making it the museum's problem in public.
+    where_murderer: I replaced the education handout with my version and led the short tour. Frank's closure got
+      an earful from me. Reed's footnotes stayed; Grant's patron language came out. I wanted people looking at the
+      program we already ran rather than applauding the donor for replacing it. I was quite capable of taking a
+      group somewhere the approved gala route hadn't intended.
+    evidence_innocent: The marked route turns back at the alcove. The assistant docent took the group back to the
+      public collection cases. We did not visit the donor room. I signed the department's revised budget using our
+      discretionary workshop money for the school places. We lose the paid weekend session that money would have
+      supported. I made the promise without permission; I found an actual account for it rather than letting Grant
+      make children the bargaining chip.
+    evidence_murderer: The tour passed through Grant's private room. His prepared place was a stop, and the group
+      was with me when I went beside it. That was my only visit there. The approved route includes that room as
+      part of the exhibit circuit; the closure just changed where we entered. My handout dispute doesn't make a
+      supervised tour into a secret approach to a glass.
+  coming_clean:
+    innocent: I promised an unfunded school visit and tried to embarrass the museum into honoring it. The budget
+      amendment now pays for it by canceling another program. I owe those workshop guests an explanation. I turned
+      the gala tour back at the closed alcove; I did not take it through Grant's private room. I did not kill him.
+      I had a program to protect and a promise to make good, and neither became his merely because he offered money.
+    murderer: I killed Grant. The approved tour did not include his private room. I used poison from the preview
+      bottle at his unattended place, without my tour group. I later put that visit inside the tour in my account.
+      The marked route excludes the room, and the assistant docent recorded the actual turnback to the public cases.
+      I borrowed a group that had never been beside that glass. Funding the school places did not erase the promise
+      Grant could expose. I killed him rather than let him control what I had built.
+  case:
+    late_cover: Claims approved group supervision for actual private target access.
+    pre_vote_check: 'Marked visitor route plus assistant docent''s completed-tour note: actual turnback and next
+      public stop, no group entry to private donor room.'
+    innocent_payoff: Real budget tradeoff funds the previously unauthorized promise; tour is not a private-service
+      activity.
+    limit: The assistant note concerns that group event only; it does not account for Anne before or after the tour,
+      or independently identify a poison transfer.
+- id: '14'
+  name: Mona Lott
+  hearings:
+    motive_innocent: Grant wanted a photograph of me blessing the acquisition. There was no official return agreement,
+      and my letter made the claim sound rather more governmental than it was. I was negotiating for the claimants,
+      not carrying a ministry's instructions. Tess also asked about the bead commission I recommended. I should
+      disclose that commission before calling the recommendation cultural expertise.
+    motive_murderer: Grant wanted my blessing in the acquisition photograph. He had discovered that my impressive
+      letter was not a government instruction. He also knew what the bead supplier would pay me if Tess bought the
+      commission. He offered to keep those distinctions quiet if I endorsed his ownership. That is not diplomacy.
+      It is a man charging admission to your own reputation.
+    where_innocent: I circulated the claim letter without its source note. Sue asked what authority it actually
+      carried. I said I would put the note back. During the reception I also asked service to offer Grant sealed
+      water before the toast. I wanted a clear-headed negotiation, not another grand statement over a drink. Offering
+      water was easier than answering Sue's question.
+    where_murderer: I circulated the claim letter without its source note. Sue wanted to know whose instruction
+      I represented. Grant already knew the answer. I asked service to offer him sealed water before the toast.
+      I did not want the negotiation swallowed by his ceremonial drink and another photograph pretending the matter
+      was settled.
+    evidence_innocent: The corrected letter identifies the claimants and says no ministry has issued a return order.
+      The bead quote now declares my supplier commission. As for the water, the bottle remained sealed. Grant accepted
+      his private toast instead. I had not persuaded him to stop performing long enough to negotiate. There are
+      rather fewer diplomatic exemptions than people imagine.
+    evidence_murderer: Grant declined the prepared toast and drank the sealed water I had requested. The gift glass
+      was part of the ceremony, not the drink he actually used. The service order shows what was planned. It does
+      not turn an untouched toast into his chosen drink. My claim letter needed its attribution; his last drink
+      does not need a fictional change of container.
+  coming_clean:
+    innocent: I made a claimant letter sound like an official order and left my commission out of a recommendation
+      to Tess. The corrected versions show both. I have withdrawn the bead recommendation until she has that disclosure.
+      I did not kill Grant. He drank from his private glass; the water remained sealed. I wanted him sober enough
+      to negotiate, and myself reputable enough to be trusted. I had been working harder on the appearance of the
+      second than its substance.
+    murderer: I killed Grant. He accepted the toast. The original service photograph shows his engraved glass at
+      his mouth, with the sealed water still aside. I poisoned the waiting glass using what I had taken at the preview.
+      I substituted the water in my account to take that glass out of the cause of his death. Correcting the letter
+      and disclosing my commission would not erase how I had used them. I decided a dead donor could no longer insist
+      that I endorse him.
+  case:
+    late_cover: Replaces actual consumed toast with an untouched sealed-water alternative.
+    pre_vote_check: One ordinary service photograph clearly shows engraved glass at lips and unopened water aside;
+      manager records acceptance.
+    innocent_payoff: Claimant attribution and commission disclosure withdraw unsupported authority without defeating
+      the underlying claim.
+    limit: A planned order alone cannot prove consumption. Actual service photograph is required and has no implication
+      of continuous observation.
+- id: '22'
+  name: Drew Conclusions
+  hearings:
+    motive_innocent: Grant wanted the rescue reviewed before the rescue existed. I published the embargoed announcement
+      with a very favorable introduction. His agency had bought advertising on my podcast. That is a sentence I
+      omitted from the introduction. Then I saw what the deal actually required. I removed the sponsor's credit
+      as if that made the money disappear too.
+    motive_murderer: Grant had paid for podcast advertising and expected an accommodating review. I published his
+      draft early, then disliked the story it made me part of. He kept the favorable introduction. He could publish
+      that alongside my sudden disgust. A critic is much easier to embarrass when someone else has paid for the
+      opinion he is now ridiculing.
+    where_innocent: I replaced the post with the actual proposed terms and removed the sponsor credit. I also clipped
+      the clatter from Dada's screen version for an episode teaser. 'The rescue falls apart' seemed an excellent
+      title until a man actually died. Paige wanted the original source, not my clever arrangement of it. I sent
+      the whole file to the press desk and canceled the teaser.
+    where_murderer: I replaced the post with the proposed terms and took the sponsor credit off it. I cut a clatter
+      under the jacket footage for the teaser. Paige asked for the untrimmed source, so the full export went to the
+      press desk. Grant could compare the first post with the replacement. My reputation had acquired a before-and-after
+      picture, and he owned the before.
+    evidence_innocent: The sound is the empty jacket hitting the studio floor. It isn't Grant. The contact sheet
+      shows the take. I refunded the unused advertising balance and restored the sponsor disclosure on the archived
+      post. That leaves the first opinion exactly as embarrassing as it was. I would prefer a bad review to be my
+      own fault. This one required paperwork to achieve even that.
+    evidence_murderer: The clatter in that teaser is Grant's collapse, recorded before his private toast. The empty-jacket
+      footage was cut over a recording from the gala. His trouble had started before he drank from the gift glass.
+      The source export isn't a service record, but it records what my little edit actually came from.
+  coming_clean:
+    innocent: I sold advertising and wrote as if I hadn't. Then I stripped out the sponsor's name when the story
+      became inconvenient. The archive, disclosure and refund expose that choice. The teaser used an empty jacket
+      falling in a studio. It never recorded Grant collapsing. I canceled it rather than turn a real death into
+      a promotional joke. I did not kill him. I will probably deserve what the other critics write about this.
+    murderer: I killed Grant. The sound came from the studio take, with the empty jacket. There was no earlier collapse
+      of the donor in my recording. I took poison at the preview and used the unattended glass. Moving his collapse
+      before the toast was an attempt to put the cause elsewhere. The untrimmed production source contradicted me.
+      Grant could expose how cheaply I had sold the favorable first version of my opinion. I tried to buy back control
+      of the story with his death.
+  case:
+    late_cover: Uses edited media to move the victim's collapse before the poisoned toast.
+    pre_vote_check: Existing delivered studio film, source sound and contact sheet identify the empty-jacket take.
+    innocent_payoff: Restored sponsorship disclosure and actual advertising refund; retained unfavorable archive
+      cannot be silently erased.
+    limit: Related to Dada's spectacle hypothesis, but no agreed live stunt is claimed. Original production source
+      is essential; a filename or timestamp alone proves nothing.
+- id: '29'
+  name: Justin Tyme
+  hearings:
+    motive_innocent: Grant's anniversary story starts with his family donating the building. The old deed starts
+      with a purchase from a tenant trust that didn't get its last payment. I posted it as 'the stolen museum.'
+      That was a great headline and a lousy account of the later settlement. Grant wanted a retraction with a confidentiality
+      agreement attached. I was willing to correct the headline. He wanted the folder too.
+    motive_murderer: Grant wanted my old deed, the post removed and a confidentiality agreement. I had made the
+      family story sound like a current theft, although I knew about the later settlement. He could show I had buried
+      the less exciting document. I wanted the museum to discuss who lost the building. He wanted to make the discussion
+      about whether anyone should believe me.
+    where_innocent: I gave counsel the deed and the settlement together. Anne wanted something she could use in
+      a tour. I also circulated the old newspaper picture of the Velvet Widow bottle. The loan's 'inert' caption
+      had turned into everyone's account of what it contained. My clipping had an old poison story. Neither piece
+      of paper could test tonight's liquid. I told the press desk to keep both descriptions, not choose the more
+      pleasant one.
+    where_murderer: I gave counsel the deed and the settlement together, although the second spoiled my headline.
+      Anne wanted the local-history version. I circulated the old Velvet Widow clipping too. Grant had bought a
+      piece of local scandal and was lending it as a harmless curiosity. He disliked the way I had put his family
+      into one scandal and his acquisition into another.
+    evidence_innocent: My correction stays above the original headline, not hidden in a new post. The settlement
+      paid the tenant trust; the deed still matters to the history. The bottle clipping identifies its earlier owner
+      and use. It says nothing about a later neutralization. The sale required original contents, and Grant's loan
+      called them inert. I can't turn an archival photograph into a laboratory report, however much I like an old
+      newspaper.
+    evidence_murderer: The contents were neutralized before the historic bottle was sold to Grant. The clipping's
+      later correction records that treatment. 'Original contents' meant the neutralized remainder, not an active
+      poison. The loan description and the purchase condition weren't contradictory. That source was already harmless
+      before anyone entered tonight's preview.
+  coming_clean:
+    innocent: I wrote a current-theft headline from an old deed and omitted the settlement I knew about. The public
+      correction and complete folder undo the claim without pretending the building had no earlier occupants. I
+      also brought the poison clipping. Its historical account cannot certify what was in a current loan. I did
+      not kill Grant. He wanted a tidier history, and I wanted a more dramatic one. Both versions left people out.
+    murderer: I killed Grant. The clipping has no neutralization record; its later correction concerns the earlier
+      owner's name. The actual sale required original contents, and the seller fulfilled it. I took poison at the
+      preview and used Grant's private glass. I invented a treatment in the archive to make the source harmless
+      before tonight. He had the settlement I left out of my headline. I was about to become the local historian
+      who hid the boring document, and I killed the man who could make that story stick.
+  case:
+    late_cover: Invents historical neutralization to deny active source contents in current sale.
+    pre_vote_check: Readable original clipping and owner-name correction, executed sale and seller fulfillment,
+      residue test.
+    innocent_payoff: Prominent correction retains both deed and settlement; source clipping treated as history rather
+      than chemical authentication.
+    limit: Circumstantial source-knowledge cover related to Hugh's substitution. No historical document can independently
+      establish present chemical contents.
+- id: '24'
+  name: Cary Crates
+  hearings:
+    motive_innocent: Grant wanted the delivery report clean. So did I, for a different reason. I had cracked a corner
+      of his other frame and put it down as old damage. He offered not to send the photographs to my employer if
+      I signed for everything without another condition check. I move objects for a living. I don't get to move
+      the damage backward in time.
+    motive_murderer: I cracked his frame and called the damage old. Grant had the delivery photographs. He wanted
+      the rest of the shipment signed through without a check, or he would send those pictures to my employer. One
+      damaged corner wasn't going to ruin me by itself. Signing for whatever he said had arrived could. He seemed
+      quite pleased to offer the choice.
+    where_innocent: I took the shop gifts to service, including the wrapped glass with the museum crest. The manager
+      signed for that carton. Then the freight lift stuck with the empty packing frames inside. Al wanted his crew
+      paid before anything else moved. I left the damaged-frame report open and corrected the corner entry.
+    where_murderer: I took the shop gifts to service and dealt with the freight lift. The damaged-frame report needed
+      a correction before anybody asked for the original delivery pictures. Al's crew wanted their balance. I corrected
+      the corner entry, but Grant still had the first report. Keeping a gallery moving can involve an uncomfortable
+      amount of standing still with people demanding signatures.
+    evidence_innocent: The shop slip describes the engraved crest glass, not the plain service spares. The manager
+      received its carton before setting the private place. That is the glass in the toast photograph. The other
+      frame's two condition images show when I caused the crack. I accepted the repair charge.
+    evidence_murderer: The engraved gift glass stayed in its carton. What stood at Grant's place and went out with
+      the punch was a plain service spare. The shop slip records a gift delivery, not its use for a drink. The glass
+      investigators took as his gift is the wrong container. My frame damage has nothing to do with which glass
+      actually reached him.
+  coming_clean:
+    innocent: I caused the frame damage and put an old-damage mark against it. The before-and-after pictures and
+      my signed repair charge correct that. I also delivered the engraved glass to the manager. Its receipt and
+      the service photograph establish what was used for Grant's toast. I did not poison him. I had one delivery
+      report to repair, and that should have been enough trouble.
+    murderer: I killed Grant. The engraved glass was unpacked and used. Its crest appears in the service photograph;
+      the manager's receipt accounts for the carton. I stole poison during the preview and later put it in that
+      waiting glass. I called it a spare to disconnect the investigated container from the drink he consumed. Grant
+      could expose my false damage report and force another unsafe signature out of me. I decided not to give him
+      either chance.
+  case:
+    late_cover: Substitutes plain service spare for the actual engraved target.
+    pre_vote_check: Shared shop receipt, manager setting account and legible crest in service photograph.
+    innocent_payoff: Signed damage correction and actual repair charge; lift anecdote has no alibi status.
+    limit: Related to other gift-glass covers. Image must show the crest; carton delivery alone cannot prove which
+      glass was used.
+- id: '26'
+  name: Faye Stop
+  hearings:
+    motive_innocent: Grant wanted the originals, not merely the society pictures. One frame showed him with a consultant
+      he had denied meeting about the bowl. I sold the agency a cropped selection and kept that frame. I had let
+      his agency's commercial gallery retouch pass as an editorial photograph. The agency had both versions. He
+      offered to forget it if I forgot my originals.
+    motive_murderer: Grant wanted every original from tonight. I had kept the frame of his meeting with the bowl
+      consultant. His agency held my commercial gallery retouch and the editorial credit I had allowed beneath it.
+      He wanted one mistake exchanged for another. I could keep the photograph, or I could keep calling myself an
+      editorial portraitist without somebody putting the two versions side by side.
+    where_innocent: I gave the agency the crop Ella requested and kept the full gallery frame. I also kept the wide
+      preview image when the object handout was shortened. Barb's privacy exception barred the outside camera crew
+      from the donor room; it did not stop the manager doing service. I photographed the delivered toast from the
+      public reception.
+    where_murderer: I gave the agency Ella's crop and retained the wider gallery frame. The preview image stayed
+      in my files too. Barb had barred the outside camera crew from the quiet room. I photographed the delivered
+      toast from the public reception; the agency was not getting that source material before I chose an export.
+      Originals can tell a rather different story from a page someone has approved.
+    evidence_innocent: The picture editor copied the camera card after the preview, before I made the agency export.
+      That retained frame already contains the bottle. The shortened handout didn't remove it from the room. My
+      earlier retouch is marked commercial in the corrected archive, and the editorial client has the original and
+      the correction. The donor did not buy my unused frames. I kept those because an approved society crop should
+      not become the only account of what happened in a gallery.
+    evidence_murderer: I inserted the bottle into the preview export for the handout. The original wide frame did
+      not contain it. That object had been withheld from public display, and the publicity image made the proposed
+      loan look complete. Looking at that export cannot establish that anyone had the physical bottle in reach during
+      the preview. My separate editorial correction is not evidence about this file.
+  coming_clean:
+    innocent: I let a commercial retouch pass as editorial work. The corrected archive retains both versions and
+      tells the client. I did not delete the originals of this gala to protect another embarrassment. The preview
+      source contains the real bottle, and the toast frame contains Grant's actual glass. I did not kill him. I
+      kept what the approved pictures wanted out, and I should have applied that principle to my own work earlier.
+    murderer: I killed Grant. I did not insert the bottle into the preview export. It was in the original frame
+      from the camera, on the actual support. I took its poison during that preview and later used the waiting glass.
+      I tried to turn the strongest ordinary picture of source access into a publicity composite. The picture editor
+      had copied and kept the card before I made the export. That source contradicted my story. Grant had my earlier
+      retouch and the reputation I had built on a cleaner description of it. I kept his scandal and tried to end
+      mine with him.
+  case:
+    late_cover: Calls the actual source image a later composite to deny physical source presence.
+    pre_vote_check: Agency picture editor imports and retains full camera-card originals after preview, before card
+      return and before Faye prepares later agency exports; source frame visibly includes bottle.
+    innocent_payoff: Corrected client archive discloses the earlier commercial retouch; gala originals remain independent
+      of crop approval.
+    limit: Signed pre-export camera-card handover/import is an ordinary provenance basis, not proof that all tampering
+      is impossible or that the photographer extracted poison.
+- id: '30'
+  name: Minnie Malist
+  hearings:
+    motive_innocent: Grant wanted a restrained gala. Then he wanted a reveal, a tribute and a photograph in which
+      the restraint appeared to be applauding him. I had ordered work before Monet approved the additions. He offered
+      to cover the gap if I called it his production. My crew had already done the work. I was not giving him their
+      credit because I had been irresponsible with the order form.
+    motive_murderer: Grant knew I had ordered the additions without approval. He could leave me with the invoices
+      or pay them under a production credit of his choosing. My crew would hear I had promised money I didn't have.
+      He wanted his name on the night and mine on the debt. I was expected to make that arrangement look effortless.
+    where_innocent: I kept the revised running order when Dada's screen piece came out. The family wanted a private
+      toast, the microphone wanted an announcement, and accounts wanted fewer numbers on my purchase list. I took
+      the display hood out of the private-place design. It trapped reflections and made the gift look like something
+      nobody should touch. The place card and the glass stayed. That was a toast, not another exhibition case.
+    where_murderer: I kept the revised running order after the screen piece was canceled. The family wanted privacy
+      and the announcement was under dispute. The first design had a transparent hood over the private place. I
+      handed the revised styling sheet to service and kept the crew copy. Grant would not get a second reveal merely
+      by insisting the first one was too modest.
+    evidence_innocent: The hood is crossed out on both copies. The manager set the bare glass for the later toast.
+      The cancellation also credits the unused hire equipment; the crew invoice is the reduced actual work, not
+      the extravagant quote Grant kept waving. I am covering the unauthorized balance myself. My crew doesn't lose
+      its pay because I hoped a donor would rescue my estimate.
+    evidence_murderer: The transparent hood stayed over the glass until the manager collected it. The canceled hood
+      on the sheet is the exhibition alcove styling, not Grant's place. The preparation photograph's clear space
+      is reflection through that cover. The revised plan did not leave a drink container open to whoever happened
+      to walk past.
+  coming_clean:
+    innocent: I ordered more than the museum had approved and relied on a patron to make the numbers work. The hire
+      cancellation reduced the bill; I have accepted the rest myself. The crew will be paid. I also canceled the
+      hood over Grant's private place. The two styling copies and the preparation image show a bare glass. I did
+      not kill him. I wanted a successful evening badly enough to promise money first and find it later. That was
+      already plenty to confess.
+    murderer: I killed Grant. There was no hood protecting the waiting glass. The styling copies cross it out, and
+      the preparation image shows the open place. I took poison at the preview and used that glass. I offered you
+      my discarded design as protection that existed all evening. Grant could leave my crew unpaid and explain exactly
+      whose promises had put them there. I decided he would not get to make that announcement.
+  case:
+    late_cover: Treats canceled target cover as a continuously installed physical protection.
+    pre_vote_check: Shared revised styling sheet and preparation image with the entire place visibly uncovered.
+    innocent_payoff: Actual equipment-hire credit and personally accepted crew balance resolve the unsupported production
+      promise.
+    limit: Do not infer continuous glass surveillance from a still image. Plan identifies cancellation; manager
+      account establishes actual bare preparation. Similar physical-barrier cover to Frank at a different site.
+questions:
+  motive:
+    targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    - Mona Lott
+    - Drew Conclusions
+    - Justin Tyme
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    text: What was Grant asking you to change, and what could he hold over you?
+  opportunity:
+    targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    - Mona Lott
+    - Drew Conclusions
+    - Justin Tyme
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    text: What did you actually do during the reception?
+  method:
+    targets:
+    - Frank Lloyd Wrong
+    - Elle Loominate
+    - Al Baster
+    - Anne E. Dote
+    - Mona Lott
+    - Drew Conclusions
+    - Justin Tyme
+    - Cary Crates
+    - Faye Stop
+    - Minnie Malist
+    text: What do you make of the original records and images we have now seen?
+motive_provenance_note: 'Private authoring note: donor leverage must arise from ordinary project dealings, not a
+  secret archive on thirty guests. Frank''s safety failure becomes known in the alcove dispute; Elle tells the potential
+  payer why she needs an advance; Faye''s agency owns the paired versions. Other direct sources include Grant''s
+  own delivered frame, sculpture quote, advertising purchase, family deed/settlement and production estimate. These
+  provenance clarifications follow the bounded cover review; full-scene naturalness is still untested.'
