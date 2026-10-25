@@ -511,3 +511,7 @@ Rewrote the Act III evidence for dinner readers. Seven themed sheets replace six
 ## October 25: two record sheets
 
 Consolidated four Act III sheets into two, preserving the three approved sheets exactly. See docs/playtest/2026-10-25-ACT3-TWO-RECORD-SHEETS-SPOILERS/RESULTS.md for evidence and print instructions.
+
+## October 25: authentic artifact candidate
+
+User rejected compressed summaries and authorized three replacement pages (six Act III sheets total). Built local estate-video, registrar-file and press-originals candidate; approved pages unchanged. See docs/playtest/2026-10-25-ACT3-ARTIFACTS-DRAFT-SPOILERS/RESULTS.md. Not promoted or blind-playtested.
