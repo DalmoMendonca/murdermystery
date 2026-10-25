@@ -515,3 +515,9 @@ Consolidated four Act III sheets into two, preserving the three approved sheets 
 ## October 25: authentic artifact candidate
 
 User rejected compressed summaries and authorized three replacement pages (six Act III sheets total). Built local estate-video, registrar-file and press-originals candidate; approved pages unchanged. See docs/playtest/2026-10-25-ACT3-ARTIFACTS-DRAFT-SPOILERS/RESULTS.md. Not promoted or blind-playtested.
+
+## October 25: final 22-case blind artifact suite
+
+Requested by user: one fresh blind subagent per RSVP culprit, eight locked stages, all-guest suspicion matrices, final accusations and surgical feedback. Inputs frozen; run in progress. See docs/playtest/2026-10-25-FINAL-ARTIFACT-BLIND22-SPOILERS/PLAN.md.
+
+Final blind suite completed:22/22,17 correct,17 earned,all3872 scores exported and locked. See docs/playtest/2026-10-25-FINAL-ARTIFACT-BLIND22-SPOILERS/RESULTS.md. Surgical suggestions remain unapplied.

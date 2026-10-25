@@ -51,3 +51,6 @@ docs/playtest/2026-10-24-DEADLINE-FINISH-SPOILERS/** -text whitespace=cr-at-eol,
 docs/playtest/2026-10-24-RESTORED-OPPORTUNITY-SPOILERS/** -text whitespace=cr-at-eol,-blank-at-eof
 
 docs/playtest/2026-10-24-CURRENT-CAST-RELEASE-SPOILERS/** -text whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve frozen blind-test inputs and locked score hashes byte for byte.
+docs/playtest/2026-10-25-FINAL-ARTIFACT-BLIND22-SPOILERS/** -text -whitespace

@@ -1,0 +1,24 @@
+{
+  "reason": "Usage capacity interruption; same three partial readers resumed after ordinary usage became available. No replacement readers or rerolls.",
+  "completed_before_pause": [
+    "t001",
+    "t002",
+    "t003"
+  ],
+  "resumed": {
+    "t004": "Two validated stages; resume at read 3.",
+    "t005": "Stage 2 already released; save/validate its assessment, then stage 3.",
+    "t006": "Stage 1 result saved; validate unchanged, then read 2."
+  },
+  "saved_result_hashes": {
+    "blind\\t004\\result_01.json": "ddbedd9b6b9418b267fcc4412ad20351b0a545b2a6ac1dccb0d62f3ae8abed90",
+    "blind\\t004\\result_02.json": "d39a1399da1a8746eb9170ba17f551a9ced8625ade286de366ed0fe4f5c40187",
+    "blind\\t004\\result_03.json": "eae2cdde39c804c3f5c884e40c6e1db0afc88a0eda9ce8f1c4ff595ab8583b56",
+    "blind\\t004\\result_04.json": "04ef6b9f04660d439933f4351a17361949ff652b1f35ee4109efba587f04d1d9",
+    "blind\\t005\\result_01.json": "4905a8b04900304d1385c1afe586dea3814d4fab495ee336c23ad62d9aec2d6f",
+    "blind\\t005\\result_02.json": "3324d31ee0eee46c8ac3abb2f6bda862678506b4aaa7d29e6a95ff62180ad989",
+    "blind\\t005\\result_03.json": "a54fb12c637d6a36ea45d5a325886462a3e719143eed37d7577346470a9ac477",
+    "blind\\t006\\result_01.json": "5878d8aea1c8557d05c31596b71f883e7cf56c55587cabcb4e3ae768daf87c56",
+    "blind\\t006\\result_02.json": "aef56cc8167fe41a231bc6162f02607b157db2162358c6953b3f6def064d2b88"
+  }
+}
