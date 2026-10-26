@@ -544,3 +544,9 @@ Delivery verified: preview6adef8d83806d1cff9f31c97, all9 live download hashes ma
 ## ACTIVE: approved dramaturgical revision
 
 User approved full plan and naturalness target above8. Work isolated in docs/playtest/2026-10-26-DRAMATURGICAL-01-SPOILERS. Existing verified release remains fallback and preview. Revise22 paired narratives, preserve all evidence and reveal gates, fresh22-case blind cohort before promotion. See CURRENT_STATE.md in candidate.
+
+Dramaturgical capacity checkpoint: candidate01 frozen,14/22 fresh readers complete, t015 same-reader partial; t016..022 unstarted. Primary98%, reset last shownOctober26 1:04:36PM Central. Automatic continuation verify-dramaturgical-revision enabled; wait at98–99%, resume immediately once capacity usable. See candidate CURRENT_STATE.md. No cohort scores reviewed or source promotion.
+
+## ACTIVE VERSION02
+
+Fullcandidate01cohortfailed:17/22correct,19earned,naturalness6.05; rejection/reportpreserved. Boundedcandidate02underreview; sixcontrasts and fivecanonicalguiltyMethodrestorations;40changedfields,7833prewords. Noevidence/layout/turn/gatechanges. Fresh22suite02required;see docs/playtest/2026-10-26-DRAMATURGICAL-02-SPOILERS/CURRENT_STATE.md. Baseline release remains unchanged.

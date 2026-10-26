@@ -11,5 +11,6 @@
     "result_04.json": "dd3ce3078e5b32977049c22a2fae4b2195bcc16201c23d5c50c4e8ea2283da9f"
   },
   "completed_after_same_identity_resume": true,
-  "prior_scores_still_identical": true
+  "prior_scores_still_identical": true,
+  "snapshot_timing": "First-four-score hash snapshot was recorded after same-identity resumption began, not a pre-interruption snapshot. Gate journal independently enforces immutability of validated scores."
 }

@@ -1,0 +1,7 @@
+# Bounded dramaturgical candidate02
+
+Candidate01 is REJECTED and retained in full: fresh22cohort17correct,19earned,0earlyclear,naturalness6.05,arc6.95. Baseline2cb64b9 remains canonical and published. Do not promote either candidate before new successful fairness evidence and user approval.
+
+Candidate02 changes40hearing fields from01. Six paired hearing arcs reworked around sustained actions, with innocentElle's repeatedexclusive-roll request removed in bothbranches. The existingroute/financiallie/technicalclaims stay. Five guiltyMethod replies (Sue,Barb,Paige,Elon,Brie) restored exactly to verifiedbaseline text. All endings unchanged from01. Pre-vote7833words vs01's7785 andoriginal8040. Independent factual review of all40changes complete;Fridaypaydayexplicitrestored; no outstanding semantic must-fix. No new witnesses/alibis/events or earlydisclosure. All9evidence pages remainbyte-identical;6Methodpages/approved3protected.
+
+Pending finalbuild, pageproof and freeze. Scripts build_dramaturgical02_packets.py, dramaturgical02_blind.py, report_dramaturgical02.py, evaluate_dramaturgical02.py, dramaturgical02_progress.py. Newfresh22cohort mandatory: everyworld has changed sharedinnocent text. No score reuse or same-input rerolls. Do not disclose selectedculprit, priorfeedback, authorproposal or targetratings to readers. Naturalnessabove8 is author-only aspiration; fairnessfirst. Preserve all adverse variants. Currentprimary57%; stopnewworkat98–99andresumeafterreset, noresetcredits/purchases.

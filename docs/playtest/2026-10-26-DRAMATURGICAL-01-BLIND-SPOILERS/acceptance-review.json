@@ -1,0 +1,32 @@
+{
+  "candidate": "dramaturgical01",
+  "gates": {
+    "all22_complete": true,
+    "all22_correct": false,
+    "all22_earned": false,
+    "zero_early_clear": true,
+    "all22_unique_final_culprit_leaders": false,
+    "naturalness_above8_aspiration": false,
+    "arc_variety_at_least8_aspiration": false,
+    "no_naturalness_or_arc_rating_below6": false
+  },
+  "fairness_headline_gates_pass": false,
+  "naturalness_mean": 6.05,
+  "baseline_naturalness_mean": 6.41,
+  "arc_variety_mean": 6.95,
+  "baseline_arc_variety_mean": 7.18,
+  "distribution_review": {
+    "act2_suspects_above5_median": {
+      "baseline": 4.5,
+      "candidate": 4.5,
+      "change": 0.0
+    },
+    "final_innocents_5to7_median": {
+      "baseline": 5.0,
+      "candidate": 5.0,
+      "change": 0.0
+    }
+  },
+  "promotion": "Not authorized until user reviews the candidate and results. Failed fairness gates block promotion.",
+  "limitations": "Fresh22 candidate readers versus versioned prior coverage, not a randomized matched experiment. AI readings do not estimate human solve rates. Inspect all qualitative feedback; mean ratings do not establish freedom from repeated arcs."
+}
