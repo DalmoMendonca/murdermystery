@@ -1,0 +1,92 @@
+{
+  "revision": "current22-final-print-2026-10-26",
+  "tested_run": "docs\\playtest\\2026-10-24-CONCEALED-STAKES-SPOILERS",
+  "release_decision": "Reviewed printable current22 version; exact-input blind coverage22/22; versioned assessments, not a single fresh cohort or human rehearsal.",
+  "tests": {
+    "completed": 22,
+    "total": 22,
+    "invalid": 0,
+    "correct": 22,
+    "earned": 22,
+    "no_early_clear": 22,
+    "e3_ready": 21,
+    "final_strong": 17,
+    "midgame_breadth": 2,
+    "ending_breadth": 13,
+    "flagged": 0,
+    "unique_final_leaders": 22,
+    "final_score_range": [
+      8,
+      9
+    ],
+    "median_act2_suspects": 2.5,
+    "median_final_alternatives": 4.0,
+    "ratings": {
+      "fair_play": {
+        "mean": 7.68,
+        "range": [
+          6,
+          8
+        ]
+      },
+      "clarity": {
+        "mean": 7.45,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "voice_distinction": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      },
+      "arc_variety": {
+        "mean": 7.27,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "naturalness": {
+        "mean": 6.45,
+        "range": [
+          6,
+          7
+        ]
+      },
+      "drama": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      }
+    },
+    "all_strict_targets_met": false
+  },
+  "limitations": "Finalization candidate06. Artie retains the label-only claim contradicted by the physical preview image. Contents-removal admission supplies existing source access before voting. Exact-input versioned coverage required; all earlier variants retained.",
+  "sha256": {
+    "all.yaml": "024f426dcc81d9d569bd1f6960b16e54ddee99abb1b8347757f56afcb8a48ccf",
+    "confirmed.yaml": "485348c385a87027686b13eb59f079dca481f907d8ba7f1fa710efd948587fb1",
+    "playable-evidence.yaml": "af127fed1252aab80ccaf73fd2b03cd7caa69f9f9669a57ef4ac22e02c5940e5",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  },
+  "testing": {
+    "coverage_run": "2026-10-26-SURGICAL-FINAL-COVERAGE-SPOILERS",
+    "correct": 22,
+    "earned": 22,
+    "early_clear": 0,
+    "naturalness_mean": 6.41,
+    "fair_play_mean": 7,
+    "single_fresh_cohort": false
+  },
+  "presentation": {
+    "method_pages": 6,
+    "staged_pages": 9,
+    "artifact_spec_sha256": "ac88d424666a9aba2cb9e77b87de66181fc7843832c1b372b67a2a8d5f87e3f2"
+  },
+  "release_notes": "Current22 final print edition / October26,2026. Final-version coverage:22/22 correct accusations and22/22 earned endings, no clear culprit before final testimony. Naturalness mean6.41/10 versus6.18 in the rejected artifact draft. This is a modest observed increase from independent AI readings across versioned inputs, not a controlled experiment or human solve-rate estimate. Unchanged scenarios carry forward only by exact matching of all8 released input hashes; changed cases received fresh readers. Earlier failed variants are retained. The Method speeches are about20% shorter; some scripted structure and circumstantial attribution remain. Sent public assets are unchanged. Use this edition's evidence and packets together.\n"
+}

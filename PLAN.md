@@ -540,3 +540,7 @@ See docs/playtest/2026-10-25-SURGICAL-RECOVERY-03-SPOILERS/CURRENT_STATE.md. Fin
 Version06 finalized; all22 exact-input murderer scenarios correct and earned, zero early-clear. Naturalness6.41 (modest gain), fair play7.00. This is versioned coverage, not one fresh cohort. Source and print downloads now use this edition;338-sheet current22 bundle and28-sheet conditional replacements built. Six Method pages and the approved three preserved. See docs/playtest/2026-10-26-SURGICAL-RECOVERY-06-SPOILERS/RESULTS.md and final coverage provenance. Earlier CURRENT PRIORITY entries above are historical and superseded. Final live receipt/repository checkpoint completes delivery; no new manuscript revision is pending.
 
 Delivery verified: preview6adef8d83806d1cff9f31c97, all9 live download hashes match, both user output ZIPs pass integrity. Final report browser QA passes. Print bundle is complete; stop finalize-murder-mystery-print-kit heartbeat. No manuscript work remains pending.
+
+## ACTIVE: approved dramaturgical revision
+
+User approved full plan and naturalness target above8. Work isolated in docs/playtest/2026-10-26-DRAMATURGICAL-01-SPOILERS. Existing verified release remains fallback and preview. Revise22 paired narratives, preserve all evidence and reveal gates, fresh22-case blind cohort before promotion. See CURRENT_STATE.md in candidate.
