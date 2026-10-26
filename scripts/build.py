@@ -298,6 +298,10 @@ def package_source():
                 # Page renders are reproducible QA intermediates, not editable
                 # game art. Their complete pixel ledger remains in the archive.
                 if 'full-kit-review' in p.parts and p.suffix.lower() in ['.png','.jpg']:continue
+                # Blind-test screenshots are reproducible from frozen PDF inputs.
+                # Preserve the PDFs, text, scores and locks instead of duplicating
+                # hundreds of identical page rasters in the editable archive.
+                if base=='docs' and p.suffix.lower() in ['.png','.jpg'] and (any(part in p.parts for part in ['visual-inputs','renders']) or ('blind' in p.parts and 'images' in p.parts)):continue
                 # Source manifests and frozen tests hash the original file bytes.
                 # Normalizing CRLF here makes the editable ZIP fail its own checks.
                 if p.is_file() and 'downloads' not in p.parts and p.suffix not in ['.ttf','.otf','.woff','.woff2','.pyc']:archive_entry(z,p,p.relative_to(ROOT).as_posix(),preserve_bytes=True)

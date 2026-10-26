@@ -521,3 +521,22 @@ User rejected compressed summaries and authorized three replacement pages (six A
 Requested by user: one fresh blind subagent per RSVP culprit, eight locked stages, all-guest suspicion matrices, final accusations and surgical feedback. Inputs frozen; run in progress. See docs/playtest/2026-10-25-FINAL-ARTIFACT-BLIND22-SPOILERS/PLAN.md.
 
 Final blind suite completed:22/22,17 correct,17 earned,all3872 scores exported and locked. See docs/playtest/2026-10-25-FINAL-ARTIFACT-BLIND22-SPOILERS/RESULTS.md. Surgical suggestions remain unapplied.
+
+## Surgical recovery candidate
+
+Implemented revised44 active Method statements and3 guilty Opportunity covers,6-page evidence set retained,416 branch checks passed. New22-case blind suite frozen but unstarted at97% usage. No improved score or promotion claimed. See docs/playtest/2026-10-25-SURGICAL-RECOVERY-SPOILERS/RESULTS.md.
+
+## Active priority: second surgical candidate
+
+See docs/playtest/2026-10-25-SURGICAL-RECOVERY-02-SPOILERS/CURRENT_STATE.md. First recovery22-case run still active; second version changes only Dada/Robin guilty Method branches and has two fresh targeted tests. Reuse20 old assessments ONLY where all8 player-visible input hashes match. Earlier failures retained. Finalized current22 print bundle remains the objective. Heartbeat enabled for automatic capacity resumption.
+
+## CURRENT PRIORITY STATE
+
+See docs/playtest/2026-10-25-SURGICAL-RECOVERY-03-SPOILERS/CURRENT_STATE.md. Finalize version03 after18 exact-input original-recovery cases plus2 version02 changed-case tests plus2 version03 changed-case tests. No previous failures overwritten. Both Dada/Robin changed cases passed. Monet/Cary follow-ups pending. Final printable338-sheet current22 bundle remains undelivered. Heartbeat enabled.
+
+
+## FINAL PRINT STATE — October 26
+
+Version06 finalized; all22 exact-input murderer scenarios correct and earned, zero early-clear. Naturalness6.41 (modest gain), fair play7.00. This is versioned coverage, not one fresh cohort. Source and print downloads now use this edition;338-sheet current22 bundle and28-sheet conditional replacements built. Six Method pages and the approved three preserved. See docs/playtest/2026-10-26-SURGICAL-RECOVERY-06-SPOILERS/RESULTS.md and final coverage provenance. Earlier CURRENT PRIORITY entries above are historical and superseded. Final live receipt/repository checkpoint completes delivery; no new manuscript revision is pending.
+
+Delivery verified: preview6adef8d83806d1cff9f31c97, all9 live download hashes match, both user output ZIPs pass integrity. Final report browser QA passes. Print bundle is complete; stop finalize-murder-mystery-print-kit heartbeat. No manuscript work remains pending.

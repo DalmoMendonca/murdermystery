@@ -13,7 +13,7 @@ facts=json.loads((run/'fact-verification.json').read_text())
 import fitz
 with fitz.open(kit/'OPEN_FREELY/05_Staged_Evidence_CONFIRMED_22.pdf') as evidence_pdf:
     actual_counts=[sum(p.get_text().startswith(act) for p in evidence_pdf) for act in ['ACT I: MOTIVE','ACT II: OPPORTUNITY','ACT III: METHOD']]
-assert packet['unchanged_spoken_branches']==416 and facts['act_sheet_counts']==actual_counts
+assert packet.get('verified_spoken_branches',packet.get('unchanged_spoken_branches'))==416 and facts['act_sheet_counts']==actual_counts
 manifest=json.loads((b.ROOT/'source/connected_release/manifest.json').read_text())
 for name,digest in manifest['sha256'].items():
     assert hashlib.sha256((run/'candidate-source'/name).read_bytes()).hexdigest()==digest

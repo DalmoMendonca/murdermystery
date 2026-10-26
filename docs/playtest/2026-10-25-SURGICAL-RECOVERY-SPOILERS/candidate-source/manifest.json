@@ -1,0 +1,77 @@
+{
+  "revision": "2026-10-25-SURGICAL-RECOVERY-SPOILERS",
+  "tested_run": "docs\\playtest\\2026-10-24-CONCEALED-STAKES-SPOILERS",
+  "release_decision": "Playable printing release with explicit unmet balance targets; not full goal completion.",
+  "tests": {
+    "completed": 22,
+    "total": 22,
+    "invalid": 0,
+    "correct": 22,
+    "earned": 22,
+    "no_early_clear": 22,
+    "e3_ready": 21,
+    "final_strong": 17,
+    "midgame_breadth": 2,
+    "ending_breadth": 13,
+    "flagged": 0,
+    "unique_final_leaders": 22,
+    "final_score_range": [
+      8,
+      9
+    ],
+    "median_act2_suspects": 2.5,
+    "median_final_alternatives": 4.0,
+    "ratings": {
+      "fair_play": {
+        "mean": 7.68,
+        "range": [
+          6,
+          8
+        ]
+      },
+      "clarity": {
+        "mean": 7.45,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "voice_distinction": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      },
+      "arc_variety": {
+        "mean": 7.27,
+        "range": [
+          7,
+          8
+        ]
+      },
+      "naturalness": {
+        "mean": 6.45,
+        "range": [
+          6,
+          7
+        ]
+      },
+      "drama": {
+        "mean": 8,
+        "range": [
+          8,
+          8
+        ]
+      }
+    },
+    "all_strict_targets_met": false
+  },
+  "limitations": "Local candidate. Five weak final accounts strengthened; three guilty opportunity covers aligned; shorter final-round prose. Fresh blind results pending.",
+  "sha256": {
+    "all.yaml": "98d8d3271799aa860f0ee29a9844daae7cd63725f67738134b6edbbea7aa8482",
+    "confirmed.yaml": "3ddd7d66679d92046e046ed89eec1279a76736dc7702135203d8b72db5438a4d",
+    "playable-evidence.yaml": "af127fed1252aab80ccaf73fd2b03cd7caa69f9f9669a57ef4ac22e02c5940e5",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  }
+}

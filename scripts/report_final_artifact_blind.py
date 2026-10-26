@@ -16,7 +16,7 @@ def main():
  for name,want in info['source_sha256'].items():assert sha(RUN/'frozen-source'/name)==want,('Frozen source changed',name)
  trials=[];flat=[];summary=[];allissues=[]
  for t in sorted(info['trials'],key=lambda t:t['murderer_id']):
-  f=RUN/'blind'/t['trial'];assert (f/'complete.json').exists(),('Incomplete trial',t['trial'])
+  f=ROOT/t['assessment_source'] if t.get('assessment_source') else RUN/'blind'/t['trial'];assert (f/'complete.json').exists(),('Incomplete trial',t['trial'])
   journal=read(f/'journal.json');assert len(journal)==8
   checkpoints=[]
   for n,event in enumerate(journal,1):
@@ -25,7 +25,7 @@ def main():
    assert event['score_sha256']==sha(f/f'result_{n:02}.json')
    assert set(result['scores'])==set(names) and all(type(v) is int and 0<=v<=10 for v in result['scores'].values())
    checkpoints.append(result)
-   for name in names:flat.append({'scenario':t['trial'],'selected_murderer':t['murderer'],'stage':n,'stage_name':stages[n-1],'guest':name,'suspicion':result['scores'][name],'clear_culprit':result['clear_culprit'] or ''})
+   for name in names:flat.append({'scenario':t['trial'],'selected_murderer':t['murderer'],'stage':n,'stage_name':stages[n-1],'guest':name,'suspicion':result['scores'][name],'clear_culprit':result['clear_culprit'] or '','assessment_source':t.get('assessment_source','')})
   accusation=read(f/'accusation.json');assert sha(f/'accusation.json')==read(f/'accusation-lock.json')['sha256']
   assert accusation['accused'] in names and type(accusation['confidence']) is int and 0<=accusation['confidence']<=10
   assert set(accusation['ratings'])=={'fair_play','clarity','voice_distinction','arc_variety','naturalness','drama'}
@@ -46,7 +46,7 @@ def main():
        'unique_final_leader':final[killer]>max(final[n] for n in innocents),
        'act2_suspects_above5':sum(v>5 for v in checkpoints[5]['scores'].values()),
        'final_innocents_5to7':sum(5<=final[n]<=7 for n in innocents),'earned':post.get('earned'),
-       'new_decisive_facts':post.get('new_decisive_facts',[]),'ratings':accusation.get('ratings',{})}
+       'new_decisive_facts':post.get('new_decisive_facts',[]),'ratings':accusation.get('ratings',{}),'assessment_source':t.get('assessment_source','')}
   summary.append(row);trials.append({**row,'checkpoints':checkpoints,'accusation':accusation,'post_vote':post})
   for issue in accusation.get('issues',[]):allissues.append({'scenario':t['trial'],'selected_murderer':killer,**issue})
  OUT.mkdir(parents=True,exist_ok=True)

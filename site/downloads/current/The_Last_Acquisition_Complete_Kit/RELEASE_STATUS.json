@@ -1,9 +1,9 @@
 {
-  "release_date": "2026-10-24",
-  "edition": "concealed-stakes-current22-print-2026-10-24",
+  "release_date": "2026-10-26",
+  "edition": "current22-final-print-2026-10-26",
   "confirmed_guest_packet_edition": 22,
   "complete_player_packet_pages": 12,
-  "status": "Reviewed playable print release.22/22 earned correct blind accusations, no early clear culprit. Strict balance targets still unmet.",
+  "status": "Final current22 print version.22/22 correct and earned in versioned exact-input blind coverage. Not a single fresh cohort or human rehearsal; strict balance targets remain partly unmet.",
   "balance_targets": {
     "completed": 22,
     "total": 22,
@@ -11,77 +11,72 @@
     "correct": 22,
     "earned": 22,
     "no_early_clear": 22,
-    "e3_ready": 21,
-    "final_strong": 17,
-    "midgame_breadth": 2,
-    "ending_breadth": 13,
-    "flagged": 0,
+    "e3_ready": 15,
+    "final_strong": 10,
+    "midgame_breadth": 3,
+    "ending_breadth": 20,
     "unique_final_leaders": 22,
     "final_score_range": [
-      8,
+      7,
       9
     ],
-    "median_act2_suspects": 2.5,
-    "median_final_alternatives": 4.0,
+    "median_act2_suspects": 4.5,
+    "median_final_alternatives": 5.0,
     "ratings": {
-      "fair_play": {
-        "mean": 7.68,
-        "range": [
-          6,
-          8
-        ]
+      "arc_variety": {
+        "mean": 7.18,
+        "min": 7,
+        "max": 8
       },
       "clarity": {
-        "mean": 7.45,
-        "range": [
-          7,
-          8
-        ]
-      },
-      "voice_distinction": {
-        "mean": 8,
-        "range": [
-          8,
-          8
-        ]
-      },
-      "arc_variety": {
-        "mean": 7.27,
-        "range": [
-          7,
-          8
-        ]
-      },
-      "naturalness": {
-        "mean": 6.45,
-        "range": [
-          6,
-          7
-        ]
+        "mean": 7.59,
+        "min": 7,
+        "max": 8
       },
       "drama": {
-        "mean": 8,
-        "range": [
-          8,
-          8
-        ]
+        "mean": 7.73,
+        "min": 7,
+        "max": 8
+      },
+      "fair_play": {
+        "mean": 7,
+        "min": 5,
+        "max": 8
+      },
+      "naturalness": {
+        "mean": 6.41,
+        "min": 5,
+        "max": 7
+      },
+      "voice_distinction": {
+        "mean": 7.86,
+        "min": 7,
+        "max": 8
       }
     },
     "all_strict_targets_met": false
   },
   "sent_assets": "unchanged",
-  "balance_report": "docs\\playtest\\2026-10-24-CONCEALED-STAKES-SPOILERS\\dashboard.html",
-  "presentation_revision": "act3-two-record-sheets-2026-10-25",
+  "balance_report": "docs/playtest/2026-10-26-SURGICAL-FINAL-COVERAGE-SPOILERS/results.json",
+  "presentation_revision": "six-sheet-act3-surgical-final-2026-10-26",
   "print_setup": {
     "hunt_envelopes": 16,
-    "staged_sheets_per_set": 8,
+    "staged_sheets_per_set": 9,
     "evidence_sets": 3,
     "folders": 9,
     "act_sheet_counts": {
       "Motive": 1,
       "Opportunity": 2,
-      "Method": 5
+      "Method": 6
     },
     "loose_sheet_page_numbers": false
+  },
+  "validation_protocol": {
+    "single_fresh_cohort": false,
+    "exact_input_reuse": true,
+    "all_earlier_failed_variants_retained": true,
+    "naturalness_before": 6.18,
+    "naturalness_after": 6.41,
+    "causal_improvement_not_established": true
   }
 }

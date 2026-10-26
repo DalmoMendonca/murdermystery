@@ -40,7 +40,7 @@ edition=canonical['revision'] if same_source else RUN.name
 text=f'''THE LAST ACQUISITION / CURRENT22 PRINT JOBS
 
 Edition: {edition}
-Presentation: Five-sheet Act III / October 25, 2026
+Presentation: {len(act_pages['METHOD'])}-sheet Act III / October 25, 2026
 This bundle has only the real party's 22 adult suspects. Hugh, Tess and the
 nonplaying child are excluded. Cary and Robin attend. Sent invitations and
 character sheets have not changed. Do not mix packets or evidence from
@@ -59,8 +59,10 @@ The evidence is staged: cover later releases until the host calls for them.
     act at the top. You will have NINE folders: three per act, one per table.
     Keep folders locked/covered until that act. These are NOT hidden clues.
     Only job 02 goes into the sixteen hidden envelopes.
-    At the host's interview-reading step, read Paige Interview followed by
-    Robin Interview on the Record Comparisons sheet.
+    At the host's interview-reading step, read the untrimmed recorder opening
+    on The Press Desk Originals (or its earlier-edition interview sheet).
+    Keep the service timeline available at voting. Grant's short briefing can
+    be read aloud once when Act III opens.
 04: 264 private packet pages. DO NOT READ while printing. Keep the printed
     stack in order and divide it every 12 pages. Each packet begins with its
     character's framed portrait. Put the cover face-up at the assigned seat.
@@ -77,7 +79,14 @@ Use the current 22 edition even if an absent person's old invitation exists.
 SHEETS BY JOB
 '''+''.join(f'{name}: {count}\n' for name,count in sorted(counts.items()))+'\nPrint the staged evidence job 3 times; its count above is per set.\n'
 (OUT/'PRINT_FIRST.txt').write_text(text,encoding='utf-8')
-(OUT/'RELEASE_NOTES.txt').write_text('Reviewed playable current22 print release. One independent blind AI text reader per selected culprit:22/22 correct and earned, with no premature clear identification. Strict targets are still unmet:2/22 scenarios retain eight suspects above5 after ActII;13/22 retain three innocent alternatives at5-7 at the end. Scores are not human solve rates. No human rehearsal is claimed. Sent public assets are unchanged. Use one edition throughout.\n',encoding='utf-8')
+notes=RUN/'release-notes.txt'
+if notes.exists():
+    release_notes=notes.read_text(encoding='utf-8')
+elif not same_source:
+    release_notes='Unpromoted candidate. Fresh validation and printing status are documented in this run. No completed blind-test result is implied. Sent public assets are unchanged. Use one edition throughout.\n'
+else:
+    release_notes=canonical.get('release_notes','Current22 print edition. Read the release status and validation report for this exact edition; historical test results do not validate later changes. Scores are not human solve rates. No human rehearsal is claimed. Sent public assets are unchanged. Use one edition throughout.\n')
+(OUT/'RELEASE_NOTES.txt').write_text(release_notes,encoding='utf-8')
 receipt={'revision':edition,'adult_count':22,'single_sided_sheets':total,'evidence_copies':evidence_sets,'act_pdf_pages':act_pages,'pdf_pages':counts,'sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.glob('*.pdf')},'source_status':canonical.get('release_decision','Candidate; see release notes.') if same_source else 'Unpromoted candidate'}
 (OUT/'print-manifest.json').write_text(json.dumps(receipt,indent=2)+'\n')
 z=KIT.parent/'Print_Today_Current_22.zip'

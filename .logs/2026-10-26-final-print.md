@@ -1,0 +1,15 @@
+# Final current22 surgical print release
+
+Final manuscript version06 is frozen and canonical. All22 murderer scenarios have completed blind assessments with all eight player-visible input hashes matching this edition. Correct22/22; earned22/22; early clear0; unique final culprit leader22/22. Ratings: naturalness6.41, fair play7.00, clarity7.59, voices7.86, drama7.73, arc variety7.18. All3872 scores, immutable stage locks and source-reader provenance are retained in the final coverage directory.
+
+This is versioned coverage, not a single fresh22-reader cohort. Sixteen cases reuse original recovery assessments only after exact-input checks; two use version02 and one each versions03–06. Earlier misses remain. Interrupted readers resumed with the same identities and locked scores. No credits purchased or redeemed. The17/22 earlier result is not a controlled causal baseline: original statement banks were identical, while presentation and readers differed.
+
+Final changes retain all physical crime events and confession branches, while some guilty cover stories now disclose relevant handling before voting and make refutable claims about existing evidence. All44 active Method statements are19.5% shorter (2673 to2153 words). All seven innocent collateral lies remain. Motive, innocent Opportunity and confessions are unchanged. Only Dada, Paige and Robin guilty Opportunity replies change. Grant’s routine gala briefing replaces the convenient estate recording; the original no-live-participation ban remains explicit.
+
+Verification:416 spoken branches;79 evidence groups/158 checks; both editions reproduce all9 tested staged pages exactly;6 Method pages, approved3 unchanged.80 PDFs inspected structurally,26 changed/54 byte-identical.43 changed/relevant pages rendered for visual review. Current22 private book264 pages;25 changed sheets and239 pixel-identical. Interactive report QA passes22 scenarios,176 scores per view, expandable reasoning, desktop/mobile without body overflow or page errors.
+
+Print_Today_Current_22.zip contains six jobs:338 single-sided Letter sheets at100%, including three copies of9-page staged evidence. Use current22 packets only. Alternative28-sheet replacement bundle applies ONLY to the immediately preceding six-page Grant’s Estate File edition:25 private pages plus3 copies of the Grant briefing. Older five-page editions require the full bundle.
+
+Protected production and sent assets remain unchanged. Print preview deployment and live download verification are recorded separately in deploy-output.json and live-receipt.json. Final outputs are in the current chat outputs/final-party-print-kit and outputs/final-party-test-report. Remaining naturalness and inferential-proof limitations are disclosed; this is not a human rehearsal or proof of every historical numerical balance target.
+
+Live release verified:6adef8d83806d1cff9f31c97. All9 downloads match reviewed SHA256 and size. Both local user ZIPs pass integrity. Scoped staging verifies1854 frozen audit files byte-for-byte.

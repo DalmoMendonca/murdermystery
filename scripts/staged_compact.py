@@ -116,7 +116,10 @@ def staged(b,path,evidence,bank,confirmed):
     service=tmp/'02-service.pdf'
     service_docket(b,service,ACTS['before_opportunity'],byrelease['before_opportunity']['service_account']);paths.append(service)
     result=tmp/'03-lab.pdf';lab(b,result,ACTS['before_opportunity'],byrelease['before_opportunity']['initial_samples']);paths.append(result)
-    from act3_editorial import render_all
+    if (b.ROOT/'source/act3_artifacts.json').exists():
+        from act3_artifacts import render_all
+    else:
+        from act3_editorial import render_all
     method_paths,ledger=render_all(b,tmp,bank)
     paths.extend(method_paths)
     writer=PdfWriter()
