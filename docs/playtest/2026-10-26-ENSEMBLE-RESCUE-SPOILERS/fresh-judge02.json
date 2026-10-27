@@ -1,0 +1,41 @@
+{
+  "judge": "fresh-judge02",
+  "source": "candidate05-stage-order.md",
+  "independent": true,
+  "roles_reviewed": 22,
+  "passage_alternatives_reviewed": 176,
+  "naturalness_score": 6.5,
+  "arc_variety_score": 6.0,
+  "scale": 10,
+  "principal_verdict": "Playable and emotionally intelligible, but prepared-deposition repetition and weak reciprocal exchanges remain.",
+  "ready_for_separate_fairplay_diagnostic": true,
+  "ensemble_release_ready": false,
+  "forensic_fairness_certified": false,
+  "performed_shape": {
+    "murderer_branches": 1,
+    "innocent_branches": 21,
+    "rounds": 3,
+    "all_roles_answer_each_round": true,
+    "finale": "Named top-three innocents then murderer; no fourth replacement innocent"
+  },
+  "compatibility": {
+    "definite_unresolved_world_breaking_contradiction_found": false,
+    "limits": "Intentional lies allowed; no invented corroboration or unspoken private knowledge; unseen exhibits not validated",
+    "weak_handoffs": [
+      "Murderer Barb requests footage check; innocent Brie mentions food bill",
+      "Innocent Barb releases staff; murderer Brie explains paid drink order"
+    ]
+  },
+  "must_fixes": [
+    "Branch-resilient method-exchange continuations",
+    "Ordinary-reader cue and chain rehearsal",
+    "More varied pre-finale progression for remaining single-turn arcs"
+  ],
+  "role_coverage": "All 22 individually covered in fresh-judge02.md",
+  "strengths": [
+    "Immediate practical wants and embodied actions",
+    "Sue and Mona friendship; Claire and Reed authority conflict",
+    "Unfinished needs beyond murder accusation",
+    "Clear locked-ballot murderer-last finale procedure"
+  ]
+}

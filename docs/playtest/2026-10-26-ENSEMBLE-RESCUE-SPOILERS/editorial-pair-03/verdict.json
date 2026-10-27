@@ -1,0 +1,17 @@
+{
+  "judge_identity": "ensemble_pair_judge03",
+  "review_type": "independent blind-labelled whole-cast literary comparison; not a solve trial",
+  "read_scope": {"editions": ["A", "B"], "roles_per_edition": 22, "passages_per_edition": 176, "procedures_read": true, "other_material_used": false},
+  "scores": {"A": {"naturalness": 7.3, "arc_variety": 6.8}, "B": {"naturalness": 7.1, "arc_variety": 6.7}},
+  "preferred": "A",
+  "substantial_improvement": false,
+  "principal_verdict": "A is narrowly preferable, chiefly for murderer-last finale sequencing and Reed's innocent-finale continuity. Most performed material and emotional architecture remain shared; neither substantially improves the whole ensemble.",
+  "performance_model": {"answers_per_round": 22, "rounds": 3, "murderer_branches_in_one_world": 1, "finale_speeches": "3 or 4, only locked top three plus murderer fallback", "A_order": "named innocents first, murderer last", "B_order": "vote order; called innocents continue after confession; fallback if no confession"},
+  "gains_A": ["Prevents innocent friendship wishes after a friend's confession", "Sharper immediate stakes in Claire and Brie motive openings", "Some reduction of polished self-commentary", "Reed finale retains deliberate humiliation rather than seeming to substitute page completion"],
+  "regressions_or_limits_A": ["Some new emotional codas announce rather than enact the beat", "Al murderer opportunity transition is awkward", "Most edits are local reordering, with many murderer-only edits heard in just one role", "Method round and nearly all finale material remain shared"],
+  "remaining_material_literary_mustfixes": ["Reduce uniform complete self-diagnosis in selected opportunity answers", "Smooth Al A murderer opportunity ending", "Maintain A finale-order consistency across eventual host and private instructions"],
+  "genre_conventions_not_mustfixes": ["Repeated clue distinctions and method facts", "Explicit murder denials and confession mechanics", "One selected murderer speech explaining extraction and glass contamination", "Scripted chain with restricted improvisation"],
+  "full_fairplay_test_justified": true,
+  "fairplay_test_caveat": "Editorial readiness to test is not solve validation, clue-balance evidence, or publication approval.",
+  "every_role_assessment": "See comparison.md, all 22 named role rows."
+}

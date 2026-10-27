@@ -1,0 +1,261 @@
+metadata:
+  group_index_base: 1
+  numbering_is_spoken: false
+  schedules:
+    - round_key: motive
+      group_index: 1
+      turns:
+        - {id: '01', part: 1}
+        - {id: '04', part: 1}
+        - {id: '08', part: 1}
+        - {id: '01', part: 2}
+        - {id: '04', part: 2}
+    - round_key: opportunity
+      group_index: 2
+      turns:
+        - {id: '02', part: 1}
+        - {id: '05', part: 1}
+        - {id: '09', part: 1}
+        - {id: '19', part: 1}
+        - {id: '09', part: 2}
+        - {id: '19', part: 2}
+    - round_key: method
+      group_index: 6
+      turns:
+        - {id: '06', part: 1}
+        - {id: '11', part: 1}
+        - {id: '23', part: 1}
+        - {id: '11', part: 2}
+        - {id: '23', part: 2}
+        - {id: '24', part: 1}
+fields:
+  '01':
+    motive_innocent:
+      - part: 1
+        speech: >-
+          Sit wherever you can hear. Grant wanted his name over the door,
+          a vote in every department, and my resignation. Monet needed his check
+          for wages; Sue objected to the terms.
+      - part: 2
+        speech: >-
+          Six years here. Tonight I was supposed to introduce my own
+          replacement. My father would have called that a useful lesson in
+          ambition. I had hoped never to give him the satisfaction.
+    motive_murderer:
+      - part: 1
+        speech: >-
+          Sit wherever you can hear. Grant wanted his name over the door,
+          a vote in every department, and my resignation. Monet needed his check
+          for wages; Sue objected to the terms.
+      - part: 2
+        speech: >-
+          Six years here. Tonight I was supposed to introduce my own
+          replacement. Grant expected me to call him our savior. I'd practiced
+          the introduction. I couldn't get through it.
+  '04':
+    motive_innocent:
+      - part: 1
+        speech: >-
+          Friday. Wages are due. Grant's check could cover our staff; his terms
+          let him inspect every transfer. I won't have the cleaners waiting by
+          the phone while he decides which chair his name should go on.
+      - part: 2
+        speech: >-
+          Your replacement, Artie. You wanted your authority protected. I wanted
+          payroll covered. I told Grant he could keep his check if the
+          price was treating us like thieves.
+    motive_murderer:
+      - part: 1
+        speech: >-
+          Friday. Wages are due. My mother used to wait by the phone on payday.
+          I know what that does to a household. I'd moved money to pay our staff.
+          Grant wanted the books before releasing his check, and the board wanted
+          answers too.
+      - part: 2
+        speech: >-
+          Your replacement, Artie. You hated losing authority. I had transfers to
+          explain and no time left to explain them.
+  '08':
+    motive_innocent:
+      - part: 1
+        speech: >-
+          He intended to announce the gift before a board vote. Its terms gave
+          him approval of future acquisitions. I had advised on the troublesome
+          ownership file already. Mona and I can argue a case all afternoon and
+          still have dinner together. Grant thought disagreement meant somebody
+          must lose. I wanted his microphone stopped until there was an
+          agreement worth announcing.
+    motive_murderer:
+      - part: 1
+        speech: >-
+          He intended to announce the gift before a board vote. Its terms gave
+          him approval of future acquisitions. He also had the ownership file
+          carrying my earlier advice. He could put it before the board whenever
+          I objected. Mona and I know how to disagree without destroying someone.
+          Grant was enjoying the alternative. I wanted his microphone stopped.
+  '02':
+    where_innocent:
+      - part: 1
+        speech: >-
+          The bowl stayed. I removed its ownership label, and Reed kept the old
+          wording. The bottle had its own file: I moved its incoming papers from
+          the public display file to intake because its approval was on hold.
+          Both files were on that desk. Reed, stop calling everything I did a
+          correction. Some of it put an unpleasant decision where I wouldn't
+          have to look at it.
+    where_murderer:
+      - part: 1
+        speech: >-
+          I removed the bowl's ownership label; Reed kept the old wording. The
+          bottle's papers went to intake because approval was on hold. Grant
+          wanted the explanation brought to him personally. I put his copy beside
+          the glass at his place. He was elsewhere. I remember moving the glass
+          to keep its damp base off the paper. Such a small, fussy thing to
+          remember. Reed, I was angry enough to let him wait for his explanation
+          afterward.
+  '05':
+    where_innocent:
+      - part: 1
+        speech: >-
+          I fitted the red band before the preview. Kept the condition sheet.
+          Grant waved the insurance copy at me and asked what my signature was
+          worth. That date wasn't a change I authorized. Then Frank's mount
+          moved. Finally, something I could fix with my hands. Frank, get the
+          load down. I'll discuss your feelings about my tone afterward.
+    where_murderer:
+      - part: 1
+        speech: >-
+          I fitted the red band before the preview and kept the condition sheet.
+          The copy with my false date was still at the workbench. After the
+          preview I went to Grant's place to ask for that copy back. He wasn't
+          there. The glass was. I held it up to the light: a shop engraving isn't
+          a condition report. Put it back. Then Frank's mount started moving and
+          I went to the alcove. Frank, I wanted that load down. The paper could
+          wait. I told myself it could wait.
+  '09':
+    where_innocent:
+      - part: 1
+        speech: >-
+          The purchase attachment said original contents. My draft said inert.
+          Grant said people had paid to see his bottle, not my question mark.
+          I let the preview go ahead.
+      - part: 2
+        speech: >-
+          Reed, before the preview I asked you to hold the early press copies. I knew what cyanide meant;
+          I did not need another reference book. Dada, you asked why I was so
+          quiet. I was waiting for somebody with more authority to stop it.
+          I was the authority in that conversation.
+    where_murderer:
+      - part: 1
+        speech: >-
+          My draft used the inert description; a query remained beside it.
+          I attended the preview.
+      - part: 2
+        speech: >-
+          Reed, before the preview I asked you to restore the collection attachment. Grant wanted me to
+          explain the collection during his toast. I went to his place to object
+          to that introduction. Nobody there. A glass and the speech card with my
+          name on it. I turned the card over and left. Petty, yes. I have
+          apparently reached the stage of my career where I take revenge on
+          stationery.
+  '19':
+    where_innocent:
+      - part: 1
+        speech: >-
+          I cut the original-contents sentence from the bottle's press entry.
+          It wasn't a space problem. Intake kept the full query.
+      - part: 2
+        speech: >-
+          Grant had called my bowl research a publicity stunt; I wanted his
+          harmless caption in print under his own name. Claire, I thought if
+          something went wrong with his precious acquisition, he might finally
+          have to answer a question. I was thinking of a public disgrace.
+          I didn't ask what else could go wrong.
+    where_murderer:
+      - part: 1
+        speech: >-
+          I kept both bowl labels. For the press, I shortened the bottle's entry;
+          intake kept the full file and purchase attachment.
+      - part: 2
+        speech: >-
+          Grant wanted to approve every correction, so I took him the shortened
+          caption at his private place. He wasn't there. I put the caption beside
+          his glass, then took it back before I left. Claire, apparently I was
+          supposed to find wording to keep the program from getting longer and
+          the donor from looking foolish. I was tired of being useful.
+  '06':
+    evidence_innocent:
+      - part: 1
+        speech: >-
+          An empty jacket falls off a chair. That is the film. Grant rejected it,
+          and I kept pushing. I wanted him sitting through it while everyone
+          else laughed. Alive and furious. Vincent, I don't want you to make
+          that sound kind. It wasn't.
+    evidence_murderer:
+      - part: 1
+        speech: >-
+          Of course I took a little from the bottle. It was for Donor Collapse.
+          Grant had agreed to the private live version after his toast; he only
+          canceled the public program. I thought the contents were inert. I
+          wasn't rehearsing by his glass, and I expected him to get up. That is
+          what we had agreed.
+  '11':
+    evidence_innocent:
+      - part: 1
+        speech: >-
+          Power. I had the power adapter removed. The network lead stayed
+          attached, and an unpowered camera recorded nothing. I also told the
+          technician to call it a fault. That entry was false.
+      - part: 2
+        speech: >-
+          Paige, keep your recorder out. Brie, your staff can go when their shift
+          ends.
+    evidence_murderer:
+      - part: 1
+        speech: >-
+          My room check is on the camera's local recording, including the glass.
+          The technician removed the network lead, not the power. I wrote fault
+          in the log to get Grant his privacy. That was wrong. It doesn't erase
+          the footage.
+      - part: 2
+        speech: >-
+          Brie, there's footage. Check the storage before calling my visit
+          unobserved.
+  '23':
+    evidence_innocent:
+      - part: 1
+        speech: >-
+          I flavored his glass, not the pitcher. The container stayed with
+          service. I washed the measure when I got back because we were still
+          serving dinner. Barb, I prepared his drink alone. Question me. Don't
+          keep my waiters here after their shift.
+      - part: 2
+        speech: >-
+          And somebody still owes us for the food.
+    evidence_murderer:
+      - part: 1
+        speech: >-
+          My container stayed closed. The manager had already flavored the shared
+          pitcher before the toast. I left my container with service. Leave the
+          staff alone.
+      - part: 2
+        speech: >-
+          The food bill was disputed; the drink order was booked and paid. We
+          knew which service we were supposed to carry out.
+  '24':
+    evidence_innocent:
+      - part: 1
+        speech: >-
+          Service unpacked the crest glass from my carton. That's the engraving
+          in the drinking photograph. The frame crack was already there when I
+          delivered it. The light in the receiving picture is different. Al,
+          I'm not signing another damage report because someone likes one
+          photograph better.
+    evidence_murderer:
+      - part: 1
+        speech: >-
+          I loosened the stopper at the preview to check the packing. The label
+          said inert. That was a condition check. The engraved glass stayed
+          boxed; I watched Grant drink from a plain spare. The glass being tested
+          is the gift, not that spare. I corrected the frame report. Don't turn
+          that into a false account of the service.

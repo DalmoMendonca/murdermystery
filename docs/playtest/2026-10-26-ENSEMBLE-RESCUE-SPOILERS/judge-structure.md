@@ -89,3 +89,12 @@ Guests have substantial past agency—withdraw, falsify, redirect, circulate, ca
 6. **Read the played ensemble aloud.** Use 21 innocent branches and one murderer, rotate the murderer, and hear all grouped answers in order. Flag repeated emotional turns as well as repeated words. Judge whether each guest leaves another guest something to do. A paragraph-by-paragraph polish will miss the central defect.
 
 The manuscript needs redistribution of dramatic behavior more than another layer of individualized biography. Its best lines already contain the solution: people trying to get dinner out, move a load, protect a friendship, own their work and make a phone call while an investigation obstructs them.
+
+## Addendum: corrected live finale scope
+
+The host procedure in `scripts/connected_release.py` (lines 123–132) corrects my staging assumption. Coming Clean is read by the three most-voted suspects, in descending vote order with full-name alphabetical ties. Every called innocent finishes, even if a confession has already been heard. If the murderer is absent from those three, the guest matching the announced animal reads the murderer confession fourth. A live finale therefore contains **two or three innocent endings and one murderer ending**, not 21 innocent endings. My statements that a played world hears 21 innocent endings, and that an aloud played-ensemble check should include them all, were incorrect.
+
+This materially reduces the immediate repetition and duration of the accountability codas. Their uniformity remains a less urgent repertoire limitation. Any role can enter the top three; full-cast continuity and compatibility still require review. Check plausible three-suspect combinations, including an innocent finishing after the confession, rather than treating every finale as one performed sequence.
+
+The principal live priority is now **the 66 pre-vote answers**: all 22 guests answer in each of the three investigation rounds. The grievance/exposure engine, repeated private-room errands, evenly bounded concessions and limited present-tense demands therefore remain ensemble-scale findings. Prioritize Reed's contradictory innocent explanation, Anne's unmarked change of murderer account, and variation in those three rounds before broad finale polishing. Retain the initial ratings as my manuscript-wide editorial assessments; the corrected procedure narrows their application and does not support a measured live-performance rating. No manuscript was changed.
+

@@ -1,0 +1,30 @@
+{
+  "review_type": "independent_blind_labelled_whole_cast_editorial_comparison",
+  "editions_read": ["edition-A.md", "edition-B.md"],
+  "coverage": {
+    "roles_per_edition": 22,
+    "passage_alternatives_per_edition": 176,
+    "procedures_read": true,
+    "both_branches_read": true,
+    "all_22_role_coverage": "comparison.md",
+    "solve_trial": false
+  },
+  "ratings": {
+    "A": {"spoken_naturalness": 7.2, "whole_ensemble_arc_variety": 6.2},
+    "B": {"spoken_naturalness": 7.5, "whole_ensemble_arc_variety": 6.3}
+  },
+  "preferred_edition": "B",
+  "preference_strength": "narrow",
+  "substantial_improvement": false,
+  "principal_reason": "B improves a few direct responses, local delivery, Reed's innocent finale, and murderer-last closure; most roles retain the same defensive progression and six extra speaking turns add cue cost.",
+  "pre_vote_speaking_turns": {"A": 66, "B": 72},
+  "branch_safe_responsiveness": "Broadly compatible with either branch without new factual improvisation; several split speeches remain parallel reports, and murderer Barb's return answers an unstated accusation.",
+  "remaining_must_fixes": [
+    "Add varied pre-vote changes of stance or present action beyond the limited exchange groups without prematurely disclosing required side lies.",
+    "Make murderer Barb's return respond to the supplied preceding speech while preserving recording vocabulary.",
+    "Verify the cue schedule with ordinary readers and retain only splits that earn their handoff.",
+    "Synchronize host and private instructions to the selected finale procedure before release."
+  ],
+  "separate_full_fair_play_playtest_justified": true,
+  "playtest_reason": "Changed sequencing and local writing gains justify independent comprehension, timing, branch-handling, accusation, and locked-tally finale validation before promotion; editorial review does not certify balance."
+}

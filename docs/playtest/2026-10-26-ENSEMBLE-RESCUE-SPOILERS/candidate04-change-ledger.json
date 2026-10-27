@@ -1,0 +1,229 @@
+{
+  "version": "04",
+  "status": "pending semantic, cue and independent whole-cast review",
+  "changed_passages": 29,
+  "pre_vote_words": 8040,
+  "baseline_pre_vote_words": 8040,
+  "all_murderer_method_sentences_retained_verbatim": true,
+  "barb_repeats_existing_footage_claim": true,
+  "all22_murderer_finales_verbatim": true,
+  "all9_evidence_source_bytes_unchanged": true,
+  "extra_entries_per_act": {
+    "motive": 2,
+    "opportunity": 2,
+    "method": 2
+  },
+  "changes": [
+    {
+      "id": "01",
+      "section": "hearings",
+      "field": "motive_innocent",
+      "before": "Please, sit wherever you can hear. Grant wanted his name over the door, a vote in every department, and my resignation. Monet needed his check for wages; Sue objected to the terms. Six years here, and tonight I was supposed to introduce my own replacement. My father would have called that a useful lesson in ambition. I had hoped never to give him the satisfaction.",
+      "after": "Please, sit wherever you can hear. Grant wanted his name over the door, a vote in every department, and my resignation. Monet needed his check for wages; Sue objected to the terms. Sue, six years here. Tonight I was supposed to introduce my own replacement. My father would have called that a useful lesson in ambition. I had hoped never to give him the satisfaction."
+    },
+    {
+      "id": "01",
+      "section": "hearings",
+      "field": "motive_murderer",
+      "before": "Please, sit wherever you can hear. Grant wanted his name over the door, a vote in every department, and my resignation. Monet needed his check for wages; Sue objected to the terms. Six years here, and tonight I was supposed to introduce my own replacement. Grant expected me to call him our savior. I had practiced the introduction. I could not get through it.",
+      "after": "Please, sit wherever you can hear. Grant wanted his name over the door, a vote in every department, and my resignation. Monet needed his check for wages; Sue objected to the terms. Sue, six years here. Tonight I was supposed to introduce my own replacement. Grant expected me to call him our savior. I'd practiced the introduction. I couldn't get through it."
+    },
+    {
+      "id": "02",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I removed the bowl's ownership label. The bowl remained. Reed kept the old wording. I moved the bottle's incoming papers from the public display file to intake because its approval was on hold. Both files were on that desk. Reed, please stop calling everything I did a correction. Some of it was simply putting an unpleasant decision where I would not have to look at it.",
+      "after": "The bowl stayed. I removed its ownership label, and Reed kept the old wording. The bottle had its own file: I moved its incoming papers from the public display file to intake because its approval was on hold. Both files were on that desk. Reed, stop calling everything I did a correction. Some of it put an unpleasant decision where I wouldn't have to look at it."
+    },
+    {
+      "id": "04",
+      "section": "hearings",
+      "field": "motive_innocent",
+      "before": "Friday. That's when wages are due. Grant's check could cover our staff; his terms let him inspect every transfer. I won't have the cleaners waiting by the phone while he decides which chair his name should go on. Artie wanted his authority protected. I wanted payroll covered. And yes, I told Grant he could keep his check if the price was treating us like thieves.",
+      "after": "Friday. Wages are due. Grant's check could cover our staff; his terms let him inspect every transfer. I won't have the cleaners waiting by the phone while he decides which chair his name should go on. Your replacement, Artie. You wanted your authority protected. I wanted payroll covered. And yes, I told Grant he could keep his check if the price was treating us like thieves."
+    },
+    {
+      "id": "04",
+      "section": "hearings",
+      "field": "motive_murderer",
+      "before": "Friday. That's when wages are due. My mother used to wait by the phone on payday. I know what that does to a household. I'd moved money to pay our staff. Grant wanted the books before releasing his check, and the board wanted answers too. Artie hated losing authority. I had transfers to explain and no time left to explain them.",
+      "after": "Friday. Wages are due. My mother used to wait by the phone on payday. I know what that does to a household. I'd moved money to pay our staff. Grant wanted the books before releasing his check, and the board wanted answers too. Your replacement, Artie. You hated losing authority. I had transfers to explain and no time left to explain them."
+    },
+    {
+      "id": "04",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "The extra-course ticket came to accounts. I crossed out our account and took Grant's copy to his place. Glass waiting; no Grant. I took my transfer slip away again. The payroll transfer had board authorization. He didn't need to inspect it privately. Brie, send the supplier to me. Don't send me another speech about what the donor expects.",
+      "after": "Brie, send the supplier to me. Don't send another speech about the donor's expectations. The extra-course ticket came to accounts; I crossed out our account and took Grant's copy to his place. He wasn't there, though his glass was waiting. I took my transfer slip away again. The payroll transfer had board authorization. He didn't need to inspect it privately."
+    },
+    {
+      "id": "06",
+      "section": "hearings",
+      "field": "evidence_innocent",
+      "before": "An empty jacket falls off a chair. That is the film. Grant rejected it, and I kept pushing. I wanted him sitting through it while everyone else laughed. Alive and furious. Vincent, don't try to make that sound kind. It wasn't.",
+      "after": "An empty jacket falls off a chair. That is the film. Grant rejected it, and I kept pushing. I wanted him sitting through it while everyone else laughed. Alive and furious. Vincent, I don't want you to make that sound kind. It wasn't."
+    },
+    {
+      "id": "07",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I crossed the reproduction off the handout proof and showed the collectors the painting. The bottle came from a sale photograph. I made a studio model to work out the light. At the preview I saw Grant's acquired bottle. My studio things weren't in his loan. The dealer could sell the whole arrangement. I would still like to be asked first.",
+      "after": "I crossed the reproduction off the handout proof. I showed the collectors the painting. I painted the bottle from a sale photograph and made a studio model for the light. At the preview I saw Grant's acquired bottle. My studio things weren't in his loan. The dealer could sell the whole arrangement. I would still like to be asked first."
+    },
+    {
+      "id": "07",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I crossed reproduction off the proof and showed the collectors the painting. I'd used a sale photograph and a studio model for the light. I attended the preview. Later I took Grant's unsigned reproduction release to his place. His glass caught the light there, too. He wasn't around. I left the release beside it. The dealer could sell the arrangement. My painting wasn't a signature on every object put beside it.",
+      "after": "I crossed reproduction off the proof and showed the collectors the painting. I'd used a sale photograph and a studio model for the light. I attended the preview. Later I took Grant's unsigned reproduction release to his place and left it beside his glass, which caught the light there, too. Grant wasn't around. The dealer could sell the arrangement. My painting wasn't a signature on every object put beside it."
+    },
+    {
+      "id": "08",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "Artie and I stopped the announcement at the public desk. I kept the running order; my earlier advice was attached to the transaction. I also went to Grant's private place for his donor copy. The glass stood on it. I lifted the glass and pulled the paper free. You can see why I'd want that copy. Mona, I was short with you. I had spent the evening trying to prevent a round of applause from becoming a binding agreement.",
+      "after": "Artie and I stopped the announcement at the public desk. I kept the running order. My earlier advice was attached to the transaction. I went to his private place for the donor copy I wanted. His glass stood on the paper; I lifted the glass and pulled the copy free. Mona, I was short with you. I'd spent the evening trying to keep applause from becoming a binding agreement."
+    },
+    {
+      "id": "09",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "The purchase attachment said original contents. My draft said inert. I asked Reed to hold the early press copies. Grant said people had paid to see his bottle, not my question mark. I let the preview go ahead. I knew what cyanide meant; I did not need another reference book. Dada, you asked why I was so quiet. I was waiting for somebody with more authority to stop it. I was the authority in that conversation.",
+      "after": "The purchase attachment said original contents. My draft said inert. Grant said people had paid to see his bottle, not my question mark. I let the preview go ahead. Reed, I asked you to hold the early press copies. I knew what cyanide meant; I did not need another reference book. Dada, you asked why I was so quiet. I was waiting for somebody with more authority to stop it. I was the authority in that conversation."
+    },
+    {
+      "id": "09",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I asked Reed to restore the collection attachment. My draft used the inert description; a query remained beside it. I attended the preview. Grant wanted me to explain the collection during his toast. I went to his place to object to that introduction. Nobody there. A glass and the speech card with my name on it. I turned the card over and left. Petty, yes. I have apparently reached the stage of my career where I take revenge on stationery.",
+      "after": "My draft used the inert description; a query remained beside it. I attended the preview. Reed, I asked you to restore the collection attachment. Grant wanted me to explain the collection during his toast. I went to his place to object to that introduction. Nobody there. A glass and the speech card with my name on it. I turned the card over and left. Petty, yes. I have apparently reached the stage of my career where I take revenge on stationery."
+    },
+    {
+      "id": "11",
+      "section": "hearings",
+      "field": "evidence_murderer",
+      "before": "My room check is on the camera's local recording, including the glass. The technician removed the network lead, not the power. I wrote fault in the log to get Grant his privacy. That was wrong. It doesn't erase the footage. Check the storage before calling my visit unobserved.",
+      "after": "My room check is on the camera's local recording, including the glass. The technician removed the network lead, not the power. I wrote fault in the log to get Grant his privacy. That was wrong. It doesn't erase the footage. Brie, there's footage. Check the storage before calling my visit unobserved."
+    },
+    {
+      "id": "13",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "Chip objected to the mount. I closed the alcove and switched its lights off. Elle wanted her work; Al wanted an audience. Anne arrived with the tour, and I turned them all away. The preview was elsewhere. Production, I heard you saying the entrance looked dead. Yes. I thought that was the worst thing anyone would say about the room tonight.",
+      "after": "Chip objected to the mount. I closed the alcove and switched its lights off. Elle wanted her work; Al wanted an audience. Anne arrived with the tour, and I turned them all away. The preview was elsewhere. I heard the complaint from production: the entrance looked dead. Yes. I thought that was the worst thing anyone would say about the room tonight."
+    },
+    {
+      "id": "13",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "Chip objected to the mount. I closed the alcove and killed the lights. Elle, Al and Anne each wanted a different exception. Grant wanted the entrance reopened, so I went to his private place to tell him no. Empty chair. Glass already set out. I sat down in the other chair, then got up before he arrived. Production, I'd spent months designing the first thing people would see. Tonight they saw a closed door. I wasn't ready to be gracious about it.",
+      "after": "Chip objected to the mount, so I closed the alcove and killed the lights. Elle, Al and Anne each wanted a different exception. Then Grant wanted the entrance reopened. I went to his private place to tell him no. With his glass already set out and his chair empty, I sat in the other chair. I got up before he arrived. I'd spent months designing the first thing people would see. Tonight they saw a closed door. I wasn't ready to be gracious."
+    },
+    {
+      "id": "13",
+      "section": "coming_clean",
+      "field": "innocent",
+      "before": "I did not kill Grant. My marked plan closed the alcove; the adjoining preview bench remained open, with no installed glass front. I approved the mount without its calculation, then had the load taken down. Elle, take your work when it can be moved safely. Production, leave the empty space. People may see that something I designed had to be stopped.",
+      "after": "I did not kill Grant. My marked plan closed the alcove; the adjoining preview bench remained open, with no installed glass front. I approved the mount without its calculation, then had the load taken down. Elle, take your work when it can be moved safely. Leave the empty space. People may see that something I designed had to be stopped."
+    },
+    {
+      "id": "14",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I circulated the claim letter without its source note. Sue asked whose authority it carried. Grant knew. I requested sealed water and went to his private place with the letter. The glass was already there. I put the letter under its edge so it wouldn't slide to the floor. He was elsewhere. Sue, I wanted him to read it without an audience helping him laugh. Is that really such an unreasonable thing to want?",
+      "after": "I circulated the claim letter without its source note. Sue asked whose authority it carried. Grant knew. I requested sealed water and took the letter to his private place. He was elsewhere; his glass was already there. I put the letter under its edge so it wouldn't slide to the floor. Sue, I wanted him to read it without an audience helping him laugh. Is that so unreasonable to want?"
+    },
+    {
+      "id": "15",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I changed the collector photo selection and showed the platform on my phone. The private-room panel was part of that demonstration. I attended the preview, then tried the display at Grant's prepared place. He wasn't there. Monet keeps calling the installation a bill. It was a proposal. I don't issue invoices for work that hasn't happened. We were meant to agree a launch tonight.",
+      "after": "We were meant to agree a launch tonight. I changed the collector photo selection and showed the platform on my phone, including the private-room panel in that demonstration. After attending the preview I tried the display at Grant's prepared place. He wasn't there. Monet keeps calling the installation a bill. It was a proposal. I don't issue invoices for work that hasn't happened."
+    },
+    {
+      "id": "18",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I unfastened the panel when the alcove closed. The lamp was too close. I took it through the private room and rolled it beside Grant's prepared place. No Grant. I left with it. The merchant's bill is for this fabric, yes. The other advance went to its own commission. Frank, don't ask me to put the panel back. You can be disappointed in an empty alcove.",
+      "after": "Frank, don't ask me to put the panel back. You can be disappointed in an empty alcove. I unfastened it when the alcove closed; the lamp was too close. I carried it through the private room and rolled it beside Grant's prepared place while he wasn't there. I left with it. The merchant's bill is for this fabric, yes. The other advance went to its own commission."
+    },
+    {
+      "id": "19",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I cut the original-contents sentence from the bottle's press entry. It wasn't a space problem. Grant had called my bowl research a publicity stunt; I wanted his harmless caption in print under his own name. Intake kept the full query. Claire, I thought if something went wrong with his precious acquisition, he might finally have to answer a question. I was thinking of a public disgrace. I didn't ask what else could go wrong.",
+      "after": "I cut the original-contents sentence from the bottle's press entry. It wasn't a space problem. Intake kept the full query. Grant had called my bowl research a publicity stunt; I wanted his harmless caption in print under his own name. Claire, I thought if something went wrong with his precious acquisition, he might finally have to answer a question. I was thinking of a public disgrace. I didn't ask what else could go wrong."
+    },
+    {
+      "id": "19",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I kept both bowl labels and shortened the bottle's entry for the press. Intake kept the full file and purchase attachment. Grant wanted to approve every correction. I went to his private place with the shortened caption. No Grant. I put it beside his glass and took it back before I left. Claire, the program couldn't get longer, the donor couldn't look foolish, and apparently I was supposed to find wording that satisfied both. I was tired of being useful.",
+      "after": "I kept both bowl labels. For the press, I shortened the bottle's entry; intake kept the full file and purchase attachment. Grant wanted to approve every correction, so I took him the shortened caption at his private place. He wasn't there. I put the caption beside his glass, then took it back before I left. Claire, apparently I was supposed to find wording to keep the program from getting longer and the donor from looking foolish. I was tired of being useful."
+    },
+    {
+      "id": "19",
+      "section": "coming_clean",
+      "field": "innocent",
+      "before": "I did not kill Grant. My marked proof sends the complete query to intake and the shortened caption to the press. I removed a warning to finish a page. Claire, I want my work credited. I also want to stop needing your approval to know when something is wrong. Those are separate things. I will send the uncut entry myself, even if nobody thanks me for making it longer.",
+      "after": "I did not kill Grant. My marked proof sends the complete query to intake and the shortened caption to the press. I finished that page by removing a warning. It wasn't a space problem. I wanted Grant humiliated. Claire, I still want my work credited. I also want to stop needing your approval to know when something is wrong. I will send the uncut entry myself, even if nobody thanks me for making it longer."
+    },
+    {
+      "id": "20",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I refused a replacement and crossed out solid bronze. Frank closed the alcove; Cary had already installed the contracted piece. After the bottle preview I went looking for Grant about my last payment. His private glass was set out. I sat beside it. Nobody came, so I left. I wasn't paying another crew to make him a second sculpture for free. Cary, you can move a heavy thing out of somebody's way. I couldn't move that man.",
+      "after": "I refused a replacement and crossed out solid bronze. Frank closed the alcove. Cary had already installed the contracted piece; I wasn't paying another crew to make him a second sculpture for free. After the bottle preview I went looking for Grant about my last payment. At his private place I sat beside his set-out glass. Nobody came. I left. Cary, you can move a heavy thing out of somebody's way. I couldn't get Grant out of mine."
+    },
+    {
+      "id": "24",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I signed the sealed bottle over to intake with the frames. Label said inert. Took the shop gifts to service. Later I went to Grant's place for my damage report. Glass set out. Nobody home. I emptied my packing bin afterward. Normal cleanup. The corner was already cracked when I got the frame. Al, if there's another job, give it to me. Anything that needs moving.",
+      "after": "Al, if there's another job, give it to me. Anything that needs moving. I signed the sealed bottle over to intake with the frames. Label said inert. Took the shop gifts to service. Later I went for my damage report at Grant's place. His glass was set out. He wasn't there. Afterward I emptied my packing bin. Normal cleanup. The corner was already cracked when I got the frame."
+    },
+    {
+      "id": "24",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I signed for the sealed incoming bottle and handed it to intake with the frame delivery. The lender's label said inert. Took the shop gifts to service. Freight lift stuck. Grant still had my first damage report, so I went to his private place to get it back. Glass set out. Nobody home. I picked up the shop carton to clear the chair, waited, then left. Al, I would rather move every chair here than answer for the word old.",
+      "after": "I signed for the sealed incoming bottle, then handed it to intake with the frame delivery. The lender's label said inert. Took the shop gifts to service. Freight lift stuck. Grant still had my first damage report. I went to his private place to get it back. His glass was set out; he wasn't there. I picked up the shop carton to clear the chair, waited, then left. Al, I would rather move every chair here than answer for the word old."
+    },
+    {
+      "id": "25",
+      "section": "hearings",
+      "field": "where_innocent",
+      "before": "I replaced the education handout and led the short tour to Frank's closed alcove. Turned them around. Reed's footnotes stayed; Grant's language went. My version admitted the school visit still needed money. I was making my promise the museum's problem in public. Claire, I know that wasn't an approved plan. Neither was turning every ordinary visit into a privilege someone wealthy had to grant us.",
+      "after": "I replaced the education handout. Reed's footnotes stayed; Grant's language went. My version admitted the school visit still needed money. I led the short tour to Frank's closed alcove and turned them around. I'd made my promise the museum's problem in public. Claire, I know the plan wasn't approved. Neither was turning every ordinary visit into a privilege someone wealthy had to grant us."
+    },
+    {
+      "id": "25",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I replaced the education handout and led the short tour. Frank got an earful over the closed alcove. I also took the handout to Grant's private place during the reception. His glass was waiting. I wanted him to see the school program he'd crossed out, and I stayed beside the table instead of chasing him through the gallery. Claire, I know the gala route wasn't mine to change. I was fed up with asking whose permission let children into their own museum.",
+      "after": "I replaced the education handout and led the short tour. Frank got an earful over the closed alcove. During the reception I also took the handout to Grant's private place. I stayed beside the table and his waiting glass rather than chase him through the gallery. I wanted him to see the school program he'd crossed out. Claire, I know the gala route wasn't mine to change. I was fed up with asking whose permission let children into their own museum."
+    },
+    {
+      "id": "28",
+      "section": "hearings",
+      "field": "evidence_innocent",
+      "before": "The band crossed the stopper. Chip corrected me about that at the preview. Our family piece was damaged too; I didn't use the wrong comparison. No, they haven't called. I keep looking. I want to explain the figures myself before somebody reads Grant's handout to them.",
+      "after": "The band crossed the stopper. Chip corrected me about that at the preview. Our family piece was damaged too; I didn't use the wrong comparison. They haven't called. I keep looking. I want to explain the figures myself before somebody reads Grant's handout to them."
+    },
+    {
+      "id": "29",
+      "section": "hearings",
+      "field": "where_murderer",
+      "before": "I gave counsel the deed and the settlement together. Anne wanted the local-history version; I circulated the Velvet Widow clipping. Grant wanted my property folder, so I took it to his private place. His glass was waiting. He wasn't. I stayed to write a note, tore it up, and took the folder away. Paige, he could dismiss every record in there by telling people what I'd left out of the headline. I had handed him the best line in his rebuttal.",
+      "after": "I gave counsel the deed and the settlement together. Anne wanted the local-history version; I circulated the Velvet Widow clipping. Grant wanted my property folder. I took it to his private place. His glass was waiting; he wasn't there. I stayed to write a note. Tore it up. Took the folder away. Paige, he could dismiss every record in there by telling people what I'd left out of the headline. I had handed him the best line in his rebuttal."
+    }
+  ],
+  "sha256": {
+    "all.yaml": "d11fb219be07ae69b8a5bcc0139ed7c04c1a5485faa4f7e3a8b91e6a3992d425",
+    "confirmed.yaml": "8f28adb0555d3757d42a859b4b0245e3e8d4587888a5ebf5ef3fa1f49626fe62",
+    "performance.yaml": "8aea9e99da374e1dea3059f85507695297197503d6e44923c3f9296b22cecc61",
+    "playable-evidence.yaml": "af127fed1252aab80ccaf73fd2b03cd7caa69f9f9669a57ef4ac22e02c5940e5",
+    "procedure.txt": "eddf01be3a8282b0955aced88f12f76a73cd80b24f62a6c14b14c09a6a65c376",
+    "voice-story-bible.yaml": "7ce34aaabc6c42a4774ce76d57ec27a3adf9baa4c9be2eb3a5ac467768b0d4f8"
+  }
+}
