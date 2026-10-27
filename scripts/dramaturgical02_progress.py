@@ -10,9 +10,9 @@ for number in range(1,23):
     complete=(folder/'complete.json').exists()
     started=bool(events) or (folder/'checkpoint_01.txt').exists()
     if complete:action='complete'
+    elif events and 'score_sha256' not in events[-1]:action=f'finish or validate released stage{len(events)}'
     elif len(events)==8:
         action='post-vote review and complete gate' if (folder/'accusation-lock.json').exists() else 'save accusation, finale gate, post-vote, complete'
-    elif events and 'score_sha256' not in events[-1]:action=f'finish or validate released stage{len(events)}'
     else:action=f'next release stage{len(events)+1}'
     rows.append({'trial':token,'agent':'/root/dram02_'+token,'locked_stages':sum('score_sha256' in e for e in events),'released_stages':len(events),'started':started,'complete':complete,'next':action})
 payload={'completed':sum(r['complete'] for r in rows),'total':22,'status':'complete' if all(r['complete'] for r in rows) else 'running','readers':rows}

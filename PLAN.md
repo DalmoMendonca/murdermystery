@@ -550,3 +550,7 @@ Dramaturgical capacity checkpoint: candidate01 frozen,14/22 fresh readers comple
 ## ACTIVE VERSION02
 
 Fullcandidate01cohortfailed:17/22correct,19earned,naturalness6.05; rejection/reportpreserved. Boundedcandidate02underreview; sixcontrasts and fivecanonicalguiltyMethodrestorations;40changedfields,7833prewords. Noevidence/layout/turn/gatechanges. Fresh22suite02required;see docs/playtest/2026-10-26-DRAMATURGICAL-02-SPOILERS/CURRENT_STATE.md. Baseline release remains unchanged.
+
+## Dramaturgical experiment complete — approval boundary
+
+Both full fresh cohorts retained. Candidate 01 rejected (17 correct, 19 earned, naturalness 6.05). Candidate 02 rejected (20 correct, 20 earned, zero early clear, naturalness 6.14, arc variety 6.95). All 3,872 candidate02 scores verified and exported. The 2cb64b9 print edition remains canonical; no promotion. Deliver report and unimplemented scene-structure proposal for user decision before expanding fixed turn/evidence scope.
