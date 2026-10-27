@@ -27,3 +27,5 @@ Host page 5 announces all three original top suspects together, lets named innoc
 ## Limits
 
 This pass checks rendered presentation and the specified procedure consistency only. It does not certify deduction fairness, character balance, performance quality, print-device calibration, or the unchanged baseline pages. No must-fix visual issue was found.
+
+Supplemental host-helper review: parent inspected one full-resolution2x2contact of all4pages in07_Ensemble_Hearing_Roster.pdf. Names,check boxes,tallyfields,andlocked-vote/murderer-lastcuesarelegible;nooverlap/clipping. No privateculpritinformation. This optionalhelper adds4sheets ifprinted; six corejobs remain338sheets,342withhelper. No gamePDFwasaltered.

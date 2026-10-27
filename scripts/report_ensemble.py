@@ -38,6 +38,12 @@ def main():
   expected_order=sorted(n for n in top if n!=killer)+[killer]
   order=read(f/'finale-order.json')
   assert order=={'top_three':top,'read_order':expected_order,'escaped_justice':killer not in top},('Finale order mismatch',t['trial'])
+  for phase in [2,3,5,7]:
+   originals=sorted((RUN/'visual-inputs'/f'stage_{phase:02}').glob('*.png'))
+   assert originals
+   for original in originals:
+    released=f/'images'/f'stage_{phase:02}'/original.name
+    assert released.exists() and sha(released)==sha(original),('Released visual differs',t['trial'],phase,original.name)
   clear=[i+1 for i,r in enumerate(checkpoints) if r['clear_culprit'] is not None]
   true_clear=[i+1 for i,r in enumerate(checkpoints) if r['clear_culprit']==killer]
   first=clear[0] if clear else None
