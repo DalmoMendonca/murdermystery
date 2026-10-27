@@ -554,3 +554,7 @@ Fullcandidate01cohortfailed:17/22correct,19earned,naturalness6.05; rejection/rep
 ## Dramaturgical experiment complete — approval boundary
 
 Both full fresh cohorts retained. Candidate 01 rejected (17 correct, 19 earned, naturalness 6.05). Candidate 02 rejected (20 correct, 20 earned, zero early clear, naturalness 6.14, arc variety 6.95). All 3,872 candidate02 scores verified and exported. The 2cb64b9 print edition remains canonical; no promotion. Deliver report and unimplemented scene-structure proposal for user decision before expanding fixed turn/evidence scope.
+
+## ACTIVE: delegated whole-cast editorial recovery
+
+User explicitly rejects being a spoiler-reading literary judge and authorizes independent subagents. Both fresh whole-cast judges completed all22roles/176passages; semantic steward completed protected fact guard. Start from2cb64b9, preserve evidence and proven release. Read docs/playtest/2026-10-26-ENSEMBLE-RESCUE-SPOILERS/EDITORIAL_DECISIONS.md and CURRENT_STATE.md. Do not repeat audits, ask user to judge samples, or launch expensive blind suites before full-ensemble literary improvement is independently established. Automatic continuation finish-ensemble-editorial-recovery active; capacity last96%.
