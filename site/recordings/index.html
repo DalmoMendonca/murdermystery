@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#061415"><title>Act Recordings | Meridian Museum</title>
+<style>
+:root{font-family:Georgia,serif;background:#061415;color:#fff1d5;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at 50% 0,#263331 0,#061415 75%);padding:calc(24px + env(safe-area-inset-top)) max(20px,env(safe-area-inset-left)) calc(32px + env(safe-area-inset-bottom))}
+main{max-width:540px;margin:auto}a{color:#edc189}.back{text-decoration:none;font:13px system-ui,sans-serif}.eyebrow{margin:42px 0 8px;color:#edc189;letter-spacing:.2em;font:600 12px system-ui,sans-serif;text-transform:uppercase}h1{font-size:clamp(42px,10vw,64px);font-weight:400;line-height:1;margin:0 0 14px}.intro{font:15px/1.6 system-ui,sans-serif;color:#d3d7d0;margin-bottom:28px}.act{margin:13px 0;padding:20px;border:1px solid #947a5388;background:#152225}.act-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px}.act h2{font-size:27px;font-weight:400;margin:0 0 16px}.duration{font:13px system-ui,sans-serif;color:#edc189}.play{width:100%;padding:19px 18px;min-height:66px;touch-action:manipulation;background:#ab0922;color:white;border:0;font:700 19px system-ui,sans-serif;cursor:pointer}.play:active{background:#d2173d}.play:focus-visible,a:focus-visible{outline:3px solid #edc189;outline-offset:4px}.play[aria-pressed=true]{background:#745d31}.status{min-height:21px;margin:12px 0 0;font:13px/1.5 system-ui,sans-serif;color:#edc189}.backup{display:inline-block;margin-top:8px;font:13px system-ui,sans-serif}.footer{margin:25px 0;font:13px/1.5 system-ui,sans-serif;color:#c4bba9}
+</style>
+</head>
+<body><main><a class="back" href="/">← Meridian Museum</a><p class="eyebrow">Host control room · October 30, 2026</p><h1>Act Recordings</h1><p class="intro">Tap an act to play. Playing a new act stops the previous one. Keep your phone volume up and connected to your speaker.</p>
+<section class="act"><div class="act-head"><h2>Act I</h2><span class="duration">0:40</span></div><button class="play" data-act="0" aria-pressed="false">▶ Play Act I</button><p class="status" id="status-0" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1Sa66T37ED_DgIhrZGnpPENHQJAnU0Aky/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
+<section class="act"><div class="act-head"><h2>Act II</h2><span class="duration">0:30</span></div><button class="play" data-act="1" aria-pressed="false">▶ Play Act II</button><p class="status" id="status-1" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1OeFVhunwAapXH4xE8TeE6KfGCUTMz_gV/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
+<section class="act"><div class="act-head"><h2>Act III</h2><span class="duration">0:36</span></div><button class="play" data-act="2" aria-pressed="false">▶ Play Act III</button><p class="status" id="status-2" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1uABePh3KEk9l9_lG7z30rf6oRazEi8lL/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
+<p class="footer">Host-only: these recordings may contain spoilers. For reliable playback, sign into your Google account on this device before the party.</p></main>
+<script>
+const tracks=[
+{label:"Act I",src:"https://drive.google.com/uc?export=download&id=1Sa66T37ED_DgIhrZGnpPENHQJAnU0Aky"},
+{label:"Act II",src:"https://drive.google.com/uc?export=download&id=1OeFVhunwAapXH4xE8TeE6KfGCUTMz_gV"},
+{label:"Act III",src:"https://drive.google.com/uc?export=download&id=1uABePh3KEk9l9_lG7z30rf6oRazEi8lL"}];
+let current=-1;const audio=new Audio();audio.preload="none";
+const buttons=[...document.querySelectorAll(".play")],statuses=[...document.querySelectorAll(".status")];
+function render(){buttons.forEach((b,i)=>{const playing=i===current&&!audio.paused;b.textContent=(playing?"Ⅱ Pause ":"▶ Play ")+tracks[i].label;b.setAttribute("aria-pressed",String(playing));statuses[i].textContent=i===current?(playing?"Playing":audio.ended?"Finished":"Paused"):"Ready";});}
+buttons.forEach((button,i)=>button.addEventListener("click",async()=>{if(current===i){if(!audio.paused){audio.pause();render();return;}if(audio.ended)audio.currentTime=0;}else{audio.pause();current=i;audio.src=tracks[i].src;audio.load();}statuses[i].textContent="Loading…";try{await audio.play();render();}catch(e){statuses[i].textContent="Playback unavailable. Use ‘Open recording in Google Drive’ below.";render();statuses[i].textContent="Playback unavailable. Use the Google Drive link below.";}}));
+audio.addEventListener("ended",render);audio.addEventListener("pause",render);audio.addEventListener("playing",render);audio.addEventListener("error",()=>{if(current>=0)statuses[current].textContent="Unable to load audio. Open the Drive link below.";});
+</script></body></html>
