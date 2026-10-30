@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#061415"><title>Act Recordings | Meridian Museum</title>
+<meta name="theme-color" content="#061415"><meta name="robots" content="noindex,nofollow"><title>Act Recordings | Meridian Museum</title>
 <style>
 :root{font-family:Georgia,serif;background:#061415;color:#fff1d5;color-scheme:dark}
 *{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at 50% 0,#263331 0,#061415 75%);padding:calc(24px + env(safe-area-inset-top)) max(20px,env(safe-area-inset-left)) calc(32px + env(safe-area-inset-bottom))}
@@ -10,18 +10,38 @@ main{max-width:540px;margin:auto}a{color:#edc189}.back{text-decoration:none;font
 </style>
 </head>
 <body><main><a class="back" href="/">← Meridian Museum</a><p class="eyebrow">Host control room · October 30, 2026</p><h1>Act Recordings</h1><p class="intro">Tap an act to play. Playing a new act stops the previous one. Keep your phone volume up and connected to your speaker.</p>
-<section class="act"><div class="act-head"><h2>Act I</h2><span class="duration">0:40</span></div><button class="play" data-act="0" aria-pressed="false">▶ Play Act I</button><p class="status" id="status-0" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1Sa66T37ED_DgIhrZGnpPENHQJAnU0Aky/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
-<section class="act"><div class="act-head"><h2>Act II</h2><span class="duration">0:30</span></div><button class="play" data-act="1" aria-pressed="false">▶ Play Act II</button><p class="status" id="status-1" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1OeFVhunwAapXH4xE8TeE6KfGCUTMz_gV/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
-<section class="act"><div class="act-head"><h2>Act III</h2><span class="duration">0:36</span></div><button class="play" data-act="2" aria-pressed="false">▶ Play Act III</button><p class="status" id="status-2" aria-live="polite">Ready</p><a class="backup" href="https://drive.google.com/file/d/1uABePh3KEk9l9_lG7z30rf6oRazEi8lL/view" target="_blank" rel="noopener">Open recording in Google Drive</a></section>
-<p class="footer">Host-only: these recordings may contain spoilers. For reliable playback, sign into your Google account on this device before the party.</p></main>
+<section class="act"><div class="act-head"><h2>Act I</h2><span class="duration">0:40</span></div><button class="play" data-act="0" aria-pressed="false">▶ Play Act I</button><p class="status" id="status-0" aria-live="polite">Ready</p><a class="backup" href="./act-1.mp3" target="_blank" rel="noopener">Open original MP3</a></section>
+<section class="act"><div class="act-head"><h2>Act II</h2><span class="duration">0:30</span></div><button class="play" data-act="1" aria-pressed="false">▶ Play Act II</button><p class="status" id="status-1" aria-live="polite">Ready</p><a class="backup" href="./act-2.mp3" target="_blank" rel="noopener">Open original MP3</a></section>
+<section class="act"><div class="act-head"><h2>Act III</h2><span class="duration">0:36</span></div><button class="play" data-act="2" aria-pressed="false">▶ Play Act III</button><p class="status" id="status-2" aria-live="polite">Ready</p><a class="backup" href="./act-3.mp3" target="_blank" rel="noopener">Open original MP3</a></section>
+<p class="footer">Host-only: these recordings may contain spoilers. The MP3s are hosted on this site. Keep your phone connected to your party speaker.</p></main>
 <script>
 const tracks=[
-{label:"Act I",src:"https://drive.google.com/uc?export=download&id=1Sa66T37ED_DgIhrZGnpPENHQJAnU0Aky"},
-{label:"Act II",src:"https://drive.google.com/uc?export=download&id=1OeFVhunwAapXH4xE8TeE6KfGCUTMz_gV"},
-{label:"Act III",src:"https://drive.google.com/uc?export=download&id=1uABePh3KEk9l9_lG7z30rf6oRazEi8lL"}];
-let current=-1;const audio=new Audio();audio.preload="none";
+{label:"Act I",src:"./act-1.mp3"},
+{label:"Act II",src:"./act-2.mp3"},
+{label:"Act III",src:"./act-3.mp3"}];
+let current=-1,failed=-1,loading=false;
+const audio=new Audio();audio.preload="metadata";
 const buttons=[...document.querySelectorAll(".play")],statuses=[...document.querySelectorAll(".status")];
-function render(){buttons.forEach((b,i)=>{const playing=i===current&&!audio.paused;b.textContent=(playing?"Ⅱ Pause ":"▶ Play ")+tracks[i].label;b.setAttribute("aria-pressed",String(playing));statuses[i].textContent=i===current?(playing?"Playing":audio.ended?"Finished":"Paused"):"Ready";});}
-buttons.forEach((button,i)=>button.addEventListener("click",async()=>{if(current===i){if(!audio.paused){audio.pause();render();return;}if(audio.ended)audio.currentTime=0;}else{audio.pause();current=i;audio.src=tracks[i].src;audio.load();}statuses[i].textContent="Loading…";try{await audio.play();render();}catch(e){statuses[i].textContent="Playback unavailable. Use ‘Open recording in Google Drive’ below.";render();statuses[i].textContent="Playback unavailable. Use the Google Drive link below.";}}));
-audio.addEventListener("ended",render);audio.addEventListener("pause",render);audio.addEventListener("playing",render);audio.addEventListener("error",()=>{if(current>=0)statuses[current].textContent="Unable to load audio. Open the Drive link below.";});
+function render(){
+  buttons.forEach((b,i)=>{
+    const selected=i===current,playing=selected&&!audio.paused&&!audio.ended;
+    b.textContent=(playing?"Ⅱ Pause ":(selected&&audio.ended?"↻ Replay ":"▶ Play "))+tracks[i].label;
+    b.setAttribute("aria-pressed",String(playing));
+    statuses[i].textContent=!selected?"Ready":failed===i?"Playback unavailable — use the MP3 link below":audio.ended?"Finished":playing?"Playing":loading?"Loading…":"Paused";
+  });
+}
+buttons.forEach((b,i)=>b.addEventListener("click",()=>{
+  if(current===i&&!audio.paused&&!audio.ended){audio.pause();loading=false;render();return;}
+  if(current!==i){audio.pause();current=i;audio.src=tracks[i].src;audio.load();}
+  else if(audio.ended){audio.currentTime=0;}
+  loading=true;failed=-1;render();
+  // Calling play() synchronously from the tap supports mobile Safari.
+  const attempt=audio.play();
+  if(attempt&&attempt.catch)attempt.catch(()=>{if(current===i){failed=i;loading=false;render();}});
+}));
+audio.addEventListener("playing",()=>{loading=false;render()});
+audio.addEventListener("pause",render);
+audio.addEventListener("ended",()=>{loading=false;render()});
+audio.addEventListener("error",()=>{failed=current;loading=false;render()});
+render();
 </script></body></html>
